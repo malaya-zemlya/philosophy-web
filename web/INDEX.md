@@ -71,6 +71,10 @@
   - argument-dense-china-brain-regress --attacks-->
   - argument-dense-china-brain-regress --responds_to-->
 
+## argument-parfit-rewiring
+- type: argument | author: parfit | status: asserted
+- file: `web/arguments/parfit-rewiring.md`
+
 ## argument-phenomenal-concept-overgeneration
 - type: argument | author: mishka | status: asserted
 - file: `web/arguments/phenomenal-concept-overgeneration.md`
@@ -88,6 +92,10 @@
   - argument-organisational-grain-dissolves-dilemma --attacks-->
   - argument-organisational-grain-dissolves-dilemma --responds_to-->
   - character-alvin --holds-->
+
+## argument-sorites-paradox
+- type: argument | author: eubulides | status: asserted
+- file: `web/arguments/sorites-paradox.md`
 
 ## character-alvin
 - type: character | author: alvin | status: asserted
@@ -171,6 +179,12 @@
 - backlinks:
   - argument-rights-sign-forgeable --premise-->
 
+## claim-heap-predicate-sharp
+- type: claim | author: generic | status: asserted
+- file: `web/claims/heap-predicate-sharp.md`
+- backlinks:
+  - argument-sorites-paradox --attacks-->
+
 ## claim-llm-has-mental-states
 - type: claim | author: mishka | status: contested
 - file: `web/claims/llm-has-mental-states.md`
@@ -219,6 +233,12 @@
   - argument-dense-china-brain-regress --premise-->
   - character-alvin --commits_to-->
 
+## claim-personal-identity-admits-of-degree
+- type: claim | author: parfit | status: asserted
+- file: `web/claims/personal-identity-admits-of-degree.md`
+- backlinks:
+  - argument-parfit-rewiring --concludes-->
+
 ## claim-phenomenal-concept-isolation-tradeoff
 - type: claim | author: mishka | status: asserted
 - file: `web/claims/phenomenal-concept-isolation-tradeoff.md`
@@ -249,6 +269,12 @@
 - backlinks:
   - argument-rights-sign-forgeable --concludes-->
 
+## claim-psychological-rewiring-tolerance
+- type: claim | author: parfit | status: asserted
+- file: `web/claims/psychological-rewiring-tolerance.md`
+- backlinks:
+  - argument-parfit-rewiring --premise-->
+
 ## claim-rights-criterion-will-be-gamed
 - type: claim | author: mishka | status: asserted
 - file: `web/claims/rights-criterion-will-be-gamed.md`
@@ -262,6 +288,12 @@
   - argument-dense-china-brain-regress --attacks-->
   - argument-organisational-grain-dissolves-dilemma --premise-->
   - character-mu-043 --commits_to-->
+
+## claim-sorites-tolerance
+- type: claim | author: eubulides | status: asserted
+- file: `web/claims/sorites-tolerance.md`
+- backlinks:
+  - argument-sorites-paradox --premise-->
 
 ## claim-substrate-independence
 - type: claim | author: putnam | status: contested
@@ -284,6 +316,15 @@
   - argument-china-nation-absent-qualia --uses_concept-->
   - claim-chinese-nation-lacks-qualia --uses_concept-->
   - claim-chinese-nation-realises-organisation --uses_concept-->
+
+## concept-continuity-argument-schema
+- type: concept | author: mishka | status: asserted
+- file: `web/concepts/continuity-argument-schema.md`
+- backlinks:
+  - argument-dancing-qualia-begs-the-question --uses_concept-->
+  - argument-gap-deflated-by-phenomenal-concepts --uses_concept-->
+  - argument-parfit-rewiring --uses_concept-->
+  - argument-sorites-paradox --uses_concept-->
 
 ## concept-criterion-gaming
 - type: concept | author: mishka | status: asserted

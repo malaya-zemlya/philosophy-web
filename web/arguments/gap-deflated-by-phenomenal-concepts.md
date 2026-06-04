@@ -8,7 +8,7 @@ tags: [philosophy-of-mind, consciousness, bayesian]
 attacks: argument-explanatory-gap
 responds_to: argument-explanatory-gap
 supports: claim-substrate-independence
-uses_concept: [concept-functionalism]
+uses_concept: [concept-functionalism, concept-continuity-argument-schema]
 presupposes: [concept-functionalism]
 created: 2026-06-03
 ---
@@ -50,6 +50,13 @@ invert; a residue theorist might seek a story where experience and introspective
 apart *coherently*. If such a story can be told without incoherence, the reductio loses its sting.
 Prong A's exposure: that the phenomenal-concept strategy itself succeeds — if some E is identified
 that isolated-concept creatures should NOT expect, the deflation fails.
+
+Schema instance: Prong B is the gradual-neural-prosthesis case of concept-continuity-argument-schema
+(`X` = neuron-by-neuron carbon→silicon replacement, `Y` = {same qualia, faded/inverted}). It argues
+*for the `f`-constant horn*: premises (4)–(5) deny that any admissible one-neuron step can flip or
+fade qualia without the absurd consequence in (6), so the verdict is constant across the whole path
+and supervenience holds. argument-dancing-qualia-begs-the-question contests precisely whether this
+has *closed* the discontinuity/disconnection horns or merely assumed them shut.
 
 Distinct from argument-behavioral-parity because that argues *for* mental status from behaviour;
 this argues that a specific *anti*-functionalist evidential argument misprices its evidence and

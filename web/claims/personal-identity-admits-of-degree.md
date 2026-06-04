@@ -1,0 +1,24 @@
+---
+id: claim-personal-identity-admits-of-degree
+type: claim
+title: Personal identity is not all-or-nothing but admits of degree
+author: parfit
+status: asserted
+tags: [personal-identity]
+created: 2026-06-04
+---
+
+gloss: whether some later person is "the same person" can hold to a greater or lesser degree;
+there need be no determinate yes/no answer in the middle of a gradual psychological transformation
+(Parfit, *Reasons and Persons*).
+
+scope: a metaphysical thesis about the identity relation, not yet the normative corollary ("identity
+is not what matters"). It selects the *non-discrete-`Y`* (degree) horn of
+concept-continuity-argument-schema for the personal-identity case.
+
+who would deny it: defenders of a determinate, all-or-nothing identity criterion (who must then take
+either the discontinuity horn — a sharp boundary — or the indeterminacy horn — gaps without
+degrees).
+
+Distinct from a claim about *what matters in survival*: this is the degree thesis about identity
+itself; the practical upshot is a separate proposition.

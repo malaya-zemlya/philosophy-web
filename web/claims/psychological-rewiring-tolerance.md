@@ -1,0 +1,24 @@
+---
+id: claim-psychological-rewiring-tolerance
+type: claim
+title: Altering a single psychological connection never changes who someone is
+author: parfit
+status: asserted
+tags: [personal-identity, sorites]
+created: 2026-06-04
+---
+
+gloss: the tolerance premise for personal identity — across a series that gradually replaces one
+person's psychology with another's, no single small change (one memory, one belief, one
+disposition) can be the step at which the subject stops being themselves.
+
+scope: a claim about the insensitivity of the identity-verdict to a unit psychological change, not
+about what identity consists in. It is the personal-identity analogue of claim-sorites-tolerance,
+and the premise that drives the gradual-rewiring instance of concept-continuity-argument-schema
+(cf. Parfit's spectra in *Reasons and Persons*).
+
+who would deny it: a defender of a sharp, all-or-nothing criterion of personal identity (the
+discontinuity horn — there is some replacement at which "me" determinately becomes "not-me").
+
+Distinct from claim-sorites-tolerance: same step-insensitivity form, different domain (`X` =
+psychological configurations under one-connection edits) and verdict-space (`Y` = {me, not-me}).

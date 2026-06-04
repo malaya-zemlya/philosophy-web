@@ -9,7 +9,7 @@ premise: [claim-dancing-qualia-presupposes-functional-introspection]
 concludes: claim-dancing-qualia-presupposes-functional-introspection
 attacks: argument-gap-deflated-by-phenomenal-concepts
 responds_to: argument-gap-deflated-by-phenomenal-concepts
-uses_concept: [concept-functionalism]
+uses_concept: [concept-functionalism, concept-continuity-argument-schema]
 presupposes: [claim-phenomenal-residue]
 created: 2026-06-03
 ---
@@ -53,6 +53,13 @@ which introspection is partly functional and partly acquaintance such that the d
 genuine and deceptive without equivocation. Producing a notion of "introspective judgement held
 fixed" that does not already presuppose the residue false would be the (b)-style move that retracts
 this thrust.
+
+Schema role: in the terms of concept-continuity-argument-schema, the fading-qualia reductio (Prong B
+of argument-gap-deflated-by-phenomenal-concepts) tries to force the *`f`-constant* horn for the
+carbon→silicon series. This thrust contests whether it has earned that horn: it argues the reductio's
+"introspection held fixed" stipulation is what *makes* the path look continuous, so the
+*discontinuity* and *disconnection* horns (some replacement does flip qualia / biology is a
+non-negligible step) were assumed shut, not shown to be.
 
 Distinct from argument-phenomenal-concept-overgeneration because that targets Prong A (the gap
 deflation via isolated phenomenal concepts); this targets Prong B (the supervenience reductio) and

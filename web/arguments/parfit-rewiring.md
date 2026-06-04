@@ -1,0 +1,37 @@
+---
+id: argument-parfit-rewiring
+type: argument
+title: Gradual psychological rewiring (Parfit's spectrum) forces identity to admit of degree
+author: parfit
+status: asserted
+tags: [personal-identity, sorites]
+premise: [claim-psychological-rewiring-tolerance]
+concludes: claim-personal-identity-admits-of-degree
+uses_concept: [concept-continuity-argument-schema]
+presupposes: []
+created: 2026-06-04
+---
+
+Form: application of concept-continuity-argument-schema to personal identity, selecting a horn.
+`X` = a connected spectrum of psychological configurations from one person to another (e.g.
+gradually rewiring a psychology into Greta Garbo's), joined by one-connection edits; `Y` =
+{me, not-me}.
+
+1. At the start of the series the subject is determinately themselves; at the far end they are
+   determinately someone else. (the endpoints differ — `f` is not constant)
+2. No single one-connection edit is the step at which they stop being themselves.
+   (claim-psychological-rewiring-tolerance — tolerance; the verdict makes no jump across an
+   admissible step)
+3. The series is a connected path of such edits (`X` connected).
+∴ A discrete, bivalent identity-verdict cannot be maintained: by the schema, the verdict must
+   instead come in *degrees* — claim-personal-identity-admits-of-degree.
+
+Which horn it takes: the *non-discrete-`Y` (degree)* horn — explicitly, in contrast with the
+horn-neutral argument-sorites-paradox. Parfit's diagnosis is not that there is a hidden sharp
+boundary (discontinuity) nor a mere truth-value gap (indeterminacy) but that identity genuinely
+holds to a degree.
+
+Weakest premise: (2) read as forcing *degree* specifically. The discontinuity-horn theorist denies
+(2) (some edit is the breaking point); the indeterminacy-horn theorist accepts (2) but reads the
+middle as gappy rather than graded. The argument's selection of the degree horn over those rivals
+is where it is pressed.
