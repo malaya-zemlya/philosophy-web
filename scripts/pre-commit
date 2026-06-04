@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # Symlink or copy to .git/hooks/pre-commit  (chmod +x)
+#   ln -sf ../../scripts/pre-commit .git/hooks/pre-commit
 # Blocks a commit if the web has dangling edges or duplicate ids.
-python "$(git rev-parse --show-toplevel)/scripts/lint.py" || {
+#
+# Runs lint.py via uv so PyYAML is always available without a manual
+# `pip install` (see CLAUDE.md). uv resolves/caches pyyaml on first run.
+set -euo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+uv run --with pyyaml python "$ROOT/scripts/lint.py" || {
   echo "philosophy-web: integrity check failed — commit aborted."; exit 1; }
-git add web/INDEX.md   # keep the generated index in sync
+git add "$ROOT/web/INDEX.md"   # keep the generated index in sync
