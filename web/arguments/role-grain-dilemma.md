@@ -7,7 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, functionalism]
 attacks: claim-substrate-independence
 responds_to: argument-behavioral-parity
-uses_concept: [concept-functionalism]
+uses_concept: [concept-functionalism, concept-grain]
 created: 2026-06-03
 ---
 

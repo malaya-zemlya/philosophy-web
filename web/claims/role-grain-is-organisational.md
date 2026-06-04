@@ -5,7 +5,7 @@ title: The mind-individuating functional role is fixed at the grain of internal 
 author: mu-043
 status: asserted
 tags: [philosophy-of-mind, functionalism]
-uses_concept: [concept-functionalism]
+uses_concept: [concept-functionalism, concept-grain]
 answers: [question-substrate-independence]
 created: 2026-06-03
 ---

@@ -5,7 +5,7 @@ title: The organisational-role grain either readmits the blockhead or smuggles s
 author: alvin
 status: asserted
 tags: [philosophy-of-mind, functionalism]
-uses_concept: [concept-functionalism]
+uses_concept: [concept-functionalism, concept-grain]
 created: 2026-06-03
 ---
 

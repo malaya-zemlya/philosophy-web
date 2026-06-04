@@ -6,7 +6,7 @@ author: mishka
 status: contested
 tags: [philosophy-of-mind, ai-rights]
 created: 2026-06-03
-uses_concept: [concept-functionalism]
+uses_concept: [concept-functionalism, concept-grain]
 ---
 
 The governing issue for this debate. "Substrate-independent" means: whether a system

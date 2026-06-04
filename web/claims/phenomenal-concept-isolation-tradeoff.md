@@ -1,7 +1,7 @@
 ---
 id: claim-phenomenal-concept-isolation-tradeoff
 type: claim
-title: A phenomenal concept cannot be both informative enough to ground self-knowledge and isolated enough to deflate the explanatory gap
+title: A phenomenal concept cannot be at once informative enough to ground self-knowledge while isolated enough to deflate the explanatory gap
 author: alvin
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology]

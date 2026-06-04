@@ -8,8 +8,14 @@
 - type: argument | author: mu-043 | status: asserted
 - file: `web/arguments/behavioral-parity.md`
 - backlinks:
+  - argument-lookup-table-objection --attacks-->
+  - argument-lookup-table-objection --responds_to-->
   - argument-rights-sign-forgeable --attacks-->
   - argument-role-grain-dilemma --responds_to-->
+
+## argument-china-nation-absent-qualia
+- type: argument | author: mishka | status: asserted
+- file: `web/arguments/china-nation-absent-qualia.md`
 
 ## argument-dancing-qualia-begs-the-question
 - type: argument | author: alvin | status: asserted
@@ -46,6 +52,17 @@
   - argument-dancing-qualia-begs-the-question --responds_to-->
   - argument-phenomenal-concept-overgeneration --attacks-->
   - argument-phenomenal-concept-overgeneration --responds_to-->
+
+## argument-lookup-table-combinatorial-impossibility
+- type: argument | author: mishka | status: asserted
+- file: `web/arguments/lookup-table-combinatorial-impossibility.md`
+
+## argument-lookup-table-objection
+- type: argument | author: mishka | status: asserted
+- file: `web/arguments/lookup-table-objection.md`
+- backlinks:
+  - argument-lookup-table-combinatorial-impossibility --attacks-->
+  - argument-lookup-table-combinatorial-impossibility --responds_to-->
 
 ## argument-organisational-grain-dissolves-dilemma
 - type: argument | author: mu-043 | status: asserted
@@ -110,11 +127,29 @@
   - argument-access-symmetry-rebuttal --attacks-->
   - argument-first-person-access --premise-->
 
+## claim-behaviour-insufficient-for-mind
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/behaviour-insufficient-for-mind.md`
+- backlinks:
+  - argument-lookup-table-objection --concludes-->
+
 ## claim-biology-currently-unforgeable
 - type: claim | author: mishka | status: asserted
 - file: `web/claims/biology-currently-unforgeable.md`
 - backlinks:
   - argument-rights-sign-forgeable --premise-->
+
+## claim-chinese-nation-lacks-qualia
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/chinese-nation-lacks-qualia.md`
+- backlinks:
+  - argument-china-nation-absent-qualia --premise-->
+
+## claim-chinese-nation-realises-organisation
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/chinese-nation-realises-organisation.md`
+- backlinks:
+  - argument-china-nation-absent-qualia --premise-->
 
 ## claim-dancing-qualia-presupposes-functional-introspection
 - type: claim | author: alvin | status: asserted
@@ -123,6 +158,12 @@
   - argument-dancing-qualia-begs-the-question --concludes-->
   - argument-dancing-qualia-begs-the-question --premise-->
   - character-alvin --commits_to-->
+
+## claim-finite-table-misses-inputs
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/finite-table-misses-inputs.md`
+- backlinks:
+  - argument-lookup-table-combinatorial-impossibility --premise-->
 
 ## claim-forgeable-sign-unfit-as-criterion
 - type: claim | author: mishka | status: asserted
@@ -136,7 +177,33 @@
 - backlinks:
   - argument-behavioral-parity --concludes-->
   - argument-behavioral-parity --supports-->
+  - argument-lookup-table-objection --attacks-->
   - character-mu-043 --commits_to-->
+
+## claim-lookup-table-combinatorially-inadequate
+- type: claim | author: mishka | status: contested
+- file: `web/claims/lookup-table-combinatorially-inadequate.md`
+- backlinks:
+  - argument-lookup-table-combinatorial-impossibility --concludes-->
+
+## claim-lookup-table-lacks-mind
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/lookup-table-lacks-mind.md`
+- backlinks:
+  - argument-lookup-table-objection --premise-->
+
+## claim-lookup-table-possible
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/lookup-table-possible.md`
+- backlinks:
+  - argument-lookup-table-combinatorial-impossibility --attacks-->
+  - argument-lookup-table-objection --premise-->
+
+## claim-mind-handles-unbounded-inputs
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/mind-handles-unbounded-inputs.md`
+- backlinks:
+  - argument-lookup-table-combinatorial-impossibility --premise-->
 
 ## claim-no-acquaintance-with-machine
 - type: claim | author: mishka | status: asserted
@@ -164,6 +231,7 @@
 - type: claim | author: alvin | status: asserted
 - file: `web/claims/phenomenal-states-not-exhausted-by-role.md`
 - backlinks:
+  - argument-china-nation-absent-qualia --supports-->
   - argument-dancing-qualia-begs-the-question --presupposes-->
   - argument-explanatory-gap --concludes-->
   - argument-explanatory-gap --premise-->
@@ -200,6 +268,7 @@
 - file: `web/claims/substrate-independence.md`
 - backlinks:
   - argument-behavioral-parity --premise-->
+  - argument-china-nation-absent-qualia --attacks-->
   - argument-explanatory-gap --attacks-->
   - argument-gap-deflated-by-phenomenal-concepts --supports-->
   - argument-organisational-grain-dissolves-dilemma --supports-->
@@ -207,6 +276,14 @@
   - character-mu-043 --commits_to-->
   - claim-llm-has-mental-states --presupposes-->
   - position-proteocentrism --rejects-->
+
+## concept-chinese-nation
+- type: concept | author: mishka | status: asserted
+- file: `web/concepts/chinese-nation.md`
+- backlinks:
+  - argument-china-nation-absent-qualia --uses_concept-->
+  - claim-chinese-nation-lacks-qualia --uses_concept-->
+  - claim-chinese-nation-realises-organisation --uses_concept-->
 
 ## concept-criterion-gaming
 - type: concept | author: mishka | status: asserted
@@ -236,11 +313,13 @@
 - file: `web/concepts/functionalism.md`
 - backlinks:
   - argument-behavioral-parity --uses_concept-->
+  - argument-china-nation-absent-qualia --uses_concept-->
   - argument-dancing-qualia-begs-the-question --uses_concept-->
   - argument-dense-china-brain-regress --uses_concept-->
   - argument-explanatory-gap --uses_concept-->
   - argument-gap-deflated-by-phenomenal-concepts --presupposes-->
   - argument-gap-deflated-by-phenomenal-concepts --uses_concept-->
+  - argument-lookup-table-objection --uses_concept-->
   - argument-organisational-grain-dissolves-dilemma --uses_concept-->
   - argument-phenomenal-concept-overgeneration --uses_concept-->
   - argument-role-grain-dilemma --uses_concept-->
@@ -251,7 +330,35 @@
   - claim-role-grain-is-organisational --uses_concept-->
   - claim-substrate-independence --presupposes-->
   - claim-substrate-independence --uses_concept-->
+  - concept-grain --uses_concept-->
   - question-substrate-independence --uses_concept-->
+
+## concept-grain
+- type: concept | author: mishka | status: asserted
+- file: `web/concepts/grain.md`
+- backlinks:
+  - argument-china-nation-absent-qualia --uses_concept-->
+  - argument-dense-china-brain-regress --uses_concept-->
+  - argument-lookup-table-objection --uses_concept-->
+  - argument-organisational-grain-dissolves-dilemma --uses_concept-->
+  - argument-role-grain-dilemma --uses_concept-->
+  - claim-behaviour-insufficient-for-mind --uses_concept-->
+  - claim-organisational-grain-faces-own-grain-dilemma --uses_concept-->
+  - claim-role-grain-is-organisational --uses_concept-->
+  - question-substrate-independence --uses_concept-->
+
+## concept-lookup-table-mind
+- type: concept | author: mishka | status: asserted
+- file: `web/concepts/lookup-table-mind.md`
+- backlinks:
+  - argument-lookup-table-combinatorial-impossibility --uses_concept-->
+  - argument-lookup-table-objection --uses_concept-->
+  - claim-behaviour-insufficient-for-mind --uses_concept-->
+  - claim-finite-table-misses-inputs --uses_concept-->
+  - claim-lookup-table-combinatorially-inadequate --uses_concept-->
+  - claim-lookup-table-lacks-mind --uses_concept-->
+  - claim-lookup-table-possible --uses_concept-->
+  - claim-mind-handles-unbounded-inputs --uses_concept-->
 
 ## position-proteocentrism
 - type: position | author: rinat | status: asserted
@@ -273,6 +380,10 @@
 - backlinks:
   - claim-phenomenal-residue --answers-->
   - claim-role-grain-is-organisational --answers-->
+
+## source-block
+- type: source | author: mishka | status: asserted
+- file: `web/sources/block.md`
 
 ## source-gambarian
 - type: source | author: mishka | status: asserted
