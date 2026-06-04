@@ -1,0 +1,68 @@
+---
+name: web-protocol
+description: "The schema and write discipline for the philosophy web. Use whenever creating, editing, citing, or navigating nodes in web/ (concepts, claims, arguments, questions, positions, sources, characters). Defines frontmatter fields, the edge vocabulary, id/slug conventions, and the grep-before-create rule."
+---
+
+# Web protocol
+
+Every node is one Markdown file with YAML frontmatter + a prose body. Filename is a **slug**;
+frontmatter carries a stable **id**. Edges reference other nodes **by id**, so renaming a
+file never breaks an edge (resolve id→path by grep, or use `scripts/lint.py`).
+
+## Universal frontmatter (every node)
+```yaml
+id: <type>-<slug>          # e.g. claim-substrate-independence  (STABLE, never reuse)
+type: concept | claim | argument | question | position | source | character
+title: <one line>
+author: <character-id | mishka | named-human>   # provenance, mandatory
+status: asserted | contested | retracted | superseded   # default asserted
+superseded_by: <id>        # only if status: superseded
+tags: [..]
+created: YYYY-MM-DD
+```
+
+## Edge vocabulary (store only the OUTGOING direction)
+The node that does the citing/attacking owns the edge. Targets are ids.
+
+| edge            | lives on            | points to            | meaning                              |
+|-----------------|---------------------|----------------------|--------------------------------------|
+| `uses_concept`  | any                 | concept              | invokes this concept                 |
+| `presupposes`   | claim, argument     | claim, concept       | takes this as given                  |
+| `premise`       | argument            | claim                | a premise of the argument            |
+| `concludes`     | argument            | claim                | the conclusion                       |
+| `supports`      | argument            | claim, argument      | gives positive reason for target     |
+| `attacks`       | argument            | claim, argument      | gives reason against target          |
+| `responds_to`   | argument            | argument             | reply to an earlier argument         |
+| `answers`       | claim, position     | question             | a candidate answer to the issue      |
+| `commits_to`    | position, character | claim                | endorses                             |
+| `rejects`       | position, character | claim                | denies                               |
+
+**Do NOT** record `supported_by` / `attacked_by` / `held_by` / candidate-answer lists.
+Those are backlinks — `scripts/lint.py` computes them and writes `web/INDEX.md`.
+
+## Per-type notes
+- **concept** — term + definition(s), including competing ones. Body may list `senses`.
+- **claim** — exactly one proposition in `title`. Body: gloss, scope, who would deny it.
+  Keep it atomic; if you're tempted to write "X and Y", make two claims.
+- **argument** — `premise`(s) + `concludes`, or `supports`/`attacks`/`responds_to`. Body
+  states the inference form (deductive/abductive/analogy) and the weakest premise.
+- **question** — the IBIS *issue*. Minimal: just the question + tags. Candidate answers are
+  found by backlink (nodes with `answers: <this id>`), not listed here by hand.
+- **position** — a named view (e.g. proteocentrism) independent of any character.
+  `commits_to` / `rejects` claims, `answers` questions. Reusable; characters cite it.
+- **source** — philosopher/text/paper for provenance. Body: relevance, key page refs.
+- **character** — evolving portfolio. See template; this is the character's memory.
+
+## The grep-before-create rule (non-negotiable)
+Before creating a node:
+1. `grep -ri "<2-3 key phrases>" web/` and read the closest hits.
+2. If an equivalent exists → cite its id. Done.
+3. If genuinely new → create it, and in the body add a line:
+   `Distinct from <id> because …`
+This single discipline prevents the fragmentation that makes the graph unusable at
+treatise-writing time. When unsure whether two claims are the same, create the new one
+**and** flag the pair for `/reconcile` rather than silently merging.
+
+## Citing in transcripts
+In dialogue prose, reference nodes with `[[id]]`. The transcript stays human-readable and
+the references stay greppable.

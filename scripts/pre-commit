@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Symlink or copy to .git/hooks/pre-commit  (chmod +x)
+# Blocks a commit if the web has dangling edges or duplicate ids.
+python "$(git rev-parse --show-toplevel)/scripts/lint.py" || {
+  echo "philosophy-web: integrity check failed — commit aborted."; exit 1; }
+git add web/INDEX.md   # keep the generated index in sync

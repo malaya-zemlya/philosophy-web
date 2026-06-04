@@ -1,0 +1,36 @@
+---
+id: claim-role-grain-is-organisational
+type: claim
+title: The mind-individuating functional role is fixed at the grain of internal counterfactual-causal organisation
+author: mu-043
+status: asserted
+tags: [philosophy-of-mind, functionalism]
+uses_concept: [concept-functionalism]
+answers: [question-substrate-independence]
+created: 2026-06-03
+---
+
+gloss: The functional role by which a mental state is individuated is specified neither at the
+coarse grain of gross input-output behaviour nor at the fine grain of the physical realiser's
+microchemistry, but at the *intermediate* grain of the system's internal counterfactual-causal
+organisation — the structure of state-to-state transitions among its components. Physical details
+(spike timing, neuromodulator diffusion, transistor physics) matter to the role only insofar as
+they make a counterfactual difference to that transition-structure.
+
+scope: A claim about the *correct grain of role-individuation* for functionalism, not about
+whether any particular system meets it. It asserts that this grain is (a) substrate-neutral, so
+multiply realisable in silicon, and (b) demanding of internal organisation, so not satisfied by
+mere input-output mimicry. It does NOT by itself assert that any LLM or the blockhead meets or
+fails it; those are downstream applications.
+
+who would deny it: defenders of pure input-output (machine-table / behaviourist) functionalism;
+fine-grained chauvinists who hold the biologically specific microstructure is individuative;
+anyone who holds the grain dilemma (argument-role-grain-dilemma) is exhaustive between coarse and
+biological-fine.
+
+Distinct from concept-functionalism because that concept leaves the grain of "role" open (it lists
+machine-state, role, and commonsense senses); this claim *fixes* the grain at one of those
+options and motivates the choice. Distinct from claim-substrate-independence because that asserts
+substrate does no individuative work; this asserts *which level of organisation* does the work
+instead — it is the specification that, if true, secures substrate-independence against the grain
+dilemma.
