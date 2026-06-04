@@ -36,8 +36,10 @@ weakest premise: (2), claim-mind-handles-unbounded-inputs. Block's "Blockhead" (
 built to escape exactly this: stipulate a table covering all inputs up to a length exceeding any the
 subject meets in a lifetime, and note that a finite mind also truncates inputs past its own capacity
 — so the divergence asserted in premise (2) may never arise within the bounded domain that matters.
-The conclusion is therefore filed `contested`; the bounded-table rejoinder should be written as its
-own attacking `argument` when first pressed.
+The conclusion is therefore filed `contested`; that escape is now argument-bounded-table-rejoinder,
+itself answered on physical grounds by argument-lookup-table-physical-impossibility (the bounded table
+cannot be built) and on kind grounds by argument-storage-not-stable-kind (a realisable table is not
+"mere storage").
 
 Distinct from argument-lookup-table-objection (mishka): that argument *uses* the lookup table to
 attack behavioural sufficiency (behaviour ⇒ mind); this one attacks *that* argument, denying the

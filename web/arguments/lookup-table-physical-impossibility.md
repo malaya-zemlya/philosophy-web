@@ -9,6 +9,7 @@ premise: [claim-lookup-table-size-exponential, claim-observable-universe-finite-
 concludes: claim-lookup-table-physically-unrealisable
 attacks: [argument-lookup-table-objection]
 supports: [argument-lookup-table-combinatorial-impossibility]
+responds_to: [argument-bounded-table-rejoinder]
 uses_concept: [concept-lookup-table-mind]
 created: 2026-06-04
 ---

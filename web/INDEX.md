@@ -19,6 +19,13 @@
 - backlinks:
   - argument-intuition-domain-asymmetry --supports-->
 
+## argument-bounded-table-rejoinder
+- type: argument | author: block | status: asserted
+- file: `web/arguments/bounded-table-rejoinder.md`
+- backlinks:
+  - argument-lookup-table-physical-impossibility --responds_to-->
+  - argument-storage-not-stable-kind --responds_to-->
+
 ## argument-china-nation-absent-qualia
 - type: argument | author: block | status: asserted
 - file: `web/arguments/china-nation-absent-qualia.md`
@@ -67,6 +74,8 @@
 - type: argument | author: mishka | status: asserted
 - file: `web/arguments/lookup-table-combinatorial-impossibility.md`
 - backlinks:
+  - argument-bounded-table-rejoinder --attacks-->
+  - argument-bounded-table-rejoinder --responds_to-->
   - argument-lookup-table-physical-impossibility --supports-->
 
 ## argument-lookup-table-objection
@@ -78,6 +87,7 @@
   - argument-lookup-table-combinatorial-impossibility --attacks-->
   - argument-lookup-table-combinatorial-impossibility --responds_to-->
   - argument-lookup-table-physical-impossibility --attacks-->
+  - argument-storage-not-stable-kind --attacks-->
 
 ## argument-lookup-table-physical-impossibility
 - type: argument | author: mishka | status: asserted
@@ -115,6 +125,10 @@
 ## argument-sorites-paradox
 - type: argument | author: eubulides | status: asserted
 - file: `web/arguments/sorites-paradox.md`
+
+## argument-storage-not-stable-kind
+- type: argument | author: mishka | status: asserted
+- file: `web/arguments/storage-not-stable-kind.md`
 
 ## character-alvin
 - type: character | author: alvin | status: asserted
@@ -192,6 +206,12 @@
   - argument-dancing-qualia-begs-the-question --premise-->
   - character-alvin --commits_to-->
 
+## claim-finite-mind-truncates-beyond-capacity
+- type: claim | author: block | status: asserted
+- file: `web/claims/finite-mind-truncates-beyond-capacity.md`
+- backlinks:
+  - argument-bounded-table-rejoinder --premise-->
+
 ## claim-finite-table-misses-inputs
 - type: claim | author: mishka | status: asserted
 - file: `web/claims/finite-table-misses-inputs.md`
@@ -222,6 +242,12 @@
 - backlinks:
   - argument-intuition-domain-asymmetry --premise-->
 
+## claim-lifetime-bounded-table-covers-encountered-inputs
+- type: claim | author: block | status: asserted
+- file: `web/claims/lifetime-bounded-table-covers-encountered-inputs.md`
+- backlinks:
+  - argument-bounded-table-rejoinder --premise-->
+
 ## claim-llm-has-mental-states
 - type: claim | author: mishka | status: contested
 - file: `web/claims/llm-has-mental-states.md`
@@ -235,6 +261,7 @@
 - type: claim | author: mishka | status: contested
 - file: `web/claims/lookup-table-combinatorially-inadequate.md`
 - backlinks:
+  - argument-bounded-table-rejoinder --attacks-->
   - argument-lookup-table-combinatorial-impossibility --concludes-->
 
 ## claim-lookup-table-lacks-mind
@@ -251,19 +278,23 @@
   - argument-blockhead-dilemma --premise-->
   - argument-intuition-domain-asymmetry --premise-->
   - argument-lookup-table-physical-impossibility --concludes-->
+  - argument-storage-not-stable-kind --premise-->
 
 ## claim-lookup-table-possible
 - type: claim | author: block | status: asserted
 - file: `web/claims/lookup-table-possible.md`
 - backlinks:
+  - argument-bounded-table-rejoinder --supports-->
   - argument-lookup-table-combinatorial-impossibility --attacks-->
   - argument-lookup-table-objection --premise-->
+  - argument-storage-not-stable-kind --attacks-->
 
 ## claim-lookup-table-size-exponential
 - type: claim | author: mishka | status: asserted
 - file: `web/claims/lookup-table-size-exponential.md`
 - backlinks:
   - argument-lookup-table-physical-impossibility --premise-->
+  - argument-storage-not-stable-kind --premise-->
 
 ## claim-mind-handles-unbounded-inputs
 - type: claim | author: mishka | status: asserted
@@ -332,6 +363,12 @@
 - file: `web/claims/psychological-rewiring-tolerance.md`
 - backlinks:
   - argument-parfit-rewiring --premise-->
+
+## claim-realisable-behaviour-matcher-is-organised
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/realisable-behaviour-matcher-is-organised.md`
+- backlinks:
+  - argument-storage-not-stable-kind --concludes-->
 
 ## claim-rights-criterion-will-be-gamed
 - type: claim | author: mishka | status: asserted
@@ -442,8 +479,10 @@
   - argument-lookup-table-objection --uses_concept-->
   - argument-organisational-grain-dissolves-dilemma --uses_concept-->
   - argument-role-grain-dilemma --uses_concept-->
+  - argument-storage-not-stable-kind --uses_concept-->
   - claim-behaviour-insufficient-for-mind --uses_concept-->
   - claim-organisational-grain-faces-own-grain-dilemma --uses_concept-->
+  - claim-realisable-behaviour-matcher-is-organised --uses_concept-->
   - claim-role-grain-is-organisational --uses_concept-->
   - question-substrate-independence --uses_concept-->
 
@@ -452,20 +491,25 @@
 - file: `web/concepts/lookup-table-mind.md`
 - backlinks:
   - argument-blockhead-dilemma --uses_concept-->
+  - argument-bounded-table-rejoinder --uses_concept-->
   - argument-intuition-domain-asymmetry --uses_concept-->
   - argument-lookup-table-combinatorial-impossibility --uses_concept-->
   - argument-lookup-table-objection --uses_concept-->
   - argument-lookup-table-physical-impossibility --uses_concept-->
+  - argument-storage-not-stable-kind --uses_concept-->
   - claim-behaviour-insufficient-for-mind --uses_concept-->
   - claim-blockhead-deflation-targeted-not-global --uses_concept-->
+  - claim-finite-mind-truncates-beyond-capacity --uses_concept-->
   - claim-finite-table-misses-inputs --uses_concept-->
   - claim-imaginary-blockhead-no-secure-verdict --uses_concept-->
+  - claim-lifetime-bounded-table-covers-encountered-inputs --uses_concept-->
   - claim-lookup-table-combinatorially-inadequate --uses_concept-->
   - claim-lookup-table-lacks-mind --uses_concept-->
   - claim-lookup-table-physically-unrealisable --uses_concept-->
   - claim-lookup-table-possible --uses_concept-->
   - claim-lookup-table-size-exponential --uses_concept-->
   - claim-mind-handles-unbounded-inputs --uses_concept-->
+  - claim-realisable-behaviour-matcher-is-organised --uses_concept-->
 
 ## position-proteocentrism
 - type: position | author: mishka | status: asserted

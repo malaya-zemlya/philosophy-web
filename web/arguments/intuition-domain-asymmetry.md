@@ -33,11 +33,12 @@ cites organisation only as a *similarity* metric to paradigm cases, available to
 functionalism alike; it does not assert organisation suffices for mind.
 
 weakest premise: Block's relocation from scale to *kind*. He may insist the "no mind" verdict targets
-brute *storage* as a kind — reliable at any size — so a scale-extrapolation point misses it. Reply: at
-mind-matching scale "pure storage" is not a stable kind. Addressing/retrieval over ~10^9600 entries is
-itself a vast, highly organised causal system, so the cosmic "table" is not relevantly the same kind
-as the surveyable phone-book the intuition was trained on (the serious residue of
-argument-lookup-table-physical-impossibility's aside). Whether that reply holds is the live crux.
+brute *storage* as a kind — reliable at any size — so a scale-extrapolation point misses it. Reply
+(now its own node, argument-storage-not-stable-kind): at mind-matching scale "pure storage" is not a
+stable kind — addressing/retrieval over ~10^9600 entries is itself a vast organised causal system, so
+the cosmic "table" is not the same kind as the surveyable phone-book the intuition was trained on.
+That reply does dialectical work beyond this argument's scale point; whether it fully answers Block is
+the live crux.
 
 Distinct from argument-blockhead-dilemma (which it supports) and from
 argument-lookup-table-physical-impossibility (which establishes premise 2): this argument is solely

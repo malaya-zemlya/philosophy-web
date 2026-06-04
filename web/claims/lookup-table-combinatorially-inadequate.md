@@ -21,8 +21,10 @@ match a mind, nor that a table could match a mind over a bounded fragment of inp
 status — why contested: the conclusion is disputed at premise claim-mind-handles-unbounded-inputs.
 On Block's lifetime-bounded construction (source-block) the table need only cover inputs up to a
 length the subject will actually receive, and a finite mind would itself truncate longer inputs — so
-the asserted divergence may never arise in the domain that matters. The attacking move (Block's
-bounded-table rejoinder) is a stub to be written as its own `argument` when first pressed in debate.
+the asserted divergence may never arise in the domain that matters. The attacking move is
+argument-bounded-table-rejoinder (Block); this claim's `contested` status records that dispute. The
+bounded table is in turn answered by argument-lookup-table-physical-impossibility (it cannot be built)
+and argument-storage-not-stable-kind (a realisable table is not "mere storage").
 
 who would deny it: a defender of Blockhead / pure input-output functionalism (source-block). Note
 that this claim *helps* organisational-role functionalism: if true, it excludes the
