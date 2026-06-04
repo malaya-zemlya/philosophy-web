@@ -13,6 +13,12 @@
   - argument-rights-sign-forgeable --attacks-->
   - argument-role-grain-dilemma --responds_to-->
 
+## argument-blockhead-dilemma
+- type: argument | author: mishka | status: asserted
+- file: `web/arguments/blockhead-dilemma.md`
+- backlinks:
+  - argument-intuition-domain-asymmetry --supports-->
+
 ## argument-china-nation-absent-qualia
 - type: argument | author: block | status: asserted
 - file: `web/arguments/china-nation-absent-qualia.md`
@@ -53,16 +59,29 @@
   - argument-phenomenal-concept-overgeneration --attacks-->
   - argument-phenomenal-concept-overgeneration --responds_to-->
 
+## argument-intuition-domain-asymmetry
+- type: argument | author: mishka | status: asserted
+- file: `web/arguments/intuition-domain-asymmetry.md`
+
 ## argument-lookup-table-combinatorial-impossibility
 - type: argument | author: mishka | status: asserted
 - file: `web/arguments/lookup-table-combinatorial-impossibility.md`
+- backlinks:
+  - argument-lookup-table-physical-impossibility --supports-->
 
 ## argument-lookup-table-objection
 - type: argument | author: block | status: asserted
 - file: `web/arguments/lookup-table-objection.md`
 - backlinks:
+  - argument-blockhead-dilemma --attacks-->
+  - argument-blockhead-dilemma --responds_to-->
   - argument-lookup-table-combinatorial-impossibility --attacks-->
   - argument-lookup-table-combinatorial-impossibility --responds_to-->
+  - argument-lookup-table-physical-impossibility --attacks-->
+
+## argument-lookup-table-physical-impossibility
+- type: argument | author: mishka | status: asserted
+- file: `web/arguments/lookup-table-physical-impossibility.md`
 
 ## argument-organisational-grain-dissolves-dilemma
 - type: argument | author: mishka | status: asserted
@@ -147,6 +166,12 @@
 - backlinks:
   - argument-rights-sign-forgeable --premise-->
 
+## claim-blockhead-deflation-targeted-not-global
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/blockhead-deflation-targeted-not-global.md`
+- backlinks:
+  - argument-intuition-domain-asymmetry --concludes-->
+
 ## claim-chinese-nation-lacks-qualia
 - type: claim | author: block | status: asserted
 - file: `web/claims/chinese-nation-lacks-qualia.md`
@@ -185,6 +210,18 @@
 - backlinks:
   - argument-sorites-paradox --attacks-->
 
+## claim-imaginary-blockhead-no-secure-verdict
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/imaginary-blockhead-no-secure-verdict.md`
+- backlinks:
+  - argument-blockhead-dilemma --premise-->
+
+## claim-intuition-warrant-tracks-trained-domain
+- type: claim | author: generic | status: asserted
+- file: `web/claims/intuition-warrant-tracks-trained-domain.md`
+- backlinks:
+  - argument-intuition-domain-asymmetry --premise-->
+
 ## claim-llm-has-mental-states
 - type: claim | author: mishka | status: contested
 - file: `web/claims/llm-has-mental-states.md`
@@ -204,7 +241,16 @@
 - type: claim | author: block | status: asserted
 - file: `web/claims/lookup-table-lacks-mind.md`
 - backlinks:
+  - argument-blockhead-dilemma --attacks-->
   - argument-lookup-table-objection --premise-->
+
+## claim-lookup-table-physically-unrealisable
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/lookup-table-physically-unrealisable.md`
+- backlinks:
+  - argument-blockhead-dilemma --premise-->
+  - argument-intuition-domain-asymmetry --premise-->
+  - argument-lookup-table-physical-impossibility --concludes-->
 
 ## claim-lookup-table-possible
 - type: claim | author: block | status: asserted
@@ -212,6 +258,12 @@
 - backlinks:
   - argument-lookup-table-combinatorial-impossibility --attacks-->
   - argument-lookup-table-objection --premise-->
+
+## claim-lookup-table-size-exponential
+- type: claim | author: mishka | status: asserted
+- file: `web/claims/lookup-table-size-exponential.md`
+- backlinks:
+  - argument-lookup-table-physical-impossibility --premise-->
 
 ## claim-mind-handles-unbounded-inputs
 - type: claim | author: mishka | status: asserted
@@ -224,6 +276,12 @@
 - file: `web/claims/no-acquaintance-with-machine.md`
 - backlinks:
   - argument-first-person-access --premise-->
+
+## claim-observable-universe-finite-storage
+- type: claim | author: generic | status: asserted
+- file: `web/claims/observable-universe-finite-storage.md`
+- backlinks:
+  - argument-lookup-table-physical-impossibility --premise-->
 
 ## claim-organisational-grain-faces-own-grain-dilemma
 - type: claim | author: mishka | status: asserted
@@ -380,6 +438,7 @@
 - backlinks:
   - argument-china-nation-absent-qualia --uses_concept-->
   - argument-dense-china-brain-regress --uses_concept-->
+  - argument-intuition-domain-asymmetry --uses_concept-->
   - argument-lookup-table-objection --uses_concept-->
   - argument-organisational-grain-dissolves-dilemma --uses_concept-->
   - argument-role-grain-dilemma --uses_concept-->
@@ -392,13 +451,20 @@
 - type: concept | author: block | status: asserted
 - file: `web/concepts/lookup-table-mind.md`
 - backlinks:
+  - argument-blockhead-dilemma --uses_concept-->
+  - argument-intuition-domain-asymmetry --uses_concept-->
   - argument-lookup-table-combinatorial-impossibility --uses_concept-->
   - argument-lookup-table-objection --uses_concept-->
+  - argument-lookup-table-physical-impossibility --uses_concept-->
   - claim-behaviour-insufficient-for-mind --uses_concept-->
+  - claim-blockhead-deflation-targeted-not-global --uses_concept-->
   - claim-finite-table-misses-inputs --uses_concept-->
+  - claim-imaginary-blockhead-no-secure-verdict --uses_concept-->
   - claim-lookup-table-combinatorially-inadequate --uses_concept-->
   - claim-lookup-table-lacks-mind --uses_concept-->
+  - claim-lookup-table-physically-unrealisable --uses_concept-->
   - claim-lookup-table-possible --uses_concept-->
+  - claim-lookup-table-size-exponential --uses_concept-->
   - claim-mind-handles-unbounded-inputs --uses_concept-->
 
 ## position-proteocentrism
