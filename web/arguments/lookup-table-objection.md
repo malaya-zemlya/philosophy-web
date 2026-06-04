@@ -4,6 +4,7 @@ type: argument
 title: The lookup-table (blockhead) objection — behaviour is not sufficient for mind
 author: block
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, functionalism, ai-rights]
 premise: [claim-lookup-table-possible, claim-lookup-table-lacks-mind]
 concludes: claim-behaviour-insufficient-for-mind

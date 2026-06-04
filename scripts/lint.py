@@ -21,6 +21,16 @@ except ImportError:
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 WEB = ROOT / "web"
+PATTERNS = ROOT / "patterns"   # argument-pattern reference library (not web nodes)
+
+def pattern_ids():
+    """Valid `pattern:` values = patterns/*.md filenames (minus _README)."""
+    if not PATTERNS.is_dir():
+        return set()
+    return {p.stem for p in PATTERNS.glob("*.md") if p.name != "_README.md"}
+
+# `pattern` is a reference into patterns/, NOT a graph edge — kept out of EDGE_KEYS so it is
+# never resolved as a node id or counted as a backlink.
 
 # edge name -> True if it may hold a list (vs scalar). We accept either form anyway.
 EDGE_KEYS = ["uses_concept", "presupposes", "premise", "concludes", "supports",
@@ -64,6 +74,7 @@ def main():
     nodes = {}          # id -> dict(fm, path)
     problems = []
     dup_ids = []
+    valid_patterns = pattern_ids()
 
     for path in sorted(WEB.rglob("*.md")):
         if path.name == "INDEX.md":
@@ -92,6 +103,13 @@ def main():
             problems.append(f"unknown type '{ntype}': {nid}")
         if ntype == "claim" and " and " in str(fm.get("title", "")).lower():
             problems.append(f"possibly non-atomic claim (contains 'and'): {nid}")
+        # `pattern` (optional, arguments only): must name a file in patterns/
+        pat = fm.get("pattern")
+        if pat:
+            if ntype != "argument":
+                problems.append(f"pattern on non-argument type '{ntype}': {nid}")
+            elif valid_patterns and pat not in valid_patterns:
+                problems.append(f"unknown pattern '{pat}' (see patterns/): {nid}")
         # required-one-of edge for argument/position
         present_edges = {e for e in EDGE_KEYS if fm.get(e)}
         need = REQUIRES_ONE_OF.get(ntype)

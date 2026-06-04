@@ -10,6 +10,7 @@ type: argument                            # REQUIRED
 title: <short name of the move>           # REQUIRED
 author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
+pattern: <pattern-id>                     # optional · argument pattern this move instantiates (see patterns/); NOT an edge
 tags: []                                  # optional
 created: YYYY-MM-DD                        # REQUIRED
 # --- edges: MUST include at least ONE target edge below (concludes/supports/attacks/responds_to)
@@ -29,6 +30,18 @@ question — the claim it `concludes`/`supports` answers it.
 - inference form: deductive | abductive | analogy | inductive
 - numbered premises -> conclusion
 - **weakest premise**: name it explicitly (this is where future attacks land)
+
+## Pattern & critical questions (optional but encouraged)
+- Set `pattern:` to one of the `patterns/` ids (e.g. `cause-to-effect`) when the move fits a
+  named scheme. This is a reference, **not** an edge — its value is a `patterns/` filename, not a
+  node id, and the linter never treats it as a backlink.
+- Declaring a pattern names the move's **attack surface**: the pattern's critical questions (CQs)
+  are the standard ways it can fail. When *attacking* such an argument, open the attacking
+  argument's body by naming the CQ you raise — e.g.
+  `Raises thought-experiment CQ4 (bridge): the case refutes behaviourism, not organisational
+  functionalism.` — and point the `attacks` edge at the premise/inference that CQ targets.
+- An unraised CQ on a cited pattern is a standing invitation for the next turn; don't manufacture
+  attacks outside the pattern's CQ list without saying why the standard ones don't apply.
 
 ## Invariants
 - Premises are claim ids, not prose. If a premise isn't a claim node yet, create the claim first.

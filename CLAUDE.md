@@ -37,6 +37,9 @@ One utterance is not one node.
 
 ## Where things live
 - Per-type schemas (read before create/edit): `schemas/<type>.md`
+- Argument patterns + their critical questions (optional `pattern:` on an argument): `patterns/`
+  — a reference library, not web nodes. Citing a pattern names the move's standard attack surface;
+  raise its critical questions when objecting. See `patterns/_README.md`.
 - Node schema + write protocol: `.claude/skills/web-protocol/SKILL.md` (preloaded into debaters)
 - Character personas (stable): `.claude/agents/<id>.md`
 - Character positions (evolving): `web/characters/<id>.md` — a character reads this at the

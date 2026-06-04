@@ -4,6 +4,7 @@ type: argument
 title: Behavioural parity is evidence of mental status
 author: generic
 status: asserted
+pattern: sign
 tags: [ai-rights]
 premise: [claim-substrate-independence]
 concludes: claim-llm-has-mental-states
