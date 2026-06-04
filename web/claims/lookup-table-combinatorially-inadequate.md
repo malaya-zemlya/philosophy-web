@@ -25,7 +25,7 @@ the asserted divergence may never arise in the domain that matters. The attackin
 bounded-table rejoinder) is a stub to be written as its own `argument` when first pressed in debate.
 
 who would deny it: a defender of Blockhead / pure input-output functionalism (source-block). Note
-that this claim *helps* an organisational-role functionalist (mu-043): if true, it excludes the
+that this claim *helps* organisational-role functionalism: if true, it excludes the
 lookup table from even matching behaviour, blunting argument-lookup-table-objection at its first
 premise.
 

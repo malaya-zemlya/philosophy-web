@@ -8,7 +8,7 @@ The only type that argues.
 id: argument-<slug>                       # REQUIRED · stable
 type: argument                            # REQUIRED
 title: <short name of the move>           # REQUIRED
-author: <character-id | mishka | name>    # REQUIRED
+author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 tags: []                                  # optional
 created: YYYY-MM-DD                        # REQUIRED
@@ -34,6 +34,10 @@ question — the claim it `concludes`/`supports` answers it.
 - Premises are claim ids, not prose. If a premise isn't a claim node yet, create the claim first.
 - An objection IS an argument with `attacks`; a rebuttal IS an argument with `responds_to`.
   Do not invent separate "objection"/"rebuttal" types.
+- NEUTRAL. The argument belongs to philosophy in general; never name a character in the body
+  ("the functionalist replies …", not "mu-043 replies …"). Real philosophers / `source` nodes
+  are fine. `author` is never a character. Who deploys the move, and what would move them,
+  lives only in `web/characters/<id>.md`.
 
 ## Pre-save checklist
 - [ ] read this schema; grepped for a duplicate move

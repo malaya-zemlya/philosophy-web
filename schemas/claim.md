@@ -7,7 +7,7 @@ One truth-apt proposition. The atom of the web.
 id: claim-<slug>                          # REQUIRED · stable · never reuse
 type: claim                               # REQUIRED
 title: <one declarative proposition>      # REQUIRED · atomic (no "and"/"or" joining two props)
-author: <character-id | mishka | name>    # REQUIRED · provenance
+author: <real-philosopher | generic | mishka>  # REQUIRED · provenance · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 # superseded_by: claim-<slug>             # ONLY if status: superseded
 tags: []                                  # optional
@@ -31,6 +31,10 @@ commits_to, rejects, holds. A claim is argued *about*, never argues.
 - ATOMIC. Title is a single proposition; split any "X and Y".
 - Materially different phrasings are different claims (e.g. "thought requires biology"
   ≠ "consciousness requires carbon").
+- NEUTRAL. The proposition belongs to philosophy in general; never name a character in the
+  title or body ("the functionalist holds X", not "mu-043 holds X"). Real philosophers and
+  `source` nodes are fine. `author` is a real philosopher / `generic` / `mishka`, never a
+  character — what a character thinks lives in `web/characters/<id>.md`.
 
 ## Pre-save checklist
 - [ ] read this schema; grepped web/ for an equivalent (cited it if found)

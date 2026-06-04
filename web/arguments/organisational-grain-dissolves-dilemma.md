@@ -2,7 +2,7 @@
 id: argument-organisational-grain-dissolves-dilemma
 type: argument
 title: The organisational grain is a principled middle that escapes both horns of the grain dilemma
-author: mu-043
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]
 premise: [claim-role-grain-is-organisational]
@@ -38,7 +38,8 @@ middle. This argument supplies the middle.
    line here that owes nothing to wanting silicon to qualify.
 ∴ The dilemma's exhaustiveness premise is false; claim-substrate-independence has a grain that is
    coarse enough for silicon, fine enough to exclude the blockhead, and motivated independently of
-   the desired verdict. This is the (b)-style move Alvin named as what would move him.
+   the desired verdict. This is the (b)-style move the grain dilemma demanded — a principled
+   intermediate grain motivated independently of the desired verdict on silicon.
 
 Weakest premise: (2) — whether the blockhead *really* fails the organisational grain, or whether a
 sufficiently elaborated lookup/China system can be redescribed as instantiating the requisite

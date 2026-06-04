@@ -2,7 +2,7 @@
 id: argument-china-nation-absent-qualia
 type: argument
 title: The Chinese Nation realises the organisation yet lacks qualia — organisation is not sufficient for consciousness
-author: mishka
+author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness]
 premise: [claim-chinese-nation-realises-organisation, claim-chinese-nation-lacks-qualia]
@@ -31,12 +31,12 @@ different sufficiency claims and meet different replies.
 
 weakest premise: **premise 2** (claim-chinese-nation-lacks-qualia). It rests on an absent-qualia
 intuition that the *systems reply* (Lycan, Dennett) rejects — holding the nation-as-a-whole is a
-subject though no citizen is — and that mu-043 would deflate as a mere artefact of our concepts
+subject though no citizen is — and that the functionalist would deflate as a mere artefact of our concepts
 (argument-gap-deflated-by-phenomenal-concepts). That systems-reply rebuttal is the natural next
 node; until it is written, the claim stands as Block's premise, flagged here as the soft point.
 
-Distinct from argument-dense-china-brain-regress (alvin): that takes the China-brain one level up,
-*against mu-043's organisational-grain reply*, to argue the grain faces a liberal/chauvinist dilemma
+Distinct from argument-dense-china-brain-regress: that takes the China-brain one level up,
+*against the organisational-grain reply* (argument-organisational-grain-dissolves-dilemma), to argue the grain faces a liberal/chauvinist dilemma
 (claim-organisational-grain-faces-own-grain-dilemma). This is the prior, classical absent-qualia
 objection: organisation present, qualia absent, therefore organisation insufficient. Distinct from
 argument-explanatory-gap, which runs via conceivability/zombies rather than a realised case.

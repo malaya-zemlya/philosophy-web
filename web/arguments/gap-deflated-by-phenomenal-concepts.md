@@ -2,7 +2,7 @@
 id: argument-gap-deflated-by-phenomenal-concepts
 type: argument
 title: The explanatory gap is predicted by strong functionalism (phenomenal concepts + dancing-qualia)
-author: mu-043
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, bayesian]
 attacks: argument-explanatory-gap
@@ -42,8 +42,8 @@ Prong B — dancing/fading qualia (positive reason for supervenience, NOT from c
    own experience stays put: introspection decoupled from experience by metaphysical fiat, with no
    fact that could ever reconcile them.
 ∴ H2 entails systematically deceived introspectors as a matter of course; supervenience of the
-   phenomenal on organisational role is the more credible option. This directly answers Alvin's
-   request (clause (a)) for an argument against the zombie that is not a redescription of it.
+   phenomenal on organisational role is the more credible option. This directly answers the residue
+   theorist's request (clause (a)) for an argument against the zombie that is not a redescription of it.
 
 Weakest premise: Prong B's (4) — that the only options under failed supervenience are fade or
 invert; a residue theorist might seek a story where experience and introspective judgement come

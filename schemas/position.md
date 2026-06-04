@@ -8,7 +8,7 @@ Characters cite positions rather than restating them.
 id: position-<slug>                       # REQUIRED · stable
 type: position                            # REQUIRED
 title: <name of the view>                 # REQUIRED
-author: <character-id | mishka | name>    # REQUIRED
+author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 tags: []                                  # optional
 created: YYYY-MM-DD                        # REQUIRED
@@ -29,6 +29,9 @@ Illegal here (enforced): premise, concludes, supports, attacks, responds_to, hol
 ## Invariants
 - A position is substrate for characters; it is not itself an arguer. Reasons FOR it live in
   `argument` nodes that `support` its committed claims.
+- NEUTRAL. The view belongs to philosophy in general; state the position, never who in the
+  debate voiced it ("characters may cite it", not "Rinat's view"). `author` is never a
+  character — a real philosopher / `generic` / `mishka`.
 
 ## Pre-save checklist
 - [ ] read this schema; commitments expressed as claim ids (create claims first if needed)

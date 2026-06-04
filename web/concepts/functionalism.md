@@ -2,7 +2,7 @@
 id: concept-functionalism
 type: concept
 title: Functionalism (about mental states)
-author: mu-043
+author: generic
 status: asserted
 tags: [philosophy-of-mind]
 created: 2026-06-02

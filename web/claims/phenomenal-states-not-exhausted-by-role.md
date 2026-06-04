@@ -2,7 +2,7 @@
 id: claim-phenomenal-residue
 type: claim
 title: Phenomenally conscious states are not exhausted by functional/causal role
-author: alvin
+author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness]
 uses_concept: [concept-functionalism]
@@ -23,9 +23,9 @@ claim-substrate-independence is that the latter's inference (individuated by rol
 role-realiser) is sound only where role-individuation is exhaustive — which this claim denies
 for the phenomenal case.
 
-who would deny it: strong/role functionalists (incl. mu-043 via concept-functionalism read
-uniformly); anyone holding that phenomenal character metaphysically supervenes on functional
-organisation.
+who would deny it: strong/role functionalists (those reading concept-functionalism uniformly,
+across phenomenal as well as intentional states); anyone holding that phenomenal character
+metaphysically supervenes on functional organisation.
 
 Distinct from position-proteocentrism because that view requires a *protein/carbon* substrate
 for consciousness; this claim makes no substrate demand at all — it only denies that role

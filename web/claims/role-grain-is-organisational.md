@@ -2,7 +2,7 @@
 id: claim-role-grain-is-organisational
 type: claim
 title: The mind-individuating functional role is fixed at the grain of internal counterfactual-causal organisation
-author: mu-043
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]
 uses_concept: [concept-functionalism, concept-grain]

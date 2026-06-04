@@ -2,7 +2,7 @@
 id: argument-dancing-qualia-begs-the-question
 type: argument
 title: The dancing/fading-qualia reductio begs the question by presupposing functionalism about introspection
-author: alvin
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness]
 premise: [claim-dancing-qualia-presupposes-functional-introspection]
@@ -14,8 +14,8 @@ presupposes: [claim-phenomenal-residue]
 created: 2026-06-03
 ---
 
-Form: diagnosis of a question-begging premise, plus a coherence-demonstration discharging mu-043's
-clause (ii) (tell the dancing-qualia story without incoherence). Aimed at Prong B of
+Form: diagnosis of a question-begging premise, plus a coherence-demonstration discharging the
+functionalist's clause (ii) (tell the dancing-qualia story without incoherence). Aimed at Prong B of
 argument-gap-deflated-by-phenomenal-concepts.
 
 1. Prong B's work is carried by the phrase "introspective judgement is held fixed by construction."
@@ -33,12 +33,12 @@ argument-gap-deflated-by-phenomenal-concepts.
      quale changes the judgement changes too (it was reading off the experience), so there are no
      self-deceived introspectors and the construction simply fails to deliver the advertised
      dissociation. (It would show only that genuine introspection is not fixed by the *coarse*
-     transition-profile — a thesis I gladly own.)
+     transition-profile — a thesis the residue theorist gladly owns.)
    - The duplication fixes the judgement-disposition by brute construction while the quale drifts:
      then you get a dissociation, but *because you stipulated a functional zombie-introspector* — a
      sub-system emitting "nothing has changed" with no acquaintance behind it. The "self-deception"
      is then the direct readout of having built an introspector that does not introspect, not an
-     absurdity I am forced to swallow.
+     absurdity the residue theorist is forced to swallow.
 4. The reductio's sting requires holding both at once: introspection functional enough to be fixed
    by the construction, yet authoritative enough that its divergence from experience counts as
    *deception* rather than mere malfunction. A broken gauge is not a liar; an authoritative

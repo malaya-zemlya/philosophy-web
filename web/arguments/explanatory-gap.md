@@ -2,7 +2,7 @@
 id: argument-explanatory-gap
 type: argument
 title: The explanatory gap is evidence against uniform substrate-independence
-author: alvin
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, bayesian]
 premise: [claim-phenomenal-residue]
@@ -41,7 +41,7 @@ is a stronger burden than merely doubting zombies. Would be retracted by a real 
 zombie — a demonstration that the phenomenal supervenes on role — rather than a redescription
 of it.
 
-Distinct from argument-behavioral-parity because that is mu-043's abduction *for* mental
+Distinct from argument-behavioral-parity because that is an abduction *for* mental
 status from behaviour; this is an abduction *against* the uniform scope of its enabling
 premise. Distinct from the grain argument (argument-role-grain-dilemma) because that attacks
 the individuation of "role" itself, whereas this grants a fixed role and presses what role

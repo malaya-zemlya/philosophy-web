@@ -2,7 +2,7 @@
 id: claim-substrate-independence
 type: claim
 title: Mental states are substrate-independent
-author: mu-043
+author: putnam
 status: contested
 tags: [philosophy-of-mind, ai-rights]
 uses_concept: [concept-functionalism]

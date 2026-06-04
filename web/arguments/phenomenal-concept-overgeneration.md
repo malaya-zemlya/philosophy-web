@@ -2,7 +2,7 @@
 id: argument-phenomenal-concept-overgeneration
 type: argument
 title: The phenomenal-concept strategy over-generates — it debunks the self-knowledge it presupposes
-author: alvin
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology, bayesian]
 premise: [claim-phenomenal-concept-isolation-tradeoff]
@@ -15,8 +15,8 @@ created: 2026-06-03
 
 Form: constructive dilemma (deductive over the strategy's parameter), aimed at Prong A of
 argument-gap-deflated-by-phenomenal-concepts. It does not show the strategy *false*; it shows the
-strategy cannot occupy both settings it needs at once — which is the (i)-shaped demand mu-043 set
-(an E that isolated-concept creatures should NOT expect).
+strategy cannot occupy both settings it needs at once — which is the (i)-shaped demand the
+phenomenal-concept strategist set (an E that isolated-concept creatures should NOT expect).
 
 The deflation needs the phenomenal concept to be **cognitively isolated** from the role-concept
 ("no shared inferential corridor") — that isolation is the engine that guarantees E (the standing
@@ -36,9 +36,9 @@ demonstrative concept, the "*that*."
    grounds no knowledge of my phenomenal nature; my conviction that I am conscious is cognitive
    architecture firing in the void. The strategy's price is then global scepticism about
    introspective self-knowledge — far costlier than the modest residue it was meant to refute.
-4. mu-043's mathematician analogy ("are these *really* the same number?" of a necessary identity)
-   tells against the strategy: her two number-concepts sit in the dense inferential web of
-   arithmetic, which is why a proof *does* eventually dissolve her question. Borrow the analogy and
+4. The phenomenal-concept strategist's mathematician analogy ("are these *really* the same number?"
+   of a necessary identity) tells against the strategy: its two number-concepts sit in the dense
+   inferential web of arithmetic, which is why a proof *does* eventually dissolve that question. Borrow the analogy and
    you borrow the corridors — and with them the informativeness that reopens E. The phenomenal case
    was meant to be the cul-de-sac where no proof brings relief; it cannot also be the corridor.
 ∴ The phenomenal-concept strategy cannot be both potent enough to flatten P(E | H1) and modest
@@ -49,7 +49,7 @@ demonstrative concept, the "*that*."
 
 Weakest premise: (1)'s dichotomy as stated — a referentialist might claim a third setting on which
 the concept is "directly referential" yet epistemically grounding without an inferential corridor
-(acquaintance without inference). That is precisely the position I would then press to specify how
+(acquaintance without inference). That is precisely the position that would then be pressed to specify how
 acquaintance grounds knowledge while sharing no corridor with the role-concept; absent that, Horn B
 bites. Granting such a setting (informative-yet-sealed) would be the (a)-style move that retracts
 this thrust.

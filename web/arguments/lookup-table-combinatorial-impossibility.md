@@ -28,8 +28,8 @@ bearing on the target: this `responds_to` and `attacks` argument-lookup-table-ob
 its premise (1), claim-lookup-table-possible — the assumption that a finite table *can* match the
 whole behavioural profile. If a finite table cannot even produce the behaviour, the blockhead is not
 a case of "behaviour without mind"; it is a system that fails to match the behaviour. Dialectically
-this favours mu-043: it blunts the lookup-table objection to argument-behavioral-parity at its first
-premise. (It leaves untouched the Chinese-Nation objection, argument-china-nation-absent-qualia,
+this favours the substrate-independence side: it blunts the lookup-table objection to
+argument-behavioral-parity at its first premise. (It leaves untouched the Chinese-Nation objection, argument-china-nation-absent-qualia,
 which has the organisation and so matches more than I/O.)
 
 weakest premise: (2), claim-mind-handles-unbounded-inputs. Block's "Blockhead" (source-block) is
@@ -42,6 +42,6 @@ own attacking `argument` when first pressed.
 Distinct from argument-lookup-table-objection (mishka): that argument *uses* the lookup table to
 attack behavioural sufficiency (behaviour ⇒ mind); this one attacks *that* argument, denying the
 lookup table reproduces the behaviour at all. Opposite dialectical direction, different conclusion.
-Distinct from argument-organisational-grain-dissolves-dilemma (mu-043), which excludes the blockhead
+Distinct from argument-organisational-grain-dissolves-dilemma, which excludes the blockhead
 by its lack of internal *organisation*; this excludes it by its inability to match the *I/O profile*
 over an unbounded input space — a different ground of exclusion.

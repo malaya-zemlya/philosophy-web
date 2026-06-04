@@ -22,12 +22,18 @@ One utterance is not one node.
 2. **Edges are one-directional and reference nodes by `id`.** The *attacking/supporting/
    citing* node owns the edge. Never store the reverse ("supported-by", "attacked-by") —
    backlinks are **computed** by `scripts/lint.py`, never hand-maintained.
-3. **Provenance is mandatory.** Every node has an `author` (a character id, or `mishka`,
-   or another named human). This is what lets a treatise attribute ideas later.
+3. **Provenance is mandatory.** Every node has an `author`. For content nodes (claim,
+   concept, argument, question, position) the author is **never a character** — it is a real
+   philosopher/scientist with an established association (e.g. `block`), `generic` for a
+   well-known idea with no clear source, or `mishka` for ideas introduced while building this
+   web. Only a `character` portfolio node is authored by its character id. This is what lets a
+   treatise attribute ideas later.
 4. **Atomic claims.** A claim is one truth-apt proposition. "Thought requires biology" and
    "consciousness requires carbon chemistry" are **different claims** — never collapse them.
 5. **Never silently merge or reword another author's node.** Suspected duplicates go to
    `proposals/` for human review (`/reconcile`). Precision beats tidiness.
+6. A body of a claim, argument, concept, position or question should be written from a neutral perspective, without mentioning a specific character. References to works of a real philosopher or scientist are ok. "Alvin claims X" is bad. Instead just use "X". What each character claims or thinks is a function of that character only and should be stored there.
+7. Nodes authored by the user, but that really are from a well-known person (a philsopher, scientist, writer etc) should be attributed to that person. 
 
 ## Where things live
 - Per-type schemas (read before create/edit): `schemas/<type>.md`

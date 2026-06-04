@@ -2,7 +2,7 @@
 id: claim-chinese-nation-lacks-qualia
 type: claim
 title: A population realising a mind's functional organisation would nonetheless have no phenomenal consciousness
-author: mishka
+author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness]
 uses_concept: [concept-chinese-nation]
@@ -19,7 +19,7 @@ absent-qualia objection: contested because it rests on an intuition the systems 
 
 who would deny it: defenders of the *systems reply* (Lycan, Dennett) who hold the nation-as-a-whole
 is a subject even though no member is, and functionalists generally who deny absent-qualia
-intuitions carry evidential weight (compare mu-043's deflation of such intuitions in
+intuitions carry evidential weight (compare the deflation of such intuitions in
 argument-gap-deflated-by-phenomenal-concepts).
 
 Distinct from claim-lookup-table-lacks-mind because that denies mind to a system lacking

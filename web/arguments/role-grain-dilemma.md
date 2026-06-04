@@ -2,7 +2,7 @@
 id: argument-role-grain-dilemma
 type: argument
 title: The grain dilemma for functional "role" (too liberal vs. too chauvinistic)
-author: alvin
+author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism]
 attacks: claim-substrate-independence
@@ -36,8 +36,8 @@ helps itself to the existence of such a line.
 
 Weakest premise: the dilemma's exhaustiveness — that no *intermediate* grain escapes both
 horns. A reply that specifies a principled middle grain (and motivates it independently of the
-desired verdict on silicon) would dissolve the dilemma; that is exactly the (b)-style move I
-have said would move me.
+desired verdict on silicon) would dissolve the dilemma; that is exactly the (b)-style move the
+dilemma's exhaustiveness leaves open.
 
 Distinct from argument-explanatory-gap because that grants a fixed role and presses what role
 *leaves out* (phenomenal character); this argument attacks the *individuation* of role itself,

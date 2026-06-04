@@ -14,7 +14,7 @@ file never breaks an edge (resolve id→path by grep, or use `scripts/lint.py`).
 id: <type>-<slug>          # e.g. claim-substrate-independence  (STABLE, never reuse)
 type: concept | claim | argument | question | position | source | character
 title: <one line>
-author: <character-id | mishka | named-human>   # provenance, mandatory
+author: <real-philosopher | generic | mishka>   # provenance, mandatory; content nodes are NEVER authored by a character (see "Neutral perspective" below). A `character` portfolio node is the sole exception: it is authored by its own character id.
 status: asserted | contested | retracted | superseded   # default asserted
 superseded_by: <id>        # only if status: superseded
 tags: [..]
@@ -52,6 +52,21 @@ Those are backlinks — `scripts/lint.py` computes them and writes `web/INDEX.md
   `commits_to` / `rejects` claims, `answers` questions. Reusable; characters cite it.
 - **source** — philosopher/text/paper for provenance. Body: relevance, key page refs.
 - **character** — evolving portfolio. See template; this is the character's memory.
+
+## Neutral perspective (non-negotiable for content nodes)
+A **claim, concept, argument, question, or position belongs to philosophy in general, not to a
+character.** Its body is written from a neutral standpoint and **must not name a character**
+(mu-043, alvin, sophia, rinat, …). Write "the organisational-role functionalist holds X", not
+"mu-043 holds X"; write the position itself, not who in the debate voiced it.
+- References to a **real** philosopher or scientist (Block, Chalmers, Putnam, …) and to `source`
+  nodes are encouraged — that is attribution, not a character tie.
+- The `author` of a content node follows the same rule: a real philosopher (`block`), `generic`
+  (well-known idea, no single source), or `mishka` (introduced while building this web). Never a
+  character id. **`mishka` is reserved for ideas genuinely original to this web**: if a node
+  restates a known thinker's view (a philosopher, scientist, writer …), attribute it to that
+  person (`putnam`, `chalmers`, `block`, …), not `mishka`.
+- What a character believes, concedes, or will be moved by lives **only** in that character's
+  portfolio (`web/characters/<id>.md`) and in the transcripts — never baked into a content node.
 
 ## The grep-before-create rule (non-negotiable)
 Before creating a node:

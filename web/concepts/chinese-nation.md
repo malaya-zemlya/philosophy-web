@@ -2,7 +2,7 @@
 id: concept-chinese-nation
 type: concept
 title: Chinese Nation (homunculi-headed robot)
-author: mishka
+author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness]
 created: 2026-06-04
@@ -25,8 +25,8 @@ claim-phenomenal-residue and attacking claim-substrate-independence's uniform re
 characteristic counter-arguments (distinct from the lookup table's): (i) the *systems reply* — deny
 the intuition; the nation-as-a-whole may be a subject of experience even though no citizen is
 (Lycan, Dennett); (ii) *speed / timing* worries about whether such a slow, distributed system
-genuinely realises the organisation. Note that mu-043's organisational-role functionalism
+genuinely realises the organisation. Note that organisational-role functionalism
 (claim-role-grain-is-organisational) cannot cheaply exclude this case the way it excludes the
 lookup table, since the organisation is
-present — which is exactly why alvin sharpens it into argument-dense-china-brain-regress against the
+present — which is exactly why it is sharpened into argument-dense-china-brain-regress against the
 organisational grain.

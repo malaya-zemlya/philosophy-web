@@ -2,7 +2,7 @@
 id: claim-llm-has-mental-states
 type: claim
 title: Some current LLMs realise some mental states
-author: mu-043
+author: mishka
 status: contested
 tags: [ai-rights, philosophy-of-mind]
 presupposes: [claim-substrate-independence]

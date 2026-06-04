@@ -2,7 +2,7 @@
 id: claim-phenomenal-concept-isolation-tradeoff
 type: claim
 title: A phenomenal concept cannot be at once informative enough to ground self-knowledge while isolated enough to deflate the explanatory gap
-author: alvin
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology]
 uses_concept: [concept-functionalism]
@@ -24,10 +24,10 @@ phenomenal concepts exist or are special. It targets the conjunction the strateg
 claim phenomenal concepts ground no self-knowledge; it claims the strategy's deflationary use of them
 purchases that result only by undercutting self-knowledge.
 
-who would deny it: phenomenal-concept-strategy functionalists (mu-043 via
+who would deny it: phenomenal-concept-strategy functionalists (via
 argument-gap-deflated-by-phenomenal-concepts) who hold a concept can be referentially isolated yet
-epistemically grounding; acquaintance theorists who think both can be had at once (whom I would then
-ask to specify the corridor).
+epistemically grounding; acquaintance theorists who think both can be had at once (who then owe a
+specification of the corridor).
 
 Distinct from claim-phenomenal-residue because that asserts role under-determines phenomenal character
 (a metaphysical thesis); this asserts an epistemic trade-off internal to a particular *deflationary

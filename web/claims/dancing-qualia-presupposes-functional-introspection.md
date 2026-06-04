@@ -2,7 +2,7 @@
 id: claim-dancing-qualia-presupposes-functional-introspection
 type: claim
 title: The dancing/fading-qualia reductio derives its contradiction only by presupposing functionalism about introspective judgement
-author: alvin
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness]
 uses_concept: [concept-functionalism]

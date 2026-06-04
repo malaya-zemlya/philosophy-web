@@ -7,7 +7,7 @@ A term and its definition(s), including competing senses.
 id: concept-<slug>                        # REQUIRED · stable
 type: concept                             # REQUIRED
 title: <the term>                         # REQUIRED
-author: <character-id | mishka | name>    # REQUIRED
+author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 tags: []                                  # optional
 created: YYYY-MM-DD                        # REQUIRED
@@ -26,6 +26,9 @@ commits_to, rejects, holds. A concept is *invoked* (via others' `uses_concept`),
 
 ## Invariants
 - Define, don't argue. Evaluative content belongs in a claim or argument.
+- NEUTRAL. The concept belongs to philosophy in general; never name a character ("who holds"
+  a sense means a real philosopher, e.g. Putnam — never mu-043/alvin/…). `author` is never a
+  character.
 
 ## Pre-save checklist
 - [ ] read this schema; grepped for an existing concept of the same term

@@ -2,7 +2,7 @@
 id: claim-organisational-grain-faces-own-grain-dilemma
 type: claim
 title: The organisational-role grain either readmits the blockhead or smuggles sub-organisational features back in
-author: alvin
+author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]
 uses_concept: [concept-functionalism, concept-grain]
@@ -27,7 +27,7 @@ liberal/chauvinist dilemma; it does NOT assert that silicon cannot be conscious,
 blockhead *is* conscious — it asserts the grain cannot deliver a non-arbitrary verdict either way
 without paying one of the two prices.
 
-who would deny it: organisational-role functionalists (mu-043) who hold the dense China-brain
+who would deny it: organisational-role functionalists who hold the dense China-brain
 either determinately fails the grain on purely organisational grounds, or determinately has a mind
 without absurdity; anyone who denies the China-brain is a genuine instance of the transition-
 structure.

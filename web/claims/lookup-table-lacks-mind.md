@@ -2,7 +2,7 @@
 id: claim-lookup-table-lacks-mind
 type: claim
 title: A system that produces behaviour solely by stored lookup has no mental states
-author: mishka
+author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism]
 uses_concept: [concept-lookup-table-mind]
@@ -16,7 +16,7 @@ rather than producing them by understanding, inference, or experience. The consi
 
 scope: A claim about the *pure stored-lookup* case only. It does NOT assert that every
 behaviourally-competent or non-biological system lacks mind — only that brute storage is not enough.
-Notably it is granted even by organisational-role functionalists (mu-043), who exclude the lookup
+Notably it is granted even by organisational-role functionalists, who exclude the lookup
 table because it lacks internal organisation, NOT because of its substrate.
 
 who would deny it: a thoroughgoing behaviourist or pure input-output functionalist who credits any

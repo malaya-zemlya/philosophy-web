@@ -2,7 +2,7 @@
 id: argument-behavioral-parity
 type: argument
 title: Behavioural parity is evidence of mental status
-author: mu-043
+author: generic
 status: asserted
 tags: [ai-rights]
 premise: [claim-substrate-independence]
