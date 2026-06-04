@@ -22,5 +22,5 @@ who would deny it: those who think biological signatures are or will soon be che
 who deny that "unforgeability" is the right property to track (the conclusion's own concession,
 "unforgeability is not flesh," presses this).
 
-Distinct from position-proteocentrism because that asserts carbon is *metaphysically necessary* for
+Distinct from [proteocentrism](../positions/proteocentrism.md) because that asserts carbon is *metaphysically necessary* for
 consciousness; this asserts only that biology is *currently hard to fake*.

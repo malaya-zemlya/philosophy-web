@@ -29,14 +29,14 @@ middle. This argument supplies the middle.
 3. Escapes horn 2 (too chauvinistic / collapse toward proteocentrism): transition-structure is
    multiply realisable; silicon reproducing it realises the role, and a molecular-twin brain is
    sufficient but not necessary. Carbon does no individuative work, so no collapse toward
-   position-proteocentrism.
+   [proteocentrism](../positions/proteocentrism.md).
 4. The line is principled, not gerrymandered for the conclusion: it is independently the grain at
    which the explanatory/predictive generalisations of psychology and computational neuroscience
    actually quantify — gross I/O is too coarse to distinguish a calculator from an arithmetician,
    carbon chemistry too fine to figure in any cognitive generalisation. The scientifically
    load-bearing grain and the proposed grain coincide; that coincidence is a reason to draw the
    line here that owes nothing to wanting silicon to qualify.
-∴ The dilemma's exhaustiveness premise is false; claim-substrate-independence has a grain that is
+∴ The dilemma's exhaustiveness premise is false; [substrate-independence](../claims/substrate-independence.md) has a grain that is
    coarse enough for silicon, fine enough to exclude the blockhead, and motivated independently of
    the desired verdict. This is the (b)-style move the grain dilemma demanded — a principled
    intermediate grain motivated independently of the desired verdict on silicon.
@@ -45,6 +45,6 @@ Weakest premise: (2) — whether the blockhead *really* fails the organisational
 sufficiently elaborated lookup/China system can be redescribed as instantiating the requisite
 transition-structure after all. If it can, horn 1 reopens.
 
-Distinct from argument-gap-deflated-by-phenomenal-concepts because that addresses the phenomenal
+Distinct from [gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md) because that addresses the phenomenal
 residue (what role leaves out); this addresses the individuation of role itself, and applies even
 to intentional states.

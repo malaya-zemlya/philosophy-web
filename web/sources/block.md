@@ -12,12 +12,12 @@ relevance (content): the locus classicus of two *distinct* objections, split int
 families in this web:
 - the *lookup-table* objection — a machine producing conversation from a finite stored table ("Aunt
   Bubbles") passes a behavioural test with "the intelligence of a toaster"; grounds
-  concept-lookup-table-mind, claim-lookup-table-possible, claim-lookup-table-lacks-mind,
-  argument-lookup-table-objection. Targets the *sufficiency of behaviour*.
+  [lookup-table-mind](../concepts/lookup-table-mind.md), [lookup-table-possible](../claims/lookup-table-possible.md), [lookup-table-lacks-mind](../claims/lookup-table-lacks-mind.md),
+  [lookup-table-objection](../arguments/lookup-table-objection.md). Targets the *sufficiency of behaviour*.
 - the *Chinese Nation* objection — a population realising a mind's functional organisation
-  (allegedly) lacks phenomenal consciousness; grounds concept-chinese-nation,
-  claim-chinese-nation-realises-organisation, claim-chinese-nation-lacks-qualia,
-  argument-china-nation-absent-qualia. Targets the *sufficiency of functional organisation for
+  (allegedly) lacks phenomenal consciousness; grounds [chinese-nation](../concepts/chinese-nation.md),
+  [chinese-nation-realises-organisation](../claims/chinese-nation-realises-organisation.md), [chinese-nation-lacks-qualia](../claims/chinese-nation-lacks-qualia.md),
+  [china-nation-absent-qualia](../arguments/china-nation-absent-qualia.md). Targets the *sufficiency of functional organisation for
   qualia* — a different property, with different replies.
 
 key passages:

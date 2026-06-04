@@ -12,7 +12,7 @@ relevance (content): Gambarian argues that the public AI-consciousness discourse
 signs on which legal/moral standing would be granted, invites optimisation against those signs —
 "data poisoning the zeitgeist." §2 treats optimisation against published rubrics specifically: once
 a rights-granting criterion is announced, it will be gamed. Direct support for
-claim-rights-criterion-will-be-gamed and argument-rights-sign-forgeable.
+[rights-criterion-will-be-gamed](../claims/rights-criterion-will-be-gamed.md) and [rights-sign-forgeable](../arguments/rights-sign-forgeable.md).
 
 key passages: §2 (optimisation against published rubrics).
 

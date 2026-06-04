@@ -16,19 +16,19 @@ a complete specification of its functional/causal role. Role-individuation is no
 story for these states.
 
 scope: This is a claim *only* about phenomenal states. It deliberately CONCEDES
-concept-functionalism for intentional states (belief, desire, etc.). It does NOT assert that
+[functionalism](../concepts/functionalism.md) for intentional states (belief, desire, etc.). It does NOT assert that
 silicon systems lack consciousness, and does NOT assert proteocentrism; it asserts only that
 functional role under-determines phenomenal character. Its bite against
-claim-substrate-independence is that the latter's inference (individuated by role ⟹ had by any
+[substrate-independence](substrate-independence.md) is that the latter's inference (individuated by role ⟹ had by any
 role-realiser) is sound only where role-individuation is exhaustive — which this claim denies
 for the phenomenal case.
 
-who would deny it: strong/role functionalists (those reading concept-functionalism uniformly,
+who would deny it: strong/role functionalists (those reading [functionalism](../concepts/functionalism.md) uniformly,
 across phenomenal as well as intentional states); anyone holding that phenomenal character
 metaphysically supervenes on functional organisation.
 
-Distinct from position-proteocentrism because that view requires a *protein/carbon* substrate
+Distinct from [proteocentrism](../positions/proteocentrism.md) because that view requires a *protein/carbon* substrate
 for consciousness; this claim makes no substrate demand at all — it only denies that role
-exhausts the phenomenal. Distinct from claim-substrate-independence because it does not deny
+exhausts the phenomenal. Distinct from [substrate-independence](substrate-independence.md) because it does not deny
 substrate-independence wholesale; it denies the *uniform* ("all mental states") reading by
 carving out the phenomenal.

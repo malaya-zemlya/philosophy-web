@@ -15,15 +15,15 @@ attribution of moral status is at best an undischarged inference.
 
 scope: A claim about the *warrant* for moral-status attributions, not about what moral status
 metaphysically consists in. It is the load-bearing and weakest premise of
-argument-first-person-access: it is what turns an asymmetry of *access* into an asymmetry of
+[first-person-access](../arguments/first-person-access.md): it is what turns an asymmetry of *access* into an asymmetry of
 *justified moral regard*.
 
 who would deny it: anyone who holds that behavioural, functional, or theoretical evidence can
 justify moral-status attributions without first-person acquaintance — e.g. the proponents of
-argument-behavioral-parity; and anyone pressing the problem of other minds against it (it appears
+[behavioral-parity](../arguments/behavioral-parity.md); and anyone pressing the problem of other minds against it (it appears
 to entail that I am equally unwarranted about other human beings, see
-argument-access-symmetry-rebuttal).
+[access-symmetry-rebuttal](../arguments/access-symmetry-rebuttal.md)).
 
-Distinct from claim-privileged-first-person-access because that merely asserts self-acquaintance
+Distinct from [privileged-first-person-access](privileged-first-person-access.md) because that merely asserts self-acquaintance
 exists; this asserts the far stronger, contestable thesis that such acquaintance is *necessary*
 for warranted moral-status attribution.

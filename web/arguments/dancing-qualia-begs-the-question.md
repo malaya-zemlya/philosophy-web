@@ -16,14 +16,14 @@ created: 2026-06-03
 
 Form: diagnosis of a question-begging premise, plus a coherence-demonstration discharging the
 functionalist's clause (ii) (tell the dancing-qualia story without incoherence). Aimed at Prong B of
-argument-gap-deflated-by-phenomenal-concepts.
+[gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md).
 
 1. Prong B's work is carried by the phrase "introspective judgement is held fixed by construction."
    That assumes introspective judgement is *itself* a purely functional item — that to judge "my
    experience just changed" is exhausted by occupying a transition-node, so that fixing the
    functional profile fixes the judgement.
-2. But that is claim-phenomenal-residue *denied*, applied to introspection, inserted as a neutral
-   setup condition (claim-dancing-qualia-presupposes-functional-introspection). The reductio thus
+2. But that is [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) *denied*, applied to introspection, inserted as a neutral
+   setup condition ([dancing-qualia-presupposes-functional-introspection](../claims/dancing-qualia-presupposes-functional-introspection.md)). The reductio thus
    assumes functionalism about introspection in order to derive a contradiction from the denial of
    functionalism about experience. It is the conclusion smuggled into the stage-directions.
 3. The world can be told coherently. Distinguish the *phenomenal* fact from the *judgemental* fact;
@@ -45,7 +45,7 @@ argument-gap-deflated-by-phenomenal-concepts.
    introspection is acquaintance, and acquaintance is not what the series holds fixed.
 ∴ The dancing-qualia world is not incoherent; its apparent incoherence was supplied entirely by an
    assumed functionalism about introspection — the conclusion, not a neutral premise. Prong B is
-   therefore question-begging against claim-phenomenal-residue and does not give conceivability-free
+   therefore question-begging against [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) and does not give conceivability-free
    positive support for supervenience.
 
 Weakest premise: (3)'s fork-management — an opponent may insist there is a *third* construal on
@@ -54,13 +54,13 @@ genuine and deceptive without equivocation. Producing a notion of "introspective
 fixed" that does not already presuppose the residue false would be the (b)-style move that retracts
 this thrust.
 
-Schema role: in the terms of concept-continuity-argument-schema, the fading-qualia reductio (Prong B
-of argument-gap-deflated-by-phenomenal-concepts) tries to force the *`f`-constant* horn for the
+Schema role: in the terms of [continuity-argument-schema](../concepts/continuity-argument-schema.md), the fading-qualia reductio (Prong B
+of [gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md)) tries to force the *`f`-constant* horn for the
 carbon→silicon series. This thrust contests whether it has earned that horn: it argues the reductio's
 "introspection held fixed" stipulation is what *makes* the path look continuous, so the
 *discontinuity* and *disconnection* horns (some replacement does flip qualia / biology is a
 non-negligible step) were assumed shut, not shown to be.
 
-Distinct from argument-phenomenal-concept-overgeneration because that targets Prong A (the gap
+Distinct from [phenomenal-concept-overgeneration](phenomenal-concept-overgeneration.md) because that targets Prong A (the gap
 deflation via isolated phenomenal concepts); this targets Prong B (the supervenience reductio) and
 its hidden functionalism about the *introspective access* relation specifically.

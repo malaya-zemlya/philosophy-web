@@ -14,14 +14,14 @@ created: 2026-06-03
 ---
 
 Form: constructive dilemma (deductive over the strategy's parameter), aimed at Prong A of
-argument-gap-deflated-by-phenomenal-concepts. It does not show the strategy *false*; it shows the
+[gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md). It does not show the strategy *false*; it shows the
 strategy cannot occupy both settings it needs at once — which is the (i)-shaped demand the
 phenomenal-concept strategist set (an E that isolated-concept creatures should NOT expect).
 
 The deflation needs the phenomenal concept to be **cognitively isolated** from the role-concept
 ("no shared inferential corridor") — that isolation is the engine that guarantees E (the standing
 intelligibility of "but is there anything it is like to be *that*?") stays residual, so P(E | H1)
-is high and argument-explanatory-gap's inequality collapses. Now level up to the Bayesian's
+is high and [explanatory-gap](explanatory-gap.md)'s inequality collapses. Now level up to the Bayesian's
 question: what grounds my belief that I am phenomenally conscious at all? The first-person
 demonstrative concept, the "*that*."
 
@@ -43,7 +43,7 @@ demonstrative concept, the "*that*."
    was meant to be the cul-de-sac where no proof brings relief; it cannot also be the corridor.
 ∴ The phenomenal-concept strategy cannot be both potent enough to flatten P(E | H1) and modest
    enough to leave introspective self-knowledge standing (claim-phenomenal-concept-isolation-
-   tradeoff). So Prong A does not, without further cost, defeat argument-explanatory-gap: the E that
+   tradeoff). So Prong A does not, without further cost, defeat [explanatory-gap](explanatory-gap.md): the E that
    isolated-concept creatures should NOT expect is *that they know they are conscious at all* — yet
    we take it we do.
 
@@ -54,6 +54,6 @@ acquaintance grounds knowledge while sharing no corridor with the role-concept; 
 bites. Granting such a setting (informative-yet-sealed) would be the (a)-style move that retracts
 this thrust.
 
-Distinct from argument-explanatory-gap because that presses what role *leaves out* via a likelihood
+Distinct from [explanatory-gap](explanatory-gap.md) because that presses what role *leaves out* via a likelihood
 comparison; this is a second-order attack on the *defeater* of that comparison — it grants the
 appeal of phenomenal concepts and turns their isolation against the strategy's own epistemology.

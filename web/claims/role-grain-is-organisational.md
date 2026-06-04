@@ -25,12 +25,12 @@ fails it; those are downstream applications.
 
 who would deny it: defenders of pure input-output (machine-table / behaviourist) functionalism;
 fine-grained chauvinists who hold the biologically specific microstructure is individuative;
-anyone who holds the grain dilemma (argument-role-grain-dilemma) is exhaustive between coarse and
+anyone who holds the grain dilemma ([role-grain-dilemma](../arguments/role-grain-dilemma.md)) is exhaustive between coarse and
 biological-fine.
 
-Distinct from concept-functionalism because that concept leaves the grain of "role" open (it lists
+Distinct from [functionalism](../concepts/functionalism.md) because that concept leaves the grain of "role" open (it lists
 machine-state, role, and commonsense senses); this claim *fixes* the grain at one of those
-options and motivates the choice. Distinct from claim-substrate-independence because that asserts
+options and motivates the choice. Distinct from [substrate-independence](substrate-independence.md) because that asserts
 substrate does no individuative work; this asserts *which level of organisation* does the work
 instead — it is the specification that, if true, secures substrate-independence against the grain
 dilemma.

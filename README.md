@@ -79,7 +79,8 @@ with computed backlinks.
 
 **Two artifacts, never confused.**
 - `transcripts/` — the **dialogue**: append-only, linear, rhetorical. The raw record of debates.
-- `web/` — the **distilled graph**: atomic, deduplicated nodes that cross-reference by id.
+- `web/` — the **distilled graph**: atomic, deduplicated nodes that cross-reference each other
+  (by id in frontmatter edges; as clickable `[[id]]` links in prose).
 
 One utterance is *not* one node. During a debate a speaker writes prose to the transcript and
 distils a few clean nodes into the web.
@@ -98,8 +99,14 @@ distils a few clean nodes into the web.
 
 **Edges are one-directional and reference nodes by id.** The supporting/attacking/citing node
 *owns* the edge (`premise`, `concludes`, `supports`, `attacks`, `responds_to`, `answers`,
-`uses_concept`, `presupposes`, …). Reverse links ("attacked-by") are **never** stored by hand —
-they are *computed* by `scripts/lint.py` into `web/INDEX.md`.
+`uses_concept`, `presupposes`, …), in frontmatter, by bare id. Reverse links ("attacked-by") are
+**never** stored by hand — they are *computed* by `scripts/lint.py` into `web/INDEX.md`.
+
+**Prose references are clickable.** In a node body or transcript you cite another node with the
+`[[id]]` shorthand; `scripts/lint.py` renders it into a relative Markdown link
+(`[slug](../claims/…​.md)`), so browsing the graph on GitHub you can click straight from a claim to
+the argument that attacks it. Like the backlinks, these links are *generated* — you author `[[id]]`,
+never the link itself.
 
 **Characters split in two.** A character's stable voice and method live in a subagent
 (`.claude/agents/<id>.md`); their *evolving commitments* live in a node

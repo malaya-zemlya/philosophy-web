@@ -23,5 +23,5 @@ paradigm cases, so a distant verdict cannot bear heavy argumentative load unsupp
 who would deny it: a rationalist about modal/conceptual intuition who holds that clear
 conceivability delivers reliable verdicts regardless of a case's distance from experience.
 
-Distinct from claim-imaginary-blockhead-no-secure-verdict: that *applies* this principle to the
+Distinct from [imaginary-blockhead-no-secure-verdict](imaginary-blockhead-no-secure-verdict.md): that *applies* this principle to the
 blockhead; this is the general principle it instances.

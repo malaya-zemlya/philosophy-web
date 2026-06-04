@@ -25,12 +25,12 @@ claim phenomenal concepts ground no self-knowledge; it claims the strategy's def
 purchases that result only by undercutting self-knowledge.
 
 who would deny it: phenomenal-concept-strategy functionalists (via
-argument-gap-deflated-by-phenomenal-concepts) who hold a concept can be referentially isolated yet
+[gap-deflated-by-phenomenal-concepts](../arguments/gap-deflated-by-phenomenal-concepts.md)) who hold a concept can be referentially isolated yet
 epistemically grounding; acquaintance theorists who think both can be had at once (who then owe a
 specification of the corridor).
 
-Distinct from claim-phenomenal-residue because that asserts role under-determines phenomenal character
+Distinct from [phenomenal-residue](phenomenal-states-not-exhausted-by-role.md) because that asserts role under-determines phenomenal character
 (a metaphysical thesis); this asserts an epistemic trade-off internal to a particular *deflationary
 move*, and would have force even granting the residue is metaphysically open. Distinct from
-claim-role-grain-is-organisational because that concerns the grain of role-individuation, not the
+[role-grain-is-organisational](role-grain-is-organisational.md) because that concerns the grain of role-individuation, not the
 epistemology of phenomenal concepts.

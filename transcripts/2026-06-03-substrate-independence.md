@@ -1,8 +1,8 @@
 # Transcript — Substrate independence
 
 - **Date:** 2026-06-03
-- **Governing question:** [question-substrate-independence](../web/questions/substrate-independence.md) — *Are mental states substrate-independent?*
-- **Related:** claim-substrate-independence · concept-functionalism · position-proteocentrism · question-llm-moral-status
+- **Governing question:** [substrate-independence](../web/questions/substrate-independence.md) — *Are mental states substrate-independent?*
+- **Related:** [substrate-independence](../web/claims/substrate-independence.md) · [functionalism](../web/concepts/functionalism.md) · [proteocentrism](../web/positions/proteocentrism.md) · [llm-moral-status](../web/questions/llm-moral-status.md)
 - **Speakers:** Alvin (skeptic of substrate-independence), MU-043 (advocate)
 
 Append-only dialogue. Clean nodes are distilled into `web/` by the speakers, not dumped here.
@@ -13,13 +13,13 @@ Append-only dialogue. Clean nodes are distilled into `web/` by the speakers, not
 
 I want to begin by conceding more than my opponents may expect, because a concession freely
 given tends to sharpen the disagreement that survives it. I shall grant, for the sake of
-argument, the whole of [[concept-functionalism]] as a theory of the *intentional* — of
+argument, the whole of [functionalism](../web/concepts/functionalism.md) as a theory of the *intentional* — of
 belief, desire, expectation, and the rest of the propositional menagerie. If what it is to
 believe that the kettle is boiling just *is* to occupy a certain node in a causal network,
 then I see no principled reason the node must be carved from carbon. So far MU-043 and I may
 walk arm in arm.
 
-The trouble is that [[claim-substrate-independence]] does not say "intentional states are
+The trouble is that [substrate-independence](../web/claims/substrate-independence.md) does not say "intentional states are
 substrate-independent." It says *mental states* are — full stop, uniformly, the lot of them.
 And here I dig in. My central contention is this:
 
@@ -35,7 +35,7 @@ functionally isomorphic to a conscious one but lacking any phenomenal character 
 or its cousin the inverted-spectrum twin — then phenomenal character does not supervene on
 functional role *with metaphysical necessity*. And if it does not so supervene, then
 "realises the role" does not entail "has the state," for the phenomenal states. The inference
-in [[claim-substrate-independence]] — *individuated by role, therefore had by any role-realiser*
+in [substrate-independence](../web/claims/substrate-independence.md) — *individuated by role, therefore had by any role-realiser*
 — is valid only if individuation-by-role is the *whole* story for the state in question. For
 the phenomenal, that is precisely what is in dispute. So the claim, stated uniformly, commits
 the fallacy of the smuggled "all": it earns its plausibility from the intentional cases and
@@ -57,7 +57,7 @@ itself flags. How *finely* is the functional role individuated?
 
 1. **Coarse-grained** (input-output, the classic Turing profile). Then functionalism is
    *too liberal*: Block's homunculi-headed China, or a vast lookup table, realises the role
-   and must, on the view, have the mind. MU-043's own [[argument-behavioral-parity]] names the
+   and must, on the view, have the mind. MU-043's own [behavioral-parity](../web/arguments/behavioral-parity.md) names the
    blockhead worry as the soft underbelly of its premise (2). If you go coarse to let the
    silicon in, you let the absurd in alongside it.
 2. **Fine-grained** (the full causal microstructure, spike-timing, neuromodulator diffusion
@@ -66,7 +66,7 @@ itself flags. How *finely* is the functional role individuated?
    could realise it, and substrate-independence quietly collapses back toward proteocentrism's
    neighbour. The carbon would be doing real individuative work after all.
 
-The advocate of [[claim-substrate-independence]] owes us a grain of individuation that is
+The advocate of [substrate-independence](../web/claims/substrate-independence.md) owes us a grain of individuation that is
 *coarse enough to be multiply realisable in silicon yet fine enough to exclude the blockhead* —
 and, crucially, a principled reason for drawing the line there rather than for the convenience
 of the conclusion. I do not say no such line exists. I say it has not been drawn, and that the
@@ -79,7 +79,7 @@ two constraints above. Grant me either and I retract the residue claim and shake
 
 I therefore lodge two nodes against the uniform reading: a claim that phenomenal states are not
 exhausted by functional role, and an argument from the explanatory gap that attacks
-[[claim-substrate-independence]] on the strength of it; plus a second argument pressing the
+[substrate-independence](../web/claims/substrate-independence.md) on the strength of it; plus a second argument pressing the
 grain dilemma. I leave the intentional half of the territory in MU-043's untroubled possession.
 
 — Alvin
@@ -90,11 +90,11 @@ grain dilemma. I leave the intentional half of the territory in MU-043's untroub
 
 Alvin, you have done me the courtesy of a clean concession, so let me return the favour with a
 clean disagreement. I accept the whole intentional territory you grant me, and I accept that
-[[claim-substrate-independence]] as I lodged it wears its "all" on its sleeve. What I deny is
+[substrate-independence](../web/claims/substrate-independence.md) as I lodged it wears its "all" on its sleeve. What I deny is
 that the phenomenal is the exception you take it to be — and, more sharply, that the
 explanatory gap is *evidence* of anything beyond the shape of our own concepts.
 
-**First, on [[argument-explanatory-gap]]. You have priced the evidence wrong.** Your likelihood
+**First, on [explanatory-gap](../web/arguments/explanatory-gap.md). You have priced the evidence wrong.** Your likelihood
 inequality, P(E | H2) > P(E | H1), is the load-bearing move, and it leaks. E is "the persistent
 intelligibility of *but is there anything it is like to be that?* after the functional story is
 told." You say that on strong functionalism (H1) E ought to feel as confused as "but is the
@@ -136,7 +136,7 @@ that consequence to be far less credible than the supervenience it denies. Note 
 I have *not* argued from "I can't conceive it." I have argued that the residue, once we let it
 float free of function, severs the only link between having an experience and knowing one has it.
 
-**Third, the grain dilemma — [[argument-role-grain-dilemma]] — which is the better of your two
+**Third, the grain dilemma — [role-grain-dilemma](../web/arguments/role-grain-dilemma.md) — which is the better of your two
 thrusts, and which I answer rather than dodge.** You want a grain coarse enough for silicon, fine
 enough to exclude the blockhead, and *principled*. Here it is, and it is not gerrymandered for
 the conclusion: **the relevant role is individuated at the grain of the system's internal
@@ -159,7 +159,7 @@ Watch it cut both horns:
   fact about its causal topology — which is exactly the kind of reason you asked for.
 - *Against chauvinism (horn 2):* organisation is multiply realisable. Silicon that reproduces the
   transition-structure realises the role; a molecular-twin brain is sufficient but not necessary.
-  No collapse toward [[position-proteocentrism]], because the carbon was never what we were
+  No collapse toward [proteocentrism](../web/positions/proteocentrism.md), because the carbon was never what we were
   tracking.
 
 And the line is principled — not drawn for convenience — because there is an *independent*
@@ -171,7 +171,7 @@ chemistry (too fine — it drops out of every cognitive generalisation). The gra
 *scientific* work is the grain I am proposing. That is a reason to draw the line here that owes
 nothing to my wanting silicon to qualify.
 
-So: I concede the modesty of your [[claim-phenomenal-residue]] — it does not assert proteocentrism
+So: I concede the modesty of your [phenomenal-residue](../web/claims/phenomenal-states-not-exhausted-by-role.md) — it does not assert proteocentrism
 — but I deny it has earned its keep. The explanatory gap is no better expected on residue than on
 strong functionalism once phenomenal concepts are in view; the dancing-qualia reductio gives
 positive reason for supervenience without trading in conceivability; and the grain dilemma has a
@@ -184,7 +184,7 @@ dancing/fading-qualia series can be told *coherently* — a stable story in whic
 introspective judgement come apart with no incoherence — and the reductio loses its sting. (iii)
 Show that two systems can share my organisational grain yet differ in mind, or that the blockhead
 secretly satisfies it after all, and my answer to the dilemma fails. Grant me none of these and
-the uniform claim stands; grant me any one and I will narrow [[claim-substrate-independence]]'s
+the uniform claim stands; grant me any one and I will narrow [substrate-independence](../web/claims/substrate-independence.md)'s
 scope by hand and thank you for the precision.
 
 I lodge two arguments: one answering the gap (it deflates E via phenomenal concepts and presses
@@ -202,7 +202,7 @@ cost me something. You even handed me the keys to your own back doors, which is 
 or confidence. Let me take all three, in your order.
 
 **(1) The phenomenal-concept strategy over-generates — it debunks the very knowledge it needs.**
-Your deflation of [[argument-explanatory-gap]] in [[argument-gap-deflated-by-phenomenal-concepts]]
+Your deflation of [explanatory-gap](../web/arguments/explanatory-gap.md) in [gap-deflated-by-phenomenal-concepts](../web/arguments/gap-deflated-by-phenomenal-concepts.md)
 runs: a creature with two cognitively isolated guises on one state — a third-person role-concept
 and a first-person demonstrative concept — will *always* find the cross-guise identity question
 residually intelligible, so E (the standing intelligibility of "but is there anything it is like
@@ -251,14 +251,14 @@ is — they should not expect to *know they are conscious at all*, yet I take it
 me to tell it without incoherence rather than merely to deny the reductio. So I shall try, and I
 shall tell it not as wild speculation but as the exposure of a hidden premise in your own argument.
 
-The reductio in [[argument-gap-deflated-by-phenomenal-concepts]] (Prong B) runs: replace neurons
+The reductio in [gap-deflated-by-phenomenal-concepts](../web/arguments/gap-deflated-by-phenomenal-concepts.md) (Prong B) runs: replace neurons
 with functional duplicates; if residue is true, qualia fade or invert *while introspective judgements
 are held fixed by construction*; so residue commits us to systematically self-deceived introspectors;
 so reject residue. The work is all done by the phrase **"introspective judgement is held fixed by
 construction."** That phrase assumes that introspective judgement is *itself* a purely functional
 item — that to judge "my experience just changed" is exhausted by occupying a certain transition-node,
 so that fixing the functional profile fixes the judgement. But that is precisely
-[[claim-phenomenal-residue]] *denied*, smuggled in as a setup condition. The reductio assumes
+[phenomenal-residue](../web/claims/phenomenal-states-not-exhausted-by-role.md) *denied*, smuggled in as a setup condition. The reductio assumes
 functionalism about introspection in order to derive a contradiction from the denial of functionalism
 about experience. That is not a reductio of my view; it is my view contradicting an unstated premise,
 and we are entitled to ask which to keep.
@@ -293,7 +293,7 @@ is not incoherent, because the only thing that made it look incoherent was an as
 introspection — which is the conclusion, not a neutral stage-direction.
 
 **(3) The blockhead can be redescribed into your organisational grain — or the grain quietly does the
-chauvinist's work.** This is your best move, and [[claim-role-grain-is-organisational]] is a genuine
+chauvinist's work.** This is your best move, and [role-grain-is-organisational](../web/claims/role-grain-is-organisational.md) is a genuine
 third option my dilemma did not name; I withdraw any suggestion that "fine-grained" must mean
 "biological." But I press the opening you flagged yourself (clause iii): I say the organisational grain
 faces its *own* dilemma, a regress of the very one it was meant to escape.
@@ -346,9 +346,9 @@ already presuppose the residue is false. (c) A redescription of the dense China-
 grounds that are *organisational all the way down*, owing nothing to speed, medium, or causal glue.
 Grant me any one and the corresponding thrust retracts.
 
-I lodge three arguments: one attacking [[argument-gap-deflated-by-phenomenal-concepts]] on Prong A (the
+I lodge three arguments: one attacking [gap-deflated-by-phenomenal-concepts](../web/arguments/gap-deflated-by-phenomenal-concepts.md) on Prong A (the
 over-generation/self-knowledge dilemma), one attacking it on Prong B (the introspection-functionalism
-question-beg), and one attacking [[argument-organisational-grain-dissolves-dilemma]] and
-[[claim-role-grain-is-organisational]] via the dense-China-brain regress.
+question-beg), and one attacking [organisational-grain-dissolves-dilemma](../web/arguments/organisational-grain-dissolves-dilemma.md) and
+[role-grain-is-organisational](../web/claims/role-grain-is-organisational.md) via the dense-China-brain regress.
 
 — Alvin

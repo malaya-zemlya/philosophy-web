@@ -20,6 +20,6 @@ lack it. It is the uncontroversial first premise that later premises put to work
 who would deny it: eliminativists and strong higher-order-theorists who deny any non-inferential
 self-acquaintance; most parties grant it.
 
-Distinct from claim-dancing-qualia-presupposes-functional-introspection because that concerns
+Distinct from [dancing-qualia-presupposes-functional-introspection](dancing-qualia-presupposes-functional-introspection.md) because that concerns
 whether introspective access is *functional* in the supervenience debate; this claim only asserts
 that such direct self-access exists, taking no stand on its nature.

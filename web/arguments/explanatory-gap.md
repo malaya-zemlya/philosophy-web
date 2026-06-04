@@ -15,11 +15,11 @@ created: 2026-06-03
 Form: abductive / evidential (a Swinburnean likelihood comparison), NOT a deductive proof.
 This argument does not claim to *demonstrate* the phenomenal residue; it claims the
 explanatory gap is a standing piece of evidence the uniform reading of
-claim-substrate-independence has failed to accommodate.
+[substrate-independence](../claims/substrate-independence.md) has failed to accommodate.
 
 Let:
 - H1 = phenomenal states are exhausted by functional role (strong functionalism);
-- H2 = they are not (claim-phenomenal-residue);
+- H2 = they are not ([phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md));
 - E = the persistent, post-theoretic intelligibility of the question "but is there anything
   it is like to be *that*?" *after* the entire functional story has been told.
 
@@ -30,7 +30,7 @@ Let:
 3. Hence P(E | H2) comfortably exceeds P(E | H1).
 ∴ E confirms H2 over H1: phenomenal character does not metaphysically supervene on functional
    role, so "realises the role ⟹ has the state" fails *for the phenomenal case*. This
-   undercuts the uniform ("all mental states") scope of claim-substrate-independence — the
+   undercuts the uniform ("all mental states") scope of [substrate-independence](../claims/substrate-independence.md) — the
    smuggled "all" — while leaving its intentional applications untouched.
 
 Weakest premise: (2) — conceivability is not transparently a guide to possibility. The
@@ -41,8 +41,8 @@ is a stronger burden than merely doubting zombies. Would be retracted by a real 
 zombie — a demonstration that the phenomenal supervenes on role — rather than a redescription
 of it.
 
-Distinct from argument-behavioral-parity because that is an abduction *for* mental
+Distinct from [behavioral-parity](behavioral-parity.md) because that is an abduction *for* mental
 status from behaviour; this is an abduction *against* the uniform scope of its enabling
-premise. Distinct from the grain argument (argument-role-grain-dilemma) because that attacks
+premise. Distinct from the grain argument ([role-grain-dilemma](role-grain-dilemma.md)) because that attacks
 the individuation of "role" itself, whereas this grants a fixed role and presses what role
 leaves out.

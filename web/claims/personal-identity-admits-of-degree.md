@@ -14,7 +14,7 @@ there need be no determinate yes/no answer in the middle of a gradual psychologi
 
 scope: a metaphysical thesis about the identity relation, not yet the normative corollary ("identity
 is not what matters"). It selects the *non-discrete-`Y`* (degree) horn of
-concept-continuity-argument-schema for the personal-identity case.
+[continuity-argument-schema](../concepts/continuity-argument-schema.md) for the personal-identity case.
 
 who would deny it: defenders of a determinate, all-or-nothing identity criterion (who must then take
 either the discontinuity horn — a sharp boundary — or the indeterminacy horn — gaps without

@@ -57,15 +57,15 @@ discrete verdict-space are jointly inconsistent.* Whatever gives is one of the f
 domain's topology and the metric of "small step" is where the substantive philosophical work lives.
 
 the live dispute it feeds (in this web): the gradual-replacement instance is the engine of
-claim-substrate-independence. The fading/dancing-qualia reductio *argues for the `f`-constant horn*:
+[substrate-independence](../claims/substrate-independence.md). The fading/dancing-qualia reductio *argues for the `f`-constant horn*:
 if no admissible one-neuron step could flip or fade qualia (on pain of absurd "dancing"/"fading"
 experience the subject cannot notice), then qualia are preserved across the whole carbon→silicon
 path, so consciousness is substrate-independent. Resistance to that reductio is resistance over
 *which horn* the case takes: a phenomenal-residue theorist may instead grab the *discontinuity* horn
 (some replacement does flip qualia) or the *disconnection* horn (the carbon→silicon series is not a
-path of genuinely admissible steps — biology is load-bearing), and argument-dancing-qualia-begs-the-question
+path of genuinely admissible steps — biology is load-bearing), and [dancing-qualia-begs-the-question](../arguments/dancing-qualia-begs-the-question.md)
 disputes whether the reductio has really *closed off* those horns or merely assumed them shut. The
-grain debate (concept-grain, argument-role-grain-dilemma) is the same structure one level down: the
+grain debate ([grain](grain.md), [role-grain-dilemma](../arguments/role-grain-dilemma.md)) is the same structure one level down: the
 "admissible small step" is fixed only once the grain of role-individuation is fixed.
 
 distinct from a first-order position on vagueness: this node does not assert epistemicism, degree

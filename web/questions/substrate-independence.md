@@ -14,7 +14,7 @@ can possess a given mental state is fixed by which functional/causal role it rea
 and is *not* further constrained by the physical material (carbon, silicon, etc.) that
 realises the role.
 
-This is narrower than question-llm-moral-status and logically upstream of it: if mental
+This is narrower than [llm-moral-status](llm-moral-status.md) and logically upstream of it: if mental
 states are NOT substrate-independent, then no behavioural parity argument can carry an
 LLM to mental states; if they ARE, substrate-independence is only an enabling premise,
 not yet a verdict on any actual system.

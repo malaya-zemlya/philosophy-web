@@ -19,14 +19,14 @@ and a lifetime vastly exceeds any LLM context window (larger `n`). So the bounde
 the count worse, not better.
 
 scope: a counting fact about *pure* lookup over a bounded input length. It is exactly the
-bounded-domain table Block retreats to (claim-mind-handles-unbounded-inputs), so it grants Block's
+bounded-domain table Block retreats to ([mind-handles-unbounded-inputs](mind-handles-unbounded-inputs.md)), so it grants Block's
 finiteness move and measures its cost. It does NOT claim minds are infinite (cf.
-claim-finite-table-misses-inputs, which is the *un*bounded-input point).
+[finite-table-misses-inputs](finite-table-misses-inputs.md), which is the *un*bounded-input point).
 
 who would deny it: one might object that many distinct contexts share a response, so the table could
 be *compressed* below `v^n`. But a system that computes which equivalence-class an input falls into
 is no longer a flat lookup — it is doing the very processing the blockhead was meant to lack. So the
 exponential count is the size of a *genuine* lookup table; compressing it concedes the point.
 
-Distinct from claim-finite-table-misses-inputs: that says a finite table *misses* some (longer)
+Distinct from [finite-table-misses-inputs](finite-table-misses-inputs.md): that says a finite table *misses* some (longer)
 inputs; this measures the *size* of the bounded table that misses none up to length `n`.

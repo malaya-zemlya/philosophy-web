@@ -16,13 +16,13 @@ justified in regarding the machine — a defensible asymmetry of moral regard gr
 asymmetry of access.
 
 scope: A claim about *justified regard*, offered as a candidate (negative-for-machines) answer to
-question-llm-moral-status. It does NOT assert that the machine in fact lacks moral status
+[llm-moral-status](../questions/llm-moral-status.md). It does NOT assert that the machine in fact lacks moral status
 (epistemic, not metaphysical); it asserts that warrant for attributing it is absent in the machine
-case and present in one's own. It lends support to position-proteocentrism without entailing it.
+case and present in one's own. It lends support to [proteocentrism](../positions/proteocentrism.md) without entailing it.
 
 who would deny it: those who hold third-person evidence can warrant moral-status attribution
-(argument-behavioral-parity); and the symmetry objection (argument-access-symmetry-rebuttal),
+([behavioral-parity](../arguments/behavioral-parity.md)); and the symmetry objection ([access-symmetry-rebuttal](../arguments/access-symmetry-rebuttal.md)),
 which denies any *human/machine* asymmetry is available here at all.
 
-Distinct from position-proteocentrism because that is a metaphysical thesis (only carbon life can
+Distinct from [proteocentrism](../positions/proteocentrism.md) because that is a metaphysical thesis (only carbon life can
 bear consciousness); this is the weaker epistemic claim that *warrant* tracks first-person access.

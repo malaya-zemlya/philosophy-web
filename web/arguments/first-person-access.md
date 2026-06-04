@@ -14,27 +14,27 @@ created: 2026-06-04
 inference form: abductive / epistemic (about the grounds of justified moral regard, not a
 deductive proof of the machine's nature).
 
-1. (claim-privileged-first-person-access) I have direct, non-inferential acquaintance with my own
+1. ([privileged-first-person-access](../claims/privileged-first-person-access.md)) I have direct, non-inferential acquaintance with my own
    suffering.
-2. (claim-acquaintance-necessary-for-moral-status-warrant) Such acquaintance is necessary for
+2. ([acquaintance-necessary-for-moral-status-warrant](../claims/acquaintance-necessary-for-moral-status-warrant.md)) Such acquaintance is necessary for
    being justified that there is "someone there to be wronged."
-3. (claim-no-acquaintance-with-machine) I have no such acquaintance with the machine — only
+3. ([no-acquaintance-with-machine](../claims/no-acquaintance-with-machine.md)) I have no such acquaintance with the machine — only
    inference.
-∴ (claim-access-grounds-moral-status-asymmetry) I am warranted in regarding myself as a bearer of
+∴ ([access-grounds-moral-status-asymmetry](../claims/access-grounds-moral-status-asymmetry.md)) I am warranted in regarding myself as a bearer of
    moral status in a way I am not warranted in regarding the machine.
 
-weakest premise: **premise 2** (claim-acquaintance-necessary-for-moral-status-warrant). It is the
+weakest premise: **premise 2** ([acquaintance-necessary-for-moral-status-warrant](../claims/acquaintance-necessary-for-moral-status-warrant.md)). It is the
 node where attacks land. Two standing worries, recorded here because they are why this argument is
 `status: contested`:
 - *Over-generation / proves too much.* If first-person acquaintance were necessary for warranted
   moral regard, the same would deny me warrant about *other human beings* (I have no acquaintance
   with their suffering either) — collapsing into solipsism about moral status. The symmetric form
-  of this objection is lodged as argument-access-symmetry-rebuttal.
+  of this objection is lodged as [access-symmetry-rebuttal](access-symmetry-rebuttal.md).
 - *Epistemic→metaphysical gap.* The premises concern my *justification*; the conclusion is
   sometimes overread as a claim about the machine's *actual* status. As written, the conclusion is
   carefully epistemic.
 
-provenance: a problem-of-other-minds appeal applied to AI. In the source dialogue (source-lem's
+provenance: a problem-of-other-minds appeal applied to AI. In the source dialogue ([lem](../sources/lem.md)'s
 pastiche lineage — *О правах непротеиновых существ*, "On the Rights of Non-Protein Beings") this is
 the speaker Cleant's appeal, adopted on the proteocentrist side; imported here as a node, not as a
-character. Lends support to position-proteocentrism via its conclusion.
+character. Lends support to [proteocentrism](../positions/proteocentrism.md) via its conclusion.

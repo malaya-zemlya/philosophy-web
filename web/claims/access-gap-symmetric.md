@@ -23,8 +23,8 @@ who would deny it: anyone holding that there is no "machine first-person standpo
 that nothing is reciprocally inaccessible (then the symmetry's second arm is empty); this is the
 chief pressure point against it.
 
-Distinct from claim-no-acquaintance-with-machine because that records only the human-side deficit;
+Distinct from [no-acquaintance-with-machine](no-acquaintance-with-machine.md) because that records only the human-side deficit;
 this adds the reciprocal, fully-general structure that neutralises the *asymmetry*.
 
 provenance: the mutual unprovability of consciousness between minds is due to Stanisław Lem — see
-source-lem.
+[lem](../sources/lem.md).

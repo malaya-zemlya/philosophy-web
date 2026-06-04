@@ -14,9 +14,9 @@ created: 2026-06-03
 ---
 
 Form: two-pronged. Prong A is a likelihood-defeater (it attacks the probabilistic premise of
-argument-explanatory-gap). Prong B is a reductio (positive abductive support for supervenience).
+[explanatory-gap](explanatory-gap.md)). Prong B is a reductio (positive abductive support for supervenience).
 
-Prong A — deflate E. argument-explanatory-gap rests on P(E | H1) being low, where E = the
+Prong A — deflate E. [explanatory-gap](explanatory-gap.md) rests on P(E | H1) being low, where E = the
 post-theoretic intelligibility of "but is there anything it is like to be *that*?" and H1 = strong
 functionalism. But on the phenomenal-concept strategy, creatures who grasp one state under two
 cognitively isolated guises — a third-person theoretical/role concept and a first-person
@@ -26,7 +26,7 @@ travel.
 1. If H1 is true, beings with isolated phenomenal concepts would still feel the gap (the felt gap
    tracks concept architecture, not metaphysical structure).
 2. So P(E | H1) is high, not low.
-∴ The inequality P(E | H2) > P(E | H1) that argument-explanatory-gap needs fails to obtain; E does
+∴ The inequality P(E | H2) > P(E | H1) that [explanatory-gap](explanatory-gap.md) needs fails to obtain; E does
    not confirm residue over functionalism. (Analogy: a lingering "but are these *really* the same
    number?" about an unproven-but-necessary identity is evidence about the thinker's epistemic
    position, not about the numbers.)
@@ -51,15 +51,15 @@ apart *coherently*. If such a story can be told without incoherence, the reducti
 Prong A's exposure: that the phenomenal-concept strategy itself succeeds — if some E is identified
 that isolated-concept creatures should NOT expect, the deflation fails.
 
-Schema instance: Prong B is the gradual-neural-prosthesis case of concept-continuity-argument-schema
+Schema instance: Prong B is the gradual-neural-prosthesis case of [continuity-argument-schema](../concepts/continuity-argument-schema.md)
 (`X` = neuron-by-neuron carbon→silicon replacement, `Y` = {same qualia, faded/inverted}). It argues
 *for the `f`-constant horn*: premises (4)–(5) deny that any admissible one-neuron step can flip or
 fade qualia without the absurd consequence in (6), so the verdict is constant across the whole path
-and supervenience holds. argument-dancing-qualia-begs-the-question contests precisely whether this
+and supervenience holds. [dancing-qualia-begs-the-question](dancing-qualia-begs-the-question.md) contests precisely whether this
 has *closed* the discontinuity/disconnection horns or merely assumed them shut.
 
-Distinct from argument-behavioral-parity because that argues *for* mental status from behaviour;
+Distinct from [behavioral-parity](behavioral-parity.md) because that argues *for* mental status from behaviour;
 this argues that a specific *anti*-functionalist evidential argument misprices its evidence and
-that supervenience holds. Distinct from argument-role-grain-dilemma's reply (claim-role-grain-is-
+that supervenience holds. Distinct from [role-grain-dilemma](role-grain-dilemma.md)'s reply (claim-role-grain-is-
 organisational) because this concerns the phenomenal residue, granting a fixed role, whereas that
 concerns the individuation of role itself.

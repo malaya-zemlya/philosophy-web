@@ -20,10 +20,10 @@ senses:
   not merely a reliable belief-forming channel.
 
 the live dispute it feeds: whether first-person access does any work in settling moral status
-(claim-acquaintance-necessary-for-moral-status-warrant, question-llm-moral-status) — and, in a
+([acquaintance-necessary-for-moral-status-warrant](../claims/acquaintance-necessary-for-moral-status-warrant.md), [llm-moral-status](../questions/llm-moral-status.md)) — and, in a
 neighbouring debate, whether introspective access to one's own qualia is itself functional or a
-species of acquaintance (cf. claim-dancing-qualia-presupposes-functional-introspection,
-claim-phenomenal-concept-isolation-tradeoff). This node names the term those bodies use in
+species of acquaintance (cf. [dancing-qualia-presupposes-functional-introspection](../claims/dancing-qualia-presupposes-functional-introspection.md),
+[phenomenal-concept-isolation-tradeoff](../claims/phenomenal-concept-isolation-tradeoff.md)). This node names the term those bodies use in
 passing; it is about access to *one's own* states, the asymmetry of which is exploited in two
-directions (for an asymmetry in argument-first-person-access; against it in
-argument-access-symmetry-rebuttal).
+directions (for an asymmetry in [first-person-access](../arguments/first-person-access.md); against it in
+[access-symmetry-rebuttal](../arguments/access-symmetry-rebuttal.md)).

@@ -14,13 +14,13 @@ be allowed to *carry the weight* of conferring moral/legal standing; resting sta
 flood the category with false positives.
 
 scope: A normative-epistemic bridge premise — it moves from "the sign is gameable"
-(claim-rights-criterion-will-be-gamed) to "the sign must not be the criterion." It is the
-load-bearing and weakest step of argument-rights-sign-forgeable.
+([rights-criterion-will-be-gamed](rights-criterion-will-be-gamed.md)) to "the sign must not be the criterion." It is the
+load-bearing and weakest step of [rights-sign-forgeable](../arguments/rights-sign-forgeable.md).
 
 who would deny it: anyone invoking the false-positive / base-rate distinction — that a sign which
 *can* be forged is not thereby worthless evidence (fingerprints can be forged yet still count);
 forgeability bounds false positives, it does not nullify evidential value. On this view a gameable
 sign may still be a defeasible criterion rather than no criterion.
 
-Distinct from claim-rights-criterion-will-be-gamed because that asserts the gaming will occur;
+Distinct from [rights-criterion-will-be-gamed](rights-criterion-will-be-gamed.md) because that asserts the gaming will occur;
 this asserts the normative consequence that such a sign is therefore disqualified as criterion.

@@ -16,10 +16,10 @@ heap has. It is the premise that, conjoined with an uncontroversial base case (a
 heap), generates the paradox. Read formally it is a no-large-jumps / uniform-continuity constraint
 on the heap-verdict over the one-grain-removal adjacency.
 
-who would deny it: anyone taking the *disconnection* horn of concept-continuity-argument-schema —
+who would deny it: anyone taking the *disconnection* horn of [continuity-argument-schema](../concepts/continuity-argument-schema.md) —
 the epistemicist (there is a precise but unknown grain at which one removal flips the verdict) and
 anyone who holds some single step is, after all, not negligible.
 
 Distinct from a base-case claim ("a million grains is a heap"): tolerance is the *step* premise, not
 the *anchor*. Together they are inconsistent with the heap-verdict being sharp and bivalent —
-which is the work of argument-sorites-paradox.
+which is the work of [sorites-paradox](../arguments/sorites-paradox.md).

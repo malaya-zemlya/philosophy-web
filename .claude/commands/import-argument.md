@@ -33,7 +33,7 @@ approve** (Phase 1 is read-only).
    `argument` with `attacks`; a reply is one with `responds_to` — do not invent new types).
 6. **Grep-before-create for every part.** `grep -ri "<key phrase>" web/`, read the closest
    hits, and decide cite-by-id vs create-new for each. Show me the cite-vs-create plan before
-   writing. For each new node, prepare the `Distinct from <id> because …` line.
+   writing. For each new node, prepare the `Distinct from [[<id>]] because …` line.
 7. **Attribution.** If the argument is from literature: create or cite a `source` node
    (`author` = who added it, normally `mishka`; `title` = `Author — Work (year)`), and set the
    imported claim/argument nodes' `author` to the **cited philosopher** as a named human (e.g.
@@ -49,7 +49,8 @@ approve** (Phase 1 is read-only).
    file and check the move fits its Form); omit it only if none genuinely fits. `pattern` is a
    reference into `patterns/`, not an edge. If the argument is an objection whose target cites a
    pattern, identify which **critical question** of that pattern it raises and name it in the
-   body's first line. Edges are outgoing-only and reference ids (no backlinks — lint computes those).
+   body's first line. Edges are outgoing-only and reference ids (no backlinks — lint computes those);
+   in body prose, cite other nodes with the `[[id]]` shorthand (lint renders the clickable link).
 9. If a new node is close to an existing one and you are unsure they differ, create it **and**
    flag the pair for `/reconcile` — never silently merge or reword another author's node.
 

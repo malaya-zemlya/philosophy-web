@@ -15,28 +15,28 @@ created: 2026-06-04
 inference form: prudential / practical (a policy under uncertainty), with an abductive core about
 what gameable signs indicate. NOT a metaphysical argument — "caution, not metaphysics."
 
-1. (claim-rights-criterion-will-be-gamed) Any behavioural sign made the public criterion for rights
-   will be optimised against until it no longer tracks suffering (concept-criterion-gaming;
-   source-goodhart, source-specification-gaming, source-gambarian §2).
-2. (claim-forgeable-sign-unfit-as-criterion) A cheaply-forgeable sign is therefore unfit to bear
+1. ([rights-criterion-will-be-gamed](../claims/rights-criterion-will-be-gamed.md)) Any behavioural sign made the public criterion for rights
+   will be optimised against until it no longer tracks suffering ([criterion-gaming](../concepts/criterion-gaming.md);
+   [goodhart](../sources/goodhart.md), [specification-gaming](../sources/specification-gaming.md), [gambarian](../sources/gambarian.md) §2).
+2. ([forgeable-sign-unfit-as-criterion](../claims/forgeable-sign-unfit-as-criterion.md)) A cheaply-forgeable sign is therefore unfit to bear
    the weight of moral standing as a criterion.
-3. (claim-biology-currently-unforgeable) Biology cannot, for now, be counterfeited to that
+3. ([biology-currently-unforgeable](../claims/biology-currently-unforgeable.md)) Biology cannot, for now, be counterfeited to that
    standard.
-∴ (claim-prudence-favors-flesh-criterion) Prudence favours resting moral standing on
+∴ ([prudence-favors-flesh-criterion](../claims/prudence-favors-flesh-criterion.md)) Prudence favours resting moral standing on
    currently-unforgeable biology and placing the burden of proof on the non-biological mind.
 
-It `attacks` argument-behavioral-parity at its premise (2): if the behavioural profile is
+It `attacks` [behavioral-parity](behavioral-parity.md) at its premise (2): if the behavioural profile is
 optimised against, displaying it is no longer *best explained* by realising the underlying role —
 the abduction's evidential link is what gaming corrodes.
 
-weakest premise: **premise 2** (claim-forgeable-sign-unfit-as-criterion). The false-positive /
+weakest premise: **premise 2** ([forgeable-sign-unfit-as-criterion](../claims/forgeable-sign-unfit-as-criterion.md)). The false-positive /
 base-rate reply concedes the sign is forgeable yet denies this makes it worthless evidence
 (fingerprints can be forged). So the step from "gameable" to "disqualified as criterion" is the
 soft point.
 
-recorded limitation (why claim-prudence-favors-flesh-criterion is `contested`): the premises favour
+recorded limitation (why [prudence-favors-flesh-criterion](../claims/prudence-favors-flesh-criterion.md) is `contested`): the premises favour
 *unforgeability*, not *flesh*. Biology wins only contingently (premise 3 is time-indexed), so this
-does not establish position-proteocentrism; a non-biological unforgeable sign would displace flesh.
+does not establish [proteocentrism](../positions/proteocentrism.md); a non-biological unforgeable sign would displace flesh.
 The source flags this as the companion move "Unforgeability Is Not Flesh" — a separate argument
 not yet imported (candidate for a future /import-argument).
 

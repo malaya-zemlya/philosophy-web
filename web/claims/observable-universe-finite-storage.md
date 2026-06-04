@@ -18,7 +18,7 @@ larger than this bound may still be coherently *describable*).
 
 who would deny it: someone rejecting the holographic/Bekenstein bound, or appealing to an infinite
 or unboundedly large universe beyond the observable horizon. For the argument that uses it
-(argument-lookup-table-physical-impossibility) the exact figure is immaterial — any bound below ~10^1000
+([lookup-table-physical-impossibility](../arguments/lookup-table-physical-impossibility.md)) the exact figure is immaterial — any bound below ~10^1000
 suffices, and 10^120 is conservative.
 
 Distinct from claims about minds or computation: this is a fact about physical storage capacity,

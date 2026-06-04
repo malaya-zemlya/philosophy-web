@@ -13,12 +13,12 @@ person's psychology with another's, no single small change (one memory, one beli
 disposition) can be the step at which the subject stops being themselves.
 
 scope: a claim about the insensitivity of the identity-verdict to a unit psychological change, not
-about what identity consists in. It is the personal-identity analogue of claim-sorites-tolerance,
-and the premise that drives the gradual-rewiring instance of concept-continuity-argument-schema
+about what identity consists in. It is the personal-identity analogue of [sorites-tolerance](sorites-tolerance.md),
+and the premise that drives the gradual-rewiring instance of [continuity-argument-schema](../concepts/continuity-argument-schema.md)
 (cf. Parfit's spectra in *Reasons and Persons*).
 
 who would deny it: a defender of a sharp, all-or-nothing criterion of personal identity (the
 discontinuity horn — there is some replacement at which "me" determinately becomes "not-me").
 
-Distinct from claim-sorites-tolerance: same step-insensitivity form, different domain (`X` =
+Distinct from [sorites-tolerance](sorites-tolerance.md): same step-insensitivity form, different domain (`X` =
 psychological configurations under one-connection edits) and verdict-space (`Y` = {me, not-me}).

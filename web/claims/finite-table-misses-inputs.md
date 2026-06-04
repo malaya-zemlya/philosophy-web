@@ -20,11 +20,11 @@ scope: A near-combinatorial point about *finite* stored maps versus an unbounded
 does NOT assert that minds are infinite, nor that no large table is practically adequate — only
 that, for any fixed finite table, some inputs fall outside it. It is silent on whether those
 uncovered inputs are ones a real, finite-lifetime mind would ever actually receive (that is the
-contested bridge — see claim-mind-handles-unbounded-inputs).
+contested bridge — see [mind-handles-unbounded-inputs](mind-handles-unbounded-inputs.md)).
 
 who would deny it: essentially no one as stated; the dispute is not here but at the asymmetry
 premise (whether a mind does better on the uncovered inputs).
 
-Distinct from claim-lookup-table-possible (which asserts a finite table CAN match a mind's full
+Distinct from [lookup-table-possible](lookup-table-possible.md) (which asserts a finite table CAN match a mind's full
 behavioural profile): this claim is the combinatorial fact that motivates denying that one — it
 identifies the inputs on which a finite table must fall short.

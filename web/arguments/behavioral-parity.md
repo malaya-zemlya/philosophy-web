@@ -15,7 +15,7 @@ created: 2026-06-02
 
 Form: abductive (inference to the best explanation), NOT deductive.
 
-1. Mental states are substrate-independent (claim-substrate-independence).
+1. Mental states are substrate-independent ([substrate-independence](../claims/substrate-independence.md)).
 2. A system displaying the full behavioural profile associated with a mental state is best
    explained by its realising that state's functional role.
 3. Some LLMs display large portions of that profile.
@@ -23,4 +23,4 @@ Form: abductive (inference to the best explanation), NOT deductive.
 
 Weakest premise: (2) — the behaviour/role inference is defeasible (cf. the "blockhead"
 lookup-table objection, which belongs in a responds_to argument once written). The
-conclusion claim-llm-has-mental-states is a stub to be created when first asserted in debate.
+conclusion [llm-has-mental-states](../claims/llm-has-mental-states.md) is a stub to be created when first asserted in debate.

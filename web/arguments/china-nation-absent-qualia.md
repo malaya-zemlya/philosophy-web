@@ -16,27 +16,27 @@ inference form: counterexample / absent-qualia intuition pump. A single case rea
 functional organisation while (intuitively) lacking phenomenal consciousness refutes "functional
 organisation ⟹ phenomenal consciousness."
 
-1. (claim-chinese-nation-realises-organisation) The Chinese Nation realises a mind's full
+1. ([chinese-nation-realises-organisation](../claims/chinese-nation-realises-organisation.md)) The Chinese Nation realises a mind's full
    functional-causal organisation, not merely its behaviour.
-2. (claim-chinese-nation-lacks-qualia) Yet there is nothing it is like to be the nation.
+2. ([chinese-nation-lacks-qualia](../claims/chinese-nation-lacks-qualia.md)) Yet there is nothing it is like to be the nation.
 ∴ Realising the functional organisation is not sufficient for phenomenal consciousness — positive
-   reason for claim-phenomenal-residue (role under-determines the phenomenal) and a counterexample
-   to the uniform, phenomenal-covering reading of claim-substrate-independence.
+   reason for [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) (role under-determines the phenomenal) and a counterexample
+   to the uniform, phenomenal-covering reading of [substrate-independence](../claims/substrate-independence.md).
 
-what makes this different from the lookup table (argument-lookup-table-objection): that case lacks
+what makes this different from the lookup table ([lookup-table-objection](lookup-table-objection.md)): that case lacks
 organisation and so threatens only behaviourism — an organisational functionalist excludes it
 cheaply. THIS case *grants* the organisation, so it cannot be excluded that way; it bears on
 functionalism proper, about *qualia* rather than *behaviour-as-evidence*. The two Block cases attack
 different sufficiency claims and meet different replies.
 
-weakest premise: **premise 2** (claim-chinese-nation-lacks-qualia). It rests on an absent-qualia
+weakest premise: **premise 2** ([chinese-nation-lacks-qualia](../claims/chinese-nation-lacks-qualia.md)). It rests on an absent-qualia
 intuition that the *systems reply* (Lycan, Dennett) rejects — holding the nation-as-a-whole is a
 subject though no citizen is — and that the functionalist would deflate as a mere artefact of our concepts
-(argument-gap-deflated-by-phenomenal-concepts). That systems-reply rebuttal is the natural next
+([gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md)). That systems-reply rebuttal is the natural next
 node; until it is written, the claim stands as Block's premise, flagged here as the soft point.
 
-Distinct from argument-dense-china-brain-regress: that takes the China-brain one level up,
-*against the organisational-grain reply* (argument-organisational-grain-dissolves-dilemma), to argue the grain faces a liberal/chauvinist dilemma
-(claim-organisational-grain-faces-own-grain-dilemma). This is the prior, classical absent-qualia
+Distinct from [dense-china-brain-regress](dense-china-brain-regress.md): that takes the China-brain one level up,
+*against the organisational-grain reply* ([organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md)), to argue the grain faces a liberal/chauvinist dilemma
+([organisational-grain-faces-own-grain-dilemma](../claims/organisational-grain-faces-own-grain-dilemma.md)). This is the prior, classical absent-qualia
 objection: organisation present, qualia absent, therefore organisation insufficient. Distinct from
-argument-explanatory-gap, which runs via conceivability/zombies rather than a realised case.
+[explanatory-gap](explanatory-gap.md), which runs via conceivability/zombies rather than a realised case.

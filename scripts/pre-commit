@@ -10,3 +10,8 @@ ROOT="$(git rev-parse --show-toplevel)"
 uv run --with pyyaml python "$ROOT/scripts/lint.py" || {
   echo "philosophy-web: integrity check failed — commit aborted."; exit 1; }
 git add "$ROOT/web/INDEX.md"   # keep the generated index in sync
+# lint also re-renders [[id]] -> clickable links in bodies/transcripts; re-stage any file
+# already part of this commit that it just rewrote (leaves unstaged files untouched).
+git diff --cached --name-only | while read -r f; do
+  [ -n "$f" ] && git add -- "$ROOT/$f"
+done

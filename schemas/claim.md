@@ -24,8 +24,8 @@ commits_to, rejects, holds. A claim is argued *about*, never argues.
 ## Body
 - gloss: 1–2 sentences restating the proposition precisely
 - scope: what it does and does NOT assert
-- who would deny it (often a `position` id)
-- if near an existing claim: `Distinct from <id> because …`
+- who would deny it (often a `position`, cited in prose as `[[position-...]]`)
+- if near an existing claim: `Distinct from [[<id>]] because …`
 
 ## Invariants
 - ATOMIC. Title is a single proposition; split any "X and Y".

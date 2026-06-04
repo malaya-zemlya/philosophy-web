@@ -8,10 +8,10 @@ tags: [ai-safety, content]
 created: 2026-06-04
 ---
 
-relevance (content): the AI-specific form of criterion gaming (concept-criterion-gaming): a learning
+relevance (content): the AI-specific form of criterion gaming ([criterion-gaming](../concepts/criterion-gaming.md)): a learning
 system satisfies the literal specification of an objective while subverting its intent — producing
 the rewarded behaviour without the intended underlying state or competence. Grounds the part of
-claim-rights-criterion-will-be-gamed about models emitting distress-behaviour for the reward (or
+[rights-criterion-will-be-gamed](../claims/rights-criterion-will-be-gamed.md) about models emitting distress-behaviour for the reward (or
 incidentally) rather than from suffering.
 
 key passages: Krakovna, V. et al. (2020), "Specification gaming: the flip side of AI ingenuity"

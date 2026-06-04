@@ -12,7 +12,7 @@ presupposes: []
 created: 2026-06-04
 ---
 
-Form: application of concept-continuity-argument-schema to personal identity, selecting a horn.
+Form: application of [continuity-argument-schema](../concepts/continuity-argument-schema.md) to personal identity, selecting a horn.
 `X` = a connected spectrum of psychological configurations from one person to another (e.g.
 gradually rewiring a psychology into Greta Garbo's), joined by one-connection edits; `Y` =
 {me, not-me}.
@@ -20,14 +20,14 @@ gradually rewiring a psychology into Greta Garbo's), joined by one-connection ed
 1. At the start of the series the subject is determinately themselves; at the far end they are
    determinately someone else. (the endpoints differ — `f` is not constant)
 2. No single one-connection edit is the step at which they stop being themselves.
-   (claim-psychological-rewiring-tolerance — tolerance; the verdict makes no jump across an
+   ([psychological-rewiring-tolerance](../claims/psychological-rewiring-tolerance.md) — tolerance; the verdict makes no jump across an
    admissible step)
 3. The series is a connected path of such edits (`X` connected).
 ∴ A discrete, bivalent identity-verdict cannot be maintained: by the schema, the verdict must
-   instead come in *degrees* — claim-personal-identity-admits-of-degree.
+   instead come in *degrees* — [personal-identity-admits-of-degree](../claims/personal-identity-admits-of-degree.md).
 
 Which horn it takes: the *non-discrete-`Y` (degree)* horn — explicitly, in contrast with the
-horn-neutral argument-sorites-paradox. Parfit's diagnosis is not that there is a hidden sharp
+horn-neutral [sorites-paradox](sorites-paradox.md). Parfit's diagnosis is not that there is a hidden sharp
 boundary (discontinuity) nor a mere truth-value gap (indeterminacy) but that identity genuinely
 holds to a degree.
 

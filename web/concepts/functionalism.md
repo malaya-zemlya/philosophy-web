@@ -17,4 +17,4 @@ senses:
 - analytic/commonsense functionalism: roles fixed by folk-psychological platitudes
 
 Contested point relevant here: whether functional roles can be multiply realised in
-non-biological substrates (see claim-substrate-independence).
+non-biological substrates (see [substrate-independence](../claims/substrate-independence.md)).

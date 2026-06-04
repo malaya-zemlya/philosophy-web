@@ -21,5 +21,5 @@ supervaluationists / indeterminists (some cases lack a fact of the matter — `f
 deflationists (no real heap/non-heap distinction — `f` constant). Only the epistemicist *keeps*
 this claim, by paying for it with an unknowable sharp boundary.
 
-Distinct from claim-sorites-tolerance: that is the step-insensitivity premise; this is the target
-the sorites refutes. argument-sorites-paradox attacks this claim using tolerance.
+Distinct from [sorites-tolerance](sorites-tolerance.md): that is the step-insensitivity premise; this is the target
+the sorites refutes. [sorites-paradox](../arguments/sorites-paradox.md) attacks this claim using tolerance.

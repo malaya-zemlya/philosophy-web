@@ -6,8 +6,14 @@ description: "The schema and write discipline for the philosophy web. Use whenev
 # Web protocol
 
 Every node is one Markdown file with YAML frontmatter + a prose body. Filename is a **slug**;
-frontmatter carries a stable **id**. Edges reference other nodes **by id**, so renaming a
-file never breaks an edge (resolve id→path by grep, or use `scripts/lint.py`).
+frontmatter carries a stable **id**. References live in two layers:
+- **Frontmatter edges reference other nodes by id** (the machine layer `scripts/lint.py` reads),
+  so renaming a file never breaks an edge (lint resolves id→path from frontmatter; the slug
+  usually matches the filename but need not).
+- **Body and transcript prose reference nodes with the `[[id]]` shorthand**, which `lint.py`
+  renders into a clickable relative Markdown link `[slug](relpath)` and keeps fresh. Like the
+  computed backlinks, these links are *derived* — author the `[[id]]`, never hand-write the link.
+  Use `[[id|your label]]` when you want custom link text.
 
 ## Universal frontmatter (every node)
 ```yaml
@@ -80,13 +86,18 @@ character.** Its body is written from a neutral standpoint and **must not name a
 ## The grep-before-create rule (non-negotiable)
 Before creating a node:
 1. `grep -ri "<2-3 key phrases>" web/` and read the closest hits.
-2. If an equivalent exists → cite its id. Done.
+2. If an equivalent exists → cite it: by id in a frontmatter edge, and/or as `[[id]]` in prose. Done.
 3. If genuinely new → create it, and in the body add a line:
-   `Distinct from <id> because …`
+   `Distinct from [[<id>]] because …`
 This single discipline prevents the fragmentation that makes the graph unusable at
 treatise-writing time. When unsure whether two claims are the same, create the new one
 **and** flag the pair for `/reconcile` rather than silently merging.
 
-## Citing in transcripts
-In dialogue prose, reference nodes with `[[id]]`. The transcript stays human-readable and
-the references stay greppable.
+## Citing nodes in prose (bodies and transcripts)
+In any prose — a node's body or a transcript — reference another node with the `[[id]]` shorthand
+(e.g. `[[claim-substrate-independence]]`, or `[[claim-substrate-independence|substrate
+independence]]` for custom text). Do **not** hand-write the Markdown link: `scripts/lint.py`
+renders `[[id]]` into a clickable `[slug](relpath)` link and refreshes it on every run, so a reader
+browsing on GitHub can click straight through to the target. References stay greppable — by slug
+and path in the rendered link, and by full id in the frontmatter edges. Frontmatter edges always
+stay bare ids; only prose gets links.

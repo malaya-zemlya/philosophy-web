@@ -14,18 +14,18 @@ created: 2026-06-03
 ---
 
 Form: constructive dilemma by a Block-style "build a better one" construction, taking up the
-organisational-role functionalist's own clause (iii). It concedes claim-role-grain-is-organisational
-names a genuine third option the grain dilemma (argument-role-grain-dilemma) did not (withdrawing the
+organisational-role functionalist's own clause (iii). It concedes [role-grain-is-organisational](../claims/role-grain-is-organisational.md)
+names a genuine third option the grain dilemma ([role-grain-dilemma](role-grain-dilemma.md)) did not (withdrawing the
 suggestion that "fine-grained" must mean "biological"), then shows the middle inherits its own version
 of the dilemma.
 
-1. argument-organisational-grain-dissolves-dilemma excludes the China-brain by saying its residents
+1. [organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md) excludes the China-brain by saying its residents
    realise gross I/O *without* the dense intra-system counterfactual dependencies a mind requires.
 2. Build a better China-brain: let each of the billion citizens implement, by hand and semaphore,
    one node of the target's counterfactual transition-structure, with every conditional honoured
    (had node *i* been in state *s′*, node *j* would have gone to *t′*, and the drill enforces it).
    This is, *by construction*, an instance of the transition-structure of
-   claim-role-grain-is-organisational, realised in people-and-paper — not a flat lookup map.
+   [role-grain-is-organisational](../claims/role-grain-is-organisational.md), realised in people-and-paper — not a flat lookup map.
 3. **Horn A — it has a mind.** Then the organisational grain has readmitted precisely the absurdity
    it was advertised to exclude; horn 1 of the original dilemma is not escaped but *relocated*. The
    blockhead worry was never about lookup tables specifically — lookup was its crudest instance; the
@@ -45,9 +45,9 @@ of the dilemma.
    it is like, so it cannot by itself adjudicate the case where what-it-is-like is the whole
    question.
 ∴ The organisational grain either readmits the blockhead (Horn A) or smuggles sub-organisational
-   features back in (Horn B): claim-organisational-grain-faces-own-grain-dilemma. So
-   argument-organisational-grain-dissolves-dilemma has not shown the middle sufficient for the
-   phenomenal, and claim-role-grain-is-organisational does not exclude the blockhead on grounds that
+   features back in (Horn B): [organisational-grain-faces-own-grain-dilemma](../claims/organisational-grain-faces-own-grain-dilemma.md). So
+   [organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md) has not shown the middle sufficient for the
+   phenomenal, and [role-grain-is-organisational](../claims/role-grain-is-organisational.md) does not exclude the blockhead on grounds that
    are organisational all the way down.
 
 Weakest premise: (2) — that the semaphore-nation genuinely *is* an instance of the transition-
@@ -57,7 +57,7 @@ provably lacks while genuine realisers have
 it — and do so without covertly invoking speed/medium/glue — that is the (c)-style move (exclusion
 "organisational all the way down") that retracts this thrust.
 
-Distinct from argument-role-grain-dilemma because that ran over coarse-vs-biological-fine grains and
+Distinct from [role-grain-dilemma](role-grain-dilemma.md) because that ran over coarse-vs-biological-fine grains and
 was answered by the organisational middle; this attacks *that middle itself*, one level up, via the
-dense-China-brain construction. Distinct from argument-explanatory-gap because that grants a fixed
+dense-China-brain construction. Distinct from [explanatory-gap](explanatory-gap.md) because that grants a fixed
 role and presses what role leaves out, whereas this attacks the individuation of the proposed role.

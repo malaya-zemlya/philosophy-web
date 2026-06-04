@@ -21,7 +21,10 @@ One utterance is not one node.
    from the closest existing one.
 2. **Edges are one-directional and reference nodes by `id`.** The *attacking/supporting/
    citing* node owns the edge. Never store the reverse ("supported-by", "attacked-by") —
-   backlinks are **computed** by `scripts/lint.py`, never hand-maintained.
+   backlinks are **computed** by `scripts/lint.py`, never hand-maintained. The same goes for
+   **prose**: cite another node with the `[[id]]` shorthand in bodies and transcripts; lint
+   renders it into a clickable `[slug](relpath)` link (derived data — never hand-write the link).
+   Only frontmatter edges carry bare ids.
 3. **Provenance is mandatory.** Every node has an `author`. For content nodes (claim,
    concept, argument, question, position) the author is **never a character** — it is a real
    philosopher/scientist with an established association (e.g. `block`), `generic` for a
@@ -57,8 +60,12 @@ uv pip install pyyaml        # one-time: install the only dependency
 ```
 
 Equivalently, `uv run --with pyyaml python scripts/lint.py` runs it without a persisted venv.
-The linter rewrites `web/INDEX.md` (computed backlinks + answer lists) and prints any integrity
-issues; run it after every debate turn and before committing.
+The linter rewrites `web/INDEX.md` (computed backlinks + answer lists), **renders the `[[id]]`
+prose shorthand in node bodies and transcripts into clickable `[slug](relpath)` links** (and
+refreshes existing ones), and prints any integrity issues; run it after every debate turn and
+before committing. Because it rewrites bodies, treat the rendered links as generated output — edit
+the `[[id]]` shorthand, not the link. `scripts/lint.py --check` reports pending changes without
+writing (for CI / pre-commit dry runs). The id↔link machinery lives in `scripts/weblinks.py`.
 
 ## A character's turn (summary)
 Read your persona → read `web/characters/<you>.md` → read the relevant slice of `web/` and

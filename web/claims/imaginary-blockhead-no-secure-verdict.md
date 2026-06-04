@@ -24,7 +24,7 @@ who would deny it: Block and anyone treating the no-mind verdict as a reliable c
 rather than a mere imaginative reaction — for whom the toaster-grade internals settle the matter
 regardless of realizability.
 
-Distinct from claim-lookup-table-lacks-mind: that asserts the verdict (no mental states); this
+Distinct from [lookup-table-lacks-mind](lookup-table-lacks-mind.md): that asserts the verdict (no mental states); this
 undercuts the *evidential warrant* for that very verdict in the physically-impossible case. Distinct
-from claim-lookup-table-physically-unrealisable: that is the physical horn; this is the conceptual
-horn of argument-blockhead-dilemma.
+from [lookup-table-physically-unrealisable](lookup-table-physically-unrealisable.md): that is the physical horn; this is the conceptual
+horn of [blockhead-dilemma](../arguments/blockhead-dilemma.md).

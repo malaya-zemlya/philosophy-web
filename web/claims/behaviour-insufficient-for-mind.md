@@ -9,8 +9,8 @@ uses_concept: [concept-lookup-table-mind, concept-grain]
 created: 2026-06-04
 ---
 
-gloss: Since a lookup table can match the whole behavioural profile (claim-lookup-table-possible)
-yet lack mind (claim-lookup-table-lacks-mind), behaviour cannot be sufficient for mental states: the
+gloss: Since a lookup table can match the whole behavioural profile ([lookup-table-possible](lookup-table-possible.md))
+yet lack mind ([lookup-table-lacks-mind](lookup-table-lacks-mind.md)), behaviour cannot be sufficient for mental states: the
 profile is silent on the internal organisation that does the individuating work.
 
 scope: A claim about *sufficiency*, and thereby about evidential force: if behaviour is compatible
@@ -21,6 +21,6 @@ evidence, nor that any particular system lacks mind.
 who would deny it: a pure-input-output (machine-table) functionalist or behaviourist for whom the
 profile just is the having of the state.
 
-Distinct from claim-substrate-independence (about whether substrate matters) and from
-claim-role-grain-is-organisational (about which grain individuates): this is the prior, more
+Distinct from [substrate-independence](substrate-independence.md) (about whether substrate matters) and from
+[role-grain-is-organisational](role-grain-is-organisational.md) (about which grain individuates): this is the prior, more
 general point that the *behavioural* grain is too coarse to be sufficient at all.
