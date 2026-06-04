@@ -57,3 +57,5 @@ question — the claim it `concludes`/`supports` answers it.
 - [ ] has at least one of concludes/supports/attacks/responds_to (lint rejects otherwise)
 - [ ] every premise is an existing claim id
 - [ ] inference form + weakest premise stated in body
+- [ ] `pattern:` set to the best-fitting `patterns/` scheme (or deliberately omitted because none fits)
+- [ ] if attacking a target that cites a pattern, named the critical question raised in the body

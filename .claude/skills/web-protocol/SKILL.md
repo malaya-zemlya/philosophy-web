@@ -46,6 +46,15 @@ Those are backlinks — `scripts/lint.py` computes them and writes `web/INDEX.md
   Keep it atomic; if you're tempted to write "X and Y", make two claims.
 - **argument** — `premise`(s) + `concludes`, or `supports`/`attacks`/`responds_to`. Body
   states the inference form (deductive/abductive/analogy) and the weakest premise.
+  **Always set the `pattern:` field** when the move fits a named scheme: pick the best match from
+  `patterns/` (`expert-opinion`, `analogy`, `cause-to-effect`, `consequences`, `sign`, `example`,
+  `thought-experiment`) — read that pattern file and confirm the move's premises/conclusion line
+  up with its **Form** before committing to it. `pattern` is a *reference* into `patterns/`, **not
+  an edge** (don't list it with the edges above; it points to a filename, not a node id, and lint
+  computes no backlink from it). If no pattern genuinely fits, omit it rather than forcing one.
+  When the argument *attacks* a target that itself cites a pattern, prefer the attack the pattern
+  invites: name the **critical question** you raise in the first line of the body (e.g.
+  `Raises thought-experiment CQ4 (bridge): …`) and aim the `attacks` edge at what that CQ targets.
 - **question** — the IBIS *issue*. Minimal: just the question + tags. Candidate answers are
   found by backlink (nodes with `answers: <this id>`), not listed here by hand.
 - **position** — a named view (e.g. proteocentrism) independent of any character.

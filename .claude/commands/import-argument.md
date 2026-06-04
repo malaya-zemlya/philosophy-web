@@ -44,8 +44,12 @@ approve** (Phase 1 is read-only).
 8. Create nodes in this order: **concepts → premise claims → conclusion claim → argument
    node.** Schema invariant: every `premise` must already exist as a claim id before the
    argument references it. Keep claims atomic (no "and"/"or" joining two propositions). The
-   argument body must state the inference form and name the weakest premise. Edges are
-   outgoing-only and reference ids (no backlinks — lint computes those).
+   argument body must state the inference form and name the weakest premise. **Set the
+   argument's `pattern:` field** to the best-matching scheme in `patterns/` (read the candidate
+   file and check the move fits its Form); omit it only if none genuinely fits. `pattern` is a
+   reference into `patterns/`, not an edge. If the argument is an objection whose target cites a
+   pattern, identify which **critical question** of that pattern it raises and name it in the
+   body's first line. Edges are outgoing-only and reference ids (no backlinks — lint computes those).
 9. If a new node is close to an existing one and you are unsure they differ, create it **and**
    flag the pair for `/reconcile` — never silently merge or reword another author's node.
 
