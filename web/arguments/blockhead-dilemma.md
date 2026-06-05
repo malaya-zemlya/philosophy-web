@@ -12,21 +12,36 @@ uses_concept: [concept-lookup-table-mind]
 created: 2026-06-04
 ---
 
-inference form: constructive dilemma. The blockhead must be read either as a physical system or as a
-merely conceivable one; each reading deprives [lookup-table-objection](lookup-table-objection.md) of its force.
+inference form: constructive dilemma. Block's objection rests on its being *obvious* that a lookup
+table mapping every input of a mind to the right output is not itself conscious; this argument
+presses that "obviously" is carrying more weight than it can bear. The blockhead must be read either
+as a real physical object or as a merely conceivable one; on neither reading does the no-mind verdict
+survive, so [lookup-table-objection](lookup-table-objection.md) is deprived of its force.
 
-1. Physical horn. If the blockhead is a physical lookup table, it cannot exist
-   ([lookup-table-physically-unrealisable](../claims/lookup-table-physically-unrealisable.md)) — and a fortiori in Block's own setting, a table
-   bounded to a *human lifetime* of inputs is larger still than the LLM case (more varied inputs,
-   far longer sequence; see [lookup-table-size-exponential](../claims/lookup-table-size-exponential.md)). So there is no actual system to
-   point at, and the "no mind" reaction is pumped by an object that could never be instantiated.
-2. Conceptual horn. If the blockhead is merely conceivable, the "no mind" verdict
+1. **Physical horn — and the "inert filing cabinet" picture that makes "obviously not conscious"
+   feel safe is an illusion of not having thought about size.** As a physical object the table cannot
+   exist: it needs ~`v^n` rows, one per distinguishable input ([lookup-table-size-exponential](../claims/lookup-table-size-exponential.md)),
+   and packing that much information into any bounded region is forbidden by the Bekenstein/holographic
+   bound ([observable-universe-finite-storage](../claims/observable-universe-finite-storage.md)) — past a threshold the matter required simply
+   collapses into a black hole ([lookup-table-physically-unrealisable](../claims/lookup-table-physically-unrealisable.md)). Moreover, the only way
+   even to *approach* the required scale is to marshal cosmic quantities of matter — the kind that,
+   left to physics, condenses into galaxies, ignites stars, forms planets, and in some corner gives
+   rise to conscious life. So there is no inert object to point at; the nearest thing answering the
+   specification is a life-bearing cosmos, and the "no mind" reaction was pumped by a picture that
+   quietly ignored its own scale. (A fortiori for Block's own lifetime-bounded *human* table, larger
+   still — richer inputs, far longer sequences; see [lookup-table-size-exponential](../claims/lookup-table-size-exponential.md).)
+2. **Conceptual horn — if instead the table is granted as purely imaginary, "obviously not
+   conscious" is no longer a fact about anything; it is a bare intuition, and intuition cuts both
+   ways.** Taken only as a conceivable abstract object, the "no mind" verdict
    ([lookup-table-lacks-mind](../claims/lookup-table-lacks-mind.md)) is not compelled ([imaginary-blockhead-no-secure-verdict](../claims/imaginary-blockhead-no-secure-verdict.md)):
-   imagining a cosmic abstract object underdetermines whether it is a subject, and conceivability is
-   symmetric — one can equally imagine it conscious.
-∴ On neither reading does the objection secure its conclusion: physically there is no case, and
-   conceptually the case yields no forced verdict. The intuition pump behind premise (2) of
-   [lookup-table-objection](lookup-table-objection.md) ([lookup-table-lacks-mind](../claims/lookup-table-lacks-mind.md)) is therefore disarmed.
+   conceivability is symmetric. Horn 1 has already furnished the opposite intuition — a substrate so
+   vast it teems with minds. One party is free to imagine the table as dead; another is equally free
+   to imagine it as alive; and neither can convict the other's picture of absurdity. Either way the
+   obviousness is gone.
+∴ On neither reading does the objection secure its conclusion: physically there is no inert object to
+   point at (and the nearest realisation is alive), and conceptually the case forces no verdict. The
+   intuition pump behind premise (2) of [lookup-table-objection](lookup-table-objection.md)
+   ([lookup-table-lacks-mind](../claims/lookup-table-lacks-mind.md)) is therefore disarmed.
 
 bearing on the targets: `attacks` [lookup-table-objection](lookup-table-objection.md) (and its premise
 [lookup-table-lacks-mind](../claims/lookup-table-lacks-mind.md)) by removing the intuition's warrant rather than by conceding behaviour
@@ -56,11 +71,16 @@ all (a competence gap), not the legitimacy of the intuition.
 
 The cheat-sheet machine objection — that a giant stored answer-table would behave like a mind yet
 obviously have nobody home ([lookup-table-objection](lookup-table-objection.md)) — leans on that "nobody home"
-feeling. This argument says the feeling can't carry the weight, whichever way you read the machine. Read it as a *real, physical* thing? It can't exist — the table
-is too vast for the universe to hold — so you're reacting to something that could never actually be
-built. Read it as a *merely imagined* thing? Then your "nobody home" verdict isn't forced: picturing
-a weird cosmic object doesn't settle whether there's experience inside, and you could just as easily
-imagine it *is* conscious. Either way the gut reaction doesn't deliver what the objection needs. (One
+feeling. This argument says the feeling can't carry the weight, whichever way you read the machine. Read it as
+a *real, physical* thing? It can't exist — cram that many stored answers into any region of space and
+the sheer mass collapses into a black hole before you're done. And the only way even to get close to
+the needed scale is to pile up cosmic amounts of matter, which does what matter always does: clumps
+into stars and planets and, in some corner, living, thinking creatures. So the closest real thing to
+the "mindless filing cabinet" is a universe full of minds — the "obviously dead" picture only looked
+safe because nobody pictured its actual size. Read it as a *merely imagined* thing instead? Then
+"nobody home" is just a hunch, and hunches cut both ways: the picture from a moment ago — a table so
+vast it teems with life — is the opposite hunch. You can imagine it dead; someone else can imagine it
+alive; neither of you can call the other absurd. Either way the obviousness is gone. (One
 worry about this move: if we distrust hunches about far-out imaginary minds, do we also lose the
 friendly hunch that a silicon copy of a brain would be conscious? The reply: no — that copy is a
 close cousin of a real brain, while the cosmic table is wildly unlike anything we've ever judged, so
