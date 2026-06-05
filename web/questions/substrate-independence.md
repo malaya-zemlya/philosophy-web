@@ -28,3 +28,12 @@ Key terms to pin down:
 Sub-issues that may deserve their own question nodes: whether phenomenal consciousness is
 separable from functional organisation; whether multiple-realisability entails
 substrate-independence.
+
+### In plain terms
+
+Could a mind be made of something other than brain-stuff? That's the question. "Substrate" just
+means what a thing is built from. The issue isn't whether a machine *acts* mind-like — it's whether
+being a mind depends on the material at all, or only on the pattern of cause-and-effect that the
+material happens to carry out. If minds do depend on the material, then no amount of acting human
+ever gets a computer there. If they don't, the door is open — though actually showing that some
+particular machine has a mind would still be a further step.

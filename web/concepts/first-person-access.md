@@ -27,3 +27,13 @@ species of acquaintance (cf. [dancing-qualia-presupposes-functional-introspectio
 passing; it is about access to *one's own* states, the asymmetry of which is exploited in two
 directions (for an asymmetry in [first-person-access](../arguments/first-person-access.md); against it in
 [access-symmetry-rebuttal](../arguments/access-symmetry-rebuttal.md)).
+
+### In plain terms
+
+There's a lopsidedness in how you know about minds. You know your *own* pain directly — you don't
+watch your own behavior and deduce "I must be in pain," you just feel it from the inside. But anyone
+else's pain you only ever know *indirectly*, from the outside: their wincing, their words, your best
+guess about them. That special, direct, inside knowledge of your own experience is what
+"first-person access" names. The debates it feeds ask: does that privileged inside view actually
+settle anything about who deserves moral consideration — and is your access to your *own* feelings
+itself something special, or just more of the mind's ordinary machinery?

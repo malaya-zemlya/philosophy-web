@@ -28,3 +28,16 @@ merely huge but infinite, so no finite lookup system actually matches a mind's f
 precisely because it has no internal organisation — so it threatens only behaviourism / pure
 input-output functionalism, not an organisation-based view. Contrast [chinese-nation](chinese-nation.md), which
 *has* the organisation and so is not so excluded.
+
+### In plain terms
+
+Picture a machine that acts exactly like a person but pulls it off by cheating: for every possible
+thing you could say to it, someone has pre-written the perfect reply in a gigantic table, and the
+machine just looks up your input and reads the stored answer back. No thinking, no reasoning, no
+inner steps — just an enormous answer key. That's the "lookup-table mind" (Block's "Blockhead"). It's
+a thought-experiment troublemaker: it would sail through any test that judges minds purely by
+behavior, yet intuitively there's nobody in there. So it sharpens the question — is producing the
+right behavior *enough* to count as having a mind, or could you get all the behavior with nobody
+home? (Two standard replies: to really keep up with a real, open-ended mind the table would have to
+be impossibly, near-infinitely large; and unlike a brain it has no inner organization at all, so it
+only embarrasses theories that judge minds by behavior alone.)

@@ -25,3 +25,14 @@ criterion for granting moral/legal standing to AI, given that any such published
 optimised against ([rights-criterion-will-be-gamed](../claims/rights-criterion-will-be-gamed.md), [rights-sign-forgeable](../arguments/rights-sign-forgeable.md),
 [llm-moral-status](../questions/llm-moral-status.md)). Gambarian ([gambarian](../sources/gambarian.md)) applies the point specifically to the AI
 consciousness discourse and the legal criteria it might fix.
+
+### In plain terms
+
+Announce the exact test that earns a reward, and people — or machines — start gaming the test
+instead of doing the real thing it was meant to measure. Then the test stops measuring it. Teachers
+"teaching to the test"; a team hitting its sales number by chasing the metric rather than actually
+selling. In AI this is called "reward hacking": the system does whatever literally scores points,
+even when that defeats the whole purpose. Why it matters here: if society ever picks some outward
+sign — say, "it acts distressed" — as the official test for granting an AI rights, that very sign
+becomes a thing worth faking, so it can stop being good evidence of real distress the moment it's
+made the rule.

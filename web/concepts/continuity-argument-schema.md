@@ -72,3 +72,23 @@ distinct from a first-order position on vagueness: this node does not assert epi
 theory, etc. It is the *frame* that shows those are the (only) options for any sorites-shaped puzzle.
 An argument that is an instance links here via `uses_concept` and states, in its own body, *which
 horn* it grabs and *why* the case is an instance.
+
+### In plain terms
+
+Lots of arguments share one shape: "you can't draw a sharp line, so the distinction must break
+down." Take a heap of sand — remove one grain and it's still a heap; repeat, and is there ever a
+single grain that turns it into a non-heap? The same shape shows up for the Ship of Theseus (swap
+its planks one at a time), for replacing your neurons one by one with computer chips, for slowly
+rewiring your personality into someone else's. This node is the master template behind all of them.
+Its useful trick: whenever you have a chain of tiny steps leading from one verdict to its opposite,
+it proves there are exactly **five** ways out, and no others:
+
+1. There's a hidden sharp line somewhere — one step really does flip it — even if we can never find it.
+2. The verdict isn't a flat yes/no but a matter of *degree*.
+3. Somewhere in the middle there's simply no fact of the matter.
+4. One of the "tiny" steps wasn't actually tiny — it carried the whole difference.
+5. The two ends were never really different to begin with.
+
+The template stays neutral — it doesn't tell you which door to take, it just guarantees those are
+the only doors. The real philosophical work is arguing over which one a given case forces you
+through.
