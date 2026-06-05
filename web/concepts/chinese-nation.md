@@ -30,3 +30,16 @@ genuinely realises the organisation. Note that organisational-role functionalism
 lookup table, since the organisation is
 present — which is exactly why it is sharpened into [dense-china-brain-regress](../arguments/dense-china-brain-regress.md) against the
 organisational grain.
+
+illustration (a literary cousin, for intuition only): Liu Cixin stages the same image in *The
+Three-Body Problem* ([liu-cixin](../sources/liu-cixin.md)). Inside the novel's VR game, von Neumann persuades the
+First Emperor Qin Shi Huang to turn his army into a machine: thirty million soldiers ranked across a
+plain, each small unit raising black-and-white flags as a logic gate, cavalry carrying the signals
+between formations — the whole array, "Qin I", computing the orbits of three suns. It is the
+China-*brain* rebuilt as a China-*CPU*: a population physically enacting the causal organisation of
+a higher-level system while no single soldier carries the computation. The pull is the one this
+concept turns on — if the parts implement the right transitions, is there anything *over and above*
+them? Caveat (kept so the illustration doesn't mislead): Liu's army simulates a *computer running a
+calculation*, whereas the Chinese Nation simulates the organisation of a *mind* and the live
+question is *phenomenal consciousness*, the harder property — so the novel sharpens the picture, not
+the argument.

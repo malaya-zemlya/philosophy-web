@@ -475,5 +475,8 @@
 ## [source-lem](sources/lem.md)
 - type: source | author: mishka | status: asserted
 
+## [source-liu-cixin](sources/liu-cixin.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-specification-gaming](sources/specification-gaming.md)
 - type: source | author: mishka | status: asserted
