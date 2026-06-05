@@ -11,10 +11,10 @@ your own contributions. Its current subject matter is the **philosophy of mind a
 above all, *what would it take for an artificial system to have a mind — or moral status?*
 
 > **Just want to explore the arguments?** Start at the one position node,
-> [proteocentrism](web/positions/proteocentrism.md), and click around. Every node opens with a
-> plain-language **"In plain terms"** explanation for newcomers, then links out to the claims it
-> commits to, the arguments that attack or support them, and onward through the web — no need to
-> read it in order.
+> [proteocentrism](web/positions/proteocentrism.md), and click around. Most nodes close with a
+> plain-language **"In plain terms"** explanation for newcomers — scroll to the end if the formal
+> statement is dense — and each links out to the claims it commits to, the arguments that attack or
+> support them, and onward through the web. No need to read it in order.
 
 ---
 
