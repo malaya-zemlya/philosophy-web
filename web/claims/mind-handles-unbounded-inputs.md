@@ -30,3 +30,11 @@ Distinct from [behaviour-insufficient-for-mind](behaviour-insufficient-for-mind.
 mind): this is the prior, factual claim that a finite table cannot even *match* an open-ended mind's
 behaviour. Distinct from [role-grain-is-organisational](role-grain-is-organisational.md) (which individuates by internal
 organisation): this individuates by I/O competence over an unbounded input space, not by internals.
+
+### In plain terms
+
+A real mind keeps up with an endless variety of new inputs — sentences and situations it has never
+met before — by actually working through their structure, not by recognizing them off a stored list.
+Hand it something longer or stranger than anything it's seen, and it can still answer sensibly, where
+a fixed table just draws a blank. (It doesn't claim minds are limitless — only that for any finite
+stored table, a mind can handle some inputs the table can't.)

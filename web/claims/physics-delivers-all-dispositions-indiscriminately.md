@@ -25,3 +25,13 @@ relevant subset is principled — see [functionalism-owes-decomposition-invarian
 
 Distinct from [functional-decomposition-relative](functional-decomposition-relative.md): that is about non-unique *carving*; this is
 about non-selective *inclusion* of dispositions even within a fixed carving.
+
+### In plain terms
+
+Physics doesn't tidily separate a thing's "thinking-relevant" powers from its other powers — the
+complete physical story of a brain bundles its weight, its warmth, and the squelch it makes when
+poked right in with the signal-passing. Nothing in the raw physics flags which bits are the
+mind-relevant ones. (Why it matters: if you had to count *all* of them, a silicon chip could never
+match a brain — chips don't squelch — so anyone who says "a mind just is its cause-and-effect
+structure" must be quietly keeping only *some* of that structure, and then owes you a rule for
+which.)

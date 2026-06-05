@@ -23,3 +23,11 @@ self-acquaintance; most parties grant it.
 Distinct from [dancing-qualia-presupposes-functional-introspection](dancing-qualia-presupposes-functional-introspection.md) because that concerns
 whether introspective access is *functional* in the supervenience debate; this claim only asserts
 that such direct self-access exists, taking no stand on its nature.
+
+### In plain terms
+
+You know your own experiences from the inside, directly — you don't have to watch your own behavior
+and deduce "I must be in pain," the way you'd guess at anyone else's state. This is just the modest,
+widely-accepted starting point that such direct self-knowledge exists. On its own it says nothing
+about morality, isn't claimed to be infallible, and doesn't say machines lack it — it's the
+uncontroversial first step other arguments build on.

@@ -38,3 +38,14 @@ would hold even if some other grain settled the phenomenal. Distinct from argume
 dilemma's content because that dilemma ran over coarse-vs-biological-fine and was answered by the
 organisational *middle*; this claim is the regress that returns the dilemma *one level up*, against
 that very middle — it is the conclusion the original dilemma's exhaustiveness premise was missing.
+
+### In plain terms
+
+Someone proposes that what makes a mind is its inner pattern of cause-and-effect
+([role-grain-is-organisational](role-grain-is-organisational.md)) — loose enough to allow silicon, strict enough to shut out a
+dumb cheat-sheet. This claim says that proposal gets caught in the very trap it tried to escape.
+Build a giant crowd that genuinely carries out that exact inner pattern by hand. Either it counts as
+having a mind — and now an absurd flag-waving crowd is conscious, the thing we wanted to rule out —
+or it doesn't, in which case the real difference must come from something *beneath* the pattern
+(speed, physical material), which quietly smuggles biology back in. So that "inner pattern" level
+isn't the clean middle ground it claimed to be.

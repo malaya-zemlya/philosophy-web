@@ -22,3 +22,10 @@ who would deny it: virtually no one as stated; the dispute is over what follows 
 
 Distinct from [acquaintance-necessary-for-moral-status-warrant](acquaintance-necessary-for-moral-status-warrant.md) because that supplies the
 necessity principle, whereas this supplies the factual premise that the principle is applied to.
+
+### In plain terms
+
+Whatever a machine may or may not feel inside, you have no direct line to it — you can only guess
+from how it behaves or how it's built. That much is almost undeniable; the real fights are all about
+what *follows* from it. (Note what it does *not* say: it doesn't claim the machine feels nothing,
+only that *you* can't reach that feeling from the inside.)

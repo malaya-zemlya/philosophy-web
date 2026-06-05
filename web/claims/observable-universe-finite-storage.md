@@ -23,3 +23,10 @@ suffices, and 10^120 is conservative.
 
 Distinct from claims about minds or computation: this is a fact about physical storage capacity,
 imported as a premise.
+
+### In plain terms
+
+There's a hard physical ceiling on how much information the observable universe can hold — somewhere
+around 10^120 bits (a 1 followed by 120 zeros). Enormous, but finite. This is just a fact borrowed
+from physics, used elsewhere as a yardstick: anything that would take more storage than that simply
+cannot be built anywhere in our universe.

@@ -22,3 +22,10 @@ degrees).
 
 Distinct from a claim about *what matters in survival*: this is the degree thesis about identity
 itself; the practical upshot is a separate proposition.
+
+### In plain terms
+
+Being "the same person" over time needn't be a flat yes or no — it can hold more or less. Across a
+slow, sweeping change of mind and memory there may simply be no sharp answer to "is that still the
+same person?"; they're partly continuous, a matter of degree. (This is the metaphysical claim; the
+famous follow-up — that identity therefore "isn't what matters" — is a separate step.)

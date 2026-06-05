@@ -24,3 +24,11 @@ resist [decomposition-indeterminacy](../arguments/decomposition-indeterminacy.md
 
 Distinct from [privileged-first-person-access](privileged-first-person-access.md): that concerns the *epistemic* authority of
 introspection; this concerns the *determinacy of the phenomenal facts themselves*, however known.
+
+### In plain terms
+
+There's a definite fact about what you're feeling right now — and that you're feeling anything at all
+— not something that shifts depending on how an outsider chooses to describe your brain. Your
+experience presents itself as just *there*, settled. (It allows that the fuzzy *edges* of experience
+— stuff at the corner of attention — can be vague; it only insists there's a genuine fact of the
+matter, not a make-it-up-as-you-carve-it situation.)

@@ -34,3 +34,14 @@ Distinct from [phenomenal-residue](phenomenal-states-not-exhausted-by-role.md) b
 move*, and would have force even granting the residue is metaphysically open. Distinct from
 [role-grain-is-organisational](role-grain-is-organisational.md) because that concerns the grain of role-individuation, not the
 epistemology of phenomenal concepts.
+
+### In plain terms
+
+One side tries to explain away the stubborn feeling that consciousness is "something extra" like
+this: we grasp our experiences through a special inside concept that's *sealed off* from our
+scientific concepts, so the "are these the same thing?" question is bound to always feel open
+([gap-deflated-by-phenomenal-concepts](../arguments/gap-deflated-by-phenomenal-concepts.md)). This claim catches that move in a bind. The very
+sealing-off that keeps the question feeling open *also* cuts the inside concept off from telling you
+anything real about your experience. So either the concept is sealed (and then it can't ground your
+knowledge that you're even conscious) or it's informative (and then it isn't sealed enough to do the
+explaining-away). It can't be both at once.
