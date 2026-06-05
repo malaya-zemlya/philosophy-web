@@ -31,15 +31,16 @@ lookup table, since the organisation is
 present — which is exactly why it is sharpened into [dense-china-brain-regress](../arguments/dense-china-brain-regress.md) against the
 organisational grain.
 
-illustration (a literary cousin, for intuition only): Liu Cixin stages the same image in *The
-Three-Body Problem* ([liu-cixin](../sources/liu-cixin.md)). Inside the novel's VR game, von Neumann persuades the
-First Emperor Qin Shi Huang to turn his army into a machine: thirty million soldiers ranked across a
-plain, each small unit raising black-and-white flags as a logic gate, cavalry carrying the signals
-between formations — the whole array, "Qin I", computing the orbits of three suns. It is the
-China-*brain* rebuilt as a China-*CPU*: a population physically enacting the causal organisation of
-a higher-level system while no single soldier carries the computation. The pull is the one this
-concept turns on — if the parts implement the right transitions, is there anything *over and above*
-them? Caveat (kept so the illustration doesn't mislead): Liu's army simulates a *computer running a
-calculation*, whereas the Chinese Nation simulates the organisation of a *mind* and the live
-question is *phenomenal consciousness*, the harder property — so the novel sharpens the picture, not
-the argument.
+illustration (a literary cousin, for intuition only): vary a scene from Liu Cixin's *The
+Three-Body Problem* ([liu-cixin](../sources/liu-cixin.md)). There the First Emperor Qin Shi Huang, prompted by von
+Neumann, ranks thirty million soldiers across a plain — each small unit raising black-and-white
+flags, cavalry galloping the signals between formations — to assemble a vast human machine. In Liu
+the machine is a computer crunching the orbits of three suns; re-task it. Let the formation instead
+run a *brain*: each cluster of soldiers a neuron, a raised flag its firing, the messengers its
+axons, the whole drilled host stepping for one hour through exactly the state-to-state transitions a
+human cortex would. The army is now no calculator but the Chinese Nation itself — a country
+physically realising a mind's causal organisation while no single soldier feels a thing. The
+question the concept turns on stands out cleanly: if the soldiers enact the right transitions, is
+someone *over and above* them undergoing the experience, or is there nobody home? (The brain-running
+army is this project's variation; Liu's own formation computes rather than thinks — the nod is to
+his staging of a nation-as-substrate, not a retelling.)

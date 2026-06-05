@@ -16,12 +16,13 @@ cavalry galloping signals between formations like a bus — the whole machine, c
 running a program to predict the motion of the system's three suns. It is used here only to make the
 [chinese-nation](../concepts/chinese-nation.md) image concrete for a reader; it carries no argumentative weight of its own.
 
-precise distinction (so the illustration doesn't mislead): Liu's army simulates a *computer* (a CPU
-executing a calculation), whereas Block's nation simulates the functional organisation of a *mind*
-and targets *phenomenal consciousness* — the harder property. The shared, pumpable image is a
-population physically enacting the causal organisation of a higher-level system; the question of
-whether anything "over and above" the people thereby exists is exactly what the
-[chinese-nation](../concepts/chinese-nation.md) feeds (see [chinese-nation-realises-organisation](../claims/chinese-nation-realises-organisation.md)).
+how this project uses it (an adaptation, flagged so nothing is misattributed): Liu's formation is a
+*computer* — a CPU executing a calculation. The [chinese-nation](../concepts/chinese-nation.md) illustration keeps his image
+but re-tasks the army to run a *brain* (soldiers as neurons, not logic gates), so that it realises a
+mind's organisation, which is what Block's case actually requires and Liu's original does not. The
+brain-running army is therefore *this project's variation*, not a scene from the novel; what the book
+genuinely supplies is the staging — a nation as the physical substrate of a higher-level system —
+that makes [chinese-nation-realises-organisation](../claims/chinese-nation-realises-organisation.md) easy to picture.
 
 key passages: the "human-formation computer" episode (the Qin Shi Huang / von Neumann chapter of the
 in-game civilisation); **exact chapter and page refs to be confirmed** before any treatise cites it.
