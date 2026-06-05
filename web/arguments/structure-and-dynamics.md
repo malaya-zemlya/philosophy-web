@@ -38,3 +38,16 @@ Distinct from [explanatory-gap](explanatory-gap.md) (an *epistemic* gap between 
 truths) and from [decomposition-indeterminacy](decomposition-indeterminacy.md) (an *indeterminacy* worry): this is an
 *omission* argument about the expressive limits of structural description — the metaphysical engine the
 other two share.
+
+### In plain terms
+
+Here's one reason to doubt that "what a mind does" could ever capture consciousness. Any purely
+functional description tells you about *structure and behavior* — what's connected to what, what
+leads to what. It's all relationships and patterns. What it never tells you is what the things in
+those relationships *are* in themselves. Think of a wiring diagram: it shows how the parts connect,
+but says nothing about what the parts are actually made of. The argument runs: a felt experience
+isn't just a pattern of connections — it has an actual felt quality, something there in its own
+right. So a description that only ever captures structure-and-behavior is bound to leave that
+quality out. (An optional, bolder add-on some defenders make: maybe consciousness just *is* that
+hidden inner nature the wiring diagram never reaches — not magic, not reducible to function, but the
+very stuff the diagram is a diagram *of*. That last step is a bet, not a proven fact.)

@@ -37,6 +37,18 @@ One utterance is not one node.
    `proposals/` for human review (`/reconcile`). Precision beats tidiness.
 6. A body of a claim, argument, concept, position or question should be written from a neutral perspective, without mentioning a specific character. References to works of a real philosopher or scientist are ok. "Alvin claims X" is bad. Instead just use "X". What each character claims or thinks is a function of that character only and should be stored there.
 7. Nodes authored by the user, but that really are from a well-known person (a philsopher, scientist, writer etc) should be attributed to that person. 
+8. When writing a node , use simple language as much as possible, but without sacrificing precision. Generally we want a casual user interested in philosophy to be able to comprehend the text. Start with a description of the concept in plain terms and then expand on the fine points and nuances.
+9. **Optional `### In plain terms` section.** When a content node (claim, concept, argument,
+   question, position) is technical or jargon-heavy, end its body with a `### In plain terms`
+   section: a short, self-contained explanation aimed at a casual visitor to the repo who has
+   **no** philosophy training and **has not read the rest of the web**. It is strictly
+   *additive* — it never overrides, softens, or replaces the precise prose above it, and it must
+   not dilute the node's nuances. Write it to stand alone: avoid jargon, or unpack in a phrase any
+   term you genuinely cannot avoid; do **not** lean on `[[id]]` cross-references or assume the
+   reader knows the surrounding debate. Add it only where it earns its keep — a node already
+   readable by a layperson does not need one. Some nodes unavoidably require a specialized term or
+   two; simplify as far as you can there without flattening the distinctions, rather than skipping
+   the section. The heading is exactly `### In plain terms`. When in doubt about a node, ask.
 
 ## Where things live
 - Per-type schemas (read before create/edit): `schemas/<type>.md`

@@ -25,6 +25,10 @@ Illegal here (enforced): premise, concludes, supports, attacks, responds_to, hol
 ## Body
 - one-paragraph statement of the view
 - what distinguishes it from neighbouring views
+- if jargon-heavy: end with an optional `### In plain terms` section — a self-contained,
+  plain-language gloss for a casual visitor with no philosophy training and no knowledge of the
+  rest of the web. Additive only (never overrides the precise prose above; no `[[id]]` links).
+  See web-protocol "Optional `### In plain terms` section".
 
 ## Invariants
 - A position is substrate for characters; it is not itself an arguer. Reasons FOR it live in

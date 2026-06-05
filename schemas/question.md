@@ -20,6 +20,10 @@ Illegal here (enforced): everything except uses_concept.
 ## Body
 - precise statement of the issue and key terms
 - sub-issues that may deserve their own question nodes
+- if jargon-heavy: end with an optional `### In plain terms` section — a self-contained,
+  plain-language gloss for a casual visitor with no philosophy training and no knowledge of the
+  rest of the web. Additive only (never overrides the precise prose above; no `[[id]]` links).
+  See web-protocol "Optional `### In plain terms` section".
 
 ## Invariants
 - Do NOT hand-list candidate answers. Answers are nodes carrying `answers: <this id>`;

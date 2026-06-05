@@ -45,3 +45,15 @@ organisational setting is strong and even the residue theorist concedes it — a
 for *phenomenal* states (what-it-is-like). The phenomenal-residue worry ([phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md),
 [china-nation-absent-qualia](../arguments/china-nation-absent-qualia.md), [explanatory-gap](../arguments/explanatory-gap.md)) is precisely the claim that no setting
 of this knob captures qualia at all — a different complaint from "the dial is set wrong."
+
+### In plain terms
+
+Suppose you agree a mind is defined by what it *does* rather than what it's made of. There's still a
+catch: *how exactly* do you describe what it does? Very roughly ("takes in questions, gives sensible
+answers")? Or in fine detail ("these exact signals trigger those, with this precise timing")? That
+choice of detail-level is the "grain" — like the resolution on a screen, coarse or fine. It matters
+enormously, because it quietly decides who counts as having a mind. Describe a mind too coarsely and
+almost anything qualifies — even a giant cheat-sheet that just looks up canned answers. Describe it
+too finely and only a biological brain can match it, so no computer ever could. A lot of the fight
+over whether machines can think comes down to one question: where do you set this dial — and can you
+justify *that* setting without just tuning it to get the answer you already wanted?

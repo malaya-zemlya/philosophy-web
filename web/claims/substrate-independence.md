@@ -21,3 +21,12 @@ Who denies it: substrate chauvinists; see [proteocentrism](../positions/proteoce
 
 Distinct from a stronger claim "silicon systems are conscious" — substrate-independence is
 the weaker enabling premise, not the conclusion.
+
+### In plain terms
+
+Could a mind run on something other than a brain? This claim says: yes, at least in principle. The
+reasoning — if what makes a mental state the state it is, is the *role* it plays (what causes it,
+what it goes on to cause), then anything that plays that role has that state, no matter what it's
+built from: carbon, silicon, whatever. Notice how modest this is. It does *not* say today's
+computers or chatbots actually have minds. It only says that being made of brain-stuff isn't, all by
+itself, a requirement. It unlocks the door; it doesn't claim anyone has walked through.

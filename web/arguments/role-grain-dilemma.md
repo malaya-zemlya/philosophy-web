@@ -43,3 +43,16 @@ Distinct from [explanatory-gap](explanatory-gap.md) because that grants a fixed 
 *leaves out* (phenomenal character); this argument attacks the *individuation* of role itself,
 and applies even to intentional states. responds_to [behavioral-parity](behavioral-parity.md) because horn 1
 sharpens the blockhead objection that argument names against its own premise (2).
+
+### In plain terms
+
+Suppose you say a mind is defined by what it does, so a machine could have one too. Fair enough — but
+*how detailed* is your description of "what it does"? You're caught between two bad answers. Go
+coarse ("right answers in, right answers out") and you let in obvious frauds: a giant lookup table
+that just spits back pre-stored replies would count as having a mind. Go fine (exact brain
+chemistry, the precise timing of neurons) and you've quietly made a *brain* the only thing that
+qualifies — so machines are excluded after all, and you've smuggled biology back in. To make machine
+minds work you need a description loose enough to fit silicon yet strict enough to shut out the
+cheat-sheet — *and* an honest reason for drawing the line right there, not a reason picked just
+because it delivers the verdict you wanted. The complaint: nobody has actually drawn that principled
+line.

@@ -64,3 +64,20 @@ non-negligible step) were assumed shut, not shown to be.
 Distinct from [phenomenal-concept-overgeneration](phenomenal-concept-overgeneration.md) because that targets Prong A (the gap
 deflation via isolated phenomenal concepts); this targets Prong B (the supervenience reductio) and
 its hidden functionalism about the *introspective access* relation specifically.
+
+### In plain terms
+
+This is a rebuttal to a clever argument on the other side, so first that argument. It tries to prove
+that feelings *must* be fixed by function. Picture slowly swapping someone's brain, piece by piece,
+for a machine that behaves identically. If their inner feels secretly drifted along the way — red
+starting to look the way blue used to — while every function stayed the same, they'd never notice or
+say a word about it. They'd be bizarrely blind to a change in their own experience, which seems
+absurd. So, the argument concludes, the feels *can't* drift: function locks feeling in place.
+
+This node's reply: that argument quietly assumes that "noticing your own experience" is itself just
+another function. But that's exactly what's in dispute. If noticing is instead a direct awareness
+*of* the feel, then one of two things happens — either the noticing changes right along with the
+feel (so there's no undetected switch, and the spooky scenario never gets off the ground), or you've
+deliberately built a "noticer" that announces "all normal" with no real awareness behind it (a
+broken gauge, not a genuine person being fooled). Either way, the apparent absurdity was slipped in
+through the setup, not discovered. And a broken gauge isn't a liar.

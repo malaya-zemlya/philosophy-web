@@ -23,6 +23,10 @@ commits_to, rejects, holds. A concept is *invoked* (via others' `uses_concept`),
 - primary definition
 - `senses:` list when the term is contested (label each sense + who holds it)
 - the live dispute the concept feeds, by claim/question id
+- if jargon-heavy: end with an optional `### In plain terms` section — a self-contained,
+  plain-language gloss for a casual visitor with no philosophy training and no knowledge of the
+  rest of the web. Additive only (never overrides the precise prose above; no `[[id]]` links).
+  See web-protocol "Optional `### In plain terms` section".
 
 ## Invariants
 - Define, don't argue. Evaluative content belongs in a claim or argument.

@@ -30,6 +30,10 @@ question — the claim it `concludes`/`supports` answers it.
 - inference form: deductive | abductive | analogy | inductive
 - numbered premises -> conclusion
 - **weakest premise**: name it explicitly (this is where future attacks land)
+- if jargon-heavy: end with an optional `### In plain terms` section — a self-contained,
+  plain-language gloss for a casual visitor with no philosophy training and no knowledge of the
+  rest of the web. Additive only (never overrides the precise prose above; no `[[id]]` links).
+  See web-protocol "Optional `### In plain terms` section".
 
 ## Pattern & critical questions (optional but encouraged)
 - Set `pattern:` to one of the `patterns/` ids (e.g. `cause-to-effect`) when the move fits a

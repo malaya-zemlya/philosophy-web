@@ -68,6 +68,20 @@ Those are backlinks — `scripts/lint.py` computes them and writes `web/INDEX.md
 - **source** — philosopher/text/paper for provenance. Body: relevance, key page refs.
 - **character** — evolving portfolio. See template; this is the character's memory.
 
+## Optional `### In plain terms` section (content nodes)
+When a claim, concept, argument, question, or position is technical or jargon-heavy, end its body
+with a `### In plain terms` section — a short, plain-language explanation for a casual visitor to
+the repo with **no** philosophy training who has **not** read the rest of the web. Rules:
+- **Additive, never a substitute.** It does not override, soften, or restate-away the precise prose
+  above it; the nuances stay upstairs. Think "front porch", not "replacement".
+- **Self-contained.** Avoid jargon; if a term is unavoidable, unpack it in a phrase. Do **not** use
+  `[[id]]` cross-references here and do not assume the reader knows the surrounding debate — the
+  section must read on its own.
+- **Only where it earns its keep.** A node already readable by a layperson needs none. Where a term
+  genuinely cannot be removed, simplify as far as possible without flattening the distinction rather
+  than dropping the section.
+- Heading is exactly `### In plain terms`, placed last in the body.
+
 ## Neutral perspective (non-negotiable for content nodes)
 A **claim, concept, argument, question, or position belongs to philosophy in general, not to a
 character.** Its body is written from a neutral standpoint and **must not name a character**

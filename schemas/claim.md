@@ -26,6 +26,10 @@ commits_to, rejects, holds. A claim is argued *about*, never argues.
 - scope: what it does and does NOT assert
 - who would deny it (often a `position`, cited in prose as `[[position-...]]`)
 - if near an existing claim: `Distinct from [[<id>]] because …`
+- if jargon-heavy: end with an optional `### In plain terms` section — a self-contained,
+  plain-language gloss for a casual visitor with no philosophy training and no knowledge of the
+  rest of the web. Additive only (never overrides the precise prose above; no `[[id]]` links).
+  See web-protocol "Optional `### In plain terms` section".
 
 ## Invariants
 - ATOMIC. Title is a single proposition; split any "X and Y".

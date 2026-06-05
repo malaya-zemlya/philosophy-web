@@ -32,3 +32,14 @@ for consciousness; this claim makes no substrate demand at all — it only denie
 exhausts the phenomenal. Distinct from [substrate-independence](substrate-independence.md) because it does not deny
 substrate-independence wholesale; it denies the *uniform* ("all mental states") reading by
 carving out the phenomenal.
+
+### In plain terms
+
+There's a difference between what your mind *does* and what your experience *feels like*. A pain
+makes you wince and reach for relief — that's its job, the role it plays. But a pain also *hurts*;
+there's something it is like to feel it. This claim says: for these felt, "what-it's-like"
+experiences, listing everything the state does still leaves something out — the feel itself. Two
+things it carefully does *not* say: it doesn't say computers can't be conscious, and it doesn't say
+you need carbon or biology. It even grants that for plain thinking states — beliefs, plans — a
+description of the role might capture the whole story. It only fences off the *felt* part of the
+mind and says: that part isn't fully pinned down by function alone.
