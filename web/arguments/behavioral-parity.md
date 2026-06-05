@@ -21,6 +21,8 @@ Form: abductive (inference to the best explanation), NOT deductive.
 3. Some LLMs display large portions of that profile.
 ∴ Their having (some) mental states is the best available explanation.
 
-Weakest premise: (2) — the behaviour/role inference is defeasible (cf. the "blockhead"
-lookup-table objection, which belongs in a responds_to argument once written). The
-conclusion [llm-has-mental-states](../claims/llm-has-mental-states.md) is a stub to be created when first asserted in debate.
+Weakest premise: (2) — the behaviour/role inference is defeasible. This is exactly where the
+"blockhead" lookup-table objection lands ([lookup-table-objection](lookup-table-objection.md)); it is in turn
+answered by [lookup-table-combinatorial-impossibility](lookup-table-combinatorial-impossibility.md),
+[lookup-table-physical-impossibility](lookup-table-physical-impossibility.md), and [blockhead-dilemma](blockhead-dilemma.md). The conclusion
+[llm-has-mental-states](../claims/llm-has-mental-states.md) is recorded and carries that dispute.
