@@ -39,3 +39,18 @@ survives) and by [relevance-filter-regress](relevance-filter-regress.md) (causal
 
 Distinct from [role-grain-is-organisational](../claims/role-grain-is-organisational.md), which it supports: that fixes *which* grain is
 right; this argues that *a* grain is fixed at all.
+
+### In plain terms
+
+This answers the "who gets to decide how to slice the system up?" worry. The reply: you actually
+can't slice it just any way you please. To genuinely *carry out* a given process, a system has to
+have the right web of cause-and-effect — "if this had fired, that would have followed" — holding
+across all the possible cases, not only the ones that happened to come up. Cooked-up, after-the-fact
+relabelings don't have that robust causal backbone, so they don't count as real organizations. And
+those cause-and-effect facts are out there in the world, not a matter of how an observer chooses to
+look. So nature *does* hand you one real organization after all — the "one true carving" the worry
+demanded exists, and it's the level cognitive science already works at. Where it gets pushed back:
+ruling out the silly slicings might still leave a whole *family* of respectable ones rather than
+exactly one; and raw cause-and-effect includes plenty of irrelevant stuff (a brain's warmth, its
+squishiness), so picking out the specifically *mind-relevant* causes may need a further rule this
+reply hasn't supplied.

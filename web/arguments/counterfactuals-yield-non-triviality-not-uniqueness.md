@@ -31,3 +31,14 @@ would defeat this reply.
 Distinct from [relevance-filter-regress](relevance-filter-regress.md): that targets *which dispositions* count; this
 targets *which carving/level* counts among the cognitively-relevant ones — two routes to residual
 indeterminacy.
+
+### In plain terms
+
+This grants the previous reply a lot, then stops it short. Yes — insisting on real, robust
+cause-and-effect (rather than any old after-the-fact relabeling) does throw out the obviously bogus
+ways of slicing a system into parts. But "throwing out the bogus ones" isn't the same as "leaving
+exactly one." What survives is still a *family* of perfectly reasonable carvings, differing in where
+you draw the boundaries and how fine-grained you go. So objective cause-and-effect *narrows down* the
+options without *pinning down a single one* — and the original question ("which carving is the real
+organization?") comes back, just in a milder form. To close that gap you'd need some further,
+non-rigged principle that crowns one level as the true one — and nobody has produced that yet.

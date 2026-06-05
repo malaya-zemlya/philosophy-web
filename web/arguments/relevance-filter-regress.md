@@ -37,3 +37,18 @@ the live crux, and it is [role-grain-dilemma](role-grain-dilemma.md) under a new
 Distinct from [counterfactuals-yield-non-triviality-not-uniqueness](counterfactuals-yield-non-triviality-not-uniqueness.md): that grants the
 relevant relations and still finds multiple carvings; this questions the *selection* of the relevant
 relations in the first place.
+
+### In plain terms
+
+Another problem for the "cause-and-effect fixes the one true organization" reply. Physics hands you
+*all* of a system's cause-and-effect, indiscriminately — not just the thinking-related bits, but its
+weight, its warmth, the squelchy sound a brain makes if you poke it. Now you're stuck between two bad
+options. Count *everything*, and a brain's full causal profile includes things no silicon chip shares
+(chips don't squelch), so a machine can never match it — back to "only meat can think." To dodge
+that, you have to keep only the *mind-relevant* causes and ignore the rest. But which causes are the
+mind-relevant ones? Cause-and-effect by itself doesn't say — you need an extra rule to do the
+sorting, and that rule either quietly assumes what already counts as "mental" (a circle) or *is*
+exactly the neutral, observer-independent yardstick we were missing to begin with. So the reply
+doesn't settle the demand; it just shifts it somewhere else. (A tempting test — "does removing this
+change the computation?" — already assumes you've fixed where "the computation" starts and stops,
+which is the very thing in dispute.)

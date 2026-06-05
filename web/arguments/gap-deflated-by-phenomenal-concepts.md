@@ -63,3 +63,26 @@ this argues that a specific *anti*-functionalist evidential argument misprices i
 that supervenience holds. Distinct from [role-grain-dilemma](role-grain-dilemma.md)'s reply (claim-role-grain-is-
 organisational) because this concerns the phenomenal residue, granting a fixed role, whereas that
 concerns the individuation of role itself.
+
+### In plain terms
+
+This is the "feeling really is just function" side answering the explanatory-gap argument, in two
+moves.
+
+**Move A — explain the gap away.** The other side said: the fact that "but is anything actually
+*felt*?" still sounds like a live question, even after the complete scientific story, is evidence
+that feeling is something extra. Not so, says this argument. We think about our own experiences with
+two completely separate mental "handles" — a from-the-outside, scientific one and a from-the-inside,
+"*this!*" one — and those two handles just aren't wired to talk to each other. So "are these two the
+same thing?" will *always* feel like an open question, whatever the truth is. The lingering question
+shows how our concepts are built, not that there's an extra ingredient in the world.
+
+**Move B — a positive reason feeling can't float free of function.** Imagine swapping someone's
+neurons one at a time for chips that preserve every functional connection — including every judgment
+they make about their own experience. If feeling *weren't* fixed by function, then somewhere along
+the way their inner experience would fade or flip — yet, since we kept all their self-reports
+identical, they'd keep sincerely insisting "nothing has changed." That hands you a person
+systematically wrong about their own experience, with no possible fact to set them straight — which
+seems absurd. Better to conclude feeling tracks function after all. (Weak spot of Move B: it assumes
+the only options are "fade" or "flip" — and a critic argues it quietly assumes that *noticing your
+own experience* is itself just a function, which is the very thing in dispute.)

@@ -48,3 +48,17 @@ transition-structure after all. If it can, horn 1 reopens.
 Distinct from [gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md) because that addresses the phenomenal
 residue (what role leaves out); this addresses the individuation of role itself, and applies even
 to intentional states.
+
+### In plain terms
+
+This answers the "no good level of detail exists" dilemma by offering one. Recall the trap: describe
+a mind too loosely and a mere cheat-sheet machine qualifies; describe it too tightly and only
+biological brains qualify. The middle option proposed here: describe a mind by its *inner wiring of
+cause-and-effect* — which inner states trigger which others, and how — rather than by its outward
+behavior or by its exact biology. That middle does both jobs at once. It shuts out the cheat-sheet,
+which has no such inner wiring (it just maps questions straight to stored answers). And it lets in
+silicon, because the same wiring pattern can be rebuilt in chips — the carbon was never doing the
+real work. And it isn't rigged to favor machines: it just happens to be the very level brain science
+and psychology already use to explain how minds work. The soft spot: maybe a clever enough
+cheat-sheet-style system *could* be re-described as having the right inner wiring after all — and if
+so, the cheat-sheet sneaks back in.

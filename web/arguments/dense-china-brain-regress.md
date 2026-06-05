@@ -61,3 +61,19 @@ Distinct from [role-grain-dilemma](role-grain-dilemma.md) because that ran over 
 was answered by the organisational middle; this attacks *that middle itself*, one level up, via the
 dense-China-brain construction. Distinct from [explanatory-gap](explanatory-gap.md) because that grants a fixed
 role and presses what role leaves out, whereas this attacks the individuation of the proposed role.
+
+### In plain terms
+
+This is the comeback to the "inner-wiring middle" just proposed. Fine, says the objector — let's
+actually build a system with exactly that inner wiring and see whether the trap really closed. Take
+the nation-of-people again, but this time have each person hand-implement one piece of the brain's
+full cause-and-effect web, every "if this, then that" faithfully drilled. By design, this crowd now
+has the very inner organization the middle option demanded — it is *not* a cheat-sheet. So: does it
+have a mind? If yes, you've just let an absurd flag-waving crowd be conscious — the very thing the
+whole exercise was meant to rule out, back again. If no, then two systems share the exact inner
+wiring yet only one has a mind — and to explain the difference you have to point at something *below*
+the wiring (speed, physical material, density), which quietly drags you back toward "only biology
+will do." Either way the middle gets squeezed from both sides once more. And the "but this is the
+level brain science uses" defense only shows the wiring captures *thinking* — not *felt experience*,
+which is exactly what's in dispute. (Its weak point: maybe the hand-run crowd only *simulates* the
+wiring rather than truly being an instance of it — the way a computer model of a storm isn't wet.)

@@ -57,3 +57,19 @@ this thrust.
 Distinct from [explanatory-gap](explanatory-gap.md) because that presses what role *leaves out* via a likelihood
 comparison; this is a second-order attack on the *defeater* of that comparison — it grants the
 appeal of phenomenal concepts and turns their isolation against the strategy's own epistemology.
+
+### In plain terms
+
+This attacks Move A of the previous reply — the "two separate mental handles" explanation for why
+the gap never closes. That explanation needs the inside, "*this!*" handle on your experience to be
+completely *sealed off* from your other concepts; that sealing is what guarantees the question always
+feels open. But now ask: what makes you so sure you're conscious *at all*? Your only grip on your own
+felt experience is that very inside handle. Here's the squeeze. Either that handle really does tell
+you something about what your experience is like — in which case it *isn't* fully sealed off, and the
+explanation for the lingering gap starts to leak — or it genuinely is sealed off, a bare inner
+"*this!*" pointing at you-know-not-what, in which case it gives you no real knowledge of your own
+experience, and your confidence that you're conscious is just mental machinery firing into the void.
+The first option weakens their explanation; the second turns you into a skeptic about your own inner
+life — a far steeper price than the modest "feeling is something extra" they were trying to avoid. So
+they can't have it both ways: sealed enough to explain away the gap, yet open enough to let you
+actually know you're conscious.
