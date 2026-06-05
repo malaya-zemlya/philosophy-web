@@ -47,3 +47,16 @@ lookup table reproduces the behaviour at all. Opposite dialectical direction, di
 Distinct from [organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md), which excludes the blockhead
 by its lack of internal *organisation*; this excludes it by its inability to match the *I/O profile*
 over an unbounded input space — a different ground of exclusion.
+
+### In plain terms
+
+This pushes back on the cheat-sheet machine. That whole worry assumed you *could* store a ready-made
+answer for every possible input. But a real mind faces an open-ended world — there's no end to the
+fresh sentences, situations, and questions it can sensibly deal with. Any finite stored table,
+however gigantic, eventually meets an input nobody anticipated, and then all it can do is choke or
+ignore the unfamiliar part. A genuine mind doesn't choke; it responds sensibly to the new thing. So
+no finite lookup table can really keep pace with a mind across the board — which means the "behavior
+with nobody home" machine can't even generate all the behavior to begin with. The soft spot: maybe
+you only ever need to cover the inputs a being actually meets in one finite lifetime — and a real
+mind, too, gives out on inputs past *its* limits — which is the escape route the next arguments go
+after.

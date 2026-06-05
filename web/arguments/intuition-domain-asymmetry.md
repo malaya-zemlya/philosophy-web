@@ -43,3 +43,17 @@ the live crux.
 Distinct from [blockhead-dilemma](blockhead-dilemma.md) (which it supports) and from
 [lookup-table-physical-impossibility](lookup-table-physical-impossibility.md) (which establishes premise 2): this argument is solely
 about the *epistemology of the intuition*, bounding horn 2's reach.
+
+### In plain terms
+
+This defends a tricky move from a "you can't have it both ways" complaint. The worry: if we throw
+out our gut feeling that a giant lookup-table "mind" has nobody home — on the grounds that gut
+feelings about bizarre imaginary cases aren't reliable — don't we then also have to throw out the gut
+feeling on our *own* side, that a silicon copy of a brain would be conscious? The answer is no, and
+here's the principle behind it: a hunch is trustworthy roughly to the degree the case resembles the
+everyday examples that trained the hunch. The cosmic lookup table is unimaginably huge and utterly
+unlike any real brain — a wild extrapolation, so the hunch about it is weak. A brain-scale silicon
+twin that copies the brain's actual wiring is a near-twin of the real thing — so the hunch about
+*it* stays strong. Same principle, different distances, so distrusting the one needn't poison the
+other. (And no cheating: "similarity" is measured by closeness to real minds, not by secretly
+assuming up front that organization is what makes a mind.)

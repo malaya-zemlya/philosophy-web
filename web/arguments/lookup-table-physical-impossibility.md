@@ -52,3 +52,16 @@ Distinct from [lookup-table-combinatorial-impossibility](lookup-table-combinator
 behaviour* (it diverges on unbounded inputs); this grants matching over the bounded domain and
 denies the matching table can *physically exist*. Different premise (physical storage bound vs.
 unbounded input space) and different conclusion (unrealisable vs. inadequate).
+
+### In plain terms
+
+Even granting you only needed pre-stored answers for a single lifetime's worth of inputs, here's the
+killer: count how big that table would have to be. For language, the number of possible word-
+sequences explodes exponentially — for something at the scale of today's AI it works out to roughly
+10^9600 entries. The entire observable universe can hold only about 10^120 bits. So the table isn't
+just impractical; it could not be built in *this universe*, not even in principle. Two payoffs.
+First, it slams shut the escape hatch the previous argument left open. Second, and sharper: real AI
+models do their job with a "mere" ~10^12 internal settings — astronomically too few to be a hidden
+lookup table — so they *can't* be working by canned lookup at all; they must be compressing and
+generalizing, i.e. genuinely processing. (What it doesn't claim: that a lookup-table mind is
+logically impossible — only that no real one could ever physically exist.)

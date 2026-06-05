@@ -40,3 +40,16 @@ of competence still diverges. These are where the anti-Block replies land.
 
 Distinct from [mind-handles-unbounded-inputs](../claims/mind-handles-unbounded-inputs.md) (the premise it denies): this is the argument that
 denies it, not the claim itself.
+
+### In plain terms
+
+This is Block defending the cheat-sheet machine against the "a finite table can't keep up" reply.
+His move: you don't need a stored answer for *every conceivable* input — only for the ones a person
+actually runs into across a whole lifetime. Within that range, the table always has a reply ready.
+And the freakishly long or strange inputs beyond that bound? A real human mind breaks down on those
+too — it isn't limitless either. So the moment where the mind shines and the table chokes never
+actually comes up in real life. Across the inputs that matter, the table keeps pace with the person,
+which puts the "behavior without a mind" case back in play. Where it's challenged: even granting the
+coverage, could such a table physically exist (it's still astronomically huge?), and does a mind
+really fail the *same way* a table does — or does it degrade more gracefully because it's genuinely
+working things out rather than just looking them up?

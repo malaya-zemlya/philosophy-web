@@ -52,3 +52,18 @@ Distinct from [explanatory-gap](explanatory-gap.md) (an *epistemic* gap between 
 truths) and from [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) (role *under-specifies* qualia): this is a metaphysical
 *indeterminacy* worry — function fails to fix a determinate system, while consciousness is determinate.
 Different ground, same anti-strong-functionalist conclusion.
+
+### In plain terms
+
+If a mind is just a pattern of parts and their interactions, here's an awkward question: *who
+decides* where one part stops and the next begins? You can slice the very same physical system into
+"inputs, outputs, and inner states" in many different but equally legitimate ways — the bare physics
+doesn't crown any one slicing as the real one. Now the squeeze: if your consciousness were nothing
+but one of those slicings, then what you're feeling would be as wobbly and choice-dependent as the
+slicing itself. But your experience right now isn't wobbly — there's a definite fact about what
+you're feeling. So a pattern-only story owes us an answer: what fixes the *one* real way the system
+is carved up, independent of how some observer chooses to look at it? Until it can name that, it
+hasn't shown a definite felt experience could be built out of function alone. (The main reply: real
+cause-and-effect structure isn't a free choice — a brain has essentially one genuine wiring — so the
+"one real carving" the worry demands already exists. Whether that fully settles it is the live
+dispute.)

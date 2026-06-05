@@ -51,3 +51,17 @@ attacks the application-to-actual-LLMs step; this is the *dilemma* that adds the
 deflate the objection even on Block's intended (in-principle) reading. Distinct from
 [lookup-table-combinatorial-impossibility](lookup-table-combinatorial-impossibility.md), which denies the table matches the behaviour at
 all (a competence gap), not the legitimacy of the intuition.
+
+### In plain terms
+
+The cheat-sheet machine objection leans on you looking at that giant lookup-table "mind" and feeling
+"obviously nobody's home in there." This argument says that feeling can't carry the weight,
+whichever way you read the machine. Read it as a *real, physical* thing? It can't exist — the table
+is too vast for the universe to hold — so you're reacting to something that could never actually be
+built. Read it as a *merely imagined* thing? Then your "nobody home" verdict isn't forced: picturing
+a weird cosmic object doesn't settle whether there's experience inside, and you could just as easily
+imagine it *is* conscious. Either way the gut reaction doesn't deliver what the objection needs. (One
+worry about this move: if we distrust hunches about far-out imaginary minds, do we also lose the
+friendly hunch that a silicon copy of a brain would be conscious? The reply: no — that copy is a
+close cousin of a real brain, while the cosmic table is wildly unlike anything we've ever judged, so
+doubting one needn't mean doubting the other.)

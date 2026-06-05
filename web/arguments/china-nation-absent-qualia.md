@@ -40,3 +40,16 @@ Distinct from [dense-china-brain-regress](dense-china-brain-regress.md): that ta
 ([organisational-grain-faces-own-grain-dilemma](../claims/organisational-grain-faces-own-grain-dilemma.md)). This is the prior, classical absent-qualia
 objection: organisation present, qualia absent, therefore organisation insufficient. Distinct from
 [explanatory-gap](explanatory-gap.md), which runs via conceivability/zombies rather than a realised case.
+
+### In plain terms
+
+Suppose an entire nation of people, each passing signals by raising flags, together act out the
+exact inner wiring of a single brain — not just its outward behavior, but every internal
+cause-and-effect step a brain goes through. On the "it's the pattern that counts" view, that
+flag-waving nation should then have a mind, feelings and all. But — the argument urges — surely
+there's no extra *someone* hovering above the crowd actually *feeling* anything; the machinery runs,
+yet nobody's home. If that's right, then running the right pattern of cause-and-effect isn't enough
+to produce a felt experience. This is a sharper case than the cheat-sheet machine: the nation really
+does carry out the full inner organization, so you can't wave it away by saying "it has no inner
+structure." The contested part is the gut feeling that the nation feels nothing — some reply that
+the nation *as a whole* might be a genuine subject even though no single citizen is.

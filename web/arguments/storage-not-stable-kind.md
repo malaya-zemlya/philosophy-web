@@ -50,3 +50,17 @@ answers Block is the live crux of this whole sub-web.
 Distinct from [lookup-table-physical-impossibility](lookup-table-physical-impossibility.md) (which establishes premise 1 and stops at
 "unbuildable"): this draws the further, positive conclusion about the *kind* of the realisable
 alternative.
+
+### In plain terms
+
+Here's a subtle reply to the cheat-sheet idea. The objection pictures a thing that produces mind-like
+behavior by *pure storage* — just looking answers up, with no real processing or organization inside.
+But push on the size. A flat table big enough to cover a mind's behavior can't physically exist (no
+room in the universe). So any machine that actually *fits* and *matches* the behavior must be storing
+far less than the full list — which means it has to *work each answer out* on the fly rather than
+just fetch it. And working answers out *is* processing — organized inner machinery — exactly the
+thing "pure storage" was supposed to do without. Upshot: "all the behavior, zero organization" simply
+isn't an available option at mind scale; any buildable behavior-matcher (a real AI included) is an
+organized computer, not a dumb lookup. The sticking point: a die-hard could insist that even a giant
+fetch-and-retrieve system is still "just plumbing," not genuine mind-like organization — and whether
+that holds up is the central open question in this corner of the debate.
