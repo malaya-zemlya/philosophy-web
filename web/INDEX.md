@@ -3,6 +3,9 @@
 ## [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md)
+- type: argument | author: generic | status: asserted
+
 ## [argument-behavioral-parity](arguments/behavioral-parity.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
@@ -32,6 +35,9 @@
 
 ## [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md)
 - type: argument | author: block | status: asserted
+
+## [argument-cognitive-closure](arguments/cognitive-closure.md)
+- type: argument | author: mcginn | status: asserted
 
 ## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
 - type: argument | author: mishka | status: asserted
@@ -72,6 +78,9 @@
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --responds_to-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --attacks-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --responds_to-->
+
+## [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md)
+- type: argument | author: mishka | status: contested
 
 ## [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md)
 - type: argument | author: mishka | status: asserted
@@ -195,10 +204,26 @@
 - backlinks:
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --premise-->
 
+## [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md)
+- type: claim | author: block | status: asserted
+- backlinks:
+  - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --premise-->
+
+## [claim-cognitive-closure-exists](claims/cognitive-closure-exists.md)
+- type: claim | author: mcginn | status: asserted
+- backlinks:
+  - [argument-cognitive-closure](arguments/cognitive-closure.md) --premise-->
+
 ## [claim-consciousness-categorical-not-dispositional](claims/consciousness-categorical-not-dispositional.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --premise-->
+
+## [claim-consciousness-has-natural-explanation](claims/consciousness-has-natural-explanation.md)
+- type: claim | author: mcginn | status: asserted
+- backlinks:
+  - [argument-cognitive-closure](arguments/cognitive-closure.md) --premise-->
+  - [position-mysterianism](positions/mysterianism.md) --commits_to-->
 
 ## [claim-counterfactual-structure-objective](claims/counterfactual-structure-objective.md)
 - type: claim | author: generic | status: asserted
@@ -216,6 +241,11 @@
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --concludes-->
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --premise-->
   - [character-alvin](characters/alvin.md) --commits_to-->
+
+## [claim-explanation-must-be-internally-traversable](claims/explanation-must-be-internally-traversable.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --premise-->
 
 ## [claim-finite-mind-truncates-beyond-capacity](claims/finite-mind-truncates-beyond-capacity.md)
 - type: claim | author: block | status: asserted
@@ -255,6 +285,12 @@
 - backlinks:
   - [argument-sorites-paradox](arguments/sorites-paradox.md) --attacks-->
 
+## [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md)
+- type: claim | author: mcginn | status: asserted
+- backlinks:
+  - [argument-cognitive-closure](arguments/cognitive-closure.md) --concludes-->
+  - [position-mysterianism](positions/mysterianism.md) --commits_to-->
+
 ## [claim-imaginary-blockhead-no-secure-verdict](claims/imaginary-blockhead-no-secure-verdict.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -265,6 +301,11 @@
 - backlinks:
   - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --premise-->
 
+## [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --premise-->
+
 ## [claim-intuition-warrant-tracks-trained-domain](claims/intuition-warrant-tracks-trained-domain.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -274,6 +315,9 @@
 - type: claim | author: block | status: asserted
 - backlinks:
   - [argument-bounded-table-rejoinder](arguments/bounded-table-rejoinder.md) --premise-->
+
+## [claim-llm-functional-introspection](claims/llm-functional-introspection.md)
+- type: claim | author: lindsey | status: asserted
 
 ## [claim-llm-has-mental-states](claims/llm-has-mental-states.md)
 - type: claim | author: mishka | status: contested
@@ -372,6 +416,9 @@
 - backlinks:
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --premise-->
 
+## [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md)
+- type: claim | author: mishka | status: asserted
+
 ## [claim-privileged-first-person-access](claims/privileged-first-person-access.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -405,6 +452,12 @@
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --premise-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
 
+## [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md)
+- type: claim | author: mishka | status: contested
+- backlinks:
+  - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --attacks-->
+  - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --concludes-->
+
 ## [claim-sorites-tolerance](claims/sorites-tolerance.md)
 - type: claim | author: eubulides | status: asserted
 - backlinks:
@@ -424,6 +477,16 @@
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --presupposes-->
   - [position-proteocentrism](positions/proteocentrism.md) --rejects-->
+
+## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
+- type: concept | author: block | status: asserted
+- backlinks:
+  - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
+  - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
+  - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
+  - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
+  - [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md) --uses_concept-->
 
 ## [concept-chinese-nation](concepts/chinese-nation.md)
 - type: concept | author: block | status: asserted
@@ -520,6 +583,30 @@
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
   - [question-substrate-independence](questions/substrate-independence.md) --uses_concept-->
 
+## [concept-hard-problem](concepts/hard-problem.md)
+- type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
+  - [argument-cognitive-closure](arguments/cognitive-closure.md) --uses_concept-->
+  - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
+  - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --uses_concept-->
+  - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
+  - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
+  - [position-mysterianism](positions/mysterianism.md) --uses_concept-->
+  - [question-hard-problem](questions/hard-problem.md) --uses_concept-->
+  - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
+
+## [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md)
+- type: concept | author: mishka | status: asserted
+- backlinks:
+  - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
+  - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [claim-explanation-must-be-internally-traversable](claims/explanation-must-be-internally-traversable.md) --uses_concept-->
+  - [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md) --uses_concept-->
+  - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
+  - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
+
 ## [concept-lookup-table-mind](concepts/lookup-table-mind.md)
 - type: concept | author: block | status: asserted
 - backlinks:
@@ -544,8 +631,18 @@
   - [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md) --uses_concept-->
   - [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md) --uses_concept-->
 
+## [position-mysterianism](positions/mysterianism.md)
+- type: position | author: mcginn | status: asserted
+
 ## [position-proteocentrism](positions/proteocentrism.md)
 - type: position | author: mishka | status: asserted
+
+## [question-hard-problem](questions/hard-problem.md)
+- type: question | author: chalmers | status: contested
+- backlinks:
+  - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --answers-->
+  - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --answers-->
+  - [position-mysterianism](positions/mysterianism.md) --answers-->
 
 ## [question-llm-moral-status](questions/llm-moral-status.md)
 - type: question | author: mishka | status: asserted
@@ -555,6 +652,9 @@
   - [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md) --answers-->
   - [claim-substrate-independence](claims/substrate-independence.md) --answers-->
   - [position-proteocentrism](positions/proteocentrism.md) --answers-->
+
+## [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md)
+- type: question | author: mishka | status: contested
 
 ## [question-substrate-independence](questions/substrate-independence.md)
 - type: question | author: mishka | status: contested
@@ -576,6 +676,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-lem](sources/lem.md)
+- type: source | author: mishka | status: asserted
+
+## [source-lindsey-introspection-2025](sources/lindsey-introspection-2025.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-liu-cixin](sources/liu-cixin.md)
