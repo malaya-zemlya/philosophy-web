@@ -22,13 +22,30 @@
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --responds_to-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --responds_to-->
 
+## [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md)
+- type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --attacks-->
+  - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --responds_to-->
+  - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --attacks-->
+  - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --responds_to-->
+
 ## [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md)
 - type: argument | author: block | status: asserted
+
+## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
   - [character-alvin](characters/alvin.md) --holds-->
+
+## [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md)
+- type: argument | author: mishka | status: asserted
+- backlinks:
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --attacks-->
+  - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --supports-->
 
 ## [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md)
 - type: argument | author: mishka | status: asserted
@@ -93,6 +110,9 @@
 - backlinks:
   - [character-alvin](characters/alvin.md) --holds-->
 
+## [argument-relevance-filter-regress](arguments/relevance-filter-regress.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md)
 - type: argument | author: mishka | status: asserted
 
@@ -108,6 +128,9 @@
 
 ## [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-structure-and-dynamics](arguments/structure-and-dynamics.md)
+- type: argument | author: chalmers | status: asserted
 
 ## [character-alvin](characters/alvin.md)
 - type: character | author: alvin | status: asserted
@@ -155,6 +178,13 @@
 - backlinks:
   - [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md) --concludes-->
 
+## [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md)
+- type: claim | author: generic | status: contested
+- backlinks:
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --concludes-->
+  - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --attacks-->
+  - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --attacks-->
+
 ## [claim-chinese-nation-lacks-qualia](claims/chinese-nation-lacks-qualia.md)
 - type: claim | author: block | status: asserted
 - backlinks:
@@ -164,6 +194,21 @@
 - type: claim | author: block | status: asserted
 - backlinks:
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --premise-->
+
+## [claim-consciousness-categorical-not-dispositional](claims/consciousness-categorical-not-dispositional.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --premise-->
+
+## [claim-counterfactual-structure-objective](claims/counterfactual-structure-objective.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --premise-->
+
+## [claim-counterfactual-structure-underdetermines-decomposition](claims/counterfactual-structure-underdetermines-decomposition.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --premise-->
 
 ## [claim-dancing-qualia-presupposes-functional-introspection](claims/dancing-qualia-presupposes-functional-introspection.md)
 - type: claim | author: mishka | status: asserted
@@ -187,6 +232,24 @@
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --premise-->
 
+## [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --attacks-->
+  - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --supports-->
+  - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --premise-->
+
+## [claim-functional-description-structural-dynamical-only](claims/functional-description-structural-dynamical-only.md)
+- type: claim | author: chalmers | status: asserted
+- backlinks:
+  - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --premise-->
+
+## [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --concludes-->
+  - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --supports-->
+
 ## [claim-heap-predicate-sharp](claims/heap-predicate-sharp.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -196,6 +259,11 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-blockhead-dilemma](arguments/blockhead-dilemma.md) --premise-->
+
+## [claim-implementation-requires-counterfactual-structure](claims/implementation-requires-counterfactual-structure.md)
+- type: claim | author: chalmers | status: asserted
+- backlinks:
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --premise-->
 
 ## [claim-intuition-warrant-tracks-trained-domain](claims/intuition-warrant-tracks-trained-domain.md)
 - type: claim | author: generic | status: asserted
@@ -283,14 +351,26 @@
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --premise-->
   - [character-alvin](characters/alvin.md) --commits_to-->
 
+## [claim-phenomenal-determinacy](claims/phenomenal-determinacy.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --premise-->
+
 ## [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --supports-->
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --presupposes-->
+  - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --supports-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --concludes-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --premise-->
+  - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --supports-->
   - [character-alvin](characters/alvin.md) --commits_to-->
+
+## [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --premise-->
 
 ## [claim-privileged-first-person-access](claims/privileged-first-person-access.md)
 - type: claim | author: mishka | status: asserted
@@ -320,6 +400,7 @@
 ## [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --supports-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --attacks-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --premise-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
@@ -334,10 +415,12 @@
 - backlinks:
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --premise-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --attacks-->
+  - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --attacks-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --attacks-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --supports-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --supports-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --attacks-->
+  - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --attacks-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --presupposes-->
   - [position-proteocentrism](positions/proteocentrism.md) --rejects-->
@@ -382,8 +465,10 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --uses_concept-->
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --uses_concept-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --uses_concept-->
+  - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --uses_concept-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --uses_concept-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --uses_concept-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --presupposes-->
@@ -391,11 +476,19 @@
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --uses_concept-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --uses_concept-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --uses_concept-->
+  - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --uses_concept-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --uses_concept-->
+  - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --uses_concept-->
+  - [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md) --uses_concept-->
   - [claim-dancing-qualia-presupposes-functional-introspection](claims/dancing-qualia-presupposes-functional-introspection.md) --uses_concept-->
+  - [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md) --uses_concept-->
+  - [claim-functional-description-structural-dynamical-only](claims/functional-description-structural-dynamical-only.md) --uses_concept-->
+  - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --uses_concept-->
+  - [claim-implementation-requires-counterfactual-structure](claims/implementation-requires-counterfactual-structure.md) --uses_concept-->
   - [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md) --uses_concept-->
   - [claim-phenomenal-concept-isolation-tradeoff](claims/phenomenal-concept-isolation-tradeoff.md) --uses_concept-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --uses_concept-->
+  - [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md) --uses_concept-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
   - [claim-substrate-independence](claims/substrate-independence.md) --presupposes-->
   - [claim-substrate-independence](claims/substrate-independence.md) --uses_concept-->
@@ -405,14 +498,22 @@
 ## [concept-grain](concepts/grain.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
+  - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --uses_concept-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
+  - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --uses_concept-->
+  - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --uses_concept-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --uses_concept-->
   - [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md) --uses_concept-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --uses_concept-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --uses_concept-->
+  - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --uses_concept-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --uses_concept-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --uses_concept-->
   - [claim-behaviour-insufficient-for-mind](claims/behaviour-insufficient-for-mind.md) --uses_concept-->
+  - [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md) --uses_concept-->
+  - [claim-counterfactual-structure-underdetermines-decomposition](claims/counterfactual-structure-underdetermines-decomposition.md) --uses_concept-->
+  - [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md) --uses_concept-->
+  - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --uses_concept-->
   - [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md) --uses_concept-->
   - [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md) --uses_concept-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
@@ -457,6 +558,7 @@
 ## [question-substrate-independence](questions/substrate-independence.md)
 - type: question | author: mishka | status: contested
 - backlinks:
+  - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --answers-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --answers-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --answers-->
 
