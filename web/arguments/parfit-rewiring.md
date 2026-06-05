@@ -35,3 +35,14 @@ Weakest premise: (2) read as forcing *degree* specifically. The discontinuity-ho
 (2) (some edit is the breaking point); the indeterminacy-horn theorist accepts (2) but reads the
 middle as gappy rather than graded. The argument's selection of the degree horn over those rivals
 is where it is pressed.
+
+### In plain terms
+
+Imagine slowly rewiring your mind, one tiny change at a time, until your psychology matches someone
+else's — say, a famous stranger's. At the start it's clearly you; at the far end it's clearly not.
+But no single tiny tweak is *the* moment you stopped being yourself. Sound familiar? It's the heap
+paradox again, with "me / not-me" standing in for "heap / not-heap." Parfit's move is to take one of
+the exits: personal identity isn't a hard yes-or-no, it's a matter of *degree* — you can be partly
+the same person, more or less continuous with who you were, rather than flatly the same or flatly a
+different person. (Other thinkers grab different exits — a hidden exact cutoff, or a stretch where
+there's just no fact of the matter — which is where this argument gets contested.)

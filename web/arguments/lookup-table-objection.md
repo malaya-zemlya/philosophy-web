@@ -53,3 +53,16 @@ Distinct from [role-grain-dilemma](role-grain-dilemma.md) and [dense-china-brain
 deploy a China-brain against [substrate-independence](../claims/substrate-independence.md), about the *grain* of functional role.
 This deploys the lookup table against [llm-has-mental-states](../claims/llm-has-mental-states.md) / [behavioral-parity](behavioral-parity.md), about
 whether *behaviour* is sufficient evidence for mind — a different target and conclusion.
+
+### In plain terms
+
+This is the "cheat-sheet machine" put to work as an objection. Recall the idea: you could, in
+principle, build something that produces all of a mind's behavior just by looking answers up in a
+giant pre-written table — right outputs, but nobody actually thinking inside. If that's even
+possible, then matching behavior can't be *enough* to guarantee a mind, because here's a case with
+the behavior and (intuitively) no mind. So behavior on its own is shakier evidence than it looked.
+Two things worth noticing. First, the punch only really lands on views that judge minds by behavior
+*alone*; a view that also demands the right inner workings just shrugs — "of course the cheat-sheet
+lacks those" — and moves on. Second, the live argument about today's AI isn't whether a pure lookup
+table has a mind (everyone agrees it doesn't), but whether real language models are *like* a lookup
+table inside, or are richly organized in the way a mind is. That's the open question.

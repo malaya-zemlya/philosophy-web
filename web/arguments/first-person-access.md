@@ -38,3 +38,15 @@ provenance: a problem-of-other-minds appeal applied to AI. In the source dialogu
 pastiche lineage — *О правах непротеиновых существ*, "On the Rights of Non-Protein Beings") this is
 the speaker Cleant's appeal, adopted on the proteocentrist side; imported here as a node, not as a
 character. Lends support to [proteocentrism](../positions/proteocentrism.md) via its conclusion.
+
+### In plain terms
+
+You know your own suffering from the inside, directly — for you there's no doubt that *someone* is
+in there hurting. With a machine, all you ever get is an outside guess: it behaves as if it suffers,
+but you're never personally acquainted with any inner hurt. The argument: since that direct,
+inside acquaintance is what really backs up the belief "there's a someone here who can be wronged,"
+you're entitled to count *yourself* as mattering morally in a way you're not equally entitled to
+count the machine. Notice it's a claim about what you're *justified* in believing, not a flat
+announcement that the machine is empty. Its main weakness — and why it's marked contested — is that
+the very same reasoning seems to lock you out of other *people* too, since you have no inside access
+to their pain either, threatening to leave you alone as the only being you can be sure matters.

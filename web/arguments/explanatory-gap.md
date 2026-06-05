@@ -46,3 +46,17 @@ status from behaviour; this is an abduction *against* the uniform scope of its e
 premise. Distinct from the grain argument ([role-grain-dilemma](role-grain-dilemma.md)) because that attacks
 the individuation of "role" itself, whereas this grants a fixed role and presses what role
 leaves out.
+
+### In plain terms
+
+Suppose you had a complete scientific account of everything your brain *does* when you see red —
+every signal, every reaction, all of it. A strange question still seems to make sense: "fine, but is
+there actually something it's *like* to see red? Is anyone home in there?" Compare: once you know
+"a bachelor is an unmarried man," asking "yes, but is he *really* unmarried?" is just confused —
+there's no question left over. The point here is that with consciousness the leftover question
+stubbornly does *not* feel confused. We can even picture a being that does everything we do yet feels
+nothing inside (philosophers call it a "zombie"), and that picture seems to hang together. If feeling
+were nothing more than function, none of that should make sense. So this lingering gap is treated as
+evidence that the *felt* side of mind isn't fully captured by function alone. (It's offered as
+evidence, not proof — the weak point being that managing to *imagine* something doesn't by itself
+show it's genuinely possible.)

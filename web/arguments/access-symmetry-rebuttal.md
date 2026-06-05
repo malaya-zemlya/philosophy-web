@@ -38,3 +38,15 @@ inner standpoint; it does not by itself establish that it does.
 provenance: the mutual unprovability of consciousness is due to Stanisław Lem ([lem](../sources/lem.md)). In the
 prior-run pastiche dialogue this is the speaker Filon's reply; imported here as a node, not a
 character.
+
+### In plain terms
+
+This answers the previous argument. That one leaned on a gap: you can't get inside a machine's
+experience. True — but here's the catch the rebuttal presses: that gap runs *both ways, and between
+everyone*. The machine can't get inside you either; and for that matter you can't get inside any
+other human being. The real barrier isn't "human vs. machine," it's "me vs. anyone else at all,"
+and it's perfectly even-handed. So you can't use that gap to wave humans through as obviously
+mattering while singling out machines as the doubtful case. One limitation: this only works if the
+machine actually has *some* inner life to be cut off from. If there's truly nothing inside it, the
+gap isn't two-way — it's just blank on one side — and the lopsidedness creeps back in. So the
+rebuttal disarms the move without proving the machine feels anything.

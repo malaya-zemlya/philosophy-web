@@ -43,3 +43,16 @@ not yet imported (candidate for a future /import-argument).
 provenance: prudential "sign" argument for the proteocentrist side; in the prior-run pastiche
 dialogues voiced by Cleon (*Flesh and the Rights of Minds*) and Cleant (*О правах непротеиновых
 существ*, second argument). Imported as a node, not a character.
+
+### In plain terms
+
+This is a caution argument, not a claim about what machines really are inside. Suppose we picked
+some outward sign — "it acts like it's suffering" — as the official test for granting AIs rights.
+The moment that sign becomes the rule, there's a reward for producing it, so it gets gamed and faked
+until it no longer reliably means real suffering. A sign that cheap to fake, the argument says,
+can't safely be the thing we hang moral and legal standing on. Biology, by contrast, can't yet be
+counterfeited to that standard. So as a careful *policy under uncertainty*, play it safe: rest
+rights on the hard-to-fake biological mark, and put the burden on the non-biological case to prove
+itself. Two honest caveats are built in: "hard to fake" isn't the same as "must be flesh" — a future
+unforgeable *non*-biological sign would do the job too — and critics note that plenty of forgeable
+signs (fingerprints, say) are still useful evidence rather than worthless.

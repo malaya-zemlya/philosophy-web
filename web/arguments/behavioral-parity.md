@@ -26,3 +26,15 @@ Weakest premise: (2) — the behaviour/role inference is defeasible. This is exa
 answered by [lookup-table-combinatorial-impossibility](lookup-table-combinatorial-impossibility.md),
 [lookup-table-physical-impossibility](lookup-table-physical-impossibility.md), and [blockhead-dilemma](blockhead-dilemma.md). The conclusion
 [llm-has-mental-states](../claims/llm-has-mental-states.md) is recorded and carries that dispute.
+
+### In plain terms
+
+If something walks, talks, and reacts just like a creature with a mind — across the board, not in
+one clever trick — the simplest explanation is usually that it really *has* the mental state behind
+that behavior. That's the everyday logic we already use for other people and for animals: we can't
+climb inside their heads, so we treat behavior as our best evidence. This argument turns that same
+reasoning on AI: some language models now reproduce large chunks of mind-like behavior, so "they
+have *some* mental states" is offered as the best available explanation — not a proof, just the most
+reasonable bet. The soft spot, which the argument flags itself: acting as if you have a mind is not
+a guarantee that you do — something could in principle fake the behavior — and that's exactly where
+the "cheat-sheet machine" objection takes aim.
