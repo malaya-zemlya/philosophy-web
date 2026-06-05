@@ -31,6 +31,19 @@ lookup table, since the organisation is
 present — which is exactly why it is sharpened into [dense-china-brain-regress](../arguments/dense-china-brain-regress.md) against the
 organisational grain.
 
+### In plain terms
+
+Imagine the entire population of a country handed a rulebook and radios and told: each of you act as
+one brain cell — when you receive these signals, send those. Follow the rules fast enough and the
+nation as a whole mimics, step for step, everything one human brain does inside — not just the
+outward behavior but the actual inner wiring. Now the unsettling question: the country is doing
+literally everything your brain does when you feel pain… so is the *country* feeling pain? Is there
+one extra "someone" — the nation itself — having an experience, hovering above millions of people who
+each feel nothing out of the ordinary? If running the right pattern is all it takes to be conscious,
+you seem pushed to say yes; most people's gut says surely not. That clash is the whole point of the
+thought experiment. (It's a sharper challenge than a dumb answer-lookup machine, because here the
+full inner organization really is present — so you can't dismiss it for "having no inner structure.")
+
 ## Illustration
 
 (a literary cousin, of a famous scene from Liu Cixin's *The Three-Body Problem* ([liu-cixin](../sources/liu-cixin.md))). 

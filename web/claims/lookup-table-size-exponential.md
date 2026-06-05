@@ -30,3 +30,14 @@ exponential count is the size of a *genuine* lookup table; compressing it conced
 
 Distinct from [finite-table-misses-inputs](finite-table-misses-inputs.md): that says a finite table *misses* some (longer)
 inputs; this measures the *size* of the bounded table that misses none up to length `n`.
+
+### In plain terms
+
+This is the arithmetic behind "a cheat-sheet for a whole mind would be impossibly huge." To answer
+like a mind, a table needs a separate stored row for every distinct thing that could be said to it.
+Count those: the number of possible word-sequences is roughly the vocabulary size multiplied by
+itself once for every word-slot — which at AI scale lands around 10^9600 (a 1 followed by 9,600
+zeros). Block's "just cover one lifetime" version is even bigger, since real sense-experience is
+richer and a life is long. And you can't shrink it by noticing that many inputs deserve the same
+reply — working out *which* inputs share a reply is itself real computing, exactly what a pure lookup
+table was supposed to do without.
