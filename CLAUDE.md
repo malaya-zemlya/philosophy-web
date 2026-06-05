@@ -48,6 +48,9 @@ One utterance is not one node.
 - Character positions (evolving): `web/characters/<id>.md` — a character reads this at the
   start of each turn; it is the character's memory between turns.
 - Integrity check / backlink + index generation: `scripts/lint.py` (see below)
+- Visual graph of the web (claims/arguments/concepts + relations): `scripts/graph.py` →
+  `graph/web.svg`. Manual, on demand; needs the Graphviz `dot` binary (`brew install graphviz`).
+  Not in the pre-commit hook. Regenerate after sizable web changes; see README "Building the graph".
 
 ## Running the linter (uv)
 `scripts/lint.py` requires PyYAML. Use a uv-managed virtual environment — do **not** rely on a

@@ -485,6 +485,7 @@
   - [claim-functional-description-structural-dynamical-only](claims/functional-description-structural-dynamical-only.md) --uses_concept-->
   - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --uses_concept-->
   - [claim-implementation-requires-counterfactual-structure](claims/implementation-requires-counterfactual-structure.md) --uses_concept-->
+  - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --uses_concept-->
   - [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md) --uses_concept-->
   - [claim-phenomenal-concept-isolation-tradeoff](claims/phenomenal-concept-isolation-tradeoff.md) --uses_concept-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --uses_concept-->
