@@ -38,3 +38,12 @@ Distinct from [substrate-independence](substrate-independence.md): that is the g
 substrate-independent); this is the specific *existential* claim about actual systems. Distinct from a
 claim that LLMs are *conscious*: this asserts mental-state realisation on the functional reading, not
 sentience.
+
+### In plain terms
+
+The modest claim that at least one of today's AI language models genuinely has at least one real
+mental state — actually occupying the role of, say, a belief or a representation, not merely
+imitating the output. Notice how careful it is: "some… some." It is *not* saying these systems have
+full, human-like minds, and it is *not* claiming they're *conscious* or feel anything — only that the
+box of genuine mental states isn't entirely empty. Whether even that much is true is exactly what's
+disputed.

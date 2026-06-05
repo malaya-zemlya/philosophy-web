@@ -35,4 +35,5 @@ Once we admit the giant lookup-table "mind" could never actually be built and li
 imagination, the confident feeling that "obviously nothing's conscious in there" loses its grip.
 Imagining is cheap and cuts both ways — you can just as easily picture the thing *having* an inner
 life. So the case doesn't force the "no mind" verdict; you're free to imagine it either way. (This
-isn't claiming the imaginary table *is* conscious — only that you can't lean on "obviously not.")
+isn't claiming the imaginary table *is* conscious — only that you can't lean on "obviously not."). For example,
+you can imagine that the physical lookup table is so giant and complicated, that eventually gravity leads to star formation, planetary systems and life developing on one corner of this table.

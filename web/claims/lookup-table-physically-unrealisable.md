@@ -33,3 +33,13 @@ Distinct from [lookup-table-combinatorially-inadequate](lookup-table-combinatori
 from the mind on out-of-domain inputs (a competence gap, which Block's bounded table escapes); this
 says the bounded table that would *not* diverge is too large to *exist* — a different ground of
 failure that survives the bounded-table rejoinder.
+
+### In plain terms
+
+A stored answer-table big enough to match a real mind's (or a real AI's) behavior would need vastly
+more entries than there are particles to store them on — far more than the entire observable universe
+could hold. So such a table couldn't merely be hard to build; it couldn't exist at all, anywhere,
+ever. A sharper consequence: real AI models do their job with a comparatively tiny number of internal
+settings, so they plainly *aren't* secret lookup tables — they must be genuinely computing. (It
+doesn't claim a lookup-table mind is logically impossible — only that no real one could physically
+exist.)

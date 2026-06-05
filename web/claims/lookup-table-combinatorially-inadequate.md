@@ -34,3 +34,11 @@ premise.
 Distinct from [lookup-table-lacks-mind](lookup-table-lacks-mind.md) (the table has behaviour but no mind): this denies the
 table even has the *behaviour* — a stronger, prior claim. It is effectively the negation of
 [lookup-table-possible](lookup-table-possible.md) (which asserts the finite table CAN reproduce the profile).
+
+### In plain terms
+
+No finite stored answer-table, however enormous, can match everything a real mind does — because a
+mind handles an open-ended stream of fresh inputs, and any finite table eventually hits one it has no
+entry for, at which point the two part ways. So the cheat-sheet isn't merely impractically big; it
+can't reproduce the *whole* range of a mind's behavior at all. (Disputed: maybe you only ever need to
+cover the inputs of a single lifetime — the bounded-table reply, [bounded-table-rejoinder](../arguments/bounded-table-rejoinder.md).)

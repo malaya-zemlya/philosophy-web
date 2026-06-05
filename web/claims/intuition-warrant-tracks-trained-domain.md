@@ -25,3 +25,12 @@ conceivability delivers reliable verdicts regardless of a case's distance from e
 
 Distinct from [imaginary-blockhead-no-secure-verdict](imaginary-blockhead-no-secure-verdict.md): that *applies* this principle to the
 blockhead; this is the general principle it instances.
+
+### In plain terms
+
+Your gut feelings about made-up cases are trained on the real cases you've actually met. So a hunch
+is trustworthy roughly to the degree the imagined case resembles those familiar ones — in size, in
+structure, in kind. Run your intuition on something wildly outside anything you've ever encountered
+and its verdicts get shaky; you're using a tool far outside the range it was built for. (It doesn't
+say far-fetched cases are impossible, or that distant hunches are always wrong — only that they can't
+carry heavy argumentative weight on their own.)

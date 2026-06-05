@@ -24,3 +24,11 @@ but Block's point is that inputs outside the lifetime bound are irrelevant to ma
 
 Distinct from [lookup-table-possible](lookup-table-possible.md) (the general separability of behaviour from organisation):
 this is the specific coverage move that defends it against the combinatorial-impossibility reply.
+
+### In plain terms
+
+You don't need an infinite answer-table to mimic a person — just one big enough to hold a stored
+reply for every input they'd actually meet in a whole lifetime. Inputs longer or stranger than that
+never come up for them, so they don't matter. Within the range a real person ever lives through, the
+bounded table always has an answer ready. (This only claims the table *covers* those inputs — not
+that it could ever be physically built, which is a separate, losing battle.)
