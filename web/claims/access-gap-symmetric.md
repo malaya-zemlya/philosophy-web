@@ -28,3 +28,10 @@ this adds the reciprocal, fully-general structure that neutralises the *asymmetr
 
 provenance: the mutual unprovability of consciousness between minds is due to Stanisław Lem — see
 [lem](../sources/lem.md).
+
+### In plain terms
+
+You can never directly feel anyone else's experience — and that cuts both ways. If a machine has any
+inner life at all, it's just as shut out of yours as you are of its. The wall isn't "humans on one
+side, machines on the other"; it's "me versus everyone else," and it stands equally between any two
+minds. So that wall can't be used to single machines out as the doubtful case.

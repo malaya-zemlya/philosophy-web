@@ -27,3 +27,11 @@ to entail that I am equally unwarranted about other human beings, see
 Distinct from [privileged-first-person-access](privileged-first-person-access.md) because that merely asserts self-acquaintance
 exists; this asserts the far stronger, contestable thesis that such acquaintance is *necessary*
 for warranted moral-status attribution.
+
+### In plain terms
+
+This claim says you're only really entitled to believe "there's someone in there who can be wronged"
+when you have direct, first-hand acquaintance with their experience. Short of that inside contact,
+calling something a being-that-matters is just an unproven guess. It's a strong and much-disputed
+claim — taken strictly, it seems to leave you unable to vouch even for *other people*, since you
+have no inside line to their feelings either.

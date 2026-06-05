@@ -23,3 +23,11 @@ first-person standpoint at all, so the symmetry is illusory.
 
 Distinct from [substrate-independence](substrate-independence.md) because that is about whether mental states depend on
 substrate; this is narrowly about whether *access* can warrant a moral-status asymmetry.
+
+### In plain terms
+
+Not being able to directly feel another's experience is true of *every* pair of minds, not just
+human-and-machine — so it can't be the thing that makes a human matter morally while a machine
+doesn't. If there's any such moral difference, it has to be argued some other way; the inside-view
+gap won't deliver it. (This doesn't claim machines *do* matter — it just removes one reason people
+give for saying they don't.)

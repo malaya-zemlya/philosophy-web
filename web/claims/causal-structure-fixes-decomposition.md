@@ -27,3 +27,11 @@ who would deny it: anyone running those two attacks; more broadly, a residual-in
 
 Distinct from [role-grain-is-organisational](role-grain-is-organisational.md): that names *which* grain is correct; this asserts
 that causal structure *fixes a* decomposition at all.
+
+### In plain terms
+
+You might worry there's no single "right" way to carve a system into parts and processes — that it's
+all in the eye of the beholder. This claim answers: there is a right way, because real cause-and-
+effect (what genuinely would have happened under other conditions) is a fact about the world, not a
+matter of how an observer chooses to look — and it picks out one true organization. (It's a contested
+step: critics reply that cause-and-effect narrows the options without nailing down exactly one.)

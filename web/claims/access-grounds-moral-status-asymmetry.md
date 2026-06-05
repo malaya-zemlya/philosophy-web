@@ -26,3 +26,10 @@ which denies any *human/machine* asymmetry is available here at all.
 
 Distinct from [proteocentrism](../positions/proteocentrism.md) because that is a metaphysical thesis (only carbon life can
 bear consciousness); this is the weaker epistemic claim that *warrant* tracks first-person access.
+
+### In plain terms
+
+You feel your own suffering directly; with a machine you can only infer, from the outside, that it
+*might* be suffering. So this claim says you're entitled to count yourself as morally important in a
+way you're not yet entitled to count the machine. It's a point about what you're *justified* in
+believing — not a flat verdict that the machine is empty inside.

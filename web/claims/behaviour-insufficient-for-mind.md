@@ -24,3 +24,11 @@ profile just is the having of the state.
 Distinct from [substrate-independence](substrate-independence.md) (about whether substrate matters) and from
 [role-grain-is-organisational](role-grain-is-organisational.md) (about which grain individuates): this is the prior, more
 general point that the *behavioural* grain is too coarse to be sufficient at all.
+
+### In plain terms
+
+Acting exactly like something with a mind isn't enough to *guarantee* there's a mind. The reason:
+you could in principle get all the right behavior out of a giant pre-stored answer table with nobody
+actually thinking inside — so matching behavior leaves the real question (what's going on internally)
+wide open. This doesn't say behavior is *no* evidence; it says behavior can't settle the matter by
+itself.

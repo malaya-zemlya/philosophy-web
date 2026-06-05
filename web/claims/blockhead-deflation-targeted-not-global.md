@@ -27,3 +27,11 @@ taken up in the weakest-premise of [intuition-domain-asymmetry](../arguments/int
 
 Distinct from [imaginary-blockhead-no-secure-verdict](imaginary-blockhead-no-secure-verdict.md): that is the deflation; this bounds its
 reach.
+
+### In plain terms
+
+If we distrust our gut reaction to a bizarre, universe-sized lookup-table "mind" — because it's
+nothing like any real mind we've ever met — that distrust doesn't automatically spread to a
+normal-sized silicon copy of a brain, which *is* very much like a real mind. Doubting the wild,
+far-out case leaves the close, familiar case standing. So that doubt doesn't accidentally undercut
+the idea that a brain-like machine could be conscious.
