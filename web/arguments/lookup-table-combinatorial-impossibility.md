@@ -50,8 +50,8 @@ over an unbounded input space — a different ground of exclusion.
 
 ### In plain terms
 
-This pushes back on the cheat-sheet machine. That whole worry assumed you *could* store a ready-made
-answer for every possible input. But a real mind faces an open-ended world — there's no end to the
+This pushes back on the cheat-sheet machine objection ([lookup-table-objection](lookup-table-objection.md)). That
+whole worry assumed you *could* store a ready-made answer for every possible input. But a real mind faces an open-ended world — there's no end to the
 fresh sentences, situations, and questions it can sensibly deal with. Any finite stored table,
 however gigantic, eventually meets an input nobody anticipated, and then all it can do is choke or
 ignore the unfamiliar part. A genuine mind doesn't choke; it responds sensibly to the new thing. So

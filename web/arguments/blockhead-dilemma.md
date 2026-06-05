@@ -54,9 +54,9 @@ all (a competence gap), not the legitimacy of the intuition.
 
 ### In plain terms
 
-The cheat-sheet machine objection leans on you looking at that giant lookup-table "mind" and feeling
-"obviously nobody's home in there." This argument says that feeling can't carry the weight,
-whichever way you read the machine. Read it as a *real, physical* thing? It can't exist — the table
+The cheat-sheet machine objection — that a giant stored answer-table would behave like a mind yet
+obviously have nobody home ([lookup-table-objection](lookup-table-objection.md)) — leans on that "nobody home"
+feeling. This argument says the feeling can't carry the weight, whichever way you read the machine. Read it as a *real, physical* thing? It can't exist — the table
 is too vast for the universe to hold — so you're reacting to something that could never actually be
 built. Read it as a *merely imagined* thing? Then your "nobody home" verdict isn't forced: picturing
 a weird cosmic object doesn't settle whether there's experience inside, and you could just as easily

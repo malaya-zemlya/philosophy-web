@@ -43,7 +43,8 @@ denies it, not the claim itself.
 
 ### In plain terms
 
-This is Block defending the cheat-sheet machine against the "a finite table can't keep up" reply.
+This is Block defending the cheat-sheet machine ([lookup-table-mind](../concepts/lookup-table-mind.md)) against the "a finite
+table can't keep up with an open-ended mind" reply ([lookup-table-combinatorial-impossibility](lookup-table-combinatorial-impossibility.md)).
 His move: you don't need a stored answer for *every conceivable* input — only for the ones a person
 actually runs into across a whole lifetime. Within that range, the table always has a reply ready.
 And the freakishly long or strange inputs beyond that bound? A real human mind breaks down on those

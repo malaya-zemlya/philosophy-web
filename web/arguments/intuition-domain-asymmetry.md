@@ -46,10 +46,11 @@ about the *epistemology of the intuition*, bounding horn 2's reach.
 
 ### In plain terms
 
-This defends a tricky move from a "you can't have it both ways" complaint. The worry: if we throw
-out our gut feeling that a giant lookup-table "mind" has nobody home — on the grounds that gut
-feelings about bizarre imaginary cases aren't reliable — don't we then also have to throw out the gut
-feeling on our *own* side, that a silicon copy of a brain would be conscious? The answer is no, and
+This defends a tricky move — distrusting our "nobody home" hunch about the giant lookup-table mind
+because it's a wild imaginary case ([blockhead-dilemma](blockhead-dilemma.md)) — from a "you can't have it both
+ways" complaint. The worry: if we throw out that hunch on the grounds that gut feelings about bizarre
+imaginary cases aren't reliable, don't we then also have to throw out the gut feeling on our *own*
+side, that a silicon copy of a brain would be conscious? The answer is no, and
 here's the principle behind it: a hunch is trustworthy roughly to the degree the case resembles the
 everyday examples that trained the hunch. The cosmic lookup table is unimaginably huge and utterly
 unlike any real brain — a wild extrapolation, so the hunch about it is weak. A brain-scale silicon

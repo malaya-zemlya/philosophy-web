@@ -24,3 +24,12 @@ constraints can be gerrymandered (Godfrey-Smith, Sprevak).
 
 Distinct from [functional-decomposition-relative](functional-decomposition-relative.md): that asserts non-uniqueness of decomposition;
 this asserts a *constraint* (counterfactual robustness) that narrows the admissible decompositions.
+
+### In plain terms
+
+For a physical thing to genuinely *run* a particular computation, it's not enough that you can retell
+the story of what it actually did and make it fit. It must also be true that *if* things had gone
+differently, it would have responded in the matching way — across every branch, not just the one that
+happened. That "what it would have done otherwise" requirement is what stops you from claiming a rock
+secretly computes everything: a rock has no such robust, reliable dispositions. (It doesn't say a
+system runs only *one* computation — just that it doesn't run *every* one.)

@@ -34,9 +34,10 @@ indeterminacy.
 
 ### In plain terms
 
-This grants the previous reply a lot, then stops it short. Yes — insisting on real, robust
-cause-and-effect (rather than any old after-the-fact relabeling) does throw out the obviously bogus
-ways of slicing a system into parts. But "throwing out the bogus ones" isn't the same as "leaving
+This grants a lot to the "real cause-and-effect picks out one true organization" reply
+([causal-structure-supplies-invariant](causal-structure-supplies-invariant.md)), then stops it short. Yes — insisting on real,
+robust cause-and-effect (rather than any old after-the-fact relabeling) does throw out the obviously
+bogus ways of slicing a system into parts. But "throwing out the bogus ones" isn't the same as "leaving
 exactly one." What survives is still a *family* of perfectly reasonable carvings, differing in where
 you draw the boundaries and how fine-grained you go. So objective cause-and-effect *narrows down* the
 options without *pinning down a single one* — and the original question ("which carving is the real

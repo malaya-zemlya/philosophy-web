@@ -42,8 +42,9 @@ right; this argues that *a* grain is fixed at all.
 
 ### In plain terms
 
-This answers the "who gets to decide how to slice the system up?" worry. The reply: you actually
-can't slice it just any way you please. To genuinely *carry out* a given process, a system has to
+This answers the "who gets to decide how to slice the system up?" worry — the objection that says a
+definite consciousness can't rest on an observer's choice of carving ([decomposition-indeterminacy](decomposition-indeterminacy.md)).
+The reply: you actually can't slice it just any way you please. To genuinely *carry out* a given process, a system has to
 have the right web of cause-and-effect — "if this had fired, that would have followed" — holding
 across all the possible cases, not only the ones that happened to come up. Cooked-up, after-the-fact
 relabelings don't have that robust causal backbone, so they don't count as real organizations. And

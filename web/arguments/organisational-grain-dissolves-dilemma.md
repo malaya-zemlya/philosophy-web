@@ -51,9 +51,9 @@ to intentional states.
 
 ### In plain terms
 
-This answers the "no good level of detail exists" dilemma by offering one. Recall the trap: describe
-a mind too loosely and a mere cheat-sheet machine qualifies; describe it too tightly and only
-biological brains qualify. The middle option proposed here: describe a mind by its *inner wiring of
+This answers the "no good level of detail exists" dilemma ([role-grain-dilemma](role-grain-dilemma.md)) by
+offering one. That trap: describe a mind too loosely and a mere cheat-sheet machine qualifies;
+describe it too tightly and only biological brains qualify. The middle option proposed here: describe a mind by its *inner wiring of
 cause-and-effect* — which inner states trigger which others, and how — rather than by its outward
 behavior or by its exact biology. That middle does both jobs at once. It shuts out the cheat-sheet,
 which has no such inner wiring (it just maps questions straight to stored answers). And it lets in

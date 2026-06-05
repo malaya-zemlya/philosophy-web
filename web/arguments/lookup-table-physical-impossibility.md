@@ -60,7 +60,8 @@ killer: count how big that table would have to be. For language, the number of p
 sequences explodes exponentially — for something at the scale of today's AI it works out to roughly
 10^9600 entries. The entire observable universe can hold only about 10^120 bits. So the table isn't
 just impractical; it could not be built in *this universe*, not even in principle. Two payoffs.
-First, it slams shut the escape hatch the previous argument left open. Second, and sharper: real AI
+First, it slams shut the bounded-table escape hatch — the reply that you only need to store answers
+for a single lifetime's inputs ([bounded-table-rejoinder](bounded-table-rejoinder.md)). Second, and sharper: real AI
 models do their job with a "mere" ~10^12 internal settings — astronomically too few to be a hidden
 lookup table — so they *can't* be working by canned lookup at all; they must be compressing and
 generalizing, i.e. genuinely processing. (What it doesn't claim: that a lookup-table mind is

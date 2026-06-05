@@ -53,8 +53,10 @@ alternative.
 
 ### In plain terms
 
-Here's a subtle reply to the cheat-sheet idea. The objection pictures a thing that produces mind-like
-behavior by *pure storage* — just looking answers up, with no real processing or organization inside.
+Here's a subtle reply to the cheat-sheet idea — the objection that a giant stored answer-table could
+act mindlike with nobody home ([lookup-table-objection](lookup-table-objection.md)). That objection pictures a thing
+producing mind-like behavior by *pure storage* — just looking answers up, with no real processing or
+organization inside.
 But push on the size. A flat table big enough to cover a mind's behavior can't physically exist (no
 room in the universe). So any machine that actually *fits* and *matches* the behavior must be storing
 far less than the full list — which means it has to *work each answer out* on the fly rather than

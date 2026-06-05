@@ -23,3 +23,10 @@ this claim, by paying for it with an unknowable sharp boundary.
 
 Distinct from [sorites-tolerance](sorites-tolerance.md): that is the step-insensitivity premise; this is the target
 the sorites refutes. [sorites-paradox](../arguments/sorites-paradox.md) attacks this claim using tolerance.
+
+### In plain terms
+
+This is the stubborn common-sense idea that for "heap" there's some exact number — say, 1,847 grains
+— where you cross from heap to non-heap, even if nobody could ever tell you which number it is. Every
+pile then counts definitely as one or the other. It's the picture the heap paradox sets out to
+attack, and most people conclude *something* about it has to give.

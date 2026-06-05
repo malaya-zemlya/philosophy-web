@@ -74,9 +74,12 @@ with a `### In plain terms` section — a short, plain-language explanation for 
 the repo with **no** philosophy training who has **not** read the rest of the web. Rules:
 - **Additive, never a substitute.** It does not override, soften, or restate-away the precise prose
   above it; the nuances stay upstairs. Think "front porch", not "replacement".
-- **Self-contained.** Avoid jargon; if a term is unavoidable, unpack it in a phrase. Do **not** use
-  `[[id]]` cross-references here and do not assume the reader knows the surrounding debate — the
-  section must read on its own.
+- **Self-contained, but link what it leans on.** Avoid jargon; if a term is unavoidable, unpack it
+  in a phrase. Never rely on reading order — a casual reader may land on this node first, so don't
+  write "the previous reply" / "just proposed". When the section refers to **another move in the
+  web** (a reply it answers, an objection it rebuts, a case it sharpens), name that move in a few
+  plain words *and* link it with `[[id]]`: the gloss carries the gist, the link carries the full
+  story. Keep links to the genuinely-referenced moves only — don't gratuitously link every concept.
 - **Only where it earns its keep.** A node already readable by a layperson needs none. Where a term
   genuinely cannot be removed, simplify as far as possible without flattening the distinction rather
   than dropping the section.

@@ -66,8 +66,9 @@ concerns the individuation of role itself.
 
 ### In plain terms
 
-This is the "feeling really is just function" side answering the explanatory-gap argument, in two
-moves.
+This is the "feeling really is just function" side answering the explanatory-gap argument — the
+charge that a leftover "but is anything actually felt?" question shows feeling is something extra
+([explanatory-gap](explanatory-gap.md)). It replies in two moves.
 
 **Move A — explain the gap away.** The other side said: the fact that "but is anything actually
 *felt*?" still sounds like a live question, even after the complete scientific story, is evidence

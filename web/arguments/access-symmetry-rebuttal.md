@@ -41,8 +41,9 @@ character.
 
 ### In plain terms
 
-This answers the previous argument. That one leaned on a gap: you can't get inside a machine's
-experience. True — but here's the catch the rebuttal presses: that gap runs *both ways, and between
+This answers the argument that your private, inside access to your own suffering gives you a moral
+edge over a machine ([first-person-access](first-person-access.md)). That one leaned on a gap: you can't get inside
+a machine's experience. True — but here's the catch the rebuttal presses: that gap runs *both ways, and between
 everyone*. The machine can't get inside you either; and for that matter you can't get inside any
 other human being. The real barrier isn't "human vs. machine," it's "me vs. anyone else at all,"
 and it's perfectly even-handed. So you can't use that gap to wave humans through as obviously

@@ -37,4 +37,5 @@ reasoning on AI: some language models now reproduce large chunks of mind-like be
 have *some* mental states" is offered as the best available explanation — not a proof, just the most
 reasonable bet. The soft spot, which the argument flags itself: acting as if you have a mind is not
 a guarantee that you do — something could in principle fake the behavior — and that's exactly where
-the "cheat-sheet machine" objection takes aim.
+the "cheat-sheet machine" objection, that a giant stored answer-table could behave mindlessly yet
+mindlike, takes aim ([lookup-table-objection](lookup-table-objection.md)).

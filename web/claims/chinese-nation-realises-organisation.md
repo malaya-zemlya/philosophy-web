@@ -32,6 +32,6 @@ this claim sets up a *counterexample-candidate* against, rather than asserting.
 
 This says a giant crowd of people, each playing the part of one brain cell and passing signals by the
 same rules, could together reproduce not just a brain's outward behavior but its full inner pattern of
-cause-and-effect. It's a stronger setup than the cheat-sheet machine: here the inner organization is
-genuinely present, not faked by a stored answer list. On its own it takes no stand on whether such a
+cause-and-effect. It's a stronger setup than the cheat-sheet machine ([lookup-table-mind](../concepts/lookup-table-mind.md)):
+here the inner organization is genuinely present, not faked by a stored answer list. On its own it takes no stand on whether such a
 crowd would actually be conscious — that's a separate question.

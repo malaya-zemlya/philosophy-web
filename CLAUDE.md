@@ -44,8 +44,12 @@ One utterance is not one node.
    **no** philosophy training and **has not read the rest of the web**. It is strictly
    *additive* — it never overrides, softens, or replaces the precise prose above it, and it must
    not dilute the node's nuances. Write it to stand alone: avoid jargon, or unpack in a phrase any
-   term you genuinely cannot avoid; do **not** lean on `[[id]]` cross-references or assume the
-   reader knows the surrounding debate. Add it only where it earns its keep — a node already
+   term you genuinely cannot avoid, and never lean on reading order — a casual reader may land here
+   first. When the section refers to **another move in the web** (a reply it answers, an objection
+   it rebuts, a case it sharpens), don't write "the previous reply": name that move in a few plain
+   words *and* link it with `[[id]]`, so the gloss carries the gist and the link carries the full
+   story. Keep such links to the genuinely-referenced moves; don't gratuitously link every concept.
+   Add it only where it earns its keep — a node already
    readable by a layperson does not need one. Some nodes unavoidably require a specialized term or
    two; simplify as far as you can there without flattening the distinctions, rather than skipping
    the section. The heading is exactly `### In plain terms`. When in doubt about a node, ask.

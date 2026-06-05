@@ -67,8 +67,9 @@ its hidden functionalism about the *introspective access* relation specifically.
 
 ### In plain terms
 
-This is a rebuttal to a clever argument on the other side, so first that argument. It tries to prove
-that feelings *must* be fixed by function. Picture slowly swapping someone's brain, piece by piece,
+This is a rebuttal to a clever argument on the other side (the "fading qualia" half of
+[gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md)), so first that argument. It tries to prove that
+feelings *must* be fixed by function. Picture slowly swapping someone's brain, piece by piece,
 for a machine that behaves identically. If their inner feels secretly drifted along the way — red
 starting to look the way blue used to — while every function stayed the same, they'd never notice or
 say a word about it. They'd be bizarrely blind to a change in their own experience, which seems

@@ -64,8 +64,10 @@ role and presses what role leaves out, whereas this attacks the individuation of
 
 ### In plain terms
 
-This is the comeback to the "inner-wiring middle" just proposed. Fine, says the objector — let's
-actually build a system with exactly that inner wiring and see whether the trap really closed. Take
+This is the comeback to the "inner-wiring middle" — the proposal that a mind is fixed by its inner
+pattern of cause-and-effect, which supposedly admits silicon while shutting out a mere cheat-sheet
+([organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md)). Fine, says the objector — let's actually build
+a system with exactly that inner wiring and see whether the trap really closed. Take
 the nation-of-people again, but this time have each person hand-implement one piece of the brain's
 full cause-and-effect web, every "if this, then that" faithfully drilled. By design, this crowd now
 has the very inner organization the middle option demanded — it is *not* a cheat-sheet. So: does it

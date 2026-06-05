@@ -56,9 +56,9 @@ whether *behaviour* is sufficient evidence for mind — a different target and c
 
 ### In plain terms
 
-This is the "cheat-sheet machine" put to work as an objection. Recall the idea: you could, in
-principle, build something that produces all of a mind's behavior just by looking answers up in a
-giant pre-written table — right outputs, but nobody actually thinking inside. If that's even
+This is the "cheat-sheet machine" ([lookup-table-mind](../concepts/lookup-table-mind.md)) put to work as an objection. The
+idea: you could, in principle, build something that produces all of a mind's behavior just by looking
+answers up in a giant pre-written table — right outputs, but nobody actually thinking inside. If that's even
 possible, then matching behavior can't be *enough* to guarantee a mind, because here's a case with
 the behavior and (intuitively) no mind. So behavior on its own is shakier evidence than it looked.
 Two things worth noticing. First, the punch only really lands on views that judge minds by behavior

@@ -28,3 +28,11 @@ Distinct from [lookup-table-lacks-mind](lookup-table-lacks-mind.md): that assert
 undercuts the *evidential warrant* for that very verdict in the physically-impossible case. Distinct
 from [lookup-table-physically-unrealisable](lookup-table-physically-unrealisable.md): that is the physical horn; this is the conceptual
 horn of [blockhead-dilemma](../arguments/blockhead-dilemma.md).
+
+### In plain terms
+
+Once we admit the giant lookup-table "mind" could never actually be built and lives only in
+imagination, the confident feeling that "obviously nothing's conscious in there" loses its grip.
+Imagining is cheap and cuts both ways — you can just as easily picture the thing *having* an inner
+life. So the case doesn't force the "no mind" verdict; you're free to imagine it either way. (This
+isn't claiming the imaginary table *is* conscious — only that you can't lean on "obviously not.")

@@ -49,7 +49,7 @@ cause-and-effect step a brain goes through. On the "it's the pattern that counts
 flag-waving nation should then have a mind, feelings and all. But — the argument urges — surely
 there's no extra *someone* hovering above the crowd actually *feeling* anything; the machinery runs,
 yet nobody's home. If that's right, then running the right pattern of cause-and-effect isn't enough
-to produce a felt experience. This is a sharper case than the cheat-sheet machine: the nation really
-does carry out the full inner organization, so you can't wave it away by saying "it has no inner
-structure." The contested part is the gut feeling that the nation feels nothing — some reply that
+to produce a felt experience. This is a sharper case than the cheat-sheet machine
+([lookup-table-mind](../concepts/lookup-table-mind.md)): the nation really does carry out the full inner organization, so you
+can't wave it away by saying "it has no inner structure." The contested part is the gut feeling that the nation feels nothing — some reply that
 the nation *as a whole* might be a genuine subject even though no single citizen is.

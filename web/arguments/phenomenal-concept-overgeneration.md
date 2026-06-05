@@ -60,8 +60,8 @@ appeal of phenomenal concepts and turns their isolation against the strategy's o
 
 ### In plain terms
 
-This attacks Move A of the previous reply — the "two separate mental handles" explanation for why
-the gap never closes. That explanation needs the inside, "*this!*" handle on your experience to be
+This attacks one half of a reply made by the "feeling is just function" side ([gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md)) —
+its "two separate mental handles" explanation for why the felt gap never closes (call it Move A). That explanation needs the inside, "*this!*" handle on your experience to be
 completely *sealed off* from your other concepts; that sealing is what guarantees the question always
 feels open. But now ask: what makes you so sure you're conscious *at all*? Your only grip on your own
 felt experience is that very inside handle. Here's the squeeze. Either that handle really does tell

@@ -25,7 +25,8 @@ commits_to, rejects, holds. A concept is *invoked* (via others' `uses_concept`),
 - the live dispute the concept feeds, by claim/question id
 - if jargon-heavy: end with an optional `### In plain terms` section — a self-contained,
   plain-language gloss for a casual visitor with no philosophy training and no knowledge of the
-  rest of the web. Additive only (never overrides the precise prose above; no `[[id]]` links).
+  rest of the web. Additive only (never overrides the precise prose above). Don't rely on reading
+  order; when it refers to another move in the web, name it in plain words and link it with `[[id]]`.
   See web-protocol "Optional `### In plain terms` section".
 
 ## Invariants

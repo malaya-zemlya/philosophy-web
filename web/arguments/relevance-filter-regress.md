@@ -40,8 +40,9 @@ relations in the first place.
 
 ### In plain terms
 
-Another problem for the "cause-and-effect fixes the one true organization" reply. Physics hands you
-*all* of a system's cause-and-effect, indiscriminately — not just the thinking-related bits, but its
+Another problem for the "cause-and-effect fixes the one true organization" reply
+([causal-structure-supplies-invariant](causal-structure-supplies-invariant.md)). Physics hands you *all* of a system's
+cause-and-effect, indiscriminately — not just the thinking-related bits, but its
 weight, its warmth, the squelchy sound a brain makes if you poke it. Now you're stuck between two bad
 options. Count *everything*, and a brain's full causal profile includes things no silicon chip shares
 (chips don't squelch), so a machine can never match it — back to "only meat can think." To dodge
