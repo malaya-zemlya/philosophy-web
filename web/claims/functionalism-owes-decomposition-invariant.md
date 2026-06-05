@@ -26,3 +26,13 @@ grain, i.e. the system's objective counterfactual causal structure ([role-grain-
 
 Distinct from the demand of [role-grain-dilemma](../arguments/role-grain-dilemma.md) (a grain coarse enough yet fine enough):
 that asks *where to set the resolution* of a role; this asks *what fixes the carving at all*.
+
+### In plain terms
+
+Here's a bill handed to the "mind = function" view. Your conscious experience right now is perfectly
+definite — there's a fact about what you're feeling. But (the worry goes) there's no single definite
+way to carve a system into functional parts. If your consciousness were *made of* one such carving,
+it would be as wobbly as the carving — yet it isn't. So the view owes us an account of what fixes the
+*one* real organization, independent of how an observer slices things. It's a demand, not a
+knockout: maybe such a fixer exists (the usual candidate is real cause-and-effect structure) — but
+until it's named, the view is unfinished.

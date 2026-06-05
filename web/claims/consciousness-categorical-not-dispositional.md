@@ -23,3 +23,12 @@ state just is occupying a causal-dispositional role.
 Distinct from [phenomenal-determinacy](phenomenal-determinacy.md): determinacy says there is a *definite* fact; this says
 the fact is *categorical/occurrent*, not dispositional. They are kin premises behind
 [decomposition-indeterminacy](../arguments/decomposition-indeterminacy.md) and [structure-and-dynamics](../arguments/structure-and-dynamics.md) respectively.
+
+### In plain terms
+
+A "disposition" is an iffy, would-do fact: saying glass is fragile means it *would* break if struck,
+even if it never actually is. A "categorical" fact is how something actually, presently *is*. This
+claim says your conscious experience is the second kind — it's really there right now, not just a
+bundle of "what the system would do if poked." A pain isn't a standing tendency to react; it's an
+occurrent felt thing happening. (Anyone who defines a mental state as nothing but a causal role would
+push back.)

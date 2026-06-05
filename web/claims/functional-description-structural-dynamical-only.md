@@ -23,3 +23,12 @@ nature, or that talk of "intrinsic nature" is empty.
 Distinct from [phenomenal-residue](phenomenal-states-not-exhausted-by-role.md): that says role under-specifies *qualia*; this is the more
 general thesis that structural-dynamical description omits *intrinsic nature*, of which the phenomenal
 is the salient candidate.
+
+### In plain terms
+
+Describe anything purely by its function and you capture its *structure* (how the parts relate) and
+its *dynamics* (how its states change over time) — but nothing about what the parts *are* in
+themselves, their inner nature. It's the wiring-diagram point again: the diagram shows the
+connections, never what the components are actually made of. On its own this stays neutral about
+whether anything important hides in that left-out inner nature — it just marks that function leaves it
+out.

@@ -23,3 +23,11 @@ joints — e.g. the grain at which the system forms a closed causal/informationa
 
 Distinct from [functional-decomposition-relative](functional-decomposition-relative.md) (radical, Putnam-style relativity): this is
 the *attenuated* survivor — constrained multiplicity, not "anything goes."
+
+### In plain terms
+
+Insisting on real cause-and-effect throws out the silly, cooked-up ways of slicing a system into
+parts — but it doesn't leave just one. Several perfectly sensible carvings survive, differing in where
+you draw the system's edges and how coarse or fine you make the pieces. So objective cause-and-effect
+narrows the field without crowning a single winner. It's the milder cousin of "anything goes":
+constrained, yet still more than one option.

@@ -21,3 +21,11 @@ is not intrinsic to physics", read strongly).
 
 Distinct from [implementation-requires-counterfactual-structure](implementation-requires-counterfactual-structure.md): that says implementation
 needs counterfactual structure; this says such structure, once variables are fixed, is objective.
+
+### In plain terms
+
+Whether poking a system *here* would change what happens *there* is a fact about the world, not
+something an observer just decides. These "what would happen if…" facts are real features of how the
+system is wired, the same for everyone who looks. (Fine print: this holds *once you've agreed what
+counts as the system's parts* — which way to carve it up in the first place is a separate, thornier
+question.)

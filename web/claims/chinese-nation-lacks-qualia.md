@@ -26,3 +26,12 @@ Distinct from [lookup-table-lacks-mind](lookup-table-lacks-mind.md) because that
 organisation; this denies *qualia* to a system that HAS the organisation — the harder, contested
 case. Distinct from [phenomenal-residue](phenomenal-states-not-exhausted-by-role.md), which is the general thesis that role under-determines
 the phenomenal; this is the specific intuited datum offered as evidence for it.
+
+### In plain terms
+
+Picture an entire nation wired up to act out the exact inner workings of a single brain. The claim
+here is just the stubborn intuition that, even so, there's *nobody home* — no unified someone hovering
+above the busy crowd actually feeling anything. It's specifically about *felt experience*, not about
+whether the nation processes information (it might do plenty). And it's the disputed link in the
+whole objection: some insist the nation-as-a-whole really could be a subject even if no single person
+in it is.

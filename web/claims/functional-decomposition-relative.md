@@ -29,3 +29,12 @@ that only carvings respecting genuine causal dependencies count. That is the liv
 
 Distinct from [phenomenal-residue](phenomenal-states-not-exhausted-by-role.md) (role leaves qualia out): this says role-talk does not even
 fix a determinate system — a prior, more general worry that applies to intentional states too.
+
+### In plain terms
+
+There's no single fact about which bits of a physical system are its "inputs," which are "outputs,"
+where it stops, or how to lump its tiny states into "the same" working part — you can do it in many
+equally legitimate ways, each giving a different "organization." So describing something by its
+function is partly a matter of how you choose to look at it, not something read straight off the
+physics. (This is the strong version of the worry; a common reply is that real cause-and-effect does
+pin down one correct carving after all.)

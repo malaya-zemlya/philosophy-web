@@ -35,3 +35,13 @@ Distinct from [phenomenal-residue](phenomenal-states-not-exhausted-by-role.md) b
 about the *introspective access* relation and the dialectical structure of one specific argument against
 the residue. Distinct from [phenomenal-concept-isolation-tradeoff](phenomenal-concept-isolation-tradeoff.md) because that targets Prong A
 (the gap deflation), whereas this targets Prong B (the supervenience reductio).
+
+### In plain terms
+
+This is a behind-the-scenes diagnosis of one particular argument — the "fading qualia" argument that
+tries to prove feeling must track function. That argument quietly assumes that *noticing and
+reporting your own experience* is itself nothing but a function, so that holding all the functions
+fixed automatically holds the noticing fixed too. But that assumption is exactly what the other side
+denies. So the argument helps itself to its own conclusion while setting up the scene. The claim
+doesn't say feelings really do drift, or that noticing isn't functional — only that the argument
+can't fairly *assume* it is.
