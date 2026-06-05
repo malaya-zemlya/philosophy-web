@@ -24,3 +24,12 @@ sign may still be a defeasible criterion rather than no criterion.
 
 Distinct from [rights-criterion-will-be-gamed](rights-criterion-will-be-gamed.md) because that asserts the gaming will occur;
 this asserts the normative consequence that such a sign is therefore disqualified as criterion.
+
+### In plain terms
+
+This is the step from "the sign can be cheaply faked" to "so it can't be what we hang rights on." If
+you can produce the sign without the suffering it's meant to indicate, then making it the official
+test floods the category with false positives — undeserving cases waved through. So a cheap-to-fake
+sign shouldn't carry that weight. It's the load-bearing (and most disputed) link in the caution
+argument: critics note that forgeable signs — fingerprints again — can still be genuinely useful
+evidence, just not foolproof.

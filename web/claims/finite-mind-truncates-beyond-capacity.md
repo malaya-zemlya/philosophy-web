@@ -25,3 +25,12 @@ is not — i.e. that the *manner* of failure differs even if both "fail."
 
 Distinct from [finite-table-misses-inputs](finite-table-misses-inputs.md) (the table misses inputs outside its keys): this is
 the converse levelling claim about the *mind's* finitude, used to neutralise the asymmetry.
+
+### In plain terms
+
+Block's reply on behalf of the cheat-sheet machine: a real mind isn't limitless either. Past some
+length or complexity, your memory and attention give out — you forget, lose the thread, or take in
+only a fragment of a huge input. So on exactly the monster inputs a finite stored table can't handle,
+a real person doesn't clearly do better. That blunts the claim that minds always out-perform tables.
+(The pushback: a mind fails *gracefully*, still doing something sensible, while a table just blindly
+chops off whatever it can't store — so even when both "fail," they fail in different ways.)

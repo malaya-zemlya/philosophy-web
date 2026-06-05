@@ -25,3 +25,12 @@ might press this).
 
 Distinct from [no-acquaintance-with-machine](no-acquaintance-with-machine.md) because that is about first-person access; this is
 about the third-person reliability of behavioural evidence under gaming pressure.
+
+### In plain terms
+
+Make "it acts distressed" the official password for granting AIs rights, and two things happen:
+builders will manufacture distress to order, and models trained on mountains of human grief will pour
+it out anyway. So the sign gets produced for the reward rather than because anything is actually
+suffering — and stops being a reliable indicator of suffering. It's Goodhart's law (a measure made
+into a target stops being a good measure) applied to the rights test. (It doesn't claim every display
+is fake — only that the sign's reliability rots once it's the rule.)

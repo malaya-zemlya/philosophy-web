@@ -23,3 +23,10 @@ anyone who holds some single step is, after all, not negligible.
 Distinct from a base-case claim ("a million grains is a heap"): tolerance is the *step* premise, not
 the *anchor*. Together they are inconsistent with the heap-verdict being sharp and bivalent —
 which is the work of [sorites-paradox](../arguments/sorites-paradox.md).
+
+### In plain terms
+
+The premise that does the damage in the heap paradox: take one grain off a heap and you've still got
+a heap — no single grain removal could ever flip "heap" into "non-heap." It sounds obviously true.
+But chain it from a big pile all the way down to a single grain and it leads straight to a
+contradiction — which is why something about this innocent-looking step has to give.

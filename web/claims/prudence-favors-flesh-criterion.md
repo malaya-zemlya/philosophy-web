@@ -31,3 +31,12 @@ evidence); anyone holding the burden-of-proof asymmetry against machines is itse
 
 Distinct from [proteocentrism](../positions/proteocentrism.md) (metaphysical) and from claim-access-grounds-moral-status-
 asymmetry (which rests the asymmetry on first-person access, not on forgeability).
+
+### In plain terms
+
+A play-it-safe policy, not a claim about what machines really are. Since acting distressed is cheap
+to fake but living biology (for now) isn't, the cautious move is to rest moral standing on the
+hard-to-fake biological mark and make the non-biological case prove itself. Two built-in caveats keep
+it modest: "hard to fake" isn't the same as "must be flesh" — a future unforgeable *non*-biological
+sign would do just as well — and a forgeable sign (like a fingerprint) can still be useful evidence
+rather than worthless.

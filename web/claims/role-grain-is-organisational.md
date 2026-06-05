@@ -34,3 +34,12 @@ options and motivates the choice. Distinct from [substrate-independence](substra
 substrate does no individuative work; this asserts *which level of organisation* does the work
 instead — it is the specification that, if true, secures substrate-independence against the grain
 dilemma.
+
+### In plain terms
+
+This picks the "just right" level of detail for defining a mind. Not too coarse (plain
+input-and-output behavior — that would let a dumb cheat-sheet count) and not too fine (exact brain
+chemistry — that would shut out every computer). The sweet spot in between: a mind *is* its inner
+pattern of cause-and-effect — which inner states trigger which others. Physical details matter only
+insofar as they change that pattern. The payoff it's aiming for: the pattern can run on silicon (so
+machines aren't ruled out) yet a mere answer-fetcher lacks it (so behavior-fakers are ruled out).

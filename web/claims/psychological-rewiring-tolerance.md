@@ -22,3 +22,10 @@ discontinuity horn — there is some replacement at which "me" determinately bec
 
 Distinct from [sorites-tolerance](sorites-tolerance.md): same step-insensitivity form, different domain (`X` =
 psychological configurations under one-connection edits) and verdict-space (`Y` = {me, not-me}).
+
+### In plain terms
+
+The "no single step makes the difference" premise, applied to who you are. As you gradually rewire
+someone's mind toward someone else's — one memory, one belief at a time — no single tiny change can
+be *the* moment they stop being themselves. It's the heap paradox's tolerance step, with "me /
+not-me" standing in for "heap / not-heap."

@@ -33,3 +33,12 @@ distinction collapses at scale.
 Distinct from [lookup-table-physically-unrealisable](lookup-table-physically-unrealisable.md): that says the flat table cannot exist; this
 says what the realisable alternative positively *is* — an organised computer — converting the
 physical fact into a point about kind.
+
+### In plain terms
+
+A flat answer-table big enough to fake a mind can't physically exist, and anything that stores *less*
+than the full list has to *work out* its answers instead of fetching them — and working them out is
+real processing, organized inner machinery. So any machine that could actually reproduce a mind's
+behavior is an organized computer, never a dumb lookup. (Real AI models are exactly this: far too
+small to be lookup tables, so they must be computing.) It doesn't deny that a *pure* lookup table
+would lack a mind — it denies that such a thing could ever really be built at mind scale.

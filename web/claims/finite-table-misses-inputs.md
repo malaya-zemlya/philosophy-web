@@ -28,3 +28,11 @@ premise (whether a mind does better on the uncovered inputs).
 Distinct from [lookup-table-possible](lookup-table-possible.md) (which asserts a finite table CAN match a mind's full
 behavioural profile): this claim is the combinatorial fact that motivates denying that one — it
 identifies the inputs on which a finite table must fall short.
+
+### In plain terms
+
+A stored answer-table only holds finitely many input→answer pairs, but the inputs you could throw at
+it (ever-longer strings of words, say) never run out. So however big the table, there are always
+inputs it has no entry for — and all it can do then is ignore the unfamiliar part and treat a
+brand-new input as one it already knows. (This much is barely deniable; the real fight is over
+whether those uncovered inputs are ones a real, finite-lifetime mind would ever actually meet.)
