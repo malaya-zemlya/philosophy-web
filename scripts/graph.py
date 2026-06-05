@@ -91,7 +91,7 @@ def collect():
     """{id: frontmatter} for kept types, and the list of (src, tgt, edge) among kept nodes."""
     nodes = {}
     for path in sorted(WEB.rglob("*.md")):
-        if path.name == "INDEX.md":
+        if path.name in ("INDEX.md", "README.md"):
             continue
         fm = parse(path)
         if fm and fm.get("id") and fm.get("type") in NODE_TYPES:

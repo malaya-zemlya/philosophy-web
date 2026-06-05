@@ -84,7 +84,7 @@ def render_links(id_to_path, check):
     files = sorted(WEB.rglob("*.md")) + (sorted(TRANSCRIPTS.rglob("*.md"))
                                          if TRANSCRIPTS.is_dir() else [])
     for path in files:
-        if path.name == "INDEX.md":
+        if path.name in ("INDEX.md", "README.md"):
             continue
         text = path.read_text(encoding="utf-8")
         fm, body = weblinks.split_frontmatter(text)
@@ -109,7 +109,7 @@ def main():
     valid_patterns = pattern_ids()
 
     for path in sorted(WEB.rglob("*.md")):
-        if path.name == "INDEX.md":
+        if path.name in ("INDEX.md", "README.md"):
             continue
         fm = parse(path)
         if fm is None:

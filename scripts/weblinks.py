@@ -68,7 +68,7 @@ def build_id_to_path(root):
     web = root / "web"
     id_to_path = {}
     for path in web.rglob("*.md"):
-        if path.name == "INDEX.md":
+        if path.name in ("INDEX.md", "README.md"):
             continue
         fm, _ = split_frontmatter(path.read_text(encoding="utf-8"))
         for line in fm.splitlines():
