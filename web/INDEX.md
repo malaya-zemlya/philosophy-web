@@ -65,6 +65,9 @@
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --responds_to-->
   - [character-alvin](characters/alvin.md) --holds-->
 
+## [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-first-person-access](arguments/first-person-access.md)
 - type: argument | author: mishka | status: contested
 - backlinks:
@@ -214,6 +217,11 @@
 - backlinks:
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --premise-->
 
+## [claim-complete-self-representation-impossible](claims/complete-self-representation-impossible.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --concludes-->
+
 ## [claim-consciousness-categorical-not-dispositional](claims/consciousness-categorical-not-dispositional.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -262,6 +270,11 @@
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --premise-->
 
+## [claim-full-self-access-achievable](claims/full-self-access-achievable.md)
+- type: claim | author: generic | status: contested
+- backlinks:
+  - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --attacks-->
+
 ## [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md)
 - type: claim | author: searle | status: asserted
 - backlinks:
@@ -304,6 +317,7 @@
 ## [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --supports-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --premise-->
 
 ## [claim-intuition-warrant-tracks-trained-domain](claims/intuition-warrant-tracks-trained-domain.md)
@@ -456,7 +470,13 @@
 - type: claim | author: mishka | status: contested
 - backlinks:
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --attacks-->
+  - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --supports-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --concludes-->
+
+## [claim-self-model-is-part-of-state](claims/self-model-is-part-of-state.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --premise-->
 
 ## [claim-sorites-tolerance](claims/sorites-tolerance.md)
 - type: claim | author: eubulides | status: asserted
@@ -482,6 +502,7 @@
 - type: concept | author: block | status: asserted
 - backlinks:
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
+  - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
@@ -601,7 +622,9 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
+  - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [claim-complete-self-representation-impossible](claims/complete-self-representation-impossible.md) --uses_concept-->
   - [claim-explanation-must-be-internally-traversable](claims/explanation-must-be-internally-traversable.md) --uses_concept-->
   - [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
@@ -664,6 +687,9 @@
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --answers-->
 
 ## [source-block](sources/block.md)
+- type: source | author: mishka | status: asserted
+
+## [source-breuer-1995](sources/breuer-1995.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-gambarian](sources/gambarian.md)
