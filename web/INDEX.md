@@ -226,12 +226,28 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --premise-->
+  - [position-russellian-monism](positions/russellian-monism.md) --commits_to-->
+
+## [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-dualism](positions/dualism.md) --commits_to-->
+
+## [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-panpsychism](positions/panpsychism.md) --commits_to-->
 
 ## [claim-consciousness-has-natural-explanation](claims/consciousness-has-natural-explanation.md)
 - type: claim | author: mcginn | status: asserted
 - backlinks:
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --premise-->
   - [position-mysterianism](positions/mysterianism.md) --commits_to-->
+
+## [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md)
+- type: claim | author: penrose | status: asserted
+- backlinks:
+  - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --commits_to-->
 
 ## [claim-counterfactual-structure-objective](claims/counterfactual-structure-objective.md)
 - type: claim | author: generic | status: asserted
@@ -286,6 +302,7 @@
 - type: claim | author: chalmers | status: asserted
 - backlinks:
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --premise-->
+  - [position-russellian-monism](positions/russellian-monism.md) --commits_to-->
 
 ## [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md)
 - type: claim | author: mishka | status: asserted
@@ -424,6 +441,14 @@
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --premise-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --supports-->
   - [character-alvin](characters/alvin.md) --commits_to-->
+  - [position-dualism](positions/dualism.md) --commits_to-->
+  - [position-illusionism](positions/illusionism.md) --rejects-->
+  - [position-panpsychism](positions/panpsychism.md) --commits_to-->
+
+## [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md)
+- type: claim | author: frankish | status: asserted
+- backlinks:
+  - [position-illusionism](positions/illusionism.md) --commits_to-->
 
 ## [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md)
 - type: claim | author: mishka | status: asserted
@@ -496,6 +521,7 @@
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --attacks-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --presupposes-->
+  - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --rejects-->
   - [position-proteocentrism](positions/proteocentrism.md) --rejects-->
 
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
@@ -611,10 +637,19 @@
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
+  - [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md) --uses_concept-->
+  - [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md) --uses_concept-->
+  - [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md) --uses_concept-->
   - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --uses_concept-->
+  - [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
+  - [position-dualism](positions/dualism.md) --uses_concept-->
+  - [position-illusionism](positions/illusionism.md) --uses_concept-->
   - [position-mysterianism](positions/mysterianism.md) --uses_concept-->
+  - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --uses_concept-->
+  - [position-panpsychism](positions/panpsychism.md) --uses_concept-->
+  - [position-russellian-monism](positions/russellian-monism.md) --uses_concept-->
   - [question-hard-problem](questions/hard-problem.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
 
@@ -654,18 +689,38 @@
   - [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md) --uses_concept-->
   - [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md) --uses_concept-->
 
+## [position-dualism](positions/dualism.md)
+- type: position | author: generic | status: asserted
+
+## [position-illusionism](positions/illusionism.md)
+- type: position | author: frankish | status: asserted
+
 ## [position-mysterianism](positions/mysterianism.md)
 - type: position | author: mcginn | status: asserted
 
+## [position-noncomputable-consciousness](positions/noncomputable-consciousness.md)
+- type: position | author: penrose | status: asserted
+
+## [position-panpsychism](positions/panpsychism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-proteocentrism](positions/proteocentrism.md)
 - type: position | author: mishka | status: asserted
+
+## [position-russellian-monism](positions/russellian-monism.md)
+- type: position | author: russell | status: asserted
 
 ## [question-hard-problem](questions/hard-problem.md)
 - type: question | author: chalmers | status: contested
 - backlinks:
   - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --answers-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --answers-->
+  - [position-dualism](positions/dualism.md) --answers-->
+  - [position-illusionism](positions/illusionism.md) --answers-->
   - [position-mysterianism](positions/mysterianism.md) --answers-->
+  - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
+  - [position-panpsychism](positions/panpsychism.md) --answers-->
+  - [position-russellian-monism](positions/russellian-monism.md) --answers-->
 
 ## [question-llm-moral-status](questions/llm-moral-status.md)
 - type: question | author: mishka | status: asserted
@@ -685,6 +740,7 @@
   - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --answers-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --answers-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --answers-->
+  - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
 
 ## [source-block](sources/block.md)
 - type: source | author: mishka | status: asserted
