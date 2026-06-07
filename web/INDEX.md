@@ -144,6 +144,9 @@
 ## [argument-structure-and-dynamics](arguments/structure-and-dynamics.md)
 - type: argument | author: chalmers | status: asserted
 
+## [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md)
+- type: argument | author: mishka | status: asserted
+
 ## [character-alvin](characters/alvin.md)
 - type: character | author: alvin | status: asserted
 
@@ -184,6 +187,7 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --premise-->
+  - [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md) --premise-->
 
 ## [claim-blockhead-deflation-targeted-not-global](claims/blockhead-deflation-targeted-not-global.md)
 - type: claim | author: mishka | status: asserted
@@ -467,6 +471,12 @@
 - type: claim | author: mishka | status: contested
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --concludes-->
+  - [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md) --attacks-->
+
+## [claim-prudence-tracks-unforgeability-not-flesh](claims/prudence-tracks-unforgeability-not-flesh.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md) --concludes-->
 
 ## [claim-psychological-rewiring-tolerance](claims/psychological-rewiring-tolerance.md)
 - type: claim | author: parfit | status: asserted
@@ -554,9 +564,11 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --uses_concept-->
+  - [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md) --uses_concept-->
   - [claim-biology-currently-unforgeable](claims/biology-currently-unforgeable.md) --uses_concept-->
   - [claim-forgeable-sign-unfit-as-criterion](claims/forgeable-sign-unfit-as-criterion.md) --uses_concept-->
   - [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md) --uses_concept-->
+  - [claim-prudence-tracks-unforgeability-not-flesh](claims/prudence-tracks-unforgeability-not-flesh.md) --uses_concept-->
   - [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md) --uses_concept-->
 
 ## [concept-first-person-access](concepts/first-person-access.md)
