@@ -31,8 +31,9 @@ weakest premise: **the bridge** ([conceivability-entails-possibility](../claims/
 reply ([materialism-types](../concepts/materialism-types.md); raises the [thought-experiment pattern](../../patterns/thought-experiment.md)'s
 **bridge critical question**, CQ-bridge) grants conceivability but denies possibility, citing necessary a posteriori identities;
 the **phenomenal-concept strategy** ([gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md))
-explains the conceivability as an artefact of phenomenal concepts. A type-A reply instead presses
-**CQ-coherence**, denying [zombie-conceivable](../claims/zombie-conceivable.md) outright (the description is only apparently
+explains the conceivability as an artefact of phenomenal concepts. A type-A reply ([materialism-types](../concepts/materialism-types.md))
+instead presses the [thought-experiment pattern](../../patterns/thought-experiment.md)'s *coherence* critical question
+(**CQ-coherence**), denying [zombie-conceivable](../claims/zombie-conceivable.md) outright (the description is only apparently
 coherent). Landing spot is also disputed: the same premises are read by some not as dualism but as
 [russellian-monism](../positions/russellian-monism.md) (the physical's intrinsic nature is experiential), avoiding the
 epiphenomenalism that dogs [dualism](../positions/dualism.md).
