@@ -4,7 +4,7 @@ type: concept
 title: Chinese Nation (homunculi-headed robot)
 author: block
 status: asserted
-tags: [philosophy-of-mind, functionalism, consciousness]
+tags: [philosophy-of-mind, functionalism, consciousness, thought-experiment]
 created: 2026-06-04
 ---
 

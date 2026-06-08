@@ -11,7 +11,7 @@ uses_concept: [concept-access-vs-phenomenal-consciousness, concept-hard-problem,
 created: 2026-06-05
 ---
 
-inference form: objection by distinction (raises argument-from-analogy CQ-disanalogy against
+inference form: objection by distinction (raises the [analogy pattern](../../patterns/analogy.md)'s *disanalogy* critical question, CQ-disanalogy, against
 [introspective-gap-from-internal-limits](introspective-gap-from-internal-limits.md)).
 
 1. ([closing-access-gap-leaves-phenomenal-open](../claims/closing-access-gap-leaves-phenomenal-open.md)) Removing a system's access/architectural

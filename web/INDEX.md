@@ -36,8 +36,16 @@
 ## [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md)
 - type: argument | author: block | status: asserted
 
+## [argument-chinese-room](arguments/chinese-room.md)
+- type: argument | author: searle | status: asserted
+
 ## [argument-cognitive-closure](arguments/cognitive-closure.md)
 - type: argument | author: mcginn | status: asserted
+
+## [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md)
+- type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-modal-rationalism](arguments/modal-rationalism.md) --responds_to-->
 
 ## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
 - type: argument | author: mishka | status: asserted
@@ -88,6 +96,9 @@
 ## [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-knowledge-argument](arguments/knowledge-argument.md)
+- type: argument | author: jackson | status: asserted
+
 ## [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -107,6 +118,9 @@
 
 ## [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-modal-rationalism](arguments/modal-rationalism.md)
+- type: argument | author: chalmers | status: asserted
 
 ## [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md)
 - type: argument | author: mishka | status: asserted
@@ -147,6 +161,9 @@
 ## [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-zombie-conceivability](arguments/zombie-conceivability.md)
+- type: argument | author: chalmers | status: asserted
+
 ## [character-alvin](characters/alvin.md)
 - type: character | author: alvin | status: asserted
 
@@ -177,6 +194,11 @@
 - backlinks:
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --attacks-->
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
+
+## [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md)
+- type: claim | author: chalmers | status: asserted
+- backlinks:
+  - [argument-modal-rationalism](arguments/modal-rationalism.md) --premise-->
 
 ## [claim-behaviour-insufficient-for-mind](claims/behaviour-insufficient-for-mind.md)
 - type: claim | author: block | status: asserted
@@ -211,6 +233,16 @@
 - backlinks:
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --premise-->
 
+## [claim-chinese-room-no-understanding](claims/chinese-room-no-understanding.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room](arguments/chinese-room.md) --premise-->
+
+## [claim-chinese-room-runs-program](claims/chinese-room-runs-program.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room](arguments/chinese-room.md) --premise-->
+
 ## [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md)
 - type: claim | author: block | status: asserted
 - backlinks:
@@ -226,6 +258,13 @@
 - backlinks:
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --concludes-->
 
+## [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md)
+- type: claim | author: chalmers | status: contested
+- backlinks:
+  - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --attacks-->
+  - [argument-modal-rationalism](arguments/modal-rationalism.md) --concludes-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
+
 ## [claim-consciousness-categorical-not-dispositional](claims/consciousness-categorical-not-dispositional.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -235,6 +274,8 @@
 ## [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --supports-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --concludes-->
   - [position-dualism](positions/dualism.md) --commits_to-->
 
 ## [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md)
@@ -396,6 +437,16 @@
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --premise-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --premise-->
 
+## [claim-mary-knows-all-physical](claims/mary-knows-all-physical.md)
+- type: claim | author: jackson | status: asserted
+- backlinks:
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --premise-->
+
+## [claim-mary-learns-on-release](claims/mary-learns-on-release.md)
+- type: claim | author: jackson | status: asserted
+- backlinks:
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --premise-->
+
 ## [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -443,7 +494,9 @@
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --supports-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --concludes-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --premise-->
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --supports-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --supports-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --supports-->
   - [character-alvin](characters/alvin.md) --commits_to-->
   - [position-dualism](positions/dualism.md) --commits_to-->
   - [position-illusionism](positions/illusionism.md) --rejects-->
@@ -513,6 +566,16 @@
 - backlinks:
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --premise-->
 
+## [claim-some-necessities-knowable-only-a-posteriori](claims/some-necessities-knowable-only-a-posteriori.md)
+- type: claim | author: kripke | status: asserted
+- backlinks:
+  - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --premise-->
+
+## [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md)
+- type: claim | author: jackson | status: asserted
+- backlinks:
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --concludes-->
+
 ## [claim-sorites-tolerance](claims/sorites-tolerance.md)
 - type: claim | author: eubulides | status: asserted
 - backlinks:
@@ -523,16 +586,29 @@
 - backlinks:
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --premise-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --attacks-->
+  - [argument-chinese-room](arguments/chinese-room.md) --attacks-->
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --attacks-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --attacks-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --supports-->
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --supports-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --attacks-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --attacks-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --presupposes-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --rejects-->
   - [position-proteocentrism](positions/proteocentrism.md) --rejects-->
+
+## [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room](arguments/chinese-room.md) --concludes-->
+
+## [claim-zombie-conceivable](claims/zombie-conceivable.md)
+- type: claim | author: chalmers | status: asserted
+- backlinks:
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
 
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
 - type: concept | author: block | status: asserted
@@ -551,6 +627,13 @@
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
   - [claim-chinese-nation-lacks-qualia](claims/chinese-nation-lacks-qualia.md) --uses_concept-->
   - [claim-chinese-nation-realises-organisation](claims/chinese-nation-realises-organisation.md) --uses_concept-->
+
+## [concept-chinese-room](concepts/chinese-room.md)
+- type: concept | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room](arguments/chinese-room.md) --uses_concept-->
+  - [claim-chinese-room-no-understanding](claims/chinese-room-no-understanding.md) --uses_concept-->
+  - [claim-chinese-room-runs-program](claims/chinese-room-runs-program.md) --uses_concept-->
 
 ## [concept-continuity-argument-schema](concepts/continuity-argument-schema.md)
 - type: concept | author: mishka | status: asserted
@@ -589,6 +672,7 @@
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --uses_concept-->
   - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --uses_concept-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
+  - [argument-chinese-room](arguments/chinese-room.md) --uses_concept-->
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --uses_concept-->
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --uses_concept-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --uses_concept-->
@@ -601,6 +685,7 @@
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --uses_concept-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --uses_concept-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --uses_concept-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md) --uses_concept-->
   - [claim-dancing-qualia-presupposes-functional-introspection](claims/dancing-qualia-presupposes-functional-introspection.md) --uses_concept-->
   - [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md) --uses_concept-->
@@ -615,6 +700,8 @@
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
   - [claim-substrate-independence](claims/substrate-independence.md) --presupposes-->
   - [claim-substrate-independence](claims/substrate-independence.md) --uses_concept-->
+  - [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md) --uses_concept-->
+  - [concept-chinese-room](concepts/chinese-room.md) --uses_concept-->
   - [concept-grain](concepts/grain.md) --uses_concept-->
   - [question-substrate-independence](questions/substrate-independence.md) --uses_concept-->
 
@@ -648,6 +735,8 @@
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
   - [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md) --uses_concept-->
   - [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md) --uses_concept-->
@@ -656,6 +745,10 @@
   - [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
+  - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
+  - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
+  - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
+  - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
   - [position-dualism](positions/dualism.md) --uses_concept-->
   - [position-illusionism](positions/illusionism.md) --uses_concept-->
   - [position-mysterianism](positions/mysterianism.md) --uses_concept-->
@@ -676,6 +769,14 @@
   - [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
+
+## [concept-knowledge-argument](concepts/knowledge-argument.md)
+- type: concept | author: jackson | status: asserted
+- backlinks:
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
+  - [claim-mary-knows-all-physical](claims/mary-knows-all-physical.md) --uses_concept-->
+  - [claim-mary-learns-on-release](claims/mary-learns-on-release.md) --uses_concept-->
+  - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
 
 ## [concept-lookup-table-mind](concepts/lookup-table-mind.md)
 - type: concept | author: block | status: asserted
@@ -700,6 +801,22 @@
   - [claim-lookup-table-size-exponential](claims/lookup-table-size-exponential.md) --uses_concept-->
   - [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md) --uses_concept-->
   - [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md) --uses_concept-->
+
+## [concept-materialism-types](concepts/materialism-types.md)
+- type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --uses_concept-->
+  - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
+  - [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md) --uses_concept-->
+
+## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
+- type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --uses_concept-->
+  - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
+  - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
 
 ## [position-dualism](positions/dualism.md)
 - type: position | author: generic | status: asserted
@@ -760,6 +877,9 @@
 ## [source-breuer-1995](sources/breuer-1995.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chalmers-1996](sources/chalmers-1996.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-gambarian](sources/gambarian.md)
 - type: source | author: mishka | status: asserted
 
@@ -769,6 +889,9 @@
 ## [source-hume-dialogues](sources/hume-dialogues.md)
 - type: source | author: mishka | status: asserted
 
+## [source-jackson-1982](sources/jackson-1982.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-lem](sources/lem.md)
 - type: source | author: mishka | status: asserted
 
@@ -776,6 +899,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-liu-cixin](sources/liu-cixin.md)
+- type: source | author: mishka | status: asserted
+
+## [source-searle-1980](sources/searle-1980.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-specification-gaming](sources/specification-gaming.md)

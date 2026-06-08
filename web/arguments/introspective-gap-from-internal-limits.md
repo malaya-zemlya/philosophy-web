@@ -39,7 +39,7 @@ self-explanation explains missing *intelligibility-from-inside*, which on Block'
 ([access-vs-phenomenal-consciousness](../concepts/access-vs-phenomenal-consciousness.md)) need not touch why there is anything it is like at all
 — the *ontological* member of [introspective-gap-varieties](../concepts/introspective-gap-varieties.md). So the argument secures an
 architectural/conceptual gap; whether that exhausts the felt gap is exactly what an opponent denies.
-This is why the conclusion is filed `contested`. (Argument-from-analogy CQ-disanalogy: an opponent may
+This is why the conclusion is filed `contested`. (The [analogy pattern](../../patterns/analogy.md)'s *disanalogy* critical question, CQ-disanalogy: an opponent may
 press that informal "intuitive explanation" disanalogises from formal provability in just the respect
 that matters.)
 

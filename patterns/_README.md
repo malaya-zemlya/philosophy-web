@@ -36,6 +36,11 @@ the existing objection machinery, just *typed* by which CQ it instantiates. Conv
 - It `attacks` the premise or inference the CQ targets (the pattern file says which, per CQ).
 - It may itself declare a `pattern:` if the objection is also a positive move (e.g. an attack
   that works *by analogy* cites `pattern: analogy`).
+- **Link the pattern when you name a CQ.** Pattern files are reference docs, not web nodes, so they
+  have no `[[id]]`. When a node body names a CQ (e.g. `CQ-bridge`) or a pattern, add a plain relative
+  Markdown link to the file — `[thought-experiment pattern](../../patterns/thought-experiment.md)` —
+  so a browser can reach the CQ definitions. (This is the one place a hand-written link is correct;
+  the `[[id]]` shorthand is only for `web/` nodes.)
 
 So a pattern adds no new node type and no new edge — it only labels *why* an `attacks` edge is
 the one the move invites.
