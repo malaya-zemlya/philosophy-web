@@ -47,6 +47,9 @@
 - backlinks:
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --responds_to-->
 
+## [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
 - type: argument | author: mishka | status: asserted
 
@@ -89,6 +92,9 @@
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --responds_to-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --attacks-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --responds_to-->
+
+## [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md)
 - type: argument | author: mishka | status: contested
@@ -265,6 +271,11 @@
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --concludes-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
 
+## [claim-conceivability-not-sufficient-for-physical-realizability](claims/conceivability-not-sufficient-for-physical-realizability.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md) --concludes-->
+
 ## [claim-consciousness-categorical-not-dispositional](claims/consciousness-categorical-not-dispositional.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -354,6 +365,17 @@
 - backlinks:
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --concludes-->
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --supports-->
+
+## [claim-halting-oracle-coherent-but-unrealizable](claims/halting-oracle-coherent-but-unrealizable.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md) --premise-->
+  - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --concludes-->
+
+## [claim-halting-problem-undecidable](claims/halting-problem-undecidable.md)
+- type: claim | author: turing | status: asserted
+- backlinks:
+  - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --premise-->
 
 ## [claim-heap-predicate-sharp](claims/heap-predicate-sharp.md)
 - type: claim | author: generic | status: asserted
@@ -506,6 +528,11 @@
 - type: claim | author: frankish | status: asserted
 - backlinks:
   - [position-illusionism](positions/illusionism.md) --commits_to-->
+
+## [claim-physical-church-turing-thesis](claims/physical-church-turing-thesis.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --premise-->
 
 ## [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md)
 - type: claim | author: mishka | status: asserted
@@ -729,6 +756,16 @@
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
   - [question-substrate-independence](questions/substrate-independence.md) --uses_concept-->
 
+## [concept-halting-oracle](concepts/halting-oracle.md)
+- type: concept | author: turing | status: asserted
+- backlinks:
+  - [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md) --uses_concept-->
+  - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --uses_concept-->
+  - [claim-conceivability-not-sufficient-for-physical-realizability](claims/conceivability-not-sufficient-for-physical-realizability.md) --uses_concept-->
+  - [claim-halting-oracle-coherent-but-unrealizable](claims/halting-oracle-coherent-but-unrealizable.md) --uses_concept-->
+  - [claim-halting-problem-undecidable](claims/halting-problem-undecidable.md) --uses_concept-->
+  - [claim-physical-church-turing-thesis](claims/physical-church-turing-thesis.md) --uses_concept-->
+
 ## [concept-hard-problem](concepts/hard-problem.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
@@ -905,4 +942,7 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-specification-gaming](sources/specification-gaming.md)
+- type: source | author: mishka | status: asserted
+
+## [source-turing-1936](sources/turing-1936.md)
 - type: source | author: mishka | status: asserted
