@@ -7,7 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness]
 commits_to: [claim-phenomenal-character-is-representational]
 answers: [question-hard-problem]
-uses_concept: [concept-materialism-types]
+uses_concept: [concept-materialism-types, concept-order-of-representation]
 created: 2026-06-09
 ---
 
@@ -18,7 +18,7 @@ paint. Paired with a naturalistic (teleosemantic) theory of representation, it a
 [hard-problem](../questions/hard-problem.md) by reducing qualia to content — a physicalist option within
 [materialism-types](../concepts/materialism-types.md).
 
-what distinguishes it from neighbouring views: as a *first-order* view it differs from
+what distinguishes it from neighbouring views: as a *first-order* view ([order-of-representation](../concepts/order-of-representation.md)) it differs from
 [higher-order-theories](higher-order-theories.md) (no higher-order state needed). Its classic pressure points are
 the inverted spectrum and inverted-earth cases, and the residue theorist's charge
 ([phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md)) that two experiences could share content yet differ in feel.

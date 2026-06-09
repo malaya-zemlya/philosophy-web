@@ -5,12 +5,12 @@ title: A mental state is conscious only if it is the object of a higher-order re
 author: rosenthal
 status: asserted
 tags: [philosophy-of-mind, consciousness]
-uses_concept: [concept-access-vs-phenomenal-consciousness]
+uses_concept: [concept-access-vs-phenomenal-consciousness, concept-order-of-representation]
 created: 2026-06-09
 ---
 
 gloss: a first-order mental state is *conscious* in virtue of being represented by a suitable
-higher-order state — a higher-order thought (Rosenthal) or higher-order perception (Lycan); on
+higher-order state ([order-of-representation](../concepts/order-of-representation.md)) — a higher-order thought (Rosenthal) or higher-order perception (Lycan); on
 Carruthers' variant the higher-order content is dispositional. What it is for a state to be conscious
 is thus a relational, representational fact, not an intrinsic glow.
 

@@ -7,11 +7,12 @@ status: asserted
 tags: [philosophy-of-mind, consciousness]
 commits_to: [claim-consciousness-is-higher-order-representation]
 answers: [question-hard-problem]
-uses_concept: [concept-access-vs-phenomenal-consciousness]
+uses_concept: [concept-access-vs-phenomenal-consciousness, concept-order-of-representation]
 created: 2026-06-09
 ---
 
-A mental state is conscious in virtue of being the object of a suitable *higher-order* representation —
+A mental state is conscious in virtue of being the object of a suitable *higher-order* representation
+([order-of-representation](../concepts/order-of-representation.md)) —
 a higher-order thought (Rosenthal), higher-order perception (Lycan), or dispositional higher-order
 content (Carruthers) ([consciousness-is-higher-order-representation](../claims/consciousness-is-higher-order-representation.md)). Being conscious is thus
 a relational, representational fact about a state, not an intrinsic glow. It answers

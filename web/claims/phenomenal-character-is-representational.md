@@ -5,7 +5,7 @@ title: Phenomenal character is identical to representational content
 author: tye
 status: asserted
 tags: [philosophy-of-mind, consciousness]
-uses_concept: [concept-materialism-types]
+uses_concept: [concept-materialism-types, concept-order-of-representation]
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ a certain kind (for Tye, PANIC — poised, abstract, non-conceptual, intentional
 Harman). Qualia are not intrinsic mental paint but ways the world is represented to be; introspection
 of "how it feels" is awareness of *what* is represented. A physicalist, naturalising strategy.
 
-scope: a first-order representationalism (the content need not be higher-order-represented to be
+scope: a first-order representationalism ([order-of-representation](../concepts/order-of-representation.md); the content need not be higher-order-represented to be
 conscious). It naturalises phenomenal character via an independent theory of representation
 (teleosemantics), so it sits among the type-A/B physicalist options of [materialism-types](../concepts/materialism-types.md).
 

@@ -944,6 +944,15 @@
   - [position-representationalism](positions/representationalism.md) --uses_concept-->
   - [position-type-identity](positions/type-identity.md) --uses_concept-->
 
+## [concept-order-of-representation](concepts/order-of-representation.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md) --uses_concept-->
+  - [claim-phenomenal-character-is-representational](claims/phenomenal-character-is-representational.md) --uses_concept-->
+  - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
+  - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
+  - [position-representationalism](positions/representationalism.md) --uses_concept-->
+
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
