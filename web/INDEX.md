@@ -270,6 +270,7 @@
   - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --attacks-->
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --concludes-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
+  - [position-type-identity](positions/type-identity.md) --rejects-->
 
 ## [claim-conceivability-not-sufficient-for-physical-realizability](claims/conceivability-not-sufficient-for-physical-realizability.md)
 - type: claim | author: mishka | status: asserted
@@ -300,10 +301,35 @@
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --premise-->
   - [position-mysterianism](positions/mysterianism.md) --commits_to-->
 
+## [claim-consciousness-is-biological-feature](claims/consciousness-is-biological-feature.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
+
+## [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md)
+- type: claim | author: baars | status: asserted
+- backlinks:
+  - [position-global-workspace](positions/global-workspace.md) --commits_to-->
+
+## [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md)
+- type: claim | author: rosenthal | status: asserted
+- backlinks:
+  - [position-higher-order-theories](positions/higher-order-theories.md) --commits_to-->
+
+## [claim-consciousness-is-integrated-information](claims/consciousness-is-integrated-information.md)
+- type: claim | author: tononi | status: asserted
+- backlinks:
+  - [position-integrated-information-theory](positions/integrated-information-theory.md) --commits_to-->
+
 ## [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md)
 - type: claim | author: penrose | status: asserted
 - backlinks:
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --commits_to-->
+
+## [claim-cosmos-is-fundamental-subject](claims/cosmos-is-fundamental-subject.md)
+- type: claim | author: goff | status: asserted
+- backlinks:
+  - [position-cosmopsychism](positions/cosmopsychism.md) --commits_to-->
 
 ## [claim-counterfactual-structure-objective](claims/counterfactual-structure-objective.md)
 - type: claim | author: generic | status: asserted
@@ -336,6 +362,11 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md) --premise-->
+
+## [claim-folk-psychology-is-false-theory](claims/folk-psychology-is-false-theory.md)
+- type: claim | author: churchland | status: asserted
+- backlinks:
+  - [position-eliminative-materialism](positions/eliminative-materialism.md) --commits_to-->
 
 ## [claim-forgeable-sign-unfit-as-criterion](claims/forgeable-sign-unfit-as-criterion.md)
 - type: claim | author: mishka | status: asserted
@@ -424,6 +455,7 @@
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --supports-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --attacks-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
+  - [position-biological-naturalism](positions/biological-naturalism.md) --rejects-->
 
 ## [claim-lookup-table-combinatorially-inadequate](claims/lookup-table-combinatorially-inadequate.md)
 - type: claim | author: mishka | status: contested
@@ -469,6 +501,16 @@
 - backlinks:
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --premise-->
 
+## [claim-mental-states-are-brain-state-types](claims/mental-states-are-brain-state-types.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-type-identity](positions/type-identity.md) --commits_to-->
+
+## [claim-mental-states-causally-inert](claims/mental-states-causally-inert.md)
+- type: claim | author: huxley | status: asserted
+- backlinks:
+  - [position-epiphenomenalism](positions/epiphenomenalism.md) --commits_to-->
+
 ## [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -496,6 +538,11 @@
 - backlinks:
   - [argument-parfit-rewiring](arguments/parfit-rewiring.md) --concludes-->
 
+## [claim-phenomenal-character-is-representational](claims/phenomenal-character-is-representational.md)
+- type: claim | author: tye | status: asserted
+- backlinks:
+  - [position-representationalism](positions/representationalism.md) --commits_to-->
+
 ## [claim-phenomenal-concept-isolation-tradeoff](claims/phenomenal-concept-isolation-tradeoff.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -521,6 +568,8 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --supports-->
   - [character-alvin](characters/alvin.md) --commits_to-->
   - [position-dualism](positions/dualism.md) --commits_to-->
+  - [position-eliminative-materialism](positions/eliminative-materialism.md) --rejects-->
+  - [position-epiphenomenalism](positions/epiphenomenalism.md) --commits_to-->
   - [position-illusionism](positions/illusionism.md) --rejects-->
   - [position-panpsychism](positions/panpsychism.md) --commits_to-->
 
@@ -568,6 +617,21 @@
 - backlinks:
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --concludes-->
 
+## [claim-reality-fundamental-stuff-neutral](claims/reality-fundamental-stuff-neutral.md)
+- type: claim | author: russell | status: asserted
+- backlinks:
+  - [position-neutral-monism](positions/neutral-monism.md) --commits_to-->
+
+## [claim-reality-is-fundamentally-mental](claims/reality-is-fundamentally-mental.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-idealism](positions/idealism.md) --commits_to-->
+
+## [claim-reality-two-aspects-mental-physical](claims/reality-two-aspects-mental-physical.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-dual-aspect-monism](positions/dual-aspect-monism.md) --commits_to-->
+
 ## [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -608,6 +672,11 @@
 - backlinks:
   - [argument-sorites-paradox](arguments/sorites-paradox.md) --premise-->
 
+## [claim-soul-is-form-of-body](claims/soul-is-form-of-body.md)
+- type: claim | author: aristotle | status: asserted
+- backlinks:
+  - [position-hylomorphism](positions/hylomorphism.md) --commits_to-->
+
 ## [claim-substrate-independence](claims/substrate-independence.md)
 - type: claim | author: putnam | status: contested
 - backlinks:
@@ -624,18 +693,23 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --presupposes-->
+  - [position-biological-naturalism](positions/biological-naturalism.md) --rejects-->
+  - [position-integrated-information-theory](positions/integrated-information-theory.md) --rejects-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --rejects-->
   - [position-proteocentrism](positions/proteocentrism.md) --rejects-->
+  - [position-type-identity](positions/type-identity.md) --rejects-->
 
 ## [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md)
 - type: claim | author: searle | status: asserted
 - backlinks:
   - [argument-chinese-room](arguments/chinese-room.md) --concludes-->
+  - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
 
 ## [claim-zombie-conceivable](claims/zombie-conceivable.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
+  - [position-eliminative-materialism](positions/eliminative-materialism.md) --rejects-->
 
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
 - type: concept | author: block | status: asserted
@@ -644,9 +718,13 @@
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
+  - [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md) --uses_concept-->
+  - [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md) --uses_concept-->
+  - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
+  - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
 
 ## [concept-chinese-nation](concepts/chinese-nation.md)
 - type: concept | author: block | status: asserted
@@ -661,6 +739,7 @@
   - [argument-chinese-room](arguments/chinese-room.md) --uses_concept-->
   - [claim-chinese-room-no-understanding](claims/chinese-room-no-understanding.md) --uses_concept-->
   - [claim-chinese-room-runs-program](claims/chinese-room-runs-program.md) --uses_concept-->
+  - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
 
 ## [concept-continuity-argument-schema](concepts/continuity-argument-schema.md)
 - type: concept | author: mishka | status: asserted
@@ -714,6 +793,7 @@
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md) --uses_concept-->
+  - [claim-consciousness-is-biological-feature](claims/consciousness-is-biological-feature.md) --uses_concept-->
   - [claim-dancing-qualia-presupposes-functional-introspection](claims/dancing-qualia-presupposes-functional-introspection.md) --uses_concept-->
   - [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md) --uses_concept-->
   - [claim-functional-description-structural-dynamical-only](claims/functional-description-structural-dynamical-only.md) --uses_concept-->
@@ -730,6 +810,9 @@
   - [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md) --uses_concept-->
   - [concept-chinese-room](concepts/chinese-room.md) --uses_concept-->
   - [concept-grain](concepts/grain.md) --uses_concept-->
+  - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
+  - [position-hylomorphism](positions/hylomorphism.md) --uses_concept-->
+  - [position-type-identity](positions/type-identity.md) --uses_concept-->
   - [question-substrate-independence](questions/substrate-independence.md) --uses_concept-->
 
 ## [concept-grain](concepts/grain.md)
@@ -777,6 +860,7 @@
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
   - [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md) --uses_concept-->
   - [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md) --uses_concept-->
+  - [claim-consciousness-is-integrated-information](claims/consciousness-is-integrated-information.md) --uses_concept-->
   - [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md) --uses_concept-->
   - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --uses_concept-->
   - [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md) --uses_concept-->
@@ -786,9 +870,14 @@
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
   - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
+  - [position-cosmopsychism](positions/cosmopsychism.md) --uses_concept-->
+  - [position-dual-aspect-monism](positions/dual-aspect-monism.md) --uses_concept-->
   - [position-dualism](positions/dualism.md) --uses_concept-->
+  - [position-idealism](positions/idealism.md) --uses_concept-->
   - [position-illusionism](positions/illusionism.md) --uses_concept-->
+  - [position-integrated-information-theory](positions/integrated-information-theory.md) --uses_concept-->
   - [position-mysterianism](positions/mysterianism.md) --uses_concept-->
+  - [position-neutral-monism](positions/neutral-monism.md) --uses_concept-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --uses_concept-->
   - [position-panpsychism](positions/panpsychism.md) --uses_concept-->
   - [position-russellian-monism](positions/russellian-monism.md) --uses_concept-->
@@ -846,6 +935,14 @@
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md) --uses_concept-->
+  - [claim-folk-psychology-is-false-theory](claims/folk-psychology-is-false-theory.md) --uses_concept-->
+  - [claim-mental-states-are-brain-state-types](claims/mental-states-are-brain-state-types.md) --uses_concept-->
+  - [claim-mental-states-causally-inert](claims/mental-states-causally-inert.md) --uses_concept-->
+  - [claim-phenomenal-character-is-representational](claims/phenomenal-character-is-representational.md) --uses_concept-->
+  - [position-eliminative-materialism](positions/eliminative-materialism.md) --uses_concept-->
+  - [position-epiphenomenalism](positions/epiphenomenalism.md) --uses_concept-->
+  - [position-representationalism](positions/representationalism.md) --uses_concept-->
+  - [position-type-identity](positions/type-identity.md) --uses_concept-->
 
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
 - type: concept | author: chalmers | status: asserted
@@ -855,14 +952,47 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
 
+## [position-biological-naturalism](positions/biological-naturalism.md)
+- type: position | author: searle | status: asserted
+
+## [position-cosmopsychism](positions/cosmopsychism.md)
+- type: position | author: goff | status: asserted
+
+## [position-dual-aspect-monism](positions/dual-aspect-monism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-dualism](positions/dualism.md)
+- type: position | author: generic | status: asserted
+
+## [position-eliminative-materialism](positions/eliminative-materialism.md)
+- type: position | author: churchland | status: asserted
+
+## [position-epiphenomenalism](positions/epiphenomenalism.md)
+- type: position | author: huxley | status: asserted
+
+## [position-global-workspace](positions/global-workspace.md)
+- type: position | author: baars | status: asserted
+
+## [position-higher-order-theories](positions/higher-order-theories.md)
+- type: position | author: rosenthal | status: asserted
+
+## [position-hylomorphism](positions/hylomorphism.md)
+- type: position | author: aristotle | status: asserted
+
+## [position-idealism](positions/idealism.md)
 - type: position | author: generic | status: asserted
 
 ## [position-illusionism](positions/illusionism.md)
 - type: position | author: frankish | status: asserted
 
+## [position-integrated-information-theory](positions/integrated-information-theory.md)
+- type: position | author: tononi | status: asserted
+
 ## [position-mysterianism](positions/mysterianism.md)
 - type: position | author: mcginn | status: asserted
+
+## [position-neutral-monism](positions/neutral-monism.md)
+- type: position | author: russell | status: asserted
 
 ## [position-noncomputable-consciousness](positions/noncomputable-consciousness.md)
 - type: position | author: penrose | status: asserted
@@ -873,20 +1003,38 @@
 ## [position-proteocentrism](positions/proteocentrism.md)
 - type: position | author: mishka | status: asserted
 
+## [position-representationalism](positions/representationalism.md)
+- type: position | author: tye | status: asserted
+
 ## [position-russellian-monism](positions/russellian-monism.md)
 - type: position | author: russell | status: asserted
+
+## [position-type-identity](positions/type-identity.md)
+- type: position | author: generic | status: asserted
 
 ## [question-hard-problem](questions/hard-problem.md)
 - type: question | author: chalmers | status: contested
 - backlinks:
   - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --answers-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --answers-->
+  - [position-cosmopsychism](positions/cosmopsychism.md) --answers-->
+  - [position-dual-aspect-monism](positions/dual-aspect-monism.md) --answers-->
   - [position-dualism](positions/dualism.md) --answers-->
+  - [position-eliminative-materialism](positions/eliminative-materialism.md) --answers-->
+  - [position-epiphenomenalism](positions/epiphenomenalism.md) --answers-->
+  - [position-global-workspace](positions/global-workspace.md) --answers-->
+  - [position-higher-order-theories](positions/higher-order-theories.md) --answers-->
+  - [position-hylomorphism](positions/hylomorphism.md) --answers-->
+  - [position-idealism](positions/idealism.md) --answers-->
   - [position-illusionism](positions/illusionism.md) --answers-->
+  - [position-integrated-information-theory](positions/integrated-information-theory.md) --answers-->
   - [position-mysterianism](positions/mysterianism.md) --answers-->
+  - [position-neutral-monism](positions/neutral-monism.md) --answers-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
   - [position-panpsychism](positions/panpsychism.md) --answers-->
+  - [position-representationalism](positions/representationalism.md) --answers-->
   - [position-russellian-monism](positions/russellian-monism.md) --answers-->
+  - [position-type-identity](positions/type-identity.md) --answers-->
 
 ## [question-llm-moral-status](questions/llm-moral-status.md)
 - type: question | author: mishka | status: asserted
@@ -895,6 +1043,7 @@
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --answers-->
   - [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md) --answers-->
   - [claim-substrate-independence](claims/substrate-independence.md) --answers-->
+  - [position-biological-naturalism](positions/biological-naturalism.md) --answers-->
   - [position-proteocentrism](positions/proteocentrism.md) --answers-->
 
 ## [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md)
@@ -906,7 +1055,10 @@
   - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --answers-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --answers-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --answers-->
+  - [position-biological-naturalism](positions/biological-naturalism.md) --answers-->
+  - [position-integrated-information-theory](positions/integrated-information-theory.md) --answers-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
+  - [position-type-identity](positions/type-identity.md) --answers-->
 
 ## [source-block](sources/block.md)
 - type: source | author: mishka | status: asserted

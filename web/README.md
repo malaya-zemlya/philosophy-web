@@ -66,6 +66,36 @@ governing questions below.
 
 ## Named positions
 
-- [proteocentrism](positions/proteocentrism.md) — only biological substrates can bear mind.
+The standard rivals on the nature of consciousness, grouped by family. Chalmers' **Type-A/B/C
+(physicalist) + D/E/F (non-physicalist)** taxonomy of these is itself a node:
+[materialism-types](concepts/materialism-types.md).
+
+**Reductive / physicalist** (deny a fundamental phenomenal residue; mostly Type-A/B)
+- [type-identity](positions/type-identity.md) — mental-state types *are* brain-state types (a posteriori).
+- [eliminative-materialism](positions/eliminative-materialism.md) — the folk states (beliefs, qualia) don't exist.
+- [illusionism](positions/illusionism.md) — phenomenal consciousness is an introspective illusion.
+- [higher-order-theories](positions/higher-order-theories.md) — a state is conscious if suitably *higher-order-represented*.
+- [representationalism](positions/representationalism.md) — phenomenal character *is* representational content.
+- [global-workspace](positions/global-workspace.md) — consciousness = global broadcast/availability.
+- (cf. the concept [functionalism](concepts/functionalism.md), the realiser-neutral role view.)
+
+**Substrate- or physics-bound** (consciousness needs more than the right computation → deny [substrate-independence](claims/substrate-independence.md))
+- [integrated-information-theory](positions/integrated-information-theory.md) — consciousness = integrated information (Φ); a digital sim can have Φ≈0.
+- [biological-naturalism](positions/biological-naturalism.md) — consciousness is a biological feature; syntax ≠ semantics.
+- [proteocentrism](positions/proteocentrism.md) — only biological (carbon) substrates can bear mind.
+- [noncomputable-consciousness](positions/noncomputable-consciousness.md) — mind needs non-computable physics (Penrose/Orch-OR).
+
+**Consciousness fundamental** (non-physical, or monist; Type-D/E/F + idealism)
+- [dualism](positions/dualism.md) — consciousness is fundamental and non-physical (substance/property).
+- [epiphenomenalism](positions/epiphenomenalism.md) — non-physical but causally inert (Type-E).
+- [russellian-monism](positions/russellian-monism.md) — consciousness is the intrinsic nature of the physical (Type-F).
+- [panpsychism](positions/panpsychism.md) — consciousness is fundamental and ubiquitous in matter.
+- [cosmopsychism](positions/cosmopsychism.md) — the cosmos as a whole is the one fundamental subject.
+- [neutral-monism](positions/neutral-monism.md) — the fundamental base is neither mental nor physical.
+- [dual-aspect-monism](positions/dual-aspect-monism.md) — one reality with irreducible mental + physical aspects.
+- [idealism](positions/idealism.md) — reality is fundamentally mental.
+- [hylomorphism](positions/hylomorphism.md) — mind is the *form* of a living body.
+
+**Limit**
 - [mysterianism](positions/mysterianism.md) — the hard problem has a natural answer we are
   constitutively unable to grasp.
