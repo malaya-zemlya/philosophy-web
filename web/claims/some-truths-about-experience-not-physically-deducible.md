@@ -6,6 +6,7 @@ author: jackson
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]
 uses_concept: [concept-knowledge-argument, concept-hard-problem]
+answers: [question-what-does-mary-learn]
 created: 2026-06-08
 ---
 
