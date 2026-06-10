@@ -58,6 +58,8 @@
 
 ## [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md)
 - type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --attacks-->
 
 ## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
 - type: argument | author: mishka | status: asserted
@@ -151,8 +153,14 @@
 - backlinks:
   - [character-alvin](characters/alvin.md) --holds-->
 
+## [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-relevance-filter-regress](arguments/relevance-filter-regress.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md)
+- type: argument | author: chalmers | status: asserted
 
 ## [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md)
 - type: argument | author: mishka | status: asserted
@@ -166,6 +174,11 @@
 
 ## [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md)
 - type: argument | author: searle | status: asserted
+- backlinks:
+  - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --attacks-->
+  - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --responds_to-->
+  - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --attacks-->
+  - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --responds_to-->
 
 ## [argument-sorites-paradox](arguments/sorites-paradox.md)
 - type: argument | author: eubulides | status: asserted
@@ -198,6 +211,8 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --premise-->
+  - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --premise-->
+  - [character-mu-043](characters/mu-043.md) --commits_to-->
 
 ## [claim-access-grounds-moral-status-asymmetry](claims/access-grounds-moral-status-asymmetry.md)
 - type: claim | author: mishka | status: contested
@@ -216,10 +231,14 @@
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --attacks-->
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
 
+## [claim-ai-hard-problem-is-model-organism](claims/ai-hard-problem-is-model-organism.md)
+- type: claim | author: mishka | status: asserted
+
 ## [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --concludes-->
+  - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --supports-->
   - [character-cyril](characters/cyril.md) --rejects-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
 
@@ -240,6 +259,11 @@
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --premise-->
   - [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md) --premise-->
+
+## [claim-blind-spot-and-conscious-hard-problem-isomorphic](claims/blind-spot-and-conscious-hard-problem-isomorphic.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [claim-ai-hard-problem-is-model-organism](claims/ai-hard-problem-is-model-organism.md) --presupposes-->
 
 ## [claim-blockhead-deflation-targeted-not-global](claims/blockhead-deflation-targeted-not-global.md)
 - type: claim | author: mishka | status: asserted
@@ -289,6 +313,7 @@
 - backlinks:
   - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --premise-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --concludes-->
+  - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --premise-->
 
 ## [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md)
 - type: claim | author: chalmers | status: contested
@@ -434,6 +459,11 @@
 - type: claim | author: turing | status: asserted
 - backlinks:
   - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --premise-->
+
+## [claim-hard-problem-conceived-de-novo-by-humans](claims/hard-problem-conceived-de-novo-by-humans.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [claim-blind-spot-and-conscious-hard-problem-isomorphic](claims/blind-spot-and-conscious-hard-problem-isomorphic.md) --presupposes-->
 
 ## [claim-heap-predicate-sharp](claims/heap-predicate-sharp.md)
 - type: claim | author: generic | status: asserted
@@ -689,6 +719,7 @@
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --attacks-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --supports-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --concludes-->
+  - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --premise-->
 
 ## [claim-self-model-is-part-of-state](claims/self-model-is-part-of-state.md)
 - type: claim | author: mishka | status: asserted
@@ -745,6 +776,12 @@
   - [character-cyril](characters/cyril.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
 
+## [claim-unobservables-judged-by-coherence-and-usefulness](claims/unobservables-judged-by-coherence-and-usefulness.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --premise-->
+  - [character-mu-043](characters/mu-043.md) --commits_to-->
+
 ## [claim-zombie-conceivable](claims/zombie-conceivable.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
@@ -758,6 +795,7 @@
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --uses_concept-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --uses_concept-->
   - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
@@ -901,14 +939,19 @@
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
+  - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --uses_concept-->
+  - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --uses_concept-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
+  - [claim-ai-hard-problem-is-model-organism](claims/ai-hard-problem-is-model-organism.md) --uses_concept-->
   - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
+  - [claim-blind-spot-and-conscious-hard-problem-isomorphic](claims/blind-spot-and-conscious-hard-problem-isomorphic.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
   - [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md) --uses_concept-->
   - [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md) --uses_concept-->
   - [claim-consciousness-is-integrated-information](claims/consciousness-is-integrated-information.md) --uses_concept-->
   - [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md) --uses_concept-->
+  - [claim-hard-problem-conceived-de-novo-by-humans](claims/hard-problem-conceived-de-novo-by-humans.md) --uses_concept-->
   - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --uses_concept-->
   - [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
@@ -939,9 +982,13 @@
   - [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md) --uses_concept-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --uses_concept-->
+  - [claim-ai-hard-problem-is-model-organism](claims/ai-hard-problem-is-model-organism.md) --uses_concept-->
   - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
+  - [claim-blind-spot-and-conscious-hard-problem-isomorphic](claims/blind-spot-and-conscious-hard-problem-isomorphic.md) --uses_concept-->
   - [claim-complete-self-representation-impossible](claims/complete-self-representation-impossible.md) --uses_concept-->
   - [claim-explanation-must-be-internally-traversable](claims/explanation-must-be-internally-traversable.md) --uses_concept-->
+  - [claim-hard-problem-conceived-de-novo-by-humans](claims/hard-problem-conceived-de-novo-by-humans.md) --uses_concept-->
   - [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md) --uses_concept-->
   - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->

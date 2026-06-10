@@ -133,7 +133,11 @@ def main():
             problems.append(f"missing author: {nid}")
         if ntype not in LEGAL_EDGES:
             problems.append(f"unknown type '{ntype}': {nid}")
-        if ntype == "claim" and " and " in str(fm.get("title", "")).lower():
+        # Heuristic only: an 'and' inside the predicate (one proposition about a
+        # conjoint standard/pair) is fine — confirm with `atomicity: verified` in
+        # frontmatter after a human check, and the warning is suppressed.
+        if (ntype == "claim" and " and " in str(fm.get("title", "")).lower()
+                and fm.get("atomicity") != "verified"):
             problems.append(f"possibly non-atomic claim (contains 'and'): {nid}")
         # `pattern` (optional, arguments only): must name a file in patterns/
         pat = fm.get("pattern")
