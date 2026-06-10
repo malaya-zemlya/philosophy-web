@@ -314,6 +314,7 @@
   - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --premise-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --concludes-->
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --premise-->
+  - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --presupposes-->
 
 ## [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md)
 - type: claim | author: chalmers | status: contested
@@ -807,6 +808,9 @@
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
 
+## [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md)
+- type: concept | author: mishka | status: asserted
+
 ## [concept-chinese-nation](concepts/chinese-nation.md)
 - type: concept | author: block | status: asserted
 - backlinks:
@@ -840,6 +844,7 @@
   - [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md) --uses_concept-->
   - [claim-prudence-tracks-unforgeability-not-flesh](claims/prudence-tracks-unforgeability-not-flesh.md) --uses_concept-->
   - [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md) --uses_concept-->
+  - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
 
 ## [concept-first-person-access](concepts/first-person-access.md)
 - type: concept | author: mishka | status: asserted
@@ -957,6 +962,7 @@
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
+  - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
   - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
@@ -992,6 +998,7 @@
   - [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md) --uses_concept-->
   - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
+  - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
 
 ## [concept-knowledge-argument](concepts/knowledge-argument.md)

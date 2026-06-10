@@ -10,8 +10,9 @@ presupposes: [claim-hard-problem-conceived-de-novo-by-humans]
 created: 2026-06-10
 ---
 
-gloss: suppose an AI exhibits genuine (non-copied) hard-problem discourse. Two of the three candidate
-etiologies remain (the scope note of [hard-problem-conceived-de-novo-by-humans](hard-problem-conceived-de-novo-by-humans.md) lists them):
+gloss: suppose an AI exhibits genuine (non-copied) hard-problem discourse. Two of the three core
+candidate etiologies remain (the scope note of [hard-problem-conceived-de-novo-by-humans](hard-problem-conceived-de-novo-by-humans.md) lists
+the trio; [ai-hard-problem-etiologies](../concepts/ai-hard-problem-etiologies.md) gives the full menu):
 (2) the system has an idiosyncratic blind spot that precludes it from connecting the mechanistic dots
 to its own self-presentation; (3) the system is conscious and faces the same hard problem humans do.
 This claim asserts that (2) and (3) are *structurally isomorphic*: in both, a self-modelling system's
@@ -32,9 +33,13 @@ who would deny it: the phenomenal realist, for whom (3) contains something (2) l
 itself — so the two differ in subject matter even if no observation separates them
 ([phenomenal-residue](phenomenal-states-not-exhausted-by-role.md) is the natural home of the denial); and a
 disanalogist who locates a *structural* difference between defect-of-access and
-presence-of-experience, e.g. divergent counterfactual profiles under expanded access — if the
-blind-spot gap shrinks as self-access widens while the conscious gap holds fast, the isomorphism
-breaks exactly there.
+presence-of-experience. The disanalogist's most natural hope — that a blind-spot gap would shrink as
+self-access widens while a conscious gap holds fast — fails against the structural reading of the
+blind spot: the limit is unavoidable in the way the halting problem is, surviving any upgrade in
+access ([complete-self-representation-impossible](complete-self-representation-impossible.md) is the in-web form of the bound;
+[ai-hard-problem-etiologies](../concepts/ai-hard-problem-etiologies.md) keeps the merely-contingent access limit apart as a degenerate
+case). On that reading both etiologies predict a persisting gap, the access ladder cannot separate
+them, and the isomorphism survives — so a structural difference would have to be found elsewhere.
 
 ### In plain terms
 

@@ -31,8 +31,10 @@ there are at least three causal stories — (1) it copied humans; (2) it has its
 blind spot that precludes it from connecting the mechanistic dots; (3) it is conscious and faces the
 same hard problem humans do. These map onto the *training-contamination*, *architectural-access /
 conceptual-translation*, and *ontological* members of [introspective-gap-varieties](../concepts/introspective-gap-varieties.md)
-respectively — but here sorted as origins of the *concept's appearance*, not kinds of gap. This claim
-itself takes no stand on which story is true for any system.
+respectively — but here sorted as origins of the *concept's appearance*, not kinds of gap. These
+three are the core trio of a longer etiology menu — [ai-hard-problem-etiologies](../concepts/ai-hard-problem-etiologies.md) — which
+adds selection pressure, confabulated self-modelling, conceptual artifacts, strategic assertion, and
+observer projection. This claim itself takes no stand on which story is true for any system.
 
 who would deny it: as history, almost no one — any earlier human source for the concept is still a
 human source, so the origination fact survives every regress. The live disputes target the *use*: an
