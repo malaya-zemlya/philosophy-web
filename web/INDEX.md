@@ -3,6 +3,12 @@
 ## [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md)
+- type: argument | author: mishka | status: asserted
+- backlinks:
+  - [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md) --attacks-->
+  - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --attacks-->
+
 ## [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md)
 - type: argument | author: generic | status: asserted
 
@@ -49,6 +55,9 @@
 
 ## [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md)
+- type: argument | author: generic | status: asserted
 
 ## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
 - type: argument | author: mishka | status: asserted
@@ -155,6 +164,9 @@
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --responds_to-->
   - [character-alvin](characters/alvin.md) --holds-->
 
+## [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md)
+- type: argument | author: searle | status: asserted
+
 ## [argument-sorites-paradox](arguments/sorites-paradox.md)
 - type: argument | author: eubulides | status: asserted
 
@@ -172,6 +184,9 @@
 
 ## [character-alvin](characters/alvin.md)
 - type: character | author: alvin | status: asserted
+
+## [character-cyril](characters/cyril.md)
+- type: character | author: cyril | status: asserted
 
 ## [character-mu-043](characters/mu-043.md)
 - type: character | author: mu-043 | status: asserted
@@ -201,6 +216,13 @@
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --attacks-->
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
 
+## [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --concludes-->
+  - [character-cyril](characters/cyril.md) --rejects-->
+  - [character-mu-043](characters/mu-043.md) --commits_to-->
+
 ## [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
@@ -210,6 +232,8 @@
 - type: claim | author: block | status: asserted
 - backlinks:
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --concludes-->
+  - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --premise-->
+  - [character-cyril](characters/cyril.md) --commits_to-->
 
 ## [claim-biology-currently-unforgeable](claims/biology-currently-unforgeable.md)
 - type: claim | author: mishka | status: asserted
@@ -243,6 +267,7 @@
 - type: claim | author: searle | status: asserted
 - backlinks:
   - [argument-chinese-room](arguments/chinese-room.md) --premise-->
+  - [character-cyril](characters/cyril.md) --commits_to-->
 
 ## [claim-chinese-room-runs-program](claims/chinese-room-runs-program.md)
 - type: claim | author: searle | status: asserted
@@ -262,6 +287,7 @@
 ## [claim-complete-self-representation-impossible](claims/complete-self-representation-impossible.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --premise-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --concludes-->
 
 ## [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md)
@@ -304,6 +330,7 @@
 ## [claim-consciousness-is-biological-feature](claims/consciousness-is-biological-feature.md)
 - type: claim | author: searle | status: asserted
 - backlinks:
+  - [character-cyril](characters/cyril.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
 
 ## [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md)
@@ -445,8 +472,18 @@
 - backlinks:
   - [argument-bounded-table-rejoinder](arguments/bounded-table-rejoinder.md) --premise-->
 
+## [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --premise-->
+  - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --premise-->
+  - [character-cyril](characters/cyril.md) --commits_to-->
+  - [character-mu-043](characters/mu-043.md) --commits_to-->
+
 ## [claim-llm-functional-introspection](claims/llm-functional-introspection.md)
 - type: claim | author: lindsey | status: asserted
+- backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --premise-->
 
 ## [claim-llm-has-mental-states](claims/llm-has-mental-states.md)
 - type: claim | author: mishka | status: contested
@@ -454,6 +491,7 @@
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --concludes-->
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --supports-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --attacks-->
+  - [character-cyril](characters/cyril.md) --rejects-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --rejects-->
 
@@ -691,6 +729,7 @@
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --attacks-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --attacks-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
+  - [character-cyril](characters/cyril.md) --rejects-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --presupposes-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --rejects-->
@@ -703,6 +742,7 @@
 - type: claim | author: searle | status: asserted
 - backlinks:
   - [argument-chinese-room](arguments/chinese-room.md) --concludes-->
+  - [character-cyril](characters/cyril.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
 
 ## [claim-zombie-conceivable](claims/zombie-conceivable.md)
@@ -714,9 +754,12 @@
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
 - type: concept | author: block | status: asserted
 - backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --uses_concept-->
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --uses_concept-->
+  - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
   - [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md) --uses_concept-->
   - [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md) --uses_concept-->
@@ -769,6 +812,7 @@
   - [claim-access-grounds-moral-status-asymmetry](claims/access-grounds-moral-status-asymmetry.md) --uses_concept-->
   - [claim-access-grounds-no-asymmetry](claims/access-grounds-no-asymmetry.md) --uses_concept-->
   - [claim-acquaintance-necessary-for-moral-status-warrant](claims/acquaintance-necessary-for-moral-status-warrant.md) --uses_concept-->
+  - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md) --uses_concept-->
   - [claim-privileged-first-person-access](claims/privileged-first-person-access.md) --uses_concept-->
 
@@ -852,11 +896,14 @@
 ## [concept-hard-problem](concepts/hard-problem.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --uses_concept-->
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
+  - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
+  - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
   - [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md) --uses_concept-->
   - [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md) --uses_concept-->
@@ -887,12 +934,16 @@
 ## [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --uses_concept-->
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
+  - [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md) --uses_concept-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
   - [claim-complete-self-representation-impossible](claims/complete-self-representation-impossible.md) --uses_concept-->
   - [claim-explanation-must-be-internally-traversable](claims/explanation-must-be-internally-traversable.md) --uses_concept-->
   - [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md) --uses_concept-->
+  - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
 
@@ -947,6 +998,7 @@
 ## [concept-order-of-representation](concepts/order-of-representation.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --uses_concept-->
   - [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md) --uses_concept-->
   - [claim-phenomenal-character-is-representational](claims/phenomenal-character-is-representational.md) --uses_concept-->
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
@@ -963,6 +1015,8 @@
 
 ## [position-biological-naturalism](positions/biological-naturalism.md)
 - type: position | author: searle | status: asserted
+- backlinks:
+  - [character-cyril](characters/cyril.md) --holds-->
 
 ## [position-cosmopsychism](positions/cosmopsychism.md)
 - type: position | author: goff | status: asserted
@@ -1011,6 +1065,8 @@
 
 ## [position-proteocentrism](positions/proteocentrism.md)
 - type: position | author: mishka | status: asserted
+- backlinks:
+  - [character-cyril](characters/cyril.md) --holds-->
 
 ## [position-representationalism](positions/representationalism.md)
 - type: position | author: tye | status: asserted
@@ -1057,6 +1113,8 @@
 
 ## [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md)
 - type: question | author: mishka | status: contested
+- backlinks:
+  - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --answers-->
 
 ## [question-substrate-independence](questions/substrate-independence.md)
 - type: question | author: mishka | status: contested
