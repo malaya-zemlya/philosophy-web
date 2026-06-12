@@ -214,11 +214,15 @@
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --responds_to-->
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --attacks-->
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --responds_to-->
+  - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --attacks-->
 
 ## [argument-sorites-paradox](arguments/sorites-paradox.md)
 - type: argument | author: eubulides | status: asserted
 
 ## [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-structure-and-dynamics](arguments/structure-and-dynamics.md)
@@ -796,6 +800,14 @@
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --premise-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --presupposes-->
 
+## [claim-sim-agents-can-have-sim-qualia](claims/sim-agents-can-have-sim-qualia.md)
+- type: claim | author: chalmers | status: asserted
+
+## [claim-simulated-rain-wet-in-simulated-world](claims/simulated-rain-wet-in-simulated-world.md)
+- type: claim | author: chalmers | status: asserted
+- backlinks:
+  - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --premise-->
+
 ## [claim-some-necessities-knowable-only-a-posteriori](claims/some-necessities-knowable-only-a-posteriori.md)
 - type: claim | author: kripke | status: asserted
 - backlinks:
@@ -834,6 +846,7 @@
   - [character-cyril](characters/cyril.md) --rejects-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --presupposes-->
+  - [claim-sim-agents-can-have-sim-qualia](claims/sim-agents-can-have-sim-qualia.md) --presupposes-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --rejects-->
   - [position-integrated-information-theory](positions/integrated-information-theory.md) --rejects-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --rejects-->
@@ -868,6 +881,7 @@
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --uses_concept-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --uses_concept-->
+  - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --uses_concept-->
   - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
   - [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md) --uses_concept-->
@@ -1151,6 +1165,13 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
 
+## [concept-virtual-realism](concepts/virtual-realism.md)
+- type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --uses_concept-->
+  - [claim-sim-agents-can-have-sim-qualia](claims/sim-agents-can-have-sim-qualia.md) --uses_concept-->
+  - [claim-simulated-rain-wet-in-simulated-world](claims/simulated-rain-wet-in-simulated-world.md) --uses_concept-->
+
 ## [position-biological-naturalism](positions/biological-naturalism.md)
 - type: position | author: searle | status: asserted
 - backlinks:
@@ -1282,6 +1303,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-1996](sources/chalmers-1996.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-2022](sources/chalmers-2022.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-gambarian](sources/gambarian.md)
