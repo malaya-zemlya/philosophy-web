@@ -377,6 +377,7 @@
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --concludes-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --premise-->
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --premise-->
+  - [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md) --presupposes-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --presupposes-->
 
 ## [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md)
@@ -512,6 +513,9 @@
 - backlinks:
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --concludes-->
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --supports-->
+
+## [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md)
+- type: claim | author: mishka | status: asserted
 
 ## [claim-halting-oracle-coherent-but-unrealizable](claims/halting-oracle-coherent-but-unrealizable.md)
 - type: claim | author: mishka | status: asserted
@@ -931,6 +935,8 @@
 
 ## [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md)
 - type: concept | author: mishka | status: asserted
+- backlinks:
+  - [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md) --uses_concept-->
 
 ## [concept-chinese-nation](concepts/chinese-nation.md)
 - type: concept | author: block | status: asserted
@@ -981,6 +987,8 @@
   - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md) --uses_concept-->
   - [claim-privileged-first-person-access](claims/privileged-first-person-access.md) --uses_concept-->
+  - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
+  - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
 
 ## [concept-functionalism](concepts/functionalism.md)
 - type: concept | author: generic | status: asserted
@@ -1082,6 +1090,7 @@
   - [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md) --uses_concept-->
   - [claim-consciousness-is-integrated-information](claims/consciousness-is-integrated-information.md) --uses_concept-->
   - [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md) --uses_concept-->
+  - [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md) --uses_concept-->
   - [claim-hard-problem-conceived-de-novo-by-humans](claims/hard-problem-conceived-de-novo-by-humans.md) --uses_concept-->
   - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --uses_concept-->
   - [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md) --uses_concept-->
@@ -1215,6 +1224,11 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
 
+## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
+- type: concept | author: mishka | status: asserted
+- backlinks:
+  - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
+
 ## [concept-virtual-realism](concepts/virtual-realism.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
@@ -1285,6 +1299,9 @@
 
 ## [position-type-identity](positions/type-identity.md)
 - type: position | author: generic | status: asserted
+
+## [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md)
+- type: question | author: generic | status: contested
 
 ## [question-hard-problem](questions/hard-problem.md)
 - type: question | author: chalmers | status: contested
