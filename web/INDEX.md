@@ -81,6 +81,9 @@
 - backlinks:
   - [character-alvin](characters/alvin.md) --holds-->
 
+## [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -98,6 +101,9 @@
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --attacks-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --responds_to-->
   - [character-alvin](characters/alvin.md) --holds-->
+
+## [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md)
+- type: argument | author: searle | status: asserted
 
 ## [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md)
 - type: argument | author: mishka | status: asserted
@@ -137,10 +143,15 @@
   - [argument-acquaintance-hypothesis](arguments/acquaintance-hypothesis.md) --responds_to-->
   - [argument-indexical-reply](arguments/indexical-reply.md) --attacks-->
   - [argument-indexical-reply](arguments/indexical-reply.md) --responds_to-->
+  - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --attacks-->
+  - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --responds_to-->
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --responds_to-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --responds_to-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --attacks-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --responds_to-->
+
+## [argument-llmary-token-encounter](arguments/llmary-token-encounter.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md)
 - type: argument | author: mishka | status: asserted
@@ -190,12 +201,20 @@
 
 ## [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md)
 - type: argument | author: mishka | status: asserted
+- backlinks:
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --attacks-->
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --responds_to-->
 
 ## [argument-relevance-filter-regress](arguments/relevance-filter-regress.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md)
 - type: argument | author: chalmers | status: asserted
+- backlinks:
+  - [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md) --attacks-->
+  - [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md) --responds_to-->
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --attacks-->
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --responds_to-->
 
 ## [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md)
 - type: argument | author: mishka | status: asserted
@@ -250,6 +269,7 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --premise-->
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --presupposes-->
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --premise-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
 
@@ -272,6 +292,8 @@
 
 ## [claim-ai-hard-problem-is-model-organism](claims/ai-hard-problem-is-model-organism.md)
 - type: claim | author: mishka | status: asserted
+- backlinks:
+  - [character-cyril](characters/cyril.md) --rejects-->
 
 ## [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md)
 - type: claim | author: mishka | status: asserted
@@ -302,6 +324,7 @@
 ## [claim-blind-spot-and-conscious-hard-problem-isomorphic](claims/blind-spot-and-conscious-hard-problem-isomorphic.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [character-cyril](characters/cyril.md) --commits_to-->
   - [claim-ai-hard-problem-is-model-organism](claims/ai-hard-problem-is-model-organism.md) --presupposes-->
 
 ## [claim-blockhead-deflation-targeted-not-global](claims/blockhead-deflation-targeted-not-global.md)
@@ -504,6 +527,8 @@
 ## [claim-hard-problem-conceived-de-novo-by-humans](claims/hard-problem-conceived-de-novo-by-humans.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md) --premise-->
+  - [character-cyril](characters/cyril.md) --commits_to-->
   - [claim-blind-spot-and-conscious-hard-problem-isomorphic](claims/blind-spot-and-conscious-hard-problem-isomorphic.md) --presupposes-->
 
 ## [claim-heap-predicate-sharp](claims/heap-predicate-sharp.md)
@@ -731,11 +756,16 @@
 
 ## [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md)
 - type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --premise-->
+  - [character-cyril](characters/cyril.md) --commits_to-->
 
 ## [claim-privileged-first-person-access](claims/privileged-first-person-access.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --premise-->
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
+  - [character-cyril](characters/cyril.md) --commits_to-->
 
 ## [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md)
 - type: claim | author: mishka | status: contested
@@ -808,6 +838,11 @@
 - backlinks:
   - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --premise-->
 
+## [claim-simulation-instances-formal-depicts-causal](claims/simulation-instances-formal-depicts-causal.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [character-cyril](characters/cyril.md) --commits_to-->
+
 ## [claim-some-necessities-knowable-only-a-posteriori](claims/some-necessities-knowable-only-a-posteriori.md)
 - type: claim | author: kripke | status: asserted
 - backlinks:
@@ -877,8 +912,10 @@
 - backlinks:
   - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --uses_concept-->
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --uses_concept-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --uses_concept-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --uses_concept-->
   - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --uses_concept-->
@@ -908,6 +945,7 @@
   - [argument-chinese-room](arguments/chinese-room.md) --uses_concept-->
   - [claim-chinese-room-no-understanding](claims/chinese-room-no-understanding.md) --uses_concept-->
   - [claim-chinese-room-runs-program](claims/chinese-room-runs-program.md) --uses_concept-->
+  - [claim-simulation-instances-formal-depicts-causal](claims/simulation-instances-formal-depicts-causal.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
 
 ## [concept-continuity-argument-schema](concepts/continuity-argument-schema.md)
@@ -934,6 +972,7 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --uses_concept-->
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --uses_concept-->
   - [argument-first-person-access](arguments/first-person-access.md) --uses_concept-->
   - [claim-access-gap-symmetric](claims/access-gap-symmetric.md) --uses_concept-->
   - [claim-access-grounds-moral-status-asymmetry](claims/access-grounds-moral-status-asymmetry.md) --uses_concept-->
@@ -976,6 +1015,7 @@
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --uses_concept-->
   - [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md) --uses_concept-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
+  - [claim-simulation-instances-formal-depicts-causal](claims/simulation-instances-formal-depicts-causal.md) --uses_concept-->
   - [claim-substrate-independence](claims/substrate-independence.md) --presupposes-->
   - [claim-substrate-independence](claims/substrate-independence.md) --uses_concept-->
   - [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md) --uses_concept-->
@@ -1026,6 +1066,8 @@
   - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --uses_concept-->
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --uses_concept-->
+  - [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md) --uses_concept-->
+  - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --uses_concept-->
@@ -1070,6 +1112,7 @@
   - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --uses_concept-->
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --uses_concept-->
   - [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md) --uses_concept-->
+  - [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md) --uses_concept-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --uses_concept-->
@@ -1094,6 +1137,7 @@
   - [argument-bike-rider-learns-facts](arguments/bike-rider-learns-facts.md) --uses_concept-->
   - [argument-indexical-reply](arguments/indexical-reply.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
+  - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --uses_concept-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --uses_concept-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --uses_concept-->
@@ -1105,7 +1149,13 @@
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --uses_concept-->
   - [claim-mary-learns-on-release](claims/mary-learns-on-release.md) --uses_concept-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
+  - [concept-llmary](concepts/llmary.md) --uses_concept-->
   - [question-what-does-mary-learn](questions/what-does-mary-learn.md) --uses_concept-->
+
+## [concept-llmary](concepts/llmary.md)
+- type: concept | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
 
 ## [concept-lookup-table-mind](concepts/lookup-table-mind.md)
 - type: concept | author: block | status: asserted
