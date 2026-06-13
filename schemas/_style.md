@@ -43,6 +43,31 @@ jargon-heavy it still gets that plain-language gloss, additive and never a subst
 readable main body. Section order at the end of an entry: main prose, then `### In plain
 terms` (optional), then `### See also` (optional) last.
 
+### Mathematics (`$…$` inline, `$$…$$` display)
+
+Write formulas in standard LaTeX math, the GitHub/Pandoc way, and they render beautifully in the
+book and on GitHub alike. **Inline:** wrap the formula in single dollar signs —
+`the posterior $P(h\mid e) = \frac{P(e\mid h)\,P(h)}{P(e)}$ is small`. The `$` must *hug* its
+content (no space just inside the delimiters); that is what keeps a stray prose dollar like
+`$5 and $10` from being read as maths. A literal lone dollar is fine as-is; write `\$` only if you
+ever need one immediately against text. **Display** (a centred block on its own): fence it with
+`$$` on their own lines —
+
+```markdown
+$$
+\Phi(\text{world}) = \Phi_{\text{physical}} \quad\text{and}\quad \mathcal{Q} = \varnothing
+$$
+```
+
+or, for a short one, `$$ E = mc^2 $$` on a line by itself. The content between the fences is passed
+to LaTeX **verbatim** (never escaped), so `\frac`, subscripts/superscripts, `aligned`, and the like
+all work; the `amsmath`/`amssymb` packages are loaded. Keep display maths on its own line(s) —
+a `$$…$$` buried mid-sentence is not recognised. For a *single* symbol in running prose you can
+still just type the Unicode glyph (`∴ ∧ Φ Σ`); the renderer maps those to maths automatically, so
+reserve `$…$` for actual formulas. Lint leaves everything between math delimiters untouched, so a
+`$…$` never gets mangled by the `[[id]]` link machinery. Live exercise of every case (math
+included): `web/test/rendering-test.md`, typeset with `make entry ID=concept-rendering-test`.
+
 ### Headword vs. title (`headword:` frontmatter field)
 
 The `title` of a content node is its precise, often-disambiguated name (e.g. *Continuity–

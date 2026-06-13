@@ -49,8 +49,9 @@ The encyclopedia-style requirements the draft must meet (same on both paths) liv
 `schemas/_style.md`; the essentials: plain-language definition first; self-contained and
 approachable without losing any nuance; a concrete example where the subject allows; connected
 prose with `###` subheadings (never `label:` fragments); **every cross-link kept** (woven in, or
-in `### See also`); awkward titles aliased `[[id|short label]]`; section order main prose →
-`### In plain terms` → `### See also` (last); neutral voice.
+in `### See also`); awkward titles aliased `[[id|short label]]`; maths in LaTeX (`$…$` inline,
+`$$…$$` display) preserved verbatim; section order main prose → `### In plain terms` →
+`### See also` (last); neutral voice.
 
 ## Constraints (do not cross without asking)
 - **Frontmatter is off-limits — two exceptions.** Do not touch `id`, `type`, `author`, `status`,

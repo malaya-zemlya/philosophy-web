@@ -23,6 +23,11 @@ from .latex import latex_escape
 # a headword they fall back to italics; an explicit `headword:` (any type) forces small caps.
 SMALLCAPS_TYPES = {"concept", "position", "source", "character"}
 
+# Inline math: `$ … $`, GitHub-style. The `$` must hug its content (no space just inside), which
+# is what keeps a stray prose dollar (`$5 and $10`) from being read as math. `$$` is display math,
+# handled at block level (markdown.py); the lookarounds here make sure this never bites into one.
+INLINE_MATH_RE = re.compile(r"(?<!\$)\$(?!\$)(?=\S)([^$\n]+?)(?<=\S)\$")
+
 
 class Ctx:
     """Per-entry rendering context: resolves a cited id into a (possibly linked) cross-reference."""
@@ -76,6 +81,8 @@ def render_inline(text: str, ctx: Ctx) -> str:
 
     # 1. protect spans that must not be escaped or touched by emphasis
     text = re.sub(r"`([^`]+)`", lambda m: keep(r"\texttt{%s}" % latex_escape(m.group(1))), text)
+    # inline math: hand the LaTeX through verbatim — never escaped, never touched by emphasis
+    text = INLINE_MATH_RE.sub(lambda m: keep("$%s$" % m.group(1)), text)
 
     def md(m):
         rendered, is_xref = ctx.xref_target(m.group(1), m.group(2))

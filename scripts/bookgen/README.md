@@ -10,8 +10,14 @@ uv run --with pyyaml python scripts/book.py --style encyclopedia  # only finishe
 uv run --with pyyaml python scripts/book.py --type concept  # only the concept entries
 uv run --with pyyaml python scripts/book.py concept-chinese-room claim-substrate-independence
 uv run --with pyyaml python scripts/book.py --columns 1 --no-pdf   # single column, .tex only
+uv run --with pyyaml python scripts/book.py --font bookman   # set the text font (see below)
 uv run --with pyyaml python scripts/book.py --help          # every option
 ```
+
+`--font default|bookman|palatino|times|charter` (default `default` = Latin Modern) picks the text
+face; all are libre fonts shipped with TeX Live / MacTeX, loaded by file under Unicode engines so
+no system install is needed. Maths stays Computer Modern (only the few inline symbols), which pairs
+cleanly with any of them. `bookman` (TeX Gyre Bonum) gives the classic old-encyclopedia look.
 
 `--style encyclopedia|legacy|any` (default `any`) filters the bulk type/`--all` selection by each
 node's `style:` conversion tag — the marker recording whether a body has been brought up to the
@@ -35,6 +41,9 @@ published book carries only finished entries.
   woven into the sentence as a noun keeps the bare small-caps/italic label. Each becomes a clickable
   hyperlink when the target is also an entry in the same volume.
 - `### In plain terms` → a shaded aside; `### See also` → a styled cross-reference list.
+- **Mathematics**: inline `$…$` and display `$$…$$` (its own line[s]) pass to LaTeX verbatim via
+  `amsmath` — `\frac`, sub/superscripts, `aligned`, etc. The `$` must hug its content, so a prose
+  dollar stays literal. Single Unicode symbols in prose (`∴ ∧ Φ Σ`) are mapped to maths by `latex.py`.
 - Front matter: a clickable **List of Entries**; PDF bookmarks for letters and entries.
 
 ## Engines

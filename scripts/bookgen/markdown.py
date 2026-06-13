@@ -28,6 +28,10 @@ def render_blocks(md: str, ctx: Ctx) -> str:
         if not lines[i].strip():
             i += 1
             continue
+        if lines[i].lstrip().startswith("$$"):
+            block, i = _take_display_math(lines, i)
+            out.append(block)
+            continue
         hm = _HEADING_RE.match(lines[i])
         if hm:
             out.append(r"\webheading{%s}" % render_inline(hm.group(1).strip(), ctx))
@@ -57,10 +61,40 @@ def _take_list(lines: List[str], i: int, ctx: Ctx) -> Tuple[str, int]:
     return "\\begin{%s}\n%s\n\\end{%s}" % (env, body, env), i
 
 
+def _take_display_math(lines: List[str], i: int) -> Tuple[str, int]:
+    """A `$$ … $$` display-math block (on one line or spanning several) -> a LaTeX display equation.
+
+    The content between the `$$` fences is emitted verbatim (never escaped), so authors write
+    ordinary LaTeX maths — fractions, subscripts, `aligned`, etc. — straight into the body.
+    """
+    first = lines[i].strip()
+    rest = first[2:].strip()                      # whatever follows the opening `$$`
+    parts: List[str] = []
+    if rest.endswith("$$"):                        # opens and closes on the same line: $$ … $$
+        parts.append(rest[:-2].strip())
+        i += 1
+    else:
+        if rest:
+            parts.append(rest)
+        i += 1
+        while i < len(lines):
+            s = lines[i].strip()
+            if s.endswith("$$"):
+                if s[:-2].strip():
+                    parts.append(s[:-2].strip())
+                i += 1
+                break
+            parts.append(s)
+            i += 1
+    inner = "\n".join(p for p in parts if p)
+    return "\\[\n%s\n\\]" % inner, i
+
+
 def _take_paragraph(lines: List[str], i: int, ctx: Ctx) -> Tuple[str, int]:
     para: List[str] = []
     while (i < len(lines) and lines[i].strip()
-           and not _ITEM_RE.match(lines[i]) and not _HEADING_RE.match(lines[i])):
+           and not _ITEM_RE.match(lines[i]) and not _HEADING_RE.match(lines[i])
+           and not lines[i].lstrip().startswith("$$")):
         para.append(lines[i].strip())
         i += 1
     return render_inline(" ".join(para), ctx), i

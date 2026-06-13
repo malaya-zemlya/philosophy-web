@@ -12,6 +12,10 @@ yourself (this is not a character's turn). Follow the **web-protocol** skill thr
 read `schemas/<type>.md` before creating each node type. **Write nothing to `web/` until I
 approve** (Phase 1 is read-only).
 
+Formal or Bayesian arguments often carry notation: write it in LaTeX maths — inline `$…$`,
+display `$$…$$` on its own line(s) — per `schemas/_style.md` ("Mathematics"). Keep premises and
+conclusions as atomic claims even when their statement contains a formula.
+
 ## Phase 1 — Triage & quality control (READ-ONLY; report, then ask me)
 1. **Reconstruct charitably.** Restate the argument in structured form: its single
    conclusion, each premise, and the inference form (deductive | abductive | analogy |

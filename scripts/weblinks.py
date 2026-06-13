@@ -33,8 +33,10 @@ _FM_SPLIT_RE = re.compile(r"^(---\n.*?\n---)(.*)$", re.DOTALL)
 WIKILINK_RE = re.compile(r"\[\[([a-z]+-[a-z0-9-]+)(\|[^\]]+)?\]\]")
 # `[label](target.md)` — only `.md` targets are candidates for refresh
 MDLINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+\.md)\)")
-# spans that must NOT be touched when wrapping bare ids: existing wiki/md links and inline code
-_PROTECT_RE = re.compile(r"\[\[[^\]]*\]\]|\[[^\]]*\]\([^)]*\)|`[^`]*`")
+# spans that must NOT be touched when wrapping bare ids: math (`$$…$$` / `$…$`), existing wiki/md
+# links, and inline code. Math comes first so a `$…$` is never split by the link machinery.
+_PROTECT_RE = re.compile(
+    r"\$\$[\s\S]*?\$\$|\$(?=\S)[^$\n]+?(?<=\S)\$|\[\[[^\]]*\]\]|\[[^\]]*\]\([^)]*\)|`[^`]*`")
 # a hyphenated lowercase token that could be an id (membership is checked against the real id set)
 _ID_TOKEN_RE = re.compile(r"(?<![\w-])([a-z]+-[a-z0-9-]+)(?![\w-])")
 # does a link target look like it points at a web node dir (<type>s/)?

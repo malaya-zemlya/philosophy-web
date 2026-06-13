@@ -54,6 +54,11 @@ One utterance is not one node.
    
    Avoid em-dash constructions in prose (bad: "The four varieties are mutually compatible — a single case may exhibit several at
   once — but they spring from different sources and call for different remedies", better: "These four varieties can overlap in a single case, yet each has a distinct source and calls for a distinct remedy.")
+
+   **Mathematics:** write formulas in LaTeX — inline between single dollars (`$x_i^2$`), display by
+   fencing with `$$` on their own lines; content between the delimiters renders verbatim. A single
+   symbol in prose can just be the Unicode glyph (`∴ ∧ Φ Σ`). Details + a worked fixture
+   (`web/test/rendering-test.md`): `schemas/_style.md` ("Mathematics").
 9. **Optional `### In plain terms` section.** When a content node (claim, concept, argument,
    question, position) is technical or jargon-heavy, end its body with a `### In plain terms`
    section: a short, self-contained explanation aimed at a casual visitor to the repo who has

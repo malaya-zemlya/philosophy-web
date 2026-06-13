@@ -133,3 +133,11 @@ renders `[[id]]` into a clickable `[slug](relpath)` link and refreshes it on eve
 browsing on GitHub can click straight through to the target. References stay greppable — by slug
 and path in the rendered link, and by full id in the frontmatter edges. Frontmatter edges always
 stay bare ids; only prose gets links.
+
+## Mathematics in a body
+Write formulas in LaTeX maths: **inline** between single dollars (`$P(h\mid e)=\frac{P(e\mid h)P(h)}{P(e)}$`),
+**display** by fencing with `$$` on their own lines (a centred block) — content between the
+delimiters is passed to LaTeX verbatim, so `\frac`, sub/superscripts and `aligned` all work. The
+`$` must hug its content (no inner spaces), which keeps a prose dollar like `$5` literal; keep
+display maths on its own line(s). A single symbol in prose can just be the Unicode glyph
+(`∴ ∧ Φ Σ`). Full guide + worked fixture: `schemas/_style.md` ("Mathematics").
