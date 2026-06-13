@@ -75,6 +75,20 @@ One utterance is not one node.
    two; simplify as far as you can there without flattening the distinctions, rather than skipping
    the section. The heading is exactly `### In plain terms`; it follows the main prose, and only
    a `### See also` section (rule 8) may come after it. When in doubt about a node, ask.
+10. **Cite your sources (like any good encyclopedia).** Whenever a node you create or edit names a
+    real philosopher, scientist, or writer, or attributes a specific idea, argument, position, or
+    result to one (e.g. "Lewis's ability hypothesis", "Block's Chinese Nation", "Nagel's bat"),
+    back the attribution with a `source` node. First `grep web/sources/` for an existing source for
+    that **work**; if none exists, **research the exact citation** (author, title, venue, year,
+    pages) — use web search rather than guessing, and never fabricate a reference — then create the
+    source node (title `<Author — Work (year)>`; `author:` is whoever added it, normally `mishka`,
+    **never** the cited author). Cite it in the body with `[[source-id]]` at the point of
+    attribution. Prefer a source for the **specific work** over a bare "Person" node, and split a
+    person's distinct works into distinct sources when they ground different ideas (e.g.
+    `source-block-1978` for *Troubles with Functionalism* vs `source-block` for *Psychologism and
+    Behaviorism*). If you genuinely cannot pin down the source, flag it for the user rather than
+    invent one. This applies to encyclopedify conversions too: surfacing a named attribution that
+    lacks a source is part of bringing an entry up to standard.
 
 ## Where things live
 - Per-type schemas (read before create/edit): `schemas/<type>.md`
