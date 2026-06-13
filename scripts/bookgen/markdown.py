@@ -13,6 +13,10 @@ from .inline import Ctx, render_inline
 _ITEM_RE = re.compile(r"^(\s*)([-*]|\d+[.)])\s+(.*)$")
 # a level-3 heading line
 _H3_RE = re.compile(r"^###\s+(.*)$", re.MULTILINE)
+# any ATX heading line (any level): captures the heading text. Top-level `### ` headings are
+# peeled off by split_sections; this catches the rest (e.g. a `## Illustration` nested inside a
+# section), which would otherwise fall through to the paragraph path and print its `#`s literally.
+_HEADING_RE = re.compile(r"^#{1,6}\s+(.*)$")
 
 
 def render_blocks(md: str, ctx: Ctx) -> str:
@@ -24,7 +28,11 @@ def render_blocks(md: str, ctx: Ctx) -> str:
         if not lines[i].strip():
             i += 1
             continue
-        if _ITEM_RE.match(lines[i]):
+        hm = _HEADING_RE.match(lines[i])
+        if hm:
+            out.append(r"\webheading{%s}" % render_inline(hm.group(1).strip(), ctx))
+            i += 1
+        elif _ITEM_RE.match(lines[i]):
             block, i = _take_list(lines, i, ctx)
             out.append(block)
         else:
@@ -51,7 +59,8 @@ def _take_list(lines: List[str], i: int, ctx: Ctx) -> Tuple[str, int]:
 
 def _take_paragraph(lines: List[str], i: int, ctx: Ctx) -> Tuple[str, int]:
     para: List[str] = []
-    while i < len(lines) and lines[i].strip() and not _ITEM_RE.match(lines[i]):
+    while (i < len(lines) and lines[i].strip()
+           and not _ITEM_RE.match(lines[i]) and not _HEADING_RE.match(lines[i])):
         para.append(lines[i].strip())
         i += 1
     return render_inline(" ".join(para), ctx), i
@@ -72,12 +81,22 @@ def split_sections(body: str) -> List[Tuple[Optional[str], str]]:
 
 
 def render_see_also(chunk: str, ctx: Ctx) -> str:
-    """The `### See also` list -> a styled cross-reference block (each item: a link + a gloss)."""
-    rows = [r"  \item %s" % render_inline(m.group(3).strip(), ctx)
-            for m in (_ITEM_RE.match(line) for line in chunk.split("\n")) if m]
-    if not rows:
+    """The `### See also` list -> a styled cross-reference block (each item: a link + a gloss).
+
+    An item may wrap across several lines; a non-marker line continues the previous item (the same
+    folding `_take_list` does), so a wrapped gloss is never truncated at the line break.
+    """
+    items: List[str] = []
+    for line in chunk.split("\n"):
+        m = _ITEM_RE.match(line)
+        if m:
+            items.append(m.group(3).strip())
+        elif line.strip() and items:
+            items[-1] += " " + line.strip()
+    if not items:
         return ""
-    return "\\webheading{See also}\n\\begin{seealso}\n%s\n\\end{seealso}" % "\n".join(rows)
+    rows = "\n".join(r"  \item %s" % render_inline(it, ctx) for it in items)
+    return "\\webheading{See also}\n\\begin{seealso}\n%s\n\\end{seealso}" % rows
 
 
 def render_body(body: str, ctx: Ctx) -> str:
