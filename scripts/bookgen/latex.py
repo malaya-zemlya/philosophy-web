@@ -29,9 +29,12 @@ _ESCAPE = {"&": r"\&", "%": r"\%", "$": r"\$", "#": r"\#", "_": r"\_",
 
 
 def _smart_quotes(text: str) -> str:
-    """Straight ASCII double quotes -> LaTeX directional quotes (``…''). A `"` running into a word
-    opens; any other `"` closes. (Apostrophes are left as-is — `'` already renders correctly.)"""
-    text = re.sub(r'"(?=[^\s])', "``", text)
+    r"""Straight ASCII double quotes -> LaTeX directional quotes (``…''). A `"` is *opening* when it
+    starts the string or follows whitespace or an opening bracket, and *closing* otherwise. Deciding
+    by the preceding char (not the following one) is what keeps a closing quote before punctuation —
+    `bat?";` — from being mis-opened into `` ?` ``, which TeX would ligature into `¿`. (Apostrophes
+    are left as-is; `'` already renders correctly.)"""
+    text = re.sub(r'(^|[\s([{])"', r"\1``", text)
     return text.replace('"', "''")
 
 
