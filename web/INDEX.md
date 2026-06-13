@@ -1106,6 +1106,7 @@
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
   - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
+  - [concept-rendering-test](test/rendering-test.md) --uses_concept-->
   - [position-cosmopsychism](positions/cosmopsychism.md) --uses_concept-->
   - [position-dual-aspect-monism](positions/dual-aspect-monism.md) --uses_concept-->
   - [position-dualism](positions/dualism.md) --uses_concept-->
@@ -1233,6 +1234,9 @@
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
+
+## [concept-rendering-test](test/rendering-test.md)
+- type: concept | author: mishka | status: asserted
 
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted

@@ -28,6 +28,8 @@ def build_parser() -> argparse.ArgumentParser:
     fmt = ap.add_argument_group("formatting")
     fmt.add_argument("--sort", choices=["title", "type", "id"], default="title")
     fmt.add_argument("--columns", type=int, choices=[1, 2], default=2)
+    fmt.add_argument("--font", choices=["default", "bookman", "palatino", "times", "charter"],
+                     default="default", help="text font preset (default = Latin Modern)")
     fmt.add_argument("--title", default=BookOptions.title)
     fmt.add_argument("--subtitle", default=BookOptions.subtitle)
     fmt.add_argument("--running-head", help="short title for the page header (defaults to --title)")
@@ -49,7 +51,8 @@ def build_parser() -> argparse.ArgumentParser:
 def _options(args: argparse.Namespace) -> BookOptions:
     return BookOptions(
         title=args.title, subtitle=args.subtitle, running_head=args.running_head,
-        columns=args.columns, sort=args.sort, attribution=not args.no_attribution,
+        columns=args.columns, sort=args.sort, font=args.font,
+        attribution=not args.no_attribution,
         twoside=args.twoside, paper=args.paper, margin=args.margin)
 
 

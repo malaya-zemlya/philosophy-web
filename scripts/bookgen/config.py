@@ -26,6 +26,7 @@ class BookOptions:
     running_head: Optional[str] = None    # falls back to title
     columns: int = 2                       # 1 or 2
     sort: str = "title"                    # title | type | id
+    font: str = "default"                  # text font preset: default | bookman | palatino | times | charter
     attribution: bool = True               # show the "after <Author>" etiquette line
     twoside: bool = False
     paper: str = "a4paper"

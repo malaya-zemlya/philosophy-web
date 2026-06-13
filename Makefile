@@ -14,6 +14,8 @@ PREVIEW := build/preview
 # Overridable on the command line, e.g. `make book STYLE=any`, `make preview FROM=3 TO=4`.
 STYLE ?= encyclopedia
 # which entries `make book` includes: encyclopedia | legacy | any
+FONT ?= default
+# text font for `make book` / `make entry`: default | bookman | palatino | times | charter
 DPI ?= 130
 # resolution for `make preview` / `make entry` PNG renders
 FROM ?= 1
@@ -38,11 +40,11 @@ lint:  ## integrity check + render [[id]] links + regenerate web/INDEX.md
 lint-check:  ## report pending lint changes without writing (CI / pre-commit dry run)
 	$(PY) scripts/lint.py --check
 
-book: lint  ## build the encyclopedia -> book/encyclopedia.{tex,pdf}  (STYLE=encyclopedia|legacy|any)
-	$(PY) scripts/book.py --style $(STYLE)
+book: lint  ## build the encyclopedia -> book/encyclopedia.{tex,pdf}  (STYLE=…, FONT=…)
+	$(PY) scripts/book.py --style $(STYLE) --font $(FONT)
 
-book-all: lint  ## build the whole book including unconverted entries (STYLE=any)
-	$(PY) scripts/book.py --style any
+book-all: lint  ## build the whole book including unconverted entries (STYLE=any, FONT=…)
+	$(PY) scripts/book.py --style any --font $(FONT)
 
 graph:  ## regenerate the Graphviz view -> graph/web.{dot,svg}  (needs the `dot` binary)
 	$(PY) scripts/graph.py
@@ -55,7 +57,7 @@ preview:  ## render PDF pages to PNGs in build/preview  (PDF=, FROM=, TO=, DPI=)
 
 entry: lint  ## typeset ONE node single-column and render it for eyeballing  (ID=<node-id-or-slug>)
 	@test -n "$(ID)" || { echo 'usage: make entry ID=<node-id-or-slug>'; exit 2; }
-	$(PY) scripts/book.py "$(ID)" --columns 1 --output book/_entry.tex
+	$(PY) scripts/book.py "$(ID)" --columns 1 --font $(FONT) --output book/_entry.tex
 	@mkdir -p $(PREVIEW)
 	$(GS) -dNOPAUSE -dBATCH -sDEVICE=png16m -r$(DPI) -sOutputFile=$(PREVIEW)/entry-%03d.png book/_entry.pdf
 	@echo "wrote $(PREVIEW)/entry-*.png"

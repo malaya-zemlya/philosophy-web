@@ -71,9 +71,11 @@ def sort_key(node: Node, nid: str, sort: str) -> Tuple:
 
 
 def _preamble_subst(opts: BookOptions, count: int, date: str) -> Dict[str, str]:
+    font_pdftex, font_unicode = templates.FONTS.get(opts.font, templates.FONTS["default"])
     return {
         "<<SIDES>>": "twoside" if opts.twoside else "oneside",
         "<<PAPER>>": opts.paper, "<<MARGIN>>": opts.margin,
+        "<<FONT_PDFTEX>>": font_pdftex, "<<FONT_UNICODE>>": font_unicode,
         "<<UNICODE>>": unicode_declarations(),
         "<<COLSEPRULE>>": "0.4pt" if opts.columns == 2 else "0pt",
         "<<TITLE>>": latex_escape(opts.title),
