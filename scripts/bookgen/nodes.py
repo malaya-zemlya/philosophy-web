@@ -25,6 +25,7 @@ class Node:
     status: str
     body: str
     path: str   # absolute path to the .md file
+    style: Optional[str] = None   # conversion tag: "encyclopedia" | "legacy" | None (untagged)
 
     @property
     def relpath(self) -> str:
@@ -57,7 +58,7 @@ def load_nodes() -> Dict[str, Node]:
                 id=nid, type=fm.get("type", "node"),
                 title=str(fm.get("title", weblinks.slug_of(nid))),
                 author=fm.get("author"), status=fm.get("status", "asserted"),
-                body=body.strip("\n"), path=path)
+                body=body.strip("\n"), path=path, style=fm.get("style"))
     return nodes
 
 
@@ -88,10 +89,12 @@ def resolve_token(tok: str, nodes: Dict[str, Node], by_path, by_slug) -> Optiona
 
 def select_ids(nodes: Dict[str, Node], *, tokens: Iterable[str] = (),
                types: Iterable[str] = (), include_all: bool = False,
-               limit: Optional[int] = None) -> List[str]:
+               style: str = "any", limit: Optional[int] = None) -> List[str]:
     """Resolve explicit tokens and/or type filters into an ordered, de-duplicated id list.
 
-    With neither tokens nor types, defaults to all CONTENT_TYPES (as does include_all)."""
+    With neither tokens nor types, defaults to all CONTENT_TYPES (as does include_all). `style`
+    ("encyclopedia" | "legacy" | "any") filters the bulk type/all selection by each node's `style:`
+    tag; it never drops an explicitly-named token, so naming a node always includes it."""
     by_path, by_slug = _slug_index(nodes)
     tokens = list(tokens)
     types = list(types)
@@ -115,7 +118,8 @@ def select_ids(nodes: Dict[str, Node], *, tokens: Iterable[str] = (),
     if types:
         wanted = set(types)
         for nid in sorted(nodes):
-            if nodes[nid].type in wanted:
+            n = nodes[nid]
+            if n.type in wanted and (style == "any" or n.style == style):
                 add(nid)
 
     return chosen[:limit] if limit else chosen

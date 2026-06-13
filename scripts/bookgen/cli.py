@@ -20,6 +20,9 @@ def build_parser() -> argparse.ArgumentParser:
     sel.add_argument("--type", help="include every node of these comma-separated types")
     sel.add_argument("--all", action="store_true",
                      help="all content nodes (concept, claim, argument, question, position)")
+    sel.add_argument("--style", choices=["encyclopedia", "legacy", "any"], default="any",
+                     help="filter the bulk (type/--all) selection by each node's style: tag "
+                          "(default any); explicitly named ids are always kept")
     sel.add_argument("--limit", type=int, help="cap the number of entries (quick test builds)")
 
     fmt = ap.add_argument_group("formatting")
@@ -68,15 +71,17 @@ def main(argv: Optional[List[str]] = None) -> None:
         sys.exit("no nodes found under web/")
     types = [t.strip() for t in args.type.split(",")] if args.type else []
     ids = select_ids(nodes, tokens=_tokens(args), types=types,
-                     include_all=args.all, limit=args.limit)
+                     include_all=args.all, style=args.style, limit=args.limit)
     if not ids:
-        sys.exit("selection is empty — nothing to typeset")
+        hint = f" (style={args.style} matched nothing)" if args.style != "any" else ""
+        sys.exit("selection is empty — nothing to typeset" + hint)
 
     doc = build_document(ids, nodes, _options(args))
     tex_path = args.output if os.path.isabs(args.output) else os.path.join(ROOT, args.output)
     os.makedirs(os.path.dirname(tex_path), exist_ok=True)
     open(tex_path, "w", encoding="utf-8").write(doc)
-    print(f"entries: {len(ids)}   wrote {os.path.relpath(tex_path, ROOT)}")
+    filt = f" (style={args.style})" if args.style != "any" else ""
+    print(f"entries: {len(ids)}{filt}   wrote {os.path.relpath(tex_path, ROOT)}")
 
     if args.no_pdf:
         return

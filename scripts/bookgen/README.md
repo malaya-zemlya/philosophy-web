@@ -6,11 +6,18 @@ Run it through the launcher `scripts/book.py` or as `python -m bookgen`.
 
 ```sh
 uv run --with pyyaml python scripts/book.py                 # all content nodes -> book/encyclopedia.{tex,pdf}
+uv run --with pyyaml python scripts/book.py --style encyclopedia  # only finished (tagged) entries
 uv run --with pyyaml python scripts/book.py --type concept  # only the concept entries
 uv run --with pyyaml python scripts/book.py concept-chinese-room claim-substrate-independence
 uv run --with pyyaml python scripts/book.py --columns 1 --no-pdf   # single column, .tex only
 uv run --with pyyaml python scripts/book.py --help          # every option
 ```
+
+`--style encyclopedia|legacy|any` (default `any`) filters the bulk type/`--all` selection by each
+node's `style:` conversion tag — the marker recording whether a body has been brought up to the
+encyclopedia standard (`schemas/_style.md`). It never drops an explicitly-named id, so naming a
+node always includes it. The `/build-encyclopedia` command defaults this to `encyclopedia`, so the
+published book carries only finished entries.
 
 ## What it produces
 
