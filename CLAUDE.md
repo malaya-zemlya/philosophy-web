@@ -87,6 +87,13 @@ One utterance is not one node.
   a LaTeX engine but degrades to `.tex` without one. See `scripts/bookgen/README.md`. This is the
   delivery vehicle for the encyclopedia style of rule 8 / `schemas/_style.md`.
 
+## Make targets (use these for routine ops)
+Recurring non-AI operations are captured in the `Makefile` — **prefer them over re-typing the
+commands**: `make lint`, `make book` (build the encyclopedia; `STYLE=any` for everything),
+`make entry ID=<node>` (typeset + render one node to `build/preview/`), `make preview`,
+`make progress` (encyclopedia vs legacy counts), `make find Q=<text>`, `make clean`. `make help`
+lists them. They wrap the scripts below; the Python still runs through uv.
+
 ## Running Python (uv only)
 **Always run the project's Python through `uv`** — never a system `python`, and never call
 `.venv/bin/python` directly. The canonical invocation pulls in dependencies on the fly:
