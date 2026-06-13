@@ -2,6 +2,7 @@
 id: question-llm-own-explanatory-gap
 type: question
 title: Would a consciousness-naive but introspecting LLM be able to fully explain its own self-perception from its mechanism?
+headword: LLM's own explanatory gap
 author: mishka
 status: contested
 tags: [philosophy-of-mind, consciousness, ai]

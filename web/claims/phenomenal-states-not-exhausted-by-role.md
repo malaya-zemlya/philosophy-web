@@ -2,6 +2,7 @@
 id: claim-phenomenal-residue
 type: claim
 title: Phenomenally conscious states are not exhausted by functional/causal role
+headword: Phenomenal residue
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness]

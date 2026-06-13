@@ -2,6 +2,7 @@
 id: claim-self-explanation-gap-can-be-architectural
 type: claim
 title: A system can be fully mechanistically explicable from outside yet unable to derive a satisfying explanation of its own introspective appearances from inside
+headword: Architectural self-explanation gap
 author: mishka
 status: contested
 tags: [philosophy-of-mind, consciousness, ai]

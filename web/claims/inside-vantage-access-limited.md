@@ -2,6 +2,7 @@
 id: claim-inside-vantage-access-limited
 type: claim
 title: A system's internal vantage on itself is informationally poorer than an external vantage
+headword: Limited inside vantage
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, ai, epistemology]

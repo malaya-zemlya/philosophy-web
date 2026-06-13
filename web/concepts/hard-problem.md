@@ -2,6 +2,7 @@
 id: concept-hard-problem
 type: concept
 title: The hard problem of consciousness
+headword: Hard problem
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness]

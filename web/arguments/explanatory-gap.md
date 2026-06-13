@@ -2,6 +2,7 @@
 id: argument-explanatory-gap
 type: argument
 title: The explanatory gap is evidence against uniform substrate-independence
+headword: Explanatory-gap argument
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, bayesian]

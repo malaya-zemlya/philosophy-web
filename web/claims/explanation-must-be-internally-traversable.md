@@ -2,6 +2,7 @@
 id: claim-explanation-must-be-internally-traversable
 type: claim
 title: An explanation is intuitively satisfying for a system only if it is traversable by that system's own cognitive operations
+headword: Internally traversable explanation
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, epistemology, ai]

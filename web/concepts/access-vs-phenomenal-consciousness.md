@@ -2,9 +2,11 @@
 id: concept-access-vs-phenomenal-consciousness
 type: concept
 title: Access consciousness vs. phenomenal consciousness
+headword: Access/phenomenal distinction
 author: block
 status: asserted
 tags: [philosophy-of-mind, consciousness]
+uses_concept: [concept-access-consciousness, concept-phenomenal-consciousness]
 style: encyclopedia
 created: 2026-06-05
 ---
@@ -19,7 +21,8 @@ state's content; the second, of how the state *feels* from the inside.
 
 ### The two senses
 
-*Access consciousness* (A-consciousness) is a functional, information-availability notion: a
+[Access consciousness](access-consciousness.md) (*A-consciousness*) is a functional,
+information-availability notion: a
 content is A-conscious to the degree that it is *poised* to be drawn on by the systems that
 reason, decide, and speak. Whether a state qualifies is settled entirely by the role its content
 plays in the cognitive economy — what downstream processes can reach and use it — and by nothing
@@ -66,6 +69,8 @@ seeing a system talk about its own insides and concluding it must therefore *fee
 
 ### See also
 
+- [access-consciousness](access-consciousness.md) — the functional half of the distinction, treated on its own.
+- [phenomenal-consciousness](phenomenal-consciousness.md) — the felt half of the distinction, treated on its own.
 - [hard-problem](hard-problem.md) — the felt, phenomenal side is exactly what this problem is about;
   access is precisely what it is *not*.
 - [llm-functional-introspection](../claims/llm-functional-introspection.md) — a candidate case of access-style self-report in
