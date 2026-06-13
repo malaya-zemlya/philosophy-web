@@ -6,6 +6,7 @@ author: mishka
 status: asserted
 tags: [philosophy-of-mind, modality, metaphysics, computability]
 uses_concept: [concept-halting-oracle]
+style: legacy
 created: 2026-06-08
 ---
 

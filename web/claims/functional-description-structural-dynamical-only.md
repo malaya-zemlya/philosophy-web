@@ -6,6 +6,7 @@ author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 uses_concept: [concept-functionalism]
+style: legacy
 created: 2026-06-05
 ---
 

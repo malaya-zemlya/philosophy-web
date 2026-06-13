@@ -8,6 +8,7 @@ tags: [metaethics, ai-rights, epistemology]
 premise: [claim-privileged-first-person-access, claim-acquaintance-necessary-for-moral-status-warrant, claim-no-acquaintance-with-machine]
 concludes: claim-access-grounds-moral-status-asymmetry
 uses_concept: [concept-first-person-access]
+style: legacy
 created: 2026-06-04
 ---
 

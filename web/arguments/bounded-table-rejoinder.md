@@ -10,6 +10,7 @@ attacks: [claim-lookup-table-combinatorially-inadequate, argument-lookup-table-c
 responds_to: [argument-lookup-table-combinatorial-impossibility]
 supports: [claim-lookup-table-possible]
 uses_concept: [concept-lookup-table-mind]
+style: legacy
 created: 2026-06-04
 ---
 

@@ -8,6 +8,7 @@ tags: [metaphysics, modality, consciousness]
 premise: [claim-some-necessities-knowable-only-a-posteriori]
 attacks: [claim-conceivability-entails-possibility]
 uses_concept: [concept-philosophical-zombie, concept-materialism-types]
+style: legacy
 created: 2026-06-08
 ---
 

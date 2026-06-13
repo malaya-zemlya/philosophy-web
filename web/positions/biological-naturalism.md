@@ -9,6 +9,7 @@ commits_to: [claim-consciousness-is-biological-feature, claim-syntax-insufficien
 rejects: [claim-substrate-independence, claim-llm-has-mental-states]
 answers: [question-substrate-independence, question-llm-moral-status]
 uses_concept: [concept-chinese-room, concept-functionalism]
+style: legacy
 created: 2026-06-09
 ---
 

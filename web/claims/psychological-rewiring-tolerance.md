@@ -5,6 +5,7 @@ title: Altering a single psychological connection never changes who someone is
 author: parfit
 status: asserted
 tags: [personal-identity, sorites]
+style: legacy
 created: 2026-06-04
 ---
 

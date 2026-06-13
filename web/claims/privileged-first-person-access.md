@@ -6,6 +6,7 @@ author: mishka
 status: asserted
 tags: [philosophy-of-mind, epistemology]
 uses_concept: [concept-first-person-access]
+style: legacy
 created: 2026-06-04
 ---
 

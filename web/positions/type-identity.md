@@ -9,6 +9,7 @@ commits_to: [claim-mental-states-are-brain-state-types]
 rejects: [claim-substrate-independence, claim-conceivability-entails-possibility]
 answers: [question-substrate-independence, question-hard-problem]
 uses_concept: [concept-materialism-types, concept-functionalism]
+style: legacy
 created: 2026-06-09
 ---
 

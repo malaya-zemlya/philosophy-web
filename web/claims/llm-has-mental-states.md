@@ -8,6 +8,7 @@ tags: [ai-rights, philosophy-of-mind]
 uses_concept: [concept-functionalism]
 presupposes: [claim-substrate-independence]
 answers: [question-llm-moral-status]
+style: legacy
 created: 2026-06-02
 ---
 

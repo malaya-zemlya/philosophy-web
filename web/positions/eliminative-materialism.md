@@ -9,6 +9,7 @@ commits_to: [claim-folk-psychology-is-false-theory]
 rejects: [claim-phenomenal-residue, claim-zombie-conceivable]
 answers: [question-hard-problem]
 uses_concept: [concept-materialism-types]
+style: legacy
 created: 2026-06-09
 ---
 

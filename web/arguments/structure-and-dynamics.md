@@ -9,6 +9,7 @@ premise: [claim-functional-description-structural-dynamical-only, claim-consciou
 attacks: [claim-substrate-independence]
 supports: [claim-phenomenal-residue, argument-decomposition-indeterminacy]
 uses_concept: [concept-functionalism]
+style: legacy
 created: 2026-06-05
 ---
 

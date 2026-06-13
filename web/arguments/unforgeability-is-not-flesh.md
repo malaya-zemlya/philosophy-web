@@ -9,6 +9,7 @@ premise: [claim-biology-currently-unforgeable]
 concludes: claim-prudence-tracks-unforgeability-not-flesh
 attacks: [claim-prudence-favors-flesh-criterion]
 uses_concept: [concept-criterion-gaming]
+style: legacy
 created: 2026-06-07
 ---
 

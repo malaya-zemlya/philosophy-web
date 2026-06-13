@@ -10,6 +10,7 @@ attacks: [argument-causal-structure-supplies-invariant, claim-causal-structure-f
 responds_to: [argument-causal-structure-supplies-invariant]
 supports: [claim-functionalism-owes-decomposition-invariant]
 uses_concept: [concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-05
 ---
 

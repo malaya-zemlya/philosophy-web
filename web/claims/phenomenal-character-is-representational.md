@@ -6,6 +6,7 @@ author: tye
 status: asserted
 tags: [philosophy-of-mind, consciousness]
 uses_concept: [concept-materialism-types, concept-order-of-representation]
+style: legacy
 created: 2026-06-09
 ---
 

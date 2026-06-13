@@ -9,6 +9,7 @@ concludes: claim-mary-learns-nothing-new
 attacks: [claim-mary-learns-on-release]
 responds_to: [argument-knowledge-argument]
 uses_concept: [concept-knowledge-argument]
+style: legacy
 created: 2026-06-10
 ---
 

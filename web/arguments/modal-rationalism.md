@@ -9,6 +9,7 @@ premise: [claim-aposteriori-necessities-are-misdescribed-possibilities]
 concludes: claim-conceivability-entails-possibility
 responds_to: [argument-conceivability-not-guide-to-possibility]
 uses_concept: [concept-philosophical-zombie, concept-materialism-types]
+style: legacy
 created: 2026-06-08
 ---
 

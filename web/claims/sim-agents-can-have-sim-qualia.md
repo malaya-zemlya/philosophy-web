@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, simulation]
 uses_concept: [concept-virtual-realism]
 presupposes: [claim-substrate-independence]
+style: legacy
 created: 2026-06-10
 ---
 

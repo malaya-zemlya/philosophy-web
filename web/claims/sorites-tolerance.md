@@ -5,6 +5,7 @@ title: Removing a single grain from a heap always leaves a heap
 author: eubulides
 status: asserted
 tags: [vagueness, sorites]
+style: legacy
 created: 2026-06-04
 ---
 

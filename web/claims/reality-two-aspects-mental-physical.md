@@ -5,6 +5,7 @@ title: Reality has two irreducible aspects, the mental as well as the physical
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
+style: legacy
 created: 2026-06-09
 ---
 

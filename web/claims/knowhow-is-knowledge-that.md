@@ -5,6 +5,7 @@ title: Knowing how to do something is a species of propositional knowledge
 author: stanley
 status: asserted
 tags: [epistemology, know-how]
+style: legacy
 created: 2026-06-10
 ---
 

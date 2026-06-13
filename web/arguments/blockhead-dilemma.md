@@ -9,6 +9,7 @@ premise: [claim-lookup-table-physically-unrealisable, claim-imaginary-blockhead-
 attacks: [argument-lookup-table-objection, claim-lookup-table-lacks-mind]
 responds_to: [argument-lookup-table-objection]
 uses_concept: [concept-lookup-table-mind]
+style: legacy
 created: 2026-06-04
 ---
 

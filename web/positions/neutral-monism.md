@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness, metaphysics]
 commits_to: [claim-reality-fundamental-stuff-neutral]
 answers: [question-hard-problem]
 uses_concept: [concept-hard-problem]
+style: legacy
 created: 2026-06-09
 ---
 

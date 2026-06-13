@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]
 uses_concept: [concept-knowledge-argument]
 answers: [question-what-does-mary-learn]
+style: legacy
 created: 2026-06-10
 ---
 

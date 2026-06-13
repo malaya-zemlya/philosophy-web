@@ -6,6 +6,7 @@ author: huxley
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 uses_concept: [concept-materialism-types]
+style: legacy
 created: 2026-06-09
 ---
 

@@ -7,6 +7,7 @@ status: contested
 tags: [metaethics, ai-rights, philosophy-of-mind]
 uses_concept: [concept-first-person-access]
 answers: [question-llm-moral-status]
+style: legacy
 created: 2026-06-04
 ---
 

@@ -9,6 +9,7 @@ premise: [claim-rights-criterion-will-be-gamed, claim-forgeable-sign-unfit-as-cr
 concludes: claim-prudence-favors-flesh-criterion
 attacks: [argument-behavioral-parity]
 uses_concept: [concept-criterion-gaming]
+style: legacy
 created: 2026-06-04
 ---
 

@@ -6,6 +6,7 @@ author: baars
 status: asserted
 tags: [philosophy-of-mind, consciousness, cognitive-science]
 uses_concept: [concept-access-vs-phenomenal-consciousness]
+style: legacy
 created: 2026-06-09
 ---
 

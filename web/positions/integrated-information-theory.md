@@ -9,6 +9,7 @@ commits_to: [claim-consciousness-is-integrated-information]
 rejects: [claim-substrate-independence]
 answers: [question-substrate-independence, question-hard-problem]
 uses_concept: [concept-hard-problem]
+style: legacy
 created: 2026-06-09
 ---
 

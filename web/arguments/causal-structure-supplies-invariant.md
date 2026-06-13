@@ -10,6 +10,7 @@ concludes: claim-causal-structure-fixes-decomposition
 attacks: [argument-decomposition-indeterminacy, claim-functional-decomposition-relative]
 supports: [claim-role-grain-is-organisational]
 uses_concept: [concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-05
 ---
 

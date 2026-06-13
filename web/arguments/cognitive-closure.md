@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness, epistemology]
 premise: [claim-consciousness-has-natural-explanation, claim-cognitive-closure-exists]
 concludes: claim-humans-closed-to-psychophysical-link
 uses_concept: [concept-hard-problem]
+style: legacy
 created: 2026-06-05
 ---
 

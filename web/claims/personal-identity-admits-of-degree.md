@@ -5,6 +5,7 @@ title: Personal identity is not all-or-nothing but admits of degree
 author: parfit
 status: asserted
 tags: [personal-identity]
+style: legacy
 created: 2026-06-04
 ---
 

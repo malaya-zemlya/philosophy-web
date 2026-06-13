@@ -9,6 +9,7 @@ pattern: analogy
 premise: [claim-inside-vantage-access-limited, claim-explanation-must-be-internally-traversable]
 concludes: claim-self-explanation-gap-can-be-architectural
 uses_concept: [concept-introspective-gap-varieties, concept-access-vs-phenomenal-consciousness, concept-hard-problem]
+style: legacy
 created: 2026-06-05
 ---
 

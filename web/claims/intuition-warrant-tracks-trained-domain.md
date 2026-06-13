@@ -5,6 +5,7 @@ title: An intuition's evidential weight tracks the case's resemblance to the exe
 author: generic
 status: asserted
 tags: [methodology, epistemology, thought-experiments]
+style: legacy
 created: 2026-06-04
 ---
 

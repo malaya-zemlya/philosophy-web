@@ -5,6 +5,7 @@ title: The universe as a whole is the one fundamental conscious subject
 author: goff
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
+style: legacy
 created: 2026-06-09
 ---
 

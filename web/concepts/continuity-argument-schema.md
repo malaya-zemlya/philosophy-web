@@ -7,6 +7,7 @@ status: asserted
 tags: [method, vagueness, sorites, personal-identity, philosophy-of-mind]
 uses_concept: []
 presupposes: []
+style: legacy
 created: 2026-06-04
 ---
 

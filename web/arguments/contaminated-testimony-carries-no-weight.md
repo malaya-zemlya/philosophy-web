@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, ai, evidence]
 attacks: [argument-ai-hard-problem-from-self-model-architecture]
 uses_concept: [concept-introspective-gap-varieties]
+style: legacy
 created: 2026-06-09
 ---
 

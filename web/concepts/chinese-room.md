@@ -6,6 +6,7 @@ author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, functionalism, thought-experiment]
 uses_concept: [concept-functionalism]
+style: encyclopedia
 created: 2026-06-08
 ---
 

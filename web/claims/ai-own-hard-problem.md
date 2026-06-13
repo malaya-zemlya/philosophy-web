@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, ai]
 uses_concept: [concept-hard-problem, concept-introspective-gap-varieties, concept-access-vs-phenomenal-consciousness]
 answers: [question-llm-own-explanatory-gap]
+style: legacy
 created: 2026-06-09
 ---
 

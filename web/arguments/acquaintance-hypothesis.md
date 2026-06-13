@@ -9,6 +9,7 @@ concludes: claim-mary-gains-acquaintance
 attacks: [argument-knowledge-argument]
 responds_to: [argument-knowledge-argument]
 uses_concept: [concept-knowledge-argument]
+style: legacy
 created: 2026-06-10
 ---
 

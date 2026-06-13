@@ -6,6 +6,7 @@ author: mishka
 status: contested
 tags: [metaethics, epistemology, ai-rights]
 uses_concept: [concept-first-person-access]
+style: legacy
 created: 2026-06-04
 ---
 

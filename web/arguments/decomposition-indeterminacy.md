@@ -10,6 +10,7 @@ concludes: claim-functionalism-owes-decomposition-invariant
 attacks: [claim-substrate-independence]
 supports: [claim-phenomenal-residue]
 uses_concept: [concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-05
 ---
 

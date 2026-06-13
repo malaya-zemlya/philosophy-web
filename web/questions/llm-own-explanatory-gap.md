@@ -6,6 +6,7 @@ author: mishka
 status: contested
 tags: [philosophy-of-mind, consciousness, ai]
 uses_concept: [concept-introspective-gap-varieties, concept-hard-problem]
+style: legacy
 created: 2026-06-05
 ---
 

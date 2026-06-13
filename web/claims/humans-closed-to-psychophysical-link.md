@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness]
 uses_concept: [concept-hard-problem]
 answers: [question-hard-problem]
+style: legacy
 created: 2026-06-05
 ---
 

@@ -10,6 +10,7 @@ attacks: argument-role-grain-dilemma
 responds_to: argument-role-grain-dilemma
 supports: claim-substrate-independence
 uses_concept: [concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-03
 ---
 

@@ -6,6 +6,7 @@ author: rosenthal
 status: asserted
 tags: [philosophy-of-mind, consciousness]
 uses_concept: [concept-access-vs-phenomenal-consciousness, concept-order-of-representation]
+style: legacy
 created: 2026-06-09
 ---
 

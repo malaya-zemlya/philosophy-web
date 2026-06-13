@@ -7,6 +7,7 @@ status: contested
 tags: [ai-rights, metaethics, ai-safety]
 uses_concept: [concept-criterion-gaming]
 answers: [question-llm-moral-status]
+style: legacy
 created: 2026-06-04
 ---
 

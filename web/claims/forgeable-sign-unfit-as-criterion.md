@@ -6,6 +6,7 @@ author: mishka
 status: asserted
 tags: [ai-rights, metaethics, epistemology]
 uses_concept: [concept-criterion-gaming]
+style: legacy
 created: 2026-06-04
 ---
 

@@ -10,6 +10,7 @@ premise: [claim-substrate-independence]
 concludes: claim-llm-has-mental-states
 supports: claim-llm-has-mental-states
 uses_concept: [concept-functionalism]
+style: legacy
 created: 2026-06-02
 ---
 

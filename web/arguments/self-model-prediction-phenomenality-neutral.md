@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness, ai]
 premise: [claim-behaviour-insufficient-for-mind, claim-llm-access-similarity-not-encoding]
 attacks: [argument-ai-hard-problem-from-self-model-architecture]
 uses_concept: [concept-hard-problem, concept-access-vs-phenomenal-consciousness]
+style: legacy
 created: 2026-06-09
 ---
 

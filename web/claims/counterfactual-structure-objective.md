@@ -5,6 +5,7 @@ title: Counterfactual-causal dependencies are objective, not observer-relative
 author: generic
 status: asserted
 tags: [philosophy-of-mind, computation, causation]
+style: legacy
 created: 2026-06-05
 ---
 

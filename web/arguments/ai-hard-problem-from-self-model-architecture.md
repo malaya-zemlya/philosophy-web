@@ -9,6 +9,7 @@ pattern: cause-to-effect
 premise: [claim-complete-self-representation-impossible, claim-llm-access-similarity-not-encoding, claim-llm-functional-introspection]
 concludes: claim-ai-own-hard-problem
 uses_concept: [concept-hard-problem, concept-introspective-gap-varieties, concept-access-vs-phenomenal-consciousness, concept-order-of-representation]
+style: legacy
 created: 2026-06-09
 ---
 

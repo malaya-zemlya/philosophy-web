@@ -6,6 +6,7 @@ author: mishka
 status: asserted
 tags: [philosophy-of-mind, ai, interpretability]
 uses_concept: [concept-introspective-gap-varieties, concept-first-person-access]
+style: legacy
 created: 2026-06-09
 ---
 

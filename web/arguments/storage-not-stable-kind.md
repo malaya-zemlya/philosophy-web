@@ -10,6 +10,7 @@ concludes: claim-realisable-behaviour-matcher-is-organised
 attacks: [claim-lookup-table-possible, argument-lookup-table-objection]
 responds_to: [argument-bounded-table-rejoinder]
 uses_concept: [concept-lookup-table-mind, concept-grain]
+style: legacy
 created: 2026-06-04
 ---
 

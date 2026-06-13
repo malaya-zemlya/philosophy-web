@@ -6,6 +6,7 @@ author: turing
 status: asserted
 tags: [computability, logic]
 uses_concept: [concept-halting-oracle]
+style: legacy
 created: 2026-06-08
 ---
 

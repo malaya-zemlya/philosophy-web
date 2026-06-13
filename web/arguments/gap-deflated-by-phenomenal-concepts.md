@@ -10,6 +10,7 @@ responds_to: argument-explanatory-gap
 supports: claim-substrate-independence
 uses_concept: [concept-functionalism, concept-continuity-argument-schema]
 presupposes: [concept-functionalism]
+style: legacy
 created: 2026-06-03
 ---
 

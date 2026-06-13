@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness]
 commits_to: [claim-phenomenal-character-is-representational]
 answers: [question-hard-problem]
 uses_concept: [concept-materialism-types, concept-order-of-representation]
+style: legacy
 created: 2026-06-09
 ---
 

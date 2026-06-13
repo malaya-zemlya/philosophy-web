@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness]
 premise: [claim-closing-access-gap-leaves-phenomenal-open]
 attacks: [claim-self-explanation-gap-can-be-architectural]
 uses_concept: [concept-access-vs-phenomenal-consciousness, concept-hard-problem, concept-introspective-gap-varieties]
+style: legacy
 created: 2026-06-05
 ---
 

@@ -10,6 +10,7 @@ concludes: claim-complete-self-representation-impossible
 supports: [claim-inside-vantage-access-limited, claim-self-explanation-gap-can-be-architectural]
 attacks: [claim-full-self-access-achievable]
 uses_concept: [concept-introspective-gap-varieties, concept-access-vs-phenomenal-consciousness]
+style: legacy
 created: 2026-06-05
 ---
 

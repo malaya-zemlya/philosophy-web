@@ -6,6 +6,7 @@ author: penrose
 status: asserted
 tags: [philosophy-of-mind, consciousness, computation, physics]
 uses_concept: [concept-hard-problem]
+style: legacy
 created: 2026-06-07
 ---
 

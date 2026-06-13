@@ -9,6 +9,7 @@ premise: [claim-intuition-warrant-tracks-trained-domain, claim-lookup-table-phys
 concludes: claim-blockhead-deflation-targeted-not-global
 supports: [argument-blockhead-dilemma]
 uses_concept: [concept-lookup-table-mind, concept-grain]
+style: legacy
 created: 2026-06-04
 ---
 

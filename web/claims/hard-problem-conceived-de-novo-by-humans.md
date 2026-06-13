@@ -6,6 +6,7 @@ author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology, ai]
 uses_concept: [concept-hard-problem, concept-introspective-gap-varieties]
+style: legacy
 created: 2026-06-10
 ---
 

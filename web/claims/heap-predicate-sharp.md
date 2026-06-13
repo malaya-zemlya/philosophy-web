@@ -5,6 +5,7 @@ title: There is a precise grain-count at which a heap becomes a non-heap
 author: generic
 status: asserted
 tags: [vagueness, sorites]
+style: legacy
 created: 2026-06-04
 ---
 

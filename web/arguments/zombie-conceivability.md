@@ -11,6 +11,7 @@ concludes: claim-consciousness-fundamental-nonphysical
 supports: [claim-phenomenal-residue]
 attacks: [claim-substrate-independence]
 uses_concept: [concept-philosophical-zombie, concept-hard-problem, concept-functionalism, concept-materialism-types]
+style: legacy
 created: 2026-06-08
 ---
 

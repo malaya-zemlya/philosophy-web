@@ -5,6 +5,7 @@ title: Are mental states substrate-independent?
 author: mishka
 status: contested
 tags: [philosophy-of-mind, ai-rights]
+style: legacy
 created: 2026-06-03
 uses_concept: [concept-functionalism, concept-grain]
 ---

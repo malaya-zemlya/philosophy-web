@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness, metaphysics]
 commits_to: [claim-mental-states-causally-inert, claim-phenomenal-residue]
 answers: [question-hard-problem]
 uses_concept: [concept-materialism-types]
+style: legacy
 created: 2026-06-09
 ---
 

@@ -9,6 +9,7 @@ premise: [claim-psychological-rewiring-tolerance]
 concludes: claim-personal-identity-admits-of-degree
 uses_concept: [concept-continuity-argument-schema]
 presupposes: []
+style: legacy
 created: 2026-06-04
 ---
 

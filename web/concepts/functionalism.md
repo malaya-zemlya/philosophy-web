@@ -5,6 +5,7 @@ title: Functionalism (about mental states)
 author: generic
 status: asserted
 tags: [philosophy-of-mind]
+style: legacy
 created: 2026-06-02
 ---
 

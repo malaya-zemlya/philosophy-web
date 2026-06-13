@@ -6,6 +6,7 @@ author: generic
 status: asserted
 tags: [computability, physics, metaphysics]
 uses_concept: [concept-halting-oracle]
+style: legacy
 created: 2026-06-08
 ---
 

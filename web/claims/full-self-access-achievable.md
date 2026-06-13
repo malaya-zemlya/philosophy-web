@@ -5,6 +5,7 @@ title: A finite system can be given complete internal access to its own current 
 author: generic
 status: contested
 tags: [philosophy-of-mind, ai, epistemology]
+style: legacy
 created: 2026-06-05
 ---
 

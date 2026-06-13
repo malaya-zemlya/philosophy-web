@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, ai, methodology]
 uses_concept: [concept-hard-problem, concept-introspective-gap-varieties]
 presupposes: [claim-blind-spot-and-conscious-hard-problem-isomorphic]
+style: legacy
 created: 2026-06-10
 ---
 

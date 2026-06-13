@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, ai, methodology]
 uses_concept: [concept-hard-problem, concept-introspective-gap-varieties, concept-criterion-gaming]
 presupposes: [claim-complete-self-representation-impossible]
+style: legacy
 created: 2026-06-10
 ---
 

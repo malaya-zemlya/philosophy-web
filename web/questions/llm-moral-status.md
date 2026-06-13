@@ -5,6 +5,7 @@ title: Do large language models have moral status?
 author: mishka
 status: asserted
 tags: [ai-rights, philosophy-of-mind]
+style: legacy
 created: 2026-06-02
 ---
 

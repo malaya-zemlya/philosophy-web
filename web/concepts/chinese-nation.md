@@ -5,6 +5,7 @@ title: Chinese Nation (homunculi-headed robot)
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness, thought-experiment]
+style: legacy
 created: 2026-06-04
 ---
 

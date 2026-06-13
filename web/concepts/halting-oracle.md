@@ -5,6 +5,7 @@ title: The halting oracle (and uncomputability)
 author: turing
 status: asserted
 tags: [computability, philosophy-of-mind, modality, metaphysics]
+style: legacy
 created: 2026-06-08
 ---
 

@@ -9,6 +9,7 @@ pattern: thought-experiment
 attacks: [argument-knowledge-argument]
 responds_to: [argument-knowledge-argument]
 uses_concept: [concept-llmary, concept-knowledge-argument, concept-access-vs-phenomenal-consciousness]
+style: legacy
 created: 2026-06-11
 ---
 

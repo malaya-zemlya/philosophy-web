@@ -7,6 +7,7 @@ status: contested
 tags: [philosophy-of-mind, consciousness, ai]
 uses_concept: [concept-introspective-gap-varieties, concept-access-vs-phenomenal-consciousness, concept-hard-problem]
 answers: [question-hard-problem]
+style: legacy
 created: 2026-06-05
 ---
 

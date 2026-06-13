@@ -9,6 +9,7 @@ premise: [claim-sorites-tolerance]
 attacks: claim-heap-predicate-sharp
 uses_concept: [concept-continuity-argument-schema]
 presupposes: []
+style: legacy
 created: 2026-06-04
 ---
 

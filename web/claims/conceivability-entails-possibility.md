@@ -6,6 +6,7 @@ author: chalmers
 status: contested
 tags: [philosophy-of-mind, consciousness, metaphysics, modality]
 uses_concept: [concept-materialism-types]
+style: legacy
 created: 2026-06-08
 ---
 

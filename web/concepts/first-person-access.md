@@ -5,6 +5,7 @@ title: First-person access (privileged access)
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, epistemology, ai-rights]
+style: legacy
 created: 2026-06-04
 ---
 

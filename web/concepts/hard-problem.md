@@ -5,6 +5,7 @@ title: The hard problem of consciousness
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness]
+style: legacy
 created: 2026-06-05
 ---
 

@@ -5,6 +5,7 @@ title: Lookup-table mind ("Blockhead" / Aunt Bubbles machine)
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, ai-rights, thought-experiment]
+style: legacy
 created: 2026-06-04
 ---
 

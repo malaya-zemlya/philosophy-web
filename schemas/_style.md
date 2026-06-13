@@ -43,6 +43,26 @@ jargon-heavy it still gets that plain-language gloss, additive and never a subst
 readable main body. Section order at the end of an entry: main prose, then `### In plain
 terms` (optional), then `### See also` (optional) last.
 
+### Tracking conversion (`style:` frontmatter field)
+
+The web is being brought up to this standard incrementally, so every content node carries a
+`style:` field recording where it stands: `style: encyclopedia` once its body meets this standard,
+`style: legacy` while it still needs converting. The field is a temporary bookkeeping aid, not part
+of a node's meaning; it is the one frontmatter line `/encyclopedify` is allowed to change (it flips
+`legacy` → `encyclopedia` on a successful conversion). Progress at a glance:
+
+```sh
+grep -rl '^style: legacy' web/ | wc -l        # nodes still to convert
+```
+
+### Citing a node whose title reads awkwardly inline
+
+A cross-reference renders the target's **title**. When that title sits badly in a sentence — it
+begins with "The" (so `the [[concept-hard-problem]]` would read "the *The hard problem…*") or it is
+a full claim sentence — cite it with an alias, `[[id|short label]]`, and the prose reads naturally;
+the encyclopedia build and lint both honor the alias. In `### See also`, the plain `[[id]]` full
+title is usually what you want.
+
 ## Worked example
 
 A concept entry written to this standard (frontmatter per `schemas/concept.md`):

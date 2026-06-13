@@ -11,6 +11,7 @@ attacks: argument-gap-deflated-by-phenomenal-concepts
 responds_to: argument-gap-deflated-by-phenomenal-concepts
 uses_concept: [concept-functionalism, concept-continuity-argument-schema]
 presupposes: [claim-phenomenal-residue]
+style: legacy
 created: 2026-06-03
 ---
 

@@ -10,6 +10,7 @@ attacks: [argument-knowledge-argument]
 responds_to: [argument-knowledge-argument]
 uses_concept: [concept-knowledge-argument]
 presupposes: [claim-some-necessities-knowable-only-a-posteriori]
+style: legacy
 created: 2026-06-10
 ---
 

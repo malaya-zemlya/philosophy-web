@@ -5,6 +5,7 @@ title: For a concept positing differences unobservable in principle, the only av
 author: mishka
 status: asserted
 tags: [epistemology, methodology, philosophy-of-science, consciousness]
+style: legacy
 created: 2026-06-10
 ---
 

@@ -9,6 +9,7 @@ premise: [claim-knowhow-is-knowledge-that]
 attacks: [argument-ability-hypothesis]
 responds_to: [argument-ability-hypothesis]
 uses_concept: [concept-knowledge-argument]
+style: legacy
 created: 2026-06-10
 ---
 

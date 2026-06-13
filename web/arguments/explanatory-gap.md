@@ -9,6 +9,7 @@ premise: [claim-phenomenal-residue]
 concludes: claim-phenomenal-residue
 attacks: claim-substrate-independence
 uses_concept: [concept-functionalism]
+style: legacy
 created: 2026-06-03
 ---
 

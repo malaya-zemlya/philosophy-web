@@ -6,6 +6,7 @@ author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, ai-rights]
 uses_concept: [concept-lookup-table-mind, concept-grain]
+style: legacy
 created: 2026-06-04
 ---
 

@@ -5,6 +5,7 @@ title: Kripkean a-posteriori necessities are misdescribed genuine possibilities,
 author: chalmers
 status: asserted
 tags: [metaphysics, modality, consciousness]
+style: legacy
 created: 2026-06-08
 ---
 

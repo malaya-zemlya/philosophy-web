@@ -6,6 +6,7 @@ author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]
 uses_concept: [concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-03
 ---
 

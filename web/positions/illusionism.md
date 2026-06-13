@@ -9,6 +9,7 @@ commits_to: [claim-phenomenality-is-illusion]
 rejects: [claim-phenomenal-residue]
 answers: [question-hard-problem]
 uses_concept: [concept-hard-problem]
+style: legacy
 created: 2026-06-07
 ---
 

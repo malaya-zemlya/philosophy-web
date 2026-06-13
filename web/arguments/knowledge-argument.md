@@ -11,6 +11,7 @@ concludes: claim-some-truths-about-experience-not-physically-deducible
 supports: [claim-consciousness-fundamental-nonphysical, claim-phenomenal-residue]
 attacks: [claim-substrate-independence]
 uses_concept: [concept-knowledge-argument, concept-hard-problem]
+style: legacy
 created: 2026-06-08
 ---
 

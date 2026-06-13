@@ -5,6 +5,7 @@ title: Virtual realism (world-indexed properties of a simulation)
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, metaphysics, simulation, virtual-reality]
+style: legacy
 created: 2026-06-10
 ---
 

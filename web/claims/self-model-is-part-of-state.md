@@ -5,6 +5,7 @@ title: A finite system's self-representation is part of the very state it repres
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, ai, computation]
+style: legacy
 created: 2026-06-05
 ---
 

@@ -10,6 +10,7 @@ responds_to: [argument-knowledge-argument]
 premise: [claim-complete-self-representation-impossible]
 presupposes: [claim-self-model-is-part-of-state]
 uses_concept: [concept-knowledge-argument, concept-introspective-gap-varieties]
+style: legacy
 created: 2026-06-10
 ---
 

@@ -10,6 +10,7 @@ concludes: claim-phenomenal-concept-isolation-tradeoff
 attacks: argument-gap-deflated-by-phenomenal-concepts
 responds_to: argument-gap-deflated-by-phenomenal-concepts
 uses_concept: [concept-functionalism]
+style: legacy
 created: 2026-06-03
 ---
 

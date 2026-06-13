@@ -10,6 +10,7 @@ concludes: claim-organisational-grain-faces-own-grain-dilemma
 attacks: [argument-organisational-grain-dissolves-dilemma, claim-role-grain-is-organisational]
 responds_to: argument-organisational-grain-dissolves-dilemma
 uses_concept: [concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-03
 ---
 

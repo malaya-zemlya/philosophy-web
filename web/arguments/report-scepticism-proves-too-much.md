@@ -10,6 +10,7 @@ premise: [claim-complete-self-representation-impossible, claim-self-explanation-
 responds_to: [argument-self-model-prediction-phenomenality-neutral]
 attacks: [argument-self-model-prediction-phenomenality-neutral, argument-contaminated-testimony-carries-no-weight]
 uses_concept: [concept-hard-problem, concept-introspective-gap-varieties]
+style: legacy
 created: 2026-06-10
 ---
 

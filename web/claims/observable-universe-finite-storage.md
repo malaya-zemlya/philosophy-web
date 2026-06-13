@@ -5,6 +5,7 @@ title: The observable universe can store only a bounded, finite amount of inform
 author: generic
 status: asserted
 tags: [physics, computability]
+style: legacy
 created: 2026-06-04
 ---
 

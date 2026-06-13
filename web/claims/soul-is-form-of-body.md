@@ -5,6 +5,7 @@ title: The mind is the form of a living body
 author: aristotle
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
+style: legacy
 created: 2026-06-09
 ---
 

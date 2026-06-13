@@ -5,6 +5,7 @@ title: Some necessary truths can be known only a posteriori
 author: kripke
 status: asserted
 tags: [metaphysics, modality, epistemology]
+style: legacy
 created: 2026-06-08
 ---
 

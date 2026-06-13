@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, ai]
 uses_concept: [concept-hard-problem, concept-introspective-gap-varieties]
 presupposes: [claim-hard-problem-conceived-de-novo-by-humans]
+style: legacy
 created: 2026-06-10
 ---
 

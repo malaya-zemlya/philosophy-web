@@ -5,6 +5,7 @@ title: Reality's fundamental constituents are neither mental nor physical
 author: russell
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
+style: legacy
 created: 2026-06-09
 ---
 

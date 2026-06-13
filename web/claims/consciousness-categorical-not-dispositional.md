@@ -5,6 +5,7 @@ title: Phenomenal consciousness is categorical, not merely dispositional
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
+style: legacy
 created: 2026-06-05
 ---
 

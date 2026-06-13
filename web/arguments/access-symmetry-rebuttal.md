@@ -10,6 +10,7 @@ concludes: claim-access-grounds-no-asymmetry
 attacks: [argument-first-person-access, claim-access-grounds-moral-status-asymmetry, claim-acquaintance-necessary-for-moral-status-warrant]
 responds_to: [argument-first-person-access]
 uses_concept: [concept-first-person-access]
+style: legacy
 created: 2026-06-04
 ---
 

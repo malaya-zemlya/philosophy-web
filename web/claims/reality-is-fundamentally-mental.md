@@ -5,6 +5,7 @@ title: Reality is fundamentally mental
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
+style: legacy
 created: 2026-06-09
 ---
 

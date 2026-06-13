@@ -9,6 +9,7 @@ premise: [claim-chinese-nation-realises-organisation, claim-chinese-nation-lacks
 supports: [claim-phenomenal-residue]
 attacks: [claim-substrate-independence]
 uses_concept: [concept-chinese-nation, concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-04
 ---
 

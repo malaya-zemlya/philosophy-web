@@ -11,6 +11,7 @@ concludes: claim-behaviour-insufficient-for-mind
 attacks: [argument-behavioral-parity, claim-llm-has-mental-states]
 responds_to: [argument-behavioral-parity]
 uses_concept: [concept-lookup-table-mind, concept-functionalism, concept-grain]
+style: legacy
 created: 2026-06-04
 ---
 

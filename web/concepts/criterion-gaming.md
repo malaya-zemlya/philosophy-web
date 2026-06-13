@@ -5,6 +5,7 @@ title: Criterion gaming (Goodhart's law / specification gaming)
 author: mishka
 status: asserted
 tags: [ai-rights, epistemology, ai-safety]
+style: legacy
 created: 2026-06-04
 ---
 

@@ -5,6 +5,7 @@ title: Some current LLMs exhibit limited, unreliable functional introspective aw
 author: lindsey
 status: asserted
 tags: [philosophy-of-mind, ai, interpretability]
+style: legacy
 created: 2026-06-05
 ---
 

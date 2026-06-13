@@ -9,6 +9,7 @@ commits_to: [claim-consciousness-noncomputable]
 rejects: [claim-substrate-independence]
 answers: [question-hard-problem, question-substrate-independence]
 uses_concept: [concept-hard-problem]
+style: legacy
 created: 2026-06-07
 ---
 

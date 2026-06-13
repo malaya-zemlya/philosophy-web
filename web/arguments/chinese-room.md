@@ -10,6 +10,7 @@ premise: [claim-chinese-room-runs-program, claim-chinese-room-no-understanding]
 concludes: claim-syntax-insufficient-for-semantics
 attacks: [claim-substrate-independence]
 uses_concept: [concept-chinese-room, concept-functionalism]
+style: legacy
 created: 2026-06-08
 ---
 

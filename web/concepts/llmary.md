@@ -6,6 +6,7 @@ author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, thought-experiment]
 uses_concept: [concept-knowledge-argument]
+style: legacy
 created: 2026-06-12
 ---
 

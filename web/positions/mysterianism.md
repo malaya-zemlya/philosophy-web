@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness]
 commits_to: [claim-consciousness-has-natural-explanation, claim-humans-closed-to-psychophysical-link]
 answers: [question-hard-problem]
 uses_concept: [concept-hard-problem]
+style: legacy
 created: 2026-06-05
 ---
 

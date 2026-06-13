@@ -5,6 +5,7 @@ title: There is a determinate fact about one's own current phenomenal state
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness]
+style: legacy
 created: 2026-06-05
 ---
 

@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness]
 uses_concept: [concept-functionalism]
 answers: [question-substrate-independence]
+style: legacy
 created: 2026-06-03
 ---
 

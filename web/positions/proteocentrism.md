@@ -7,6 +7,7 @@ status: asserted
 tags: [philosophy-of-mind, metaethics, ai-rights]
 rejects: [claim-substrate-independence]
 answers: [question-llm-moral-status]
+style: legacy
 created: 2026-06-02
 ---
 

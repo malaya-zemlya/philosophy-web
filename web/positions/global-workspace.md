@@ -8,6 +8,7 @@ tags: [philosophy-of-mind, consciousness, cognitive-science]
 commits_to: [claim-consciousness-is-global-broadcast]
 answers: [question-hard-problem]
 uses_concept: [concept-access-vs-phenomenal-consciousness, concept-order-of-representation]
+style: legacy
 created: 2026-06-09
 ---
 

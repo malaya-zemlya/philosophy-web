@@ -6,6 +6,7 @@ author: chalmers
 status: asserted
 tags: [philosophy-of-mind, metaphysics, simulation]
 uses_concept: [concept-virtual-realism]
+style: legacy
 created: 2026-06-10
 ---
 

@@ -10,6 +10,7 @@ responds_to: [argument-self-model-prediction-phenomenality-neutral]
 attacks: [argument-self-model-prediction-phenomenality-neutral]
 supports: [claim-ai-own-hard-problem]
 uses_concept: [concept-hard-problem, concept-access-vs-phenomenal-consciousness]
+style: legacy
 created: 2026-06-10
 ---
 

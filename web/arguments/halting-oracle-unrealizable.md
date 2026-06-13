@@ -8,6 +8,7 @@ tags: [computability, philosophy-of-mind, metaphysics]
 premise: [claim-halting-problem-undecidable, claim-physical-church-turing-thesis]
 concludes: claim-halting-oracle-coherent-but-unrealizable
 uses_concept: [concept-halting-oracle]
+style: legacy
 created: 2026-06-08
 ---
 

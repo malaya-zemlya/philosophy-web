@@ -5,6 +5,7 @@ title: First-order vs higher-order mental states
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness]
+style: legacy
 created: 2026-06-09
 ---
 

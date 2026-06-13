@@ -6,6 +6,7 @@ author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, consciousness, thought-experiment]
 uses_concept: [concept-chinese-room]
+style: legacy
 created: 2026-06-08
 ---
 

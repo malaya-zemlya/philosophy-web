@@ -5,6 +5,7 @@ title: A type of mind can be constitutively incapable of grasping some concepts
 author: mcginn
 status: asserted
 tags: [philosophy-of-mind, epistemology]
+style: legacy
 created: 2026-06-05
 ---
 
