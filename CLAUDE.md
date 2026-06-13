@@ -37,7 +37,20 @@ One utterance is not one node.
    `proposals/` for human review (`/reconcile`). Precision beats tidiness.
 6. A body of a claim, argument, concept, position or question should be written from a neutral perspective, without mentioning a specific character. References to works of a real philosopher or scientist are ok. "Alvin claims X" is bad. Instead just use "X". What each character claims or thinks is a function of that character only and should be stored there.
 7. Nodes authored by the user, but that really are from a well-known person (a philsopher, scientist, writer etc) should be attributed to that person. 
-8. When writing a node , use simple language as much as possible, but without sacrificing precision. Generally we want a casual user interested in philosophy to be able to comprehend the text. Start with a description of the concept in plain terms and then expand on the fine points and nuances.
+8. **Encyclopedia style** (full standard + worked example: `schemas/_style.md`). Concept,
+   position, argument and question nodes are written as entries in a good general encyclopedia
+   (Encyclopedia Britannica is the model) — the long-term goal is to collect them into a PDF, a
+   personal encyclopedia of philosophy, so each entry must stand alone on a printed page. Lead
+   with a plain-language definition, then expand into the fine points and nuances; be
+   self-contained (links via `[[id]]` enrich, never required reading); stay approachable to an
+   interested amateur without sacrificing precision; include a concrete example or canonical
+   case wherever the subject allows; and write real prose with clean formatting (`###`
+   subheadings for longer entries) — never `label: fragment` notes. The style never costs the
+   web its cross-links: weave `[[id]]` links into the prose where they arise naturally, and
+   close the entry with a `### See also` section (the very last section, after any
+   `### In plain terms`) mapping the entry's related nodes — required for every related node
+   the prose didn't absorb, allowed for the body's most important links, each with a clause
+   saying how it relates. Claims stay atomic and short, but still read as prose.
 9. **Optional `### In plain terms` section.** When a content node (claim, concept, argument,
    question, position) is technical or jargon-heavy, end its body with a `### In plain terms`
    section: a short, self-contained explanation aimed at a casual visitor to the repo who has
@@ -52,10 +65,12 @@ One utterance is not one node.
    Add it only where it earns its keep — a node already
    readable by a layperson does not need one. Some nodes unavoidably require a specialized term or
    two; simplify as far as you can there without flattening the distinctions, rather than skipping
-   the section. The heading is exactly `### In plain terms`. When in doubt about a node, ask.
+   the section. The heading is exactly `### In plain terms`; it follows the main prose, and only
+   a `### See also` section (rule 8) may come after it. When in doubt about a node, ask.
 
 ## Where things live
 - Per-type schemas (read before create/edit): `schemas/<type>.md`
+- Body style standard (encyclopedia entries) + worked example: `schemas/_style.md`
 - Argument patterns + their critical questions (optional `pattern:` on an argument): `patterns/`
   — a reference library, not web nodes. Citing a pattern names the move's standard attack surface;
   raise its critical questions when objecting. See `patterns/_README.md`.
@@ -67,18 +82,25 @@ One utterance is not one node.
 - Visual graph of the web (claims/arguments/concepts + relations): `scripts/graph.py` →
   `graph/web.svg`. Manual, on demand; needs the Graphviz `dot` binary (`brew install graphviz`).
   Not in the pre-commit hook. Regenerate after sizable web changes; see README "Building the graph".
+- Printable encyclopedia (selected nodes → LaTeX → PDF): `scripts/book.py` (launcher) over the
+  `scripts/bookgen/` package → `book/encyclopedia.{tex,pdf}`. Manual, on demand; the PDF step needs
+  a LaTeX engine but degrades to `.tex` without one. See `scripts/bookgen/README.md`. This is the
+  delivery vehicle for the encyclopedia style of rule 8 / `schemas/_style.md`.
 
-## Running the linter (uv)
-`scripts/lint.py` requires PyYAML. Use a uv-managed virtual environment — do **not** rely on a
-system `python`:
+## Running Python (uv only)
+**Always run the project's Python through `uv`** — never a system `python`, and never call
+`.venv/bin/python` directly. The canonical invocation pulls in dependencies on the fly:
 
 ```sh
-uv venv                      # one-time: create .venv/ (CPython)
-uv pip install pyyaml        # one-time: install the only dependency
-.venv/bin/python scripts/lint.py   # run the integrity check + regenerate web/INDEX.md
+uv run --with pyyaml python scripts/lint.py        # integrity check + regenerate web/INDEX.md
+uv run --with pyyaml python scripts/book.py        # build the encyclopedia PDF (see below)
 ```
 
-Equivalently, `uv run --with pyyaml python scripts/lint.py` runs it without a persisted venv.
+This needs no pre-created venv; `uv` resolves an interpreter and the listed deps per run. (If you
+prefer a persisted environment, `uv venv` once then `uv pip install pyyaml` — but still launch via
+`uv run`.) The only dependency is PyYAML; `book.py` additionally shells out to a LaTeX engine and
+`graph.py` to Graphviz `dot`, both optional and both degrading gracefully when absent.
+
 The linter rewrites `web/INDEX.md` (computed backlinks + answer lists), **renders the `[[id]]`
 prose shorthand in node bodies and transcripts into clickable `[slug](relpath)` links** (and
 refreshes existing ones), and prints any integrity issues; run it after every debate turn and

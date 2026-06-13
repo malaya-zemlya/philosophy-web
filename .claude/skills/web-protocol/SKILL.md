@@ -68,6 +68,20 @@ Those are backlinks — `scripts/lint.py` computes them and writes `web/INDEX.md
 - **source** — philosopher/text/paper for provenance. Body: relevance, key page refs.
 - **character** — evolving portfolio. See template; this is the character's memory.
 
+## Body style: the encyclopedia standard (content nodes)
+Concept, position, argument and question bodies are written as entries in a good general
+encyclopedia (Britannica is the model) — they will eventually be collected into a printed
+personal encyclopedia of philosophy, so each must stand alone on a page. Lead with a
+plain-language definition, then the nuances; be self-contained (`[[id]]` links enrich, never
+required reading); stay approachable to an interested amateur without losing precision; include
+a concrete example or canonical case where the subject allows; write real prose with `###`
+subheadings for longer entries — never `label: fragment` notes. The style never costs the web its
+cross-links: weave `[[id]]` links into the prose where natural, and close the entry with a
+`### See also` section (the very last section, after any `### In plain terms`) mapping the entry's
+related nodes — required for every related node the prose didn't absorb, allowed for the body's
+most important links, each item an `[[id]]` plus a clause saying how it relates. Claims stay
+atomic and short but still read as prose. Full standard + worked example: `schemas/_style.md`.
+
 ## Optional `### In plain terms` section (content nodes)
 When a claim, concept, argument, question, or position is technical or jargon-heavy, end its body
 with a `### In plain terms` section — a short, plain-language explanation for a casual visitor to
@@ -83,7 +97,8 @@ the repo with **no** philosophy training who has **not** read the rest of the we
 - **Only where it earns its keep.** A node already readable by a layperson needs none. Where a term
   genuinely cannot be removed, simplify as far as possible without flattening the distinction rather
   than dropping the section.
-- Heading is exactly `### In plain terms`, placed last in the body.
+- Heading is exactly `### In plain terms`, placed after the main prose; only a `### See also`
+  section may follow it.
 
 ## Neutral perspective (non-negotiable for content nodes)
 A **claim, concept, argument, question, or position belongs to philosophy in general, not to a

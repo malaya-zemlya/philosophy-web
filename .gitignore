@@ -7,3 +7,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# LaTeX build intermediates from scripts/book.py (deliverables live in book/)
+build/

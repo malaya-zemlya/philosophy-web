@@ -1,0 +1,58 @@
+# bookgen — the encyclopedia builder
+
+Typesets a selection of `web/` nodes as a printable encyclopedia (LaTeX → PDF): the long-term
+"personal encyclopedia of philosophy" the node bodies are written toward (see `schemas/_style.md`).
+Run it through the launcher `scripts/book.py` or as `python -m bookgen`.
+
+```sh
+uv run --with pyyaml python scripts/book.py                 # all content nodes -> book/encyclopedia.{tex,pdf}
+uv run --with pyyaml python scripts/book.py --type concept  # only the concept entries
+uv run --with pyyaml python scripts/book.py concept-chinese-room claim-substrate-independence
+uv run --with pyyaml python scripts/book.py --columns 1 --no-pdf   # single column, .tex only
+uv run --with pyyaml python scripts/book.py --help          # every option
+```
+
+## What it produces
+
+- **Alphabetised entries**, two columns, with a thin column rule. Leading articles are ignored
+  when filing (*The Chinese Room* sits under **C**).
+- A **guide word** in the running head and a full-width **letter band** starting each letter.
+- Each entry: a bold **headword**, a small italic etiquette line (type · status · `after <Author>`),
+  then the node body.
+- **Cross-references** resolve a cited node to its title — small caps for term-like nodes
+  (concept, position, question, source), italics for proposition-like nodes (claim, argument) —
+  and become a clickable hyperlink when that node is also an entry in the same volume.
+- `### In plain terms` → a shaded aside; `### See also` → a styled cross-reference list.
+- Front matter: a clickable **List of Entries**; PDF bookmarks for letters and entries.
+
+## Engines
+
+Like `scripts/graph.py` with Graphviz `dot`, the PDF step is optional: the `.tex` is always
+written, and a LaTeX engine is used only if found (PATH plus the usual TeX bin dirs, so a fresh
+MacTeX works before a shell restart). Any engine works — the generated `.tex` maps every non-ASCII
+glyph the corpus uses (em dashes, `∴ ∧ ¬ ⟹ ↦ Φ Σ ℛ`, subscripts, accents) to a portable LaTeX
+form. `--engine auto` prefers `tectonic`, then `latexmk`, `xelatex`, `lualatex`, `pdflatex`.
+
+Install one: `brew install --cask mactex-no-gui` · `apt-get install texlive-xetex
+texlive-latex-extra` · or `tectonic` (self-contained, fetches packages on demand).
+
+LaTeX intermediates (`.aux`, `.log`, `.fls`, `.fdb_latexmk`, `.xdv`, …) are written to a
+top-level `build/` directory (git-ignored), so only the deliverables — `encyclopedia.tex` and
+`encyclopedia.pdf` — land in `book/`.
+
+## Module layout (one concern each)
+
+| module | responsibility |
+|--------|----------------|
+| `config.py`    | paths, constants, and the `BookOptions` dataclass |
+| `nodes.py`     | load `web/` nodes (`Node`); resolve a selection into an ordered id list |
+| `latex.py`     | LaTeX escaping, smart quotes, the portable Unicode map |
+| `inline.py`    | inline markdown → LaTeX; cross-reference resolution (`Ctx`) |
+| `markdown.py`  | block markdown → LaTeX (lists, paragraphs, sections, special blocks) |
+| `templates.py` | the LaTeX preamble / title page / front-matter strings |
+| `document.py`  | ordering, grouping, etiquette — assemble the whole document |
+| `compile.py`   | locate a LaTeX engine and run it |
+| `cli.py`       | argument parsing and orchestration |
+
+It reuses the sibling top-level `weblinks.py` for id↔path math and link resolution, so a cited
+node is rendered the same way the linter renders it.

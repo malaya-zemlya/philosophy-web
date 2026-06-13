@@ -1,6 +1,7 @@
 # Schemas
 
 One file per node type. **Before creating or editing a node, read `schemas/<type>.md`.**
+Body prose follows the encyclopedia standard in `schemas/_style.md` (worked example included).
 Each file opens with a **`## Frontmatter (copy & fill)`** block — a complete YAML template
 with every field for that type, annotated REQUIRED/optional, showing exactly which edges are
 legal. Copy it, fill the placeholders, delete any edge lines you don't use.

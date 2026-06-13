@@ -1,0 +1,4 @@
+# Scratch builds (e.g. book.py --output book/_test.tex, preview renders).
+# The deliverables encyclopedia.tex / encyclopedia.pdf are tracked; LaTeX
+# intermediates live in the top-level build/ directory, not here.
+_*
