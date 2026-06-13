@@ -46,18 +46,26 @@ def etiquette(node: Node, show_author: bool) -> str:
 
 # Leading articles are ignored when alphabetising ("The Chinese Room" files under C).
 _ARTICLE_RE = re.compile(r"^(the|a|an)\s+", re.IGNORECASE)
+# Leading punctuation is ignored too, so a title that opens with a quote or bracket
+# (`The "real feel"…`) sorts under its first *letter*, where its letter band also puts it.
+_LEAD_PUNCT_RE = re.compile(r"^[^0-9A-Za-z]+")
 
 
 def alpha_title(title: str) -> str:
-    """A title's sort form: leading article dropped, casefolded."""
-    return _ARTICLE_RE.sub("", title).casefold()
+    """A title's sort form: leading punctuation and a leading article dropped, casefolded. This is
+    the single source of truth for both the sort order and the letter band, so they cannot drift
+    (a leading quote no longer sorts a `The "real feel"…` entry ahead of everything under A)."""
+    t = _LEAD_PUNCT_RE.sub("", title)     # opening quote/bracket before the first word
+    t = _ARTICLE_RE.sub("", t)            # leading article
+    t = _LEAD_PUNCT_RE.sub("", t)         # punctuation sitting between the article and first word
+    return t.casefold()
 
 
 def group_key(node: Node, nid: str, sort: str) -> str:
-    """The divider a node falls under: its type, or the first letter of its display name/id."""
+    """The divider a node falls under: its type, or the first letter of its sort form / id."""
     if sort == "type":
         return node.type.capitalize()
-    head = nid if sort == "id" else _ARTICLE_RE.sub("", node.display)
+    head = nid if sort == "id" else alpha_title(node.display)
     ch = next((c for c in head if c.isalnum()), "#")
     return ch.upper() if ch.isalpha() else "#"
 
