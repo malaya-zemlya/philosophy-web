@@ -50,7 +50,10 @@ One utterance is not one node.
    close the entry with a `### See also` section (the very last section, after any
    `### In plain terms`) mapping the entry's related nodes — required for every related node
    the prose didn't absorb, allowed for the body's most important links, each with a clause
-   saying how it relates. Claims stay atomic and short, but still read as prose.
+   saying how it relates. Claims stay atomic and short, but still read as prose. 
+   
+   Avoid em-dash constructions in prose (bad: "The four varieties are mutually compatible — a single case may exhibit several at
+  once — but they spring from different sources and call for different remedies", better: "These four varieties can overlap in a single case, yet each has a distinct source and calls for a distinct remedy.")
 9. **Optional `### In plain terms` section.** When a content node (claim, concept, argument,
    question, position) is technical or jargon-heavy, end its body with a `### In plain terms`
    section: a short, self-contained explanation aimed at a casual visitor to the repo who has
