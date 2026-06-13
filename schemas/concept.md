@@ -7,6 +7,7 @@ A term and its definition(s), including competing senses.
 id: concept-<slug>                        # REQUIRED · stable
 type: concept                             # REQUIRED
 title: <the term>                         # REQUIRED
+headword: <short display name>            # optional · encyclopedia entry headword; `title` becomes the subtitle
 author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 tags: []                                  # optional

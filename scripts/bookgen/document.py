@@ -54,10 +54,10 @@ def alpha_title(title: str) -> str:
 
 
 def group_key(node: Node, nid: str, sort: str) -> str:
-    """The divider a node falls under: its type, or the first letter of its title/id."""
+    """The divider a node falls under: its type, or the first letter of its display name/id."""
     if sort == "type":
         return node.type.capitalize()
-    head = nid if sort == "id" else _ARTICLE_RE.sub("", node.title)
+    head = nid if sort == "id" else _ARTICLE_RE.sub("", node.display)
     ch = next((c for c in head if c.isalnum()), "#")
     return ch.upper() if ch.isalpha() else "#"
 
@@ -66,8 +66,8 @@ def sort_key(node: Node, nid: str, sort: str) -> Tuple:
     if sort == "id":
         return (nid,)
     if sort == "type":
-        return (node.type, alpha_title(node.title), nid)
-    return (alpha_title(node.title), nid)
+        return (node.type, alpha_title(node.display), nid)
+    return (alpha_title(node.display), nid)
 
 
 def _preamble_subst(opts: BookOptions, count: int, date: str) -> Dict[str, str]:
@@ -85,7 +85,8 @@ def _preamble_subst(opts: BookOptions, count: int, date: str) -> Dict[str, str]:
 
 def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) -> str:
     """Render the chosen ids into a complete, compilable LaTeX document."""
-    titles = {nid: n.title for nid, n in nodes.items()}
+    # cross-references display the target's headword when it has one, else its title
+    titles = {nid: n.display for nid, n in nodes.items()}
     kinds = {nid: n.type for nid, n in nodes.items()}
     path_to_id = {n.relpath: nid for nid, n in nodes.items()}
     included = set(ids)
@@ -104,7 +105,7 @@ def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) ->
 def _front_matter(ordered: List[str], nodes: Dict[str, Node],
                   subst: Dict[str, str]) -> List[str]:
     out = [fill(templates.FRONT, subst), r"\begin{listofentries}"]
-    out += [r"\entryline{%s}{%s}" % (nid, latex_escape(nodes[nid].title)) for nid in ordered]
+    out += [r"\entryline{%s}{%s}" % (nid, latex_escape(nodes[nid].display)) for nid in ordered]
     out += [r"\end{listofentries}", r"\mainmatter"]
     return out
 
@@ -132,9 +133,10 @@ def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
                 out.append(r"\begin{multicols}{2}")
                 in_cols = True
         ctx = Ctx(node.path, titles, kinds, included, path_to_id)
-        out.append(r"\entryhead{%s}{%s}{%s}{%s}" % (
-            nid, render_inline(node.title, ctx), etiquette(node, opts.attribution),
-            latex_escape(node.title)))
+        subtitle = render_inline(node.subtitle, ctx) if node.subtitle else ""
+        out.append(r"\entryhead{%s}{%s}{%s}{%s}{%s}" % (
+            nid, render_inline(node.display, ctx), etiquette(node, opts.attribution),
+            latex_escape(node.display), subtitle))
         out.append(render_body(node.body, ctx))
         out.append("")
     close_cols()

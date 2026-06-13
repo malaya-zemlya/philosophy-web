@@ -8,6 +8,7 @@ Characters cite positions rather than restating them.
 id: position-<slug>                       # REQUIRED · stable
 type: position                            # REQUIRED
 title: <name of the view>                 # REQUIRED
+headword: <short display name>            # optional · encyclopedia entry headword; `title` becomes the subtitle
 author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 tags: []                                  # optional

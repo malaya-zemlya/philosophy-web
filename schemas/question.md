@@ -7,6 +7,7 @@ An IBIS *issue* — an organizing node that candidate answers point at.
 id: question-<slug>                       # REQUIRED · stable
 type: question                            # REQUIRED
 title: <the issue, phrased as a question?> # REQUIRED · interrogative
+headword: <short display name>            # optional · encyclopedia entry headword; `title` becomes the subtitle
 author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 tags: []                                  # optional

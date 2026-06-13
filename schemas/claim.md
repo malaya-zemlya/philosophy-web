@@ -7,6 +7,7 @@ One truth-apt proposition. The atom of the web.
 id: claim-<slug>                          # REQUIRED · stable · never reuse
 type: claim                               # REQUIRED
 title: <one declarative proposition>      # REQUIRED · atomic (no "and"/"or" joining two props)
+headword: <short display name>            # optional · encyclopedia entry headword; `title` becomes the subtitle
 author: <real-philosopher | generic | mishka>  # REQUIRED · provenance · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 # superseded_by: claim-<slug>             # ONLY if status: superseded

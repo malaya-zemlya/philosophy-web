@@ -15,10 +15,16 @@ and `schemas/<type>.md` for each node's type (cardinal rule 1: read the schema b
 
 ## Phase 1 — Read & draft (NO writes yet)
 For each target node:
-1. **Resolve & read.** Find the node, print its `id`, `type`, `title`, and current body.
+1. **Resolve & read.** Find the node (`make find Q=<slug>` if you need to locate the file), then
+   print its `id`, `type`, `title`, and current body.
 2. **Inventory what must be preserved.** List every `[[id]]` / rendered cross-link in the body
    and every frontmatter edge. These all survive the rewrite — none may be dropped.
-3. **Draft the new body** to the standard in `schemas/_style.md`:
+3. **Propose a `headword:`** if the node's `title` is too long or technical to head an encyclopedia
+   entry (e.g. title *McGinn's cognitive-closure argument for mysterianism* → headword *Cognitive
+   closure*). The book shows the headword in bold with the full `title` as a subtitle, alphabetises
+   and cross-references by it. Skip it when the title already reads as a good short headword. Show me
+   the proposed headword with the body (it is a permitted frontmatter add — see Phase 2).
+4. **Draft the new body** to the standard in `schemas/_style.md`:
    - Lead with a one-to-three-sentence plain-language definition before any taxonomy or dispute.
    - Self-contained and approachable to an interested amateur, **without losing any distinction
      or nuance** the original drew. Introduce each term of art in *italics* and unpack it.
@@ -35,29 +41,30 @@ For each target node:
    - Section order at the end: main prose, then `### In plain terms` (keep the existing one;
      add one only if the entry is genuinely jargon-heavy), then `### See also` **last**.
    - **Neutral voice** (rule 6): no character names; real philosophers/sources are fine.
-4. **Show me the proposed body** and a short note of what changed in *form* and an explicit
-   confirmation that the proposition, scope, and every distinction are **unchanged**. Flag
-   separately (do not apply) anything that would change meaning — e.g. a cross-reference the
+5. **Show me the proposed body** (and headword, if any) plus a short note of what changed in *form*
+   and an explicit confirmation that the proposition, scope, and every distinction are **unchanged**.
+   Flag separately (do not apply) anything that would change meaning — e.g. a cross-reference the
    prose now wants that isn't yet a frontmatter edge, or wording you suspect is actually wrong.
 
 ## Constraints (do not cross without asking)
-- **Frontmatter is off-limits — one exception.** Do not touch `id`, `type`, `author`, `status`,
-  `created`, or any edge; provenance and the graph stay exactly as they are. The *only* permitted
-  frontmatter change is flipping the conversion tag `style: legacy` → `style: encyclopedia` (see
-  Phase 2). Never add a frontmatter edge.
+- **Frontmatter is off-limits — two exceptions.** Do not touch `id`, `type`, `author`, `status`,
+  `created`, or any edge; provenance and the graph stay exactly as they are. The only permitted
+  frontmatter changes are (a) flipping the conversion tag `style: legacy` → `style: encyclopedia`,
+  and (b) adding an optional `headword:` display name (Phase 2). Never add a frontmatter edge.
 - **No semantic edits.** No new claims, no softened or strengthened ones, no merged/split
   propositions, no flattened senses. If the entry reads as a fragment because it is genuinely
   two ideas, say so — don't fix it here.
 - Edit the `[[id]]` shorthand, never the rendered `[slug](relpath)` link (lint owns that).
 
 ## Phase 2 — Write & verify (after my go-ahead)
-5. Write the approved body back to the node file. Leave every frontmatter line untouched **except**
-   set the conversion tag to `style: encyclopedia` (if the node lacks a `style:` line, add one).
-6. Run the linter (uv only, per CLAUDE.md): `uv run --with pyyaml python scripts/lint.py`. It
-   re-renders the `[[id]]` links and checks integrity — fix anything it flags.
-7. Summarise per node: confirmed cross-links preserved (count in vs out), sections now present
-   (`### In plain terms`, `### See also`), `style:` flipped to `encyclopedia`, and any
-   meaning-level item you flagged for me.
+6. Write the approved body back to the node file. Leave every frontmatter line untouched **except**:
+   set the conversion tag to `style: encyclopedia` (add the line if absent), and add the approved
+   `headword:` line if you proposed one.
+7. Run the linter via the Makefile: **`make lint`**. It re-renders the `[[id]]` links and checks
+   integrity — fix anything it flags.
+8. Summarise per node: confirmed cross-links preserved (count in vs out), sections now present
+   (`### In plain terms`, `### See also`), `style:` flipped to `encyclopedia`, the `headword:` set
+   (if any), and any meaning-level item you flagged for me.
 
-Tip: after a batch, `uv run --with pyyaml python scripts/book.py <ids>` renders just those
-entries so I can eyeball the typeset result.
+Tip: **`make entry ID=<node-id-or-slug>`** typesets just that node single-column and renders it to
+`build/preview/` so I can eyeball the result. (`make help` lists all the routine targets.)

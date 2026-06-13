@@ -8,6 +8,7 @@ The only type that argues.
 id: argument-<slug>                       # REQUIRED · stable
 type: argument                            # REQUIRED
 title: <short name of the move>           # REQUIRED
+headword: <short display name>            # optional · encyclopedia entry headword; `title` becomes the subtitle
 author: <real-philosopher | generic | mishka>  # REQUIRED · NEVER a character
 status: asserted                          # asserted | contested | retracted | superseded
 pattern: <pattern-id>                     # optional · argument pattern this move instantiates (see patterns/); NOT an edge

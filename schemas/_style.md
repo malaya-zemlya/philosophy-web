@@ -43,6 +43,22 @@ jargon-heavy it still gets that plain-language gloss, additive and never a subst
 readable main body. Section order at the end of an entry: main prose, then `### In plain
 terms` (optional), then `### See also` (optional) last.
 
+### Headword vs. title (`headword:` frontmatter field)
+
+The `title` of a content node is its precise, often-disambiguated name (e.g. *Continuity–
+connectedness argument schema (no-sharp-line / sorites form)* or *McGinn's cognitive-closure
+argument for mysterianism*). That is not always the best **headword** for an encyclopedia entry. A
+node may therefore carry an optional `headword:` — a short, human display name (*Continuity argument
+schema*, *Cognitive closure*). The book then sets the headword in bold and drops the full `title`
+beneath it as an italic subtitle; entries are alphabetised by the headword. When `headword:` is
+absent the `title` is used as-is (no subtitle), so the field is purely additive — add it only where
+the title is too long or technical to head an entry.
+
+The headword also serves as the node's **cross-reference label**: an inline `[[id]]` to a node with
+a headword renders that short form, which removes most of the need to hand-alias long titles (see
+"Citing a node whose title reads awkwardly inline" below — a `headword:` is the durable fix, an
+inline `[[id|alias]]` the local one).
+
 ### Tracking conversion (`style:` frontmatter field)
 
 The web is being brought up to this standard incrementally, so every content node carries a

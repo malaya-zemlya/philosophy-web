@@ -2,6 +2,7 @@
 id: concept-continuity-argument-schema
 type: concept
 title: Continuity–connectedness argument schema (no-sharp-line / sorites form)
+headword: Continuity argument schema
 author: mishka
 status: asserted
 tags: [method, vagueness, sorites, personal-identity, philosophy-of-mind]

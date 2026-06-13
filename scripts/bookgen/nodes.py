@@ -25,11 +25,22 @@ class Node:
     status: str
     body: str
     path: str   # absolute path to the .md file
-    style: Optional[str] = None   # conversion tag: "encyclopedia" | "legacy" | None (untagged)
+    style: Optional[str] = None      # conversion tag: "encyclopedia" | "legacy" | None (untagged)
+    headword: Optional[str] = None   # short encyclopedia display name; falls back to title
 
     @property
     def relpath(self) -> str:
         return os.path.relpath(self.path, ROOT).replace(os.sep, "/")
+
+    @property
+    def display(self) -> str:
+        """The name shown as the entry's headword and used for cross-references / sorting."""
+        return self.headword or self.title
+
+    @property
+    def subtitle(self) -> str:
+        """The full title, shown under the headword — but only when it adds something."""
+        return self.title if self.display != self.title else ""
 
 
 def load_nodes() -> Dict[str, Node]:
@@ -58,7 +69,8 @@ def load_nodes() -> Dict[str, Node]:
                 id=nid, type=fm.get("type", "node"),
                 title=str(fm.get("title", weblinks.slug_of(nid))),
                 author=fm.get("author"), status=fm.get("status", "asserted"),
-                body=body.strip("\n"), path=path, style=fm.get("style"))
+                body=body.strip("\n"), path=path, style=fm.get("style"),
+                headword=fm.get("headword"))
     return nodes
 
 
