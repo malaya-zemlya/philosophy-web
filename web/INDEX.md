@@ -1380,6 +1380,9 @@
 ## [source-block](sources/block.md)
 - type: source | author: mishka | status: asserted
 
+## [source-block-1978](sources/block-1978.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-breuer-1995](sources/breuer-1995.md)
 - type: source | author: mishka | status: asserted
 
@@ -1404,10 +1407,16 @@
 ## [source-lem](sources/lem.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lewis-1988](sources/lewis-1988.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-lindsey-introspection-2025](sources/lindsey-introspection-2025.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-liu-cixin](sources/liu-cixin.md)
+- type: source | author: mishka | status: asserted
+
+## [source-nemirow-1990](sources/nemirow-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-searle-1980](sources/searle-1980.md)

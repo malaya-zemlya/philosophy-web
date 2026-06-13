@@ -13,7 +13,7 @@ created: 2026-06-04
 gloss: If each of a nation's people implements the role of a neuron (or functional node), passing
 signals on the same conditions, the population jointly instantiates the very state-to-state
 transition structure a brain instantiates — the functional organisation, not just the gross
-input–output profile ([block](../sources/block.md), "Troubles with Functionalism" 1978).
+input–output profile ([Block](../sources/block-1978.md), "Troubles with Functionalism" 1978).
 
 scope: A possibility claim about *multiple realisation of organisation* in an unusual medium. It is
 deliberately stronger than [lookup-table-possible](lookup-table-possible.md): here the internal organisation is present,

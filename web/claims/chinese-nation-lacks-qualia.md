@@ -11,7 +11,7 @@ created: 2026-06-04
 ---
 
 gloss: Even granting that the Chinese Nation realises the full functional organisation, the
-considered intuition (Block's absent-qualia pump, [block](../sources/block.md)) is that there is nothing it is like
+considered intuition (Block's absent-qualia pump, [Troubles with Functionalism, 1978](../sources/block-1978.md)) is that there is nothing it is like
 to be the nation — no unified phenomenal subject over and above the busy citizens.
 
 scope: A claim about *phenomenal* consciousness specifically, NOT about intentional/cognitive states
