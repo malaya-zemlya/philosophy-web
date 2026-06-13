@@ -88,6 +88,7 @@ def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) ->
     # cross-references display the target's headword when it has one, else its title
     titles = {nid: n.display for nid, n in nodes.items()}
     kinds = {nid: n.type for nid, n in nodes.items()}
+    has_headword = {nid for nid, n in nodes.items() if n.headword}
     path_to_id = {n.relpath: nid for nid, n in nodes.items()}
     included = set(ids)
     ordered = sorted(ids, key=lambda nid: sort_key(nodes[nid], nid, opts.sort))
@@ -97,7 +98,7 @@ def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) ->
     parts: List[str] = [fill(templates.PREAMBLE, subst), r"\begin{document}",
                         fill(templates.TITLEPAGE, subst)]
     parts += _front_matter(ordered, nodes, subst)
-    parts += _entries(ordered, nodes, opts, titles, kinds, included, path_to_id)
+    parts += _entries(ordered, nodes, opts, titles, kinds, included, path_to_id, has_headword)
     parts.append(r"\end{document}")
     return "\n".join(parts) + "\n"
 
@@ -111,7 +112,7 @@ def _front_matter(ordered: List[str], nodes: Dict[str, Node],
 
 
 def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
-             titles, kinds, included, path_to_id) -> List[str]:
+             titles, kinds, included, path_to_id, has_headword) -> List[str]:
     out: List[str] = []
     cur_group = None
     in_cols = False
@@ -132,7 +133,7 @@ def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
             if opts.columns == 2:
                 out.append(r"\begin{multicols}{2}")
                 in_cols = True
-        ctx = Ctx(node.path, titles, kinds, included, path_to_id)
+        ctx = Ctx(node.path, titles, kinds, included, path_to_id, has_headword)
         subtitle = render_inline(node.subtitle, ctx) if node.subtitle else ""
         out.append(r"\entryhead{%s}{%s}{%s}{%s}{%s}" % (
             nid, render_inline(node.display, ctx), etiquette(node, opts.attribution),

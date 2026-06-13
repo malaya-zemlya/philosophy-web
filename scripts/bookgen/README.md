@@ -26,9 +26,14 @@ published book carries only finished entries.
 - A **guide word** in the running head and a full-width **letter band** starting each letter.
 - Each entry: a bold **headword**, a small italic etiquette line (type · status · `after <Author>`),
   then the node body.
-- **Cross-references** resolve a cited node to its title — small caps for term-like nodes
-  (concept, position, question, source), italics for proposition-like nodes (claim, argument) —
-  and become a clickable hyperlink when that node is also an entry in the same volume.
+- **Cross-references** follow old-encyclopedia convention. A reference is labelled by the target's
+  **headword** (the word it is filed under) set in small caps; a node with no headword falls back
+  to its full title in italics, so a sentence-length title does not shout in small caps. (Term-like
+  types — concept, position, source, character — are small-capped even without an explicit headword,
+  since their titles are already headword-like.) A reference standing alone inside parentheses is a
+  *pointer*, so it is rewritten `(see HEADWORD)` (one "see" for a comma-run of them); a reference
+  woven into the sentence as a noun keeps the bare small-caps/italic label. Each becomes a clickable
+  hyperlink when the target is also an entry in the same volume.
 - `### In plain terms` → a shaded aside; `### See also` → a styled cross-reference list.
 - Front matter: a clickable **List of Entries**; PDF bookmarks for letters and entries.
 

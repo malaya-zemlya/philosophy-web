@@ -911,6 +911,11 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
   - [position-eliminative-materialism](positions/eliminative-materialism.md) --rejects-->
 
+## [concept-access-consciousness](concepts/access-consciousness.md)
+- type: concept | author: block | status: asserted
+- backlinks:
+  - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
+
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
 - type: concept | author: block | status: asserted
 - backlinks:
@@ -1215,6 +1220,11 @@
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
   - [position-representationalism](positions/representationalism.md) --uses_concept-->
+
+## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
 
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
 - type: concept | author: chalmers | status: asserted
