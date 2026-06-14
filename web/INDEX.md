@@ -1235,6 +1235,9 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
 
+## [concept-qualia](concepts/qualia.md)
+- type: concept | author: generic | status: asserted
+
 ## [concept-rendering-test](test/rendering-test.md)
 - type: concept | author: mishka | status: asserted
 
@@ -1386,10 +1389,19 @@
 ## [source-breuer-1995](sources/breuer-1995.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chalmers-1995](sources/chalmers-1995.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chalmers-1996](sources/chalmers-1996.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2022](sources/chalmers-2022.md)
+- type: source | author: mishka | status: asserted
+
+## [source-ci-lewis-1929](sources/ci-lewis-1929.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dennett-1988](sources/dennett-1988.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-gambarian](sources/gambarian.md)
@@ -1407,6 +1419,9 @@
 ## [source-lem](sources/lem.md)
 - type: source | author: mishka | status: asserted
 
+## [source-levine-1983](sources/levine-1983.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-lewis-1988](sources/lewis-1988.md)
 - type: source | author: mishka | status: asserted
 
@@ -1414,6 +1429,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-liu-cixin](sources/liu-cixin.md)
+- type: source | author: mishka | status: asserted
+
+## [source-nagel-1974](sources/nagel-1974.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-nemirow-1990](sources/nemirow-1990.md)
