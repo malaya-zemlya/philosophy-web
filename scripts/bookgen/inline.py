@@ -34,13 +34,14 @@ class Ctx:
 
     def __init__(self, src_path: str, titles: Dict[str, str], kinds: Dict[str, str],
                  included: Set[str], path_to_id: Dict[str, str],
-                 has_headword: Optional[Set[str]] = None):
+                 has_headword: Optional[Set[str]] = None, sources: Optional[Set[str]] = None):
         self.src_path = src_path        # the citing node's file (links are relative to it)
         self.titles = titles            # id -> display label (headword if any, else title)
         self.kinds = kinds              # id -> node type (helps choose small caps vs italics)
         self.included = included        # ids that have an entry in THIS volume (so, linkable)
         self.path_to_id = path_to_id    # relpath-from-root -> id
         self.has_headword = has_headword or set()  # ids carrying an explicit `headword:`
+        self.sources = sources or set()  # cited `source` ids that appear in the back-matter Sources
 
     def _ref(self, nid: str, display: str, force_sc: bool = False) -> str:
         # Small caps for genuine headwords (explicit, a deliberate alias, or a term-like type);
@@ -49,6 +50,8 @@ class Ctx:
         label = r"\%s{%s}" % ("textsc" if small else "emph", latex_escape(display))
         if nid in self.included:
             return r"\hyperref[entry:%s]{%s}" % (nid, label)
+        if nid in self.sources:                       # cite -> the Sources back matter
+            return r"\hyperref[source:%s]{%s}" % (nid, label)
         return label
 
     def xref_id(self, nid: str, alias: Optional[str] = None) -> Tuple[str, bool]:
@@ -115,4 +118,21 @@ def render_inline(text: str, ctx: Ctx) -> str:
     text = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", text)
 
     # 4. restore protected spans
+    return re.sub(r"\x00(\d+)\x00", lambda m: stash[int(m.group(1))], text)
+
+
+def render_reference(text: str) -> str:
+    """A bibliography reference line -> LaTeX. References carry no cross-links, only italics and
+    URLs, so the resolver is unneeded: protect URLs (clickable + line-breakable via \\url), then
+    escape, then apply emphasis."""
+    stash = []
+
+    def keep(s: str) -> str:
+        stash.append(s)
+        return "\x00%d\x00" % (len(stash) - 1)
+
+    text = re.sub(r"https?://[^\s)]+", lambda m: keep(r"\url{%s}" % m.group(0)), text)
+    text = latex_escape(text)
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", text)
+    text = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", text)
     return re.sub(r"\x00(\d+)\x00", lambda m: stash[int(m.group(1))], text)

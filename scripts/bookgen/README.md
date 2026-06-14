@@ -45,6 +45,9 @@ published book carries only finished entries.
   `amsmath` — `\frac`, sub/superscripts, `aligned`, etc. The `$` must hug its content, so a prose
   dollar stays literal. Single Unicode symbols in prose (`∴ ∧ Φ Σ`) are mapped to maths by `latex.py`.
 - Front matter: a clickable **List of Entries**; PDF bookmarks for letters and entries.
+- Back matter: a **Sources** section — every `source` node cited by the entries in the volume,
+  alphabetised, its `Reference:` block (APA 7) set as a hanging-indent bibliography entry and
+  anchored so the in-text citations hyperlink to it.
 
 ## Engines
 

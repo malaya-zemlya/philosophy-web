@@ -6,10 +6,12 @@ delegated to `inline`/`markdown`; the LaTeX scaffolding to `templates`.
 """
 import datetime
 import re
-from typing import Dict, List, Tuple
+from typing import Dict, List, Set, Tuple
 
-from .config import BookOptions
-from .inline import Ctx, render_inline
+import weblinks
+
+from .config import BookOptions, ROOT
+from .inline import Ctx, render_inline, render_reference
 from .latex import latex_escape, unicode_declarations
 from .markdown import render_body
 from .nodes import Node
@@ -78,6 +80,86 @@ def sort_key(node: Node, nid: str, sort: str) -> Tuple:
     return (alpha_title(node.display), nid)
 
 
+# --- back-matter Sources (bibliography) --------------------------------------------------------
+_REF_LABEL_RE = re.compile(r"^\s*references?\s*:\s*(.*)$", re.IGNORECASE)
+_BULLET_RE = re.compile(r"^[-*]\s+(.*)$")
+# a new lowercase section label (`key passages:`, `note on lineage:`, …) ends the reference block;
+# the `(?!https?:)` guard keeps a wrapped URL line (`https://…`) from looking like a label.
+_NEW_LABEL_RE = re.compile(r"^(?!https?:)[a-z][\w ()/'\-]{0,40}:(\s|$)")
+
+
+def source_references(body: str) -> List[str]:
+    """Pull the citation line(s) out of a source node body: the `Reference:` / `References:` block
+    (inline text after the label, plus following lines up to a blank line or the next section
+    label; bullets split multiple works)."""
+    lines = body.split("\n")
+    out: List[str] = []
+    i = 0
+    while i < len(lines):
+        m = _REF_LABEL_RE.match(lines[i])
+        if not m:
+            i += 1
+            continue
+        block = [m.group(1).strip()] if m.group(1).strip() else []
+        j = i + 1
+        while j < len(lines) and lines[j].strip():
+            if not _BULLET_RE.match(lines[j]) and _NEW_LABEL_RE.match(lines[j]):
+                break
+            block.append(lines[j].strip())
+            j += 1
+        cur = None
+        for bl in block:
+            bm = _BULLET_RE.match(bl)
+            if bm:
+                if cur:
+                    out.append(cur)
+                cur = bm.group(1).strip()
+            elif cur is None:
+                cur = bl
+            else:
+                cur += " " + bl
+        if cur:
+            out.append(cur)
+        i = j
+    return out
+
+
+def _collect_cited_sources(ordered: List[str], nodes: Dict[str, Node],
+                           path_to_id: Dict[str, str]) -> Set[str]:
+    """Every `source` node referenced (by `[[id]]` or rendered link) in the included entries."""
+    cited: Set[str] = set()
+    for nid in ordered:
+        node = nodes[nid]
+        for m in weblinks.WIKILINK_RE.finditer(node.body):
+            t = m.group(1)
+            if t in nodes and nodes[t].type == "source":
+                cited.add(t)
+        for m in weblinks.MDLINK_RE.finditer(node.body):
+            t = weblinks.node_id_from_target(m.group(2), node.path, ROOT, path_to_id)
+            if t and t in nodes and nodes[t].type == "source":
+                cited.add(t)
+    return cited
+
+
+def _sources_section(cited: Set[str], nodes: Dict[str, Node]) -> List[str]:
+    """Render the Sources back matter: every cited source's APA reference(s), alphabetised by the
+    leading author. Each source is anchored `source:<id>` so in-text citations link to it."""
+    if not cited:
+        return []
+
+    def key(sid: str) -> str:
+        refs = source_references(nodes[sid].body)
+        return (refs[0] if refs else nodes[sid].title).casefold()
+
+    out = [r"\sourcesband", r"\begin{sourcelist}"]
+    for sid in sorted(cited, key=key):
+        refs = source_references(nodes[sid].body) or [nodes[sid].title]
+        for k, ref in enumerate(refs):
+            out.append(r"\sourceitem{%s}{%s}" % (sid if k == 0 else "", render_reference(ref)))
+    out.append(r"\end{sourcelist}")
+    return out
+
+
 def _preamble_subst(opts: BookOptions, count: int, date: str) -> Dict[str, str]:
     font_pdftex, font_unicode = templates.FONTS.get(opts.font, templates.FONTS["default"])
     return {
@@ -102,13 +184,16 @@ def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) ->
     path_to_id = {n.relpath: nid for nid, n in nodes.items()}
     included = set(ids)
     ordered = sorted(ids, key=lambda nid: sort_key(nodes[nid], nid, opts.sort))
+    cited_sources = _collect_cited_sources(ordered, nodes, path_to_id)
     date = datetime.date.today().strftime("%B %Y")
     subst = _preamble_subst(opts, len(ordered), date)
 
     parts: List[str] = [fill(templates.PREAMBLE, subst), r"\begin{document}",
                         fill(templates.TITLEPAGE, subst)]
     parts += _front_matter(ordered, nodes, subst)
-    parts += _entries(ordered, nodes, opts, titles, kinds, included, path_to_id, has_headword)
+    parts += _entries(ordered, nodes, opts, titles, kinds, included, path_to_id, has_headword,
+                      cited_sources)
+    parts += _sources_section(cited_sources, nodes)
     parts.append(r"\end{document}")
     return "\n".join(parts) + "\n"
 
@@ -122,7 +207,7 @@ def _front_matter(ordered: List[str], nodes: Dict[str, Node],
 
 
 def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
-             titles, kinds, included, path_to_id, has_headword) -> List[str]:
+             titles, kinds, included, path_to_id, has_headword, sources) -> List[str]:
     out: List[str] = []
     cur_group = None
     in_cols = False
@@ -143,7 +228,7 @@ def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
             if opts.columns == 2:
                 out.append(r"\begin{multicols}{2}")
                 in_cols = True
-        ctx = Ctx(node.path, titles, kinds, included, path_to_id, has_headword)
+        ctx = Ctx(node.path, titles, kinds, included, path_to_id, has_headword, sources)
         subtitle = render_inline(node.subtitle, ctx) if node.subtitle else ""
         out.append(r"\entryhead{%s}{%s}{%s}{%s}{%s}" % (
             nid, render_inline(node.display, ctx), etiquette(node, opts.attribution),
