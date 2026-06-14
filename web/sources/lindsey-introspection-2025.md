@@ -16,9 +16,10 @@ some cases to distinguish their own outputs from artificially inserted prefills.
 framed as **functional introspective awareness**: it is "highly unreliable and context-dependent,"
 present only in some conditions.
 
-key passages / framing to preserve when citing:
-- Lindsey, Jack (2025), "Emergent Introspective Awareness in Large Language Models," Anthropic,
-  Transformer Circuits Thread, 29 Oct 2025. https://transformer-circuits.pub/2025/introspection/
+Reference:
+- Lindsey, J. (2025, October 29). *Emergent introspective awareness in large language models*. Transformer Circuits Thread. https://transformer-circuits.pub/2025/introspection/
+
+framing to preserve when citing:
 - The paper **explicitly disclaims** phenomenal readings: "We do not seek to address the question of
   whether AI systems possess human-like self-awareness or subjective experience," and flags that the
   observed capacities "may not have the same philosophical significance they do in humans." So it

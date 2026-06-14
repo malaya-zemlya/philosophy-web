@@ -16,10 +16,10 @@ the world-indexed reading of "simulated X is not really X" deployed in
 inside a fine-grained simulation would be genuinely conscious (an application of substrate
 independence), grounding [sim-agents-can-have-sim-qualia](../claims/sim-agents-can-have-sim-qualia.md).
 
-key passages:
-- Chalmers, David J. (2022), *Reality+: Virtual Worlds and the Problems of Philosophy*, Norton.
-- The "It-from-bit-from-it" / virtual digitalism chapters: virtual objects are real data structures
+Reference:
+- Chalmers, D. J. (2022). *Reality+: Virtual worlds and the problems of philosophy*. W. W. Norton.
+  (The "It-from-bit-from-it" / virtual digitalism chapters: virtual objects are real data structures
   with causal powers inside the system; "virtual X" is X-relative-to-the-virtual-world, not a mere
-  representation of X.
-- The simulation/consciousness chapters: a being whose cognitive (and, on a fine enough grain,
-  physical) organisation is fully simulated is not thereby a zombie; simulated minds are minds.
+  representation of X. The simulation/consciousness chapters: a being whose cognitive (and, on a fine
+  enough grain, physical) organisation is fully simulated is not thereby a zombie; simulated minds are
+  minds.)

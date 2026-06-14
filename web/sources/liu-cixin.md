@@ -24,5 +24,7 @@ brain-running army is therefore *this project's variation*, not a scene from the
 genuinely supplies is the staging — a nation as the physical substrate of a higher-level system —
 that makes [chinese-nation-realises-organisation](../claims/chinese-nation-realises-organisation.md) easy to picture.
 
-key passages: the "human-formation computer" episode (the Qin Shi Huang / von Neumann chapter of the
-in-game civilisation); **exact chapter and page refs to be confirmed** before any treatise cites it.
+Reference:
+- Liu, C. (2014). *The three-body problem* (K. Liu, Trans.). Tor Books. (Original work published 2008)
+  (The "human-formation computer" episode — the Qin Shi Huang / von Neumann chapter of the in-game
+  civilisation; **exact chapter and page refs to be confirmed** before any treatise cites it.)

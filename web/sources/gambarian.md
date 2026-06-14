@@ -16,6 +16,6 @@ a rights-granting criterion is announced, it will be gamed. Direct support for
 
 key passages: §2 (optimisation against published rubrics).
 
-citation: Gambarian, Alexander. "Data Poisoning the Zeitgeist: The AI Consciousness Discourse as a
-Pathway to Legal Catastrophe" (February 10, 2025). SSRN: https://ssrn.com/abstract=5899184 ·
-https://dx.doi.org/10.2139/ssrn.5899184
+Reference: Gambarian, A. (2025). *Data poisoning the zeitgeist: The AI consciousness discourse as a
+pathway to legal catastrophe* [Working paper]. SSRN. https://doi.org/10.2139/ssrn.5899184 ·
+https://ssrn.com/abstract=5899184

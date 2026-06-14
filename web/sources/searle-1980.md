@@ -13,8 +13,8 @@ against "strong AI" — the thesis that running the right program is constitutiv
 understanding and intentionality. Grounds [chinese-room](../concepts/chinese-room.md) and the
 [chinese-room](../arguments/chinese-room.md) family.
 
-key passages:
-- Searle, John (1980), "Minds, Brains, and Programs," *Behavioral and Brain Sciences* 3(3): 417–457.
-  The room; the slogan "syntax is not sufficient for semantics"; and Searle's canvassed replies with
+Reference:
+- Searle, J. R. (1980). Minds, brains, and programs. *Behavioral and Brain Sciences*, *3*(3), 417–457.
+  (The room; the slogan "syntax is not sufficient for semantics"; and Searle's canvassed replies with
   his rejoinders — the **Systems Reply**, the **Robot Reply**, the **Brain Simulator Reply**, the
-  **Combination Reply** — printed with peer commentary.
+  **Combination Reply** — printed with peer commentary.)

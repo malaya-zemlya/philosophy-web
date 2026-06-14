@@ -16,6 +16,6 @@ know-how, not the rival acquaintance analysis of [mary-gains-acquaintance](../cl
 gains a non-factual *knowledge of* the experience.) A co-source, with [lewis-1988](lewis-1988.md), for
 [ability-hypothesis](../arguments/ability-hypothesis.md).
 
-key passage:
-- Nemirow, Laurence (1990), "Physicalism and the Cognitive Role of Acquaintance," in W. G. Lycan
-  (ed.), *Mind and Cognition* (Blackwell, 1990).
+Reference:
+- Nemirow, L. (1990). Physicalism and the cognitive role of acquaintance. In W. G. Lycan (Ed.),
+  *Mind and cognition*. Blackwell.

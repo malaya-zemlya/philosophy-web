@@ -18,8 +18,8 @@ sufficiency of *functional organisation* for qualia, a different property from t
 *behaviour* attacked by Block's lookup-table machine, which carries its own source node
 ([block](block.md), "Psychologism and Behaviorism", 1981).
 
-key passage:
-- Block, Ned (1978), "Troubles with Functionalism," *Minnesota Studies in the Philosophy of Science*
-  9: 261–325 (in C. Wade Savage, ed., *Perception and Cognition: Issues in the Foundations of
-  Psychology*, University of Minnesota Press). This is where the Chinese Nation / homunculi-headed
-  robot is introduced.
+Reference:
+- Block, N. (1978). Troubles with functionalism. In C. W. Savage (Ed.), *Perception and cognition:
+  Issues in the foundations of psychology* (Minnesota Studies in the Philosophy of Science, Vol. 9,
+  pp. 261–325). University of Minnesota Press. (Introduces the Chinese Nation / homunculi-headed
+  robot.)

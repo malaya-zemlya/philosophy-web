@@ -15,7 +15,7 @@ a further fact, so Mary the colour scientist gains know-how rather than new info
 first sees red. This is the primary source for [ability-hypothesis](../arguments/ability-hypothesis.md) and its conclusion
 [mary-gains-abilities-not-facts](../claims/mary-gains-abilities-not-facts.md).
 
-key passage:
-- Lewis, David (1988), "What Experience Teaches," *Proceedings of the Russellian Society* (University
-  of Sydney) 13: 29–35. Reprinted in W. G. Lycan (ed.), *Mind and Cognition* (Blackwell, 1990) and
-  in Lewis, *Papers in Metaphysics and Epistemology* (Cambridge University Press, 1999).
+Reference:
+- Lewis, D. (1988). What experience teaches. *Proceedings of the Russellian Society*, *13*, 29–35.
+  (Reprinted in W. G. Lycan (Ed.), *Mind and cognition*, Blackwell, 1990; and in D. Lewis, *Papers
+  in metaphysics and epistemology*, Cambridge University Press, 1999.)

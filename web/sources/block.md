@@ -17,6 +17,6 @@ and [lookup-table-objection](../arguments/lookup-table-objection.md). The target
 property from the sufficiency of *functional organisation* attacked by Block's Chinese Nation, which
 carries its own source node ([block-1978](block-1978.md), "Troubles with Functionalism", 1978).
 
-key passage:
-- Block, Ned (1981), "Psychologism and Behaviorism," *The Philosophical Review* 90(1): 5–43. This is
-  where the lookup-table / Aunt Bubbles machine appears.
+Reference:
+- Block, N. (1981). Psychologism and behaviorism. *The Philosophical Review*, *90*(1), 5–43. (Where the
+  lookup-table / Aunt Bubbles machine appears.)

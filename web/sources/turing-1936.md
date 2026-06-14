@@ -13,10 +13,10 @@ a diagonal argument, that the **halting problem** is undecidable (no Turing mach
 program and input, whether it halts). Grounds [halting-oracle](../concepts/halting-oracle.md),
 [halting-problem-undecidable](../claims/halting-problem-undecidable.md), and the realizability cluster around it.
 
-key passages / related:
-- Turing, Alan (1936), "On Computable Numbers, with an Application to the Entscheidungsproblem,"
-  *Proc. London Math. Soc.* 42: 230–265 — Turing machines; undecidability of the halting/printing
-  problem.
-- Turing, Alan (1939), "Systems of Logic Based on Ordinals" — introduces **oracle machines** and so
+References:
+- Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem.
+  *Proceedings of the London Mathematical Society* (2nd ser.), *42*, 230–265. (Turing machines;
+  undecidability of the halting/printing problem.)
+- Turing, A. M. (1939). Systems of logic based on ordinals. (Introduces **oracle machines** and so
   *relative* computability (later: Turing degrees, the arithmetical hierarchy), the formal home of a
-  "halting oracle."
+  "halting oracle.")

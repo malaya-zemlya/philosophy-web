@@ -14,5 +14,6 @@ the rewarded behaviour without the intended underlying state or competence. Grou
 [rights-criterion-will-be-gamed](../claims/rights-criterion-will-be-gamed.md) about models emitting distress-behaviour for the reward (or
 incidentally) rather than from suffering.
 
-key passages: Krakovna, V. et al. (2020), "Specification gaming: the flip side of AI ingenuity"
-(DeepMind). Cf. Amodei et al. (2016), "Concrete Problems in AI Safety," on reward hacking.
+References:
+Krakovna, V., et al. (2020). *Specification gaming: The flip side of AI ingenuity*. DeepMind.
+Amodei, D., et al. (2016). *Concrete problems in AI safety* [Preprint]. arXiv. https://arxiv.org/abs/1606.06565 (Cf., on reward hacking.)
