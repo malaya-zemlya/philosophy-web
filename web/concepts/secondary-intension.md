@@ -16,7 +16,7 @@ actual world — the function that, taking that reference as given, says what th
 all *counterfactual* worlds. It is one of the two "intensions" (functions from possible worlds to
 extensions) that David Chalmers's two-dimensional semantics assigns to an expression; the other, prior,
 one is its [primary-intension](primary-intension.md). The secondary intension is what captures the Kripkean insight
-that many terms are *rigid designators*: having latched onto a thing in the actual world, they keep
+that many terms are *rigid designators* ([kripke-1980](../sources/kripke-1980.md)): having latched onto a thing in the actual world, they keep
 referring to that same thing when we describe how matters might otherwise have been.
 
 Return to *water*. We discover empirically that the watery stuff of *our* world is H₂O. The secondary

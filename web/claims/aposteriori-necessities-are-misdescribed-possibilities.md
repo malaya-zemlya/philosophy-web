@@ -6,26 +6,42 @@ headword: A-posteriori necessities as misdescribed possibilities
 author: chalmers
 status: asserted
 tags: [metaphysics, modality, consciousness]
-style: legacy
+style: encyclopedia
 created: 2026-06-08
 uses_concept: [concept-primary-intension, concept-secondary-intension]
 ---
 
-gloss: the two-dimensional diagnosis of the Kripke cases ([some-necessities-knowable-only-a-posteriori](some-necessities-knowable-only-a-posteriori.md)).
-When one "conceives water that is not H2O," one conceives a *genuinely possible* scenario (a watery
-stuff that is not H2O) and merely *mis-describes* it as "water." Distinguishing a term's *primary*
-(epistemic) intension from its *secondary* (subjunctive) intension, the conceived scenario is possible
-under the primary intension; the necessity is secondary. So a-posteriori necessities are not cases where
-ideal conceiving reaches an impossibility — they are possibilities under a misleading description.
+Kripkean a-posteriori necessities are not cases in which ideal conceiving reaches a genuine
+impossibility; they are genuine *possibilities* described in a misleading way. This is the
+two-dimensional diagnosis of the standard counterexamples to "conceivability entails possibility"
+([some-necessities-knowable-only-a-posteriori](some-necessities-knowable-only-a-posteriori.md), from Kripke's *Naming and Necessity*
+[kripke-1980](../sources/kripke-1980.md)), defended by David Chalmers ([chalmers-1996](../sources/chalmers-1996.md); [chalmers-2002](../sources/chalmers-2002.md)).
 
-scope: a claim about the *modal status* of the standard counterexamples, not a denial that they are
-necessary. Its payoff: it preserves the link between **ideal primary conceivability** and **primary
-possibility** by explaining away every apparent defeater as a description error.
+When one "conceives water that is not H₂O," one conceives a *genuinely possible* scenario — some watery
+stuff that is not H₂O — and merely *misdescribes* it as "water." Distinguish a term's *primary*
+(epistemic) [primary-intension](../concepts/primary-intension.md) from its *secondary* (subjunctive)
+[secondary-intension](../concepts/secondary-intension.md): the conceived scenario is possible under the primary intension, while
+the necessity attaches only to the secondary. So the a-posteriori necessities are not impossibilities
+reached by ideal conceiving — they are possibilities wearing a misleading label.
 
-who would deny it: a type-B physicalist ([materialism-types](../concepts/materialism-types.md)) who holds some a-posteriori necessities are *strong* (no
-possible world even verifies the primary intension), so the misdescription move fails — there is no
-possibility being mis-described, just an impossibility conceived.
+This is a claim about the *modal status* of the standard counterexamples, not a denial that they are
+necessary. Its payoff is to preserve the link between **ideal primary conceivability** and **primary
+possibility** by explaining away every apparent defeater as a description error — the engine of
+[modal-rationalism](../arguments/modal-rationalism.md).
 
-Distinct from [some-necessities-knowable-only-a-posteriori](some-necessities-knowable-only-a-posteriori.md) (which it reinterprets rather than
-denies): that says such necessities exist; this says they do not break the conceivability→possibility
-link once intensions are distinguished.
+The position that denies it is type-B physicalism ([materialism-types](../concepts/materialism-types.md)), which holds that some
+a-posteriori necessities are *strong*: no possible world even verifies the primary intension, so there is
+nothing being misdescribed — just an impossibility conceived. The claim is distinct from
+[some-necessities-knowable-only-a-posteriori](some-necessities-knowable-only-a-posteriori.md), which it reinterprets rather than denies: that
+claim says such necessities exist; this one says they do not break the conceivability→possibility link
+once the two intensions are distinguished.
+
+### See also
+
+- [some-necessities-knowable-only-a-posteriori](some-necessities-knowable-only-a-posteriori.md) — the Kripkean necessities this claim
+  reinterprets.
+- [primary-intension](../concepts/primary-intension.md) / [secondary-intension](../concepts/secondary-intension.md) — the distinction that turns an
+  apparent impossibility into a misdescribed possibility.
+- [modal-rationalism](../arguments/modal-rationalism.md) — the argument this claim is the load-bearing premise of.
+- [materialism-types](../concepts/materialism-types.md) — type-B physicalism, which resists the diagnosis by positing *strong*
+  necessities.

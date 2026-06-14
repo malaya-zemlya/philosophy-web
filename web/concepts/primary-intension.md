@@ -38,7 +38,7 @@ refer to), and as a *counterfactual* circumstance to be described using referenc
 primary intension occupies the first dimension — worlds considered as actual; the secondary intension
 occupies the second — worlds considered as counterfactual. For many ordinary terms the two coincide.
 They come apart precisely for the Kripkean *a posteriori necessities*
-([some-necessities-knowable-only-a-posteriori](../claims/some-necessities-knowable-only-a-posteriori.md)): "water is H₂O" is necessary along the
+([some-necessities-knowable-only-a-posteriori](../claims/some-necessities-knowable-only-a-posteriori.md), from Kripke's *Naming and Necessity* [kripke-1980](../sources/kripke-1980.md)): "water is H₂O" is necessary along the
 secondary dimension (water is H₂O in every counterfactual world) yet contingent along the primary one
 (the watery stuff *could have turned out* to be XYZ). The necessity that can be known only by
 experiment lives in the gap between the two intensions.
