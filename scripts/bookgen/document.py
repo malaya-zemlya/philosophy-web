@@ -205,6 +205,7 @@ def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) ->
     subst = _preamble_subst(opts, len(ordered), date)
 
     parts: List[str] = [fill(templates.PREAMBLE, subst), r"\begin{document}",
+                        r"\frontmatter",   # roman folios for the front matter; \mainmatter resets
                         fill(templates.TITLEPAGE, subst)]
     parts += _symbol_key({nodes[nid].type for nid in ordered})
     parts += _front_matter(ordered, nodes, subst)
