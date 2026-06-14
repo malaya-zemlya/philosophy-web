@@ -32,9 +32,10 @@ character node with a note. Count them → pick the inline path (1) or delegatio
 ## Phase 1 — Read & draft (NO writes yet)
 **Delegation path:** invoke the `encyclopedist` sub-agent (`subagent_type: encyclopedist`) with the
 resolved ids. Its returned package per node is: `id`/`type`/proposed `headword`, the cross-link
-count (N in → N out), the **drafted body**, a short *form-changed* note, a *meaning-unchanged*
-affirmation, and anything *flagged for the human*. Relay each draft to me for approval — do **not**
-write yet. (You do not need to re-read the style docs yourself on this path; the sub-agent applied
+count (N in → N out), the **drafted body**, **proposed source node(s)** for any newly-cited work
+(rule 10), a short *form-changed* note, a *meaning-unchanged* affirmation, and anything *flagged for
+the human*. Relay each draft (and any proposed source nodes) to me for approval — do **not** write
+yet. (You do not need to re-read the style docs yourself on this path; the sub-agent applied
 them. Spot-check its drafts against the preserved cross-links it reports.)
 
 **Inline path (single node):** read `schemas/_style.md`, CLAUDE.md rules 8–9, the web-protocol
@@ -50,7 +51,10 @@ The encyclopedia-style requirements the draft must meet (same on both paths) liv
 approachable without losing any nuance; a concrete example where the subject allows; connected
 prose with `###` subheadings (never `label:` fragments); **every cross-link kept** (woven in, or
 in `### See also`); awkward titles aliased `[[id|short label]]`; maths in LaTeX (`$…$` inline,
-`$$…$$` display) preserved verbatim; section order main prose → `### In plain terms` →
+`$$…$$` display) preserved verbatim; **named attributions are sourced** (CLAUDE.md rule 10: if the
+entry credits a real philosopher/scientist/writer or their work and no `source` node exists, research
+the citation and add one — the delegated `encyclopedist` can search, so it returns *proposed source
+nodes* to write alongside the entry); section order main prose → `### In plain terms` →
 `### See also` (last); neutral voice.
 
 ## Constraints (do not cross without asking)
@@ -60,7 +64,9 @@ in `### See also`); awkward titles aliased `[[id|short label]]`; maths in LaTeX 
   and (b) adding an optional `headword:` display name.
 - **No semantic edits.** No new claims, no softened or strengthened ones, no merged/split
   propositions, no flattened senses. If the entry reads as a fragment because it is genuinely two
-  ideas, say so — don't fix it here.
+  ideas, say so — don't fix it here. (Adding a `source` node and a `[[source-id]]` citation for a
+  philosopher/work the entry already names is **not** a semantic edit — it is required provenance,
+  rule 10 — so it is in scope; show it with the draft for approval.)
 - Edit the `[[id]]` shorthand, never the rendered `[slug](relpath)` link (lint owns that).
 
 ## Phase 2 — Write & verify (main thread, after my go-ahead)
@@ -68,6 +74,8 @@ Writing stays here — the approved bodies are already in this context, so handi
 sub-agent would re-spend the tokens for nothing.
 1. Write each approved body back to its node file. Leave every frontmatter line untouched **except**:
    set `style: encyclopedia` (add the line if absent), and add the approved `headword:` line if any.
+   Also write any **approved source nodes** (rule 10) under `web/sources/` before linting, so their
+   `[[source-id]]` citations resolve.
 2. Run the linter **once** for the whole batch: **`make lint`**. It re-renders the `[[id]]` links and
    checks integrity — fix anything it flags.
 3. Summarise per node: cross-links preserved (count in vs out), sections now present

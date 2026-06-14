@@ -81,9 +81,10 @@ One utterance is not one node.
     back the attribution with a `source` node. First `grep web/sources/` for an existing source for
     that **work**; if none exists, **research the exact citation** (author, title, venue, year,
     pages) — use web search rather than guessing, and never fabricate a reference — then create the
-    source node (title `<Author — Work (year)>`; `author:` is whoever added it, normally `mishka`,
-    **never** the cited author). Cite it in the body with `[[source-id]]` at the point of
-    attribution. Prefer a source for the **specific work** over a bare "Person" node, and split a
+    source node (frontmatter `title` is the short `<Author — Work (year)>` handle; its body carries
+    the full reference in **APA 7th-edition** style, per `schemas/source.md`; `author:` is whoever
+    added it, normally `mishka`, **never** the cited author). Cite it in the body with `[[source-id]]`
+    at the point of attribution. Prefer a source for the **specific work** over a bare "Person" node, and split a
     person's distinct works into distinct sources when they ground different ideas (e.g.
     `source-block-1978` for *Troubles with Functionalism* vs `source-block` for *Psychologism and
     Behaviorism*). If you genuinely cannot pin down the source, flag it for the user rather than

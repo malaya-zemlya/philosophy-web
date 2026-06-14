@@ -104,6 +104,15 @@ a full claim sentence — cite it with an alias, `[[id|short label]]`, and the p
 the encyclopedia build and lint both honor the alias. In `### See also`, the plain `[[id]]` full
 title is usually what you want.
 
+### Cite your sources (named people and their ideas)
+
+A good encyclopedia backs its attributions. When an entry names a real philosopher, scientist, or
+writer, or credits a specific idea/argument/result to one, cite the work with a `source` node:
+`grep web/sources/` for an existing one, otherwise **research the exact citation** (never guess or
+fabricate) and create the source, then reference it inline with `[[source-id]]` at the attribution.
+Give a person's distinct works distinct sources. Full rule + procedure: CLAUDE.md rule 10. See
+`web/sources/lewis-1988.md` / `web/sources/block-1978.md` for the node shape.
+
 ## Worked example
 
 A concept entry written to this standard (frontmatter per `schemas/concept.md`):

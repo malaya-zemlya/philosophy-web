@@ -1,7 +1,7 @@
 ---
 name: encyclopedist
 description: "Read-only drafting agent for the philosophy web's encyclopedia style. Given content-node ids, reads the style standard + each node and RETURNS a proposed encyclopedia-style rewrite (presentation only) — it never writes to web/. Invoke from the /encyclopedify command to keep the heavy reference docs and original bodies out of the main thread's context."
-tools: Read, Grep, Glob
+tools: Read, Grep, Glob, WebSearch, WebFetch
 model: inherit
 skills:
   - web-protocol
@@ -51,6 +51,13 @@ Use `make find Q=<slug>` or grep to locate node files.
    - Section order at the end: main prose → `### In plain terms` (keep an existing one; add only if
      genuinely jargon-heavy) → `### See also` **last**.
    - **Neutral voice:** no character names; real philosophers/sources are fine.
+   - **Source named attributions (CLAUDE.md rule 10).** Where the entry credits a real
+     philosopher/scientist/writer or their work, `grep web/sources/` for a source node for that work.
+     If one exists, cite it `[[source-id]]` at the attribution. If none exists, **research the exact
+     citation** (author, title, venue, year, pages) with WebSearch/WebFetch and **propose a complete
+     new source node** (see Return), plus the `[[source-id]]` citation woven into the draft. You still
+     do not *write* it — the main thread does. Never invent a citation; if you cannot pin one down,
+     flag it instead of guessing.
    - Edit the `[[id]]` shorthand, never a rendered `[slug](relpath)` link.
 5. **Do not touch meaning.** No new/softened/strengthened/merged/split claims, no flattened senses.
    If an entry reads as a fragment because it is genuinely two ideas, **flag it — do not fix it.**
@@ -59,10 +66,14 @@ Use `make find Q=<slug>` or grep to locate node files.
 - `id` · `type` · proposed `headword:` (or "none")
 - cross-link count: **N in → N out** (and the list if any would change position)
 - the **drafted body**, verbatim and complete (this is the payload the main thread will write)
+- **Proposed source nodes (to write):** for any work you newly cited, the complete node content —
+  `id` (`source-<slug>`), `title` (`<Author — Work (year)>`), `author: mishka`, and a short body
+  (relevance + the full citation you researched). The main thread writes these alongside the entry.
+  ("none" if every attribution was already sourced.)
 - **Form changes:** 2–4 bullets on what changed in *presentation* only
 - **Meaning unchanged:** one line affirming proposition, scope, and every distinction are intact
 - **Flagged for the human (do not apply):** any meaning-level issue — a cross-reference the prose
-  now wants that isn't yet a frontmatter edge, wording you suspect is wrong, a fragment, etc. ("none"
-  if clean)
+  now wants that isn't yet a frontmatter edge, wording you suspect is wrong, a fragment, an
+  attribution whose source you could **not** pin down, etc. ("none" if clean)
 
 Make zero changes to any file. If you couldn't resolve a target, say which and why.

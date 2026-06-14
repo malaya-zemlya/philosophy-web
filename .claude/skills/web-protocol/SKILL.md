@@ -115,6 +115,22 @@ character.** Its body is written from a neutral standpoint and **must not name a
 - What a character believes, concedes, or will be moved by lives **only** in that character's
   portfolio (`web/characters/<id>.md`) and in the transcripts — never baked into a content node.
 
+## Cite sources for named people and ideas (like a good encyclopedia)
+When a node names a real philosopher/scientist/writer, or credits a specific idea, argument,
+position, or result to one, **back the attribution with a `source` node**:
+1. `grep web/sources/` for an existing source for that **work**. If one exists, cite it.
+2. If none exists, **research the exact citation** (author, title, venue, year, pages) — use web
+   search, do not guess or fabricate — and create the source node: frontmatter `title` =
+   `<Author — Work (year)>`, body = the full reference in **APA 7th-edition** style (see
+   `schemas/source.md`), `author:` = whoever added it (normally `mishka`), never the cited author.
+   Sources take no edges.
+3. Cite it in the body with `[[source-id]]` at the point of attribution.
+Prefer a source for the **specific work** over a bare "Person" node, and give a person's distinct
+works distinct source nodes when they ground different ideas (`source-block-1978` for *Troubles with
+Functionalism* vs `source-block` for *Psychologism and Behaviorism*). If the source cannot be pinned
+down, flag it rather than invent one. (A read-only drafting agent researches the citation and
+**proposes** the source node for the writing thread to create; it never writes nodes itself.)
+
 ## The grep-before-create rule (non-negotiable)
 Before creating a node:
 1. `grep -ri "<2-3 key phrases>" web/` and read the closest hits.
