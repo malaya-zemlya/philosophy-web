@@ -22,6 +22,16 @@ GLYPHS = {
     "question": r"?",                 #    an open issue
 }
 
+# The right-hand column of the front-matter "Symbols" table — what each glyph means. LaTeX (so
+# \emph{…} etc. work). Edit freely; an em dash (—) reads well as the name/gloss separator.
+MEANINGS = {
+    "concept":  r"\emph{concept} — a term and its definition",
+    "claim":    r"\emph{claim} — a single truth-apt proposition",
+    "argument": r"\emph{argument} — premises leading to a conclusion",
+    "position": r"\emph{position} — a named standpoint or view",
+    "question": r"\emph{question} — an open issue under debate",
+}
+
 # Palette to copy from (all render-safe). Avoid pairing look-alikes (◆ with ■, ⊢ with ⊨).
 #   diamonds    $\blacklozenge$ ◆    $\lozenge$ ◇
 #   circles     $\odot$ ⊙    $\bigcirc$ ○    $\oslash$ ⊘    $\circledast$ ⊛

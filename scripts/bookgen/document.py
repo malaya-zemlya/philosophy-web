@@ -11,7 +11,7 @@ from typing import Dict, List, Set, Tuple
 import weblinks
 
 from .config import BookOptions, ROOT
-from .glyphs import GLYPHS, GLYPH_ORDER
+from .glyphs import GLYPHS, GLYPH_ORDER, MEANINGS
 from .inline import Ctx, render_inline, render_reference
 from .latex import latex_escape, unicode_declarations
 from .markdown import render_body
@@ -25,12 +25,13 @@ def _glyph(node: Node) -> str:
 
 
 def _symbol_key(used) -> List[str]:
-    """A small front-matter 'Symbols' section (a key, like a list of abbreviations)."""
-    out = [r"\symbolkeyheading"]
-    out += [r"\symbolkeyitem{%s}{%s}" % (GLYPHS[t], t.capitalize())
+    """A front-matter 'Symbols' section: a two-column table (glyph -> meaning), like a book's
+    'List of symbols' page."""
+    rows = [r"\symbolrow{%s}{%s}" % (GLYPHS[t], MEANINGS.get(t, t))
             for t in GLYPH_ORDER if t in used and t in GLYPHS]
-    out.append(r"\symbolkeyend")
-    return out
+    if not rows:
+        return []
+    return [r"\symbolkeyheading", r"\begin{symbolkey}"] + rows + [r"\end{symbolkey}"]
 
 
 def fill(template: str, mapping: Dict[str, str]) -> str:

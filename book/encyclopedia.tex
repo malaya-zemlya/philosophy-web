@@ -117,13 +117,14 @@
 \setlist[seealso]{label=\textcolor{refcolor}{\small$\triangleright$}, leftmargin=1.4em,
   itemsep=2pt, topsep=2pt, parsep=0pt}
 
-% --- front matter: the Symbols key (a small list-of-abbreviations section) ---
-% #1 = glyph (full strength, legible) · #2 = type name
+% --- front matter: the Symbols key, a "list of symbols" two-column table (glyph -> meaning) ---
 \newcommand{\symbolkeyheading}{\thispagestyle{plain}\markboth{}{}%
-  \vspace*{1.2\baselineskip}{\centering\Large\bfseries Symbols\par}\vspace{0.8\baselineskip}%
-  \begingroup\centering}
-\newcommand{\symbolkeyitem}[2]{\makebox[1.5em][c]{#1}\,\,#2\par\smallskip}
-\newcommand{\symbolkeyend}{\endgroup\clearpage}
+  \vspace*{1.4\baselineskip}{\centering\Large\bfseries Symbols\par}\vspace{1.3\baselineskip}}
+\newenvironment{symbolkey}
+  {\par\begin{center}\begin{tabular}{r@{\hskip 1.6em}l}}
+  {\end{tabular}\end{center}\clearpage}
+% #1 = glyph (right-aligned, full strength) · #2 = meaning (left-aligned)
+\newcommand{\symbolrow}[2]{#1 & #2\\[8pt]}
 
 % --- front matter: a List of Entries row (#1 type glyph · #2 anchor id · #3 name) ---
 \newcommand{\entryline}[3]{\noindent\makebox[1.5em][l]{\entryglyph{#1}}%
@@ -155,12 +156,13 @@
   {\small June 2026\par}
 \end{titlepage}
 \symbolkeyheading
-\symbolkeyitem{$\blacklozenge$}{Concept}
-\symbolkeyitem{$\odot$}{Claim}
-\symbolkeyitem{$\vdash$}{Argument}
-\symbolkeyitem{$\bigstar$}{Position}
-\symbolkeyitem{?}{Question}
-\symbolkeyend
+\begin{symbolkey}
+\symbolrow{$\blacklozenge$}{\emph{concept} — a term and its definition}
+\symbolrow{$\odot$}{\emph{claim} — a single truth-apt proposition}
+\symbolrow{$\vdash$}{\emph{argument} — premises leading to a conclusion}
+\symbolrow{$\bigstar$}{\emph{position} — a named standpoint or view}
+\symbolrow{?}{\emph{question} — an open issue under debate}
+\end{symbolkey}
 \markboth{}{}\thispagestyle{plain}
 \vspace*{1.2\baselineskip}
 {\centering\Large\bfseries List of Entries\par}
