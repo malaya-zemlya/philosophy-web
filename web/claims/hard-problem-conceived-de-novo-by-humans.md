@@ -2,6 +2,7 @@
 id: claim-hard-problem-conceived-de-novo-by-humans
 type: claim
 title: Humans originated the hard-problem concept de novo, with no prior template to copy
+headword: Hard problem conceived de novo
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology, ai]

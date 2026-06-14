@@ -2,6 +2,7 @@
 id: claim-lookup-table-possible
 type: claim
 title: A lookup table can reproduce a mind's behavioural profile without any internal causal organisation
+headword: Lookup table possible
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism]

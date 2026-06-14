@@ -2,6 +2,7 @@
 id: concept-philosophical-zombie
 type: concept
 title: Philosophical zombie
+headword: Philosophical zombie
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

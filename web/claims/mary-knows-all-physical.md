@@ -2,6 +2,7 @@
 id: claim-mary-knows-all-physical
 type: claim
 title: Before leaving the room, Mary knows all the physical facts about colour vision
+headword: Mary knows all physical facts
 author: jackson
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

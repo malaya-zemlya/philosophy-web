@@ -2,6 +2,7 @@
 id: question-substrate-independence
 type: question
 title: Are mental states substrate-independent?
+headword: Substrate independence
 author: mishka
 status: contested
 tags: [philosophy-of-mind, ai-rights]

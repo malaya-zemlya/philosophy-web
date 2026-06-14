@@ -2,6 +2,7 @@
 id: argument-chinese-room
 type: argument
 title: The Chinese Room — running a program is not sufficient for understanding
+headword: Chinese room argument
 author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, functionalism, thought-experiment]

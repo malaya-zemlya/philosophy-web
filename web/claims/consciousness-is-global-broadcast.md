@@ -2,6 +2,7 @@
 id: claim-consciousness-is-global-broadcast
 type: claim
 title: A state is conscious only if its content is globally broadcast to the brain's specialist systems
+headword: Consciousness as global broadcast
 author: baars
 status: asserted
 tags: [philosophy-of-mind, consciousness, cognitive-science]

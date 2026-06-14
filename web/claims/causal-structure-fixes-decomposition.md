@@ -2,6 +2,7 @@
 id: claim-causal-structure-fixes-decomposition
 type: claim
 title: Objective causal structure singles out a privileged functional decomposition
+headword: Causal structure fixes decomposition
 author: generic
 status: contested
 tags: [philosophy-of-mind, functionalism, computation]

@@ -2,6 +2,7 @@
 id: concept-access-consciousness
 type: concept
 title: Access consciousness
+headword: Access consciousness
 author: block
 status: asserted
 tags: [philosophy-of-mind, consciousness, functionalism]

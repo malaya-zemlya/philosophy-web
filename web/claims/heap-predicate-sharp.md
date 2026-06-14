@@ -2,6 +2,7 @@
 id: claim-heap-predicate-sharp
 type: claim
 title: There is a precise grain-count at which a heap becomes a non-heap
+headword: Sharp heap boundary
 author: generic
 status: asserted
 tags: [vagueness, sorites]

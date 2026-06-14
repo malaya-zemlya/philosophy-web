@@ -2,6 +2,7 @@
 id: argument-contaminated-testimony-carries-no-weight
 type: argument
 title: A consciousness-corpus-trained model's hard-problem testimony carries zero evidential weight, not reduced weight
+headword: Contaminated-testimony objection
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, evidence]

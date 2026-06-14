@@ -2,6 +2,7 @@
 id: argument-behavioral-parity
 type: argument
 title: Behavioural parity is evidence of mental status
+headword: Behavioural-parity argument
 author: generic
 status: asserted
 pattern: sign

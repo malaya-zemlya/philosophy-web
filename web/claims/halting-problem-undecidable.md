@@ -2,6 +2,7 @@
 id: claim-halting-problem-undecidable
 type: claim
 title: No Turing machine decides the halting problem
+headword: Halting problem undecidable
 author: turing
 status: asserted
 tags: [computability, logic]

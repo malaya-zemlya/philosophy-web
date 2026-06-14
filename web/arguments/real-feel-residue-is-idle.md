@@ -2,6 +2,7 @@
 id: argument-real-feel-residue-is-idle
 type: argument
 title: The "really feels vs merely reports" residue is unobservable in principle — judged by coherence and usefulness, the relativized claim stands and the residue is idle
+headword: Idle real-feel residue
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, epistemology]

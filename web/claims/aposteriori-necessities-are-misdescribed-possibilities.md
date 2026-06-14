@@ -2,6 +2,7 @@
 id: claim-aposteriori-necessities-are-misdescribed-possibilities
 type: claim
 title: Kripkean a-posteriori necessities are misdescribed genuine possibilities, not conceived impossibilities
+headword: A-posteriori necessities as misdescribed possibilities
 author: chalmers
 status: asserted
 tags: [metaphysics, modality, consciousness]

@@ -2,6 +2,7 @@
 id: claim-mary-gains-self-locating-knowledge
 type: claim
 title: What Mary acquires on first seeing red is self-locating knowledge of how she herself reacts to red, not a new general fact
+headword: Mary gains self-locating knowledge
 author: perry
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment, indexicality]

@@ -2,6 +2,7 @@
 id: argument-organisational-grain-dissolves-dilemma
 type: argument
 title: The organisational grain is a principled middle that escapes both horns of the grain dilemma
+headword: Organisational-grain middle
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]

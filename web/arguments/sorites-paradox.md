@@ -2,6 +2,7 @@
 id: argument-sorites-paradox
 type: argument
 title: The sorites paradox (the heap)
+headword: Sorites paradox
 author: eubulides
 status: asserted
 tags: [vagueness, sorites]

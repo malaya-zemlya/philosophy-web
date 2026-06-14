@@ -2,6 +2,7 @@
 id: argument-structure-and-dynamics
 type: argument
 title: The structure-and-dynamics argument — function omits the categorical/intrinsic
+headword: Structure-and-dynamics argument
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

@@ -2,6 +2,7 @@
 id: argument-knowledge-argument
 type: argument
 title: The Knowledge Argument — Mary learns a fact the physical description omits
+headword: Knowledge argument (Mary's room)
 author: jackson
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

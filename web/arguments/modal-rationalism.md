@@ -2,6 +2,7 @@
 id: argument-modal-rationalism
 type: argument
 title: Modal rationalism — ideal conceivability is a guide to possibility
+headword: Modal rationalism
 author: chalmers
 status: asserted
 tags: [metaphysics, modality, consciousness]

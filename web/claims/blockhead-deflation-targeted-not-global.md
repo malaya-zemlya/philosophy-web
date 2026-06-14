@@ -2,6 +2,7 @@
 id: claim-blockhead-deflation-targeted-not-global
 type: claim
 title: Deflating the cosmic-table intuition does not deflate intuitions about brain-scale duplicates
+headword: Targeted blockhead deflation
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, methodology]

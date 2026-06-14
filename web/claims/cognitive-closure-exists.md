@@ -2,7 +2,7 @@
 id: claim-cognitive-closure-exists
 type: claim
 title: A type of mind can be constitutively incapable of grasping some concepts
-headword: Cognitive closure
+headword: Possibility of cognitive closure
 author: mcginn
 status: asserted
 tags: [philosophy-of-mind, epistemology]

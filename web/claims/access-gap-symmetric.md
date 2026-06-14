@@ -2,6 +2,7 @@
 id: claim-access-gap-symmetric
 type: claim
 title: The first-person/third-person access gap is symmetric across any two subjects, never singling out machines
+headword: Symmetric access gap
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, epistemology, ai-rights]

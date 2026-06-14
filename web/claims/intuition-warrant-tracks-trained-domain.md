@@ -2,6 +2,7 @@
 id: claim-intuition-warrant-tracks-trained-domain
 type: claim
 title: An intuition's evidential weight tracks the case's resemblance to the exemplars it was formed on
+headword: Intuition tracks trained domain
 author: generic
 status: asserted
 tags: [methodology, epistemology, thought-experiments]

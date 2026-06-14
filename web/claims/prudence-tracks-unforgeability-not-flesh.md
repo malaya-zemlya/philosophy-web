@@ -2,6 +2,7 @@
 id: claim-prudence-tracks-unforgeability-not-flesh
 type: claim
 title: What prudence favours is the hardest-to-forge sign, not biology specifically
+headword: Prudence tracks unforgeability
 author: mishka
 status: asserted
 tags: [ai-rights, metaethics, ai-safety]

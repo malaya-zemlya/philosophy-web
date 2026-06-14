@@ -2,6 +2,7 @@
 id: claim-llm-functional-introspection
 type: claim
 title: Some current LLMs exhibit limited, unreliable functional introspective awareness of their internal states
+headword: LLM functional introspection
 author: lindsey
 status: asserted
 tags: [philosophy-of-mind, ai, interpretability]

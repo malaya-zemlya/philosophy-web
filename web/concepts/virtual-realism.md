@@ -2,6 +2,7 @@
 id: concept-virtual-realism
 type: concept
 title: Virtual realism (world-indexed properties of a simulation)
+headword: Virtual realism
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, metaphysics, simulation, virtual-reality]

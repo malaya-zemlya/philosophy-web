@@ -2,6 +2,7 @@
 id: claim-mind-handles-unbounded-inputs
 type: claim
 title: A genuine mind can respond appropriately to novel inputs beyond any fixed finite stock
+headword: Minds handle unbounded inputs
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, productivity]

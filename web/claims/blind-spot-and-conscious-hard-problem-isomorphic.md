@@ -2,6 +2,7 @@
 id: claim-blind-spot-and-conscious-hard-problem-isomorphic
 type: claim
 title: An AI's blind-spot hard problem is structurally isomorphic to a conscious AI's hard problem
+headword: Blind-spot/conscious isomorphism
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai]

@@ -2,6 +2,7 @@
 id: claim-functional-decomposition-relative
 type: claim
 title: A physical system has no unique functional decomposition
+headword: Observer-relative decomposition
 author: searle
 status: asserted
 tags: [philosophy-of-mind, functionalism, computation]

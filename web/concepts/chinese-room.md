@@ -2,6 +2,7 @@
 id: concept-chinese-room
 type: concept
 title: The Chinese Room
+headword: Chinese room
 author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, functionalism, thought-experiment]

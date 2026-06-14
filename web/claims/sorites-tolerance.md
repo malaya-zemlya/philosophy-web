@@ -2,6 +2,7 @@
 id: claim-sorites-tolerance
 type: claim
 title: Removing a single grain from a heap always leaves a heap
+headword: Sorites tolerance
 author: eubulides
 status: asserted
 tags: [vagueness, sorites]

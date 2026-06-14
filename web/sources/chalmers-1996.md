@@ -14,10 +14,10 @@ against physicalism, and the source of much of the consciousness sub-web's vocab
 [conceivability-entails-possibility](../claims/conceivability-entails-possibility.md), and [zombie-conceivability](../arguments/zombie-conceivability.md); also the home of
 "naturalistic dualism" ([dualism](../positions/dualism.md)) and a route toward [russellian-monism](../positions/russellian-monism.md).
 
-References:
+Reference:
 - Chalmers, D. J. (1996). *The conscious mind: In search of a fundamental theory*. Oxford University Press. (The
   zombie and the two-dimensional conceivability→possibility apparatus (ch. 3–4); the failure of
   logical supervenience of the phenomenal on the physical; naturalistic dualism and the
   epiphenomenalism worry that pushes toward Russellian monism.)
-- Chalmers, D. J. (1995). Facing up to the problem of consciousness. (The hard problem —
-  [hard-problem](../concepts/hard-problem.md).)
+
+For the 1995 paper that coined "the hard problem," see [chalmers-1995](chalmers-1995.md).

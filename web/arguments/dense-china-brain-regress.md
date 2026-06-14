@@ -2,6 +2,7 @@
 id: argument-dense-china-brain-regress
 type: argument
 title: The dense China-brain regress reopens the grain dilemma against the organisational middle
+headword: Dense China-brain regress
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]

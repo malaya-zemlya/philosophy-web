@@ -2,6 +2,7 @@
 id: claim-chinese-nation-lacks-qualia
 type: claim
 title: A population realising a mind's functional organisation would nonetheless have no phenomenal consciousness
+headword: Chinese nation lacks qualia
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness]

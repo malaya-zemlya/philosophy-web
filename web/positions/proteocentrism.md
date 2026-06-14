@@ -2,6 +2,7 @@
 id: position-proteocentrism
 type: position
 title: Proteocentrism
+headword: Proteocentrism
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, metaethics, ai-rights]

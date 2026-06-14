@@ -51,8 +51,22 @@ One utterance is not one node.
    `### In plain terms`) mapping the entry's related nodes — required for every related node
    the prose didn't absorb, allowed for the body's most important links, each with a clause
    saying how it relates. Claims stay atomic and short, but still read as prose. 
+
+   **New nodes are born encyclopedia-style.** Create every new content node (concept, position,
+   argument, question — and claims, as short prose) with `style: encyclopedia` and a body that meets
+   this standard from the start. The `style: legacy` tag is *only* a backlog marker for old
+   un-converted nodes; never copy it onto something you are writing fresh just because a neighbouring
+   file still carries it.
+
+   **Headwords** (the `headword:` display name that heads an entry and labels its cross-references):
+   a **noun phrase**, never a sentence; **no leading article** (*The/A/An*) unless intrinsic to a
+   proper name; **sentence case** (capitalize only the first word + proper nouns/eponyms); short and
+   scannable, a parenthetical gloss only where it disambiguates. The full proposition stays in
+   `title:` (the subtitle); the body opens in its own voice, not "A claim that…". Give every new
+   node a headword — claims included. Full standard + worked rules: `schemas/_style.md`
+   ("What makes a good headword").
    
-   Avoid em-dash constructions in prose (bad: "The four varieties are mutually compatible — a single case may exhibit several at
+   Use em-dash constructions sparingly in prose (bad: "The four varieties are mutually compatible — a single case may exhibit several at
   once — but they spring from different sources and call for different remedies", better: "These four varieties can overlap in a single case, yet each has a distinct source and calls for a distinct remedy.")
 
    **Mathematics:** write formulas in LaTeX — inline between single dollars (`$x_i^2$`), display by
@@ -90,6 +104,7 @@ One utterance is not one node.
     Behaviorism*). If you genuinely cannot pin down the source, flag it for the user rather than
     invent one. This applies to encyclopedify conversions too: surfacing a named attribution that
     lacks a source is part of bringing an entry up to standard.
+11. New nodes should be created in enencyclopedia form.
 
 ## Where things live
 - Per-type schemas (read before create/edit): `schemas/<type>.md`

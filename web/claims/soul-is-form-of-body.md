@@ -2,6 +2,7 @@
 id: claim-soul-is-form-of-body
 type: claim
 title: The mind is the form of a living body
+headword: Soul as form of body
 author: aristotle
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

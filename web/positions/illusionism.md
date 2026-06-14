@@ -2,6 +2,7 @@
 id: position-illusionism
 type: position
 title: Illusionism
+headword: Illusionism
 author: frankish
 status: asserted
 tags: [philosophy-of-mind, consciousness]

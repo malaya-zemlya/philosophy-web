@@ -2,6 +2,7 @@
 id: claim-lookup-table-lacks-mind
 type: claim
 title: A system that produces behaviour solely by stored lookup has no mental states
+headword: Lookup table lacks mind
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism]

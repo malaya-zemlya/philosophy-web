@@ -2,6 +2,7 @@
 id: position-integrated-information-theory
 type: position
 title: Integrated Information Theory (IIT)
+headword: Integrated information theory (IIT)
 author: tononi
 status: asserted
 tags: [philosophy-of-mind, consciousness, cognitive-science, ai]

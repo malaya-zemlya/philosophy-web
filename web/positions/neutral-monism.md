@@ -2,6 +2,7 @@
 id: position-neutral-monism
 type: position
 title: Neutral monism
+headword: Neutral monism
 author: russell
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

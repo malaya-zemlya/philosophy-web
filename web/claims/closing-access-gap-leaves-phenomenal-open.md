@@ -2,6 +2,7 @@
 id: claim-closing-access-gap-leaves-phenomenal-open
 type: claim
 title: Removing a system's access barriers to self-explanation need not remove the phenomenal explanatory gap
+headword: Access gap closed, phenomenal open
 author: block
 status: asserted
 tags: [philosophy-of-mind, consciousness]

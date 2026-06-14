@@ -2,6 +2,7 @@
 id: claim-sim-agents-can-have-sim-qualia
 type: claim
 title: Agents in a fine-grained physics simulation could feel the simulated properties (have sim-qualia)
+headword: Sim-agents' sim-qualia
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, simulation]

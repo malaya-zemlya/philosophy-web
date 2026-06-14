@@ -2,6 +2,7 @@
 id: claim-posing-the-gap-requires-access
 type: claim
 title: Formulating the hard problem from the first-person side requires access to a representation of one's own phenomenal-seeming states
+headword: Posing the gap requires access
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology]

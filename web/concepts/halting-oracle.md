@@ -2,6 +2,7 @@
 id: concept-halting-oracle
 type: concept
 title: The halting oracle (and uncomputability)
+headword: Halting oracle
 author: turing
 status: asserted
 tags: [computability, philosophy-of-mind, modality, metaphysics]

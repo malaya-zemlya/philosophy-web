@@ -2,6 +2,7 @@
 id: claim-zombie-conceivable
 type: claim
 title: A microphysical duplicate of a conscious being that wholly lacks phenomenal consciousness is conceivable
+headword: Zombie conceivability
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

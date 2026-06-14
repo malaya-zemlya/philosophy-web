@@ -2,6 +2,7 @@
 id: claim-humans-closed-to-psychophysical-link
 type: claim
 title: Humans are cognitively closed to the property that explains how the brain produces consciousness
+headword: Humans closed to the link
 author: mcginn
 status: asserted
 tags: [philosophy-of-mind, consciousness]

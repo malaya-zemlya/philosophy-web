@@ -2,6 +2,7 @@
 id: argument-dancing-qualia-begs-the-question
 type: argument
 title: The dancing/fading-qualia reductio begs the question by presupposing functionalism about introspection
+headword: Dancing-qualia circularity
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness]

@@ -2,6 +2,7 @@
 id: claim-reality-fundamental-stuff-neutral
 type: claim
 title: Reality's fundamental constituents are neither mental nor physical
+headword: Neutral fundamental stuff
 author: russell
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

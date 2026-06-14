@@ -2,6 +2,7 @@
 id: claim-lookup-table-physically-unrealisable
 type: claim
 title: A lookup table reproducing a human- or LLM-scale behavioural profile is physically unrealisable
+headword: Physically unrealisable table
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

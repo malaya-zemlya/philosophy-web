@@ -2,6 +2,7 @@
 id: argument-role-grain-dilemma
 type: argument
 title: The grain dilemma for functional "role" (too liberal vs. too chauvinistic)
+headword: Grain dilemma
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism]

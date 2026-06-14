@@ -2,6 +2,7 @@
 id: claim-knowhow-is-knowledge-that
 type: claim
 title: Knowing how to do something is a species of propositional knowledge
+headword: Know-how as knowledge-that
 author: stanley
 status: asserted
 tags: [epistemology, know-how]

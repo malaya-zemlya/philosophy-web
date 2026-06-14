@@ -2,6 +2,7 @@
 id: argument-unforgeability-is-not-flesh
 type: argument
 title: Unforgeability is not flesh — the prudential argument favours unforgeability, not biology
+headword: Unforgeability, not flesh
 author: mishka
 status: asserted
 tags: [ai-rights, metaethics, ai-safety]

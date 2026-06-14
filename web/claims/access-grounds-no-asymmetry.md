@@ -2,6 +2,7 @@
 id: claim-access-grounds-no-asymmetry
 type: claim
 title: First-person access grounds no moral-status asymmetry that singles out machines
+headword: No access-based asymmetry
 author: mishka
 status: asserted
 tags: [metaethics, ai-rights, epistemology]

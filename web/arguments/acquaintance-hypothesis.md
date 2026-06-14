@@ -2,6 +2,7 @@
 id: argument-acquaintance-hypothesis
 type: argument
 title: The Acquaintance Hypothesis — Mary meets the experience rather than learning a truth
+headword: Acquaintance hypothesis
 author: conee
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

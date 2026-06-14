@@ -2,6 +2,7 @@
 id: concept-llmary
 type: concept
 title: LLMary (the language model that never saw token 123)
+headword: LLMary
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, thought-experiment]

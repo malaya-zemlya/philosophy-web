@@ -2,6 +2,7 @@
 id: argument-llmary-token-encounter
 type: argument
 title: LLMary — a model that has read all of AI but never seen token 123 updates on first encounter, yet the whole episode is physical, refuting the Knowledge Argument's conditional
+headword: LLMary token encounter
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, thought-experiment]

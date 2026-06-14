@@ -2,6 +2,7 @@
 id: claim-reality-is-fundamentally-mental
 type: claim
 title: Reality is fundamentally mental
+headword: Reality as fundamentally mental
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

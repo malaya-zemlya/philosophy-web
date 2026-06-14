@@ -2,7 +2,7 @@
 id: argument-ability-hypothesis
 type: argument
 title: The Ability Hypothesis — experience teaches know-how, so Mary learns no new fact
-headword: The Ability Hypothesis
+headword: Ability hypothesis
 author: lewis
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

@@ -2,6 +2,7 @@
 id: position-global-workspace
 type: position
 title: Global Workspace Theory
+headword: Global workspace theory
 author: baars
 status: asserted
 tags: [philosophy-of-mind, consciousness, cognitive-science]

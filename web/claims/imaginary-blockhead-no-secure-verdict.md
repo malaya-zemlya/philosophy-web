@@ -2,6 +2,7 @@
 id: claim-imaginary-blockhead-no-secure-verdict
 type: claim
 title: For a merely conceivable lookup table, the intuition that it lacks a mind is not compelled
+headword: "Imaginary blockhead: no verdict"
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, methodology]

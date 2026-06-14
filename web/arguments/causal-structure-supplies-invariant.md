@@ -2,6 +2,7 @@
 id: argument-causal-structure-supplies-invariant
 type: argument
 title: The causal-structure reply — objective counterfactual structure supplies the invariant
+headword: Causal-structure reply
 author: generic
 status: asserted
 tags: [philosophy-of-mind, functionalism, computation]

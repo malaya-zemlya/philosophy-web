@@ -2,6 +2,7 @@
 id: position-mysterianism
 type: position
 title: Mysterianism (transcendental naturalism)
+headword: Mysterianism
 author: mcginn
 status: asserted
 tags: [philosophy-of-mind, consciousness]

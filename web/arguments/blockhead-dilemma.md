@@ -2,6 +2,7 @@
 id: argument-blockhead-dilemma
 type: argument
 title: The blockhead dilemma — physically impossible, or imaginatively under-determined
+headword: Blockhead dilemma
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, methodology]

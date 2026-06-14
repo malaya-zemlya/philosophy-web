@@ -2,6 +2,7 @@
 id: argument-indexical-reply
 type: argument
 title: The Indexical Reply — Mary learns where she is in the world, not what is in the world
+headword: Indexical reply
 author: perry
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment, indexicality]

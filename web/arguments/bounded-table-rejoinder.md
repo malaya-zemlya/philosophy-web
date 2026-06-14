@@ -2,6 +2,7 @@
 id: argument-bounded-table-rejoinder
 type: argument
 title: Block's bounded-table rejoinder — a lifetime-bounded table escapes the combinatorial reply
+headword: Bounded-table rejoinder
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

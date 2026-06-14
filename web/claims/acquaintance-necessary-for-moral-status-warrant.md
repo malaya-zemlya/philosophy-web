@@ -2,6 +2,7 @@
 id: claim-acquaintance-necessary-for-moral-status-warrant
 type: claim
 title: First-person acquaintance with a subject's experience is necessary for justified attribution of moral status to it
+headword: Acquaintance as moral-status condition
 author: mishka
 status: contested
 tags: [metaethics, epistemology, ai-rights]

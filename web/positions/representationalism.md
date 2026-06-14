@@ -2,6 +2,7 @@
 id: position-representationalism
 type: position
 title: Representationalism (intentionalism)
+headword: Representationalism
 author: tye
 status: asserted
 tags: [philosophy-of-mind, consciousness]

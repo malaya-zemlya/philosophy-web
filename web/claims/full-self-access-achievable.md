@@ -2,6 +2,7 @@
 id: claim-full-self-access-achievable
 type: claim
 title: A finite system can be given complete internal access to its own current state
+headword: Full self-access achievable
 author: generic
 status: contested
 tags: [philosophy-of-mind, ai, epistemology]

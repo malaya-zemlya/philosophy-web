@@ -2,6 +2,7 @@
 id: claim-functionalism-owes-decomposition-invariant
 type: claim
 title: Functionalism owes an observer-independent invariant that fixes a system's decomposition
+headword: Functionalism owes an invariant
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness]

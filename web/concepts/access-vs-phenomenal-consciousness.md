@@ -2,7 +2,7 @@
 id: concept-access-vs-phenomenal-consciousness
 type: concept
 title: Access consciousness vs. phenomenal consciousness
-headword: Access/phenomenal distinction
+headword: Access vs. phenomenal consciousness
 author: block
 status: asserted
 tags: [philosophy-of-mind, consciousness]

@@ -84,6 +84,29 @@ a headword renders that short form, which removes most of the need to hand-alias
 "Citing a node whose title reads awkwardly inline" below — a `headword:` is the durable fix, an
 inline `[[id|alias]]` the local one).
 
+**What makes a good headword.** It is the entry's *name in the index*, so write it like one:
+
+1. **A noun phrase, never a sentence or a truth-claim.** It names the *thing* the entry is about — a
+   concept, a view, an argument, a problem. *Knowledge argument*, not *Mary learns a fact the physical
+   description omits*; *Absence of an experiential threshold*, not *There is no non-arbitrary point at
+   which experience first appears*. (The precise proposition still lives in `title`, printed as the
+   subtitle — the headword does not have to carry it.)
+2. **No leading article.** Don't begin with *The / A / An* unless the article is intrinsic to a proper
+   name (*The Hague*). *Chinese room*, not *The Chinese Room*; *Ability hypothesis*, not *The Ability
+   Hypothesis*.
+3. **Sentence case.** Capitalize only the first word and proper nouns/eponyms (*Mary, Russellian,
+   Block, Parfit, Penrose, Φ, Church–Turing, IIT*). So *Global workspace theory*, *Knowledge argument*,
+   *Russellian monism* — but *Integrated information theory (IIT)*.
+4. **Short and scannable** — about one to four words. A parenthetical gloss is allowed only where it
+   genuinely disambiguates (*Grain (of role individuation)*), never as a second clause.
+5. **The body opens in its own voice** — define the term, assert the proposition, state what the
+   argument concludes. Never *"A claim that…"* or *"This entry argues that…"*.
+
+Every concept, position, argument, and question carries a `headword`; claims carry one too (their
+`title` is a full proposition, so the noun headword is what names them in cross-references and the
+index). The sweep that brought existing nodes up to this is recorded in `proposals/headword-rename.md`
+and applied by `scripts/apply_headwords.py`.
+
 ### Tracking conversion (`style:` frontmatter field)
 
 The web is being brought up to this standard incrementally, so every content node carries a

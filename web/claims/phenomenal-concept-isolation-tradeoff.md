@@ -2,6 +2,7 @@
 id: claim-phenomenal-concept-isolation-tradeoff
 type: claim
 title: A phenomenal concept cannot be at once informative enough to ground self-knowledge while isolated enough to deflate the explanatory gap
+headword: Phenomenal-concept trade-off
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology]

@@ -2,6 +2,7 @@
 id: claim-consciousness-noncomputable
 type: claim
 title: Consciousness involves non-computable physical processes
+headword: Non-computable consciousness
 author: penrose
 status: asserted
 tags: [philosophy-of-mind, consciousness, computation, physics]

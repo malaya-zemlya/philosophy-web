@@ -2,6 +2,7 @@
 id: argument-rights-sign-forgeable
 type: argument
 title: A rights-granting behavioural sign will be forged, so caution favours the unforgeable mark
+headword: Forgeable rights-sign
 author: mishka
 status: asserted
 tags: [ai-rights, metaethics, ai-safety]

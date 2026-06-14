@@ -2,6 +2,7 @@
 id: argument-conceivable-not-physically-realizable
 type: argument
 title: The halting oracle shows conceivability does not entail physical realizability
+headword: Conceivable yet unrealizable
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, modality, metaphysics, computability]

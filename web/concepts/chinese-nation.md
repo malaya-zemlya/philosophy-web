@@ -2,7 +2,7 @@
 id: concept-chinese-nation
 type: concept
 title: Chinese Nation (homunculi-headed robot)
-headword: Chinese Nation
+headword: Chinese nation
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness, thought-experiment]

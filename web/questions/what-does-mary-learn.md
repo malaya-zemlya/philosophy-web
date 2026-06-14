@@ -2,6 +2,7 @@
 id: question-what-does-mary-learn
 type: question
 title: What, if anything, does Mary gain when she first sees red?
+headword: What Mary learns
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

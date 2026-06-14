@@ -2,6 +2,7 @@
 id: claim-forgeable-sign-unfit-as-criterion
 type: claim
 title: A behavioural sign that is cheap to forge is unfit to serve as the criterion of moral standing
+headword: Forgeable sign unfit as criterion
 author: mishka
 status: asserted
 tags: [ai-rights, metaethics, epistemology]

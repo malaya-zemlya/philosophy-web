@@ -2,6 +2,7 @@
 id: argument-gap-deflated-by-phenomenal-concepts
 type: argument
 title: The explanatory gap is predicted by strong functionalism (phenomenal concepts + dancing-qualia)
+headword: Phenomenal-concept deflation
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, bayesian]

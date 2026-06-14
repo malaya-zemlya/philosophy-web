@@ -2,6 +2,7 @@
 id: claim-mental-states-causally-inert
 type: claim
 title: Phenomenal mental states are caused by physical processes but have no physical effects
+headword: Causally inert qualia
 author: huxley
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

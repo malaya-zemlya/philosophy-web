@@ -2,6 +2,7 @@
 id: claim-llm-access-similarity-not-encoding
 type: claim
 title: An LLM's introspective access reaches the similarity structure of its internal states but not the encoding that carries it
+headword: Similarity, not encoding
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, ai, interpretability]

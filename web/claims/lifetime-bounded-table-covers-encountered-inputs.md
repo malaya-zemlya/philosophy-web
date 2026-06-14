@@ -2,6 +2,7 @@
 id: claim-lifetime-bounded-table-covers-encountered-inputs
 type: claim
 title: A lookup table can be bounded to cover every input a subject encounters in a lifetime
+headword: Lifetime-bounded table
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

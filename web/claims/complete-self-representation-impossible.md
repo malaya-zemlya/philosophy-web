@@ -2,6 +2,7 @@
 id: claim-complete-self-representation-impossible
 type: claim
 title: No finite system can losslessly represent its entire current state within itself
+headword: Self-representation incompleteness
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, ai, computation]

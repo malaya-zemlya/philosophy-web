@@ -2,6 +2,7 @@
 id: claim-finite-table-misses-inputs
 type: claim
 title: For any finite lookup table there are finite inputs outside its stored domain, to which it can only "respond" by ignoring the excess of the input
+headword: Finite table misses inputs
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

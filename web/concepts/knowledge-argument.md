@@ -2,6 +2,7 @@
 id: concept-knowledge-argument
 type: concept
 title: The Knowledge Argument (Mary the colour scientist)
+headword: Knowledge argument
 author: jackson
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

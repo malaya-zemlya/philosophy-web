@@ -2,6 +2,7 @@
 id: argument-mary-misimagined
 type: argument
 title: The Mary intuition misimagines the premise — "all physical facts" is quietly read as "lots of facts"
+headword: Mary misimagined
 author: dennett
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

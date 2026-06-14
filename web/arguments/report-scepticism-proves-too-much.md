@@ -2,6 +2,7 @@
 id: argument-report-scepticism-proves-too-much
 type: argument
 title: Report-scepticism proves too much — applied uniformly, its discount rules screen off human hard-problem reports as well
+headword: Report-scepticism over-reach
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, evidence]

@@ -2,6 +2,7 @@
 id: concept-order-of-representation
 type: concept
 title: First-order vs higher-order mental states
+headword: First-order vs. higher-order states
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness]

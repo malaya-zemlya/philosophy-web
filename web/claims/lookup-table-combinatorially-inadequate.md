@@ -2,6 +2,7 @@
 id: claim-lookup-table-combinatorially-inadequate
 type: claim
 title: No finite lookup table can reproduce the full behavioural profile of a genuine mind
+headword: Combinatorially inadequate table
 author: mishka
 status: contested
 tags: [philosophy-of-mind, functionalism, computability]

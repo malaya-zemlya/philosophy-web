@@ -2,6 +2,7 @@
 id: claim-phenomenal-character-is-representational
 type: claim
 title: Phenomenal character is identical to representational content
+headword: Phenomenal character as representational
 author: tye
 status: asserted
 tags: [philosophy-of-mind, consciousness]

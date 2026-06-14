@@ -2,6 +2,7 @@
 id: claim-consciousness-is-biological-feature
 type: claim
 title: Consciousness is a higher-level feature caused by neurobiological processes
+headword: Consciousness as biological feature
 author: searle
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai]

@@ -2,6 +2,7 @@
 id: claim-counterfactual-structure-underdetermines-decomposition
 type: claim
 title: Counterfactual constraints yield non-triviality but not a unique decomposition
+headword: Counterfactuals underdetermine decomposition
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computation]

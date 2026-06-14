@@ -2,6 +2,7 @@
 id: claim-consciousness-has-natural-explanation
 type: claim
 title: There is a natural property of the brain that explains consciousness
+headword: Natural explanation of consciousness
 author: mcginn
 status: asserted
 tags: [philosophy-of-mind, consciousness]

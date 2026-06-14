@@ -2,6 +2,7 @@
 id: claim-some-truths-about-experience-not-physically-deducible
 type: claim
 title: There are truths about conscious experience not deducible from the complete physical description
+headword: Non-deducible experiential truths
 author: jackson
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

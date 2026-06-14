@@ -2,6 +2,7 @@
 id: claim-unobservables-judged-by-coherence-and-usefulness
 type: claim
 title: For a concept positing differences unobservable in principle, the only available standards of assessment are coherence plus usefulness
+headword: Judging unobservables
 author: mishka
 status: asserted
 tags: [epistemology, methodology, philosophy-of-science, consciousness]

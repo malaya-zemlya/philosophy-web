@@ -2,6 +2,7 @@
 id: claim-mary-learns-on-release
 type: claim
 title: On first seeing red, Mary learns something she did not know before
+headword: Mary learns on release
 author: jackson
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

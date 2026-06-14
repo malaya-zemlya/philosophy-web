@@ -2,6 +2,7 @@
 id: claim-rights-criterion-will-be-gamed
 type: claim
 title: Any behavioural sign adopted as the public criterion for granting rights will be optimized against until it no longer tracks the underlying state
+headword: Rights criterion will be gamed
 author: mishka
 status: asserted
 tags: [ai-rights, epistemology, ai-safety]

@@ -2,6 +2,7 @@
 id: position-biological-naturalism
 type: position
 title: Biological naturalism
+headword: Biological naturalism
 author: searle
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai]

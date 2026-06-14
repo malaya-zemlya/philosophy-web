@@ -2,6 +2,7 @@
 id: argument-lookup-table-combinatorial-impossibility
 type: argument
 title: The combinatorial-impossibility reply — a finite lookup table cannot match an open-ended mind's behaviour
+headword: Combinatorial-impossibility reply
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

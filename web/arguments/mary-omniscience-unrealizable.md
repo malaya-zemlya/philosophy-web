@@ -2,6 +2,7 @@
 id: argument-mary-omniscience-unrealizable
 type: argument
 title: Mary's complete physical knowledge is unrealizable — an embedded knower cannot encode the total state that contains her
+headword: Mary's omniscience unrealizable
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment, self-reference, computation]

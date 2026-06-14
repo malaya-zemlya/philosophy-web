@@ -2,6 +2,7 @@
 id: argument-access-symmetry-rebuttal
 type: argument
 title: The access asymmetry is unavailable because first-person access is reciprocally non-transferable
+headword: Access-symmetry rebuttal
 author: mishka
 status: asserted
 tags: [metaethics, ai-rights, epistemology]

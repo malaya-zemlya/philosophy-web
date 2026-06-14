@@ -2,6 +2,7 @@
 id: argument-de-novo-origination-breaks-report-parity
 type: argument
 title: De novo human origination breaks the report-scepticism parity — the contamination rule's trigger is met for AI and unmet for the human originators
+headword: De-novo-origination disanalogy
 author: mishka
 status: asserted
 pattern: analogy

@@ -2,6 +2,7 @@
 id: concept-unobservability-in-principle
 type: concept
 title: Unobservability in principle (intersubjective vs. absolute)
+headword: Unobservability in principle
 author: mishka
 status: asserted
 tags: [epistemology, philosophy-of-science, consciousness]

@@ -2,6 +2,7 @@
 id: argument-halting-oracle-unrealizable
 type: argument
 title: The halting oracle is coherent yet physically unrealizable
+headword: Unrealizable halting oracle
 author: mishka
 status: asserted
 tags: [computability, philosophy-of-mind, metaphysics]

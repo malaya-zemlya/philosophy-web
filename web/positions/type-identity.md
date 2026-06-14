@@ -2,6 +2,7 @@
 id: position-type-identity
 type: position
 title: Type-identity theory
+headword: Type-identity theory
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

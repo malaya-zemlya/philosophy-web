@@ -2,6 +2,7 @@
 id: claim-mary-gains-abilities-not-facts
 type: claim
 title: What Mary acquires on first seeing red is a set of abilities, not knowledge of a new fact
+headword: Mary gains abilities
 author: lewis
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

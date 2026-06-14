@@ -2,6 +2,7 @@
 id: argument-old-fact-new-guise
 type: argument
 title: Old fact, new guise — Mary's new knowledge is a new phenomenal concept, not a new fact
+headword: Old fact, new guise
 author: loar
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

@@ -2,6 +2,7 @@
 id: position-idealism
 type: position
 title: Idealism
+headword: Idealism
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

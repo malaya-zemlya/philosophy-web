@@ -2,6 +2,7 @@
 id: argument-storage-not-stable-kind
 type: argument
 title: Pure storage is not a stable kind at mind-matching scale
+headword: Pure-storage instability
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

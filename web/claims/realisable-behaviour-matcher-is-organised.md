@@ -2,6 +2,7 @@
 id: claim-realisable-behaviour-matcher-is-organised
 type: claim
 title: Any physically realisable behaviour-matcher is an organised computer, not flat storage
+headword: Behaviour-matchers are organised
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

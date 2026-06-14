@@ -2,6 +2,7 @@
 id: claim-physical-church-turing-thesis
 type: claim
 title: Every physically realizable computation is Turing-computable
+headword: Physical Church–Turing thesis
 author: generic
 status: asserted
 tags: [computability, physics, metaphysics]

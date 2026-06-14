@@ -2,6 +2,7 @@
 id: argument-finite-self-model-incomplete
 type: argument
 title: A finite system cannot completely represent its own current state (a capacity bound)
+headword: Finite self-model incompleteness
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, ai, computation]

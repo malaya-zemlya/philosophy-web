@@ -2,6 +2,7 @@
 id: claim-personal-identity-admits-of-degree
 type: claim
 title: Personal identity is not all-or-nothing but admits of degree
+headword: Personal identity by degree
 author: parfit
 status: asserted
 tags: [personal-identity]

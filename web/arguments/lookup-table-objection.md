@@ -2,6 +2,7 @@
 id: argument-lookup-table-objection
 type: argument
 title: The lookup-table (blockhead) objection — behaviour is not sufficient for mind
+headword: Lookup-table objection
 author: block
 status: asserted
 pattern: thought-experiment

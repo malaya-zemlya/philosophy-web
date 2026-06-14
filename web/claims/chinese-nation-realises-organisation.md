@@ -2,6 +2,7 @@
 id: claim-chinese-nation-realises-organisation
 type: claim
 title: A population can realise a mind's full functional-causal organisation, not merely its input-output behaviour
+headword: Chinese nation realises organisation
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism]

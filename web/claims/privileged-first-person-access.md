@@ -2,6 +2,7 @@
 id: claim-privileged-first-person-access
 type: claim
 title: Each subject has direct, non-inferential first-person acquaintance with its own conscious states
+headword: Privileged first-person access
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, epistemology]

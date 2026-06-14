@@ -2,6 +2,7 @@
 id: argument-storm-analogy-conflates-world-index
 type: argument
 title: The "simulated storm isn't wet" analogy conflates world-indices and the physical/phenomenal senses of wetness, so it cannot settle machine consciousness
+headword: Simulated-storm analogy conflation
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, simulation]

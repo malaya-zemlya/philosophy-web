@@ -2,6 +2,7 @@
 id: argument-self-model-prediction-phenomenality-neutral
 type: argument
 title: The self-model architecture's prediction is phenomenality-neutral — it forecasts hard-problem reports, which an experience-free system would emit too
+headword: Phenomenality-neutral prediction
 author: searle
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai]

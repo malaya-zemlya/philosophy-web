@@ -2,6 +2,7 @@
 id: claim-no-acquaintance-with-machine
 type: claim
 title: One has no first-person acquaintance with a machine's putative experience
+headword: No acquaintance with machines
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, epistemology, ai-rights]

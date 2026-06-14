@@ -2,6 +2,7 @@
 id: claim-folk-psychology-is-false-theory
 type: claim
 title: Folk-psychological mental states are posits of a false theory
+headword: Folk psychology as false theory
 author: churchland
 status: asserted
 tags: [philosophy-of-mind, consciousness]

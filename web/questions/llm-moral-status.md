@@ -2,6 +2,7 @@
 id: question-llm-moral-status
 type: question
 title: Do large language models have moral status?
+headword: Moral status of LLMs
 author: mishka
 status: asserted
 tags: [ai-rights, philosophy-of-mind]

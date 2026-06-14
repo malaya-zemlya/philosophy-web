@@ -2,6 +2,7 @@
 id: claim-phenomenal-determinacy
 type: claim
 title: There is a determinate fact about one's own current phenomenal state
+headword: Phenomenal determinacy
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness]

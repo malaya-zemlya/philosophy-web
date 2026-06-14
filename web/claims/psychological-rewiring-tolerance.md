@@ -2,6 +2,7 @@
 id: claim-psychological-rewiring-tolerance
 type: claim
 title: Altering a single psychological connection never changes who someone is
+headword: Rewiring tolerance
 author: parfit
 status: asserted
 tags: [personal-identity, sorites]

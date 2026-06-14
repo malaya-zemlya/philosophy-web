@@ -2,6 +2,7 @@
 id: claim-syntax-insufficient-for-semantics
 type: claim
 title: Executing a formal program is not sufficient for understanding
+headword: Syntax insufficient for semantics
 author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, functionalism, thought-experiment]

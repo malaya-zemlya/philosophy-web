@@ -2,6 +2,7 @@
 id: claim-prudence-favors-flesh-criterion
 type: claim
 title: Prudence favours resting moral standing on currently-unforgeable biology rather than on forgeable behavioural signs
+headword: Prudence favours flesh
 author: mishka
 status: contested
 tags: [ai-rights, metaethics, ai-safety]

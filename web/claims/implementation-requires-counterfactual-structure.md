@@ -2,6 +2,7 @@
 id: claim-implementation-requires-counterfactual-structure
 type: claim
 title: Implementing a computation requires the right counterfactual dispositions across the whole transition table
+headword: Implementation needs counterfactuals
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, functionalism, computation]

@@ -2,6 +2,7 @@
 id: argument-parfit-rewiring
 type: argument
 title: Gradual psychological rewiring (Parfit's spectrum) forces identity to admit of degree
+headword: Parfit's rewiring spectrum
 author: parfit
 status: asserted
 tags: [personal-identity, sorites]

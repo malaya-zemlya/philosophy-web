@@ -2,6 +2,7 @@
 id: claim-counterfactual-structure-objective
 type: claim
 title: Counterfactual-causal dependencies are objective, not observer-relative
+headword: Objective counterfactual structure
 author: generic
 status: asserted
 tags: [philosophy-of-mind, computation, causation]

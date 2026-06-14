@@ -2,6 +2,7 @@
 id: claim-observable-universe-finite-storage
 type: claim
 title: The observable universe can store only a bounded, finite amount of information (on the order of 10^120 bits)
+headword: Finite cosmic storage
 author: generic
 status: asserted
 tags: [physics, computability]

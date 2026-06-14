@@ -2,6 +2,7 @@
 id: argument-china-nation-absent-qualia
 type: argument
 title: The Chinese Nation realises the organisation yet lacks qualia — organisation is not sufficient for consciousness
+headword: Chinese nation (absent qualia)
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness]

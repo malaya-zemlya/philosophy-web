@@ -2,6 +2,7 @@
 id: claim-halting-oracle-coherent-but-unrealizable
 type: claim
 title: The halting oracle is mathematically coherent yet physically unrealizable
+headword: "Halting oracle: coherent, unrealizable"
 author: mishka
 status: asserted
 tags: [computability, philosophy-of-mind, modality, metaphysics]

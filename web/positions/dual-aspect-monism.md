@@ -2,6 +2,7 @@
 id: position-dual-aspect-monism
 type: position
 title: Dual-aspect monism
+headword: Dual-aspect monism
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

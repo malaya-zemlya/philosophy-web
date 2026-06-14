@@ -2,6 +2,7 @@
 id: claim-reality-two-aspects-mental-physical
 type: claim
 title: Reality has two irreducible aspects, the mental as well as the physical
+headword: Two-aspect reality
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

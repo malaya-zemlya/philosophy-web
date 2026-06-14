@@ -2,6 +2,7 @@
 id: claim-biology-currently-unforgeable
 type: claim
 title: Biological substrate cannot currently be counterfeited to the standard required to fake suffering
+headword: Biology currently unforgeable
 author: mishka
 status: asserted
 tags: [ai-rights, philosophy-of-mind]

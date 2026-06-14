@@ -2,6 +2,7 @@
 id: concept-phenomenal-consciousness
 type: concept
 title: Phenomenal consciousness
+headword: Phenomenal consciousness
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness]

@@ -60,6 +60,11 @@
 ## [argument-cognitive-closure](arguments/cognitive-closure.md)
 - type: argument | author: mcginn | status: asserted
 
+## [argument-combination-problem](arguments/combination-problem.md)
+- type: argument | author: james | status: asserted
+- backlinks:
+  - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --responds_to-->
+
 ## [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
@@ -122,6 +127,11 @@
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --attacks-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --responds_to-->
 
+## [argument-genetic-panpsychism](arguments/genetic-panpsychism.md)
+- type: argument | author: strawson | status: asserted
+- backlinks:
+  - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --responds_to-->
+
 ## [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md)
 - type: argument | author: mishka | status: asserted
 
@@ -181,6 +191,9 @@
 
 ## [argument-modal-rationalism](arguments/modal-rationalism.md)
 - type: argument | author: chalmers | status: asserted
+
+## [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md)
+- type: argument | author: nagel | status: asserted
 
 ## [argument-old-fact-new-guise](arguments/old-fact-new-guise.md)
 - type: argument | author: loar | status: asserted
@@ -244,8 +257,14 @@
 ## [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md)
+- type: argument | author: generic | status: asserted
+
 ## [argument-structure-and-dynamics](arguments/structure-and-dynamics.md)
 - type: argument | author: chalmers | status: asserted
+
+## [argument-subjects-can-combine](arguments/subjects-can-combine.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md)
 - type: argument | author: mishka | status: asserted
@@ -409,6 +428,9 @@
 ## [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
+  - [argument-combination-problem](arguments/combination-problem.md) --attacks-->
+  - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --concludes-->
+  - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --supports-->
   - [position-panpsychism](positions/panpsychism.md) --commits_to-->
 
 ## [claim-consciousness-has-natural-explanation](claims/consciousness-has-natural-explanation.md)
@@ -681,6 +703,12 @@
 - backlinks:
   - [position-epiphenomenalism](positions/epiphenomenalism.md) --commits_to-->
 
+## [claim-micro-subjects-do-not-sum](claims/micro-subjects-do-not-sum.md)
+- type: claim | author: james | status: asserted
+- backlinks:
+  - [argument-combination-problem](arguments/combination-problem.md) --premise-->
+  - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --attacks-->
+
 ## [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -690,6 +718,17 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
+
+## [claim-no-nonarbitrary-threshold-for-experience](claims/no-nonarbitrary-threshold-for-experience.md)
+- type: claim | author: nagel | status: asserted
+- backlinks:
+  - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --premise-->
+
+## [claim-no-radical-emergence](claims/no-radical-emergence.md)
+- type: claim | author: strawson | status: asserted
+- backlinks:
+  - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --premise-->
+  - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --attacks-->
 
 ## [claim-observable-universe-finite-storage](claims/observable-universe-finite-storage.md)
 - type: claim | author: generic | status: asserted
@@ -719,6 +758,11 @@
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --concludes-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --premise-->
   - [character-alvin](characters/alvin.md) --commits_to-->
+
+## [claim-phenomenal-consciousness-is-real](claims/phenomenal-consciousness-is-real.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --premise-->
 
 ## [claim-phenomenal-determinacy](claims/phenomenal-determinacy.md)
 - type: claim | author: generic | status: asserted
@@ -868,6 +912,21 @@
 - backlinks:
   - [position-hylomorphism](positions/hylomorphism.md) --commits_to-->
 
+## [claim-strong-emergence-is-acceptable](claims/strong-emergence-is-acceptable.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --premise-->
+
+## [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --premise-->
+
+## [claim-subjects-actually-merge-and-divide](claims/subjects-actually-merge-and-divide.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --premise-->
+
 ## [claim-substrate-independence](claims/substrate-independence.md)
 - type: claim | author: putnam | status: contested
 - backlinks:
@@ -966,6 +1025,8 @@
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --uses_concept-->
   - [argument-parfit-rewiring](arguments/parfit-rewiring.md) --uses_concept-->
   - [argument-sorites-paradox](arguments/sorites-paradox.md) --uses_concept-->
+  - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
+  - [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md) --uses_concept-->
 
 ## [concept-criterion-gaming](concepts/criterion-gaming.md)
 - type: concept | author: mishka | status: asserted
@@ -1105,6 +1166,7 @@
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
+  - [concept-panpsychism](concepts/panpsychism.md) --uses_concept-->
   - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
   - [concept-rendering-test](test/rendering-test.md) --uses_concept-->
   - [position-cosmopsychism](positions/cosmopsychism.md) --uses_concept-->
@@ -1221,6 +1283,15 @@
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
   - [position-representationalism](positions/representationalism.md) --uses_concept-->
+
+## [concept-panpsychism](concepts/panpsychism.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-combination-problem](arguments/combination-problem.md) --uses_concept-->
+  - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --uses_concept-->
+  - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --uses_concept-->
+  - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --uses_concept-->
+  - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
 
 ## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
 - type: concept | author: generic | status: asserted
@@ -1380,6 +1451,9 @@
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --answers-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --answers-->
 
+## [source-armstrong-1968](sources/armstrong-1968.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-block](sources/block.md)
 - type: source | author: mishka | status: asserted
 
@@ -1395,16 +1469,37 @@
 ## [source-chalmers-1996](sources/chalmers-1996.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chalmers-2003](sources/chalmers-2003.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-2017](sources/chalmers-2017.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chalmers-2022](sources/chalmers-2022.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-ci-lewis-1929](sources/ci-lewis-1929.md)
 - type: source | author: mishka | status: asserted
 
+## [source-coleman-2014](sources/coleman-2014.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dennett-1988](sources/dennett-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-descartes-meditations](sources/descartes-meditations.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dominus-2011](sources/dominus-2011.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-gambarian](sources/gambarian.md)
+- type: source | author: mishka | status: asserted
+
+## [source-goff-2017](sources/goff-2017.md)
+- type: source | author: mishka | status: asserted
+
+## [source-goff-2019](sources/goff-2019.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-goodhart](sources/goodhart.md)
@@ -1414,6 +1509,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-jackson-1982](sources/jackson-1982.md)
+- type: source | author: mishka | status: asserted
+
+## [source-james-1890](sources/james-1890.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-lem](sources/lem.md)
@@ -1431,16 +1529,37 @@
 ## [source-liu-cixin](sources/liu-cixin.md)
 - type: source | author: mishka | status: asserted
 
+## [source-nagasawa-wager-2017](sources/nagasawa-wager-2017.md)
+- type: source | author: mishka | status: asserted
+
+## [source-nagel-1971](sources/nagel-1971.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-nagel-1974](sources/nagel-1974.md)
+- type: source | author: mishka | status: asserted
+
+## [source-nagel-1979](sources/nagel-1979.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-nemirow-1990](sources/nemirow-1990.md)
 - type: source | author: mishka | status: asserted
 
+## [source-roelofs-2019](sources/roelofs-2019.md)
+- type: source | author: mishka | status: asserted
+
+## [source-russell-1927](sources/russell-1927.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-searle-1980](sources/searle-1980.md)
 - type: source | author: mishka | status: asserted
 
+## [source-shani-2015](sources/shani-2015.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-specification-gaming](sources/specification-gaming.md)
+- type: source | author: mishka | status: asserted
+
+## [source-strawson-2006](sources/strawson-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-turing-1936](sources/turing-1936.md)

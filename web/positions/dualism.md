@@ -2,6 +2,7 @@
 id: position-dualism
 type: position
 title: Dualism
+headword: Dualism
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

@@ -2,6 +2,7 @@
 id: claim-gap-persistence-cannot-separate-blind-spot-from-consciousness
 type: claim
 title: Persistence of an AI's explanatory gap under widening self-access cannot discriminate a structural blind spot from consciousness
+headword: Gap persistence underdetermines
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, methodology, evidence]

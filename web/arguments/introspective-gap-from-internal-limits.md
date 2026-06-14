@@ -2,6 +2,7 @@
 id: argument-introspective-gap-from-internal-limits
 type: argument
 title: A self-explanatory gap follows from limited internal access plus non-traversable self-explanation
+headword: Gap from internal limits
 author: mishka
 status: contested
 tags: [philosophy-of-mind, consciousness, ai]

@@ -2,6 +2,7 @@
 id: claim-ai-own-hard-problem
 type: claim
 title: A sufficiently advanced LLM could exhibit its own version of the hard problem — a raw feel, under its own concept of consciousness, that mechanistic self-knowledge cannot explain from inside
+headword: AI's own hard problem
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai]

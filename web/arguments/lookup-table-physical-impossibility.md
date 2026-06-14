@@ -2,6 +2,7 @@
 id: argument-lookup-table-physical-impossibility
 type: argument
 title: The cosmic-size reply — a behaviour-matching lookup table is too large to physically exist
+headword: Cosmic-size reply
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

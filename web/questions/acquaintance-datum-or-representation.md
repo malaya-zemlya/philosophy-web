@@ -2,6 +2,7 @@
 id: question-acquaintance-datum-or-representation
 type: question
 title: Is first-person acquaintance with one's own experience a genuine observation, or itself a representation?
+headword: "Acquaintance: datum or representation"
 author: generic
 status: contested
 tags: [philosophy-of-mind, epistemology, consciousness]

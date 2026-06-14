@@ -2,6 +2,7 @@
 id: claim-mary-gains-old-fact-new-guise
 type: claim
 title: What Mary acquires on first seeing red is a new phenomenal concept of a physical fact she already knew
+headword: Mary gains an old fact's new guise
 author: loar
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

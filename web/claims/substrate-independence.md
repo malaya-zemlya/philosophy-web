@@ -2,6 +2,7 @@
 id: claim-substrate-independence
 type: claim
 title: Mental states are substrate-independent
+headword: Substrate-independence thesis
 author: putnam
 status: contested
 tags: [philosophy-of-mind, ai-rights]

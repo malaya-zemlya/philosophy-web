@@ -2,6 +2,7 @@
 id: position-higher-order-theories
 type: position
 title: Higher-order theories of consciousness
+headword: Higher-order theories of consciousness
 author: rosenthal
 status: asserted
 tags: [philosophy-of-mind, consciousness]

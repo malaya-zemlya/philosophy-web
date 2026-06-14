@@ -2,6 +2,7 @@
 id: claim-mental-states-are-brain-state-types
 type: claim
 title: Each type of mental state is identical to a type of brain state
+headword: Mental states as brain types
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

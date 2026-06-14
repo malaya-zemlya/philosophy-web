@@ -2,6 +2,7 @@
 id: argument-counterfactuals-yield-non-triviality-not-uniqueness
 type: argument
 title: Counterfactuals buy non-triviality, not uniqueness
+headword: Non-triviality without uniqueness
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computation]

@@ -2,6 +2,7 @@
 id: position-epiphenomenalism
 type: position
 title: Epiphenomenalism
+headword: Epiphenomenalism
 author: huxley
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

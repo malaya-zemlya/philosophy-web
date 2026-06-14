@@ -38,7 +38,8 @@ key framings to preserve when citing (verbatim from the paper):
   justification"; theories can be operationally universal only in a "relative, observer-dependent
   sense."
 
-Reference: Breuer, T. (1995). The impossibility of accurate state self-measurements. *Philosophy of Science*, *62*(2), 197–214. https://www.jstor.org/stable/188430
+Reference: 
+- Breuer, T. (1995). The impossibility of accurate state self-measurements. *Philosophy of Science*, *62*(2), 197–214. https://www.jstor.org/stable/188430
 - Cambridge: https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/impossibility-of-accurate-state-selfmeasurements/80B368D210379DA587D41603B551B95D
 - PDF: https://cqi.inf.usi.ch/qic/Breuer95.pdf · JSTOR: https://www.jstor.org/stable/188430
 

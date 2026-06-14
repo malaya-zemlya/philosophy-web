@@ -2,6 +2,7 @@
 id: claim-simulated-rain-wet-in-simulated-world
 type: claim
 title: Simulated rain is not wet in our world but is wet in the simulated world
+headword: World-indexed wetness
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, metaphysics, simulation]

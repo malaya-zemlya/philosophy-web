@@ -2,6 +2,7 @@
 id: claim-chinese-room-no-understanding
 type: claim
 title: The person executing the Chinese Room program understands no Chinese
+headword: "Chinese room: no understanding"
 author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, consciousness, thought-experiment]

@@ -2,6 +2,7 @@
 id: argument-relevance-filter-regress
 type: argument
 title: The relevance-filter regress — selecting mind-relevant causal relations re-raises the invariant demand
+headword: Relevance-filter regress
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computation]

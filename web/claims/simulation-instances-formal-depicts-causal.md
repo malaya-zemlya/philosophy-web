@@ -2,6 +2,7 @@
 id: claim-simulation-instances-formal-depicts-causal
 type: claim
 title: A simulation instances a phenomenon when the phenomenon is constituted by formal/observer-relative relations, but only depicts it when the phenomenon is constituted by intrinsic causal powers
+headword: Instancing vs. depicting
 author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, functionalism, computation, methodology]

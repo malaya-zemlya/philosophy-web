@@ -2,6 +2,7 @@
 id: claim-mary-learns-nothing-new
 type: claim
 title: Mary, genuinely knowing all the physical facts, would learn nothing on first seeing red
+headword: Mary learns nothing new
 author: dennett
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

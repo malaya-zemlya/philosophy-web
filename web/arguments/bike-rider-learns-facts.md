@@ -2,6 +2,7 @@
 id: argument-bike-rider-learns-facts
 type: argument
 title: The bike rider learns facts — the ability hypothesis rests on a false dichotomy
+headword: Bike-rider rejoinder
 author: stanley
 status: asserted
 tags: [philosophy-of-mind, epistemology, know-how, thought-experiment]

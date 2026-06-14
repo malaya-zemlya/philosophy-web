@@ -2,6 +2,7 @@
 id: claim-conceivability-entails-possibility
 type: claim
 title: Ideal conceivability entails metaphysical possibility
+headword: Conceivability entails possibility
 author: chalmers
 status: contested
 tags: [philosophy-of-mind, consciousness, metaphysics, modality]

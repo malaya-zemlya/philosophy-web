@@ -2,6 +2,7 @@
 id: concept-first-person-access
 type: concept
 title: First-person access (privileged access)
+headword: First-person access
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, epistemology, ai-rights]

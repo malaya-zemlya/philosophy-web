@@ -2,6 +2,7 @@
 id: argument-architectural-account-leaves-hard-problem
 type: argument
 title: The architectural account explains an access gap, not the phenomenal one
+headword: Architectural-account objection
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness]

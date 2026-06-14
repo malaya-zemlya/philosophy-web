@@ -2,6 +2,7 @@
 id: argument-feel-is-the-watching-not-an-unwatched-difference
 type: argument
 title: The "real feel" is first-person observed, not unobservable — the idleness charge presupposes that observation is third-person observation
+headword: Feel as first-person observation
 author: searle
 status: asserted
 tags: [philosophy-of-mind, consciousness, epistemology]

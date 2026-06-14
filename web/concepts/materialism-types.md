@@ -2,6 +2,7 @@
 id: concept-materialism-types
 type: concept
 title: Type-A / Type-B / Type-C materialism (responses to the hard problem)
+headword: Type-A / Type-B / Type-C materialism
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

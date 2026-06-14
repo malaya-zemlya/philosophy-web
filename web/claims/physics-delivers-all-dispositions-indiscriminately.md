@@ -2,6 +2,7 @@
 id: claim-physics-delivers-all-dispositions-indiscriminately
 type: claim
 title: The physical facts about a system include every causal disposition, not only the cognitively relevant ones
+headword: Physics delivers all dispositions
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computation]

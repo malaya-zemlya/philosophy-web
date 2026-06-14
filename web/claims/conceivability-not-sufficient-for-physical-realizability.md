@@ -2,6 +2,7 @@
 id: claim-conceivability-not-sufficient-for-physical-realizability
 type: claim
 title: Conceivability does not entail physical realizability
+headword: Conceivability without realizability
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, modality, metaphysics, computability]

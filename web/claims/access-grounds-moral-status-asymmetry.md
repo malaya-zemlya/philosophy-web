@@ -2,6 +2,7 @@
 id: claim-access-grounds-moral-status-asymmetry
 type: claim
 title: First-person access yields a warranted moral-status asymmetry favouring oneself over a machine
+headword: Access-based moral asymmetry
 author: mishka
 status: contested
 tags: [metaethics, ai-rights, philosophy-of-mind]

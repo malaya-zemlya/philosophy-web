@@ -2,6 +2,7 @@
 id: concept-grain
 type: concept
 title: Grain (of role individuation)
+headword: Grain (of role individuation)
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]

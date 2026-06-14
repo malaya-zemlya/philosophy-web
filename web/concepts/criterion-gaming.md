@@ -2,6 +2,7 @@
 id: concept-criterion-gaming
 type: concept
 title: Criterion gaming (Goodhart's law / specification gaming)
+headword: Criterion gaming
 author: mishka
 status: asserted
 tags: [ai-rights, epistemology, ai-safety]

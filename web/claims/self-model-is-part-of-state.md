@@ -2,6 +2,7 @@
 id: claim-self-model-is-part-of-state
 type: claim
 title: A finite system's self-representation is part of the very state it represents
+headword: Self-model is part of the state
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, ai, computation]

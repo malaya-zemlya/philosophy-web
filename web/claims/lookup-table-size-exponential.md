@@ -2,6 +2,7 @@
 id: claim-lookup-table-size-exponential
 type: claim
 title: A lookup table reproducing behaviour over a context of n tokens from a vocabulary of v requires on the order of v^n entries
+headword: Exponential table size
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

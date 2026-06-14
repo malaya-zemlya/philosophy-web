@@ -2,6 +2,7 @@
 id: claim-organisational-grain-faces-own-grain-dilemma
 type: claim
 title: The organisational-role grain either readmits the blockhead or smuggles sub-organisational features back in
+headword: Organisational grain's own dilemma
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism]

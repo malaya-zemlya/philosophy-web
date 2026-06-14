@@ -2,6 +2,7 @@
 id: claim-behaviour-insufficient-for-mind
 type: claim
 title: Matching the full behavioural profile of a mental state is not sufficient for having that state
+headword: Behaviour insufficient for mind
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, ai-rights]

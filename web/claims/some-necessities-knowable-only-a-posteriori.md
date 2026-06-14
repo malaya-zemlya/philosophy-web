@@ -2,6 +2,7 @@
 id: claim-some-necessities-knowable-only-a-posteriori
 type: claim
 title: Some necessary truths can be known only a posteriori
+headword: A-posteriori necessities
 author: kripke
 status: asserted
 tags: [metaphysics, modality, epistemology]

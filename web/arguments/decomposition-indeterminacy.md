@@ -2,6 +2,7 @@
 id: argument-decomposition-indeterminacy
 type: argument
 title: The decomposition-indeterminacy objection — determinate consciousness cannot rest on observer-relative function
+headword: Decomposition-indeterminacy objection
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, consciousness]

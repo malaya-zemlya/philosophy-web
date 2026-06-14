@@ -2,6 +2,7 @@
 id: claim-finite-mind-truncates-beyond-capacity
 type: claim
 title: A finite mind also fails on inputs beyond its own capacity
+headword: Finite minds truncate too
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]

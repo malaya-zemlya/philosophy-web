@@ -2,6 +2,7 @@
 id: claim-phenomenality-is-illusion
 type: claim
 title: Phenomenal consciousness as standardly conceived is an introspective illusion
+headword: Phenomenality as illusion
 author: frankish
 status: asserted
 tags: [philosophy-of-mind, consciousness]

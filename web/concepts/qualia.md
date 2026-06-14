@@ -2,6 +2,7 @@
 id: concept-qualia
 type: concept
 title: Qualia
+headword: Qualia
 author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness]

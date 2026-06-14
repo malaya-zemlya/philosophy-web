@@ -2,6 +2,7 @@
 id: position-noncomputable-consciousness
 type: position
 title: Penrose's non-computational consciousness (Orch-OR)
+headword: Penrose's non-computational consciousness
 author: penrose
 status: asserted
 tags: [philosophy-of-mind, consciousness, computation, physics]

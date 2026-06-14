@@ -2,6 +2,7 @@
 id: argument-first-person-access
 type: argument
 title: First-person access to my own suffering grounds a moral-status asymmetry
+headword: First-person-access asymmetry
 author: mishka
 status: contested
 tags: [metaethics, ai-rights, epistemology]

@@ -2,6 +2,7 @@
 id: claim-chinese-room-runs-program
 type: claim
 title: A person who understands no Chinese can, by executing a formal program, produce responses indistinguishable from a Chinese speaker's
+headword: Program execution (Chinese room)
 author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, thought-experiment]

@@ -2,6 +2,7 @@
 id: claim-ai-hard-problem-is-model-organism
 type: claim
 title: The AI hard problem is a model organism for the human hard problem
+headword: AI hard problem as model organism
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai, methodology]

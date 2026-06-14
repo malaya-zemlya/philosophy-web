@@ -2,6 +2,7 @@
 id: argument-ai-hard-problem-from-self-model-architecture
 type: argument
 title: Self-model architecture predicts an advanced LLM will exhibit its own hard-problem form
+headword: Self-model architecture argument
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, consciousness, ai]

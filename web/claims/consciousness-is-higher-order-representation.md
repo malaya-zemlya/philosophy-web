@@ -2,6 +2,7 @@
 id: claim-consciousness-is-higher-order-representation
 type: claim
 title: A mental state is conscious only if it is the object of a higher-order representation
+headword: Consciousness as higher-order representation
 author: rosenthal
 status: asserted
 tags: [philosophy-of-mind, consciousness]

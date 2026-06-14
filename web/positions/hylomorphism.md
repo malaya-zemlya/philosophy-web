@@ -2,6 +2,7 @@
 id: position-hylomorphism
 type: position
 title: Hylomorphism
+headword: Hylomorphism
 author: aristotle
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]

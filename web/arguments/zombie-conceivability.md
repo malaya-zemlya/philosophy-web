@@ -2,6 +2,7 @@
 id: argument-zombie-conceivability
 type: argument
 title: The zombie / conceivability argument against physicalism
+headword: Zombie argument
 author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics, thought-experiment]

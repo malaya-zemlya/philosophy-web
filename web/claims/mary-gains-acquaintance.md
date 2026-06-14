@@ -2,6 +2,7 @@
 id: claim-mary-gains-acquaintance
 type: claim
 title: What Mary acquires on first seeing red is acquaintance with the experience, not knowledge of a new fact
+headword: Mary gains acquaintance
 author: conee
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]

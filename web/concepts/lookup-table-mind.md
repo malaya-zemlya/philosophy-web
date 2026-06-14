@@ -2,6 +2,7 @@
 id: concept-lookup-table-mind
 type: concept
 title: Lookup-table mind ("Blockhead" / Aunt Bubbles machine)
+headword: Lookup-table mind
 author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, ai-rights, thought-experiment]

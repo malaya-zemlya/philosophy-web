@@ -2,6 +2,7 @@
 id: argument-intuition-domain-asymmetry
 type: argument
 title: The intuition-domain asymmetry — the cosmic table is a far extrapolation, the brain-scale isomorph a near neighbour
+headword: Intuition-domain asymmetry
 author: mishka
 status: asserted
 tags: [philosophy-of-mind, functionalism, methodology]

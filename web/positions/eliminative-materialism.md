@@ -2,6 +2,7 @@
 id: position-eliminative-materialism
 type: position
 title: Eliminative materialism
+headword: Eliminative materialism
 author: churchland
 status: asserted
 tags: [philosophy-of-mind, consciousness]

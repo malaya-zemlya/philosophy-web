@@ -2,6 +2,7 @@
 id: claim-consciousness-is-integrated-information
 type: claim
 title: Consciousness is identical to a system's integrated information (Φ)
+headword: Consciousness as integrated information (Φ)
 author: tononi
 status: asserted
 tags: [philosophy-of-mind, consciousness, cognitive-science]
