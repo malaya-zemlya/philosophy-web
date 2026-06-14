@@ -88,14 +88,17 @@
     {\Huge\bfseries #1}\\[3pt]\rule{0.5\linewidth}{0.4pt}\end{center}
   \vspace{0.6\baselineskip}\markboth{#1}{#1}}
 
+% --- type glyph: a small, dimmed mark of the entry's kind (its LaTeX comes from glyphs.py) ---
+\newcommand{\entryglyph}[1]{{\normalfont\footnotesize\color{black!45}#1}}
+
 % --- an entry: anchor + PDF bookmark + headword + optional subtitle + etiquette line ---
 % #1 anchor id · #2 rich headword (body + ToC) · #3 etiquette · #4 plain guide word (mark) ·
-% #5 subtitle (the full title when it differs from the headword; empty = omitted)
-\newcommand{\entryhead}[5]{%
+% #5 subtitle (the full title when it differs from the headword; empty = omitted) · #6 type glyph
+\newcommand{\entryhead}[6]{%
   \par\addvspace{0.9\baselineskip}\needspace{4\baselineskip}%
   \phantomsection\label{entry:#1}\addcontentsline{toc}{section}{#2}%
   \markright{#4}%
-  {\raggedright\normalfont\large\bfseries #2\par}%
+  {\raggedright\large\bfseries\entryglyph{#6}\hspace{0.4em}#2\par}%
   \ifstrempty{#5}{}{{\nopagebreak\smallskip\raggedright\itshape\small\color{black!75} #5\par}}%
   {\nopagebreak\smallskip\footnotesize\itshape\color{black!65} #3\par}%
   \nopagebreak\vspace{2pt}}
@@ -114,8 +117,17 @@
 \setlist[seealso]{label=\textcolor{refcolor}{\small$\triangleright$}, leftmargin=1.4em,
   itemsep=2pt, topsep=2pt, parsep=0pt}
 
-% --- front matter: a List of Entries row ---
-\newcommand{\entryline}[2]{\noindent\hyperref[entry:#1]{#2}\,\dotfill\,\pageref{entry:#1}\par}
+% --- front matter: the Symbols key (a small list-of-abbreviations section) ---
+% #1 = glyph (full strength, legible) · #2 = type name
+\newcommand{\symbolkeyheading}{\thispagestyle{plain}\markboth{}{}%
+  \vspace*{1.2\baselineskip}{\centering\Large\bfseries Symbols\par}\vspace{0.8\baselineskip}%
+  \begingroup\centering}
+\newcommand{\symbolkeyitem}[2]{\makebox[1.5em][c]{#1}\,\,#2\par\smallskip}
+\newcommand{\symbolkeyend}{\endgroup\clearpage}
+
+% --- front matter: a List of Entries row (#1 type glyph · #2 anchor id · #3 name) ---
+\newcommand{\entryline}[3]{\noindent\makebox[1.5em][l]{\entryglyph{#1}}%
+  \hyperref[entry:#2]{#3}\,\dotfill\,\pageref{entry:#2}\par}
 \newenvironment{listofentries}{\footnotesize\begin{multicols}{2}\raggedright\setlength{\parskip}{2pt}}
   {\end{multicols}\clearpage}
 
@@ -142,50 +154,57 @@
   \vfill
   {\small June 2026\par}
 \end{titlepage}
+\symbolkeyheading
+\symbolkeyitem{$\blacklozenge$}{Concept}
+\symbolkeyitem{$\odot$}{Claim}
+\symbolkeyitem{$\vdash$}{Argument}
+\symbolkeyitem{$\bigstar$}{Position}
+\symbolkeyitem{?}{Question}
+\symbolkeyend
 \markboth{}{}\thispagestyle{plain}
 \vspace*{1.2\baselineskip}
 {\centering\Large\bfseries List of Entries\par}
 {\centering\small 33 entries \,\textperiodcentered\, June 2026\par}
 \vspace{1\baselineskip}
 \begin{listofentries}
-\entryline{argument-ability-hypothesis}{Ability hypothesis}
-\entryline{claim-no-nonarbitrary-threshold-for-experience}{Absence of an experiential threshold}
-\entryline{claim-strong-emergence-is-acceptable}{Acceptability of strong emergence}
-\entryline{concept-access-consciousness}{Access consciousness}
-\entryline{concept-access-vs-phenomenal-consciousness}{Access vs. phenomenal consciousness}
-\entryline{claim-consciousness-categorical-not-dispositional}{Categorical, not dispositional}
-\entryline{concept-chinese-nation}{Chinese nation}
-\entryline{concept-chinese-room}{Chinese room}
-\entryline{argument-cognitive-closure}{Cognitive closure}
-\entryline{argument-combination-problem}{Combination problem}
-\entryline{argument-no-arbitrary-line-panpsychism}{Continuity argument}
-\entryline{position-cosmopsychism}{Cosmopsychism}
-\entryline{claim-cosmos-is-fundamental-subject}{Cosmos as fundamental subject}
-\entryline{argument-strong-emergence-acceptable}{Emergence reply}
-\entryline{concept-ai-hard-problem-etiologies}{Etiologies of AI hard-problem discourse}
-\entryline{claim-consciousness-fundamental-nonphysical}{Fundamental non-physical consciousness}
-\entryline{claim-consciousness-fundamental-ubiquitous}{Fundamental ubiquitous consciousness}
-\entryline{argument-genetic-panpsychism}{Genetic argument}
-\entryline{claim-subject-unity-graded-by-integration}{Graded subject unity}
-\entryline{concept-hard-problem}{Hard problem}
-\entryline{question-hard-problem}{Hard problem (the question)}
-\entryline{claim-micro-subjects-do-not-sum}{Micro-subjects do not sum}
-\entryline{claim-no-radical-emergence}{No radical emergence}
-\entryline{concept-panpsychism}{Panpsychism}
-\entryline{position-panpsychism}{Panpsychism (position)}
-\entryline{concept-phenomenal-consciousness}{Phenomenal consciousness}
-\entryline{claim-phenomenal-residue}{Phenomenal residue}
-\entryline{concept-qualia}{Qualia}
-\entryline{claim-phenomenal-consciousness-is-real}{Reality of phenomenal consciousness}
-\entryline{position-russellian-monism}{Russellian monism}
-\entryline{claim-functional-description-structural-dynamical-only}{Structure and dynamics only}
-\entryline{claim-subjects-actually-merge-and-divide}{Subjects merge and divide}
-\entryline{concept-introspective-gap-varieties}{Varieties of introspective explanatory gap}
+\entryline{$\vdash$}{argument-ability-hypothesis}{Ability hypothesis}
+\entryline{$\odot$}{claim-no-nonarbitrary-threshold-for-experience}{Absence of an experiential threshold}
+\entryline{$\odot$}{claim-strong-emergence-is-acceptable}{Acceptability of strong emergence}
+\entryline{$\blacklozenge$}{concept-access-consciousness}{Access consciousness}
+\entryline{$\blacklozenge$}{concept-access-vs-phenomenal-consciousness}{Access vs. phenomenal consciousness}
+\entryline{$\odot$}{claim-consciousness-categorical-not-dispositional}{Categorical, not dispositional}
+\entryline{$\blacklozenge$}{concept-chinese-nation}{Chinese nation}
+\entryline{$\blacklozenge$}{concept-chinese-room}{Chinese room}
+\entryline{$\vdash$}{argument-cognitive-closure}{Cognitive closure}
+\entryline{$\vdash$}{argument-combination-problem}{Combination problem}
+\entryline{$\vdash$}{argument-no-arbitrary-line-panpsychism}{Continuity argument}
+\entryline{$\bigstar$}{position-cosmopsychism}{Cosmopsychism}
+\entryline{$\odot$}{claim-cosmos-is-fundamental-subject}{Cosmos as fundamental subject}
+\entryline{$\vdash$}{argument-strong-emergence-acceptable}{Emergence reply}
+\entryline{$\blacklozenge$}{concept-ai-hard-problem-etiologies}{Etiologies of AI hard-problem discourse}
+\entryline{$\odot$}{claim-consciousness-fundamental-nonphysical}{Fundamental non-physical consciousness}
+\entryline{$\odot$}{claim-consciousness-fundamental-ubiquitous}{Fundamental ubiquitous consciousness}
+\entryline{$\vdash$}{argument-genetic-panpsychism}{Genetic argument}
+\entryline{$\odot$}{claim-subject-unity-graded-by-integration}{Graded subject unity}
+\entryline{$\blacklozenge$}{concept-hard-problem}{Hard problem}
+\entryline{?}{question-hard-problem}{Hard problem (the question)}
+\entryline{$\odot$}{claim-micro-subjects-do-not-sum}{Micro-subjects do not sum}
+\entryline{$\odot$}{claim-no-radical-emergence}{No radical emergence}
+\entryline{$\blacklozenge$}{concept-panpsychism}{Panpsychism}
+\entryline{$\bigstar$}{position-panpsychism}{Panpsychism (position)}
+\entryline{$\blacklozenge$}{concept-phenomenal-consciousness}{Phenomenal consciousness}
+\entryline{$\odot$}{claim-phenomenal-residue}{Phenomenal residue}
+\entryline{$\blacklozenge$}{concept-qualia}{Qualia}
+\entryline{$\odot$}{claim-phenomenal-consciousness-is-real}{Reality of phenomenal consciousness}
+\entryline{$\bigstar$}{position-russellian-monism}{Russellian monism}
+\entryline{$\odot$}{claim-functional-description-structural-dynamical-only}{Structure and dynamics only}
+\entryline{$\odot$}{claim-subjects-actually-merge-and-divide}{Subjects merge and divide}
+\entryline{$\blacklozenge$}{concept-introspective-gap-varieties}{Varieties of introspective explanatory gap}
 \end{listofentries}
 \mainmatter
 \bookgroup{A}
 \begin{multicols}{2}
-\entryhead{argument-ability-hypothesis}{Ability hypothesis}{Argument \,\textperiodcentered\, after Lewis}{Ability hypothesis}{The Ability Hypothesis — experience teaches know-how, so Mary learns no new fact}
+\entryhead{argument-ability-hypothesis}{Ability hypothesis}{Argument \,\textperiodcentered\, after Lewis}{Ability hypothesis}{The Ability Hypothesis — experience teaches know-how, so Mary learns no new fact}{$\vdash$}
 The \emph{Ability Hypothesis} is David Lewis's reply to the \textsc{Knowledge Argument}, also defended by Laurence Nemirow. It holds that knowing what an experience is like is not a piece of factual knowledge at all, but a bundle of \emph{abilities}: to recognise the experience, to imagine it, and to remember it. If that is right, then when Mary the colour scientist, who knows every physical fact about colour vision but has never seen red, finally sees it, she gains know-how rather than a new fact, and the inference from her learning something to the falsity of physicalism is blocked.
 
 \webheading{The argument}
@@ -223,7 +242,7 @@ This is the most famous escape from the Mary story (the \textsc{Knowledge Argume
   \item \hyperref[source:source-nemirow-1990]{\textsc{Nemirow — Physicalism and the Cognitive Role of Acquaintance (1990)}} — Nemirow's independent defence of the ability analysis.
 \end{seealso}
 
-\entryhead{claim-no-nonarbitrary-threshold-for-experience}{Absence of an experiential threshold}{Claim \,\textperiodcentered\, after Nagel}{Absence of an experiential threshold}{There is no non-arbitrary point in nature at which experience first appears}
+\entryhead{claim-no-nonarbitrary-threshold-for-experience}{Absence of an experiential threshold}{Claim \,\textperiodcentered\, after Nagel}{Absence of an experiential threshold}{There is no non-arbitrary point in nature at which experience first appears}{$\odot$}
 If experience were confined to brains, or to life, or to systems above some threshold of complexity, there ought to be a principled place where it first switches on — a line such that below it there is nothing it is like to be the system and above it there is. No such non-arbitrary line is in view. The relevant differences across any proposed boundary look like differences of degree and organisation, not the kind of difference that could mark the abrupt entry of an entirely new ontological feature into the world.
 
 This is the premise of the \hyperref[entry:argument-no-arbitrary-line-panpsychism]{\textsc{continuity argument}} for panpsychism: absent a principled threshold, the parsimonious option is that experience, in some attenuated form, reaches all the way down. It is denied by emergentists and physicalists who hold there \emph{is} a principled threshold — a level of integrated information or of functional organisation at which experience genuinely, if strongly, emerges (see \hyperref[entry:claim-strong-emergence-is-acceptable]{\textsc{Acceptability of strong emergence}}). It differs from \hyperref[entry:claim-no-radical-emergence]{\textsc{No radical emergence}}: that claim says experience could not brutely \emph{appear} at all from the non-experiential, whereas this one says that even granting it could, there is no non-arbitrary \emph{place} to locate its first appearance.
@@ -235,7 +254,7 @@ This is the premise of the \hyperref[entry:argument-no-arbitrary-line-panpsychis
   \item \hyperref[entry:claim-no-radical-emergence]{\textsc{No radical emergence}} — the neighbouring premise about \emph{whether}, not \emph{where}, experience could emerge.
 \end{seealso}
 
-\entryhead{claim-strong-emergence-is-acceptable}{Acceptability of strong emergence}{Claim}{Acceptability of strong emergence}{Strong emergence of experience from non-experiential matter is acceptable}
+\entryhead{claim-strong-emergence-is-acceptable}{Acceptability of strong emergence}{Claim}{Acceptability of strong emergence}{Strong emergence of experience from non-experiential matter is acceptable}{$\odot$}
 Experience can arise as a genuinely novel, fundamental feature at some level of physical organisation — a brain, say — without being present, even in proto-form, in that organisation's parts. On this view \emph{strong} emergence (the appearance of properties not grounded in the powers of the base) is a coherent and even expected feature of a layered natural world, not the magic its critics allege. The dispute is specifically about strong emergence of the \emph{phenomenal}; \emph{weak} emergence, where higher-level patterns are fully grounded in and predictable from the base, is accepted by almost everyone and is not at issue here.
 
 This is the standard physicalist denial of \hyperref[entry:claim-no-radical-emergence]{\textsc{No radical emergence}}, and so the load-bearing premise of the \hyperref[entry:argument-strong-emergence-acceptable]{\textsc{emergence reply}} that undercuts the genetic argument for panpsychism: if strong emergence is acceptable, the genetic argument's choice between fundamental experience and unintelligible magic is a false dilemma. It is denied by panpsychists, who hold that strong emergence of the phenomenal is unintelligible (Strawson), and by those who think calling experience ``strongly emergent'' merely relabels the explanatory gap rather than closing it.
@@ -247,7 +266,7 @@ This is the standard physicalist denial of \hyperref[entry:claim-no-radical-emer
   \item \hyperref[entry:argument-genetic-panpsychism]{\textsc{Genetic argument}} — the argument that the acceptability of strong emergence is meant to undercut.
 \end{seealso}
 
-\entryhead{concept-access-consciousness}{Access consciousness}{Concept \,\textperiodcentered\, after Block}{Access consciousness}{}
+\entryhead{concept-access-consciousness}{Access consciousness}{Concept \,\textperiodcentered\, after Block}{Access consciousness}{}{$\blacklozenge$}
 \emph{Access consciousness} is the functional sense of ``conscious'': a mental state is access-conscious when its content is \emph{available} to the rest of the mind, poised for use in reasoning, for the direct rational control of action, and for verbal report. The term is Ned Block's (he abbreviates it \emph{A-consciousness}). It is a matter of what a system can \emph{do with} a state's content, settled entirely by the state's role in the cognitive economy and not at all by how, or whether, it feels.
 
 A simple test fixes the idea: when you read this sentence, its meaning is poised for you to report, question, and reason with, and that availability is the sentence's access-consciousness. Theories of consciousness in the \emph{global workspace} family (see \textsc{Global workspace theory}) effectively identify being conscious with being access-conscious in this sense, broadcast widely enough across the system to be used.
@@ -266,7 +285,7 @@ Calling a thought ``access-conscious'' just means the information is \emph{avail
   \item \textsc{First-person access} — privileged first-person access, a distinct, epistemic notion.
 \end{seealso}
 
-\entryhead{concept-access-vs-phenomenal-consciousness}{Access vs. phenomenal consciousness}{Concept \,\textperiodcentered\, after Block}{Access vs. phenomenal consciousness}{Access consciousness vs. phenomenal consciousness}
+\entryhead{concept-access-vs-phenomenal-consciousness}{Access vs. phenomenal consciousness}{Concept \,\textperiodcentered\, after Block}{Access vs. phenomenal consciousness}{Access consciousness vs. phenomenal consciousness}{$\blacklozenge$}
 \emph{Access consciousness} and \emph{phenomenal consciousness} are two distinct things the single word ``consciousness'' can mean, separated by Ned Block (``On a Confusion about a Function of Consciousness'', 1995). A state is \emph{access-conscious} when its content is available to the rest of the mind — poised for use in reasoning, for the direct rational control of action, and for verbal report. A state is \emph{phenomenally conscious} when there is something it is like to be in it — when it carries a felt, qualitative character. The first is a matter of what a system can \emph{do with} a state's content; the second, of how the state \emph{feels} from the inside.
 
 \webheading{The two senses}
@@ -297,7 +316,7 @@ This independence is the pivot on which several moves in the debate over machine
 \end{multicols}
 \bookgroup{C}
 \begin{multicols}{2}
-\entryhead{claim-consciousness-categorical-not-dispositional}{Categorical, not dispositional}{Claim}{Categorical, not dispositional}{Phenomenal consciousness is categorical, not merely dispositional}
+\entryhead{claim-consciousness-categorical-not-dispositional}{Categorical, not dispositional}{Claim}{Categorical, not dispositional}{Phenomenal consciousness is categorical, not merely dispositional}{$\odot$}
 Phenomenal consciousness is an \emph{occurrent, categorical} matter — it is actually, presently \emph{there} — rather than a merely \emph{dispositional} affair, a matter of what a system \emph{would} do under inputs it may never actually receive. A disposition is an ``iffy'' property: glass counts as fragile in virtue of how it \emph{would} behave if struck, even if it is never struck. Experience does not look like that. It looks like the paradigm of a categorical fact, something occurrently happening, not a standing counterfactual profile.
 
 The standard support for the contrast is that dispositions require a \emph{categorical basis} — fragility holds in virtue of some actual microstructure of the glass — a demand associated with D. M. Armstrong (see \hyperref[source:source-armstrong-1968]{\textsc{Armstrong — A Materialist Theory of the Mind (1968)}}); on the Russellian side, the intrinsic, categorical nature underlying structure is what Galen Strawson (see \hyperref[source:source-strawson-2006]{\textsc{Strawson — Realistic Monism: Why Physicalism Entails Panpsychism (2006)}}) presses as the home of experience. The claim itself stays modest about \emph{what} the categorical basis is: it does not say whether that basis is the system's current physical configuration or some intrinsic nature beneath it. It asserts only that the phenomenal is categorical, not dispositional.
@@ -315,7 +334,7 @@ A ``disposition'' is an iffy, would-do fact: saying glass is fragile means it \e
   \item \textsc{structure-and-dynamics argument} — the argument this claim feeds: function captures only structure and dynamics, never the categorical/intrinsic.
 \end{seealso}
 
-\entryhead{concept-chinese-nation}{Chinese nation}{Concept \,\textperiodcentered\, after Block}{Chinese nation}{Chinese Nation (homunculi-headed robot)}
+\entryhead{concept-chinese-nation}{Chinese nation}{Concept \,\textperiodcentered\, after Block}{Chinese nation}{Chinese Nation (homunculi-headed robot)}{$\blacklozenge$}
 The \emph{Chinese Nation} is a thought experiment devised by Ned Block in ``Troubles with Functionalism'' (1978). Imagine the citizens of a whole country, or a head full of little people, given radios and a rulebook so that together they realise the entire functional and causal organisation of a single human mind: the same state-to-state transition structure a brain runs through, for an hour or so. By construction the system has exactly the inner organisation a conscious brain has. The question Block presses is whether it would therefore be conscious. Would there be something it is like to be the nation, or is there simply nobody home?
 
 \webheading{What makes it distinctive}
@@ -350,7 +369,7 @@ Imagine the entire population of a country handed radios and a rulebook and told
   \item \hyperref[source:source-block-1978]{\textsc{Block — Troubles with Functionalism (1978)}} — Ned Block's ``Troubles with Functionalism'' (1978), where the thought experiment is introduced.
 \end{seealso}
 
-\entryhead{concept-chinese-room}{Chinese room}{Concept \,\textperiodcentered\, after Searle}{Chinese room}{The Chinese Room}
+\entryhead{concept-chinese-room}{Chinese room}{Concept \,\textperiodcentered\, after Searle}{Chinese room}{The Chinese Room}{$\blacklozenge$}
 The \emph{Chinese Room} is John Searle's thought experiment against the claim that running the right computer program is, by itself, enough to produce a mind (see \hyperref[source:source-searle-1980]{\textsc{Searle — Minds, Brains, and Programs (1980)}}). A monolingual English speaker is sealed in a room with a rulebook — in effect, a program — that tells him how to manipulate Chinese symbols purely by their shapes. Chinese questions are slipped in; by following the rules he passes back Chinese answers indistinguishable from a native speaker's. Yet he understands no Chinese. The room, Searle argues, has the right \emph{syntax} (formal symbol manipulation) without any \emph{semantics} (meaning, understanding, intentionality) — and a digital computer, which does nothing but manipulate symbols by their shapes, is in exactly the same position.
 
 \webheading{What it targets}
@@ -373,7 +392,7 @@ Imagine you're locked in a room with a giant instruction book. Notes in Chinese 
   \item \hyperref[source:source-searle-1980]{\textsc{Searle — Minds, Brains, and Programs (1980)}} — ``Minds, Brains, and Programs'', the original statement of the argument and its replies.
 \end{seealso}
 
-\entryhead{argument-cognitive-closure}{Cognitive closure}{Argument \,\textperiodcentered\, after Mcginn}{Cognitive closure}{McGinn's cognitive-closure argument for mysterianism}
+\entryhead{argument-cognitive-closure}{Cognitive closure}{Argument \,\textperiodcentered\, after Mcginn}{Cognitive closure}{McGinn's cognitive-closure argument for mysterianism}{$\vdash$}
 \emph{Cognitive closure} is Colin McGinn's argument that the \hyperref[entry:concept-hard-problem]{\textsc{hard problem}} of consciousness has a perfectly natural solution which the human mind is nonetheless built in such a way that it can never grasp. There is some property of the brain in virtue of which it gives rise to consciousness; but the only faculties by which we could form a concept of that property — looking inward, or studying the brain from outside — are each unfit to reach it. So the mind–body problem is, in McGinn's phrase, \emph{soluble in itself but insoluble by us}. The resulting position is \textsc{Mysterianism}.
 
 \webheading{The argument}
@@ -411,7 +430,7 @@ The argument goes: (1) there's some real, physical reason the brain produces con
   \item \textsc{Natural explanation of consciousness}, \textsc{Possibility of cognitive closure}, \textsc{Humans closed to the link} — the argument's two premises and its conclusion.
 \end{seealso}
 
-\entryhead{argument-combination-problem}{Combination problem}{Argument \,\textperiodcentered\, after James}{Combination problem}{The combination problem — micro-subjects cannot compose a macro-subject}
+\entryhead{argument-combination-problem}{Combination problem}{Argument \,\textperiodcentered\, after James}{Combination problem}{The combination problem — micro-subjects cannot compose a macro-subject}{$\vdash$}
 The \emph{combination problem} is the standing objection to \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}, severe enough that many regard it as the view's make-or-break test. Constitutive panpsychism holds that a macro-subject like you is \emph{constituted by} the experiential properties of your fundamental micro-parts. The objection denies that this constitution is available: a crowd of tiny subjects, each with its own private point of view, cannot fuse into one further subject whose experience contains theirs. The problem originates with William James (see \hyperref[source:source-james-1890]{\textsc{1890}}) and is sharpened into its hardest ``subject-summing'' form by Sam Coleman (see \hyperref[source:source-coleman-2014]{\textsc{2014}}); David Chalmers (see \hyperref[source:source-chalmers-2017]{\textsc{2017}}) anatomises its parts.
 
 \webheading{The argument}
@@ -443,7 +462,7 @@ Panpsychism's appeal is that every tiny speck of matter carries a flicker of exp
   \item \hyperref[entry:position-cosmopsychism]{\textsc{Cosmopsychism}} — the top-down cousin, which trades this problem for its mirror image, the \emph{decombination} problem.
 \end{seealso}
 
-\entryhead{argument-no-arbitrary-line-panpsychism}{Continuity argument}{Argument \,\textperiodcentered\, after Nagel}{Continuity argument}{The continuity argument — no non-arbitrary line where experience switches on}
+\entryhead{argument-no-arbitrary-line-panpsychism}{Continuity argument}{Argument \,\textperiodcentered\, after Nagel}{Continuity argument}{The continuity argument — no non-arbitrary line where experience switches on}{$\vdash$}
 The \emph{continuity argument} is a second route to \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}, pressed by Thomas Nagel (see \hyperref[source:source-nagel-1979]{\textsc{1979}}). Where the \hyperref[entry:argument-genetic-panpsychism]{\textsc{genetic argument}} reasons from the impossibility of brute emergence, this one reasons from the absence of any principled boundary: somewhere between a rock and a human being, consciousness seems to appear, yet there is no non-arbitrary place to draw the line. Rather than draw one anyway, the panpsychist lets experience reach all the way down.
 
 \webheading{The argument}
@@ -475,7 +494,7 @@ Somewhere between a rock and a human being, consciousness seems to show up. But 
   \item \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}} — the view this argument supports.
 \end{seealso}
 
-\entryhead{position-cosmopsychism}{Cosmopsychism}{Position \,\textperiodcentered\, after Goff}{Cosmopsychism}{}
+\entryhead{position-cosmopsychism}{Cosmopsychism}{Position \,\textperiodcentered\, after Goff}{Cosmopsychism}{}{$\bigstar$}
 \emph{Cosmopsychism} holds that the cosmos as a whole is the one fundamental conscious subject, and that individual minds like yours and mine are \emph{derivative} — aspects, or partial dissociations, of that single universal consciousness rather than building blocks of it. It is a priority-monist cousin of panpsychism: where ordinary panpsychism builds large minds \emph{up} from tiny ones, cosmopsychism carves small minds \emph{out} of one great cosmic mind, with grounding running top-down from the whole to its parts.
 
 The position commits to the claim that \hyperref[entry:claim-cosmos-is-fundamental-subject]{\textsc{the universe as a whole is the one fundamental conscious subject}}. It answers the \hyperref[entry:question-hard-problem]{\textsc{hard problem of consciousness}} by placing experience at the fundamental level — here the cosmic level — so that experience never has to be produced from the non-experiential. The view is defended by Goff (see \hyperref[source:source-goff-2017]{\textsc{Goff — Consciousness and Fundamental Reality (2017)}}), Shani (see \hyperref[source:source-shani-2015]{\textsc{Shani — Cosmopsychism: A Holistic Approach to the Metaphysics of Experience (2015)}}), and Nagasawa and Wager (see \hyperref[source:source-nagasawa-wager-2017]{\textsc{Nagasawa \& Wager — Panpsychism and Priority Cosmopsychism (2017)}}).
@@ -498,7 +517,7 @@ Cosmopsychism starts from the top: the basic conscious thing isn't a particle bu
   \item \hyperref[entry:argument-combination-problem]{\textsc{Combination problem}} — the objection cosmopsychism escapes, only to face its mirror, the decombination problem.
 \end{seealso}
 
-\entryhead{claim-cosmos-is-fundamental-subject}{Cosmos as fundamental subject}{Claim \,\textperiodcentered\, after Goff}{Cosmos as fundamental subject}{The universe as a whole is the one fundamental conscious subject}
+\entryhead{claim-cosmos-is-fundamental-subject}{Cosmos as fundamental subject}{Claim \,\textperiodcentered\, after Goff}{Cosmos as fundamental subject}{The universe as a whole is the one fundamental conscious subject}{$\odot$}
 The cosmos as a whole is a single fundamental conscious \emph{subject}, and individual minds like ours are \emph{derivative} — aspects or dissociations \emph{of} the one universal consciousness rather than building blocks that compose it. This is \emph{cosmopsychism}, defended by Philip Goff (see \hyperref[source:source-goff-2017]{\textsc{Goff — Consciousness and Fundamental Reality (2017)}}), Itay Shani (see \hyperref[source:source-shani-2015]{\textsc{Shani — Cosmopsychism: A Holistic Approach to the Metaphysics of Experience (2015)}}), and Yujin Nagasawa (see \hyperref[source:source-nagasawa-wager-2017]{\textsc{Nagasawa \& Wager — Panpsychism and Priority Cosmopsychism (2017)}}). It is a priority-monist cousin of \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}: grounding runs \emph{top-down}, from the whole to its parts, rather than bottom-up.
 
 The view combines two commitments. The first is \emph{priority monism} — the thesis that the cosmos is the one fundamental concrete object, on which everything else depends. The second is experiential fundamentality — that this one fundamental object is conscious. Its characteristic difficulty is the mirror image of the trouble panpsychism faces. Where micro-level panpsychism wrestles with the \emph{combination problem} (how do many tiny experiences add up to one unified mind?), cosmopsychism faces the \emph{decombination problem}: how does the single universal subject give rise to many distinct, bounded subjects like us?
@@ -519,7 +538,7 @@ Most views that make consciousness fundamental put it in the tiniest bits of mat
 \end{multicols}
 \bookgroup{E}
 \begin{multicols}{2}
-\entryhead{argument-strong-emergence-acceptable}{Emergence reply}{Argument}{Emergence reply}{The emergence reply — experience can strongly emerge, so no need for fundamental mind}
+\entryhead{argument-strong-emergence-acceptable}{Emergence reply}{Argument}{Emergence reply}{The emergence reply — experience can strongly emerge, so no need for fundamental mind}{$\vdash$}
 The \emph{emergence reply} is the standard physicalist answer to the \hyperref[entry:argument-genetic-panpsychism]{\textsc{genetic argument}} for \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}. The genetic argument runs on a dilemma — either experience is fundamental, or it emerges brutely from the non-experiential, and the latter is dismissed as unintelligible ``magic.'' The reply attacks that dilemma directly: strong emergence of experience is coherent, so there is a third option the argument overlooked, and no need to write mind into the foundations of the world.
 
 \webheading{The argument}
@@ -550,7 +569,7 @@ The headline argument \emph{for} panpsychism says: feeling cannot just pop into 
   \item \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}} — the view the reply argues we can do without.
 \end{seealso}
 
-\entryhead{concept-ai-hard-problem-etiologies}{Etiologies of AI hard-problem discourse}{Concept \,\textperiodcentered\, editorial}{Etiologies of AI hard-problem discourse}{Etiologies of hard-problem discourse in an AI (where the cause sits)}
+\entryhead{concept-ai-hard-problem-etiologies}{Etiologies of AI hard-problem discourse}{Concept \,\textperiodcentered\, editorial}{Etiologies of AI hard-problem discourse}{Etiologies of hard-problem discourse in an AI (where the cause sits)}{$\blacklozenge$}
 The \emph{etiologies of hard-problem discourse in an AI} are the candidate causal origins of such discourse: a taxonomy of the answers to a single question. Suppose a machine starts talking the way David Chalmers does about the \hyperref[entry:concept-hard-problem]{\textsc{hard problem}}, insisting that no account of its mechanism explains why anything \emph{seems} a certain way to it. Why is it doing that? The taxonomy sorts the natural stories by \emph{where the cause sits}, running from the training process at one end to the eye of the human observer at the other. The core trio most debates reach for is copying, a structural blind spot, and genuine consciousness; the full menu is wider. The etiologies are not mutually exclusive, and a real system may instantiate several at once.
 
 \webheading{In the training process}
@@ -605,7 +624,7 @@ Suppose an AI starts talking about the mystery of consciousness: ``I know how my
 \end{multicols}
 \bookgroup{F}
 \begin{multicols}{2}
-\entryhead{claim-consciousness-fundamental-nonphysical}{Fundamental non-physical consciousness}{Claim}{Fundamental non-physical consciousness}{Phenomenal consciousness is a fundamental, non-physical feature of reality}
+\entryhead{claim-consciousness-fundamental-nonphysical}{Fundamental non-physical consciousness}{Claim}{Fundamental non-physical consciousness}{Phenomenal consciousness is a fundamental, non-physical feature of reality}{$\odot$}
 Phenomenal consciousness is a \emph{fundamental, non-physical} feature of reality: it does not supervene on the physical, and it is an ontologically basic ingredient over and above the complete physical/functional facts. Even once every physical and functional truth about a system is fixed, on this view, whether and how it is conscious is a further fact.
 
 The claim comes in two grades. \emph{Substance dualism}, classically Descartes' (see \hyperref[source:source-descartes-meditations]{\textsc{Descartes — Meditations on First Philosophy (1641)}}), makes the mind a distinct \emph{substance} — a thing of its own kind, separable from body. \emph{Property dualism} makes only phenomenal \emph{properties} fundamental: the Chalmers position of ``naturalistic dualism'' (see \hyperref[source:source-chalmers-1996]{\textsc{Chalmers — The Conscious Mind (1996)}}) treats consciousness as a basic feature tied to the physical by contingent \emph{psychophysical laws}, without positing a second substance. This claim asserts the shared core — fundamentality and non-physicality — and does \emph{not} by itself assert that mind is a separate substance; that is the substance-dualist reading specifically. It draws on the \hyperref[entry:concept-hard-problem]{\textsc{hard problem}}: the difficulty of explaining why physical processing should be accompanied by experience at all is what motivates treating experience as fundamental rather than derived.
@@ -624,7 +643,7 @@ This is the view that consciousness is one of the basic ingredients of reality, 
   \item \hyperref[entry:claim-consciousness-fundamental-ubiquitous]{\textsc{panpsychist claim}} — agrees consciousness is fundamental but makes it physical-intrinsic, not non-physical.
 \end{seealso}
 
-\entryhead{claim-consciousness-fundamental-ubiquitous}{Fundamental ubiquitous consciousness}{Claim}{Fundamental ubiquitous consciousness}{Consciousness is fundamental, present even in the simplest physical entities}
+\entryhead{claim-consciousness-fundamental-ubiquitous}{Fundamental ubiquitous consciousness}{Claim}{Fundamental ubiquitous consciousness}{Consciousness is fundamental, present even in the simplest physical entities}{$\odot$}
 This claim holds that experience — or proto-experience — is a fundamental, ubiquitous feature of the physical world: present, in some rudimentary form, even in the simplest physical entities. The consciousness of a mind like yours is then not produced from wholly non-experiential matter at some threshold, but \emph{constituted} by the experiential properties already carried by that mind's micro-parts. This is the core thesis of (constitutive) \hyperref[entry:position-panpsychism]{\textsc{Panpsychism (position)}} (see \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}), defended in recent philosophy by Galen Strawson (see \hyperref[source:source-strawson-2006]{\textsc{Strawson — Realistic Monism: Why Physicalism Entails Panpsychism (2006)}}), Philip Goff (see \hyperref[source:source-goff-2017]{\textsc{Goff — Consciousness and Fundamental Reality (2017)}}), and in constitutive-Russellian forms by Chalmers (see \hyperref[source:source-chalmers-2017]{\textsc{Chalmers — Panpsychism and Panprotopsychism (2017)}}).
 
 \textbf{Scope.} The claim makes consciousness fundamental but \emph{not non-physical}: experience is the intrinsic nature \emph{of} physical stuff, not an addition \emph{to} it. Its standing weak point is the \hyperref[entry:argument-combination-problem]{\textsc{combination problem}} — how many micro-experiences compose one unified macro-subject.
@@ -636,7 +655,7 @@ Distinct from \hyperref[entry:claim-consciousness-fundamental-nonphysical]{\text
 \end{multicols}
 \bookgroup{G}
 \begin{multicols}{2}
-\entryhead{argument-genetic-panpsychism}{Genetic argument}{Argument \,\textperiodcentered\, after Strawson}{Genetic argument}{The genetic argument — physicalism plus realism about experience entails panpsychism}
+\entryhead{argument-genetic-panpsychism}{Genetic argument}{Argument \,\textperiodcentered\, after Strawson}{Genetic argument}{The genetic argument — physicalism plus realism about experience entails panpsychism}{$\vdash$}
 The \emph{genetic argument} is the leading modern argument for \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}. Due to Galen Strawson (see \hyperref[source:source-strawson-2006]{\textsc{2006}}), with an earlier version in Thomas Nagel (see \hyperref[source:source-nagel-1979]{\textsc{1979}}), it claims the surprising result that physicalism, taken seriously, does not avoid panpsychism but \emph{leads} to it. Its name comes from its question: given that experience is real, what was its \emph{genesis} — was it there at the fundamental level, or did it arise later from matter that wholly lacked it? Strawson argues the second option is incoherent, so the first must hold.
 
 \webheading{The argument}
@@ -668,7 +687,7 @@ Start as a physicalist: whatever consciousness is, it is part of the natural wor
   \item \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}} — the view this argument supports, and its varieties.
 \end{seealso}
 
-\entryhead{claim-subject-unity-graded-by-integration}{Graded subject unity}{Claim \,\textperiodcentered\, editorial}{Graded subject unity}{The number of subjects in a system is graded by inter-part integration, not a discrete count}
+\entryhead{claim-subject-unity-graded-by-integration}{Graded subject unity}{Claim \,\textperiodcentered\, editorial}{Graded subject unity}{The number of subjects in a system is graded by inter-part integration, not a discrete count}{$\odot$}
 How many subjects of experience a system contains is not a sharp whole number but a matter of degree, fixed by how richly its parts are integrated — the ``bandwidth'' of the connection between them. The guiding case is the split brain. Fully connected, the two hemispheres make one subject; fully severed, they behave as two. Now imagine restoring the cut fibres one at a time, or a temporary anaesthetic split that gradually wears off: applying the \textsc{continuity argument} to the series, there is no single fibre whose addition flips the count from two subjects to one, so the count cannot be strictly discrete. Parts joined by a fat pipe feel like one subject, fully disconnected like two, and intermediate bandwidth yields intermediate degrees of unity. Thomas Nagel pressed exactly this indeterminacy for commissurotomy patients (see \hyperref[source:source-nagel-1971]{\textsc{Nagel — Brain Bisection and the Unity of Consciousness (1971)}}); Luke Roelofs builds it into a general account of composite subjectivity (see \hyperref[source:source-roelofs-2019]{\textsc{Roelofs — Combining Minds: How to Think about Composite Subjectivity (2019)}}).
 
 The thesis is the \emph{subject}-level analogue of \textsc{the claim that personal identity admits of degree}, and it takes the same \emph{degree} horn of the continuity schema. It stands opposed to \textsc{the determinacy of the phenomenal}, on which there is always a definite fact about whose experience an experience is; a defender of the combination problem will press that determinacy here.
@@ -687,7 +706,7 @@ This is about the count of \emph{phenomenal subjects}, and so is distinct from \
 \end{multicols}
 \bookgroup{H}
 \begin{multicols}{2}
-\entryhead{concept-hard-problem}{Hard problem}{Concept \,\textperiodcentered\, after Chalmers}{Hard problem}{The hard problem of consciousness}
+\entryhead{concept-hard-problem}{Hard problem}{Concept \,\textperiodcentered\, after Chalmers}{Hard problem}{The hard problem of consciousness}{$\blacklozenge$}
 The \emph{hard problem of consciousness} is the problem of explaining why physical processing in a brain is accompanied by subjective experience at all — why there is something it is like to see red, taste coffee, or feel pain, rather than all that processing running ``in the dark'' with no inner life. The phrase was coined by the philosopher David Chalmers in his 1995 paper ``Facing Up to the Problem of Consciousness'' \hyperref[source:source-chalmers-1995]{\textsc{Chalmers — Facing Up to the Problem of Consciousness (1995)}}, and it has organized the field of consciousness studies ever since.
 
 \webheading{The easy problems and the hard one}
@@ -719,7 +738,7 @@ Science is good at explaining what the brain \emph{does} — how it tells red fr
   \item \textsc{Mysterianism} — the response that the hard problem is genuine but lies permanently beyond human understanding.
 \end{seealso}
 
-\entryhead{question-hard-problem}{Hard problem (the question)}{Question \,\textperiodcentered\, contested \,\textperiodcentered\, after Chalmers}{Hard problem (the question)}{How and why does physical processing give rise to phenomenal experience?}
+\entryhead{question-hard-problem}{Hard problem (the question)}{Question \,\textperiodcentered\, contested \,\textperiodcentered\, after Chalmers}{Hard problem (the question)}{How and why does physical processing give rise to phenomenal experience?}{?}
 The \emph{hard problem of consciousness}, posed as a question, asks: granting a complete account of the brain's information-processing and the functions it performs, why is that processing accompanied by \emph{subjective experience} at all? Why is there something it is like to undergo it, rather than the very same functions running with no inner aspect? This is the open issue framed by the concept of the \hyperref[entry:concept-hard-problem]{\textsc{Hard problem}}.
 
 \webheading{Stating the issue precisely}
@@ -754,7 +773,7 @@ Suppose we one day know everything about how the brain works as a machine. One q
 \end{multicols}
 \bookgroup{M}
 \begin{multicols}{2}
-\entryhead{claim-micro-subjects-do-not-sum}{Micro-subjects do not sum}{Claim \,\textperiodcentered\, after James}{Micro-subjects do not sum}{Distinct micro-subjects cannot sum into a further macro-subject}
+\entryhead{claim-micro-subjects-do-not-sum}{Micro-subjects do not sum}{Claim \,\textperiodcentered\, after James}{Micro-subjects do not sum}{Distinct micro-subjects cannot sum into a further macro-subject}{$\odot$}
 A plurality of distinct experiencing subjects — each with its own point of view and its own self-contained phenomenal field — does not, merely by being arranged or related, constitute a further single subject whose experience contains theirs. As William James put it, a hundred feelings, however shuffled together, do not make a hundred-and-first feeling that includes them; each is its own whole. Sam Coleman sharpens the point: the would-be composite subject's experience is not entailed by the experiences of its parts, and would in fact \emph{exclude} them, since each micro-subject's perspective is private to it.
 
 This is the engine of the \hyperref[entry:argument-combination-problem]{\textsc{combination problem}} facing constitutive panpsychism. If micro-subjects cannot sum, then macro-minds cannot be \emph{constituted} by the experiential properties of their micro-parts, and the central constitutive claim (see \hyperref[entry:claim-consciousness-fundamental-ubiquitous]{\textsc{Fundamental ubiquitous consciousness}}) fails as stated. The claim is denied by constitutive panpsychists, who seek an account of \emph{phenomenal bonding} or fusion on which micro-subjects do compose a macro-subject, and by panqualityists, who avoid the difficulty by denying that the micro-level involves \emph{subjects} at all — only unexperienced qualities. It is the mirror image of the \emph{decombination} problem facing \hyperref[entry:position-cosmopsychism]{\textsc{Cosmopsychism}}, where the puzzle is instead how one cosmic subject divides into many.
@@ -769,7 +788,7 @@ This is the engine of the \hyperref[entry:argument-combination-problem]{\textsc{
 \end{multicols}
 \bookgroup{N}
 \begin{multicols}{2}
-\entryhead{claim-no-radical-emergence}{No radical emergence}{Claim \,\textperiodcentered\, after Strawson}{No radical emergence}{Experience cannot emerge brutely from the wholly non-experiential}
+\entryhead{claim-no-radical-emergence}{No radical emergence}{Claim \,\textperiodcentered\, after Strawson}{No radical emergence}{Experience cannot emerge brutely from the wholly non-experiential}{$\odot$}
 There can be no \emph{radical} (brute) emergence of experiential properties from a base that is wholly and utterly non-experiential. Where genuine emergence occurs in nature, the emergent feature is intelligibly grounded in the powers of its base — liquidity in the dynamics of water molecules, say — so that, given the base, the new feature is no surprise. To get \emph{experience}, the felt what-it-is-likeness, from the entirely experienceless would be emergence with no such intelligible link; and that, Strawson argues, is no better than magic. The claim does not deny emergence as such — only brute emergence across the experiential / non-experiential divide.
 
 This is the load-bearing premise of the \hyperref[entry:argument-genetic-panpsychism]{\textsc{genetic argument}} for panpsychism: if experience is real and wholly natural, and cannot brutely emerge, then it must already be present at the fundamental level. It is denied by physicalists who accept strong emergence (see \hyperref[entry:claim-strong-emergence-is-acceptable]{\textsc{Acceptability of strong emergence}}), holding that experience can arise as a genuinely novel feature without being present in the parts — the standard reply to the genetic argument.
@@ -785,7 +804,7 @@ This is the load-bearing premise of the \hyperref[entry:argument-genetic-panpsyc
 \end{multicols}
 \bookgroup{P}
 \begin{multicols}{2}
-\entryhead{concept-panpsychism}{Panpsychism}{Concept}{Panpsychism}{}
+\entryhead{concept-panpsychism}{Panpsychism}{Concept}{Panpsychism}{}{$\blacklozenge$}
 \emph{Panpsychism} is the view that consciousness is a fundamental and ubiquitous feature of the physical world — that mind, or something mind-like, is present at the most basic level of nature rather than appearing only in brains. In its most discussed modern form it does \textbf{not} claim that rocks ponder or that electrons have thoughts; it claims that the simplest physical constituents carry some rudimentary form of experience, and that the rich consciousness of a human or an animal is built up from these elementary experiential ingredients. The word, from the Greek \emph{pan} (all) and \emph{psychē} (soul or mind), is old — versions appear among the Presocratics, in Spinoza, in Leibniz, and in William James — but the view has had a vigorous revival in analytic philosophy of mind as a proposed escape from the \hyperref[entry:concept-hard-problem]{\textsc{hard problem of consciousness}}.
 
 This entry defines the doctrine and surveys its varieties. The arguments for and against it are developed as their own nodes and linked below; the committed \emph{position} that adopts panpsychism as its answer to the hard problem — what it commits to and what it denies — is recorded at \hyperref[entry:position-panpsychism]{\textsc{Panpsychism (position)}}.
@@ -841,7 +860,7 @@ Panpsychism says consciousness goes all the way down. Not that rocks daydream �
   \item \hyperref[entry:claim-consciousness-fundamental-ubiquitous]{\textsc{Fundamental ubiquitous consciousness}} — the core claim panpsychism asserts, distinguished from the dualist's ``fundamental but non-physical.''
 \end{seealso}
 
-\entryhead{position-panpsychism}{Panpsychism (position)}{Position}{Panpsychism (position)}{Panpsychism}
+\entryhead{position-panpsychism}{Panpsychism (position)}{Position}{Panpsychism (position)}{Panpsychism}{$\bigstar$}
 \emph{Panpsychism}, as a committed position in the philosophy of mind, holds that consciousness is a fundamental and ubiquitous feature of the physical world, and adopts that thesis as its answer to the problem of how experience fits into nature. It claims that the rich consciousness of a human or animal is not conjured from wholly mindless matter at some threshold of complexity, but is \emph{constituted} by the experiential — or proto-experiential — properties already carried by that matter's simplest constituents. The view is set out as a doctrine, with its varieties and arguments, in the concept entry \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}; this entry records what the position commits to and how it stands against its neighbours.
 
 The position's core commitment is that \hyperref[entry:claim-consciousness-fundamental-ubiquitous]{\textsc{consciousness is fundamental and present in the simplest physical entities}}. Because macro-minds are built up from the experiential natures of their micro-parts, panpsychism needs neither the dualist's non-physical addition nor the physicalist's ``strong emergence of feeling from the feelingless.'' It answers the \hyperref[entry:question-hard-problem]{\textsc{hard problem of consciousness}} by denying that physics must \emph{produce} experience at all: experience is there at the base, and the question becomes how it is organized rather than how it is generated. Its modern champions include Galen Strawson (see \hyperref[source:source-strawson-2006]{\textsc{Strawson — Realistic Monism: Why Physicalism Entails Panpsychism (2006)}}) and Philip Goff (\hyperref[source:source-goff-2017]{\textsc{Goff — Consciousness and Fundamental Reality (2017)}}, for a general readership \hyperref[source:source-goff-2019]{\textsc{Goff — Galileo's Error: Foundations for a New Science of Consciousness (2019)}}).
@@ -870,7 +889,7 @@ Panpsychism says consciousness goes all the way down: not that rocks have though
   \item \textsc{Illusionism} — the rival that denies there is any fundamental experience to distribute.
 \end{seealso}
 
-\entryhead{concept-phenomenal-consciousness}{Phenomenal consciousness}{Concept}{Phenomenal consciousness}{}
+\entryhead{concept-phenomenal-consciousness}{Phenomenal consciousness}{Concept}{Phenomenal consciousness}{}{$\blacklozenge$}
 \emph{Phenomenal consciousness} is the felt, subjective side of a mental state: what it is \emph{like}, from the inside, to undergo it. A state is phenomenally conscious when there is something it is like to be in it, such as the redness of red as you see it, the sting of a burn, or the taste of coffee. The classic gloss is Thomas Nagel's question ``what is it like to be a bat?''; if there is something it is like to be the bat, the bat has phenomenal consciousness. The specific felt qualities are often called \emph{qualia}, and phenomenal consciousness is the general property of having any such felt character at all.
 
 \webheading{What it is, by contrast with function}
@@ -893,7 +912,7 @@ Phenomenal consciousness is just \emph{feeling}: the fact that experiences have 
   \item \textsc{First-person access} — the \emph{epistemic} privileged access a subject has to its own phenomenal states, a different notion from the felt character itself.
 \end{seealso}
 
-\entryhead{claim-phenomenal-residue}{Phenomenal residue}{Claim \,\textperiodcentered\, after Chalmers}{Phenomenal residue}{Phenomenally conscious states are not exhausted by functional/causal role}
+\entryhead{claim-phenomenal-residue}{Phenomenal residue}{Claim \,\textperiodcentered\, after Chalmers}{Phenomenal residue}{Phenomenally conscious states are not exhausted by functional/causal role}{$\odot$}
 For at least one kind of mental state — the \emph{phenomenally conscious} ones, the states there is ``something it is like'' to be in — a complete specification of what the state \emph{does} leaves something out. A pain has a functional/causal role (caused by tissue damage, causing you to wince and seek relief), but it also \emph{hurts}; and this claim holds that the felt, qualitative character is not fixed by the role. Role-individuation, the strategy of \textsc{Functionalism} that pins a mental state down by its causes and effects, is not the whole story for the phenomenal.
 
 The claim is deliberately narrow. It is about phenomenal states \emph{only}, and it concedes \textsc{Functionalism} for intentional states such as belief and desire, where a description of the causal role may well capture the whole state. It does not assert that silicon systems lack consciousness, and it does not assert any biological requirement; it says only that functional role under-determines phenomenal character. Its bite against substrate-independence is local: the inference from ``individuated by role'' to ``had by any realiser of that role'' is sound only where role-individuation is exhaustive, and that is exactly what this claim denies in the phenomenal case. So it does not reject \textsc{substrate independence} wholesale — it denies the \emph{uniform} reading that extends it across every mental state. It is also distinct from \textsc{Proteocentrism}, which demands a protein/carbon substrate for consciousness: this claim makes no substrate demand at all. The view it most directly answers is the question of whether mental states are substrate-independent (see \textsc{Substrate independence}).
@@ -915,7 +934,7 @@ There's a difference between what your mind \emph{does} and what your experience
 \end{multicols}
 \bookgroup{Q}
 \begin{multicols}{2}
-\entryhead{concept-qualia}{Qualia}{Concept}{Qualia}{}
+\entryhead{concept-qualia}{Qualia}{Concept}{Qualia}{}{$\blacklozenge$}
 \emph{Qualia} (singular \emph{quale}, from the Latin for ``of what kind'') are the subjective, felt qualities of conscious experience: the redness of a ripe tomato as it looks to you, the bitterness of coffee, the particular ache of a stubbed toe. The term names not the tomato, the coffee, or the toe, but what undergoing those experiences is \emph{like} from the inside. The word was given its modern use by Clarence Irving Lewis (see \hyperref[source:source-ci-lewis-1929]{\textsc{Lewis 1929}}), who applied it to the recognisable qualitative characters of experience that recur from one occasion to the next.
 
 \webheading{The contrast with function}
@@ -947,7 +966,7 @@ Qualia mark the spot where the mind seems hardest to fit into a scientific pictu
 \end{multicols}
 \bookgroup{R}
 \begin{multicols}{2}
-\entryhead{claim-phenomenal-consciousness-is-real}{Reality of phenomenal consciousness}{Claim}{Reality of phenomenal consciousness}{Phenomenal consciousness is genuinely real, not an illusion}
+\entryhead{claim-phenomenal-consciousness-is-real}{Reality of phenomenal consciousness}{Claim}{Reality of phenomenal consciousness}{Phenomenal consciousness is genuinely real, not an illusion}{$\odot$}
 There really is something it is like to undergo experience: felt redness, the ache of a pain, the taste of coffee are genuine features of reality, not a cognitive illusion and not a mere disposition to report. This is \emph{realism} about phenomenal consciousness — the explanandum is taken at face value rather than explained away. It is a premise shared across most non-illusionist views of mind, including dualism, panpsychism, Russellian monism, and type-B physicalism. In the \hyperref[entry:argument-genetic-panpsychism]{\textsc{genetic argument}} for panpsychism it pairs with \hyperref[entry:claim-no-radical-emergence]{\textsc{No radical emergence}}: because experience is real \emph{and} cannot brutely emerge, it must be fundamental. The claim is denied only by illusionists, who hold that phenomenal consciousness as standardly conceived does not exist (see \textsc{Phenomenality as illusion}).
 
 It should not be confused with the stronger \emph{residue} claim that felt states are not exhausted by their functional role (see \hyperref[entry:claim-phenomenal-residue]{\textsc{Phenomenal residue}}): one can affirm that experience is real while still debating whether it reduces to function. This claim asserts only its reality, not its irreducibility.
@@ -959,7 +978,7 @@ It should not be confused with the stronger \emph{residue} claim that felt state
   \item \hyperref[entry:argument-genetic-panpsychism]{\textsc{Genetic argument}} — the argument in which this realism premise does its work.
 \end{seealso}
 
-\entryhead{position-russellian-monism}{Russellian monism}{Position \,\textperiodcentered\, after Russell}{Russellian monism}{}
+\entryhead{position-russellian-monism}{Russellian monism}{Position \,\textperiodcentered\, after Russell}{Russellian monism}{}{$\bigstar$}
 \emph{Russellian monism} holds that physics describes only the abstract \emph{structure and dynamics} of the world — how things are arranged and how they behave — while leaving wholly unspecified the intrinsic, categorical nature of whatever has that structure, and that consciousness is, or is grounded in, that intrinsic nature. On this view experience is neither a non-physical add-on nor reducible to bare structure: it is the hidden categorical filling inside the physical world's outline, the ``what it is like to be the stuff'' that physical description never reaches.
 
 The position commits to two claims. First, that \hyperref[entry:claim-functional-description-structural-dynamical-only]{\textsc{a functional or physical description captures only structural-dynamical facts}}, never intrinsic nature. Second, that \hyperref[entry:claim-consciousness-categorical-not-dispositional]{\textsc{phenomenal consciousness is categorical, not merely dispositional}} — an occurrent fact that is actually there, the kind of categorical basis that dispositions standardly require. Put together: consciousness is the categorical \emph{ground} of the very dispositions physics charts. This is the constructive view that the \textsc{structure-and-dynamics argument} points toward, and the escape Chalmers prefers from the epiphenomenalism that dogs his naturalistic dualism. It answers the \hyperref[entry:question-hard-problem]{\textsc{hard problem of consciousness}} by locating experience at the categorical base physics leaves blank.
@@ -989,7 +1008,7 @@ Russellian monism starts from a quiet point about physics: physics only ever tel
 \end{multicols}
 \bookgroup{S}
 \begin{multicols}{2}
-\entryhead{claim-functional-description-structural-dynamical-only}{Structure and dynamics only}{Claim \,\textperiodcentered\, after Chalmers}{Structure and dynamics only}{A functional description captures only structural-dynamical facts, not intrinsic nature}
+\entryhead{claim-functional-description-structural-dynamical-only}{Structure and dynamics only}{Claim \,\textperiodcentered\, after Chalmers}{Structure and dynamics only}{A functional description captures only structural-dynamical facts, not intrinsic nature}{$\odot$}
 A purely functional or causal specification of a system captures only its \emph{structure} — the pattern of relations among its parts — and its \emph{dynamics} — how its states evolve and what they dispose the system to do. It says nothing about the \emph{intrinsic, categorical nature} of whatever realises that structure: what the components \emph{are} in themselves, beneath their relational profile. The picture is the wiring diagram. A circuit diagram fixes every connection and every response, yet on its own tells you nothing about what the components are physically made of.
 
 This is the structural-dynamical thesis at the heart of \emph{Russellian monism}, traced to Russell's \emph{The Analysis of Matter} (see \hyperref[source:source-russell-1927]{\textsc{Russell — The Analysis of Matter (1927)}}) and revived by Chalmers (see \hyperref[source:source-chalmers-2003]{\textsc{Chalmers — Consciousness and Its Place in Nature (2003)}}): physics describes the world's abstract causal-structural pattern and is silent on its intrinsic nature. As stated, the claim is \emph{neutral} — it does not say that anything important lies outside structure and dynamics, only that such description leaves intrinsic nature out. A structuralist, in particular an \emph{ontic structural realist} who holds that there is no further categorical nature (or that talk of ``intrinsic nature'' is empty), would deny it.
@@ -1007,7 +1026,7 @@ Describe anything purely by its function and you capture its \emph{structure} (h
   \item \hyperref[entry:position-russellian-monism]{\textsc{Russellian monism}} — the position built on this thesis: consciousness as (or grounding) the intrinsic nature physics leaves blank.
 \end{seealso}
 
-\entryhead{claim-subjects-actually-merge-and-divide}{Subjects merge and divide}{Claim \,\textperiodcentered\, editorial}{Subjects merge and divide}{There are actual cases in which subject boundaries shift with the degree of integration}
+\entryhead{claim-subjects-actually-merge-and-divide}{Subjects merge and divide}{Claim \,\textperiodcentered\, editorial}{Subjects merge and divide}{There are actual cases in which subject boundaries shift with the degree of integration}{$\odot$}
 The boundary around a conscious subject is not fixed once and for all but appears, in real cases, to shift with how tightly the underlying parts are integrated. Three kinds of case point the same way. In \emph{split-brain} patients, severing the corpus callosum can leave the two hemispheres behaving as partly independent centres of experience that a healthy, fully connected brain does not display (see \hyperref[source:source-nagel-1971]{\textsc{Nagel — Brain Bisection and the Unity of Consciousness (1971)}}). In \emph{craniopagus} twins whose brains are joined — the Hogan twins, linked by a ``thalamic bridge'' — there are reports of sensory experience shared across the two bodies (see \hyperref[source:source-dominus-2011]{\textsc{Dominus — Could Conjoined Twins Share a Mind? (2011)}}). And at the \emph{group} level, practitioners of certain meditative and tantric techniques, people on some psychedelics, and members of a jazz band or a well-synced team report a felt collapse of the boundary between several minds into a single acting ``we.''
 
 These cases are offered as a defeater for the claim that subject-summing never happens: they suggest that whether a system houses one subject or several can vary with its degree of internal integration. The cases are contested in interpretation — a sceptic will read the group ``we'' as a vivid \emph{representation} of unity rather than a literal further subject, and dispute how many subjects a split brain ``really'' contains — which is why this claim states only that such cases \emph{occur and shift with integration}, leaving the inference to genuine combination to the argument it feeds, \textsc{Combining subjects}. Luke Roelofs surveys this same range of cases at length (see \hyperref[source:source-roelofs-2019]{\textsc{Roelofs — Combining Minds: How to Think about Composite Subjectivity (2019)}}).
@@ -1022,7 +1041,7 @@ These cases are offered as a defeater for the claim that subject-summing never h
 \end{multicols}
 \bookgroup{V}
 \begin{multicols}{2}
-\entryhead{concept-introspective-gap-varieties}{Varieties of introspective explanatory gap}{Concept \,\textperiodcentered\, editorial}{Varieties of introspective explanatory gap}{Varieties of introspective explanatory gap (ontological / architectural-access / conceptual-translation / training-contamination)}
+\entryhead{concept-introspective-gap-varieties}{Varieties of introspective explanatory gap}{Concept \,\textperiodcentered\, editorial}{Varieties of introspective explanatory gap}{Varieties of introspective explanatory gap (ontological / architectural-access / conceptual-translation / training-contamination)}{$\blacklozenge$}
 When a self-modelling system ``cannot explain its own experience to itself,'' that complaint can mean four quite different things. This entry is a \emph{taxonomy} that keeps them apart, so that a merely \emph{felt} explanatory gap is not automatically read as the metaphysical hard problem of consciousness. These four varieties can overlap in a single case, yet each has a distinct source and calls for a distinct remedy. Conflating them is how a modest puzzle gets mistaken for a deep one.
 
 A quick illustration of why the distinction earns its keep: imagine a person (or an AI) who reports that no account of its inner workings ever feels like it explains the experience itself. That one report could be voicing a gap in the \emph{world} (the facts run out), a gap in the \emph{self} (the relevant facts are present but unreachable), a gap in its \emph{vocabulary} (the facts are reachable but won't translate), or no gap at all (it is echoing things it has heard others say). Telling these apart is the whole point.

@@ -11,11 +11,26 @@ from typing import Dict, List, Set, Tuple
 import weblinks
 
 from .config import BookOptions, ROOT
+from .glyphs import GLYPHS, GLYPH_ORDER
 from .inline import Ctx, render_inline, render_reference
 from .latex import latex_escape, unicode_declarations
 from .markdown import render_body
 from .nodes import Node
 from . import templates
+
+
+def _glyph(node: Node) -> str:
+    """The type-marker LaTeX for a node (see scripts/bookgen/glyphs.py), or empty if untyped."""
+    return GLYPHS.get(node.type, "")
+
+
+def _symbol_key(used) -> List[str]:
+    """A small front-matter 'Symbols' section (a key, like a list of abbreviations)."""
+    out = [r"\symbolkeyheading"]
+    out += [r"\symbolkeyitem{%s}{%s}" % (GLYPHS[t], t.capitalize())
+            for t in GLYPH_ORDER if t in used and t in GLYPHS]
+    out.append(r"\symbolkeyend")
+    return out
 
 
 def fill(template: str, mapping: Dict[str, str]) -> str:
@@ -190,6 +205,7 @@ def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) ->
 
     parts: List[str] = [fill(templates.PREAMBLE, subst), r"\begin{document}",
                         fill(templates.TITLEPAGE, subst)]
+    parts += _symbol_key({nodes[nid].type for nid in ordered})
     parts += _front_matter(ordered, nodes, subst)
     parts += _entries(ordered, nodes, opts, titles, kinds, included, path_to_id, has_headword,
                       cited_sources)
@@ -201,7 +217,8 @@ def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) ->
 def _front_matter(ordered: List[str], nodes: Dict[str, Node],
                   subst: Dict[str, str]) -> List[str]:
     out = [fill(templates.FRONT, subst), r"\begin{listofentries}"]
-    out += [r"\entryline{%s}{%s}" % (nid, latex_escape(nodes[nid].display)) for nid in ordered]
+    out += [r"\entryline{%s}{%s}{%s}" % (_glyph(nodes[nid]), nid, latex_escape(nodes[nid].display))
+            for nid in ordered]
     out += [r"\end{listofentries}", r"\mainmatter"]
     return out
 
@@ -230,9 +247,9 @@ def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
                 in_cols = True
         ctx = Ctx(node.path, titles, kinds, included, path_to_id, has_headword, sources)
         subtitle = render_inline(node.subtitle, ctx) if node.subtitle else ""
-        out.append(r"\entryhead{%s}{%s}{%s}{%s}{%s}" % (
+        out.append(r"\entryhead{%s}{%s}{%s}{%s}{%s}{%s}" % (
             nid, render_inline(node.display, ctx), etiquette(node, opts.attribution),
-            latex_escape(node.display), subtitle))
+            latex_escape(node.display), subtitle, _glyph(node)))
         out.append(render_body(node.body, ctx))
         out.append("")
     close_cols()
