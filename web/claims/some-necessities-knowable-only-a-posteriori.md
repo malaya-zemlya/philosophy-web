@@ -11,8 +11,8 @@ created: 2026-06-08
 ---
 
 gloss: there are truths that are *metaphysically necessary* yet knowable only by empirical investigation
-— identities like "water is H2O," "heat is molecular motion," "Hesperus is Phosphorus" (Kripke, *Naming
-and Necessity*, 1980). For such a truth, its negation is *conceivable* (one can coherently seem to
+— identities like "water is H2O," "heat is molecular motion," "Hesperus is Phosphorus"
+([kripke-1980](../sources/kripke-1980.md)). For such a truth, its negation is *conceivable* (one can coherently seem to
 imagine water that is not H2O) while being metaphysically *impossible*. So conceivability and
 possibility come apart at least here.
 

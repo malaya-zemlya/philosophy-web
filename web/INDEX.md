@@ -769,6 +769,9 @@
 - backlinks:
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --premise-->
 
+## [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md)
+- type: claim | author: chalmers | status: asserted
+
 ## [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
@@ -1296,6 +1299,7 @@
 ## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
 
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
@@ -1306,11 +1310,27 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
 
+## [concept-primary-intension](concepts/primary-intension.md)
+- type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
+  - [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md) --uses_concept-->
+  - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
+  - [concept-secondary-intension](concepts/secondary-intension.md) --uses_concept-->
+
 ## [concept-qualia](concepts/qualia.md)
 - type: concept | author: generic | status: asserted
 
 ## [concept-rendering-test](test/rendering-test.md)
 - type: concept | author: mishka | status: asserted
+
+## [concept-secondary-intension](concepts/secondary-intension.md)
+- type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
+  - [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md) --uses_concept-->
+  - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
+  - [concept-primary-intension](concepts/primary-intension.md) --uses_concept-->
 
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted
@@ -1469,6 +1489,9 @@
 ## [source-chalmers-1996](sources/chalmers-1996.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chalmers-2002](sources/chalmers-2002.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chalmers-2003](sources/chalmers-2003.md)
 - type: source | author: mishka | status: asserted
 
@@ -1511,7 +1534,13 @@
 ## [source-jackson-1982](sources/jackson-1982.md)
 - type: source | author: mishka | status: asserted
 
+## [source-jackson-1998](sources/jackson-1998.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-james-1890](sources/james-1890.md)
+- type: source | author: mishka | status: asserted
+
+## [source-kripke-1980](sources/kripke-1980.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-lem](sources/lem.md)

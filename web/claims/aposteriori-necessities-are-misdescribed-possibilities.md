@@ -8,6 +8,7 @@ status: asserted
 tags: [metaphysics, modality, consciousness]
 style: legacy
 created: 2026-06-08
+uses_concept: [concept-primary-intension, concept-secondary-intension]
 ---
 
 gloss: the two-dimensional diagnosis of the Kripke cases ([some-necessities-knowable-only-a-posteriori](some-necessities-knowable-only-a-posteriori.md)).
