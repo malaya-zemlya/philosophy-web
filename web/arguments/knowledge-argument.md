@@ -10,7 +10,7 @@ pattern: thought-experiment
 premise: [claim-mary-knows-all-physical, claim-mary-learns-on-release]
 concludes: claim-some-truths-about-experience-not-physically-deducible
 supports: [claim-consciousness-fundamental-nonphysical, claim-phenomenal-residue]
-attacks: [claim-substrate-independence]
+attacks: [claim-mental-is-physical, claim-substrate-independence]
 uses_concept: [concept-knowledge-argument, concept-hard-problem]
 style: legacy
 created: 2026-06-08
@@ -26,8 +26,9 @@ epistemic→ontological step).
   the physical.
 ∴ ([some-truths-about-experience-not-physically-deducible](../claims/some-truths-about-experience-not-physically-deducible.md)) some truths about experience are not
   physically deducible — which `supports` [consciousness-fundamental-nonphysical](../claims/consciousness-fundamental-nonphysical.md) (the missing
-  truths concern non-physical facts) and [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md), and `attacks` the uniform reading
-  of [substrate-independence](../claims/substrate-independence.md).
+  truths concern non-physical facts) and [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md), and
+  `attacks` the physicalist thesis that [mental events are physical](../claims/mental-is-physical.md)
+  ([physicalism](../positions/physicalism.md)) along with the uniform reading of [substrate-independence](../claims/substrate-independence.md).
 
 weakest premise: the *intuition* ([mary-learns-on-release](../claims/mary-learns-on-release.md)) read as acquiring a new *fact*. The
 **ability hypothesis** (Lewis, Nemirow; the [thought-experiment pattern](../../patterns/thought-experiment.md)'s **critical questions** CQ-verdict / CQ-bridge) says Mary gains know-how

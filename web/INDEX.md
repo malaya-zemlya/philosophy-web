@@ -43,6 +43,9 @@
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --responds_to-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --responds_to-->
 
+## [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md)
+- type: argument | author: papineau | status: asserted
+
 ## [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
@@ -693,6 +696,19 @@
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --premise-->
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --attacks-->
 
+## [claim-mental-events-have-physical-effects](claims/mental-events-have-physical-effects.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
+
+## [claim-mental-is-physical](claims/mental-is-physical.md)
+- type: claim | author: generic | status: contested
+- backlinks:
+  - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --concludes-->
+  - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
+  - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
+  - [position-physicalism](positions/physicalism.md) --commits_to-->
+
 ## [claim-mental-states-are-brain-state-types](claims/mental-states-are-brain-state-types.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -729,6 +745,11 @@
 - backlinks:
   - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --premise-->
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --attacks-->
+
+## [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
 
 ## [claim-observable-universe-finite-storage](claims/observable-universe-finite-storage.md)
 - type: claim | author: generic | status: asserted
@@ -799,6 +820,11 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --premise-->
+
+## [claim-physical-domain-complete](claims/physical-domain-complete.md)
+- type: claim | author: papineau | status: asserted
+- backlinks:
+  - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
 
 ## [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md)
 - type: claim | author: mishka | status: asserted
@@ -1005,6 +1031,14 @@
 - backlinks:
   - [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md) --uses_concept-->
 
+## [concept-causal-closure](concepts/causal-closure.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --uses_concept-->
+  - [claim-mental-is-physical](claims/mental-is-physical.md) --uses_concept-->
+  - [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md) --uses_concept-->
+  - [position-physicalism](positions/physicalism.md) --uses_concept-->
+
 ## [concept-chinese-nation](concepts/chinese-nation.md)
 - type: concept | author: block | status: asserted
 - backlinks:
@@ -1020,6 +1054,15 @@
   - [claim-chinese-room-runs-program](claims/chinese-room-runs-program.md) --uses_concept-->
   - [claim-simulation-instances-formal-depicts-causal](claims/simulation-instances-formal-depicts-causal.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
+
+## [concept-completeness-of-physics](concepts/completeness-of-physics.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --uses_concept-->
+  - [claim-mental-is-physical](claims/mental-is-physical.md) --uses_concept-->
+  - [claim-physical-domain-complete](claims/physical-domain-complete.md) --uses_concept-->
+  - [concept-causal-closure](concepts/causal-closure.md) --uses_concept-->
+  - [position-physicalism](positions/physicalism.md) --uses_concept-->
 
 ## [concept-continuity-argument-schema](concepts/continuity-argument-schema.md)
 - type: concept | author: mishka | status: asserted
@@ -1182,6 +1225,7 @@
   - [position-neutral-monism](positions/neutral-monism.md) --uses_concept-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --uses_concept-->
   - [position-panpsychism](positions/panpsychism.md) --uses_concept-->
+  - [position-physicalism](positions/physicalism.md) --uses_concept-->
   - [position-russellian-monism](positions/russellian-monism.md) --uses_concept-->
   - [question-hard-problem](questions/hard-problem.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
@@ -1394,6 +1438,9 @@
 ## [position-panpsychism](positions/panpsychism.md)
 - type: position | author: generic | status: asserted
 
+## [position-physicalism](positions/physicalism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-proteocentrism](positions/proteocentrism.md)
 - type: position | author: mishka | status: asserted
 - backlinks:
@@ -1415,6 +1462,7 @@
 - type: question | author: chalmers | status: contested
 - backlinks:
   - [claim-humans-closed-to-psychophysical-link](claims/humans-closed-to-psychophysical-link.md) --answers-->
+  - [claim-mental-is-physical](claims/mental-is-physical.md) --answers-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --answers-->
   - [position-cosmopsychism](positions/cosmopsychism.md) --answers-->
   - [position-dual-aspect-monism](positions/dual-aspect-monism.md) --answers-->
@@ -1431,6 +1479,7 @@
   - [position-neutral-monism](positions/neutral-monism.md) --answers-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
   - [position-panpsychism](positions/panpsychism.md) --answers-->
+  - [position-physicalism](positions/physicalism.md) --answers-->
   - [position-representationalism](positions/representationalism.md) --answers-->
   - [position-russellian-monism](positions/russellian-monism.md) --answers-->
   - [position-type-identity](positions/type-identity.md) --answers-->
@@ -1540,6 +1589,9 @@
 ## [source-james-1890](sources/james-1890.md)
 - type: source | author: mishka | status: asserted
 
+## [source-kim-2005](sources/kim-2005.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kripke-1980](sources/kripke-1980.md)
 - type: source | author: mishka | status: asserted
 
@@ -1571,6 +1623,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-nemirow-1990](sources/nemirow-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-papineau-2002](sources/papineau-2002.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-roelofs-2019](sources/roelofs-2019.md)
