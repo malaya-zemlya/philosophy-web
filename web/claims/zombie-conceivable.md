@@ -7,24 +7,27 @@ author: chalmers
 status: asserted
 tags: [philosophy-of-mind, consciousness, thought-experiment]
 uses_concept: [concept-philosophical-zombie]
-style: legacy
+style: encyclopedia
 created: 2026-06-08
 ---
 
-gloss: the scenario/intuition premise of the zombie argument. A being identical to a conscious person
-in every microphysical and functional respect, but with no phenomenal consciousness
-([philosophical-zombie](../concepts/philosophical-zombie.md)), is *ideally conceivable* — coherently and stably imaginable, with no
-hidden contradiction revealed on ideal rational reflection.
+A being identical to a conscious person in every microphysical and functional respect, yet with
+no phenomenal consciousness — a [philosophical zombie](../concepts/philosophical-zombie.md) — is
+*ideally conceivable*: coherently and stably imaginable, with no hidden contradiction revealed
+on ideal rational reflection ([chalmers-1996](../sources/chalmers-1996.md)). This is the scenario-and-intuition
+premise of the zombie argument.
 
-scope: a claim about *conceivability*, not yet possibility. It does not by itself assert zombies are
-metaphysically possible (that needs the bridge, [conceivability-entails-possibility](conceivability-entails-possibility.md)). The
-qualifier "ideal" matters: the claim is not about what is easy to picture but about what survives
-idealised reflection.
+The claim is about *conceivability*, not yet possibility. It does not by itself assert that
+zombies are metaphysically possible; that further step needs the modal bridge,
+[conceivability-entails-possibility](conceivability-entails-possibility.md). The qualifier "ideal" is doing real work: the
+claim is not that a zombie is easy to picture, but that the description survives idealised
+reflection — the kind of careful scrutiny that would expose a contradiction if there were one.
 
-who would deny it: type-A physicalists ([materialism-types](../concepts/materialism-types.md)) and illusionists, who hold that on full reflection the zombie
-description *is* incoherent (there is no further phenomenal fact to subtract), so it is not genuinely
-conceivable at all — only apparently so.
+Those who deny it are chiefly type-A physicalists ([materialism-types](../concepts/materialism-types.md)) and
+illusionists, who hold that on full reflection the zombie description *is* incoherent — there is
+no further phenomenal fact left over to subtract — so it is not genuinely conceivable, only
+apparently so.
 
-Distinct from [conceivability-entails-possibility](conceivability-entails-possibility.md) (the modal bridge) and from
-[phenomenal-residue](phenomenal-states-not-exhausted-by-role.md) (a thesis about role-individuation): this asserts only the coherent
-imaginability of the absent-consciousness duplicate.
+This is distinct from the modal bridge [conceivability-entails-possibility](conceivability-entails-possibility.md) and from
+[the thesis that phenomenal states are not exhausted by their role](phenomenal-states-not-exhausted-by-role.md):
+it asserts only the coherent imaginability of the absent-consciousness duplicate.
