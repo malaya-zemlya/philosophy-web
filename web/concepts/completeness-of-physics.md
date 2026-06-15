@@ -32,6 +32,41 @@ behaviour, were squeezed out as physiology and physics found sufficient physical
 movements they were meant to produce. The conservation laws are the usual modern evidence — a non-physical
 cause injecting energy or momentum into a body would show up as a violation, and none is observed.
 
+### Quantum indeterminism
+
+A naive statement of completeness is *deterministic*: every physical effect is fully fixed by prior
+physical states under physical law. On the standard reading of quantum mechanics that is simply false.
+When an atom decays or a photon meets a half-silvered mirror, the prior physical state fixes only a
+*probability distribution* over outcomes, not the outcome itself. There is genuine chance in the basement.
+
+Completeness survives because it was never a claim about *determination* in the first place; it is a claim
+about *probabilities*. The careful formulation runs: in so far as a physical effect is determined at all,
+it is determined by physical antecedents, and in so far as it is merely chancy, its objective probabilities
+are fixed by physical law *alone*. The dial may sometimes land at random, but nothing non-physical sets the
+odds it lands on. So stated, completeness rules out non-physical *causes*, not physical *chance*: randomness
+is internal to physics, not a leak in its wall, and the thesis is compatible with genuine indeterminism
+rather than a disguised commitment to determinism.
+
+This matters for the mind because quantum chance is sometimes floated as a loophole for the
+*interactionist* — a place where an immaterial will might "make a difference" without violating the
+conservation laws, by nudging which outcome a brain's quantum events take. The probabilistic formulation is
+exactly what closes the loophole, and it does so by reposing the same dilemma the [causal-closure](causal-closure.md)
+poses elsewhere. Either the mind merely rides along with whatever the physical chances throw up, in which
+case it does no distinctive work ([epiphenomenalism](../positions/epiphenomenalism.md)); or it *biases* the probabilities, making
+an outcome likelier than the physical law prescribes, in which case physics is not complete after all. The
+second horn is a genuine empirical claim, and the physicalist bets it is false: no deviation from quantum
+statistics has ever been measured in a brain. So indeterminism hands the [dualist](../positions/dualism.md) no free
+mental causation. It only restates the choice between riding inertly and breaking completeness, with the
+breach now statistical rather than energetic.
+
+Two cautions. First, the picture is interpretation-dependent: on Bohmian mechanics the world is
+deterministic again and completeness reverts to its strong form, while on Everettian quantum mechanics
+there is no single collapse-outcome to be "caused" at all. Completeness holds across these readings because
+in each the *physics* remains causally self-contained, but the gloss on "randomness" differs. Second,
+indeterminism is not by itself a resource for free will: an outcome that is merely random is no more an
+agent's own doing than one that is determined, so nothing about how completeness treats quantum chance
+smuggles libertarian agency in through the back door.
+
 ### The completeness premise at work
 
 Completeness is the load-bearing premise of the **causal argument for physicalism**: if every physical
