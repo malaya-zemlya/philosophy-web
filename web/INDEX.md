@@ -408,6 +408,7 @@
   - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --attacks-->
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --concludes-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
+  - [position-type-b-materialism](positions/type-b-materialism.md) --rejects-->
   - [position-type-identity](positions/type-identity.md) --rejects-->
 
 ## [claim-conceivability-not-sufficient-for-physical-realizability](claims/conceivability-not-sufficient-for-physical-realizability.md)
@@ -708,6 +709,9 @@
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
   - [position-physicalism](positions/physicalism.md) --commits_to-->
+  - [position-type-a-materialism](positions/type-a-materialism.md) --commits_to-->
+  - [position-type-b-materialism](positions/type-b-materialism.md) --commits_to-->
+  - [position-type-c-materialism](positions/type-c-materialism.md) --commits_to-->
 
 ## [claim-mental-states-are-brain-state-types](claims/mental-states-are-brain-state-types.md)
 - type: claim | author: generic | status: asserted
@@ -810,6 +814,7 @@
   - [position-epiphenomenalism](positions/epiphenomenalism.md) --commits_to-->
   - [position-illusionism](positions/illusionism.md) --rejects-->
   - [position-panpsychism](positions/panpsychism.md) --commits_to-->
+  - [position-type-a-materialism](positions/type-a-materialism.md) --rejects-->
 
 ## [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md)
 - type: claim | author: frankish | status: asserted
@@ -998,6 +1003,7 @@
 - backlinks:
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
   - [position-eliminative-materialism](positions/eliminative-materialism.md) --rejects-->
+  - [position-type-a-materialism](positions/type-a-materialism.md) --rejects-->
 
 ## [concept-access-consciousness](concepts/access-consciousness.md)
 - type: concept | author: block | status: asserted
@@ -1227,6 +1233,9 @@
   - [position-panpsychism](positions/panpsychism.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
   - [position-russellian-monism](positions/russellian-monism.md) --uses_concept-->
+  - [position-type-a-materialism](positions/type-a-materialism.md) --uses_concept-->
+  - [position-type-b-materialism](positions/type-b-materialism.md) --uses_concept-->
+  - [position-type-c-materialism](positions/type-c-materialism.md) --uses_concept-->
   - [question-hard-problem](questions/hard-problem.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
 
@@ -1319,6 +1328,9 @@
   - [position-eliminative-materialism](positions/eliminative-materialism.md) --uses_concept-->
   - [position-epiphenomenalism](positions/epiphenomenalism.md) --uses_concept-->
   - [position-representationalism](positions/representationalism.md) --uses_concept-->
+  - [position-type-a-materialism](positions/type-a-materialism.md) --uses_concept-->
+  - [position-type-b-materialism](positions/type-b-materialism.md) --uses_concept-->
+  - [position-type-c-materialism](positions/type-c-materialism.md) --uses_concept-->
   - [position-type-identity](positions/type-identity.md) --uses_concept-->
 
 ## [concept-order-of-representation](concepts/order-of-representation.md)
@@ -1452,6 +1464,15 @@
 ## [position-russellian-monism](positions/russellian-monism.md)
 - type: position | author: russell | status: asserted
 
+## [position-type-a-materialism](positions/type-a-materialism.md)
+- type: position | author: chalmers | status: asserted
+
+## [position-type-b-materialism](positions/type-b-materialism.md)
+- type: position | author: chalmers | status: asserted
+
+## [position-type-c-materialism](positions/type-c-materialism.md)
+- type: position | author: chalmers | status: asserted
+
 ## [position-type-identity](positions/type-identity.md)
 - type: position | author: generic | status: asserted
 
@@ -1482,6 +1503,9 @@
   - [position-physicalism](positions/physicalism.md) --answers-->
   - [position-representationalism](positions/representationalism.md) --answers-->
   - [position-russellian-monism](positions/russellian-monism.md) --answers-->
+  - [position-type-a-materialism](positions/type-a-materialism.md) --answers-->
+  - [position-type-b-materialism](positions/type-b-materialism.md) --answers-->
+  - [position-type-c-materialism](positions/type-c-materialism.md) --answers-->
   - [position-type-identity](positions/type-identity.md) --answers-->
 
 ## [question-llm-moral-status](questions/llm-moral-status.md)
