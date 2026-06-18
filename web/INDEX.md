@@ -1580,7 +1580,16 @@
 ## [source-coleman-2014](sources/coleman-2014.md)
 - type: source | author: mishka | status: asserted
 
+## [source-conee-1994](sources/conee-1994.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dennett-1988](sources/dennett-1988.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dennett-1991](sources/dennett-1991.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dennett-2005](sources/dennett-2005.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-descartes-meditations](sources/descartes-meditations.md)
@@ -1599,6 +1608,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-goodhart](sources/goodhart.md)
+- type: source | author: mishka | status: asserted
+
+## [source-horgan-1984](sources/horgan-1984.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-hume-dialogues](sources/hume-dialogues.md)
@@ -1625,6 +1637,9 @@
 ## [source-levine-1983](sources/levine-1983.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lewis-1979](sources/lewis-1979.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-lewis-1988](sources/lewis-1988.md)
 - type: source | author: mishka | status: asserted
 
@@ -1632,6 +1647,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-liu-cixin](sources/liu-cixin.md)
+- type: source | author: mishka | status: asserted
+
+## [source-loar-1990](sources/loar-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-nagasawa-wager-2017](sources/nagasawa-wager-2017.md)
@@ -1652,7 +1670,13 @@
 ## [source-papineau-2002](sources/papineau-2002.md)
 - type: source | author: mishka | status: asserted
 
+## [source-perry-2001](sources/perry-2001.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-roelofs-2019](sources/roelofs-2019.md)
+- type: source | author: mishka | status: asserted
+
+## [source-russell-1911](sources/russell-1911.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-russell-1927](sources/russell-1927.md)
@@ -1667,8 +1691,14 @@
 ## [source-specification-gaming](sources/specification-gaming.md)
 - type: source | author: mishka | status: asserted
 
+## [source-stanley-williamson-2001](sources/stanley-williamson-2001.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-strawson-2006](sources/strawson-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-turing-1936](sources/turing-1936.md)
+- type: source | author: mishka | status: asserted
+
+## [source-tye-2000](sources/tye-2000.md)
 - type: source | author: mishka | status: asserted
