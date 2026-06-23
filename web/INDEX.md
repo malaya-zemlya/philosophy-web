@@ -46,6 +46,9 @@
 ## [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md)
 - type: argument | author: papineau | status: asserted
 
+## [argument-causal-exclusion](arguments/causal-exclusion.md)
+- type: argument | author: kim | status: asserted
+
 ## [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
@@ -593,6 +596,11 @@
 - backlinks:
   - [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md) --premise-->
 
+## [claim-irreducible-mental-causally-excluded](claims/irreducible-mental-causally-excluded.md)
+- type: claim | author: kim | status: asserted
+- backlinks:
+  - [argument-causal-exclusion](arguments/causal-exclusion.md) --concludes-->
+
 ## [claim-knowhow-is-knowledge-that](claims/knowhow-is-knowledge-that.md)
 - type: claim | author: stanley | status: asserted
 - backlinks:
@@ -706,6 +714,7 @@
 - type: claim | author: generic | status: contested
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --concludes-->
+  - [argument-causal-exclusion](arguments/causal-exclusion.md) --supports-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
   - [position-physicalism](positions/physicalism.md) --commits_to-->
@@ -754,6 +763,7 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
+  - [argument-causal-exclusion](arguments/causal-exclusion.md) --premise-->
 
 ## [claim-observable-universe-finite-storage](claims/observable-universe-finite-storage.md)
 - type: claim | author: generic | status: asserted
@@ -830,6 +840,7 @@
 - type: claim | author: papineau | status: asserted
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
+  - [argument-causal-exclusion](arguments/causal-exclusion.md) --premise-->
 
 ## [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md)
 - type: claim | author: mishka | status: asserted
@@ -1041,6 +1052,8 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --uses_concept-->
+  - [argument-causal-exclusion](arguments/causal-exclusion.md) --uses_concept-->
+  - [claim-irreducible-mental-causally-excluded](claims/irreducible-mental-causally-excluded.md) --uses_concept-->
   - [claim-mental-is-physical](claims/mental-is-physical.md) --uses_concept-->
   - [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
@@ -1065,6 +1078,7 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --uses_concept-->
+  - [argument-causal-exclusion](arguments/causal-exclusion.md) --uses_concept-->
   - [claim-mental-is-physical](claims/mental-is-physical.md) --uses_concept-->
   - [claim-physical-domain-complete](claims/physical-domain-complete.md) --uses_concept-->
   - [concept-causal-closure](concepts/causal-closure.md) --uses_concept-->
@@ -1219,6 +1233,7 @@
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
   - [concept-panpsychism](concepts/panpsychism.md) --uses_concept-->
+  - [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md) --uses_concept-->
   - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
   - [concept-rendering-test](test/rendering-test.md) --uses_concept-->
   - [position-cosmopsychism](positions/cosmopsychism.md) --uses_concept-->
@@ -1351,6 +1366,9 @@
   - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --uses_concept-->
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
+
+## [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md)
+- type: concept | author: chalmers | status: asserted
 
 ## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
 - type: concept | author: generic | status: asserted
@@ -1569,6 +1587,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2017](sources/chalmers-2017.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-2018](sources/chalmers-2018.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2022](sources/chalmers-2022.md)
