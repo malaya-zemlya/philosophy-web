@@ -1400,6 +1400,9 @@
 ## [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md)
 - type: concept | author: chalmers | status: asserted
 
+## [concept-perfect-actor](concepts/perfect-actor.md)
+- type: concept | author: putnam | status: asserted
+
 ## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -1435,6 +1438,9 @@
   - [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md) --uses_concept-->
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-primary-intension](concepts/primary-intension.md) --uses_concept-->
+
+## [concept-super-spartan](concepts/super-spartan.md)
+- type: concept | author: putnam | status: asserted
 
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted
@@ -1722,6 +1728,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-perry-2001](sources/perry-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-putnam-1963](sources/putnam-1963.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-roelofs-2019](sources/roelofs-2019.md)
