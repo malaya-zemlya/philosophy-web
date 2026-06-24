@@ -106,6 +106,9 @@
 - backlinks:
   - [character-alvin](characters/alvin.md) --holds-->
 
+## [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md)
+- type: argument | author: deutsch | status: asserted
+
 ## [argument-explanatory-gap](arguments/explanatory-gap.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -201,6 +204,9 @@
 ## [argument-modal-rationalism](arguments/modal-rationalism.md)
 - type: argument | author: chalmers | status: asserted
 
+## [argument-munchhausen-trilemma](arguments/munchhausen-trilemma.md)
+- type: argument | author: generic | status: asserted
+
 ## [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md)
 - type: argument | author: nagel | status: asserted
 
@@ -237,6 +243,9 @@
   - [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md) --responds_to-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --attacks-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --responds_to-->
+
+## [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md)
+- type: argument | author: generic | status: asserted
 
 ## [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md)
 - type: argument | author: mishka | status: asserted
@@ -278,8 +287,13 @@
 ## [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-zombie-conceivability](arguments/zombie-conceivability.md)
 - type: argument | author: chalmers | status: asserted
+- backlinks:
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --attacks-->
 
 ## [character-alvin](characters/alvin.md)
 - type: character | author: alvin | status: asserted
@@ -330,6 +344,11 @@
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --supports-->
   - [character-cyril](characters/cyril.md) --rejects-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
+
+## [claim-all-knowledge-is-conjectural](claims/all-knowledge-is-conjectural.md)
+- type: claim | author: popper | status: asserted
+- backlinks:
+  - [position-fallibilism](positions/fallibilism.md) --commits_to-->
 
 ## [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md)
 - type: claim | author: chalmers | status: asserted
@@ -392,6 +411,11 @@
 - type: claim | author: block | status: asserted
 - backlinks:
   - [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md) --premise-->
+
+## [claim-cogency-requires-accessible-noncircular-warrant](claims/cogency-requires-accessible-noncircular-warrant.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
 
 ## [claim-cognitive-closure-exists](claims/cognitive-closure-exists.md)
 - type: claim | author: mcginn | status: asserted
@@ -486,6 +510,11 @@
 - backlinks:
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
 
+## [claim-consistency-certification-is-oracle-hard](claims/consistency-certification-is-oracle-hard.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
+
 ## [claim-cosmos-is-fundamental-subject](claims/cosmos-is-fundamental-subject.md)
 - type: claim | author: goff | status: asserted
 - backlinks:
@@ -512,6 +541,16 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --premise-->
+
+## [claim-external-world-exists](claims/external-world-exists.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md) --concludes-->
+  - [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md) --supports-->
+  - [position-hinge-epistemology](positions/hinge-epistemology.md) --commits_to-->
+
+## [claim-external-world-unprovable-noncircular](claims/external-world-unprovable-noncircular.md)
+- type: claim | author: generic | status: asserted
 
 ## [claim-finite-mind-truncates-beyond-capacity](claims/finite-mind-truncates-beyond-capacity.md)
 - type: claim | author: block | status: asserted
@@ -561,6 +600,11 @@
 ## [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md)
 - type: claim | author: mishka | status: asserted
 
+## [claim-good-explanation-is-hard-to-vary](claims/good-explanation-is-hard-to-vary.md)
+- type: claim | author: deutsch | status: asserted
+- backlinks:
+  - [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md) --premise-->
+
 ## [claim-halting-oracle-coherent-but-unrealizable](claims/halting-oracle-coherent-but-unrealizable.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -590,6 +634,11 @@
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --concludes-->
   - [position-mysterianism](positions/mysterianism.md) --commits_to-->
 
+## [claim-ideal-conceivability-is-apriori-consistency](claims/ideal-conceivability-is-apriori-consistency.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
+
 ## [claim-imaginary-blockhead-no-secure-verdict](claims/imaginary-blockhead-no-secure-verdict.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -616,10 +665,30 @@
 - backlinks:
   - [argument-causal-exclusion](arguments/causal-exclusion.md) --concludes-->
 
+## [claim-justification-is-infinite-chain](claims/justification-is-infinite-chain.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-infinitism](positions/infinitism.md) --commits_to-->
+
+## [claim-justification-is-mutual-support](claims/justification-is-mutual-support.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-coherentism](positions/coherentism.md) --commits_to-->
+
+## [claim-justification-terminates-in-trilemma](claims/justification-terminates-in-trilemma.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-munchhausen-trilemma](arguments/munchhausen-trilemma.md) --concludes-->
+
 ## [claim-knowhow-is-knowledge-that](claims/knowhow-is-knowledge-that.md)
 - type: claim | author: stanley | status: asserted
 - backlinks:
   - [argument-bike-rider-learns-facts](arguments/bike-rider-learns-facts.md) --premise-->
+
+## [claim-knowledge-without-noncircular-proof](claims/knowledge-without-noncircular-proof.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md) --premise-->
 
 ## [claim-lifetime-bounded-table-covers-encountered-inputs](claims/lifetime-bounded-table-covers-encountered-inputs.md)
 - type: claim | author: block | status: asserted
@@ -633,6 +702,9 @@
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --premise-->
   - [character-cyril](characters/cyril.md) --commits_to-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
+
+## [claim-llm-approximates-perfect-actor](claims/llm-approximates-perfect-actor.md)
+- type: claim | author: mishka | status: asserted
 
 ## [claim-llm-functional-introspection](claims/llm-functional-introspection.md)
 - type: claim | author: lindsey | status: asserted
@@ -851,6 +923,7 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --premise-->
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --presupposes-->
 
 ## [claim-physical-domain-complete](claims/physical-domain-complete.md)
 - type: claim | author: papineau | status: asserted
@@ -957,6 +1030,19 @@
 - backlinks:
   - [character-cyril](characters/cyril.md) --commits_to-->
 
+## [claim-solipsism-parasitic-on-realism](claims/solipsism-parasitic-on-realism.md)
+- type: claim | author: deutsch | status: asserted
+- backlinks:
+  - [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md) --premise-->
+
+## [claim-some-beliefs-are-basic](claims/some-beliefs-are-basic.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-coherentism](positions/coherentism.md) --rejects-->
+  - [position-fallibilism](positions/fallibilism.md) --rejects-->
+  - [position-foundationalism](positions/foundationalism.md) --commits_to-->
+  - [position-infinitism](positions/infinitism.md) --rejects-->
+
 ## [claim-some-necessities-knowable-only-a-posteriori](claims/some-necessities-knowable-only-a-posteriori.md)
 - type: claim | author: kripke | status: asserted
 - backlinks:
@@ -1037,6 +1123,11 @@
   - [position-eliminative-materialism](positions/eliminative-materialism.md) --rejects-->
   - [position-type-a-materialism](positions/type-a-materialism.md) --rejects-->
 
+## [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --concludes-->
+
 ## [concept-access-consciousness](concepts/access-consciousness.md)
 - type: concept | author: block | status: asserted
 - backlinks:
@@ -1068,6 +1159,12 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md) --uses_concept-->
+
+## [concept-basic-belief](concepts/basic-belief.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [claim-some-beliefs-are-basic](claims/some-beliefs-are-basic.md) --uses_concept-->
+  - [position-foundationalism](positions/foundationalism.md) --uses_concept-->
 
 ## [concept-causal-closure](concepts/causal-closure.md)
 - type: concept | author: generic | status: asserted
@@ -1126,6 +1223,15 @@
   - [claim-prudence-tracks-unforgeability-not-flesh](claims/prudence-tracks-unforgeability-not-flesh.md) --uses_concept-->
   - [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md) --uses_concept-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
+
+## [concept-dialectical-cogency](concepts/dialectical-cogency.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md) --uses_concept-->
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --uses_concept-->
+  - [claim-cogency-requires-accessible-noncircular-warrant](claims/cogency-requires-accessible-noncircular-warrant.md) --uses_concept-->
+  - [claim-knowledge-without-noncircular-proof](claims/knowledge-without-noncircular-proof.md) --uses_concept-->
+  - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
 
 ## [concept-first-person-access](concepts/first-person-access.md)
 - type: concept | author: mishka | status: asserted
@@ -1216,10 +1322,13 @@
 - backlinks:
   - [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md) --uses_concept-->
   - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --uses_concept-->
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --uses_concept-->
   - [claim-conceivability-not-sufficient-for-physical-realizability](claims/conceivability-not-sufficient-for-physical-realizability.md) --uses_concept-->
+  - [claim-consistency-certification-is-oracle-hard](claims/consistency-certification-is-oracle-hard.md) --uses_concept-->
   - [claim-halting-oracle-coherent-but-unrealizable](claims/halting-oracle-coherent-but-unrealizable.md) --uses_concept-->
   - [claim-halting-problem-undecidable](claims/halting-problem-undecidable.md) --uses_concept-->
   - [claim-physical-church-turing-thesis](claims/physical-church-turing-thesis.md) --uses_concept-->
+  - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
 
 ## [concept-hard-problem](concepts/hard-problem.md)
 - type: concept | author: chalmers | status: asserted
@@ -1275,6 +1384,14 @@
   - [question-hard-problem](questions/hard-problem.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
 
+## [concept-hinge-proposition](concepts/hinge-proposition.md)
+- type: concept | author: wittgenstein | status: asserted
+- backlinks:
+  - [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md) --uses_concept-->
+  - [claim-external-world-exists](claims/external-world-exists.md) --uses_concept-->
+  - [position-hinge-epistemology](positions/hinge-epistemology.md) --uses_concept-->
+  - [question-external-world-knowledge](questions/external-world-knowledge.md) --uses_concept-->
+
 ## [concept-intrinsic-structural-distinction](concepts/intrinsic-structural-distinction.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -1305,6 +1422,9 @@
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
+
+## [concept-jo-cameron](concepts/jo-cameron.md)
+- type: concept | author: generic | status: asserted
 
 ## [concept-knowledge-argument](concepts/knowledge-argument.md)
 - type: concept | author: jackson | status: asserted
@@ -1377,6 +1497,20 @@
   - [position-type-c-materialism](positions/type-c-materialism.md) --uses_concept-->
   - [position-type-identity](positions/type-identity.md) --uses_concept-->
 
+## [concept-munchhausen-trilemma](concepts/munchhausen-trilemma.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-munchhausen-trilemma](arguments/munchhausen-trilemma.md) --uses_concept-->
+  - [claim-external-world-unprovable-noncircular](claims/external-world-unprovable-noncircular.md) --uses_concept-->
+  - [claim-justification-is-infinite-chain](claims/justification-is-infinite-chain.md) --uses_concept-->
+  - [claim-justification-is-mutual-support](claims/justification-is-mutual-support.md) --uses_concept-->
+  - [claim-justification-terminates-in-trilemma](claims/justification-terminates-in-trilemma.md) --uses_concept-->
+  - [position-coherentism](positions/coherentism.md) --uses_concept-->
+  - [position-fallibilism](positions/fallibilism.md) --uses_concept-->
+  - [position-foundationalism](positions/foundationalism.md) --uses_concept-->
+  - [position-infinitism](positions/infinitism.md) --uses_concept-->
+  - [question-external-world-knowledge](questions/external-world-knowledge.md) --uses_concept-->
+
 ## [concept-order-of-representation](concepts/order-of-representation.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -1386,6 +1520,9 @@
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
   - [position-representationalism](positions/representationalism.md) --uses_concept-->
+
+## [concept-pain-asymbolia](concepts/pain-asymbolia.md)
+- type: concept | author: generic | status: asserted
 
 ## [concept-panpsychism](concepts/panpsychism.md)
 - type: concept | author: generic | status: asserted
@@ -1402,6 +1539,8 @@
 
 ## [concept-perfect-actor](concepts/perfect-actor.md)
 - type: concept | author: putnam | status: asserted
+- backlinks:
+  - [claim-llm-approximates-perfect-actor](claims/llm-approximates-perfect-actor.md) --uses_concept-->
 
 ## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
 - type: concept | author: generic | status: asserted
@@ -1414,8 +1553,11 @@
 - backlinks:
   - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --uses_concept-->
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
+  - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
+  - [claim-ideal-conceivability-is-apriori-consistency](claims/ideal-conceivability-is-apriori-consistency.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
+  - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
 
 ## [concept-primary-intension](concepts/primary-intension.md)
 - type: concept | author: chalmers | status: asserted
@@ -1431,6 +1573,11 @@
 ## [concept-rendering-test](test/rendering-test.md)
 - type: concept | author: mishka | status: asserted
 
+## [concept-retorsion](concepts/retorsion.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md) --uses_concept-->
+
 ## [concept-secondary-intension](concepts/secondary-intension.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
@@ -1439,6 +1586,12 @@
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-primary-intension](concepts/primary-intension.md) --uses_concept-->
 
+## [concept-soundness](concepts/soundness.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [claim-cogency-requires-accessible-noncircular-warrant](claims/cogency-requires-accessible-noncircular-warrant.md) --uses_concept-->
+  - [concept-dialectical-cogency](concepts/dialectical-cogency.md) --uses_concept-->
+
 ## [concept-super-spartan](concepts/super-spartan.md)
 - type: concept | author: putnam | status: asserted
 
@@ -1446,6 +1599,12 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
+
+## [concept-validity](concepts/validity.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [concept-dialectical-cogency](concepts/dialectical-cogency.md) --uses_concept-->
+  - [concept-soundness](concepts/soundness.md) --uses_concept-->
 
 ## [concept-virtual-realism](concepts/virtual-realism.md)
 - type: concept | author: chalmers | status: asserted
@@ -1458,6 +1617,9 @@
 - type: position | author: searle | status: asserted
 - backlinks:
   - [character-cyril](characters/cyril.md) --holds-->
+
+## [position-coherentism](positions/coherentism.md)
+- type: position | author: generic | status: asserted
 
 ## [position-cosmopsychism](positions/cosmopsychism.md)
 - type: position | author: goff | status: asserted
@@ -1474,11 +1636,20 @@
 ## [position-epiphenomenalism](positions/epiphenomenalism.md)
 - type: position | author: huxley | status: asserted
 
+## [position-fallibilism](positions/fallibilism.md)
+- type: position | author: popper | status: asserted
+
+## [position-foundationalism](positions/foundationalism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-global-workspace](positions/global-workspace.md)
 - type: position | author: baars | status: asserted
 
 ## [position-higher-order-theories](positions/higher-order-theories.md)
 - type: position | author: rosenthal | status: asserted
+
+## [position-hinge-epistemology](positions/hinge-epistemology.md)
+- type: position | author: wittgenstein | status: asserted
 
 ## [position-hylomorphism](positions/hylomorphism.md)
 - type: position | author: aristotle | status: asserted
@@ -1488,6 +1659,9 @@
 
 ## [position-illusionism](positions/illusionism.md)
 - type: position | author: frankish | status: asserted
+
+## [position-infinitism](positions/infinitism.md)
+- type: position | author: generic | status: asserted
 
 ## [position-integrated-information-theory](positions/integrated-information-theory.md)
 - type: position | author: tononi | status: asserted
@@ -1532,6 +1706,19 @@
 
 ## [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md)
 - type: question | author: generic | status: contested
+
+## [question-external-world-knowledge](questions/external-world-knowledge.md)
+- type: question | author: generic | status: asserted
+- backlinks:
+  - [claim-external-world-exists](claims/external-world-exists.md) --answers-->
+  - [claim-external-world-unprovable-noncircular](claims/external-world-unprovable-noncircular.md) --answers-->
+  - [claim-justification-terminates-in-trilemma](claims/justification-terminates-in-trilemma.md) --answers-->
+  - [claim-knowledge-without-noncircular-proof](claims/knowledge-without-noncircular-proof.md) --answers-->
+  - [position-coherentism](positions/coherentism.md) --answers-->
+  - [position-fallibilism](positions/fallibilism.md) --answers-->
+  - [position-foundationalism](positions/foundationalism.md) --answers-->
+  - [position-hinge-epistemology](positions/hinge-epistemology.md) --answers-->
+  - [position-infinitism](positions/infinitism.md) --answers-->
 
 ## [question-hard-problem](questions/hard-problem.md)
 - type: question | author: chalmers | status: contested
@@ -1598,7 +1785,13 @@
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --answers-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --answers-->
 
+## [source-albert-1985](sources/albert-1985.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-armstrong-1968](sources/armstrong-1968.md)
+- type: source | author: mishka | status: asserted
+
+## [source-berthier-1988](sources/berthier-1988.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-block](sources/block.md)
@@ -1652,6 +1845,12 @@
 ## [source-descartes-meditations](sources/descartes-meditations.md)
 - type: source | author: mishka | status: asserted
 
+## [source-deutsch-1997](sources/deutsch-1997.md)
+- type: source | author: mishka | status: asserted
+
+## [source-deutsch-2011](sources/deutsch-2011.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dominus-2011](sources/dominus-2011.md)
 - type: source | author: mishka | status: asserted
 
@@ -1665,6 +1864,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-goodhart](sources/goodhart.md)
+- type: source | author: mishka | status: asserted
+
+## [source-grahek-2007](sources/grahek-2007.md)
+- type: source | author: mishka | status: asserted
+
+## [source-habib-2019](sources/habib-2019.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-horgan-1984](sources/horgan-1984.md)
@@ -1709,6 +1914,9 @@
 ## [source-loar-1990](sources/loar-1990.md)
 - type: source | author: mishka | status: asserted
 
+## [source-moore-1939](sources/moore-1939.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-nagasawa-wager-2017](sources/nagasawa-wager-2017.md)
 - type: source | author: mishka | status: asserted
 
@@ -1727,7 +1935,13 @@
 ## [source-papineau-2002](sources/papineau-2002.md)
 - type: source | author: mishka | status: asserted
 
+## [source-penrose-1994](sources/penrose-1994.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-perry-2001](sources/perry-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-popper-1963](sources/popper-1963.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-putnam-1963](sources/putnam-1963.md)
@@ -1764,4 +1978,7 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-tye-2000](sources/tye-2000.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wittgenstein-1969](sources/wittgenstein-1969.md)
 - type: source | author: mishka | status: asserted
