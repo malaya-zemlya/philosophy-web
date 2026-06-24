@@ -144,6 +144,9 @@
 ## [argument-indexical-reply](arguments/indexical-reply.md)
 - type: argument | author: perry | status: asserted
 
+## [argument-intrinsic-nature](arguments/intrinsic-nature.md)
+- type: argument | author: seager | status: asserted
+
 ## [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md)
 - type: argument | author: mishka | status: contested
 
@@ -437,6 +440,7 @@
 - backlinks:
   - [argument-combination-problem](arguments/combination-problem.md) --attacks-->
   - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --concludes-->
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --concludes-->
   - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --supports-->
   - [position-panpsychism](positions/panpsychism.md) --commits_to-->
 
@@ -467,10 +471,20 @@
 - backlinks:
   - [position-integrated-information-theory](positions/integrated-information-theory.md) --commits_to-->
 
+## [claim-consciousness-is-intrinsic-property](claims/consciousness-is-intrinsic-property.md)
+- type: claim | author: seager | status: asserted
+- backlinks:
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
+
 ## [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md)
 - type: claim | author: penrose | status: asserted
 - backlinks:
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --commits_to-->
+
+## [claim-consciousness-only-known-intrinsic](claims/consciousness-only-known-intrinsic.md)
+- type: claim | author: seager | status: asserted
+- backlinks:
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
 
 ## [claim-cosmos-is-fundamental-subject](claims/cosmos-is-fundamental-subject.md)
 - type: claim | author: goff | status: asserted
@@ -534,6 +548,7 @@
 ## [claim-functional-description-structural-dynamical-only](claims/functional-description-structural-dynamical-only.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --premise-->
   - [position-russellian-monism](positions/russellian-monism.md) --commits_to-->
 
@@ -757,6 +772,7 @@
 - type: claim | author: strawson | status: asserted
 - backlinks:
   - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --premise-->
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --attacks-->
 
 ## [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md)
@@ -895,6 +911,11 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [position-dual-aspect-monism](positions/dual-aspect-monism.md) --commits_to-->
+
+## [claim-relations-grounded-in-intrinsic](claims/relations-grounded-in-intrinsic.md)
+- type: claim | author: seager | status: asserted
+- backlinks:
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
 
 ## [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md)
 - type: claim | author: mishka | status: asserted
@@ -1254,6 +1275,14 @@
   - [question-hard-problem](questions/hard-problem.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
 
+## [concept-intrinsic-structural-distinction](concepts/intrinsic-structural-distinction.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --uses_concept-->
+  - [claim-consciousness-is-intrinsic-property](claims/consciousness-is-intrinsic-property.md) --uses_concept-->
+  - [claim-consciousness-only-known-intrinsic](claims/consciousness-only-known-intrinsic.md) --uses_concept-->
+  - [claim-relations-grounded-in-intrinsic](claims/relations-grounded-in-intrinsic.md) --uses_concept-->
+
 ## [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
@@ -1363,6 +1392,7 @@
 - backlinks:
   - [argument-combination-problem](arguments/combination-problem.md) --uses_concept-->
   - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --uses_concept-->
+  - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --uses_concept-->
   - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --uses_concept-->
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
@@ -1701,6 +1731,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-russell-1927](sources/russell-1927.md)
+- type: source | author: mishka | status: asserted
+
+## [source-seager-2006](sources/seager-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-searle-1980](sources/searle-1980.md)
