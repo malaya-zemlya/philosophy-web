@@ -21,7 +21,7 @@ anti-skeptical families under [external-world-knowledge](../questions/external-w
 
 ### The argument
 
-The inference is transcendental/dialectical — it reasons from the *conditions* of the skeptic's own
+The inference is transcendental ([transcendental-argument](../concepts/transcendental-argument.md)) / dialectical — it reasons from the *conditions* of the skeptic's own
 performance.
 
 1. To assert, doubt, or even entertain "there is no external world / I cannot know there is one," the
@@ -38,7 +38,7 @@ challenge to it.
 
 ### The weakest premise
 
-The decisive vulnerability is the gap, pressed by Stroud, between *presupposition* and *truth* (premise 2's
+The decisive vulnerability is the gap, pressed by Stroud ([stroud-1968](../sources/stroud-1968.md)), between *presupposition* and *truth* (premise 2's
 reach). At most the argument shows the skeptic must *presuppose* a world to voice the doubt — that the doubt
 is unassertible — not that there *is* a world; bridging "must presuppose" to "is so" needs a verificationist
 premise the skeptic will refuse. This is exactly why the conclusion is framed as

@@ -207,6 +207,14 @@
 ## [argument-modal-rationalism](arguments/modal-rationalism.md)
 - type: argument | author: chalmers | status: asserted
 
+## [argument-moore-proof-begs-the-question](arguments/moore-proof-begs-the-question.md)
+- type: argument | author: generic | status: asserted
+
+## [argument-moore-proof-external-world](arguments/moore-proof-external-world.md)
+- type: argument | author: moore | status: asserted
+- backlinks:
+  - [argument-moore-proof-begs-the-question](arguments/moore-proof-begs-the-question.md) --attacks-->
+
 ## [argument-munchhausen-trilemma](arguments/munchhausen-trilemma.md)
 - type: argument | author: generic | status: asserted
 
@@ -554,11 +562,15 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md) --concludes-->
+  - [argument-moore-proof-external-world](arguments/moore-proof-external-world.md) --concludes-->
   - [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md) --supports-->
+  - [position-commonsense-realism](positions/commonsense-realism.md) --commits_to-->
   - [position-hinge-epistemology](positions/hinge-epistemology.md) --commits_to-->
 
 ## [claim-external-world-unprovable-noncircular](claims/external-world-unprovable-noncircular.md)
 - type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-moore-proof-begs-the-question](arguments/moore-proof-begs-the-question.md) --supports-->
 
 ## [claim-finite-mind-truncates-beyond-capacity](claims/finite-mind-truncates-beyond-capacity.md)
 - type: claim | author: block | status: asserted
@@ -697,6 +709,7 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md) --premise-->
+  - [position-epistemic-externalism](positions/epistemic-externalism.md) --commits_to-->
 
 ## [claim-lifetime-bounded-table-covers-encountered-inputs](claims/lifetime-bounded-table-covers-encountered-inputs.md)
 - type: claim | author: block | status: asserted
@@ -1187,6 +1200,7 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [claim-some-beliefs-are-basic](claims/some-beliefs-are-basic.md) --uses_concept-->
+  - [position-commonsense-realism](positions/commonsense-realism.md) --uses_concept-->
   - [position-foundationalism](positions/foundationalism.md) --uses_concept-->
 
 ## [concept-causal-closure](concepts/causal-closure.md)
@@ -1251,11 +1265,13 @@
 ## [concept-dialectical-cogency](concepts/dialectical-cogency.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-moore-proof-begs-the-question](arguments/moore-proof-begs-the-question.md) --uses_concept-->
   - [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md) --uses_concept-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --uses_concept-->
   - [claim-cogency-requires-accessible-noncircular-warrant](claims/cogency-requires-accessible-noncircular-warrant.md) --uses_concept-->
   - [claim-knowledge-without-noncircular-proof](claims/knowledge-without-noncircular-proof.md) --uses_concept-->
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
+  - [position-epistemic-externalism](positions/epistemic-externalism.md) --uses_concept-->
 
 ## [concept-first-person-access](concepts/first-person-access.md)
 - type: concept | author: mishka | status: asserted
@@ -1533,6 +1549,7 @@
   - [claim-justification-is-mutual-support](claims/justification-is-mutual-support.md) --uses_concept-->
   - [claim-justification-terminates-in-trilemma](claims/justification-terminates-in-trilemma.md) --uses_concept-->
   - [position-coherentism](positions/coherentism.md) --uses_concept-->
+  - [position-epistemic-externalism](positions/epistemic-externalism.md) --uses_concept-->
   - [position-fallibilism](positions/fallibilism.md) --uses_concept-->
   - [position-foundationalism](positions/foundationalism.md) --uses_concept-->
   - [position-infinitism](positions/infinitism.md) --uses_concept-->
@@ -1622,6 +1639,9 @@
 ## [concept-super-spartan](concepts/super-spartan.md)
 - type: concept | author: putnam | status: asserted
 
+## [concept-transcendental-argument](concepts/transcendental-argument.md)
+- type: concept | author: generic | status: asserted
+
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
@@ -1648,6 +1668,9 @@
 ## [position-coherentism](positions/coherentism.md)
 - type: position | author: generic | status: asserted
 
+## [position-commonsense-realism](positions/commonsense-realism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-cosmopsychism](positions/cosmopsychism.md)
 - type: position | author: goff | status: asserted
 
@@ -1662,6 +1685,9 @@
 
 ## [position-epiphenomenalism](positions/epiphenomenalism.md)
 - type: position | author: huxley | status: asserted
+
+## [position-epistemic-externalism](positions/epistemic-externalism.md)
+- type: position | author: generic | status: asserted
 
 ## [position-fallibilism](positions/fallibilism.md)
 - type: position | author: popper | status: asserted
@@ -1742,6 +1768,8 @@
   - [claim-justification-terminates-in-trilemma](claims/justification-terminates-in-trilemma.md) --answers-->
   - [claim-knowledge-without-noncircular-proof](claims/knowledge-without-noncircular-proof.md) --answers-->
   - [position-coherentism](positions/coherentism.md) --answers-->
+  - [position-commonsense-realism](positions/commonsense-realism.md) --answers-->
+  - [position-epistemic-externalism](positions/epistemic-externalism.md) --answers-->
   - [position-fallibilism](positions/fallibilism.md) --answers-->
   - [position-foundationalism](positions/foundationalism.md) --answers-->
   - [position-hinge-epistemology](positions/hinge-epistemology.md) --answers-->
@@ -1893,6 +1921,9 @@
 ## [source-goff-2019](sources/goff-2019.md)
 - type: source | author: mishka | status: asserted
 
+## [source-goldman-1979](sources/goldman-1979.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-goodhart](sources/goodhart.md)
 - type: source | author: mishka | status: asserted
 
@@ -1977,6 +2008,9 @@
 ## [source-putnam-1963](sources/putnam-1963.md)
 - type: source | author: mishka | status: asserted
 
+## [source-reid-1785](sources/reid-1785.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-roelofs-2019](sources/roelofs-2019.md)
 - type: source | author: mishka | status: asserted
 
@@ -2001,7 +2035,13 @@
 ## [source-stanley-williamson-2001](sources/stanley-williamson-2001.md)
 - type: source | author: mishka | status: asserted
 
+## [source-strawson-1959](sources/strawson-1959.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-strawson-2006](sources/strawson-2006.md)
+- type: source | author: mishka | status: asserted
+
+## [source-stroud-1968](sources/stroud-1968.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-turing-1936](sources/turing-1936.md)
