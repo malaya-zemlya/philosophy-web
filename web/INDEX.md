@@ -18,6 +18,9 @@
   - [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md) --attacks-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --attacks-->
 
+## [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md)
+- type: argument | author: dewynter | status: asserted
+
 ## [argument-architectural-account-leaves-hard-problem](arguments/architectural-account-leaves-hard-problem.md)
 - type: argument | author: generic | status: asserted
 
@@ -336,6 +339,11 @@
 - backlinks:
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --premise-->
 
+## [claim-apriori-anthropomorphism-circular](claims/apriori-anthropomorphism-circular.md)
+- type: claim | author: dewynter | status: asserted
+- backlinks:
+  - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --premise-->
+
 ## [claim-behaviour-insufficient-for-mind](claims/behaviour-insufficient-for-mind.md)
 - type: claim | author: block | status: asserted
 - backlinks:
@@ -634,6 +642,11 @@
   - [character-cyril](characters/cyril.md) --commits_to-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
 
+## [claim-llm-attributes-empirically-non-unique](claims/llm-attributes-empirically-non-unique.md)
+- type: claim | author: dewynter | status: asserted
+- backlinks:
+  - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --concludes-->
+
 ## [claim-llm-functional-introspection](claims/llm-functional-introspection.md)
 - type: claim | author: lindsey | status: asserted
 - backlinks:
@@ -792,6 +805,11 @@
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --concludes-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --premise-->
   - [character-alvin](characters/alvin.md) --commits_to-->
+
+## [claim-perceptron-realizable-in-any-substrate](claims/perceptron-realizable-in-any-substrate.md)
+- type: claim | author: dewynter | status: asserted
+- backlinks:
+  - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --premise-->
 
 ## [claim-personal-identity-admits-of-degree](claims/personal-identity-admits-of-degree.md)
 - type: claim | author: parfit | status: asserted
@@ -1069,6 +1087,11 @@
 - backlinks:
   - [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md) --uses_concept-->
 
+## [concept-aoe2-circuits](concepts/aoe2-circuits.md)
+- type: concept | author: dewynter | status: asserted
+- backlinks:
+  - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --uses_concept-->
+
 ## [concept-causal-closure](concepts/causal-closure.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -1082,6 +1105,7 @@
 ## [concept-chinese-nation](concepts/chinese-nation.md)
 - type: concept | author: block | status: asserted
 - backlinks:
+  - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --uses_concept-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
   - [claim-chinese-nation-lacks-qualia](claims/chinese-nation-lacks-qualia.md) --uses_concept-->
   - [claim-chinese-nation-realises-organisation](claims/chinese-nation-realises-organisation.md) --uses_concept-->
@@ -1146,6 +1170,7 @@
 ## [concept-functionalism](concepts/functionalism.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --uses_concept-->
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --uses_concept-->
   - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --uses_concept-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
@@ -1172,6 +1197,7 @@
   - [claim-implementation-requires-counterfactual-structure](claims/implementation-requires-counterfactual-structure.md) --uses_concept-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --uses_concept-->
   - [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md) --uses_concept-->
+  - [claim-perceptron-realizable-in-any-substrate](claims/perceptron-realizable-in-any-substrate.md) --uses_concept-->
   - [claim-phenomenal-concept-isolation-tradeoff](claims/phenomenal-concept-isolation-tradeoff.md) --uses_concept-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --uses_concept-->
   - [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md) --uses_concept-->
@@ -1180,6 +1206,7 @@
   - [claim-substrate-independence](claims/substrate-independence.md) --presupposes-->
   - [claim-substrate-independence](claims/substrate-independence.md) --uses_concept-->
   - [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md) --uses_concept-->
+  - [concept-aoe2-circuits](concepts/aoe2-circuits.md) --uses_concept-->
   - [concept-chinese-room](concepts/chinese-room.md) --uses_concept-->
   - [concept-grain](concepts/grain.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
@@ -1644,6 +1671,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-descartes-meditations](sources/descartes-meditations.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dewynter-2026](sources/dewynter-2026.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dominus-2011](sources/dominus-2011.md)
