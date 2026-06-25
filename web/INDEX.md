@@ -1186,6 +1186,9 @@
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
 
+## [concept-ai-effect](concepts/ai-effect.md)
+- type: concept | author: generic | status: asserted
+
 ## [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
@@ -1331,6 +1334,8 @@
   - [concept-aoe2-circuits](concepts/aoe2-circuits.md) --uses_concept-->
   - [concept-chinese-room](concepts/chinese-room.md) --uses_concept-->
   - [concept-grain](concepts/grain.md) --uses_concept-->
+  - [concept-strong-weak-ai](concepts/strong-weak-ai.md) --uses_concept-->
+  - [concept-turing-test](concepts/turing-test.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
   - [position-hylomorphism](positions/hylomorphism.md) --uses_concept-->
   - [position-type-identity](positions/type-identity.md) --uses_concept-->
@@ -1636,11 +1641,17 @@
   - [claim-cogency-requires-accessible-noncircular-warrant](claims/cogency-requires-accessible-noncircular-warrant.md) --uses_concept-->
   - [concept-dialectical-cogency](concepts/dialectical-cogency.md) --uses_concept-->
 
+## [concept-strong-weak-ai](concepts/strong-weak-ai.md)
+- type: concept | author: searle | status: asserted
+
 ## [concept-super-spartan](concepts/super-spartan.md)
 - type: concept | author: putnam | status: asserted
 
 ## [concept-transcendental-argument](concepts/transcendental-argument.md)
 - type: concept | author: generic | status: asserted
+
+## [concept-turing-test](concepts/turing-test.md)
+- type: concept | author: turing | status: asserted
 
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted
@@ -1975,6 +1986,9 @@
 ## [source-loar-1990](sources/loar-1990.md)
 - type: source | author: mishka | status: asserted
 
+## [source-mccorduck-1979](sources/mccorduck-1979.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-moore-1939](sources/moore-1939.md)
 - type: source | author: mishka | status: asserted
 
@@ -2045,6 +2059,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-turing-1936](sources/turing-1936.md)
+- type: source | author: mishka | status: asserted
+
+## [source-turing-1950](sources/turing-1950.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-tye-2000](sources/tye-2000.md)
