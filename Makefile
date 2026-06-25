@@ -26,7 +26,7 @@ PDF ?= book/encyclopedia.pdf
 # PDF that `make preview` renders
 
 .DEFAULT_GOAL := help
-.PHONY: help lint lint-check book book-all graph preview entry progress find clean clean-preview
+.PHONY: help lint lint-check book book-all graph all preview entry progress find clean clean-preview
 
 help:  ## list the available targets
 	@grep -E '^[a-zA-Z0-9_-]+:.*## ' $(MAKEFILE_LIST) \
@@ -48,6 +48,8 @@ book-all: lint  ## build the whole book including unconverted entries (STYLE=any
 
 graph:  ## regenerate the Graphviz view -> graph/web.{dot,svg}  (needs the `dot` binary)
 	$(PY) scripts/graph.py
+
+all: book graph  ## build both deliverables: the encyclopedia (book) + the Graphviz view (graph)
 
 preview:  ## render PDF pages to PNGs in build/preview  (PDF=, FROM=, TO=, DPI=)
 	@mkdir -p $(PREVIEW)
