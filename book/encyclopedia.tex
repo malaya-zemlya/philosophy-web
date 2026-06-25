@@ -167,7 +167,7 @@
 \markboth{}{}\thispagestyle{plain}
 \vspace*{1.2\baselineskip}
 {\centering\Large\bfseries List of Entries\par}
-{\centering\small 123 entries \,\textperiodcentered\, June 2026\par}
+{\centering\small 126 entries \,\textperiodcentered\, June 2026\par}
 \vspace{1\baselineskip}
 \begin{listofentries}
 \entryline{$\odot$}{claim-aposteriori-necessities-are-misdescribed-possibilities}{A-posteriori necessities as misdescribed possibilities}
@@ -180,6 +180,7 @@
 \entryline{$\vdash$}{argument-acquaintance-hypothesis}{Acquaintance hypothesis}
 \entryline{$\vdash$}{argument-aoe2-anthropomorphism}{Age of Empires II argument}
 \entryline{$\blacklozenge$}{concept-aoe2-circuits}{Age of Empires II circuits}
+\entryline{$\blacklozenge$}{concept-ai-effect}{AI effect}
 \entryline{$\blacklozenge$}{concept-basic-belief}{Basic belief}
 \entryline{$\vdash$}{argument-bike-rider-learns-facts}{Bike-rider rejoinder}
 \entryline{$\odot$}{claim-relations-grounded-in-intrinsic}{Categorical ground of structure}
@@ -277,11 +278,13 @@
 \entryline{$\odot$}{claim-consciousness-only-known-intrinsic}{Sole known intrinsic nature}
 \entryline{$\odot$}{claim-solipsism-parasitic-on-realism}{Solipsism is parasitic on realism}
 \entryline{$\blacklozenge$}{concept-soundness}{Soundness}
+\entryline{$\blacklozenge$}{concept-strong-weak-ai}{Strong and weak AI}
 \entryline{$\odot$}{claim-functional-description-structural-dynamical-only}{Structure and dynamics only}
 \entryline{$\odot$}{claim-subjects-actually-merge-and-divide}{Subjects merge and divide}
 \entryline{$\blacklozenge$}{concept-super-spartan}{Super-spartans}
 \entryline{$\odot$}{claim-some-beliefs-are-basic}{There are basic beliefs}
 \entryline{$\blacklozenge$}{concept-transcendental-argument}{Transcendental argument}
+\entryline{$\blacklozenge$}{concept-turing-test}{Turing test}
 \entryline{$\blacklozenge$}{concept-materialism-types}{Type-A / Type-B / Type-C materialism}
 \entryline{$\bigstar$}{position-type-a-materialism}{Type-A materialism}
 \entryline{$\bigstar$}{position-type-b-materialism}{Type-B materialism}
@@ -545,6 +548,38 @@ Someone built a real, working computer inside the videogame \emph{Age of Empires
   \item \textsc{Lookup-table mind} — right outputs with no processing; the circuits, by contrast, do the real computation and learning.
   \item \textsc{Functionalism} — the multiple-realizability of computation the construction dramatizes.
   \item \hyperref[source:source-dewynter-2026]{\textsc{de Wynter — If LLMs Have Human-Like Attributes, Then So Does Age of Empires II (2026)}} — the note and paper where the circuits and the proof are presented.
+\end{seealso}
+
+\entryhead{concept-ai-effect}{AI effect}{Concept}{AI effect}{The AI effect}{$\blacklozenge$}
+The \emph{AI effect} is the recurring pattern by which a task once taken to require intelligence is downgraded, the moment a machine performs it, to ``mere computation'' — brute search, look-up, statistics — so that \emph{real} intelligence is perpetually redefined as whatever machines cannot yet do. Pamela McCorduck gave the classic formulation (see \hyperref[source:source-mccorduck-1979]{\textsc{McCorduck — Machines Who Think (1979)}}): ``every time somebody figured out how to make a computer do something … there was a chorus of critics to say, 'that's not thinking.''' The same idea is captured in \textbf{Tesler's Theorem}, attributed to Larry Tesler: \emph{''Intelligence is whatever machines haven't done yet.''}
+
+The pattern is historically robust. Mechanical arithmetic, chess, checkers, theorem-proving, expert diagnosis, \emph{Jeopardy!} (Watson), Go (AlphaGo), and now fluent language (large language models) were each, in their turn, treated as a hallmark of intelligence — and each, once automated, widely reclassified as ``not really thinking'': just search, just statistics, ``just autocomplete.'' The frontier of ``genuine'' AI recedes exactly as fast as the field advances.
+
+\webheading{Two readings}
+
+The effect can be read as a fallacy or as a discovery, and the dispute between these readings is where its interest lies.
+
+\begin{itemize}
+  \item \textbf{The debunking reading:} the AI effect is goalpost-moving — a \emph{no-true-Scotsman} manoeuvre about intelligence. Critics protect human exceptionalism by quietly amending the definition of ``thinking'' to exclude whatever has just been mechanised, so the thesis ``machines can't really think'' is rendered unfalsifiable.
+  \item \textbf{The deflationary reading:} each automation genuinely \emph{teaches} us that the task did not require general intelligence after all. That chess fell to search rather than insight was a real finding about chess, not a dodge; ``that's not thinking'' can be a correct lesson about how little a given feat demanded, not a refusal to face the evidence. On this reading the receding frontier is the steady subtraction of things intelligence \emph{isn't}.
+\end{itemize}
+
+A balanced view grants both: the effect sometimes masks legitimate discovery and sometimes masks motivated denial, and telling which is itself the substantive question in each case.
+
+\webheading{What it bears on}
+
+The AI effect is, in large part, the serial denial of \hyperref[entry:concept-strong-weak-ai]{\textsc{strong AI}} — and of ``real'' understanding — to each new system as it arrives. It is the sociological shadow of the philosophical intuition behind \hyperref[entry:concept-chinese-room]{\textsc{the Chinese Room}}: confronted with a machine that passes the behavioural test (\hyperref[entry:concept-turing-test]{\textsc{the Turing test}}, in the limit), the response ``but it does not \emph{really} understand'' recurs whether or not it is warranted. It bites hardest precisely where capability and understanding pull apart, as with systems that approximate a \hyperref[entry:concept-perfect-actor]{\textsc{perfect actor}} (see \hyperref[entry:claim-llm-approximates-perfect-actor]{\textsc{LLMs as near-perfect actors}}): wide competence meets the standing reply that competence is not comprehension. The concept is \emph{descriptive}, a lens on the debate's dynamics — not itself an argument that machines do, or do not, think.
+
+\begin{plainterms}
+There's a running joke that ``AI is whatever computers can't do yet.'' Every time a machine masters something we used to call a sign of intelligence — chess, \emph{Jeopardy!}, holding a conversation — people shrug and say ``oh, that's not \emph{really} thinking, it's just calculation.'' So the bar for ``real'' intelligence keeps moving out of reach, and AI never quite gets credit. Two ways to see it: maybe critics are just moving the goalposts to keep humans special; or maybe they're right each time, and we keep learning that the task was easier than it looked and never needed real understanding. Often it's a bit of both — and sorting out which is the actual argument worth having about any new system, today's chatbots included.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:concept-strong-weak-ai]{\textsc{Strong and weak AI}} — the AI effect is largely the repeated denial of \emph{strong} AI to each new system.
+  \item \hyperref[entry:concept-chinese-room]{\textsc{Chinese room}} — the philosophical articulation of the ``that's not thinking'' intuition.
+  \item \hyperref[entry:concept-perfect-actor]{\textsc{Perfect actor}} / \hyperref[entry:claim-llm-approximates-perfect-actor]{\textsc{LLMs as near-perfect actors}} — the modern locus where behavioural success meets ``but it does not understand.''
+  \item \hyperref[source:source-mccorduck-1979]{\textsc{McCorduck — Machines Who Think (1979)}} — the source of the classic formulation.
 \end{seealso}
 
 \end{multicols}
@@ -2913,6 +2948,40 @@ An argument is \emph{sound} when two things hold at once: the logic is airtight 
   \item \hyperref[entry:argument-unwarrantable-zombie-premise]{\textsc{Unwarrantable-premise objection}} — a move that turns precisely on the soundness/cogency gap.
 \end{seealso}
 
+\entryhead{concept-strong-weak-ai}{Strong and weak AI}{Concept \,\textperiodcentered\, after Searle}{Strong and weak AI}{Strong AI vs. weak AI}{$\blacklozenge$}
+The distinction between \emph{strong} and \emph{weak} AI is John Searle's (see \hyperref[source:source-searle-1980]{\textsc{Searle — Minds, Brains, and Programs (1980)}}), and it concerns not how capable a program is but what a successful program would \emph{show}. \textbf{Strong AI} is the thesis that an appropriately programmed computer \emph{literally has a mind} — that running the right program is \emph{constitutive of} (sufficient for) understanding, intentionality, and cognitive states, so the program ``is the mind.'' \textbf{Weak AI} is the modest thesis that the computer is a powerful \emph{tool} for studying the mind: it lets us model cognition, formulate and test precise hypotheses, and simulate mental processes — but the simulation is a \emph{model} of a mind, not itself a mind. The watchword is \emph{duplication versus simulation}: weak AI simulates understanding; strong AI claims to duplicate it.
+
+Searle's quarrel is only with the strong thesis. A simulation of a rainstorm leaves no one wet, and a simulation of digestion digests no food; a simulation of understanding, he argues, no more understands than these — which is the moral of \hyperref[entry:concept-chinese-room]{\textsc{the Chinese Room}}, his thought experiment aimed squarely at strong AI (see \textsc{Syntax insufficient for semantics}). Weak AI is untouched by that argument and is, for Searle, simply good cognitive science.
+
+Strong AI is a form of computational \textsc{Functionalism} — mind as the running of the right program, independent of the hardware — and so presupposes \textsc{substrate independence} for the mental. Searle's own positive view, \textsc{biological naturalism}, accepts weak AI but rejects strong AI: brains \emph{cause} minds through their specific biological causal powers, which symbol-manipulation alone does not reproduce.
+
+\webheading{Two senses to keep apart}
+
+The label ``strong AI'' has since drifted, and the two senses are routinely conflated.
+
+\begin{itemize}
+  \item \textbf{Searle's sense (constitutive):} whether a system has \emph{genuine mental states} — real understanding and intentionality — as opposed to merely modelling them. This is a metaphysical/semantic question.
+  \item \textbf{The popular sense (capability):} ``strong AI'' as a synonym for \textbf{artificial general intelligence} (AGI) — human-level, domain-general competence — opposed to ``weak'' or \textbf{narrow} AI built for a single task. This is an engineering question about \emph{breadth of ability}.
+\end{itemize}
+
+The two come apart cleanly: a system could be ``strong'' in the capability sense (broadly, flexibly competent) yet ``weak'' in Searle's sense (no genuine understanding behind the competence). That gap is exactly the live question about today's large language models, which display wide capability while it remains disputed whether anything is understood — see \hyperref[entry:claim-llm-approximates-perfect-actor]{\textsc{LLMs as near-perfect actors}} and the recurring \hyperref[entry:concept-ai-effect]{\textsc{AI effect}}.
+
+\begin{plainterms}
+Two very different claims hide under ``strong AI.'' Searle's original one: that a computer running the right program doesn't just \emph{act} like it understands — it \emph{really does} understand, has a genuine mind. Weak AI is the humbler claim that the computer is a brilliant \emph{model} of thinking, the way a weather simulation is a model of weather (and never rains on anyone). Searle is fine with the model; he denies the program is a mind. Confusingly, people now also use ``strong AI'' to mean something else entirely — a machine that's \emph{generally} smart, good at everything, rather than one narrow task. You can have the second without the first: something clever at every task that still understands nothing, which is just what people argue about with chatbots.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:concept-chinese-room]{\textsc{Chinese room}} — Searle's thought experiment against strong AI; this concept names its target.
+  \item \textsc{Syntax insufficient for semantics} — the slogan that drives the case against strong AI.
+  \item \textsc{Functionalism} — the theory of mind strong AI is a computational version of.
+  \item \textsc{Substrate-independence thesis} — the thesis strong AI presupposes for the mental.
+  \item \textsc{Biological naturalism} — Searle's own view: weak AI yes, strong AI no.
+  \item \hyperref[entry:concept-ai-effect]{\textsc{AI effect}} — the recurring serial denial of strong AI (and ``real'' intelligence) to each new system.
+  \item \hyperref[entry:claim-llm-approximates-perfect-actor]{\textsc{LLMs as near-perfect actors}} — the modern case where wide capability and disputed understanding pull apart.
+  \item \hyperref[source:source-searle-1980]{\textsc{Searle — Minds, Brains, and Programs (1980)}} — where the distinction is drawn.
+\end{seealso}
+
 \entryhead{claim-functional-description-structural-dynamical-only}{Structure and dynamics only}{Claim \,\textperiodcentered\, after Chalmers}{Structure and dynamics only}{A functional description captures only structural-dynamical facts, not intrinsic nature}{$\odot$}
 A purely functional or causal specification of a system captures only its \emph{structure} — the pattern of relations among its parts — and its \emph{dynamics} — how its states evolve and what they dispose the system to do. It says nothing about the \emph{intrinsic, categorical nature} of whatever realises that structure: what the components \emph{are} in themselves, beneath their relational profile. The picture is the wiring diagram. A circuit diagram fixes every connection and every response, yet on its own tells you nothing about what the components are physically made of.
 
@@ -3009,6 +3078,38 @@ A transcendental argument is a clever sidestep: instead of proving ``there's a w
   \item \hyperref[source:source-stroud-1968]{\textsc{Stroud — Transcendental Arguments (1968)}} — the objection that bounds what these arguments can show.
   \item \hyperref[source:source-strawson-1959]{\textsc{Strawson — Individuals (1959)}} — the modern revival of the form.
   \item \hyperref[entry:question-external-world-knowledge]{\textsc{Knowing the external world}} — the issue on which transcendental arguments are one anti-skeptical option.
+\end{seealso}
+
+\entryhead{concept-turing-test}{Turing test}{Concept \,\textperiodcentered\, after Turing}{Turing test}{The Turing test (the imitation game)}{$\blacklozenge$}
+The \emph{Turing test} is Alan Turing's proposed replacement for the question ``Can machines think?'' (see \hyperref[source:source-turing-1950]{\textsc{Turing — Computing Machinery and Intelligence (1950)}}). Finding that question ``too meaningless to deserve discussion,'' Turing recast it operationally as the \textbf{imitation game}: a human interrogator holds text-only conversations with two unseen partners — one human, one machine, each trying to be judged the human — and if, after suitable interrogation, the machine is misidentified as often as a human is, it passes. The test deliberately routes around looks and voice to isolate \emph{conversational behaviour} as the criterion, and substitutes a question we can settle by observation for one Turing thought we could not settle at all.
+
+The test embodies a broadly \textbf{behaviourist or operationalist} stance: it treats indistinguishable verbal behaviour as the relevant mark of mind, declining to ask what, if anything, lies behind it. That is exactly its power and its vulnerability. Turing himself offered it less as a \emph{definition} of thinking than as a prediction and a reframing, and he pre-emptively answered nine objections (theological, mathematical, the ``Lady Lovelace'' originality objection, and others).
+
+\webheading{The standing objections}
+
+\begin{itemize}
+  \item \textbf{The Chinese Room} (see \hyperref[entry:concept-chinese-room]{\textsc{Chinese room}}): Searle grants a system might \emph{pass} yet insist it understands nothing — passing certifies the right \emph{behaviour} (syntax), not \emph{understanding} (semantics). So a pass, even if it is evidence for \hyperref[entry:concept-strong-weak-ai]{\textsc{weak AI}}, does not establish strong AI.
+  \item \textbf{The Blockhead / lookup-table objection} (see \textsc{Lookup-table mind}): Ned Block notes that a machine could in principle pass with a gigantic pre-computed table of canned replies and \emph{no} cognitive processing at all — so passing shows nothing about \emph{how} the responses are produced, and behaviour alone cannot be sufficient for intelligence (psychologism versus behaviourism).
+  \item \textbf{The \hyperref[entry:concept-ai-effect]{\textsc{AI effect}}}: as systems approach a pass, the response ``that is not \emph{really} thinking'' reliably recurs, so the test's verdict is socially contested whatever the transcripts show.
+\end{itemize}
+
+\webheading{What it bears on}
+
+The Turing test is the operational counterpart of the \hyperref[entry:concept-perfect-actor]{\textsc{perfect actor}} — a system whose outward behaviour is indistinguishable from a genuine mind's — and so sits at the centre of the dispute over whether behavioural success suffices for mind. Today's large language models press the question concretely: they approximate that actor (see \hyperref[entry:claim-llm-approximates-perfect-actor]{\textsc{LLMs as near-perfect actors}}) and routinely pass informal versions of the test, which sharpens rather than settles the issue, since the test is silent on the very \hyperref[entry:concept-strong-weak-ai]{\textsc{understanding}} its critics demand.
+
+\begin{plainterms}
+Turing's move was to dodge the bottomless question ``can a machine \emph{think}?'' and ask a crisp one instead: could a machine hold a typed conversation so well that a person couldn't tell it from another person? If yes, he said, treat it as thinking — stop fussing about what's ``really'' inside. Critics answer that fooling the judge isn't the same as understanding: Searle's locked room shuffles symbols convincingly with no comprehension, and Ned Block points out you could pass with a giant cheat-sheet of canned answers and no thought at all. With chatbots now passing casual versions of the test, the old argument is suddenly very live.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:concept-perfect-actor]{\textsc{Perfect actor}} — the behavioural ideal the test operationalises.
+  \item \hyperref[entry:concept-chinese-room]{\textsc{Chinese room}} — the objection that passing is behaviour without understanding.
+  \item \textsc{Lookup-table mind} — Block's objection that a canned-answer table could pass with no cognition.
+  \item \hyperref[entry:concept-strong-weak-ai]{\textsc{Strong and weak AI}} — a pass is at most evidence for weak AI, not strong AI.
+  \item \hyperref[entry:concept-ai-effect]{\textsc{AI effect}} — why a pass tends to be met with ``that's still not thinking.''
+  \item \hyperref[entry:claim-llm-approximates-perfect-actor]{\textsc{LLMs as near-perfect actors}} — the contemporary system that brings the test to life.
+  \item \hyperref[source:source-turing-1950]{\textsc{Turing — Computing Machinery and Intelligence (1950)}} — the original proposal.
 \end{seealso}
 
 \entryhead{concept-materialism-types}{Type-A / Type-B / Type-C materialism}{Concept \,\textperiodcentered\, after Chalmers}{Type-A / Type-B / Type-C materialism}{Type-A / Type-B / Type-C materialism (responses to the hard problem)}{$\blacklozenge$}
@@ -3358,6 +3459,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-lewis-1988}{Lewis, D. (1988). What experience teaches. \emph{Proceedings of the Russellian Society}, \emph{13}, 29–35. (Reprinted in W. G. Lycan (Ed.), \emph{Mind and cognition}, Blackwell, 1990; and in D. Lewis, \emph{Papers in metaphysics and epistemology}, Cambridge University Press, 1999.)}
 \sourceitem{source-liu-cixin}{Liu, C. (2014). \emph{The three-body problem} (K. Liu, Trans.). Tor Books. (Original work published 2008) (The ``human-formation computer'' episode — the Qin Shi Huang / von Neumann chapter of the in-game civilisation; \textbf{exact chapter and page refs to be confirmed} before any treatise cites it.)}
 \sourceitem{source-loar-1990}{Loar, B. (1990). Phenomenal states. \emph{Philosophical Perspectives}, \emph{4}, 81–108. (A revised ``second version'' appears in N. Block, O. Flanagan, \& G. Güzeldere (Eds.), \emph{The nature of consciousness: Philosophical debates}, pp. 597–616, MIT Press, 1997.)}
+\sourceitem{source-mccorduck-1979}{McCorduck, P. (1979). \emph{Machines who think: A personal inquiry into the history and prospects of artificial intelligence}. W. H. Freeman. (2nd ed., A K Peters, 2004)}
 \sourceitem{source-moore-1939}{Moore, G. E. (1939). Proof of an external world. \emph{Proceedings of the British Academy}, \emph{25}, 273–300.}
 \sourceitem{source-nagasawa-wager-2017}{Nagasawa, Y., \& Wager, K. (2017). Panpsychism and priority cosmopsychism. In G. Brüntrup \& L. Jaskolla (Eds.), \emph{Panpsychism: Contemporary perspectives} (pp. 113–129). Oxford University Press.}
 \sourceitem{source-nagel-1971}{Nagel, T. (1971). Brain bisection and the unity of consciousness. \emph{Synthese}, \emph{22}(3–4), 396–413. \url{https://doi.org/10.1007/BF00413435}}
@@ -3382,6 +3484,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-stroud-1968}{Stroud, B. (1968). Transcendental arguments. \emph{The Journal of Philosophy}, \emph{65}(9), 241–256.}
 \sourceitem{source-turing-1936}{Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. \emph{Proceedings of the London Mathematical Society} (2nd ser.), \emph{42}, 230–265. (Turing machines; undecidability of the halting/printing problem.)}
 \sourceitem{}{Turing, A. M. (1939). Systems of logic based on ordinals. (Introduces \textbf{oracle machines} and so \emph{relative} computability (later: Turing degrees, the arithmetical hierarchy), the formal home of a ``halting oracle.'')}
+\sourceitem{source-turing-1950}{Turing, A. M. (1950). Computing machinery and intelligence. \emph{Mind}, \emph{59}(236), 433–460. \url{https://doi.org/10.1093/mind/LIX.236.433}}
 \sourceitem{source-tye-2000}{Tye, M. (2000). \emph{Consciousness, color, and content}. MIT Press.}
 \sourceitem{source-wittgenstein-1969}{Wittgenstein, L. (1969). \emph{On certainty} (G. E. M. Anscombe \& G. H. von Wright, Eds.; D. Paul \& G. E. M. Anscombe, Trans.). Blackwell. (Original work composed 1950–1951)}
 \end{sourcelist}

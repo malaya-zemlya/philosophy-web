@@ -217,6 +217,7 @@ digraph web {
   "claim-zombie-premise-unwarrantable" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="zombie premise\nunwarrantable", tooltip="No reasoner with a computable physical mind can warrantedly assert that the zombie scenario is ideally conceivable", URL="../web/claims/zombie-premise-unwarrantable.md"];
   "concept-access-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="access\nconsciousness", tooltip="Access consciousness", URL="../web/concepts/access-consciousness.md"];
   "concept-access-vs-phenomenal-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="access vs\nphenomenal\nconsciousness", tooltip="Access consciousness vs. phenomenal consciousness", URL="../web/concepts/access-vs-phenomenal-consciousness.md"];
+  "concept-ai-effect" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="ai effect", tooltip="The AI effect", URL="../web/concepts/ai-effect.md"];
   "concept-ai-hard-problem-etiologies" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="ai hard problem\netiologies", tooltip="Etiologies of hard-problem discourse in an AI (where the cause sits)", URL="../web/concepts/ai-hard-problem-etiologies.md"];
   "concept-aoe2-circuits" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="aoe2 circuits", tooltip="Age of Empires II circuits (a trained perceptron built in a videogame)", URL="../web/concepts/aoe2-circuits.md"];
   "concept-basic-belief" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="basic belief", tooltip="Basic (non-inferential) belief", URL="../web/concepts/basic-belief.md"];
@@ -254,8 +255,10 @@ digraph web {
   "concept-retorsion" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="retorsion", tooltip="Retorsion (performative self-refutation)", URL="../web/concepts/retorsion.md"];
   "concept-secondary-intension" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="secondary\nintension", tooltip="Secondary intension", URL="../web/concepts/secondary-intension.md"];
   "concept-soundness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="soundness", tooltip="Soundness", URL="../web/concepts/soundness.md"];
+  "concept-strong-weak-ai" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="strong weak ai", tooltip="Strong AI vs. weak AI", URL="../web/concepts/strong-weak-ai.md"];
   "concept-super-spartan" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="super spartan", tooltip="Super-spartans (pain felt but never shown)", URL="../web/concepts/super-spartan.md"];
   "concept-transcendental-argument" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="transcendental\nargument", tooltip="Transcendental argument", URL="../web/concepts/transcendental-argument.md"];
+  "concept-turing-test" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="turing test", tooltip="The Turing test (the imitation game)", URL="../web/concepts/turing-test.md"];
   "concept-unobservability-in-principle" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="unobservability in\nprinciple", tooltip="Unobservability in principle (intersubjective vs. absolute)", URL="../web/concepts/unobservability-in-principle.md"];
   "concept-validity" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="validity", tooltip="Validity (logical)", URL="../web/concepts/validity.md"];
   "concept-virtual-realism" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="virtual realism", tooltip="Virtual realism (world-indexed properties of a simulation)", URL="../web/concepts/virtual-realism.md"];
@@ -821,6 +824,8 @@ digraph web {
   "concept-rendering-test" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-secondary-intension" -> "concept-primary-intension" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-soundness" -> "concept-validity" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-strong-weak-ai" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-turing-test" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-unobservability-in-principle" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-acquaintance-datum-or-representation" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-acquaintance-datum-or-representation" -> "concept-unobservability-in-principle" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
