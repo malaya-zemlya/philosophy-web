@@ -46,6 +46,11 @@
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --responds_to-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --responds_to-->
 
+## [argument-brain-simulator-reply](arguments/brain-simulator-reply.md)
+- type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-rejoinder-water-pipes](arguments/rejoinder-water-pipes.md) --responds_to-->
+
 ## [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md)
 - type: argument | author: papineau | status: asserted
 
@@ -66,6 +71,18 @@
 ## [argument-chinese-room](arguments/chinese-room.md)
 - type: argument | author: searle | status: asserted
 
+## [argument-chinese-room-derivation](arguments/chinese-room-derivation.md)
+- type: argument | author: searle | status: asserted
+- backlinks:
+  - [argument-connectionist-reply](arguments/connectionist-reply.md) --attacks-->
+  - [argument-many-mansions-reply](arguments/many-mansions-reply.md) --attacks-->
+  - [argument-other-minds-reply](arguments/other-minds-reply.md) --attacks-->
+  - [argument-rejoinder-attribution-vs-detection](arguments/rejoinder-attribution-vs-detection.md) --supports-->
+  - [argument-rejoinder-chinese-gym](arguments/rejoinder-chinese-gym.md) --supports-->
+  - [argument-rejoinder-internalize-rulebook](arguments/rejoinder-internalize-rulebook.md) --supports-->
+  - [argument-rejoinder-trivializes-strong-ai](arguments/rejoinder-trivializes-strong-ai.md) --supports-->
+  - [argument-systems-reply](arguments/systems-reply.md) --attacks-->
+
 ## [argument-cognitive-closure](arguments/cognitive-closure.md)
 - type: argument | author: mcginn | status: asserted
 
@@ -81,6 +98,12 @@
 
 ## [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-connectionist-reply](arguments/connectionist-reply.md)
+- type: argument | author: churchland | status: asserted
+- backlinks:
+  - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --supports-->
+  - [argument-rejoinder-chinese-gym](arguments/rejoinder-chinese-gym.md) --responds_to-->
 
 ## [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md)
 - type: argument | author: generic | status: asserted
@@ -175,6 +198,9 @@
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --attacks-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --responds_to-->
 
+## [argument-llm-representations-reply](arguments/llm-representations-reply.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-llmary-token-encounter](arguments/llmary-token-encounter.md)
 - type: argument | author: mishka | status: asserted
 
@@ -197,6 +223,11 @@
 
 ## [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-many-mansions-reply](arguments/many-mansions-reply.md)
+- type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-rejoinder-trivializes-strong-ai](arguments/rejoinder-trivializes-strong-ai.md) --responds_to-->
 
 ## [argument-mary-misimagined](arguments/mary-misimagined.md)
 - type: argument | author: dennett | status: asserted
@@ -230,6 +261,11 @@
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --attacks-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --responds_to-->
 
+## [argument-other-minds-reply](arguments/other-minds-reply.md)
+- type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-rejoinder-attribution-vs-detection](arguments/rejoinder-attribution-vs-detection.md) --responds_to-->
+
 ## [argument-parfit-rewiring](arguments/parfit-rewiring.md)
 - type: argument | author: parfit | status: asserted
 
@@ -243,6 +279,24 @@
 - backlinks:
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --attacks-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --responds_to-->
+
+## [argument-rejoinder-attribution-vs-detection](arguments/rejoinder-attribution-vs-detection.md)
+- type: argument | author: searle | status: asserted
+
+## [argument-rejoinder-chinese-gym](arguments/rejoinder-chinese-gym.md)
+- type: argument | author: searle | status: asserted
+
+## [argument-rejoinder-internalize-rulebook](arguments/rejoinder-internalize-rulebook.md)
+- type: argument | author: searle | status: asserted
+
+## [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md)
+- type: argument | author: searle | status: asserted
+
+## [argument-rejoinder-trivializes-strong-ai](arguments/rejoinder-trivializes-strong-ai.md)
+- type: argument | author: searle | status: asserted
+
+## [argument-rejoinder-water-pipes](arguments/rejoinder-water-pipes.md)
+- type: argument | author: searle | status: asserted
 
 ## [argument-relevance-filter-regress](arguments/relevance-filter-regress.md)
 - type: argument | author: mishka | status: asserted
@@ -260,6 +314,11 @@
 
 ## [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-robot-reply](arguments/robot-reply.md)
+- type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --responds_to-->
 
 ## [argument-role-grain-dilemma](arguments/role-grain-dilemma.md)
 - type: argument | author: block | status: asserted
@@ -294,6 +353,11 @@
 
 ## [argument-subjects-can-combine](arguments/subjects-can-combine.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-systems-reply](arguments/systems-reply.md)
+- type: argument | author: generic | status: asserted
+- backlinks:
+  - [argument-rejoinder-internalize-rulebook](arguments/rejoinder-internalize-rulebook.md) --responds_to-->
 
 ## [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md)
 - type: argument | author: mishka | status: asserted
@@ -394,6 +458,11 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md) --concludes-->
+
+## [claim-brains-cause-minds](claims/brains-cause-minds.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
 
 ## [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md)
 - type: claim | author: generic | status: contested
@@ -747,6 +816,11 @@
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --rejects-->
 
+## [claim-llm-text-yields-human-aligned-representations](claims/llm-text-yields-human-aligned-representations.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --premise-->
+
 ## [claim-lookup-table-combinatorially-inadequate](claims/lookup-table-combinatorially-inadequate.md)
 - type: claim | author: mishka | status: contested
 - backlinks:
@@ -855,6 +929,11 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md) --premise-->
+
+## [claim-minds-have-semantics](claims/minds-have-semantics.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
 
 ## [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md)
 - type: claim | author: mishka | status: asserted
@@ -979,6 +1058,16 @@
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --premise-->
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
   - [character-cyril](characters/cyril.md) --commits_to-->
+
+## [claim-programs-are-syntactic](claims/programs-are-syntactic.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
+
+## [claim-programs-not-sufficient-for-minds](claims/programs-not-sufficient-for-minds.md)
+- type: claim | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --concludes-->
 
 ## [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md)
 - type: claim | author: mishka | status: contested
@@ -1116,6 +1205,7 @@
   - [argument-behavioral-parity](arguments/behavioral-parity.md) --premise-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --attacks-->
   - [argument-chinese-room](arguments/chinese-room.md) --attacks-->
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --attacks-->
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --attacks-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --attacks-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --supports-->
@@ -1137,7 +1227,13 @@
 ## [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md)
 - type: claim | author: searle | status: asserted
 - backlinks:
+  - [argument-brain-simulator-reply](arguments/brain-simulator-reply.md) --attacks-->
   - [argument-chinese-room](arguments/chinese-room.md) --concludes-->
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
+  - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --attacks-->
+  - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --supports-->
+  - [argument-rejoinder-water-pipes](arguments/rejoinder-water-pipes.md) --supports-->
+  - [argument-robot-reply](arguments/robot-reply.md) --attacks-->
   - [character-cyril](characters/cyril.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
 
@@ -1220,16 +1316,32 @@
 - type: concept | author: block | status: asserted
 - backlinks:
   - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --uses_concept-->
+  - [argument-brain-simulator-reply](arguments/brain-simulator-reply.md) --uses_concept-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
+  - [argument-rejoinder-chinese-gym](arguments/rejoinder-chinese-gym.md) --uses_concept-->
   - [claim-chinese-nation-lacks-qualia](claims/chinese-nation-lacks-qualia.md) --uses_concept-->
   - [claim-chinese-nation-realises-organisation](claims/chinese-nation-realises-organisation.md) --uses_concept-->
 
 ## [concept-chinese-room](concepts/chinese-room.md)
 - type: concept | author: searle | status: asserted
 - backlinks:
+  - [argument-brain-simulator-reply](arguments/brain-simulator-reply.md) --uses_concept-->
   - [argument-chinese-room](arguments/chinese-room.md) --uses_concept-->
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --uses_concept-->
+  - [argument-connectionist-reply](arguments/connectionist-reply.md) --uses_concept-->
+  - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --uses_concept-->
+  - [argument-many-mansions-reply](arguments/many-mansions-reply.md) --uses_concept-->
+  - [argument-other-minds-reply](arguments/other-minds-reply.md) --uses_concept-->
+  - [argument-rejoinder-attribution-vs-detection](arguments/rejoinder-attribution-vs-detection.md) --uses_concept-->
+  - [argument-rejoinder-chinese-gym](arguments/rejoinder-chinese-gym.md) --uses_concept-->
+  - [argument-rejoinder-internalize-rulebook](arguments/rejoinder-internalize-rulebook.md) --uses_concept-->
+  - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --uses_concept-->
+  - [argument-rejoinder-water-pipes](arguments/rejoinder-water-pipes.md) --uses_concept-->
+  - [argument-robot-reply](arguments/robot-reply.md) --uses_concept-->
+  - [argument-systems-reply](arguments/systems-reply.md) --uses_concept-->
   - [claim-chinese-room-no-understanding](claims/chinese-room-no-understanding.md) --uses_concept-->
   - [claim-chinese-room-runs-program](claims/chinese-room-runs-program.md) --uses_concept-->
+  - [claim-programs-not-sufficient-for-minds](claims/programs-not-sufficient-for-minds.md) --uses_concept-->
   - [claim-simulation-instances-formal-depicts-causal](claims/simulation-instances-formal-depicts-causal.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
 
@@ -1440,6 +1552,22 @@
   - [position-hinge-epistemology](positions/hinge-epistemology.md) --uses_concept-->
   - [question-external-world-knowledge](questions/external-world-knowledge.md) --uses_concept-->
 
+## [concept-intentionality](concepts/intentionality.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --uses_concept-->
+  - [claim-brains-cause-minds](claims/brains-cause-minds.md) --uses_concept-->
+  - [claim-llm-text-yields-human-aligned-representations](claims/llm-text-yields-human-aligned-representations.md) --uses_concept-->
+  - [claim-minds-have-semantics](claims/minds-have-semantics.md) --uses_concept-->
+  - [concept-intrinsic-derived-intentionality](concepts/intrinsic-derived-intentionality.md) --uses_concept-->
+
+## [concept-intrinsic-derived-intentionality](concepts/intrinsic-derived-intentionality.md)
+- type: concept | author: searle | status: asserted
+- backlinks:
+  - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --uses_concept-->
+  - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --uses_concept-->
+  - [argument-robot-reply](arguments/robot-reply.md) --uses_concept-->
+
 ## [concept-intrinsic-structural-distinction](concepts/intrinsic-structural-distinction.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -1643,6 +1771,12 @@
 
 ## [concept-strong-weak-ai](concepts/strong-weak-ai.md)
 - type: concept | author: searle | status: asserted
+- backlinks:
+  - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --uses_concept-->
+  - [argument-many-mansions-reply](arguments/many-mansions-reply.md) --uses_concept-->
+  - [argument-rejoinder-trivializes-strong-ai](arguments/rejoinder-trivializes-strong-ai.md) --uses_concept-->
+  - [claim-programs-are-syntactic](claims/programs-are-syntactic.md) --uses_concept-->
+  - [claim-programs-not-sufficient-for-minds](claims/programs-not-sufficient-for-minds.md) --uses_concept-->
 
 ## [concept-super-spartan](concepts/super-spartan.md)
 - type: concept | author: putnam | status: asserted
@@ -1890,6 +2024,9 @@
 ## [source-chalmers-2022](sources/chalmers-2022.md)
 - type: source | author: mishka | status: asserted
 
+## [source-churchland-1990](sources/churchland-1990.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-ci-lewis-1929](sources/ci-lewis-1929.md)
 - type: source | author: mishka | status: asserted
 
@@ -1920,6 +2057,9 @@
 ## [source-dewynter-2026](sources/dewynter-2026.md)
 - type: source | author: mishka | status: asserted
 
+## [source-doerig-2025](sources/doerig-2025.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dominus-2011](sources/dominus-2011.md)
 - type: source | author: mishka | status: asserted
 
@@ -1941,6 +2081,9 @@
 ## [source-grahek-2007](sources/grahek-2007.md)
 - type: source | author: mishka | status: asserted
 
+## [source-gurnee-2023](sources/gurnee-2023.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-habib-2019](sources/habib-2019.md)
 - type: source | author: mishka | status: asserted
 
@@ -1957,6 +2100,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-james-1890](sources/james-1890.md)
+- type: source | author: mishka | status: asserted
+
+## [source-kawakita-2024](sources/kawakita-2024.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-kim-2005](sources/kim-2005.md)
@@ -1977,6 +2123,9 @@
 ## [source-lewis-1988](sources/lewis-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-li-2022](sources/li-2022.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-lindsey-introspection-2025](sources/lindsey-introspection-2025.md)
 - type: source | author: mishka | status: asserted
 
@@ -1984,6 +2133,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-loar-1990](sources/loar-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-marjieh-2024](sources/marjieh-2024.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-mccorduck-1979](sources/mccorduck-1979.md)
@@ -2040,6 +2192,9 @@
 ## [source-searle-1980](sources/searle-1980.md)
 - type: source | author: mishka | status: asserted
 
+## [source-searle-1990](sources/searle-1990.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-shani-2015](sources/shani-2015.md)
 - type: source | author: mishka | status: asserted
 
@@ -2068,4 +2223,10 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-wittgenstein-1969](sources/wittgenstein-1969.md)
+- type: source | author: mishka | status: asserted
+
+## [source-xu-2025](sources/xu-2025.md)
+- type: source | author: mishka | status: asserted
+
+## [source-yuan-2025](sources/yuan-2025.md)
 - type: source | author: mishka | status: asserted
