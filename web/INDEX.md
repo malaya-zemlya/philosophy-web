@@ -1378,6 +1378,7 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --uses_concept-->
+  - [argument-fading-qualia](arguments/fading-qualia.md) --uses_concept-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --uses_concept-->
   - [argument-parfit-rewiring](arguments/parfit-rewiring.md) --uses_concept-->
   - [argument-sorites-paradox](arguments/sorites-paradox.md) --uses_concept-->

@@ -8,7 +8,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, functionalism, thought-experiment]
 pattern: thought-experiment
 supports: [claim-organizational-invariance, claim-substrate-independence]
-uses_concept: [concept-functionalism]
+uses_concept: [concept-functionalism, concept-continuity-argument-schema]
 style: encyclopedia
 created: 2026-06-26
 ---
@@ -40,6 +40,21 @@ could be arbitrarily decoupled from experience and our own access to consciousne
 best conclusion is that experience does *not* fade as long as organization is preserved — supporting
 [organizational-invariance](../claims/organizational-invariance.md) and thereby [substrate-independence](../claims/substrate-independence.md).
 
+### A continuity argument
+
+Structurally, fading qualia is an instance of the [continuity /
+no-sharp-line schema](../concepts/continuity-argument-schema.md). The space of cases `X` is the part-replacement series from all-carbon to
+all-silicon under the admissible small step "replace one neuron with a functional duplicate"; the verdict
+space `Y` is {full experience … faded … absent}. The argument grabs the schema's **`f`-constant horn**: it
+contends that no admissible one-neuron step could fade or flip experience (on pain of the absurd
+self-deceived isomorph), so the verdict is *constant* across the whole path and the silicon endpoint has the
+same qualia as the carbon start. The opponent who resists is choosing a *different* horn — the
+**discontinuity** horn (some particular replacement does flip the verdict, a sharp if unknowable threshold)
+or the **disconnection** horn (the carbon→silicon steps are not genuinely admissible because biology is
+load-bearing). The dialectic is therefore over *which horn the case forces*, and
+[dancing-qualia-begs-the-question](dancing-qualia-begs-the-question.md) is precisely the charge that the reductio has not *closed off*
+those horns but only assumed them shut.
+
 ### The weakest premise
 
 Step (3) assumes the introspective judgement is *held fixed by the functional duplication* — i.e. that
@@ -66,6 +81,8 @@ and the trick doesn't go through.
 ### See also
 
 - [organizational-invariance](../claims/organizational-invariance.md) — the principle this argument supports.
+- [continuity-argument-schema](../concepts/continuity-argument-schema.md) — the sorites/no-sharp-line schema this argument instantiates;
+  fading qualia grabs its `f`-constant horn.
 - [dancing-qualia](dancing-qualia.md) — the sharper companion, against *inverted* rather than *absent* qualia.
 - [substrate-independence](../claims/substrate-independence.md) — the broader thesis the argument feeds.
 - [dancing-qualia-begs-the-question](dancing-qualia-begs-the-question.md) — the standing objection: the argument presupposes
