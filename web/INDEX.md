@@ -113,6 +113,9 @@
 ## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-dancing-qualia](arguments/dancing-qualia.md)
+- type: argument | author: chalmers | status: asserted
+
 ## [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -141,6 +144,9 @@
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --attacks-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --responds_to-->
   - [character-alvin](characters/alvin.md) --holds-->
+
+## [argument-fading-qualia](arguments/fading-qualia.md)
+- type: argument | author: chalmers | status: asserted
 
 ## [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md)
 - type: argument | author: searle | status: asserted
@@ -973,6 +979,12 @@
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --premise-->
   - [character-alvin](characters/alvin.md) --commits_to-->
 
+## [claim-organizational-invariance](claims/organizational-invariance.md)
+- type: claim | author: chalmers | status: asserted
+- backlinks:
+  - [argument-dancing-qualia](arguments/dancing-qualia.md) --concludes-->
+  - [argument-fading-qualia](arguments/fading-qualia.md) --supports-->
+
 ## [claim-perceptron-realizable-in-any-substrate](claims/perceptron-realizable-in-any-substrate.md)
 - type: claim | author: dewynter | status: asserted
 - backlinks:
@@ -1209,8 +1221,10 @@
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --attacks-->
   - [argument-chinese-room](arguments/chinese-room.md) --attacks-->
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --attacks-->
+  - [argument-dancing-qualia](arguments/dancing-qualia.md) --supports-->
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --attacks-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --attacks-->
+  - [argument-fading-qualia](arguments/fading-qualia.md) --supports-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --supports-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --supports-->
@@ -1417,10 +1431,12 @@
   - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --uses_concept-->
   - [argument-china-nation-absent-qualia](arguments/china-nation-absent-qualia.md) --uses_concept-->
   - [argument-chinese-room](arguments/chinese-room.md) --uses_concept-->
+  - [argument-dancing-qualia](arguments/dancing-qualia.md) --uses_concept-->
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --uses_concept-->
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --uses_concept-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --uses_concept-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --uses_concept-->
+  - [argument-fading-qualia](arguments/fading-qualia.md) --uses_concept-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --presupposes-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --uses_concept-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --uses_concept-->
@@ -1439,6 +1455,7 @@
   - [claim-implementation-requires-counterfactual-structure](claims/implementation-requires-counterfactual-structure.md) --uses_concept-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --uses_concept-->
   - [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md) --uses_concept-->
+  - [claim-organizational-invariance](claims/organizational-invariance.md) --uses_concept-->
   - [claim-perceptron-realizable-in-any-substrate](claims/perceptron-realizable-in-any-substrate.md) --uses_concept-->
   - [claim-phenomenal-concept-isolation-tradeoff](claims/phenomenal-concept-isolation-tradeoff.md) --uses_concept-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --uses_concept-->
@@ -1973,6 +1990,7 @@
 - type: question | author: mishka | status: contested
 - backlinks:
   - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --answers-->
+  - [claim-organizational-invariance](claims/organizational-invariance.md) --answers-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --answers-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --answers-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --answers-->
@@ -2009,6 +2027,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-1995](sources/chalmers-1995.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-1995b](sources/chalmers-1995b.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-1996](sources/chalmers-1996.md)
