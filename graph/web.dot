@@ -457,6 +457,7 @@ digraph web {
   "argument-explanatory-gap" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-fading-qualia" -> "claim-organizational-invariance" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
   "argument-fading-qualia" -> "claim-substrate-independence" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-fading-qualia" -> "concept-continuity-argument-schema" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-fading-qualia" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-feel-is-the-watching-not-an-unwatched-difference" -> "argument-real-feel-residue-is-idle" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-feel-is-the-watching-not-an-unwatched-difference" -> "argument-real-feel-residue-is-idle" [color="#757575", style="dashed", tooltip="responds_to"];
