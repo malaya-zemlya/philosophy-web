@@ -50,6 +50,7 @@ digraph web {
   "argument-lookup-table-combinatorial-impossibility" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="lookup table\ncombinatorial\nimpossibility", tooltip="The combinatorial-impossibility reply — a finite lookup table cannot match an open-ended mind's behaviour", URL="../web/arguments/lookup-table-combinatorial-impossibility.md"];
   "argument-lookup-table-objection" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="lookup table\nobjection", tooltip="The lookup-table (blockhead) objection — behaviour is not sufficient for mind", URL="../web/arguments/lookup-table-objection.md"];
   "argument-lookup-table-physical-impossibility" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="lookup table\nphysical\nimpossibility", tooltip="The cosmic-size reply — a behaviour-matching lookup table is too large to physically exist", URL="../web/arguments/lookup-table-physical-impossibility.md"];
+  "argument-luminous-room" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="luminous room", tooltip="The Luminous Room — Searle's anti-computation intuition is as unreliable as a 19th-century intuition that magnets can't make light", URL="../web/arguments/luminous-room.md"];
   "argument-many-mansions-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="many mansions\nreply", tooltip="The Many Mansions Reply — even if programs fail, some other artificial means could yield a mind", URL="../web/arguments/many-mansions-reply.md"];
   "argument-mary-misimagined" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="mary misimagined", tooltip="The Mary intuition misimagines the premise — \"all physical facts\" is quietly read as \"lots of facts\"", URL="../web/arguments/mary-misimagined.md"];
   "argument-mary-omniscience-unrealizable" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="mary omniscience\nunrealizable", tooltip="Mary's complete physical knowledge is unrealizable — an embedded knower cannot encode the total state that contains her", URL="../web/arguments/mary-omniscience-unrealizable.md"];
@@ -548,6 +549,8 @@ digraph web {
   "argument-lookup-table-physical-impossibility" -> "claim-lookup-table-size-exponential" [color="#1565c0", tooltip="premise"];
   "argument-lookup-table-physical-impossibility" -> "claim-observable-universe-finite-storage" [color="#1565c0", tooltip="premise"];
   "argument-lookup-table-physical-impossibility" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-luminous-room" -> "claim-syntax-insufficient-for-semantics" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-luminous-room" -> "concept-chinese-room" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-many-mansions-reply" -> "argument-chinese-room-derivation" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-many-mansions-reply" -> "concept-chinese-room" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-many-mansions-reply" -> "concept-strong-weak-ai" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];

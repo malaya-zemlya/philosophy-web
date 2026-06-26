@@ -167,7 +167,7 @@
 \markboth{}{}\thispagestyle{plain}
 \vspace*{1.2\baselineskip}
 {\centering\Large\bfseries List of Entries\par}
-{\centering\small 147 entries \,\textperiodcentered\, June 2026\par}
+{\centering\small 148 entries \,\textperiodcentered\, June 2026\par}
 \vspace{1\baselineskip}
 \begin{listofentries}
 \entryline{$\odot$}{claim-aposteriori-necessities-are-misdescribed-possibilities}{A-posteriori necessities as misdescribed possibilities}
@@ -248,6 +248,7 @@
 \entryline{$\odot$}{claim-all-knowledge-is-conjectural}{Knowledge is conjectural}
 \entryline{$\vdash$}{argument-llm-representations-reply}{LLM-representations reply}
 \entryline{$\odot$}{claim-llm-approximates-perfect-actor}{LLMs as near-perfect actors}
+\entryline{$\vdash$}{argument-luminous-room}{Luminous room}
 \entryline{$\vdash$}{argument-many-mansions-reply}{Many mansions reply}
 \entryline{$\odot$}{claim-mary-gains-abilities-not-facts}{Mary gains abilities}
 \entryline{$\odot$}{claim-mary-gains-acquaintance}{Mary gains acquaintance}
@@ -974,6 +975,7 @@ Searle's argument, stripped to a syllogism: (1) computer programs are just rules
   \item \hyperref[entry:claim-programs-are-syntactic]{\textsc{Programs are syntactic}}, \hyperref[entry:claim-minds-have-semantics]{\textsc{Minds have semantics}}, \hyperref[entry:claim-brains-cause-minds]{\textsc{Brains cause minds}} — the other axioms.
   \item \textsc{Chinese room argument} — the intuition-pump presentation of the same argument.
   \item \hyperref[entry:argument-systems-reply]{\textsc{Systems reply}}, \hyperref[entry:argument-robot-reply]{\textsc{Robot reply}}, \hyperref[entry:argument-brain-simulator-reply]{\textsc{Brain simulator reply}}, \hyperref[entry:argument-other-minds-reply]{\textsc{Other minds reply}}, \hyperref[entry:argument-connectionist-reply]{\textsc{Connectionist reply}}, \hyperref[entry:argument-many-mansions-reply]{\textsc{Many mansions reply}} — the standard objections, each a denial of A3.
+  \item \hyperref[entry:argument-luminous-room]{\textsc{Luminous room}} — the Churchlands' meta-objection that the intuition supporting A3 is itself unreliable.
   \item \textsc{Biological naturalism} — Searle's positive view, grown from A4.
   \item \textsc{Substrate-independence thesis} — the thesis the derivation attacks.
 \end{seealso}
@@ -1221,6 +1223,7 @@ The room imagines a single worker plodding through rules one at a time — but t
   \item \hyperref[entry:argument-rejoinder-chinese-gym]{\textsc{Chinese gym}} — Searle's reply: a parallel ``Chinese gym'' still understands nothing.
   \item \hyperref[entry:argument-brain-simulator-reply]{\textsc{Brain simulator reply}} — the allied appeal to neural fidelity, here at the level of architecture.
   \item \hyperref[entry:argument-llm-representations-reply]{\textsc{LLM-representations reply}} — the modern empirical descendant: evidence that text-trained networks actually do build human-aligned representations, vindicating the Churchlands' bet.
+  \item \hyperref[entry:argument-luminous-room]{\textsc{Luminous room}} — the Churchlands' \emph{other} objection in the same paper: a meta-attack on the reliability of Searle's intuition, where this one attacks his architecture.
   \item \hyperref[source:source-churchland-1990]{\textsc{Churchland \& Churchland — Could a Machine Think? (1990)}} — the Churchlands' statement of the reply.
 \end{seealso}
 
@@ -2256,6 +2259,43 @@ Putnam imagined a ``perfect actor'': something that does everything a person in 
   \item \hyperref[entry:concept-perfect-actor]{\textsc{Perfect actor}} — Putnam's thought experiment this claim says LLMs make real: behaviour without the state.
   \item \textsc{LLMs have mental states} — the rival view; calling an LLM a mere perfect actor takes the sceptical side of that dispute.
   \item \textsc{Functionalism} — the theory on which an LLM might \emph{not} be a mere actor, if it realises the state's causal role.
+\end{seealso}
+
+\entryhead{argument-luminous-room}{Luminous room}{Argument \,\textperiodcentered\, after Churchland}{Luminous room}{The Luminous Room — Searle's anti-computation intuition is as unreliable as a 19th-century intuition that magnets can't make light}{$\vdash$}
+The \emph{Luminous Room} is Paul and Patricia Churchland's parody of the \hyperref[entry:concept-chinese-room]{\textsc{Chinese Room}} (see \hyperref[source:source-churchland-1990]{\textsc{Churchland \& Churchland — Could a Machine Think? (1990)}}), aimed not at Searle's architecture but at his \emph{evidence}. Searle's third axiom — \textsc{syntax is not sufficient for semantics} — is supported by an intuition: you imagine the room and simply \emph{see} that no understanding is present. The Churchlands argue that this kind of intuition is worthless, by building an identical pump against a claim now known to be \emph{true}.
+
+\webheading{The argument}
+
+The inference is an \textbf{argument from analogy} (a parity-of-cases parody).
+
+\begin{enumerate}
+  \item \emph{Base case.} Imagine a 19th-century skeptic resisting Maxwell's hypothesis that light \textbf{is} electromagnetic waves. By the theory, waving a magnet propagates electromagnetic waves — so a man waving a bar magnet in a dark room is, literally, generating light. Yet the room stays dark. ``Forces from a waving magnet, light? Preposterous — \emph{obviously} there is no light here.'' The intuition delivers a confident verdict: light is not electromagnetic waves.
+  \item \emph{Base verdict is false.} Light really is electromagnetic radiation. The man's magnet does produce electromagnetic waves; they are merely far too weak and low in frequency to see. The intuition tracked the \emph{feebleness of the demonstration}, not the \emph{falsity of the theory}.
+  \item \emph{Similarity.} The Chinese Room shares the relevant respect: a confident intuition that an emergent property (understanding / luminance) cannot arise from an unfamiliar process (symbol manipulation / waving a magnet) carried out at an impoverished, slowed-down scale.
+\end{enumerate}
+
+∴ Searle's ``obviously no understanding here'' is no better evidence than ``obviously no light here.'' The intuition behind A3 is discredited, so A3 is unsupported — which is why this \texttt{attacks} \textsc{Syntax insufficient for semantics}. (It bears equally on the intuition-pump \textsc{version of the argument}, whose whole force is that very intuition.)
+
+\webheading{The weakest point — and Searle's reply}
+
+As an analogy, the move stands or falls on \textbf{CQ-disanalogy}: is there a relevant difference between the two cases? Searle says yes, and decisively. ``Light is electromagnetic radiation'' is an \emph{a posteriori} identity between two \emph{objective, third-person} physical phenomena, discovered by science against intuition — exactly the kind of thing a feeble demo could hide. But the syntax/semantics gap is not of that kind: understanding has a \emph{first-person, intrinsic} \hyperref[entry:concept-intrinsic-derived-intentionality]{\textsc{character}} that no quantity of third-person symbol-structure seems to add up to, however fast or massive. So the luminosity intuition was overturnable by more physics; the ``no semantics from syntax'' point, Searle holds, is a \emph{conceptual} claim that more computation cannot touch. Whether understanding really is the special, intuition-resistant case Searle needs — or is just the next feeble demo whose lesson we have not yet learned — is the live crux, and the \hyperref[entry:argument-llm-representations-reply]{\textsc{empirical evidence that text-trained networks build human-aligned representations}} is the modern attempt to settle it in the Churchlands' favour.
+
+\webheading{How it differs from its sibling}
+
+The Churchlands press two distinct objections in the same paper, and they should not be run together. The \hyperref[entry:argument-connectionist-reply]{\textsc{Connectionist Reply}} is \emph{first-order}: Searle modelled the wrong machine (serial, not parallel). The Luminous Room is \emph{meta}: even granting the Room, the intuition it elicits is the wrong sort of thing to settle whether syntax suffices for semantics. One attacks the setup; the other attacks the evidence the setup is supposed to provide.
+
+\begin{plainterms}
+Searle's argument leans on a gut feeling: picture the room, and you just \emph{know} nobody understands anything. The Churchlands answer with a trap. Picture a man in a dark room waving a magnet. By physics, he's actually making light (radio-frequency light) — but the room stays pitch dark, and any sensible person would scoff: ``\emph{light}, from waving a magnet? Obviously not.'' That scoff is \emph{wrong} — light really is this stuff — the demo is just too weak to see. So a confident ``obviously not'' about an unfamiliar process proves nothing, and Searle's ``obviously no understanding'' might be the very same mistake. Searle's comeback: light was a hidden \emph{physical} fact science could dig up, but understanding has an \emph{inner, felt} side that no amount of symbol-shuffling seems to reach — so the cases aren't parallel. Who's right is still the open question.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \textsc{Syntax insufficient for semantics} — axiom A3, whose supporting intuition this analogy attacks.
+  \item \hyperref[entry:argument-connectionist-reply]{\textsc{Connectionist reply}} — the Churchlands' \emph{other}, first-order objection in the same paper.
+  \item \textsc{Chinese room argument} — the intuition-pump version most directly undercut.
+  \item \hyperref[entry:concept-intrinsic-derived-intentionality]{\textsc{Intrinsic and derived intentionality}} — the first-person character Searle invokes for his disanalogy reply.
+  \item \hyperref[entry:argument-llm-representations-reply]{\textsc{LLM-representations reply}} — the empirical attempt to decide the crux in the Churchlands' favour.
+  \item \hyperref[source:source-churchland-1990]{\textsc{Churchland \& Churchland — Could a Machine Think? (1990)}} — the source of the parody.
 \end{seealso}
 
 \end{multicols}
