@@ -91,5 +91,7 @@ disguise, and that syntax plus the right extra ingredient (the whole system, a b
 - [systems-reply](systems-reply.md), [robot-reply](robot-reply.md), [brain-simulator-reply](brain-simulator-reply.md),
   [other-minds-reply](other-minds-reply.md), [connectionist-reply](connectionist-reply.md), [many-mansions-reply](many-mansions-reply.md) — the
   standard objections, each a denial of A3.
+- [luminous-room](luminous-room.md) — the Churchlands' meta-objection that the intuition supporting A3 is itself
+  unreliable.
 - [biological-naturalism](../positions/biological-naturalism.md) — Searle's positive view, grown from A4.
 - [substrate-independence](../claims/substrate-independence.md) — the thesis the derivation attacks.

@@ -224,6 +224,9 @@
 ## [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-luminous-room](arguments/luminous-room.md)
+- type: argument | author: churchland | status: asserted
+
 ## [argument-many-mansions-reply](arguments/many-mansions-reply.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
@@ -1231,6 +1234,7 @@
   - [argument-chinese-room](arguments/chinese-room.md) --concludes-->
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
   - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --attacks-->
+  - [argument-luminous-room](arguments/luminous-room.md) --attacks-->
   - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --supports-->
   - [argument-rejoinder-water-pipes](arguments/rejoinder-water-pipes.md) --supports-->
   - [argument-robot-reply](arguments/robot-reply.md) --attacks-->
@@ -1330,6 +1334,7 @@
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --uses_concept-->
   - [argument-connectionist-reply](arguments/connectionist-reply.md) --uses_concept-->
   - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --uses_concept-->
+  - [argument-luminous-room](arguments/luminous-room.md) --uses_concept-->
   - [argument-many-mansions-reply](arguments/many-mansions-reply.md) --uses_concept-->
   - [argument-other-minds-reply](arguments/other-minds-reply.md) --uses_concept-->
   - [argument-rejoinder-attribution-vs-detection](arguments/rejoinder-attribution-vs-detection.md) --uses_concept-->

@@ -56,4 +56,6 @@ not a self-evident axiom.
   architecture.
 - [llm-representations-reply](llm-representations-reply.md) — the modern empirical descendant: evidence that text-trained
   networks actually do build human-aligned representations, vindicating the Churchlands' bet.
+- [luminous-room](luminous-room.md) — the Churchlands' *other* objection in the same paper: a meta-attack on the
+  reliability of Searle's intuition, where this one attacks his architecture.
 - [churchland-1990](../sources/churchland-1990.md) — the Churchlands' statement of the reply.
