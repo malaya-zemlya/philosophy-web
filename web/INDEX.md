@@ -115,11 +115,16 @@
 
 ## [argument-dancing-qualia](arguments/dancing-qualia.md)
 - type: argument | author: chalmers | status: asserted
+- backlinks:
+  - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --attacks-->
 
 ## [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
   - [character-alvin](characters/alvin.md) --holds-->
+
+## [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md)
 - type: argument | author: mishka | status: asserted
@@ -629,6 +634,7 @@
 - backlinks:
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --concludes-->
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --premise-->
+  - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --supports-->
   - [character-alvin](characters/alvin.md) --commits_to-->
 
 ## [claim-explanation-must-be-internally-traversable](claims/explanation-must-be-internally-traversable.md)
@@ -1434,6 +1440,7 @@
   - [argument-chinese-room](arguments/chinese-room.md) --uses_concept-->
   - [argument-dancing-qualia](arguments/dancing-qualia.md) --uses_concept-->
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --uses_concept-->
+  - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --uses_concept-->
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --uses_concept-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --uses_concept-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --uses_concept-->
@@ -1736,6 +1743,8 @@
 
 ## [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md)
 - type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --uses_concept-->
 
 ## [concept-perfect-actor](concepts/perfect-actor.md)
 - type: concept | author: putnam | status: asserted

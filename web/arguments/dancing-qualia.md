@@ -85,6 +85,8 @@ noticed and the paradox dissolves.
 - [substrate-independence](../claims/substrate-independence.md) — the broader thesis it supports.
 - [dancing-qualia-begs-the-question](dancing-qualia-begs-the-question.md) / [dancing-qualia-presupposes-functional-introspection](../claims/dancing-qualia-presupposes-functional-introspection.md)
   — the standing objection: the reductio presupposes functionalism about introspection.
+- [dancing-qualia-no-memory-trace](dancing-qualia-no-memory-trace.md) — a sharpening of that objection through memory: "noticing"
+  the flip needs a cross-time comparison whose earlier term is a functionally-fixed memory.
 - [gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md) — the strong-functionalist deployment of this move.
 - [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) — Chalmers's own anti-functionalism, with which the principle coexists.
 - [biological-naturalism](../positions/biological-naturalism.md), [proteocentrism](../positions/proteocentrism.md) — the substrate-chauvinist targets.
