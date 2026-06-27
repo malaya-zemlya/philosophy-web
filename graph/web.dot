@@ -267,6 +267,7 @@ digraph web {
   "concept-llmary" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="llmary", tooltip="LLMary (the language model that never saw token 123)", URL="../web/concepts/llmary.md"];
   "concept-lookup-table-mind" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="lookup table mind", tooltip="Lookup-table mind (\"Blockhead\" / Aunt Bubbles machine)", URL="../web/concepts/lookup-table-mind.md"];
   "concept-materialism-types" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="materialism types", tooltip="Type-A / Type-B / Type-C materialism (responses to the hard problem)", URL="../web/concepts/materialism-types.md"];
+  "concept-mind-body-problem" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="mind body problem", tooltip="The mind-body problem", URL="../web/concepts/mind-body-problem.md"];
   "concept-munchhausen-trilemma" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="munchhausen\ntrilemma", tooltip="The Münchhausen trilemma (Agrippa's regress)", URL="../web/concepts/munchhausen-trilemma.md"];
   "concept-order-of-representation" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="order of\nrepresentation", tooltip="First-order vs higher-order mental states", URL="../web/concepts/order-of-representation.md"];
   "concept-pain-asymbolia" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="pain asymbolia", tooltip="Pain asymbolia (pain felt but not minded)", URL="../web/concepts/pain-asymbolia.md"];
@@ -914,6 +915,8 @@ digraph web {
   "concept-knowledge-argument" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-llmary" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-materialism-types" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-mind-body-problem" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-mind-body-problem" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-panpsychism" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-paradox-of-phenomenal-judgment" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-philosophical-zombie" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
