@@ -1476,6 +1476,7 @@
   - [concept-aoe2-circuits](concepts/aoe2-circuits.md) --uses_concept-->
   - [concept-chinese-room](concepts/chinese-room.md) --uses_concept-->
   - [concept-grain](concepts/grain.md) --uses_concept-->
+  - [concept-mind-body-problem](concepts/mind-body-problem.md) --uses_concept-->
   - [concept-strong-weak-ai](concepts/strong-weak-ai.md) --uses_concept-->
   - [concept-turing-test](concepts/turing-test.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
@@ -1552,6 +1553,7 @@
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
+  - [concept-mind-body-problem](concepts/mind-body-problem.md) --uses_concept-->
   - [concept-panpsychism](concepts/panpsychism.md) --uses_concept-->
   - [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md) --uses_concept-->
   - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
@@ -1702,6 +1704,9 @@
   - [position-type-b-materialism](positions/type-b-materialism.md) --uses_concept-->
   - [position-type-c-materialism](positions/type-c-materialism.md) --uses_concept-->
   - [position-type-identity](positions/type-identity.md) --uses_concept-->
+
+## [concept-mind-body-problem](concepts/mind-body-problem.md)
+- type: concept | author: generic | status: asserted
 
 ## [concept-munchhausen-trilemma](concepts/munchhausen-trilemma.md)
 - type: concept | author: generic | status: asserted
@@ -2099,6 +2104,9 @@
 ## [source-dominus-2011](sources/dominus-2011.md)
 - type: source | author: mishka | status: asserted
 
+## [source-elisabeth-1643](sources/elisabeth-1643.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-gambarian](sources/gambarian.md)
 - type: source | author: mishka | status: asserted
 
@@ -2220,6 +2228,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-russell-1927](sources/russell-1927.md)
+- type: source | author: mishka | status: asserted
+
+## [source-ryle-1949](sources/ryle-1949.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-seager-2006](sources/seager-2006.md)
