@@ -7,22 +7,41 @@ author: huxley
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 uses_concept: [concept-materialism-types]
-style: legacy
+style: encyclopedia
 created: 2026-06-09
 ---
 
-gloss: conscious experiences are *by-products* of brain activity — caused by physical events but
-themselves causally idle, like the steam-whistle of a locomotive that does no work (T. H. Huxley
-1874). The physical world is causally closed; phenomenal properties supervene as effects that never
-loop back to affect behaviour. Chalmers' **type-E** in [materialism-types](../concepts/materialism-types.md).
+Conscious experiences are by-products of brain activity: caused by physical events but themselves
+causally idle. The metaphor is T. H. Huxley's ([Huxley 1874](../sources/huxley-1874.md)) — the felt side
+of mental life is like the steam-whistle of a locomotive, driven by the engine yet contributing
+nothing to its motion. The physical world is taken to be causally closed, so phenomenal properties
+arise as effects of neural processes but never loop back to influence behaviour. In David Chalmers's
+taxonomy of options ([chalmers-2003](../sources/chalmers-2003.md)) this is the **type-E** position
+([materialism-types](../concepts/materialism-types.md)).
 
-scope: a thesis specifically about the *causal inefficacy* of the phenomenal, paired with realism
-about it. It is the cost a property dualist may accept to honour physical causal closure.
+This is a thesis specifically about the *causal inefficacy* of the phenomenal, paired with realism
+about it: the experiences are real, they simply do no work. It is the cost a property dualist may
+accept in order to honour the causal closure of physics.
 
-who would deny it: physicalists/functionalists (mental states are causally efficacious *because*
-physical); interactionist dualists (mind acts on body); and anyone who finds the causal idleness of
-experience incredible (the self-stultification worry: how could we *know* or *report* states that do
-nothing?).
+It is denied by physicalists and functionalists, for whom mental states are causally efficacious
+precisely because they are physical; by interactionist dualists, who hold that mind acts on body;
+and by anyone who finds the idleness of experience incredible — the *self-stultification* worry
+that we could neither know nor report states that produce no effects, since the knowing and
+reporting would then have nothing to do with the states themselves.
 
-Distinct from [consciousness-fundamental-nonphysical](consciousness-fundamental-nonphysical.md) (which leaves causal role open):
-epiphenomenalism adds the specific claim that the non-physical residue is inert.
+Distinct from [consciousness-fundamental-nonphysical](consciousness-fundamental-nonphysical.md), which leaves the causal role of the
+non-physical open: epiphenomenalism adds the further claim that the non-physical residue is inert.
+
+### In plain terms
+
+The idea is that your feelings don't actually do anything. Your brain makes you feel pain and,
+separately, makes you shout "ouch"; the painful feeling itself just rides along, like a shadow,
+causing nothing. This keeps the comforting thought that physics explains all the pushing and
+shoving in the world, while still admitting feelings are real — but it has an awkward consequence:
+if feelings cause nothing, it's hard to see how we could ever talk or know about them.
+
+### See also
+
+- [materialism-types](../concepts/materialism-types.md) — Chalmers's map of options, where this thesis is type-E.
+- [consciousness-fundamental-nonphysical](consciousness-fundamental-nonphysical.md) — the broader non-physicality claim; this adds
+  causal inertness to it.

@@ -7,26 +7,32 @@ author: block
 status: asserted
 tags: [philosophy-of-mind, functionalism, computability]
 uses_concept: [concept-lookup-table-mind]
-style: legacy
+style: encyclopedia
 created: 2026-06-04
 ---
 
-gloss: a real, finite mind has bounded memory and attention; past some length or complexity it too
-cannot take in the whole input — it forgets, loses track, or processes only a fragment. So on the
-very inputs that exceed a bounded table's domain, the mind does not reliably out-perform it either
-(Block, [block](../sources/block.md)).
+A real, finite mind has bounded memory and attention, so past some length or complexity it too
+cannot take in a whole input — it forgets, loses track, or processes only a fragment. On the
+very inputs that exceed a bounded table's stored domain, then, a mind does not reliably
+out-perform the table either. This is Ned Block's reply ([block](../sources/block.md)) on behalf of the
+lookup-table machine ([lookup-table-mind](../concepts/lookup-table-mind.md)).
 
-scope: a symmetry/levelling claim. It does NOT say minds and tables are alike in general, only that
-on inputs beyond *both* their capacities the asserted advantage of the mind (claim-mind-handles-
-unbounded-inputs) is not clearly present, so the asymmetry the combinatorial-impossibility reply
-needs may not obtain in the domain that matters.
+### Scope
 
-who would deny it: someone holding that a mind's response to over-long inputs (graceful degradation,
-structural/recursive processing) is still relevantly appropriate where a table's (blind truncation)
-is not — i.e. that the *manner* of failure differs even if both "fail."
+This is a symmetry, or levelling, claim. It does not say that minds and tables are alike in
+general — only that on inputs beyond *both* their capacities the mind's asserted advantage
+([open-ended responsiveness](mind-handles-unbounded-inputs.md)) is not clearly present. So
+the asymmetry that the [combinatorial-impossibility reply](../arguments/lookup-table-combinatorial-impossibility.md)
+needs may not obtain in the domain that actually matters.
 
-Distinct from [finite-table-misses-inputs](finite-table-misses-inputs.md) (the table misses inputs outside its keys): this is
-the converse levelling claim about the *mind's* finitude, used to neutralise the asymmetry.
+Who would deny it: someone holding that a mind's response to over-long inputs — graceful
+degradation, structural or recursive processing — is still relevantly *appropriate* where a
+table's blind truncation is not; that is, that the *manner* of failure differs even when both
+"fail."
+
+Distinct from [finite-table-misses-inputs](finite-table-misses-inputs.md) (the table misses inputs outside its stored
+keys): this is the converse levelling claim about the *mind's* finitude, deployed to neutralise
+the asymmetry.
 
 ### In plain terms
 
@@ -36,3 +42,14 @@ only a fragment of a huge input. So on exactly the monster inputs a finite store
 a real person doesn't clearly do better. That blunts the claim that minds always out-perform tables.
 (The pushback: a mind fails *gracefully*, still doing something sensible, while a table just blindly
 chops off whatever it can't store — so even when both "fail," they fail in different ways.)
+
+### See also
+
+- [lookup-table-mind](../concepts/lookup-table-mind.md) — the machine this claim defends against the charge that minds
+  always out-perform it.
+- [finite-table-misses-inputs](finite-table-misses-inputs.md) — the converse point about the table's finitude that
+  this claim levels against.
+- [mind-handles-unbounded-inputs](mind-handles-unbounded-inputs.md) — the asserted advantage of minds that this claim
+  questions in the over-capacity domain.
+- [lookup-table-combinatorial-impossibility](../arguments/lookup-table-combinatorial-impossibility.md) — the reply whose required asymmetry
+  this claim aims to undercut.

@@ -894,6 +894,7 @@ digraph web {
   "claim-subject-unity-graded-by-integration" -> "concept-continuity-argument-schema" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-substrate-independence" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-substrate-independence" -> "question-llm-moral-status" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
+  "claim-substrate-independence" -> "question-substrate-independence" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-syntax-insufficient-for-semantics" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-zombie-conceivable" -> "concept-philosophical-zombie" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-zombie-premise-unwarrantable" -> "concept-dialectical-cogency" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];

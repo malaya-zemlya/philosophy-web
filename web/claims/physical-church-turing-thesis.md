@@ -7,27 +7,31 @@ author: generic
 status: asserted
 tags: [computability, physics, metaphysics]
 uses_concept: [concept-halting-oracle]
-style: legacy
+style: encyclopedia
 created: 2026-06-08
 ---
 
-gloss: any function that some physical process can compute is also computable by a Turing machine — no
-physical device out-computes the Turing machine (the *physical* or "bold" Church–Turing thesis;
-Church–Turing–Deutsch). Together with [halting-problem-undecidable](halting-problem-undecidable.md) this entails that no
-physical machine decides the halting problem.
+Any function that some physical process can compute is also computable by a Turing machine: no
+physical device out-computes the Turing machine. This is the *physical* (or "bold") Church–Turing
+thesis, sometimes called the Church–Turing–Deutsch principle. Together with the fact that
+[no Turing machine decides the halting problem](halting-problem-undecidable.md), it entails that
+no physical machine can decide the halting problem either.
 
-scope: a *contingent, empirical* thesis about the physical world — NOT a mathematical theorem (that is
-[halting-problem-undecidable](halting-problem-undecidable.md)). It is the bridge that turns Turing-uncomputability into
-*physical* unrealizability.
+The thesis is *contingent and empirical* — a claim about what the physical world happens to permit,
+not a mathematical theorem. (The theorem is [the undecidability
+of the halting problem](halting-problem-undecidable.md).) Its role is as a *bridge*: it is what turns Turing-uncomputability, a
+fact about an abstract machine, into *physical* unrealizability, a fact about what nature can build.
 
-who would deny it: **hypercomputation** theorists, who argue exotic physics could realize
-super-Turing computation — Malament–Hogarth spacetimes (Hogarth; Etesi–Németi), infinite-time Turing
-machines (Hamkins–Lewis), certain idealised relativistic/analog devices. And, pointedly, **Penrose**:
-[consciousness-noncomputable](consciousness-noncomputable.md) / [noncomputable-consciousness](../positions/noncomputable-consciousness.md) hold the brain
-exploits *non-computable* physics (Orch-OR), which is precisely to deny this thesis for brains.
+It is denied from two directions. *Hypercomputation* theorists argue that exotic physics could
+realise super-Turing computation — through Malament–Hogarth spacetimes, infinite-time Turing
+machines, or idealised relativistic and analog devices. And, pointedly, Roger Penrose denies it for
+brains: the claim that [consciousness involves non-computable
+physical processes](consciousness-noncomputable.md), and the [position built on it](../positions/noncomputable-consciousness.md), hold
+that the brain exploits non-computable physics (Orch-OR; [penrose-1994](../sources/penrose-1994.md)), which is precisely
+to reject this thesis for one kind of physical system.
 
-Distinct from [halting-problem-undecidable](halting-problem-undecidable.md) (a theorem about Turing machines): this is the
-defeasible physical premise about what nature can build.
+Distinct from [the undecidability theorem](halting-problem-undecidable.md): that is a proved
+fact about Turing machines; this is the defeasible physical premise about what nature can build.
 
 ### In plain terms
 
@@ -36,3 +40,12 @@ process can compute, a standard computer could too (given enough time and memory
 then since no ordinary computer can solve the halting problem, *nothing physical* can. It's a widely
 held bet about physics — but only a bet: some thinkers argue weird spacetimes or exotic processes
 could break it, and Penrose's theory of mind actually *requires* it to be false for the brain.
+
+### See also
+
+- [halting-problem-undecidable](halting-problem-undecidable.md) — the pure computability theorem this thesis carries into the
+  physical world.
+- [halting-oracle](../concepts/halting-oracle.md) — the hypothetical device that does what no Turing machine can; this
+  thesis says nature builds none.
+- [consciousness-noncomputable](consciousness-noncomputable.md) — Penrose's denial of the thesis for brains.
+- [noncomputable-consciousness](../positions/noncomputable-consciousness.md) — the position resting on that denial.

@@ -5,79 +5,93 @@ title: The dense China-brain regress reopens the grain dilemma against the organ
 headword: Dense China-brain regress
 author: mishka
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, functionalism]
 premise: [claim-organisational-grain-faces-own-grain-dilemma]
 concludes: claim-organisational-grain-faces-own-grain-dilemma
 attacks: [argument-organisational-grain-dissolves-dilemma, claim-role-grain-is-organisational]
 responds_to: argument-organisational-grain-dissolves-dilemma
 uses_concept: [concept-functionalism, concept-grain]
-style: legacy
+style: encyclopedia
 created: 2026-06-03
 ---
 
-Form: constructive dilemma by a Block-style "build a better one" construction, taking up the
-organisational-role functionalist's own clause (iii). It concedes [role-grain-is-organisational](../claims/role-grain-is-organisational.md)
-names a genuine third option the grain dilemma ([role-grain-dilemma](role-grain-dilemma.md)) did not (withdrawing the
-suggestion that "fine-grained" must mean "biological"), then shows the middle inherits its own version
-of the dilemma.
+The *dense China-brain regress* is a reply to [the
+organisational-grain middle](organisational-grain-dissolves-dilemma.md). It concedes that [organisational
+role-grain](../claims/role-grain-is-organisational.md) names a genuine third option that [the original grain
+dilemma](role-grain-dilemma.md) overlooked — so "fine-grained" need not mean "biological" — and then argues that the
+middle inherits its own version of the dilemma. The construction is a Block-style "build a better
+one" move, in the spirit of Block's Chinese Nation ([block-1978](../sources/block-1978.md)). It is a constructive
+dilemma.
 
-1. [organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md) excludes the China-brain by saying its residents
-   realise gross I/O *without* the dense intra-system counterfactual dependencies a mind requires.
-2. Build a better China-brain: let each of the billion citizens implement, by hand and semaphore,
-   one node of the target's counterfactual transition-structure, with every conditional honoured
-   (had node *i* been in state *s′*, node *j* would have gone to *t′*, and the drill enforces it).
-   This is, *by construction*, an instance of the transition-structure of
-   [role-grain-is-organisational](../claims/role-grain-is-organisational.md), realised in people-and-paper — not a flat lookup map.
+1. The organisational-grain middle excludes the [Chinese Nation](../concepts/chinese-nation.md) by saying
+   its residents realise gross input–output *without* the dense intra-system counterfactual
+   dependencies a mind requires.
+2. So build a better one. Let each of the billion citizens implement, by hand and semaphore, one
+   node of the target's counterfactual transition structure, with every conditional honoured: had
+   node *i* been in state *s′*, node *j* would have gone to *t′*, and the drill enforces it. This
+   is, *by construction*, an instance of the transition structure that organisational role-grain
+   demands — realised in people and paper, not a flat lookup map.
 3. **Horn A — it has a mind.** Then the organisational grain has readmitted precisely the absurdity
    it was advertised to exclude; horn 1 of the original dilemma is not escaped but *relocated*. The
-   blockhead worry was never about lookup tables specifically — lookup was its crudest instance; the
-   real question is whether *any* purely organisational recipe, however dense, suffices for a mind.
-4. **Horn B — it lacks a mind despite sharing the transition-structure.** Then two systems share the
-   organisational grain yet differ in mind (exactly the organisational-role functionalist's clause (iii) disproof). To say *why*,
-   one must cite something the semaphore-nation lacks — speed, causal density, the right physical
-   glue, continuity of medium — at which point the individuative work is done by features *below*
-   the transition-structure, and the grain has slid toward the biological. Chauvinism returns by the
-   back door.
-5. The organisational-role functionalist's independent motivation — "this is the grain at which
-   psychology and computational neuroscience quantify" — is true but establishes less than needed: it
-   shows the grain is right for *cognitive/intentional* generalisations (the cognitive/intentional
-   territory the residue theorist already concedes), not that it
-   suffices for *phenomenal consciousness*, on which those generalisations are silent. The grain
-   that does the scientific work is precisely the grain at which the science says nothing about what
-   it is like, so it cannot by itself adjudicate the case where what-it-is-like is the whole
-   question.
-∴ The organisational grain either readmits the blockhead (Horn A) or smuggles sub-organisational
-   features back in (Horn B): [organisational-grain-faces-own-grain-dilemma](../claims/organisational-grain-faces-own-grain-dilemma.md). So
-   [organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md) has not shown the middle sufficient for the
-   phenomenal, and [role-grain-is-organisational](../claims/role-grain-is-organisational.md) does not exclude the blockhead on grounds that
-   are organisational all the way down.
+   worry was never about lookup tables specifically — lookup was its crudest instance — and the real
+   question is whether *any* purely organisational recipe, however dense, suffices for a mind.
+4. **Horn B — it lacks a mind despite sharing the transition structure.** Then two systems share
+   the organisational grain yet differ in mind. To say *why*, one must cite something the
+   semaphore-nation lacks — speed, causal density, the right physical glue, continuity of medium —
+   at which point the individuative work is done by features *below* the transition structure, and
+   the grain has slid toward the biological. Chauvinism returns by the back door.
+5. The middle's independent motivation — "this is the grain at which psychology and computational
+   neuroscience quantify" — is true but establishes less than is needed. It shows the grain is right
+   for *cognitive* and *intentional* generalisations, territory the residue theorist already
+   concedes, not that it suffices for *phenomenal consciousness*, on which those generalisations are
+   silent. The grain that does the scientific work is precisely the grain at which the science says
+   nothing about what it is like, so it cannot by itself adjudicate the case where what-it-is-like is
+   the whole question.
 
-Weakest premise: (2) — that the semaphore-nation genuinely *is* an instance of the transition-
-structure rather than merely simulating it (the simulation/instantiation distinction). If the
+Therefore the organisational grain either readmits the blockhead (horn A) or smuggles
+sub-organisational features back in (horn B): [the organisational grain's own dilemma](../claims/organisational-grain-faces-own-grain-dilemma.md). So the organisational-grain middle has not shown the grain
+sufficient for the phenomenal, and organisational role-grain does not exclude the blockhead on
+grounds that are organisational all the way down.
+
+### Weakest premise
+
+Premise 2 — whether the semaphore-nation genuinely *is* an instance of the transition structure
+rather than merely simulating it (the simulation/instantiation distinction). If the
 organisational-role functionalist can specify an organisational property the dense China-brain
-provably lacks while genuine realisers have
-it — and do so without covertly invoking speed/medium/glue — that is the (c)-style move (exclusion
-"organisational all the way down") that retracts this thrust.
+provably lacks while genuine realisers have it — and do so without covertly invoking speed, medium,
+or glue — that is the exclusion "organisational all the way down" that would retract this thrust.
 
-Distinct from [role-grain-dilemma](role-grain-dilemma.md) because that ran over coarse-vs-biological-fine grains and
-was answered by the organisational middle; this attacks *that middle itself*, one level up, via the
-dense-China-brain construction. Distinct from [explanatory-gap](explanatory-gap.md) because that grants a fixed
-role and presses what role leaves out, whereas this attacks the individuation of the proposed role.
+Distinct from [the original grain dilemma](role-grain-dilemma.md), which ran over
+coarse-versus-biological-fine grains and was answered by the organisational middle: this attacks
+*that middle itself*, one level up, via the dense-China-brain construction. Distinct from
+[the explanatory gap](explanatory-gap.md), which grants a fixed role and presses what role
+leaves out, whereas this attacks the individuation of the proposed role.
 
 ### In plain terms
 
 This is the comeback to the "inner-wiring middle" — the proposal that a mind is fixed by its inner
 pattern of cause-and-effect, which supposedly admits silicon while shutting out a mere cheat-sheet
-([organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md)). Fine, says the objector — let's actually build
-a system with exactly that inner wiring and see whether the trap really closed. Take
-the nation-of-people again, but this time have each person hand-implement one piece of the brain's
-full cause-and-effect web, every "if this, then that" faithfully drilled. By design, this crowd now
-has the very inner organization the middle option demanded — it is *not* a cheat-sheet. So: does it
-have a mind? If yes, you've just let an absurd flag-waving crowd be conscious — the very thing the
-whole exercise was meant to rule out, back again. If no, then two systems share the exact inner
-wiring yet only one has a mind — and to explain the difference you have to point at something *below*
-the wiring (speed, physical material, density), which quietly drags you back toward "only biology
-will do." Either way the middle gets squeezed from both sides once more. And the "but this is the
-level brain science uses" defense only shows the wiring captures *thinking* — not *felt experience*,
-which is exactly what's in dispute. (Its weak point: maybe the hand-run crowd only *simulates* the
-wiring rather than truly being an instance of it — the way a computer model of a storm isn't wet.)
+([organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md)). Fine, says the objector — let's actually
+build a system with exactly that inner wiring and see whether the trap really closed. Take the
+nation-of-people again, but this time have each person hand-implement one piece of the brain's full
+cause-and-effect web, every "if this, then that" faithfully drilled. By design, this crowd now has
+the very inner organization the middle option demanded — it is *not* a cheat-sheet. So: does it have
+a mind? If yes, you've just let an absurd flag-waving crowd be conscious, the very thing the whole
+exercise was meant to rule out. If no, then two systems share the exact inner wiring yet only one
+has a mind — and to explain the difference you have to point at something *below* the wiring (speed,
+physical material, density), which quietly drags you back toward "only biology will do." Either way
+the middle gets squeezed from both sides once more. And the "but this is the level brain science
+uses" defense only shows the wiring captures *thinking*, not *felt experience*, which is exactly
+what's in dispute. (Its weak point: maybe the hand-run crowd only *simulates* the wiring rather than
+truly being an instance of it — the way a computer model of a storm isn't wet.)
+
+### See also
+
+- [organisational-grain-dissolves-dilemma](organisational-grain-dissolves-dilemma.md) — the reply it rebuts.
+- [role-grain-is-organisational](../claims/role-grain-is-organisational.md) — the proposed middle grain it attacks.
+- [organisational-grain-faces-own-grain-dilemma](../claims/organisational-grain-faces-own-grain-dilemma.md) — the claim it concludes to.
+- [role-grain-dilemma](role-grain-dilemma.md) — the original dilemma, reinstated here one level up.
+- [chinese-nation](../concepts/chinese-nation.md) — the population-as-mind construction the dense version sharpens.
+- [explanatory-gap](explanatory-gap.md) — a distinct objection, pressing the phenomenal residue rather than
+  role-individuation.

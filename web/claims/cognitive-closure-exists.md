@@ -6,22 +6,31 @@ headword: Possibility of cognitive closure
 author: mcginn
 status: asserted
 tags: [philosophy-of-mind, epistemology]
-style: legacy
+style: encyclopedia
 created: 2026-06-05
 ---
 
-gloss: cognitive closure — a mind of a given kind can be permanently, constitutively unable to form
-certain concepts or grasp certain properties, the way a rat cannot grasp arithmetic or a dog the
-concept of an electron. Closure is not mere current ignorance; it is a limit fixed by the mind's
-conceptual endowment. (McGinn, "Can We Solve the Mind-Body Problem?", 1989.)
+*Cognitive closure* is the thesis that a mind of a given kind can be permanently and constitutively
+unable to form certain concepts or grasp certain properties — not merely ignorant of them for now,
+but barred from them by the limits of its conceptual endowment. A rat cannot grasp arithmetic; a dog
+cannot form the concept of an electron; and the limitation is not lifted by more time or teaching.
+The category was introduced by Colin McGinn in "Can We Solve the Mind–Body Problem?" (1989;
+[mcginn-1989](../sources/mcginn-1989.md)).
 
-scope: a general claim in the epistemology of cognition. It does NOT, by itself, say *which* problems
-are closed to humans — only that closure is a real category for minds in general (uncontroversial for
-non-human animals; the contested step is applying it to *us*).
+This is a general claim in the epistemology of cognition. It does not, by itself, say *which*
+problems are closed to human beings — only that closure is a real category for minds in general.
+That much is uncontroversial for non-human animals; the contested step, taken elsewhere, is to apply
+it to *us*.
 
-who would deny it: an epistemic optimist who holds that a concept-forming creature with language and
-science has open-ended representational reach, so that "closure" never applies to *human* inquiry even
-if it does to animals.
+An *epistemic optimist* would deny it for our case, holding that a concept-forming creature equipped
+with language and science has open-ended representational reach, so that "closure" never genuinely
+applies to human inquiry even where it plainly applies to animals.
 
 Distinct from [humans-closed-to-psychophysical-link](humans-closed-to-psychophysical-link.md): this is the general possibility of
-closure; that is the specific (and contested) claim that the psychophysical property is closed to us.
+closure for some mind and some concept; that is the specific, contested claim that the property
+explaining consciousness is closed to *us*.
+
+### See also
+
+- [humans-closed-to-psychophysical-link](humans-closed-to-psychophysical-link.md) — applies this general possibility to the specific
+  case of consciousness.

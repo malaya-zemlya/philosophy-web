@@ -11,49 +11,76 @@ concludes: claim-functionalism-owes-decomposition-invariant
 attacks: [claim-substrate-independence]
 supports: [claim-phenomenal-residue]
 uses_concept: [concept-functionalism, concept-grain]
-style: legacy
+style: encyclopedia
 created: 2026-06-05
 ---
 
-inference form: reductio with a transcendental demand for an invariant.
+The *decomposition-indeterminacy objection* argues that consciousness cannot be constituted by
+functional organisation alone, because organisation is not determinate enough to do the job. A
+single physical system can be carved into "inputs, outputs, and internal states" in many equally
+admissible ways, and the bare physics crowns none of them as *the* organisation; yet there is a
+perfectly determinate fact about what a subject is consciously feeling. If experience were nothing
+but organisation, it would inherit that organisation's indeterminacy — and it does not. So a
+functionalist about consciousness must either supply an observer-independent fact that fixes the
+system's real decomposition, or give up the claim that determinate experience is built out of
+function.
 
-1. ([functional-decomposition-relative](../claims/functional-decomposition-relative.md)) A physical system admits many equally admissible
-   carvings into inputs, outputs, and internal states; the physics alone fixes none as *the*
-   functional organisation.
-2. If phenomenal consciousness were constituted by functional organisation, the conscious facts would
-   be only as determinate as the chosen carving — relative to a decomposition, hence indeterminate
-   absent a privileged one.
-3. ([phenomenal-determinacy](../claims/phenomenal-determinacy.md)) But there is a determinate fact about one's phenomenal state,
-   not merely a fact-relative-to-a-decomposition.
-∴ ([functionalism-owes-decomposition-invariant](../claims/functionalism-owes-decomposition-invariant.md)) Functionalism about consciousness must supply
-   an observer-independent invariant selecting the system's real decomposition — or concede that
-   determinate consciousness is not constituted by function. This `attacks` [substrate-independence](../claims/substrate-independence.md)
-   (its role-individuation is shown incomplete) and `supports` [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) by an
-   independent, indeterminacy-based route.
+### The argument
 
-relation to the grain debate: this is [role-grain-dilemma](role-grain-dilemma.md) pressed one level deeper. The
-dilemma assumes a decomposition and disputes its *resolution* (too liberal vs. too chauvinistic); this
-argues the *decomposition itself* is non-unique, and uses the determinacy of consciousness — not a
-verdict about which systems count — to force the demand.
+The move is a *reductio* carrying a transcendental demand for an invariant:
 
-weakest premise: (1). The standard functionalist reply (Chalmers vs. Putnam, 1996) is that objective
-*counterfactual/causal* structure is not observer-relative: only carvings respecting genuine causal
-dependencies count as implementations, and a complex brain has essentially one such structure. If so,
-the demanded invariant already exists — it is the organisational grain ([role-grain-is-organisational](../claims/role-grain-is-organisational.md),
-[grain](../concepts/grain.md)) — and (1)'s radical relativity is false. That reply is recorded as
-[causal-structure-supplies-invariant](causal-structure-supplies-invariant.md); it is itself answered by
-[counterfactuals-yield-non-triviality-not-uniqueness](counterfactuals-yield-non-triviality-not-uniqueness.md) (counterfactuals buy non-triviality,
-not uniqueness) and [relevance-filter-regress](relevance-filter-regress.md) (causal structure does not select the
-mind-relevant relations). The objection then reduces to whether causal structure is *itself*
-determinate enough to ground determinate consciousness, where the residue theorist
-([phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md)) presses that even fixed causal structure leaves the phenomenal open —
-the deeper basis being [structure-and-dynamics](structure-and-dynamics.md). A second, harder reply denies (3), biting
-the bullet of phenomenal indeterminacy.
+1. [Decomposition is observer-relative](../claims/functional-decomposition-relative.md): a physical
+   system admits many equally admissible carvings into inputs, outputs, and internal states, and
+   the physics alone fixes none as *the* functional organisation.
+2. If phenomenal consciousness were constituted by functional organisation, the conscious facts
+   would be only as determinate as the chosen carving — relative to a decomposition, hence
+   indeterminate absent a privileged one.
+3. [Experience is determinate](../claims/phenomenal-determinacy.md): there is a determinate fact about
+   one's phenomenal state, not merely a fact-relative-to-a-decomposition.
 
-Distinct from [explanatory-gap](explanatory-gap.md) (an *epistemic* gap between functional and phenomenal
-truths) and from [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) (role *under-specifies* qualia): this is a metaphysical
-*indeterminacy* worry — function fails to fix a determinate system, while consciousness is determinate.
-Different ground, same anti-strong-functionalist conclusion.
+Therefore [functionalism owes a
+decomposition-invariant](../claims/functionalism-owes-decomposition-invariant.md): an account of consciousness in functional terms must supply an
+observer-independent invariant that selects the system's real decomposition, or else concede that
+determinate consciousness is not constituted by function. By the same stroke the objection attacks
+[substrate independence](../claims/substrate-independence.md) — showing its role-individuation
+incomplete — and lends independent, indeterminacy-based support to the view that
+[phenomenal states are not exhausted by role](../claims/phenomenal-states-not-exhausted-by-role.md).
+
+### Relation to the grain debate
+
+This is the [role-grain dilemma](role-grain-dilemma.md) pressed one level deeper. That
+dilemma assumes a decomposition and disputes its *resolution* — too liberal a grain lets in trivial
+systems, too chauvinistic a grain excludes genuine minds. The present objection attacks the
+*decomposition itself* as non-unique, and it draws its force not from any verdict about which
+systems count as conscious but from the determinacy of consciousness as such.
+
+### The weakest premise and the standard reply
+
+Premise (1) is the soft spot. The standard functionalist reply — the dispute between Chalmers and
+Putnam, [chalmers-1996b](../sources/chalmers-1996b.md) against [putnam-1988](../sources/putnam-1988.md) — is that objective
+*counterfactual/causal* structure is not observer-relative: only carvings that respect genuine
+causal dependencies count as implementations, and a complex brain has essentially one such
+structure. If that holds, the demanded invariant already exists — it is the organisational
+[grain](../concepts/grain.md) ([role grain is organisational](../claims/role-grain-is-organisational.md)) — and
+the radical relativity of (1) is false. This reply is recorded as
+[the causal-structure reply](causal-structure-supplies-invariant.md).
+
+The reply is itself answered twice over:
+[counterfactual constraints buy
+non-triviality, not uniqueness](counterfactuals-yield-non-triviality-not-uniqueness.md), and [causal structure does not
+by itself select the mind-relevant relations](relevance-filter-regress.md). The objection then narrows to a single question —
+whether causal structure is *itself* determinate enough to ground determinate consciousness — where
+the residue theorist presses that even fixed causal structure leaves the phenomenal open, the
+deeper basis being [the structure-and-dynamics argument](structure-and-dynamics.md). A
+second, harder reply denies premise (3) outright, biting the bullet of phenomenal indeterminacy.
+
+### A metaphysical, not epistemic, worry
+
+This is distinct from [the explanatory gap](explanatory-gap.md), which is an *epistemic* gap
+between functional and phenomenal truths, and from the residue worry that role merely
+*under-specifies* qualia. The complaint here is one of metaphysical *indeterminacy*: function fails
+to fix a determinate system at all, while consciousness is determinate. Different ground, but the
+same anti-strong-functionalist conclusion.
 
 ### In plain terms
 
@@ -69,3 +96,15 @@ hasn't shown a definite felt experience could be built out of function alone. (T
 cause-and-effect structure isn't a free choice — a brain has essentially one genuine wiring — so the
 "one real carving" the worry demands already exists. Whether that fully settles it is the live
 dispute.)
+
+### See also
+
+- [functionalism](../concepts/functionalism.md) — the theory under attack: mind as functional organisation, which this
+  objection says cannot deliver determinate experience.
+- [substrate-independence](../claims/substrate-independence.md) — the thesis the objection undercuts, that what a mind is made of
+  doesn't matter so long as the role-structure is preserved.
+- [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) — the companion worry the objection supports by a separate route.
+- [role-grain-dilemma](role-grain-dilemma.md) — the shallower form of the worry, about a decomposition's
+  resolution rather than its uniqueness.
+- [causal-structure-supplies-invariant](causal-structure-supplies-invariant.md) — the leading reply, that objective causal
+  structure already provides the demanded invariant.

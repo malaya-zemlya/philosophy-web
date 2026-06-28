@@ -7,25 +7,36 @@ author: searle
 status: asserted
 tags: [philosophy-of-mind, ai, consciousness, thought-experiment]
 uses_concept: [concept-chinese-room]
-style: legacy
+style: encyclopedia
 created: 2026-06-08
 ---
 
-gloss: the verdict the Chinese Room is built to elicit. Manipulating symbols by their shapes, however
-fluent the output, gives the executor no understanding of Chinese and no intentionality directed at
-what the symbols mean — he has syntax but no semantics. There is, intuitively, no Chinese-understanding
-subject in the room.
+This is the verdict the Chinese room is built to elicit: the person manipulating symbols by their
+shapes, however fluent the output, gains no understanding of Chinese and no *intentionality*
+(no mental directedness at what the symbols mean). There is syntax but no semantics — intuitively,
+no Chinese-understanding subject in the [room](../concepts/chinese-room.md).
 
-scope: a verdict about *understanding / intentionality* (semantics), NOT about behaviour (which is
-stipulated to succeed) and NOT specifically about qualia. It is the contested premise of the argument:
-the *Systems Reply* denies it, holding that while the *person* understands nothing, the *whole system*
-(person + rulebook + records) does.
+The verdict concerns *understanding* and *intentionality* (semantics), not behaviour — which the
+Chinese room scenario stipulates to succeed — and not specifically qualia. It is the contested
+premise of the argument: the *systems reply* denies it, holding that while the person understands
+nothing, the whole system (person plus rulebook plus records) does. Defenders of the *robot reply*
+add that understanding requires a causal embedding the bare room lacks; and functionalists may deny
+that the "no understanding" intuition carries any evidential weight against a system that realises
+the right organisation.
 
-who would deny it: defenders of the Systems Reply (the system, not the homunculus, is the candidate
-understander) and the Robot Reply (understanding requires causal embedding the bare Room lacks, so add
-it); and functionalists who deny that the "no understanding" intuition carries evidential weight
-against a system realising the right organisation.
+Distinct from [chinese-nation-lacks-qualia](chinese-nation-lacks-qualia.md) because that denies *phenomenal consciousness*
+to a system realising a mind's organisation, whereas this denies *understanding / intentionality*
+to a symbol-shuffler — a different mental feature and a different target (semantics versus qualia).
 
-Distinct from [chinese-nation-lacks-qualia](chinese-nation-lacks-qualia.md) because that denies *phenomenal consciousness* to a
-system realising a mind's organisation; this denies *understanding/intentionality* to a symbol-shuffler
-— a different mental feature, a different target (semantics vs qualia).
+### In plain terms
+
+This is just the gut verdict the Chinese room is meant to produce: the person inside is shuffling
+symbols by their shape, so even when the answers come out perfect, he doesn't actually *understand*
+Chinese or mean anything by it. It's a point about understanding and meaning, not about whether the
+room behaves correctly — it does.
+
+### See also
+
+- [chinese-room](../concepts/chinese-room.md) — the thought experiment this verdict is drawn from.
+- [chinese-nation-lacks-qualia](chinese-nation-lacks-qualia.md) — the parallel verdict aimed at qualia rather than
+  understanding.

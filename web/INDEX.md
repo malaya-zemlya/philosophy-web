@@ -2008,6 +2008,7 @@
   - [claim-organizational-invariance](claims/organizational-invariance.md) --answers-->
   - [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md) --answers-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --answers-->
+  - [claim-substrate-independence](claims/substrate-independence.md) --answers-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --answers-->
   - [position-integrated-information-theory](positions/integrated-information-theory.md) --answers-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
@@ -2026,7 +2027,19 @@
 ## [source-albert-1985](sources/albert-1985.md)
 - type: source | author: mishka | status: asserted
 
+## [source-aquinas-summa](sources/aquinas-summa.md)
+- type: source | author: mishka | status: asserted
+
+## [source-aristotle-de-anima](sources/aristotle-de-anima.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-armstrong-1968](sources/armstrong-1968.md)
+- type: source | author: mishka | status: asserted
+
+## [source-baars-1988](sources/baars-1988.md)
+- type: source | author: mishka | status: asserted
+
+## [source-berkeley-1710](sources/berkeley-1710.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-berthier-1988](sources/berthier-1988.md)
@@ -2038,7 +2051,16 @@
 ## [source-block-1978](sources/block-1978.md)
 - type: source | author: mishka | status: asserted
 
+## [source-block-2007](sources/block-2007.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-breuer-1995](sources/breuer-1995.md)
+- type: source | author: mishka | status: asserted
+
+## [source-carnap-1950](sources/carnap-1950.md)
+- type: source | author: mishka | status: asserted
+
+## [source-carruthers-2000](sources/carruthers-2000.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-1995](sources/chalmers-1995.md)
@@ -2050,10 +2072,16 @@
 ## [source-chalmers-1996](sources/chalmers-1996.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chalmers-1996b](sources/chalmers-1996b.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chalmers-2002](sources/chalmers-2002.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2003](sources/chalmers-2003.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-2003b](sources/chalmers-2003b.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2017](sources/chalmers-2017.md)
@@ -2065,16 +2093,25 @@
 ## [source-chalmers-2022](sources/chalmers-2022.md)
 - type: source | author: mishka | status: asserted
 
+## [source-churchland-1981](sources/churchland-1981.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-churchland-1990](sources/churchland-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-ci-lewis-1929](sources/ci-lewis-1929.md)
 - type: source | author: mishka | status: asserted
 
+## [source-clark-1993](sources/clark-1993.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-coleman-2014](sources/coleman-2014.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-conee-1994](sources/conee-1994.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dehaene-naccache-2001](sources/dehaene-naccache-2001.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-1988](sources/dennett-1988.md)
@@ -2084,6 +2121,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-2005](sources/dennett-2005.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dennett-2013](sources/dennett-2013.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-descartes-meditations](sources/descartes-meditations.md)
@@ -2104,10 +2144,25 @@
 ## [source-dominus-2011](sources/dominus-2011.md)
 - type: source | author: mishka | status: asserted
 
+## [source-dretske-1995](sources/dretske-1995.md)
+- type: source | author: mishka | status: asserted
+
+## [source-du-bois-reymond-1872](sources/du-bois-reymond-1872.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-elisabeth-1643](sources/elisabeth-1643.md)
 - type: source | author: mishka | status: asserted
 
+## [source-feigl-1958](sources/feigl-1958.md)
+- type: source | author: mishka | status: asserted
+
+## [source-frankish-2016](sources/frankish-2016.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-gambarian](sources/gambarian.md)
+- type: source | author: mishka | status: asserted
+
+## [source-godfrey-smith-2009](sources/godfrey-smith-2009.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-goff-2017](sources/goff-2017.md)
@@ -2125,16 +2180,28 @@
 ## [source-grahek-2007](sources/grahek-2007.md)
 - type: source | author: mishka | status: asserted
 
+## [source-graziano-2013](sources/graziano-2013.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-gurnee-2023](sources/gurnee-2023.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-habib-2019](sources/habib-2019.md)
 - type: source | author: mishka | status: asserted
 
+## [source-harman-1990](sources/harman-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-hoffman-2008](sources/hoffman-2008.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-horgan-1984](sources/horgan-1984.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-hume-dialogues](sources/hume-dialogues.md)
+- type: source | author: mishka | status: asserted
+
+## [source-huxley-1874](sources/huxley-1874.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-jackson-1982](sources/jackson-1982.md)
@@ -2146,6 +2213,18 @@
 ## [source-james-1890](sources/james-1890.md)
 - type: source | author: mishka | status: asserted
 
+## [source-james-1904](sources/james-1904.md)
+- type: source | author: mishka | status: asserted
+
+## [source-james-1907](sources/james-1907.md)
+- type: source | author: mishka | status: asserted
+
+## [source-jaworski-2016](sources/jaworski-2016.md)
+- type: source | author: mishka | status: asserted
+
+## [source-kastrup-2019](sources/kastrup-2019.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kawakita-2024](sources/kawakita-2024.md)
 - type: source | author: mishka | status: asserted
 
@@ -2153,6 +2232,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-kripke-1980](sources/kripke-1980.md)
+- type: source | author: mishka | status: asserted
+
+## [source-leibniz-monadology](sources/leibniz-monadology.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-lem](sources/lem.md)
@@ -2176,13 +2258,37 @@
 ## [source-liu-cixin](sources/liu-cixin.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lloyd-2002](sources/lloyd-2002.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-loar-1990](sources/loar-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-locke-1689](sources/locke-1689.md)
+- type: source | author: mishka | status: asserted
+
+## [source-lucas-1961](sources/lucas-1961.md)
+- type: source | author: mishka | status: asserted
+
+## [source-lycan-1996](sources/lycan-1996.md)
+- type: source | author: mishka | status: asserted
+
+## [source-mach-1914](sources/mach-1914.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-marjieh-2024](sources/marjieh-2024.md)
 - type: source | author: mishka | status: asserted
 
+## [source-marmodoro-2013](sources/marmodoro-2013.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-mccorduck-1979](sources/mccorduck-1979.md)
+- type: source | author: mishka | status: asserted
+
+## [source-mcginn-1989](sources/mcginn-1989.md)
+- type: source | author: mishka | status: asserted
+
+## [source-metzinger-2003](sources/metzinger-2003.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-moore-1939](sources/moore-1939.md)
@@ -2206,10 +2312,25 @@
 ## [source-papineau-2002](sources/papineau-2002.md)
 - type: source | author: mishka | status: asserted
 
+## [source-parfit-1984](sources/parfit-1984.md)
+- type: source | author: mishka | status: asserted
+
+## [source-pauli-jung-1955](sources/pauli-jung-1955.md)
+- type: source | author: mishka | status: asserted
+
+## [source-peirce-1878](sources/peirce-1878.md)
+- type: source | author: mishka | status: asserted
+
+## [source-penrose-1989](sources/penrose-1989.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-penrose-1994](sources/penrose-1994.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-perry-2001](sources/perry-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-place-1956](sources/place-1956.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-popper-1963](sources/popper-1963.md)
@@ -2218,13 +2339,31 @@
 ## [source-putnam-1963](sources/putnam-1963.md)
 - type: source | author: mishka | status: asserted
 
+## [source-putnam-1967](sources/putnam-1967.md)
+- type: source | author: mishka | status: asserted
+
+## [source-putnam-1988](sources/putnam-1988.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-reid-1785](sources/reid-1785.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-roelofs-2019](sources/roelofs-2019.md)
 - type: source | author: mishka | status: asserted
 
+## [source-rosenthal-2005](sources/rosenthal-2005.md)
+- type: source | author: mishka | status: asserted
+
+## [source-royce-1899](sources/royce-1899.md)
+- type: source | author: mishka | status: asserted
+
+## [source-rumbelow-watkins-2023](sources/rumbelow-watkins-2023.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-russell-1911](sources/russell-1911.md)
+- type: source | author: mishka | status: asserted
+
+## [source-russell-1921](sources/russell-1921.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-russell-1927](sources/russell-1927.md)
@@ -2242,10 +2381,25 @@
 ## [source-searle-1990](sources/searle-1990.md)
 - type: source | author: mishka | status: asserted
 
+## [source-searle-1990b](sources/searle-1990b.md)
+- type: source | author: mishka | status: asserted
+
+## [source-searle-1992](sources/searle-1992.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-shani-2015](sources/shani-2015.md)
 - type: source | author: mishka | status: asserted
 
+## [source-smart-1959](sources/smart-1959.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-specification-gaming](sources/specification-gaming.md)
+- type: source | author: mishka | status: asserted
+
+## [source-spinoza-ethics](sources/spinoza-ethics.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sprevak-2018](sources/sprevak-2018.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-stanley-williamson-2001](sources/stanley-williamson-2001.md)
@@ -2260,6 +2414,12 @@
 ## [source-stroud-1968](sources/stroud-1968.md)
 - type: source | author: mishka | status: asserted
 
+## [source-tononi-2004](sources/tononi-2004.md)
+- type: source | author: mishka | status: asserted
+
+## [source-tononi-2016](sources/tononi-2016.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-turing-1936](sources/turing-1936.md)
 - type: source | author: mishka | status: asserted
 
@@ -2269,7 +2429,13 @@
 ## [source-tye-2000](sources/tye-2000.md)
 - type: source | author: mishka | status: asserted
 
+## [source-williamson-2007](sources/williamson-2007.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-wittgenstein-1969](sources/wittgenstein-1969.md)
+- type: source | author: mishka | status: asserted
+
+## [source-woodward-2003](sources/woodward-2003.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-xu-2025](sources/xu-2025.md)

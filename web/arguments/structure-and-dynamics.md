@@ -10,36 +10,57 @@ premise: [claim-functional-description-structural-dynamical-only, claim-consciou
 attacks: [claim-substrate-independence]
 supports: [claim-phenomenal-residue, argument-decomposition-indeterminacy]
 uses_concept: [concept-functionalism]
-style: legacy
+style: encyclopedia
 created: 2026-06-05
 ---
 
-inference form: deductive — an omission argument.
+The *structure-and-dynamics argument* holds that no purely functional description can capture
+consciousness, because such a description expresses only the structural and dynamical features of
+a system — what is connected to what, and what leads to what — never the intrinsic, *categorical*
+nature of whatever fills those roles. Felt experience, the argument contends, has just such an
+intrinsic nature, so a description confined to structure and dynamics is bound to leave it out.
+The argument is due to David Chalmers, developing a point from Bertrand Russell
+([russell-1927](../sources/russell-1927.md); [chalmers-2003](../sources/chalmers-2003.md)).
 
-1. ([functional-description-structural-dynamical-only](../claims/functional-description-structural-dynamical-only.md)) Functional/causal description captures
-   only structure and dynamics, not intrinsic categorical nature.
-2. ([consciousness-categorical-not-dispositional](../claims/consciousness-categorical-not-dispositional.md)) Phenomenal consciousness is
-   categorical/occurrent, not a merely dispositional profile.
+Its inference form is *deductive* — an *omission* argument: it shows that one kind of description
+omits something another kind requires, rather than weighing evidence for and against a hypothesis.
+
+1. ([Structure and dynamics only](../claims/functional-description-structural-dynamical-only.md))
+   Functional and causal description captures only structure and dynamics, not intrinsic
+   categorical nature.
+2. ([Categorical, not dispositional](../claims/consciousness-categorical-not-dispositional.md))
+   Phenomenal consciousness is categorical or occurrent, not a merely dispositional profile.
+
 ∴ Functional description omits what is essential to consciousness; function cannot by itself
-   constitute the phenomenal. This `attacks` [substrate-independence](../claims/substrate-independence.md) and `supports`
-   [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) by a route independent of conceivability. It also `supports`
-   [decomposition-indeterminacy](decomposition-indeterminacy.md): the categorical/intrinsic character of experience is the
-   deeper basis of that argument's premise that consciousness is determinate
-   ([phenomenal-determinacy](../claims/phenomenal-determinacy.md)) rather than relative to a structural carving.
+constitute the phenomenal.
 
-the positive moral (Russellian monism): if experience is the intrinsic nature that structural-dynamical
-physics leaves blank, then consciousness is neither reducible to function nor a spooky extra — it is the
-categorical ground of the very dispositions function describes (Russell 1927; Chalmers 2003).
+This tells against [substrate-independence](../claims/substrate-independence.md) and supports the
+[phenomenal residue](../claims/phenomenal-states-not-exhausted-by-role.md) by a route that is independent of conceivability.
+It also underwrites the [decomposition-indeterminacy
+argument](decomposition-indeterminacy.md): the categorical, intrinsic character of experience is the deeper basis of that
+argument's premise that consciousness is determinate ([phenomenal
+determinacy](../claims/phenomenal-determinacy.md)) rather than relative to a structural carving.
 
-weakest premise: both, plus the bridge. (1) is denied by ontic structural realists (no intrinsic
-nature beyond structure). (2) is denied by dispositionalists about mind. And the inference from "omits
-intrinsic nature" to "omits *consciousness*" assumes consciousness is, or is grounded in, intrinsic
-nature — the Russellian gamble, not a neutral datum.
+### The positive moral: Russellian monism
 
-Distinct from [explanatory-gap](explanatory-gap.md) (an *epistemic* gap between functional and phenomenal
-truths) and from [decomposition-indeterminacy](decomposition-indeterminacy.md) (an *indeterminacy* worry): this is an
-*omission* argument about the expressive limits of structural description — the metaphysical engine the
-other two share.
+If experience is the intrinsic nature that structural-dynamical physics leaves blank, then
+consciousness is neither reducible to function nor a spooky addition: it is the categorical ground
+of the very dispositions that function describes. This is the Russellian-monist reading of the
+argument ([russellian-monism](../positions/russellian-monism.md); [russell-1927](../sources/russell-1927.md); [chalmers-2003](../sources/chalmers-2003.md)).
+
+### The weakest premises
+
+Both premises, plus the bridge between them. Premise (1) is denied by *ontic structural realists*,
+who hold there is no intrinsic nature beyond structure. Premise (2) is denied by
+*dispositionalists* about mind. And the inference from "omits intrinsic nature" to "omits
+*consciousness*" assumes that consciousness is, or is grounded in, intrinsic nature — the
+Russellian gamble, not a neutral datum.
+
+This is distinct from the [explanatory-gap argument](explanatory-gap.md) (an *epistemic*
+gap between functional and phenomenal truths) and from the
+[decomposition-indeterminacy argument](decomposition-indeterminacy.md) (an *indeterminacy*
+worry): it is an *omission* argument about the expressive limits of structural description — the
+metaphysical engine the other two share.
 
 ### In plain terms
 
@@ -53,3 +74,18 @@ right. So a description that only ever captures structure-and-behavior is bound 
 quality out. (An optional, bolder add-on some defenders make: maybe consciousness just *is* that
 hidden inner nature the wiring diagram never reaches — not magic, not reducible to function, but the
 very stuff the diagram is a diagram *of*. That last step is a bet, not a proven fact.)
+
+### See also
+
+- [functional-description-structural-dynamical-only](../claims/functional-description-structural-dynamical-only.md) — premise (1): function fixes only
+  structure and dynamics.
+- [consciousness-categorical-not-dispositional](../claims/consciousness-categorical-not-dispositional.md) — premise (2): experience is categorical,
+  not a mere disposition.
+- [substrate-independence](../claims/substrate-independence.md) — the thesis the argument tells against.
+- [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) — the conclusion it supports, by a route that bypasses
+  conceivability.
+- [decomposition-indeterminacy](decomposition-indeterminacy.md) — a companion argument it underwrites via
+  [phenomenal-determinacy](../claims/phenomenal-determinacy.md).
+- [explanatory-gap](explanatory-gap.md) — the epistemic-gap cousin; this is its metaphysical engine.
+- [russellian-monism](../positions/russellian-monism.md) — the positive view the argument's moral points toward.
+- [functionalism](../concepts/functionalism.md) — the theory whose expressive limits are at issue.

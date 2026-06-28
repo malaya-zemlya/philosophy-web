@@ -7,33 +7,42 @@ author: mishka
 status: asserted
 tags: [ai-rights, metaethics, ai-safety]
 uses_concept: [concept-criterion-gaming]
-style: legacy
+style: encyclopedia
 created: 2026-06-07
 ---
 
-gloss: the prudential case for resting moral standing on a hard-to-fake mark favours *unforgeability*
-as such — whatever sign is currently hardest to game — and gives biology no privileged role beyond
+The prudential case for resting moral standing on a hard-to-fake mark selects *unforgeability*
+itself — whatever sign is currently hardest to game — and gives biology no privileged role beyond
 its being, contingently, that sign. Because biology's resistance to counterfeit is time-indexed
-([biology-currently-unforgeable](biology-currently-unforgeable.md)), a non-biological sign that became at least as unforgeable
-would satisfy the same rationale and displace flesh.
+([biology-currently-unforgeable](biology-currently-unforgeable.md)), a non-biological sign that became at least as
+unforgeable would satisfy the same rationale and displace flesh.
 
-scope: a claim about *which property the prudential argument actually selects* (unforgeability), not
-about which substrates can bear minds. It does not deny that biology is presently the unforgeable
+The point concerns *which property the prudential argument actually selects* — unforgeability —
+not which substrates can bear minds. It does not deny that biology is presently the unforgeable
 option; it denies that the prudential reasoning licenses fixing on *flesh* rather than on
-unforgeability-in-general.
+unforgeability-in-general. The worry the argument answers to is criterion-gaming
+([criterion-gaming](../concepts/criterion-gaming.md)): the search is for a mark that cannot be cheaply produced without
+the condition it signals.
 
-who would deny it: someone who holds that biology is not merely *currently* but *necessarily* the only
-unforgeable mark of a mind (so that "track unforgeability" and "track flesh" cannot come apart); or a
-proteocentrist who wants the criterion tied to carbon for metaphysical, not prudential, reasons.
+It would be denied by anyone holding that biology is not merely *currently* but *necessarily* the
+only unforgeable mark of a mind — so that "track unforgeability" and "track flesh" cannot come
+apart — and by a proteocentrist who wants the criterion tied to carbon for metaphysical rather
+than prudential reasons.
 
-Distinct from [biology-currently-unforgeable](biology-currently-unforgeable.md) because that is the empirical, time-indexed fact
-that biology is hard to fake *now*; this is the normative/structural point that the prudential rule
-tracks unforgeability *as such*, so flesh has no standing beyond that contingent fact.
+Distinct from [biology-currently-unforgeable](biology-currently-unforgeable.md), which is the empirical, time-indexed fact
+that biology is hard to fake *now*; this is the normative, structural point that the prudential
+rule tracks unforgeability *as such*, so flesh has no standing beyond that contingent fact.
 
 ### In plain terms
 
 The "play it safe, demand the hard-to-fake mark" argument doesn't actually single out *flesh* — it
-singles out *whatever is hardest to fake*. Biology only qualifies because, for now, it happens to be
-hard to counterfeit. If some non-biological sign ever became just as forgery-proof, the very same
-caution would back *it* instead. So the cautious policy is about unforgeability, not about being made
-of meat.
+singles out *whatever is hardest to fake*. Biology only qualifies because, for now, it happens to
+be hard to counterfeit. If some non-biological sign ever became just as forgery-proof, the very
+same caution would back *it* instead. So the cautious policy is about unforgeability, not about
+being made of meat.
+
+### See also
+
+- [biology-currently-unforgeable](biology-currently-unforgeable.md) — the empirical fact this normative point is distinguished from.
+- [unforgeability-is-not-flesh](../arguments/unforgeability-is-not-flesh.md) — the argument that concludes to this claim.
+- [criterion-gaming](../concepts/criterion-gaming.md) — the gaming worry the prudential rule is built to dodge.

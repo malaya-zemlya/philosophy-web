@@ -11,23 +11,40 @@ premise: [claim-substrate-independence]
 concludes: claim-llm-has-mental-states
 supports: claim-llm-has-mental-states
 uses_concept: [concept-functionalism]
-style: legacy
+style: encyclopedia
 created: 2026-06-02
 ---
 
-Form: abductive (inference to the best explanation), NOT deductive.
+The *behavioural-parity argument* reasons that if a system reproduces the full pattern of
+behaviour associated with a mental state, the best explanation is that it actually realises
+that state. The inference is *abductive* — an inference to the best explanation — not a
+deductive proof, so its conclusion is offered as the most reasonable bet rather than a
+guarantee.
 
-1. Mental states are substrate-independent ([substrate-independence](../claims/substrate-independence.md)).
+This is the everyday logic we already apply to other people and to animals: we cannot climb
+inside another mind, so we treat behaviour as our best evidence for what is going on within.
+The argument extends that reasoning to artificial systems.
+
+### The inference
+
+1. Mental states are substrate-independent: what matters is the functional role realised, not
+   the material it is realised in ([substrate-independence](../claims/substrate-independence.md)).
 2. A system displaying the full behavioural profile associated with a mental state is best
-   explained by its realising that state's functional role.
-3. Some LLMs display large portions of that profile.
-∴ Their having (some) mental states is the best available explanation.
+   explained by its realising that state's functional role ([functionalism](../concepts/functionalism.md)).
+3. Some large language models display large portions of that profile.
 
-Weakest premise: (2) — the behaviour/role inference is defeasible. This is exactly where the
-"blockhead" lookup-table objection lands ([lookup-table-objection](lookup-table-objection.md)); it is in turn
-answered by [lookup-table-combinatorial-impossibility](lookup-table-combinatorial-impossibility.md),
-[lookup-table-physical-impossibility](lookup-table-physical-impossibility.md), and [blockhead-dilemma](blockhead-dilemma.md). The conclusion
-[llm-has-mental-states](../claims/llm-has-mental-states.md) is recorded and carries that dispute.
+Therefore their having (some) mental states is the best available explanation — the
+existential conclusion recorded as [llm-has-mental-states](../claims/llm-has-mental-states.md).
+
+### The weakest premise
+
+Premise (2) is the soft spot: the behaviour-to-role inference is *defeasible*. Acting as
+though one has a mind does not entail that one does, since the behaviour could in principle be
+produced some other way. This is exactly where the [lookup-table-objection](lookup-table-objection.md) lands,
+arguing that a giant stored answer-table could match the behaviour mindlessly. That objection
+is in turn answered by the [lookup-table-combinatorial-impossibility](lookup-table-combinatorial-impossibility.md), the
+[lookup-table-physical-impossibility](lookup-table-physical-impossibility.md), and the [blockhead-dilemma](blockhead-dilemma.md); the
+conclusion [llm-has-mental-states](../claims/llm-has-mental-states.md) is recorded separately and carries that dispute.
 
 ### In plain terms
 
@@ -41,3 +58,17 @@ reasonable bet. The soft spot, which the argument flags itself: acting as if you
 a guarantee that you do — something could in principle fake the behavior — and that's exactly where
 the "cheat-sheet machine" objection, that a giant stored answer-table could behave mindlessly yet
 mindlike, takes aim ([lookup-table-objection](lookup-table-objection.md)).
+
+### See also
+
+- [substrate-independence](../claims/substrate-independence.md) — premise (1): the enabling thesis that role, not material,
+  fixes mental states.
+- [llm-has-mental-states](../claims/llm-has-mental-states.md) — the existential conclusion this argument supports.
+- [lookup-table-objection](lookup-table-objection.md) — the standard attack on premise (2): behaviour without
+  the organisation of a mind.
+- [lookup-table-combinatorial-impossibility](lookup-table-combinatorial-impossibility.md) — reply defending premise (2): a
+  finite table cannot match an open-ended mind.
+- [lookup-table-physical-impossibility](lookup-table-physical-impossibility.md) — reply defending premise (2): a
+  behaviour-matching table is too large to exist.
+- [blockhead-dilemma](blockhead-dilemma.md) — reply defending premise (2): the table case is either
+  impossible or under-described.
