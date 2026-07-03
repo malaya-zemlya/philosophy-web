@@ -143,6 +143,9 @@
 ## [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md)
 - type: argument | author: deutsch | status: asserted
 
+## [argument-dispositionalist-reply](arguments/dispositionalist-reply.md)
+- type: argument | author: generic | status: asserted
+
 ## [argument-explanatory-gap](arguments/explanatory-gap.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -209,6 +212,11 @@
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --attacks-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --responds_to-->
 
+## [argument-kripke-rule-following](arguments/kripke-rule-following.md)
+- type: argument | author: kripke | status: asserted
+- backlinks:
+  - [argument-dispositionalist-reply](arguments/dispositionalist-reply.md) --responds_to-->
+
 ## [argument-llm-representations-reply](arguments/llm-representations-reply.md)
 - type: argument | author: mishka | status: asserted
 
@@ -268,6 +276,25 @@
 
 ## [argument-old-fact-new-guise](arguments/old-fact-new-guise.md)
 - type: argument | author: loar | status: asserted
+
+## [argument-olympia](arguments/olympia.md)
+- type: argument | author: maudlin | status: asserted
+- backlinks:
+  - [argument-olympia-quantum-counterfactuals](arguments/olympia-quantum-counterfactuals.md) --attacks-->
+  - [argument-olympia-recording-objection](arguments/olympia-recording-objection.md) --attacks-->
+  - [argument-olympia-trace-specialization](arguments/olympia-trace-specialization.md) --supports-->
+
+## [argument-olympia-quantum-counterfactuals](arguments/olympia-quantum-counterfactuals.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-olympia-recording-objection](arguments/olympia-recording-objection.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-olympia-trace-specialization](arguments/olympia-trace-specialization.md)
+- type: argument | author: mishka | status: contested
+- backlinks:
+  - [argument-olympia-quantum-counterfactuals](arguments/olympia-quantum-counterfactuals.md) --responds_to-->
+  - [argument-olympia-recording-objection](arguments/olympia-recording-objection.md) --responds_to-->
 
 ## [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md)
 - type: argument | author: mishka | status: asserted
@@ -752,6 +779,8 @@
 - type: claim | author: chalmers | status: asserted
 - backlinks:
   - [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md) --premise-->
+  - [argument-olympia](arguments/olympia.md) --premise-->
+  - [argument-olympia-trace-specialization](arguments/olympia-trace-specialization.md) --premise-->
 
 ## [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md)
 - type: claim | author: mishka | status: asserted
@@ -907,6 +936,11 @@
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --premise-->
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --attacks-->
 
+## [claim-meaning-constituted-by-dispositions](claims/meaning-constituted-by-dispositions.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-dispositionalist-reply](arguments/dispositionalist-reply.md) --concludes-->
+
 ## [claim-mental-events-have-physical-effects](claims/mental-events-have-physical-effects.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -954,6 +988,12 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
+
+## [claim-no-constitutive-fact-of-meaning](claims/no-constitutive-fact-of-meaning.md)
+- type: claim | author: kripke | status: contested
+- backlinks:
+  - [argument-dispositionalist-reply](arguments/dispositionalist-reply.md) --attacks-->
+  - [argument-kripke-rule-following](arguments/kripke-rule-following.md) --concludes-->
 
 ## [claim-no-nonarbitrary-threshold-for-experience](claims/no-nonarbitrary-threshold-for-experience.md)
 - type: claim | author: nagel | status: asserted
@@ -1233,6 +1273,9 @@
   - [argument-fading-qualia](arguments/fading-qualia.md) --supports-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --supports-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
+  - [argument-olympia](arguments/olympia.md) --attacks-->
+  - [argument-olympia-quantum-counterfactuals](arguments/olympia-quantum-counterfactuals.md) --supports-->
+  - [argument-olympia-recording-objection](arguments/olympia-recording-objection.md) --supports-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --supports-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --attacks-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --attacks-->
@@ -1261,6 +1304,9 @@
   - [character-cyril](characters/cyril.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
 
+## [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md)
+- type: claim | author: mishka | status: asserted
+
 ## [claim-unobservables-judged-by-coherence-and-usefulness](claims/unobservables-judged-by-coherence-and-usefulness.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1282,7 +1328,9 @@
 ## [concept-access-consciousness](concepts/access-consciousness.md)
 - type: concept | author: block | status: asserted
 - backlinks:
+  - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
+  - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
 
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
 - type: concept | author: block | status: asserted
@@ -1302,6 +1350,7 @@
   - [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
+  - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md) --uses_concept-->
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
@@ -1335,6 +1384,7 @@
   - [claim-mental-is-physical](claims/mental-is-physical.md) --uses_concept-->
   - [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
+  - [question-mental-causation](questions/mental-causation.md) --uses_concept-->
 
 ## [concept-chinese-nation](concepts/chinese-nation.md)
 - type: concept | author: block | status: asserted
@@ -1379,6 +1429,10 @@
   - [claim-physical-domain-complete](claims/physical-domain-complete.md) --uses_concept-->
   - [concept-causal-closure](concepts/causal-closure.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
+  - [question-mental-causation](questions/mental-causation.md) --uses_concept-->
+
+## [concept-consciousness](concepts/consciousness.md)
+- type: concept | author: generic | status: asserted
 
 ## [concept-continuity-argument-schema](concepts/continuity-argument-schema.md)
 - type: concept | author: mishka | status: asserted
@@ -1390,6 +1444,7 @@
   - [argument-sorites-paradox](arguments/sorites-paradox.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
   - [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md) --uses_concept-->
+  - [question-personal-identity](questions/personal-identity.md) --uses_concept-->
 
 ## [concept-criterion-gaming](concepts/criterion-gaming.md)
 - type: concept | author: mishka | status: asserted
@@ -1427,6 +1482,7 @@
   - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md) --uses_concept-->
   - [claim-privileged-first-person-access](claims/privileged-first-person-access.md) --uses_concept-->
+  - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
 
@@ -1448,6 +1504,7 @@
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --presupposes-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --uses_concept-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --uses_concept-->
+  - [argument-olympia](arguments/olympia.md) --uses_concept-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --uses_concept-->
   - [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md) --uses_concept-->
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --uses_concept-->
@@ -1477,6 +1534,7 @@
   - [concept-chinese-room](concepts/chinese-room.md) --uses_concept-->
   - [concept-grain](concepts/grain.md) --uses_concept-->
   - [concept-mind-body-problem](concepts/mind-body-problem.md) --uses_concept-->
+  - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
   - [concept-strong-weak-ai](concepts/strong-weak-ai.md) --uses_concept-->
   - [concept-turing-test](concepts/turing-test.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
@@ -1551,12 +1609,15 @@
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
+  - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
   - [concept-mind-body-problem](concepts/mind-body-problem.md) --uses_concept-->
+  - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
   - [concept-panpsychism](concepts/panpsychism.md) --uses_concept-->
   - [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md) --uses_concept-->
   - [concept-philosophical-zombie](concepts/philosophical-zombie.md) --uses_concept-->
+  - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
   - [concept-rendering-test](test/rendering-test.md) --uses_concept-->
   - [position-cosmopsychism](positions/cosmopsychism.md) --uses_concept-->
   - [position-dual-aspect-monism](positions/dual-aspect-monism.md) --uses_concept-->
@@ -1588,17 +1649,25 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --uses_concept-->
+  - [argument-dispositionalist-reply](arguments/dispositionalist-reply.md) --uses_concept-->
+  - [argument-kripke-rule-following](arguments/kripke-rule-following.md) --uses_concept-->
   - [claim-brains-cause-minds](claims/brains-cause-minds.md) --uses_concept-->
   - [claim-llm-text-yields-human-aligned-representations](claims/llm-text-yields-human-aligned-representations.md) --uses_concept-->
+  - [claim-meaning-constituted-by-dispositions](claims/meaning-constituted-by-dispositions.md) --uses_concept-->
   - [claim-minds-have-semantics](claims/minds-have-semantics.md) --uses_concept-->
+  - [claim-no-constitutive-fact-of-meaning](claims/no-constitutive-fact-of-meaning.md) --uses_concept-->
   - [concept-intrinsic-derived-intentionality](concepts/intrinsic-derived-intentionality.md) --uses_concept-->
+  - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
+  - [question-intentionality](questions/intentionality.md) --uses_concept-->
 
 ## [concept-intrinsic-derived-intentionality](concepts/intrinsic-derived-intentionality.md)
 - type: concept | author: searle | status: asserted
 - backlinks:
+  - [argument-kripke-rule-following](arguments/kripke-rule-following.md) --uses_concept-->
   - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --uses_concept-->
   - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --uses_concept-->
   - [argument-robot-reply](arguments/robot-reply.md) --uses_concept-->
+  - [question-intentionality](questions/intentionality.md) --uses_concept-->
 
 ## [concept-intrinsic-structural-distinction](concepts/intrinsic-structural-distinction.md)
 - type: concept | author: generic | status: asserted
@@ -1671,6 +1740,7 @@
   - [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md) --uses_concept-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --uses_concept-->
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --uses_concept-->
+  - [argument-olympia-recording-objection](arguments/olympia-recording-objection.md) --uses_concept-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --uses_concept-->
   - [claim-behaviour-insufficient-for-mind](claims/behaviour-insufficient-for-mind.md) --uses_concept-->
   - [claim-blockhead-deflation-targeted-not-global](claims/blockhead-deflation-targeted-not-global.md) --uses_concept-->
@@ -1707,6 +1777,13 @@
 
 ## [concept-mind-body-problem](concepts/mind-body-problem.md)
 - type: concept | author: generic | status: asserted
+- backlinks:
+  - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
+
+## [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md)
+- type: concept | author: mishka | status: asserted
+- backlinks:
+  - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
 
 ## [concept-munchhausen-trilemma](concepts/munchhausen-trilemma.md)
 - type: concept | author: generic | status: asserted
@@ -1750,6 +1827,8 @@
 - type: concept | author: chalmers | status: asserted
 - backlinks:
   - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --uses_concept-->
+  - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
+  - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
 
 ## [concept-perfect-actor](concepts/perfect-actor.md)
 - type: concept | author: putnam | status: asserted
@@ -1761,6 +1840,7 @@
 - backlinks:
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
+  - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
 
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
 - type: concept | author: chalmers | status: asserted
@@ -1772,6 +1852,9 @@
   - [claim-ideal-conceivability-is-apriori-consistency](claims/ideal-conceivability-is-apriori-consistency.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
+
+## [concept-philosophy-of-mind](concepts/philosophy-of-mind.md)
+- type: concept | author: generic | status: asserted
 
 ## [concept-primary-intension](concepts/primary-intension.md)
 - type: concept | author: chalmers | status: asserted
@@ -1986,6 +2069,9 @@
   - [position-type-c-materialism](positions/type-c-materialism.md) --answers-->
   - [position-type-identity](positions/type-identity.md) --answers-->
 
+## [question-intentionality](questions/intentionality.md)
+- type: question | author: generic | status: asserted
+
 ## [question-llm-moral-status](questions/llm-moral-status.md)
 - type: question | author: mishka | status: asserted
 - backlinks:
@@ -2000,6 +2086,12 @@
 - type: question | author: mishka | status: contested
 - backlinks:
   - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --answers-->
+
+## [question-mental-causation](questions/mental-causation.md)
+- type: question | author: generic | status: asserted
+
+## [question-personal-identity](questions/personal-identity.md)
+- type: question | author: generic | status: asserted
 
 ## [question-substrate-independence](questions/substrate-independence.md)
 - type: question | author: mishka | status: contested
@@ -2051,7 +2143,13 @@
 ## [source-block-1978](sources/block-1978.md)
 - type: source | author: mishka | status: asserted
 
+## [source-block-1995](sources/block-1995.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-block-2007](sources/block-2007.md)
+- type: source | author: mishka | status: asserted
+
+## [source-brentano-1874](sources/brentano-1874.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-breuer-1995](sources/breuer-1995.md)
@@ -2129,10 +2227,16 @@
 ## [source-descartes-meditations](sources/descartes-meditations.md)
 - type: source | author: mishka | status: asserted
 
+## [source-deutsch-1985](sources/deutsch-1985.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-deutsch-1997](sources/deutsch-1997.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-deutsch-2011](sources/deutsch-2011.md)
+- type: source | author: mishka | status: asserted
+
+## [source-deutsch-2013](sources/deutsch-2013.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dewynter-2026](sources/dewynter-2026.md)
@@ -2153,7 +2257,13 @@
 ## [source-elisabeth-1643](sources/elisabeth-1643.md)
 - type: source | author: mishka | status: asserted
 
+## [source-elitzur-vaidman-1993](sources/elitzur-vaidman-1993.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-feigl-1958](sources/feigl-1958.md)
+- type: source | author: mishka | status: asserted
+
+## [source-fodor-1990](sources/fodor-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-frankish-2016](sources/frankish-2016.md)
@@ -2198,6 +2308,9 @@
 ## [source-horgan-1984](sources/horgan-1984.md)
 - type: source | author: mishka | status: asserted
 
+## [source-hosten-2006](sources/hosten-2006.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-hume-dialogues](sources/hume-dialogues.md)
 - type: source | author: mishka | status: asserted
 
@@ -2232,6 +2345,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-kripke-1980](sources/kripke-1980.md)
+- type: source | author: mishka | status: asserted
+
+## [source-kripke-1982](sources/kripke-1982.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-leibniz-monadology](sources/leibniz-monadology.md)
@@ -2282,6 +2398,9 @@
 ## [source-marmodoro-2013](sources/marmodoro-2013.md)
 - type: source | author: mishka | status: asserted
 
+## [source-maudlin-1989](sources/maudlin-1989.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-mccorduck-1979](sources/mccorduck-1979.md)
 - type: source | author: mishka | status: asserted
 
@@ -2289,6 +2408,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-metzinger-2003](sources/metzinger-2003.md)
+- type: source | author: mishka | status: asserted
+
+## [source-mitchison-jozsa-2001](sources/mitchison-jozsa-2001.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-moore-1939](sources/moore-1939.md)
@@ -2432,10 +2554,16 @@
 ## [source-williamson-2007](sources/williamson-2007.md)
 - type: source | author: mishka | status: asserted
 
+## [source-wittgenstein-1953](sources/wittgenstein-1953.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-wittgenstein-1969](sources/wittgenstein-1969.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-woodward-2003](sources/woodward-2003.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wootters-zurek-1982](sources/wootters-zurek-1982.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-xu-2025](sources/xu-2025.md)
