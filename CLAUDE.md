@@ -13,12 +13,15 @@ prose into the transcript AND creates/cites a small number of clean nodes in `we
 One utterance is not one node.
 
 ## Cardinal rules for writing nodes
-1. **Read the schema, then grep, before you create.** Before creating OR editing a node of
+1. **Read the schema, then search, before you create.** Before creating OR editing a node of
    type `T`, read `schemas/T.md` (legal edges, required fields, invariants). Then search
-   `web/` for an existing equivalent (`grep -ri "<key phrase>" web/`). If one exists, **cite
+   `web/` for an existing equivalent — lexically (`grep -ri "<key phrase>" web/`) **and**
+   semantically (`make similar Q="<the idea in a sentence>"`), since grep misses paraphrases
+   ("dispositionalism" vs "meaning is a pattern of use"). If one exists, **cite
    it by id**; do not
    make a near-duplicate. If you create a new node, the body must state *why* it is distinct
-   from the closest existing one.
+   from the closest existing one. Character agents have no shell: the orchestrator runs
+   `make similar` for the turn and passes the shortlist in the dispatch prompt.
 2. **Edges are one-directional and reference nodes by `id`.** The *attacking/supporting/
    citing* node owns the edge. Never store the reverse ("supported-by", "attacked-by") —
    backlinks are **computed** by `scripts/lint.py`, never hand-maintained. The same goes for
@@ -124,27 +127,36 @@ One utterance is not one node.
   `scripts/bookgen/` package → `book/encyclopedia.{tex,pdf}`. Manual, on demand; the PDF step needs
   a LaTeX engine but degrades to `.tex` without one. See `scripts/bookgen/README.md`. This is the
   delivery vehicle for the encyclopedia style of rule 8 / `schemas/_style.md`.
+- Semantic search (OpenAI embeddings over content + source nodes): `scripts/similar.py` →
+  committed cache `embeddings/web.jsonl`. `make similar Q=<text>` / `ID=<node>` (nearest nodes),
+  `make dupes` (near-duplicate pairs for `/reconcile`), `make embed` (refresh after node edits;
+  needs `OPENAI_API_KEY` from env or the gitignored `.env`). Queries by ID and `dupes` work
+  keyless from the cache; lint prints a warn-only advisory when the cache is stale.
 
 ## Make targets (use these for routine ops)
 Recurring non-AI operations are captured in the `Makefile` — **prefer them over re-typing the
 commands**: `make lint`, `make book` (build the encyclopedia; `STYLE=any` for everything),
 `make entry ID=<node>` (typeset + render one node to `build/preview/`), `make preview`,
-`make progress` (encyclopedia vs legacy counts), `make find Q=<text>`, `make clean`. `make help`
+`make progress` (encyclopedia vs legacy counts), `make find Q=<text>`,
+`make similar Q=<text>|ID=<node>` (semantic nearest-nodes), `make embed` (refresh the embedding
+cache), `make dupes` (near-duplicate report), `make clean`. `make help`
 lists them. They wrap the scripts below; the Python still runs through uv.
 
 ## Running Python (uv only)
 **Always run the project's Python through `uv`** — never a system `python`, and never call
-`.venv/bin/python` directly. The canonical invocation pulls in dependencies on the fly:
+`.venv/bin/python` directly. Dependencies are declared in `pyproject.toml` (PyYAML, openai,
+numpy) and synced automatically on every run — no manual install step:
 
 ```sh
-uv run --with pyyaml python scripts/lint.py        # integrity check + regenerate web/INDEX.md
-uv run --with pyyaml python scripts/book.py        # build the encyclopedia PDF (see below)
+uv run python scripts/lint.py        # integrity check + regenerate web/INDEX.md
+uv run python scripts/book.py        # build the encyclopedia PDF (see below)
+uv run python scripts/similar.py …   # semantic search (prefer the make targets)
 ```
 
-This needs no pre-created venv; `uv` resolves an interpreter and the listed deps per run. (If you
-prefer a persisted environment, `uv venv` once then `uv pip install pyyaml` — but still launch via
-`uv run`.) The only dependency is PyYAML; `book.py` additionally shells out to a LaTeX engine and
-`graph.py` to Graphviz `dot`, both optional and both degrading gracefully when absent.
+Two scripts also shell out to system binaries no Python package provides: `book.py` to a LaTeX
+engine and `graph.py` to Graphviz `dot` — both optional, both degrading gracefully when absent.
+`similar.py embed` (and free-text queries) need `OPENAI_API_KEY`, read from the environment or
+from the gitignored `.env` at the repo root.
 
 The linter rewrites `web/INDEX.md` (computed backlinks + answer lists), **renders the `[[id]]`
 prose shorthand in node bodies and transcripts into clickable `[slug](relpath)` links** (and

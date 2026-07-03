@@ -4,10 +4,11 @@
 # preview pages, locate nodes, report conversion progress). Run them directly instead of
 # re-deriving the commands each time:  make help
 #
-# Python always goes through uv (project rule, CLAUDE.md "Running Python (uv only)"). The PDF/
-# preview steps need a LaTeX engine and Ghostscript respectively; both degrade or no-op cleanly.
+# Python always goes through uv (project rule, CLAUDE.md "Running Python (uv only)"); deps are
+# declared in pyproject.toml and synced automatically on each `uv run`. The PDF/preview steps
+# need a LaTeX engine and Ghostscript respectively; both degrade or no-op cleanly.
 
-PY      := uv run --with pyyaml python
+PY      := uv run python
 GS      := gs
 PREVIEW := build/preview
 
@@ -24,15 +25,23 @@ TO ?= 9999
 # last page for `make preview`
 PDF ?= book/encyclopedia.pdf
 # PDF that `make preview` renders
+K ?= 10
+# how many results `make similar` shows
+MIN ?= 0.85
+# similarity threshold for `make dupes`
+TYPE ?=
+# optional node-type filter for `make similar` / `make dupes` (claim, argument, ...)
 
 .DEFAULT_GOAL := help
-.PHONY: help lint lint-check book book-all graph all preview entry progress find clean clean-preview
+.PHONY: help lint lint-check book book-all graph all preview entry progress find clean clean-preview \
+        similar embed dupes
 
 help:  ## list the available targets
 	@grep -E '^[a-zA-Z0-9_-]+:.*## ' $(MAKEFILE_LIST) \
 	  | sed -E 's/:.*## /\t/' | sort | awk -F'\t' '{printf "  make %-14s %s\n", $$1, $$2}'
 	@echo
 	@echo "  vars: STYLE=$(STYLE)  DPI=$(DPI)  FROM=$(FROM) TO=$(TO)  PDF=$(PDF)  ID=<node>  Q=<text>"
+	@echo "        K=$(K)  MIN=$(MIN)  TYPE=<node-type>   (semantic search: similar / embed / dupes)"
 
 lint:  ## integrity check + render [[id]] links + regenerate web/INDEX.md
 	$(PY) scripts/lint.py
@@ -68,6 +77,16 @@ progress:  ## report encyclopedia-style vs legacy node counts
 	@printf 'encyclopedia: %s\nlegacy:       %s\n' \
 	  "$$(grep -rl '^style: encyclopedia' web/ | wc -l | tr -d ' ')" \
 	  "$$(grep -rl '^style: legacy' web/ | wc -l | tr -d ' ')"
+
+similar:  ## semantic search: nodes nearest Q=<free text> or ID=<node-id>  (K=, TYPE=)
+	@test -n "$(Q)$(ID)" || { echo 'usage: make similar Q=<text> | ID=<node-id>  [K=10] [TYPE=claim]'; exit 2; }
+	$(PY) scripts/similar.py query $(if $(Q),--q '$(Q)') $(if $(ID),--id '$(ID)') --k $(K) $(if $(TYPE),--type $(TYPE))
+
+embed:  ## refresh the embedding cache -> embeddings/web.jsonl  (needs OPENAI_API_KEY)
+	$(PY) scripts/similar.py embed
+
+dupes:  ## list same-type node pairs above a similarity threshold  (MIN=, TYPE=)
+	$(PY) scripts/similar.py dupes --min $(MIN) $(if $(TYPE),--type $(TYPE))
 
 find:  ## locate node file(s) by id or slug  (Q=<text>)
 	@test -n "$(Q)" || { echo 'usage: make find Q=<id-or-slug>'; exit 2; }

@@ -1,0 +1,18 @@
+[project]
+name = "philosophy-web"
+version = "0.1.0"
+description = "Tooling for the philosophy web (lint, book, graph, semantic search)"
+requires-python = ">=3.11"
+# Python dependencies only. Two scripts additionally shell out to SYSTEM binaries that no
+# Python package manager provides — install them separately if you want those outputs:
+#   scripts/graph.py -> Graphviz `dot`   (brew install graphviz); degrades to .dot file without it
+#   scripts/book.py  -> a LaTeX engine   (xelatex/lualatex via MacTeX/TeX Live); degrades to .tex
+dependencies = [
+    "pyyaml>=6.0",   # frontmatter parsing (lint, book, graph, similar)
+    "openai>=1.40",  # embeddings API (scripts/similar.py)
+    "numpy>=1.26",   # cosine similarity math (scripts/similar.py)
+]
+
+[tool.uv]
+# Tooling scripts only — nothing here is an installable package.
+package = false

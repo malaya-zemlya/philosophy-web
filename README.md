@@ -114,17 +114,14 @@ scripts/pre-commit         git hook wrapper for lint.py
 
 ## Setup
 
-The integrity linter needs PyYAML. Use a [uv](https://docs.astral.sh/uv/)-managed virtual
-environment rather than a system Python:
+Python dependencies (PyYAML, openai, numpy) are declared in `pyproject.toml`; run everything
+through [uv](https://docs.astral.sh/uv/), which syncs them automatically — no install step:
 
 ```bash
-uv venv                            # one-time: create .venv/
-uv pip install pyyaml              # one-time: the only dependency
-.venv/bin/python scripts/lint.py   # integrity check + (re)build web/INDEX.md
+uv run python scripts/lint.py      # integrity check + (re)build web/INDEX.md
 ```
 
-`uv run --with pyyaml python scripts/lint.py` does the same without a persisted venv. After
-`git init`, wire the hook so every commit is linted:
+After `git init`, wire the hook so every commit is linted:
 
 ```bash
 ln -sf ../../scripts/pre-commit .git/hooks/pre-commit
@@ -147,13 +144,31 @@ sudo dnf install graphviz        # Fedora
 ```
 
 ```bash
-.venv/bin/python scripts/graph.py                      # writes graph/web.dot and graph/web.svg
-.venv/bin/python scripts/graph.py --engine dot --png   # different layout; also drop a web.png
+uv run python scripts/graph.py                      # writes graph/web.dot and graph/web.svg
+uv run python scripts/graph.py --engine dot --png   # different layout; also drop a web.png
 ```
 
 No extra Python packages are needed (it reuses the linter's parsing). If `dot` isn't installed
 the script still writes `graph/web.dot` and tells you how to install Graphviz — it never
 hard-fails.
+
+### Semantic search (optional)
+
+`scripts/similar.py` embeds every content and source node with OpenAI embeddings
+(`text-embedding-3-large`, 1024 dims) into a committed cache, `embeddings/web.jsonl`, and
+searches it by meaning rather than wording — so a query about "meaning as a pattern of use"
+finds the dispositionalism nodes even though no phrase matches:
+
+```bash
+make embed                       # (re)embed changed nodes — needs OPENAI_API_KEY (env or .env)
+make similar Q="rough idea"      # nodes nearest a free-text query (needs the key)
+make similar ID=claim-foo K=5    # nearest neighbours of an existing node — keyless
+make dupes MIN=0.85              # same-type near-duplicate pairs, fodder for /reconcile
+```
+
+Because the cache is committed like `web/INDEX.md`, ID-queries and the dupes report work on any
+clone with no API key; only embedding (and free-text queries) call OpenAI. The linter prints a
+warn-only advisory when nodes have changed since the last `make embed`.
 
 ---
 
@@ -169,7 +184,8 @@ hard-fails.
 - `/new-character` — scaffold a new debater (persona subagent + positions portfolio).
 
 ### The discipline for writing nodes (the short version)
-1. **Read the schema, then grep, before you create.** If an equivalent node exists, cite it by
+1. **Read the schema, then search, before you create** — grep for the wording *and*
+   `make similar Q="…"` for the idea. If an equivalent node exists, cite it by
    id; don't make a near-duplicate.
 2. **Keep claims atomic** and bodies **neutral** — "X", not "Alvin claims X". What a character
    thinks belongs only in that character's portfolio.

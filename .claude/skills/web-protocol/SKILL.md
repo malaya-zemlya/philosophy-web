@@ -133,7 +133,12 @@ down, flag it rather than invent one. (A read-only drafting agent researches the
 
 ## The grep-before-create rule (non-negotiable)
 Before creating a node:
-1. `grep -ri "<2-3 key phrases>" web/` and read the closest hits.
+1. `grep -ri "<2-3 key phrases>" web/` and read the closest hits. Grep matches surface wording
+   only; the web also has a **semantic layer** (`make similar Q="<the idea in a sentence>"`,
+   backed by `scripts/similar.py`) that matches ideas across different vocabularies —
+   "dispositionalism" finds "meaning is a pattern of use". If you have shell access, run it too;
+   character agents have none, so the **orchestrator** runs it per turn and pastes the shortlist
+   (ids + headwords) into the dispatch prompt — read those hits before creating anything.
 2. If an equivalent exists → cite it: by id in a frontmatter edge, and/or as `[[id]]` in prose. Done.
 3. If genuinely new → create it, and in the body add a line:
    `Distinct from [[<id>]] because …`

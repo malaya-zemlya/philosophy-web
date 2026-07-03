@@ -210,6 +210,16 @@ def main():
         print("no issues.")
     print("would rewrite web/INDEX.md (--check)" if check else "wrote web/INDEX.md")
 
+    # embedding-cache freshness (advisory only, never fatal, no network — see scripts/similar.py)
+    try:
+        import similar
+        missing, stale, orphaned = similar.cache_status()
+        if missing or stale or orphaned:
+            print(f"embedding cache: {len(missing)} missing, {len(stale)} stale, "
+                  f"{len(orphaned)} orphaned — run `make embed` (advisory)")
+    except Exception:
+        pass
+
     fatal = (bool(dup_ids)
              or any(p.startswith(("DANGLING", "ILLEGAL", "dangling", "unknown")) for p in problems)
              or (check and bool(changed_links)))

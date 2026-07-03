@@ -3,11 +3,12 @@
 #   ln -sf ../../scripts/pre-commit .git/hooks/pre-commit
 # Blocks a commit if the web has dangling edges or duplicate ids.
 #
-# Runs lint.py via uv so PyYAML is always available without a manual
-# `pip install` (see CLAUDE.md). uv resolves/caches pyyaml on first run.
+# Runs lint.py via uv; dependencies come from pyproject.toml and are synced
+# automatically on each run (see CLAUDE.md). lint also prints an advisory when
+# the embedding cache (embeddings/web.jsonl) is stale — warn-only, never blocks.
 set -euo pipefail
 ROOT="$(git rev-parse --show-toplevel)"
-uv run --with pyyaml python "$ROOT/scripts/lint.py" || {
+uv run python "$ROOT/scripts/lint.py" || {
   echo "philosophy-web: integrity check failed — commit aborted."; exit 1; }
 git add "$ROOT/web/INDEX.md"   # keep the generated index in sync
 # lint also re-renders [[id]] -> clickable links in bodies/transcripts; re-stage any file
