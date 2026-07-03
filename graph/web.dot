@@ -35,6 +35,7 @@ digraph web {
   "argument-decomposition-indeterminacy" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="decomposition\nindeterminacy", tooltip="The decomposition-indeterminacy objection — determinate consciousness cannot rest on observer-relative function", URL="../web/arguments/decomposition-indeterminacy.md"];
   "argument-dense-china-brain-regress" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="dense china brain\nregress", tooltip="The dense China-brain regress reopens the grain dilemma against the organisational middle", URL="../web/arguments/dense-china-brain-regress.md"];
   "argument-deutsch-anti-solipsism" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="deutsch anti\nsolipsism", tooltip="The bad-explanation argument against solipsism — it reconstructs realism and adds only surplus", URL="../web/arguments/deutsch-anti-solipsism.md"];
+  "argument-dispositionalist-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="dispositionalist\nreply", tooltip="The dispositionalist reply: meaning is fixed by idealized dispositions", URL="../web/arguments/dispositionalist-reply.md"];
   "argument-explanatory-gap" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="explanatory gap", tooltip="The explanatory gap is evidence against uniform substrate-independence", URL="../web/arguments/explanatory-gap.md"];
   "argument-fading-qualia" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="fading qualia", tooltip="Fading qualia — a part-silicon functional isomorph cannot have faded experience without being radically wrong about it", URL="../web/arguments/fading-qualia.md"];
   "argument-feel-is-the-watching-not-an-unwatched-difference" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="feel is the\nwatching not an\nunwatched\ndifference", tooltip="The \"real feel\" is first-person observed, not unobservable — the idleness charge presupposes that observation is third-person observation", URL="../web/arguments/feel-is-the-watching-not-an-unwatched-difference.md"];
@@ -48,6 +49,7 @@ digraph web {
   "argument-introspective-gap-from-internal-limits" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="introspective gap\nfrom internal\nlimits", tooltip="A self-explanatory gap follows from limited internal access plus non-traversable self-explanation", URL="../web/arguments/introspective-gap-from-internal-limits.md"];
   "argument-intuition-domain-asymmetry" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="intuition domain\nasymmetry", tooltip="The intuition-domain asymmetry — the cosmic table is a far extrapolation, the brain-scale isomorph a near neighbour", URL="../web/arguments/intuition-domain-asymmetry.md"];
   "argument-knowledge-argument" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="knowledge argument", tooltip="The Knowledge Argument — Mary learns a fact the physical description omits", URL="../web/arguments/knowledge-argument.md"];
+  "argument-kripke-rule-following" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="kripke rule\nfollowing", tooltip="Kripke's Wittgenstein: the skeptical argument about rule-following and meaning", URL="../web/arguments/kripke-rule-following.md"];
   "argument-llm-representations-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="llm\nrepresentations\nreply", tooltip="The LLM-representations reply — actual text-trained models build human-aligned representations, pressing A3 empirically", URL="../web/arguments/llm-representations-reply.md"];
   "argument-llmary-token-encounter" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="llmary token\nencounter", tooltip="LLMary — a model that has read all of AI but never seen token 123 updates on first encounter, yet the whole episode is physical, refuting the Knowledge Argument's conditional", URL="../web/arguments/llmary-token-encounter.md"];
   "argument-lookup-table-combinatorial-impossibility" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="lookup table\ncombinatorial\nimpossibility", tooltip="The combinatorial-impossibility reply — a finite lookup table cannot match an open-ended mind's behaviour", URL="../web/arguments/lookup-table-combinatorial-impossibility.md"];
@@ -63,6 +65,10 @@ digraph web {
   "argument-munchhausen-trilemma" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="munchhausen\ntrilemma", tooltip="The regress argument — complete justification must regress, circle, or break off", URL="../web/arguments/munchhausen-trilemma.md"];
   "argument-no-arbitrary-line-panpsychism" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="no arbitrary line\npanpsychism", tooltip="The continuity argument — no non-arbitrary line where experience switches on", URL="../web/arguments/no-arbitrary-line-panpsychism.md"];
   "argument-old-fact-new-guise" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="old fact new guise", tooltip="Old fact, new guise — Mary's new knowledge is a new phenomenal concept, not a new fact", URL="../web/arguments/old-fact-new-guise.md"];
+  "argument-olympia" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="olympia", tooltip="Maudlin's Olympia argument against computationalism about consciousness", URL="../web/arguments/olympia.md"];
+  "argument-olympia-quantum-counterfactuals" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="olympia quantum\ncounterfactuals", tooltip="The quantum counterfactuals objection — unexercised possibilities have physical effects, and quantum runs have no trace to unroll", URL="../web/arguments/olympia-quantum-counterfactuals.md"];
+  "argument-olympia-recording-objection" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="olympia recording\nobjection", tooltip="The recording objection — every Olympia descends from a genuine run of the program, so the trilemma's horns lose their absurdity", URL="../web/arguments/olympia-recording-objection.md"];
+  "argument-olympia-trace-specialization" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="olympia trace\nspecialization", tooltip="The Klara→Olympia transformation is trace specialization with guarded deoptimization", URL="../web/arguments/olympia-trace-specialization.md"];
   "argument-organisational-grain-dissolves-dilemma" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="organisational\ngrain dissolves\ndilemma", tooltip="The organisational grain is a principled middle that escapes both horns of the grain dilemma", URL="../web/arguments/organisational-grain-dissolves-dilemma.md"];
   "argument-other-minds-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="other minds reply", tooltip="The Other Minds Reply — we attribute understanding to others on behavioural grounds, so deny it to the room only by a double standard", URL="../web/arguments/other-minds-reply.md"];
   "argument-parfit-rewiring" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="parfit rewiring", tooltip="Gradual psychological rewiring (Parfit's spectrum) forces identity to admit of degree", URL="../web/arguments/parfit-rewiring.md"];
@@ -180,6 +186,7 @@ digraph web {
   "claim-mary-knows-all-physical" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mary knows all\nphysical", tooltip="Before leaving the room, Mary knows all the physical facts about colour vision", URL="../web/claims/mary-knows-all-physical.md"];
   "claim-mary-learns-nothing-new" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mary learns\nnothing new", tooltip="Mary, genuinely knowing all the physical facts, would learn nothing on first seeing red", URL="../web/claims/mary-learns-nothing-new.md"];
   "claim-mary-learns-on-release" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mary learns on\nrelease", tooltip="On first seeing red, Mary learns something she did not know before", URL="../web/claims/mary-learns-on-release.md"];
+  "claim-meaning-constituted-by-dispositions" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="meaning\nconstituted by\ndispositions", tooltip="A speaker's meaning is constituted by their dispositions to use the expression", URL="../web/claims/meaning-constituted-by-dispositions.md"];
   "claim-mental-events-have-physical-effects" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mental events have\nphysical effects", tooltip="Some mental events cause physical effects", URL="../web/claims/mental-events-have-physical-effects.md"];
   "claim-mental-is-physical" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mental is physical", tooltip="Mental events are physical events", URL="../web/claims/mental-is-physical.md"];
   "claim-mental-states-are-brain-state-types" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mental states are\nbrain state types", tooltip="Each type of mental state is identical to a type of brain state", URL="../web/claims/mental-states-are-brain-state-types.md"];
@@ -188,6 +195,7 @@ digraph web {
   "claim-mind-handles-unbounded-inputs" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mind handles\nunbounded inputs", tooltip="A genuine mind can respond appropriately to novel inputs beyond any fixed finite stock", URL="../web/claims/mind-handles-unbounded-inputs.md"];
   "claim-minds-have-semantics" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="minds have\nsemantics", tooltip="Minds have semantic content (genuine meaning), not merely syntax", URL="../web/claims/minds-have-semantics.md"];
   "claim-no-acquaintance-with-machine" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no acquaintance\nwith machine", tooltip="One has no first-person acquaintance with a machine's putative experience", URL="../web/claims/no-acquaintance-with-machine.md"];
+  "claim-no-constitutive-fact-of-meaning" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no constitutive\nfact of meaning", tooltip="There is no fact about a speaker that constitutes their meaning one thing rather than another by an expression", URL="../web/claims/no-constitutive-fact-of-meaning.md"];
   "claim-no-nonarbitrary-threshold-for-experience" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no nonarbitrary\nthreshold for\nexperience", tooltip="There is no non-arbitrary point in nature at which experience first appears", URL="../web/claims/no-nonarbitrary-threshold-for-experience.md"];
   "claim-no-radical-emergence" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no radical\nemergence", tooltip="Experience cannot emerge brutely from the wholly non-experiential", URL="../web/claims/no-radical-emergence.md"];
   "claim-no-systematic-overdetermination" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no systematic\noverdetermination", tooltip="The physical effects of mental causes are not systematically overdetermined", URL="../web/claims/no-systematic-overdetermination.md"];
@@ -236,6 +244,7 @@ digraph web {
   "claim-subjects-actually-merge-and-divide" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="subjects actually\nmerge and divide", tooltip="There are actual cases in which subject boundaries shift with the degree of integration", URL="../web/claims/subjects-actually-merge-and-divide.md"];
   "claim-substrate-independence" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="substrate\nindependence", tooltip="Mental states are substrate-independent", URL="../web/claims/substrate-independence.md"];
   "claim-syntax-insufficient-for-semantics" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="syntax\ninsufficient for\nsemantics", tooltip="Executing a formal program is not sufficient for understanding", URL="../web/claims/syntax-insufficient-for-semantics.md"];
+  "claim-theory-of-consciousness-must-meet-minimal-requirements" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="theory of\nconsciousness must\nmeet minimal\nrequirements", tooltip="A theory of consciousness must meet the minimal requirements to count as one", URL="../web/claims/theory-of-consciousness-must-meet-minimal-requirements.md"];
   "claim-unobservables-judged-by-coherence-and-usefulness" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="unobservables\njudged by\ncoherence and\nusefulness", tooltip="For a concept positing differences unobservable in principle, the only available standards of assessment are coherence plus usefulness", URL="../web/claims/unobservables-judged-by-coherence-and-usefulness.md"];
   "claim-zombie-conceivable" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="zombie conceivable", tooltip="A microphysical duplicate of a conscious being that wholly lacks phenomenal consciousness is conceivable", URL="../web/claims/zombie-conceivable.md"];
   "claim-zombie-premise-unwarrantable" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="zombie premise\nunwarrantable", tooltip="No reasoner with a computable physical mind can warrantedly assert that the zombie scenario is ideally conceivable", URL="../web/claims/zombie-premise-unwarrantable.md"];
@@ -249,6 +258,7 @@ digraph web {
   "concept-chinese-nation" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="chinese nation", tooltip="Chinese Nation (homunculi-headed robot)", URL="../web/concepts/chinese-nation.md"];
   "concept-chinese-room" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="chinese room", tooltip="The Chinese Room", URL="../web/concepts/chinese-room.md"];
   "concept-completeness-of-physics" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="completeness of\nphysics", tooltip="Completeness of physics", URL="../web/concepts/completeness-of-physics.md"];
+  "concept-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="consciousness", tooltip="Consciousness", URL="../web/concepts/consciousness.md"];
   "concept-continuity-argument-schema" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="continuity\nargument schema", tooltip="Continuity–connectedness argument schema (no-sharp-line / sorites form)", URL="../web/concepts/continuity-argument-schema.md"];
   "concept-criterion-gaming" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="criterion gaming", tooltip="Criterion gaming (Goodhart's law / specification gaming)", URL="../web/concepts/criterion-gaming.md"];
   "concept-dialectical-cogency" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="dialectical\ncogency", tooltip="Dialectical cogency (probative force)", URL="../web/concepts/dialectical-cogency.md"];
@@ -268,6 +278,7 @@ digraph web {
   "concept-lookup-table-mind" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="lookup table mind", tooltip="Lookup-table mind (\"Blockhead\" / Aunt Bubbles machine)", URL="../web/concepts/lookup-table-mind.md"];
   "concept-materialism-types" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="materialism types", tooltip="Type-A / Type-B / Type-C materialism (responses to the hard problem)", URL="../web/concepts/materialism-types.md"];
   "concept-mind-body-problem" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="mind body problem", tooltip="The mind-body problem", URL="../web/concepts/mind-body-problem.md"];
+  "concept-minimal-theory-of-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="minimal theory of\nconsciousness", tooltip="Minimal requirements for a theory of consciousness", URL="../web/concepts/minimal-theory-of-consciousness.md"];
   "concept-munchhausen-trilemma" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="munchhausen\ntrilemma", tooltip="The Münchhausen trilemma (Agrippa's regress)", URL="../web/concepts/munchhausen-trilemma.md"];
   "concept-order-of-representation" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="order of\nrepresentation", tooltip="First-order vs higher-order mental states", URL="../web/concepts/order-of-representation.md"];
   "concept-pain-asymbolia" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="pain asymbolia", tooltip="Pain asymbolia (pain felt but not minded)", URL="../web/concepts/pain-asymbolia.md"];
@@ -276,6 +287,7 @@ digraph web {
   "concept-perfect-actor" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="perfect actor", tooltip="The perfect actor (pain shown but never felt)", URL="../web/concepts/perfect-actor.md"];
   "concept-phenomenal-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="phenomenal\nconsciousness", tooltip="Phenomenal consciousness", URL="../web/concepts/phenomenal-consciousness.md"];
   "concept-philosophical-zombie" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="philosophical\nzombie", tooltip="Philosophical zombie", URL="../web/concepts/philosophical-zombie.md"];
+  "concept-philosophy-of-mind" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="philosophy of mind", tooltip="Philosophy of mind", URL="../web/concepts/philosophy-of-mind.md"];
   "concept-primary-intension" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="primary intension", tooltip="Primary intension", URL="../web/concepts/primary-intension.md"];
   "concept-qualia" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="qualia", tooltip="Qualia", URL="../web/concepts/qualia.md"];
   "concept-rendering-test" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="rendering test", tooltip="Rendering test fixture (every book feature)", URL="../web/test/rendering-test.md"];
@@ -292,8 +304,11 @@ digraph web {
   "question-acquaintance-datum-or-representation" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="acquaintance datum\nor representation", tooltip="Is first-person acquaintance with one's own experience a genuine observation, or itself a representation?", URL="../web/questions/acquaintance-datum-or-representation.md"];
   "question-external-world-knowledge" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="external world\nknowledge", tooltip="Can we know that an external world exists, when every proof of it seems to presuppose it?", URL="../web/questions/external-world-knowledge.md"];
   "question-hard-problem" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="hard problem", tooltip="How and why does physical processing give rise to phenomenal experience?", URL="../web/questions/hard-problem.md"];
+  "question-intentionality" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="intentionality", tooltip="How can a physical state be about anything?", URL="../web/questions/intentionality.md"];
   "question-llm-moral-status" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="llm moral status", tooltip="Do large language models have moral status?", URL="../web/questions/llm-moral-status.md"];
   "question-llm-own-explanatory-gap" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="llm own\nexplanatory gap", tooltip="Would a consciousness-naive but introspecting LLM be able to fully explain its own self-perception from its mechanism?", URL="../web/questions/llm-own-explanatory-gap.md"];
+  "question-mental-causation" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="mental causation", tooltip="How can mental states have physical effects?", URL="../web/questions/mental-causation.md"];
+  "question-personal-identity" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="personal identity", tooltip="What makes a person at one time the same person as a person at another time?", URL="../web/questions/personal-identity.md"];
   "question-substrate-independence" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="substrate\nindependence", tooltip="Are mental states substrate-independent?", URL="../web/questions/substrate-independence.md"];
   "question-what-does-mary-learn" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="what does mary\nlearn", tooltip="What, if anything, does Mary gain when she first sees red?", URL="../web/questions/what-does-mary-learn.md"];
 
@@ -457,6 +472,10 @@ digraph web {
   "argument-deutsch-anti-solipsism" -> "claim-good-explanation-is-hard-to-vary" [color="#1565c0", tooltip="premise"];
   "argument-deutsch-anti-solipsism" -> "claim-solipsism-parasitic-on-realism" [color="#1565c0", tooltip="premise"];
   "argument-deutsch-anti-solipsism" -> "concept-hinge-proposition" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-dispositionalist-reply" -> "argument-kripke-rule-following" [color="#757575", style="dashed", tooltip="responds_to"];
+  "argument-dispositionalist-reply" -> "claim-meaning-constituted-by-dispositions" [color="#222222", penwidth="1.8", tooltip="concludes"];
+  "argument-dispositionalist-reply" -> "claim-no-constitutive-fact-of-meaning" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-dispositionalist-reply" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-explanatory-gap" -> "claim-phenomenal-residue" [color="#222222", penwidth="1.8", tooltip="concludes"];
   "argument-explanatory-gap" -> "claim-phenomenal-residue" [color="#1565c0", tooltip="premise"];
   "argument-explanatory-gap" -> "claim-substrate-independence" [color="#c62828", penwidth="1.6", tooltip="attacks"];
@@ -532,6 +551,9 @@ digraph web {
   "argument-knowledge-argument" -> "claim-substrate-independence" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-knowledge-argument" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-knowledge-argument" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-kripke-rule-following" -> "claim-no-constitutive-fact-of-meaning" [color="#222222", penwidth="1.8", tooltip="concludes"];
+  "argument-kripke-rule-following" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-kripke-rule-following" -> "concept-intrinsic-derived-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-llm-representations-reply" -> "argument-connectionist-reply" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
   "argument-llm-representations-reply" -> "claim-llm-text-yields-human-aligned-representations" [color="#1565c0", tooltip="premise"];
   "argument-llm-representations-reply" -> "claim-syntax-insufficient-for-semantics" [color="#c62828", penwidth="1.6", tooltip="attacks"];
@@ -599,6 +621,18 @@ digraph web {
   "argument-old-fact-new-guise" -> "argument-knowledge-argument" [color="#757575", style="dashed", tooltip="responds_to"];
   "argument-old-fact-new-guise" -> "claim-mary-gains-old-fact-new-guise" [color="#222222", penwidth="1.8", tooltip="concludes"];
   "argument-old-fact-new-guise" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-olympia" -> "claim-implementation-requires-counterfactual-structure" [color="#1565c0", tooltip="premise"];
+  "argument-olympia" -> "claim-substrate-independence" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-olympia" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-olympia-quantum-counterfactuals" -> "argument-olympia" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-olympia-quantum-counterfactuals" -> "argument-olympia-trace-specialization" [color="#757575", style="dashed", tooltip="responds_to"];
+  "argument-olympia-quantum-counterfactuals" -> "claim-substrate-independence" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-olympia-recording-objection" -> "argument-olympia" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-olympia-recording-objection" -> "argument-olympia-trace-specialization" [color="#757575", style="dashed", tooltip="responds_to"];
+  "argument-olympia-recording-objection" -> "claim-substrate-independence" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-olympia-recording-objection" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-olympia-trace-specialization" -> "argument-olympia" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-olympia-trace-specialization" -> "claim-implementation-requires-counterfactual-structure" [color="#1565c0", tooltip="premise"];
   "argument-organisational-grain-dissolves-dilemma" -> "argument-role-grain-dilemma" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-organisational-grain-dissolves-dilemma" -> "argument-role-grain-dilemma" [color="#757575", style="dashed", tooltip="responds_to"];
   "argument-organisational-grain-dissolves-dilemma" -> "claim-role-grain-is-organisational" [color="#1565c0", tooltip="premise"];
@@ -837,6 +871,7 @@ digraph web {
   "claim-mary-learns-nothing-new" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-mary-learns-nothing-new" -> "question-what-does-mary-learn" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-mary-learns-on-release" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-meaning-constituted-by-dispositions" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-mental-is-physical" -> "concept-causal-closure" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-mental-is-physical" -> "concept-completeness-of-physics" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-mental-is-physical" -> "question-hard-problem" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
@@ -845,6 +880,7 @@ digraph web {
   "claim-mind-handles-unbounded-inputs" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-minds-have-semantics" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-no-acquaintance-with-machine" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-no-constitutive-fact-of-meaning" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-no-systematic-overdetermination" -> "concept-causal-closure" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-organisational-grain-faces-own-grain-dilemma" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-organisational-grain-faces-own-grain-dilemma" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -896,6 +932,9 @@ digraph web {
   "claim-substrate-independence" -> "question-llm-moral-status" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-substrate-independence" -> "question-substrate-independence" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-syntax-insufficient-for-semantics" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-theory-of-consciousness-must-meet-minimal-requirements" -> "concept-access-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-theory-of-consciousness-must-meet-minimal-requirements" -> "concept-minimal-theory-of-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-theory-of-consciousness-must-meet-minimal-requirements" -> "concept-paradox-of-phenomenal-judgment" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-zombie-conceivable" -> "concept-philosophical-zombie" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-zombie-premise-unwarrantable" -> "concept-dialectical-cogency" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-zombie-premise-unwarrantable" -> "concept-halting-oracle" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -908,6 +947,9 @@ digraph web {
   "concept-aoe2-circuits" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-causal-closure" -> "concept-completeness-of-physics" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-chinese-room" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-consciousness" -> "concept-access-vs-phenomenal-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-consciousness" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-consciousness" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-dialectical-cogency" -> "concept-soundness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-dialectical-cogency" -> "concept-validity" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-grain" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -918,9 +960,17 @@ digraph web {
   "concept-materialism-types" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-mind-body-problem" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-mind-body-problem" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-minimal-theory-of-consciousness" -> "concept-access-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-minimal-theory-of-consciousness" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-minimal-theory-of-consciousness" -> "concept-paradox-of-phenomenal-judgment" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-minimal-theory-of-consciousness" -> "concept-phenomenal-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-panpsychism" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-paradox-of-phenomenal-judgment" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-philosophical-zombie" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-philosophy-of-mind" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-philosophy-of-mind" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-philosophy-of-mind" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-philosophy-of-mind" -> "concept-mind-body-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-primary-intension" -> "concept-secondary-intension" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-rendering-test" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-secondary-intension" -> "concept-primary-intension" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -933,8 +983,13 @@ digraph web {
   "question-external-world-knowledge" -> "concept-hinge-proposition" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-external-world-knowledge" -> "concept-munchhausen-trilemma" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-hard-problem" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-intentionality" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-intentionality" -> "concept-intrinsic-derived-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-llm-own-explanatory-gap" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-llm-own-explanatory-gap" -> "concept-introspective-gap-varieties" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-mental-causation" -> "concept-causal-closure" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-mental-causation" -> "concept-completeness-of-physics" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-personal-identity" -> "concept-continuity-argument-schema" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-substrate-independence" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-substrate-independence" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-what-does-mary-learn" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
