@@ -10,3 +10,10 @@ __pycache__/
 
 # LaTeX build intermediates from scripts/book.py (deliverables live in book/)
 build/
+
+# Secrets / local environment
+.env
+.env.*
+
+# Raw external source materials (papers, PDFs) — not tracked in the repo
+external/
