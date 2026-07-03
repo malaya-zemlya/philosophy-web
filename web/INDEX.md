@@ -12,11 +12,20 @@
 ## [argument-acquaintance-hypothesis](arguments/acquaintance-hypothesis.md)
 - type: argument | author: conee | status: asserted
 
+## [argument-actual-possible-seam](arguments/actual-possible-seam.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-agent-causation-certificate](arguments/agent-causation-certificate.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
   - [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md) --attacks-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --attacks-->
+
+## [argument-ambient-consciousness-collapse](arguments/ambient-consciousness-collapse.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md)
 - type: argument | author: dewynter | status: asserted
@@ -105,6 +114,9 @@
   - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --supports-->
   - [argument-rejoinder-chinese-gym](arguments/rejoinder-chinese-gym.md) --responds_to-->
 
+## [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-contaminated-testimony-carries-no-weight](arguments/contaminated-testimony-carries-no-weight.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
@@ -143,6 +155,9 @@
 ## [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md)
 - type: argument | author: deutsch | status: asserted
 
+## [argument-disappearing-agent](arguments/disappearing-agent.md)
+- type: argument | author: pereboom | status: asserted
+
 ## [argument-dispositionalist-reply](arguments/dispositionalist-reply.md)
 - type: argument | author: generic | status: asserted
 
@@ -180,6 +195,9 @@
 - type: argument | author: strawson | status: asserted
 - backlinks:
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --responds_to-->
+
+## [argument-graded-polarity](arguments/graded-polarity.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md)
 - type: argument | author: mishka | status: asserted
@@ -273,6 +291,9 @@
 
 ## [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md)
 - type: argument | author: nagel | status: asserted
+
+## [argument-no-universal-property](arguments/no-universal-property.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-old-fact-new-guise](arguments/old-fact-new-guise.md)
 - type: argument | author: loar | status: asserted
@@ -448,6 +469,23 @@
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --attacks-->
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
 
+## [claim-action-content-is-coproduct-like](claims/action-content-is-coproduct-like.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
+  - [argument-graded-polarity](arguments/graded-polarity.md) --attacks-->
+
+## [claim-agent-causation-conceivability-uncertified](claims/agent-causation-conceivability-uncertified.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --concludes-->
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
+
+## [claim-agent-does-not-settle-undetermined-decisions](claims/agent-does-not-settle-undetermined-decisions.md)
+- type: claim | author: pereboom | status: asserted
+- backlinks:
+  - [argument-disappearing-agent](arguments/disappearing-agent.md) --concludes-->
+
 ## [claim-ai-hard-problem-is-model-organism](claims/ai-hard-problem-is-model-organism.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -466,6 +504,13 @@
 - backlinks:
   - [position-fallibilism](positions/fallibilism.md) --commits_to-->
 
+## [claim-alternatives-genuinely-open](claims/alternatives-genuinely-open.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-disappearing-agent](arguments/disappearing-agent.md) --presupposes-->
+  - [position-hard-determinism](positions/hard-determinism.md) --rejects-->
+  - [position-libertarianism](positions/libertarianism.md) --commits_to-->
+
 ## [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
@@ -476,12 +521,20 @@
 - backlinks:
   - [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md) --premise-->
 
+## [claim-attention-is-dual-of-will](claims/attention-is-dual-of-will.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
+
 ## [claim-behaviour-insufficient-for-mind](claims/behaviour-insufficient-for-mind.md)
 - type: claim | author: block | status: asserted
 - backlinks:
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --concludes-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --premise-->
   - [character-cyril](characters/cyril.md) --commits_to-->
+
+## [claim-binding-is-obstruction-to-product](claims/binding-is-obstruction-to-product.md)
+- type: claim | author: mishka | status: asserted
 
 ## [claim-biology-currently-unforgeable](claims/biology-currently-unforgeable.md)
 - type: claim | author: mishka | status: asserted
@@ -541,12 +594,18 @@
 ## [claim-cogency-requires-accessible-noncircular-warrant](claims/cogency-requires-accessible-noncircular-warrant.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --premise-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
 
 ## [claim-cognitive-closure-exists](claims/cognitive-closure-exists.md)
 - type: claim | author: mcginn | status: asserted
 - backlinks:
   - [argument-cognitive-closure](arguments/cognitive-closure.md) --premise-->
+
+## [claim-combination-dualizes-to-composition-of-will](claims/combination-dualizes-to-composition-of-will.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
 
 ## [claim-complete-self-representation-impossible](claims/complete-self-representation-impossible.md)
 - type: claim | author: mishka | status: asserted
@@ -572,11 +631,29 @@
 - backlinks:
   - [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md) --concludes-->
 
+## [claim-conscious-content-is-product-like](claims/conscious-content-is-product-like.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
+  - [argument-graded-polarity](arguments/graded-polarity.md) --attacks-->
+
 ## [claim-consciousness-categorical-not-dispositional](claims/consciousness-categorical-not-dispositional.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --premise-->
   - [position-russellian-monism](positions/russellian-monism.md) --commits_to-->
+
+## [claim-consciousness-freewill-mirror](claims/consciousness-freewill-mirror.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --concludes-->
+
+## [claim-consciousness-freewill-strict-duality](claims/consciousness-freewill-strict-duality.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-actual-possible-seam](arguments/actual-possible-seam.md) --attacks-->
+  - [argument-ambient-consciousness-collapse](arguments/ambient-consciousness-collapse.md) --attacks-->
+  - [argument-no-universal-property](arguments/no-universal-property.md) --attacks-->
 
 ## [claim-consciousness-fundamental-nonphysical](claims/consciousness-fundamental-nonphysical.md)
 - type: claim | author: generic | status: asserted
@@ -639,6 +716,7 @@
 ## [claim-consistency-certification-is-oracle-hard](claims/consistency-certification-is-oracle-hard.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --premise-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
 
 ## [claim-cosmos-is-fundamental-subject](claims/cosmos-is-fundamental-subject.md)
@@ -663,6 +741,22 @@
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --premise-->
   - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --supports-->
   - [character-alvin](characters/alvin.md) --commits_to-->
+
+## [claim-deflationism-entails-compatibilism](claims/deflationism-entails-compatibilism.md)
+- type: claim | author: mishka | status: asserted
+
+## [claim-disanalogies-trace-to-entropy](claims/disanalogies-trace-to-entropy.md)
+- type: claim | author: mishka | status: asserted
+
+## [claim-duality-dictionary-not-theorem](claims/duality-dictionary-not-theorem.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-no-universal-property](arguments/no-universal-property.md) --concludes-->
+
+## [claim-exclusion-dualizes-to-disappearing-agent](claims/exclusion-dualizes-to-disappearing-agent.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
 
 ## [claim-explanation-must-be-internally-traversable](claims/explanation-must-be-internally-traversable.md)
 - type: claim | author: mishka | status: asserted
@@ -702,6 +796,16 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --premise-->
+
+## [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md)
+- type: claim | author: mishka | status: asserted
+
+## [claim-freedom-compatible-with-determinism](claims/freedom-compatible-with-determinism.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-compatibilism](positions/compatibilism.md) --commits_to-->
+  - [position-hard-determinism](positions/hard-determinism.md) --rejects-->
+  - [position-libertarianism](positions/libertarianism.md) --rejects-->
 
 ## [claim-full-self-access-achievable](claims/full-self-access-achievable.md)
 - type: claim | author: generic | status: contested
@@ -768,6 +872,7 @@
 ## [claim-ideal-conceivability-is-apriori-consistency](claims/ideal-conceivability-is-apriori-consistency.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --premise-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
 
 ## [claim-imaginary-blockhead-no-secure-verdict](claims/imaginary-blockhead-no-secure-verdict.md)
@@ -1093,6 +1198,7 @@
 ## [claim-physical-church-turing-thesis](claims/physical-church-turing-thesis.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --presupposes-->
   - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --premise-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --presupposes-->
 
@@ -1307,6 +1413,11 @@
 ## [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md)
 - type: claim | author: mishka | status: asserted
 
+## [claim-unity-dualizes-to-unity-of-agency](claims/unity-dualizes-to-unity-of-agency.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
+
 ## [claim-unobservables-judged-by-coherence-and-usefulness](claims/unobservables-judged-by-coherence-and-usefulness.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1319,6 +1430,11 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
   - [position-eliminative-materialism](positions/eliminative-materialism.md) --rejects-->
   - [position-type-a-materialism](positions/type-a-materialism.md) --rejects-->
+
+## [claim-zombie-dualizes-to-volitional-zombie](claims/zombie-dualizes-to-volitional-zombie.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
 
 ## [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md)
 - type: claim | author: mishka | status: asserted
@@ -1355,6 +1471,16 @@
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
 
+## [concept-agent-causation](concepts/agent-causation.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --uses_concept-->
+  - [argument-disappearing-agent](arguments/disappearing-agent.md) --uses_concept-->
+  - [claim-agent-causation-conceivability-uncertified](claims/agent-causation-conceivability-uncertified.md) --uses_concept-->
+  - [claim-agent-does-not-settle-undetermined-decisions](claims/agent-does-not-settle-undetermined-decisions.md) --uses_concept-->
+  - [position-libertarianism](positions/libertarianism.md) --uses_concept-->
+  - [question-free-will](questions/free-will.md) --uses_concept-->
+
 ## [concept-ai-effect](concepts/ai-effect.md)
 - type: concept | author: generic | status: asserted
 
@@ -1374,6 +1500,29 @@
   - [claim-some-beliefs-are-basic](claims/some-beliefs-are-basic.md) --uses_concept-->
   - [position-commonsense-realism](positions/commonsense-realism.md) --uses_concept-->
   - [position-foundationalism](positions/foundationalism.md) --uses_concept-->
+
+## [concept-binding-problem](concepts/binding-problem.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [claim-binding-is-obstruction-to-product](claims/binding-is-obstruction-to-product.md) --uses_concept-->
+  - [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md) --uses_concept-->
+  - [claim-unity-dualizes-to-unity-of-agency](claims/unity-dualizes-to-unity-of-agency.md) --uses_concept-->
+
+## [concept-categorical-duality](concepts/categorical-duality.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-actual-possible-seam](arguments/actual-possible-seam.md) --uses_concept-->
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --uses_concept-->
+  - [argument-graded-polarity](arguments/graded-polarity.md) --uses_concept-->
+  - [argument-no-universal-property](arguments/no-universal-property.md) --uses_concept-->
+  - [claim-action-content-is-coproduct-like](claims/action-content-is-coproduct-like.md) --uses_concept-->
+  - [claim-attention-is-dual-of-will](claims/attention-is-dual-of-will.md) --uses_concept-->
+  - [claim-binding-is-obstruction-to-product](claims/binding-is-obstruction-to-product.md) --uses_concept-->
+  - [claim-conscious-content-is-product-like](claims/conscious-content-is-product-like.md) --uses_concept-->
+  - [claim-consciousness-freewill-strict-duality](claims/consciousness-freewill-strict-duality.md) --uses_concept-->
+  - [claim-disanalogies-trace-to-entropy](claims/disanalogies-trace-to-entropy.md) --uses_concept-->
+  - [claim-duality-dictionary-not-theorem](claims/duality-dictionary-not-theorem.md) --uses_concept-->
+  - [concept-consciousness-freewill-duality](concepts/consciousness-freewill-duality.md) --uses_concept-->
 
 ## [concept-causal-closure](concepts/causal-closure.md)
 - type: concept | author: generic | status: asserted
@@ -1434,6 +1583,27 @@
 ## [concept-consciousness](concepts/consciousness.md)
 - type: concept | author: generic | status: asserted
 
+## [concept-consciousness-freewill-duality](concepts/consciousness-freewill-duality.md)
+- type: concept | author: mishka | status: asserted
+- backlinks:
+  - [argument-actual-possible-seam](arguments/actual-possible-seam.md) --uses_concept-->
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --uses_concept-->
+  - [argument-ambient-consciousness-collapse](arguments/ambient-consciousness-collapse.md) --uses_concept-->
+  - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --uses_concept-->
+  - [argument-graded-polarity](arguments/graded-polarity.md) --uses_concept-->
+  - [argument-no-universal-property](arguments/no-universal-property.md) --uses_concept-->
+  - [claim-attention-is-dual-of-will](claims/attention-is-dual-of-will.md) --uses_concept-->
+  - [claim-combination-dualizes-to-composition-of-will](claims/combination-dualizes-to-composition-of-will.md) --uses_concept-->
+  - [claim-consciousness-freewill-mirror](claims/consciousness-freewill-mirror.md) --uses_concept-->
+  - [claim-consciousness-freewill-strict-duality](claims/consciousness-freewill-strict-duality.md) --uses_concept-->
+  - [claim-deflationism-entails-compatibilism](claims/deflationism-entails-compatibilism.md) --uses_concept-->
+  - [claim-disanalogies-trace-to-entropy](claims/disanalogies-trace-to-entropy.md) --uses_concept-->
+  - [claim-duality-dictionary-not-theorem](claims/duality-dictionary-not-theorem.md) --uses_concept-->
+  - [claim-exclusion-dualizes-to-disappearing-agent](claims/exclusion-dualizes-to-disappearing-agent.md) --uses_concept-->
+  - [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md) --uses_concept-->
+  - [claim-unity-dualizes-to-unity-of-agency](claims/unity-dualizes-to-unity-of-agency.md) --uses_concept-->
+  - [claim-zombie-dualizes-to-volitional-zombie](claims/zombie-dualizes-to-volitional-zombie.md) --uses_concept-->
+
 ## [concept-continuity-argument-schema](concepts/continuity-argument-schema.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
@@ -1485,6 +1655,11 @@
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
+
+## [concept-frankfurt-cases](concepts/frankfurt-cases.md)
+- type: concept | author: frankfurt | status: asserted
+- backlinks:
+  - [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md) --uses_concept-->
 
 ## [concept-functionalism](concepts/functionalism.md)
 - type: concept | author: generic | status: asserted
@@ -1569,9 +1744,11 @@
 ## [concept-halting-oracle](concepts/halting-oracle.md)
 - type: concept | author: turing | status: asserted
 - backlinks:
+  - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --uses_concept-->
   - [argument-conceivable-not-physically-realizable](arguments/conceivable-not-physically-realizable.md) --uses_concept-->
   - [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md) --uses_concept-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --uses_concept-->
+  - [claim-agent-causation-conceivability-uncertified](claims/agent-causation-conceivability-uncertified.md) --uses_concept-->
   - [claim-conceivability-not-sufficient-for-physical-realizability](claims/conceivability-not-sufficient-for-physical-realizability.md) --uses_concept-->
   - [claim-consistency-certification-is-oracle-hard](claims/consistency-certification-is-oracle-hard.md) --uses_concept-->
   - [claim-halting-oracle-coherent-but-unrealizable](claims/halting-oracle-coherent-but-unrealizable.md) --uses_concept-->
@@ -1822,6 +1999,7 @@
   - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --uses_concept-->
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
+  - [claim-combination-dualizes-to-composition-of-will](claims/combination-dualizes-to-composition-of-will.md) --uses_concept-->
 
 ## [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md)
 - type: concept | author: chalmers | status: asserted
@@ -1851,6 +2029,7 @@
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-ideal-conceivability-is-apriori-consistency](claims/ideal-conceivability-is-apriori-consistency.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
+  - [claim-zombie-dualizes-to-volitional-zombie](claims/zombie-dualizes-to-volitional-zombie.md) --uses_concept-->
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
 
 ## [concept-philosophy-of-mind](concepts/philosophy-of-mind.md)
@@ -1866,6 +2045,8 @@
 
 ## [concept-qualia](concepts/qualia.md)
 - type: concept | author: generic | status: asserted
+- backlinks:
+  - [claim-conscious-content-is-product-like](claims/conscious-content-is-product-like.md) --uses_concept-->
 
 ## [concept-rendering-test](test/rendering-test.md)
 - type: concept | author: mishka | status: asserted
@@ -1936,6 +2117,9 @@
 ## [position-commonsense-realism](positions/commonsense-realism.md)
 - type: position | author: generic | status: asserted
 
+## [position-compatibilism](positions/compatibilism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-cosmopsychism](positions/cosmopsychism.md)
 - type: position | author: goff | status: asserted
 
@@ -1963,6 +2147,9 @@
 ## [position-global-workspace](positions/global-workspace.md)
 - type: position | author: baars | status: asserted
 
+## [position-hard-determinism](positions/hard-determinism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-higher-order-theories](positions/higher-order-theories.md)
 - type: position | author: rosenthal | status: asserted
 
@@ -1983,6 +2170,9 @@
 
 ## [position-integrated-information-theory](positions/integrated-information-theory.md)
 - type: position | author: tononi | status: asserted
+
+## [position-libertarianism](positions/libertarianism.md)
+- type: position | author: generic | status: asserted
 
 ## [position-mysterianism](positions/mysterianism.md)
 - type: position | author: mcginn | status: asserted
@@ -2039,6 +2229,13 @@
   - [position-foundationalism](positions/foundationalism.md) --answers-->
   - [position-hinge-epistemology](positions/hinge-epistemology.md) --answers-->
   - [position-infinitism](positions/infinitism.md) --answers-->
+
+## [question-free-will](questions/free-will.md)
+- type: question | author: generic | status: asserted
+- backlinks:
+  - [position-compatibilism](positions/compatibilism.md) --answers-->
+  - [position-hard-determinism](positions/hard-determinism.md) --answers-->
+  - [position-libertarianism](positions/libertarianism.md) --answers-->
 
 ## [question-hard-problem](questions/hard-problem.md)
 - type: question | author: chalmers | status: contested
@@ -2128,6 +2325,9 @@
 ## [source-armstrong-1968](sources/armstrong-1968.md)
 - type: source | author: mishka | status: asserted
 
+## [source-augustine-confessions](sources/augustine-confessions.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-baars-1988](sources/baars-1988.md)
 - type: source | author: mishka | status: asserted
 
@@ -2189,6 +2389,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2022](sources/chalmers-2022.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chisholm-1964](sources/chisholm-1964.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-churchland-1981](sources/churchland-1981.md)
@@ -2263,13 +2466,25 @@
 ## [source-feigl-1958](sources/feigl-1958.md)
 - type: source | author: mishka | status: asserted
 
+## [source-fischer-ravizza-1998](sources/fischer-ravizza-1998.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-fodor-1990](sources/fodor-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-frankfurt-1969](sources/frankfurt-1969.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-frankish-2016](sources/frankish-2016.md)
 - type: source | author: mishka | status: asserted
 
+## [source-friston-2010](sources/friston-2010.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-gambarian](sources/gambarian.md)
+- type: source | author: mishka | status: asserted
+
+## [source-girard-1987](sources/girard-1987.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-godfrey-smith-2009](sources/godfrey-smith-2009.md)
@@ -2368,6 +2583,9 @@
 ## [source-li-2022](sources/li-2022.md)
 - type: source | author: mishka | status: asserted
 
+## [source-libet-1985](sources/libet-1985.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-lindsey-introspection-2025](sources/lindsey-introspection-2025.md)
 - type: source | author: mishka | status: asserted
 
@@ -2449,10 +2667,16 @@
 ## [source-penrose-1994](sources/penrose-1994.md)
 - type: source | author: mishka | status: asserted
 
+## [source-pereboom-2014](sources/pereboom-2014.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-perry-2001](sources/perry-2001.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-place-1956](sources/place-1956.md)
+- type: source | author: mishka | status: asserted
+
+## [source-plato-republic](sources/plato-republic.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-popper-1963](sources/popper-1963.md)
@@ -2551,6 +2775,12 @@
 ## [source-tye-2000](sources/tye-2000.md)
 - type: source | author: mishka | status: asserted
 
+## [source-van-inwagen-1983](sources/van-inwagen-1983.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wegner-2002](sources/wegner-2002.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-williamson-2007](sources/williamson-2007.md)
 - type: source | author: mishka | status: asserted
 
@@ -2564,6 +2794,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-wootters-zurek-1982](sources/wootters-zurek-1982.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wu-2011](sources/wu-2011.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-xu-2025](sources/xu-2025.md)
