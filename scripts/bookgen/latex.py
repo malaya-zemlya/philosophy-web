@@ -17,6 +17,8 @@ UNICODE_MAP = {
     "→": r"\ensuremath{\rightarrow}", "↦": r"\ensuremath{\mapsto}",
     "⇒": r"\ensuremath{\Rightarrow}", "⟹": r"\ensuremath{\Longrightarrow}",
     "Φ": r"\ensuremath{\Phi}", "Σ": r"\ensuremath{\Sigma}",
+    "π": r"\ensuremath{\pi}", "σ": r"\ensuremath{\sigma}", "φ": r"\ensuremath{\varphi}",
+    "←": r"\ensuremath{\leftarrow}", "⊢": r"\ensuremath{\vdash}",
     "ℛ": r"\ensuremath{\mathcal{R}}", "𝒰": r"\ensuremath{\mathcal{U}}",
     "′": r"\ensuremath{{}^{\prime}}", "″": r"\ensuremath{{}^{\prime\prime}}",
     "₂": r"\textsubscript{2}",
