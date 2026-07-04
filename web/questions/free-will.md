@@ -8,7 +8,7 @@ status: asserted
 style: encyclopedia
 tags: [free-will, agency, metaphysics]
 created: 2026-07-03
-uses_concept: [concept-agent-causation]
+uses_concept: [concept-agent-causation, concept-sourcehood]
 ---
 
 Ordinary life treats some actions as *up to us*: you chose the salad, you could have chosen the

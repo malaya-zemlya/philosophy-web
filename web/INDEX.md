@@ -1478,6 +1478,7 @@
   - [argument-disappearing-agent](arguments/disappearing-agent.md) --uses_concept-->
   - [claim-agent-causation-conceivability-uncertified](claims/agent-causation-conceivability-uncertified.md) --uses_concept-->
   - [claim-agent-does-not-settle-undetermined-decisions](claims/agent-does-not-settle-undetermined-decisions.md) --uses_concept-->
+  - [concept-sourcehood](concepts/sourcehood.md) --uses_concept-->
   - [position-libertarianism](positions/libertarianism.md) --uses_concept-->
   - [question-free-will](questions/free-will.md) --uses_concept-->
 
@@ -2070,6 +2071,13 @@
   - [claim-cogency-requires-accessible-noncircular-warrant](claims/cogency-requires-accessible-noncircular-warrant.md) --uses_concept-->
   - [concept-dialectical-cogency](concepts/dialectical-cogency.md) --uses_concept-->
 
+## [concept-sourcehood](concepts/sourcehood.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [position-hard-determinism](positions/hard-determinism.md) --uses_concept-->
+  - [position-libertarianism](positions/libertarianism.md) --uses_concept-->
+  - [question-free-will](questions/free-will.md) --uses_concept-->
+
 ## [concept-strong-weak-ai](concepts/strong-weak-ai.md)
 - type: concept | author: searle | status: asserted
 - backlinks:
@@ -2550,6 +2558,9 @@
 ## [source-jaworski-2016](sources/jaworski-2016.md)
 - type: source | author: mishka | status: asserted
 
+## [source-kane-1996](sources/kane-1996.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kastrup-2019](sources/kastrup-2019.md)
 - type: source | author: mishka | status: asserted
 
@@ -2752,6 +2763,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-strawson-1959](sources/strawson-1959.md)
+- type: source | author: mishka | status: asserted
+
+## [source-strawson-1994](sources/strawson-1994.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-strawson-2006](sources/strawson-2006.md)

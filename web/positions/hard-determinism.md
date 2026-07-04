@@ -10,6 +10,7 @@ tags: [free-will, metaphysics]
 created: 2026-07-03
 rejects: [claim-freedom-compatible-with-determinism, claim-alternatives-genuinely-open]
 answers: [question-free-will]
+uses_concept: [concept-sourcehood]
 ---
 
 *Hard determinism* accepts the incompatibilist's conditional — if determinism is true, no one acts

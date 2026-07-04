@@ -324,6 +324,7 @@ digraph web {
   "concept-retorsion" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="retorsion", tooltip="Retorsion (performative self-refutation)", URL="../web/concepts/retorsion.md"];
   "concept-secondary-intension" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="secondary\nintension", tooltip="Secondary intension", URL="../web/concepts/secondary-intension.md"];
   "concept-soundness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="soundness", tooltip="Soundness", URL="../web/concepts/soundness.md"];
+  "concept-sourcehood" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="sourcehood", tooltip="Sourcehood (ultimate origination)", URL="../web/concepts/sourcehood.md"];
   "concept-strong-weak-ai" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="strong weak ai", tooltip="Strong AI vs. weak AI", URL="../web/concepts/strong-weak-ai.md"];
   "concept-super-spartan" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="super spartan", tooltip="Super-spartans (pain felt but never shown)", URL="../web/concepts/super-spartan.md"];
   "concept-transcendental-argument" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="transcendental\nargument", tooltip="Transcendental argument", URL="../web/concepts/transcendental-argument.md"];
@@ -1068,6 +1069,7 @@ digraph web {
   "concept-rendering-test" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-secondary-intension" -> "concept-primary-intension" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-soundness" -> "concept-validity" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-sourcehood" -> "concept-agent-causation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-strong-weak-ai" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-turing-test" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-unobservability-in-principle" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1076,6 +1078,7 @@ digraph web {
   "question-external-world-knowledge" -> "concept-hinge-proposition" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-external-world-knowledge" -> "concept-munchhausen-trilemma" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-free-will" -> "concept-agent-causation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-free-will" -> "concept-sourcehood" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-hard-problem" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-intentionality" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-intentionality" -> "concept-intrinsic-derived-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];

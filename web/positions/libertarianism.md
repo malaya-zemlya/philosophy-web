@@ -11,7 +11,7 @@ created: 2026-07-03
 commits_to: [claim-alternatives-genuinely-open]
 rejects: [claim-freedom-compatible-with-determinism]
 answers: [question-free-will]
-uses_concept: [concept-agent-causation]
+uses_concept: [concept-agent-causation, concept-sourcehood]
 ---
 
 *Libertarianism* (no relation to the political doctrine) holds that free will exists and is
