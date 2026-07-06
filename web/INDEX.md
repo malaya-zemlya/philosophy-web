@@ -887,6 +887,9 @@
   - [argument-olympia](arguments/olympia.md) --premise-->
   - [argument-olympia-trace-specialization](arguments/olympia-trace-specialization.md) --premise-->
 
+## [claim-incentives-require-alternatives](claims/incentives-require-alternatives.md)
+- type: claim | author: mishka | status: asserted
+
 ## [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1276,6 +1279,11 @@
 - type: claim | author: seager | status: asserted
 - backlinks:
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
+
+## [claim-responsibility-is-forward-looking](claims/responsibility-is-forward-looking.md)
+- type: claim | author: schlick | status: asserted
+- backlinks:
+  - [position-consequentialist-responsibility](positions/consequentialist-responsibility.md) --commits_to-->
 
 ## [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md)
 - type: claim | author: mishka | status: asserted
@@ -2074,6 +2082,7 @@
 ## [concept-sourcehood](concepts/sourcehood.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [position-consequentialist-responsibility](positions/consequentialist-responsibility.md) --uses_concept-->
   - [position-hard-determinism](positions/hard-determinism.md) --uses_concept-->
   - [position-libertarianism](positions/libertarianism.md) --uses_concept-->
   - [question-free-will](questions/free-will.md) --uses_concept-->
@@ -2126,6 +2135,9 @@
 - type: position | author: generic | status: asserted
 
 ## [position-compatibilism](positions/compatibilism.md)
+- type: position | author: generic | status: asserted
+
+## [position-consequentialist-responsibility](positions/consequentialist-responsibility.md)
 - type: position | author: generic | status: asserted
 
 ## [position-cosmopsychism](positions/cosmopsychism.md)
@@ -2242,6 +2254,7 @@
 - type: question | author: generic | status: asserted
 - backlinks:
   - [position-compatibilism](positions/compatibilism.md) --answers-->
+  - [position-consequentialist-responsibility](positions/consequentialist-responsibility.md) --answers-->
   - [position-hard-determinism](positions/hard-determinism.md) --answers-->
   - [position-libertarianism](positions/libertarianism.md) --answers-->
 
@@ -2729,6 +2742,9 @@
 ## [source-ryle-1949](sources/ryle-1949.md)
 - type: source | author: mishka | status: asserted
 
+## [source-schlick-1939](sources/schlick-1939.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-seager-2006](sources/seager-2006.md)
 - type: source | author: mishka | status: asserted
 
@@ -2763,6 +2779,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-strawson-1959](sources/strawson-1959.md)
+- type: source | author: mishka | status: asserted
+
+## [source-strawson-1962](sources/strawson-1962.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-strawson-1994](sources/strawson-1994.md)
