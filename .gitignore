@@ -17,3 +17,8 @@ build/
 
 # Raw external source materials (papers, PDFs) — not tracked in the repo
 external/
+
+# Local agent-tool artifacts (Codex etc.)
+AGENTS.md
+.agents/
+.codex/
