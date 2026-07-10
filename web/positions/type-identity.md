@@ -8,7 +8,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 commits_to: [claim-mental-states-are-brain-state-types]
 rejects: [claim-substrate-independence, claim-conceivability-entails-possibility]
-answers: [question-substrate-independence, question-hard-problem]
+answers: [question-substrate-independence, question-hard-problem, question-mental-causation]
 uses_concept: [concept-materialism-types, concept-functionalism]
 style: encyclopedia
 created: 2026-06-09
@@ -68,6 +68,8 @@ is the famous objection that gave rise to functionalism.
 - [hard-problem](../questions/hard-problem.md) — the problem it answers by identity, leaving no gap to bridge.
 - [substrate-independence](../questions/substrate-independence.md) — answered in the negative, since mind is tied to a physical
   type.
+- [mental-causation](../questions/mental-causation.md) — answered by identity: a mental cause is a physical cause, so
+  mental causation is ordinary physical causation.
 - [materialism-types](../concepts/materialism-types.md) — Chalmers' A/B/C scheme, in which type-identity is the seed of
   type-B.
 - [functionalism](../concepts/functionalism.md) — the rival that individuates mind by role rather than physical type.

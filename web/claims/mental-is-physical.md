@@ -7,7 +7,7 @@ author: generic
 status: contested
 tags: [philosophy-of-mind, consciousness, physicalism]
 uses_concept: [concept-causal-closure, concept-completeness-of-physics]
-answers: [question-hard-problem]
+answers: [question-hard-problem, question-mental-causation]
 created: 2026-06-14
 ---
 

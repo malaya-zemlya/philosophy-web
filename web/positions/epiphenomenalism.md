@@ -7,7 +7,7 @@ author: huxley
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 commits_to: [claim-mental-states-causally-inert, claim-phenomenal-residue]
-answers: [question-hard-problem]
+answers: [question-hard-problem, question-mental-causation]
 uses_concept: [concept-materialism-types]
 style: encyclopedia
 created: 2026-06-09
@@ -57,3 +57,5 @@ you do* anything (so how do you even come to talk about them?).
 - [materialism-types](../concepts/materialism-types.md) — Chalmers's map of the options, where this is the type-E entry.
 - [dualism](dualism.md) — the broader family; epiphenomenalism is its causally-inert horn.
 - [hard-problem](../questions/hard-problem.md) — the problem it addresses by conceding an inert felt residue.
+- [mental-causation](../questions/mental-causation.md) — answered in the negative: there is no mental-to-physical
+  causation to explain, since the phenomenal does no causal work.
