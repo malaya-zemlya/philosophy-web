@@ -15,5 +15,13 @@ reply that complete physical knowledge would leave Mary nothing to learn ([mary-
 Distinct from [dennett-1988](dennett-1988.md) (*Quining Qualia*), which targets the thick notion of qualia, and
 from [dennett-2005](dennett-2005.md), which develops the RoboMary case.
 
+relevance (content, second strand): the Multiple Drafts Model (ch. 5) and the "Joycean machine" —
+contents circulate in parallel and which of them count as conscious is settled by which win
+influence, canonically availability to verbal probing. This is the book-length development behind
+the cerebral-celebrity formulation of [consciousness-is-cerebral-celebrity](../claims/consciousness-is-cerebral-celebrity.md) (sharpest
+statement in [dennett-1993](dennett-1993.md)), and the philosophical anticipation of the
+verbalizability-defined workspace found empirically in language models
+([gurnee-2026-workspace](gurnee-2026-workspace.md)).
+
 Reference:
 - Dennett, D. C. (1991). *Consciousness explained*. Little, Brown and Company.

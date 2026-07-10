@@ -65,6 +65,8 @@
 
 ## [argument-causal-exclusion](arguments/causal-exclusion.md)
 - type: argument | author: kim | status: asserted
+- backlinks:
+  - [argument-exclusion-generalizes](arguments/exclusion-generalizes.md) --attacks-->
 
 ## [argument-causal-structure-supplies-invariant](arguments/causal-structure-supplies-invariant.md)
 - type: argument | author: generic | status: asserted
@@ -161,6 +163,9 @@
 ## [argument-dispositionalist-reply](arguments/dispositionalist-reply.md)
 - type: argument | author: generic | status: asserted
 
+## [argument-exclusion-generalizes](arguments/exclusion-generalizes.md)
+- type: argument | author: block | status: asserted
+
 ## [argument-explanatory-gap](arguments/explanatory-gap.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -182,6 +187,9 @@
 - backlinks:
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --attacks-->
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --responds_to-->
+
+## [argument-fission](arguments/fission.md)
+- type: argument | author: parfit | status: asserted
 
 ## [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md)
 - type: argument | author: mishka | status: asserted
@@ -207,6 +215,9 @@
 
 ## [argument-intrinsic-nature](arguments/intrinsic-nature.md)
 - type: argument | author: seager | status: asserted
+
+## [argument-introspective-confabulation](arguments/introspective-confabulation.md)
+- type: argument | author: nisbett | status: asserted
 
 ## [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md)
 - type: argument | author: mishka | status: contested
@@ -237,6 +248,11 @@
 
 ## [argument-llm-representations-reply](arguments/llm-representations-reply.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md)
+- type: argument | author: gurnee | status: asserted
+- backlinks:
+  - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --supports-->
 
 ## [argument-llmary-token-encounter](arguments/llmary-token-encounter.md)
 - type: argument | author: mishka | status: asserted
@@ -288,6 +304,9 @@
 
 ## [argument-munchhausen-trilemma](arguments/munchhausen-trilemma.md)
 - type: argument | author: generic | status: asserted
+
+## [argument-no-appearance-reality-gap](arguments/no-appearance-reality-gap.md)
+- type: argument | author: searle | status: asserted
 
 ## [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md)
 - type: argument | author: nagel | status: asserted
@@ -416,15 +435,30 @@
 ## [argument-subjects-can-combine](arguments/subjects-can-combine.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-swampman](arguments/swampman.md)
+- type: argument | author: generic | status: asserted
+
 ## [argument-systems-reply](arguments/systems-reply.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
   - [argument-rejoinder-internalize-rulebook](arguments/rejoinder-internalize-rulebook.md) --responds_to-->
 
+## [argument-teleosemantics-explains-misrepresentation](arguments/teleosemantics-explains-misrepresentation.md)
+- type: argument | author: millikan | status: asserted
+
+## [argument-too-many-thinkers](arguments/too-many-thinkers.md)
+- type: argument | author: olson | status: asserted
+
+## [argument-transplant-intuition](arguments/transplant-intuition.md)
+- type: argument | author: shoemaker | status: asserted
+
 ## [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-zombie-conceivability](arguments/zombie-conceivability.md)
@@ -443,6 +477,11 @@
 
 ## [character-sophia](characters/sophia.md)
 - type: character | author: sophia | status: asserted
+
+## [claim-access-functional-signature](claims/access-functional-signature.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --premise-->
 
 ## [claim-access-gap-symmetric](claims/access-gap-symmetric.md)
 - type: claim | author: mishka | status: asserted
@@ -683,6 +722,11 @@
   - [character-cyril](characters/cyril.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --commits_to-->
 
+## [claim-consciousness-is-cerebral-celebrity](claims/consciousness-is-cerebral-celebrity.md)
+- type: claim | author: dennett | status: asserted
+- backlinks:
+  - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --premise-->
+
 ## [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md)
 - type: claim | author: baars | status: asserted
 - backlinks:
@@ -875,6 +919,33 @@
   - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --premise-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
 
+## [claim-identity-is-biological-continuity](claims/identity-is-biological-continuity.md)
+- type: claim | author: olson | status: contested
+- backlinks:
+  - [argument-too-many-thinkers](arguments/too-many-thinkers.md) --supports-->
+  - [argument-transplant-intuition](arguments/transplant-intuition.md) --attacks-->
+  - [position-animalism](positions/animalism.md) --commits_to-->
+  - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --rejects-->
+
+## [claim-identity-is-further-fact](claims/identity-is-further-fact.md)
+- type: claim | author: reid | status: asserted
+- backlinks:
+  - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --rejects-->
+
+## [claim-identity-is-psychological-continuity](claims/identity-is-psychological-continuity.md)
+- type: claim | author: locke | status: contested
+- backlinks:
+  - [argument-fission](arguments/fission.md) --attacks-->
+  - [argument-too-many-thinkers](arguments/too-many-thinkers.md) --attacks-->
+  - [argument-transplant-intuition](arguments/transplant-intuition.md) --supports-->
+  - [position-animalism](positions/animalism.md) --rejects-->
+  - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --commits_to-->
+
+## [claim-identity-not-what-matters](claims/identity-not-what-matters.md)
+- type: claim | author: parfit | status: asserted
+- backlinks:
+  - [argument-fission](arguments/fission.md) --supports-->
+
 ## [claim-imaginary-blockhead-no-secure-verdict](claims/imaginary-blockhead-no-secure-verdict.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -896,6 +967,32 @@
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --supports-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --premise-->
 
+## [claim-intentional-content-from-biological-function](claims/intentional-content-from-biological-function.md)
+- type: claim | author: millikan | status: asserted
+- backlinks:
+  - [argument-swampman](arguments/swampman.md) --attacks-->
+  - [argument-teleosemantics-explains-misrepresentation](arguments/teleosemantics-explains-misrepresentation.md) --supports-->
+  - [position-teleosemantics](positions/teleosemantics.md) --commits_to-->
+
+## [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md)
+- type: claim | author: horgan | status: asserted
+
+## [claim-intentionality-is-stance-relative](claims/intentionality-is-stance-relative.md)
+- type: claim | author: dennett | status: asserted
+- backlinks:
+  - [position-intentional-stance](positions/intentional-stance.md) --commits_to-->
+
+## [claim-introspection-is-fallible-representation](claims/introspection-is-fallible-representation.md)
+- type: claim | author: dennett | status: contested
+- backlinks:
+  - [argument-introspective-confabulation](arguments/introspective-confabulation.md) --supports-->
+  - [argument-no-appearance-reality-gap](arguments/no-appearance-reality-gap.md) --attacks-->
+
+## [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md)
+- type: claim | author: russell | status: asserted
+- backlinks:
+  - [argument-no-appearance-reality-gap](arguments/no-appearance-reality-gap.md) --supports-->
+
 ## [claim-intuition-warrant-tracks-trained-domain](claims/intuition-warrant-tracks-trained-domain.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -905,6 +1002,34 @@
 - type: claim | author: kim | status: asserted
 - backlinks:
   - [argument-causal-exclusion](arguments/causal-exclusion.md) --concludes-->
+
+## [claim-j-space-ablation-experiential-language](claims/j-space-ablation-experiential-language.md)
+- type: claim | author: gurnee | status: asserted
+
+## [claim-j-space-directed-modulation](claims/j-space-directed-modulation.md)
+- type: claim | author: gurnee | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --premise-->
+
+## [claim-j-space-flexible-generalization](claims/j-space-flexible-generalization.md)
+- type: claim | author: gurnee | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --premise-->
+
+## [claim-j-space-internal-reasoning](claims/j-space-internal-reasoning.md)
+- type: claim | author: gurnee | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --premise-->
+
+## [claim-j-space-selectivity](claims/j-space-selectivity.md)
+- type: claim | author: gurnee | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --premise-->
+
+## [claim-j-space-verbal-report](claims/j-space-verbal-report.md)
+- type: claim | author: gurnee | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --premise-->
 
 ## [claim-justification-is-infinite-chain](claims/justification-is-infinite-chain.md)
 - type: claim | author: generic | status: asserted
@@ -957,6 +1082,12 @@
 - type: claim | author: lindsey | status: asserted
 - backlinks:
   - [argument-ai-hard-problem-from-self-model-architecture](arguments/ai-hard-problem-from-self-model-architecture.md) --premise-->
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --supports-->
+
+## [claim-llm-global-workspace](claims/llm-global-workspace.md)
+- type: claim | author: gurnee | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --concludes-->
 
 ## [claim-llm-has-mental-states](claims/llm-has-mental-states.md)
 - type: claim | author: mishka | status: contested
@@ -1049,10 +1180,16 @@
 - backlinks:
   - [argument-dispositionalist-reply](arguments/dispositionalist-reply.md) --concludes-->
 
+## [claim-mental-causes-are-difference-makers](claims/mental-causes-are-difference-makers.md)
+- type: claim | author: list | status: asserted
+- backlinks:
+  - [argument-exclusion-generalizes](arguments/exclusion-generalizes.md) --supports-->
+
 ## [claim-mental-events-have-physical-effects](claims/mental-events-have-physical-effects.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
+  - [position-anomalous-monism](positions/anomalous-monism.md) --commits_to-->
 
 ## [claim-mental-is-physical](claims/mental-is-physical.md)
 - type: claim | author: generic | status: contested
@@ -1061,6 +1198,7 @@
   - [argument-causal-exclusion](arguments/causal-exclusion.md) --supports-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
+  - [position-anomalous-monism](positions/anomalous-monism.md) --commits_to-->
   - [position-physicalism](positions/physicalism.md) --commits_to-->
   - [position-type-a-materialism](positions/type-a-materialism.md) --commits_to-->
   - [position-type-b-materialism](positions/type-b-materialism.md) --commits_to-->
@@ -1069,11 +1207,13 @@
 ## [claim-mental-states-are-brain-state-types](claims/mental-states-are-brain-state-types.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
+  - [position-anomalous-monism](positions/anomalous-monism.md) --rejects-->
   - [position-type-identity](positions/type-identity.md) --commits_to-->
 
 ## [claim-mental-states-causally-inert](claims/mental-states-causally-inert.md)
 - type: claim | author: huxley | status: asserted
 - backlinks:
+  - [position-anomalous-monism](positions/anomalous-monism.md) --rejects-->
   - [position-epiphenomenalism](positions/epiphenomenalism.md) --commits_to-->
 
 ## [claim-micro-subjects-do-not-sum](claims/micro-subjects-do-not-sum.md)
@@ -1091,6 +1231,7 @@
 - type: claim | author: searle | status: asserted
 - backlinks:
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
+  - [position-intentional-stance](positions/intentional-stance.md) --rejects-->
 
 ## [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md)
 - type: claim | author: mishka | status: asserted
@@ -1114,6 +1255,11 @@
   - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --premise-->
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --attacks-->
+
+## [claim-no-strict-psychophysical-laws](claims/no-strict-psychophysical-laws.md)
+- type: claim | author: davidson | status: asserted
+- backlinks:
+  - [position-anomalous-monism](positions/anomalous-monism.md) --commits_to-->
 
 ## [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md)
 - type: claim | author: generic | status: asserted
@@ -1285,6 +1431,9 @@
 - backlinks:
   - [position-consequentialist-responsibility](positions/consequentialist-responsibility.md) --commits_to-->
 
+## [claim-responsibility-partly-instinctual](claims/responsibility-partly-instinctual.md)
+- type: claim | author: hauser | status: asserted
+
 ## [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1432,6 +1581,12 @@
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --premise-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
 
+## [claim-workspace-convergent-architecture](claims/workspace-convergent-architecture.md)
+- type: claim | author: gurnee | status: asserted
+
+## [claim-workspace-precedes-self](claims/workspace-precedes-self.md)
+- type: claim | author: gurnee | status: asserted
+
 ## [claim-zombie-conceivable](claims/zombie-conceivable.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
@@ -1452,8 +1607,11 @@
 ## [concept-access-consciousness](concepts/access-consciousness.md)
 - type: concept | author: block | status: asserted
 - backlinks:
+  - [claim-access-functional-signature](claims/access-functional-signature.md) --uses_concept-->
+  - [claim-llm-global-workspace](claims/llm-global-workspace.md) --uses_concept-->
   - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
+  - [concept-j-space](concepts/j-space.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
 
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
@@ -1464,12 +1622,15 @@
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --uses_concept-->
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --uses_concept-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --uses_concept-->
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --uses_concept-->
   - [argument-self-model-prediction-phenomenality-neutral](arguments/self-model-prediction-phenomenality-neutral.md) --uses_concept-->
   - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --uses_concept-->
+  - [claim-access-functional-signature](claims/access-functional-signature.md) --uses_concept-->
   - [claim-ai-own-hard-problem](claims/ai-own-hard-problem.md) --uses_concept-->
   - [claim-closing-access-gap-leaves-phenomenal-open](claims/closing-access-gap-leaves-phenomenal-open.md) --uses_concept-->
+  - [claim-consciousness-is-cerebral-celebrity](claims/consciousness-is-cerebral-celebrity.md) --uses_concept-->
   - [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md) --uses_concept-->
   - [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
@@ -1538,9 +1699,12 @@
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --uses_concept-->
   - [argument-causal-exclusion](arguments/causal-exclusion.md) --uses_concept-->
+  - [argument-exclusion-generalizes](arguments/exclusion-generalizes.md) --uses_concept-->
   - [claim-irreducible-mental-causally-excluded](claims/irreducible-mental-causally-excluded.md) --uses_concept-->
+  - [claim-mental-causes-are-difference-makers](claims/mental-causes-are-difference-makers.md) --uses_concept-->
   - [claim-mental-is-physical](claims/mental-is-physical.md) --uses_concept-->
   - [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md) --uses_concept-->
+  - [position-anomalous-monism](positions/anomalous-monism.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
   - [question-mental-causation](questions/mental-causation.md) --uses_concept-->
 
@@ -1618,11 +1782,14 @@
 - backlinks:
   - [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md) --uses_concept-->
   - [argument-fading-qualia](arguments/fading-qualia.md) --uses_concept-->
+  - [argument-fission](arguments/fission.md) --uses_concept-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --uses_concept-->
   - [argument-parfit-rewiring](arguments/parfit-rewiring.md) --uses_concept-->
   - [argument-sorites-paradox](arguments/sorites-paradox.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
+  - [claim-identity-is-psychological-continuity](claims/identity-is-psychological-continuity.md) --uses_concept-->
   - [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md) --uses_concept-->
+  - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --uses_concept-->
   - [question-personal-identity](questions/personal-identity.md) --uses_concept-->
 
 ## [concept-criterion-gaming](concepts/criterion-gaming.md)
@@ -1654,10 +1821,14 @@
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --uses_concept-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --uses_concept-->
   - [argument-first-person-access](arguments/first-person-access.md) --uses_concept-->
+  - [argument-introspective-confabulation](arguments/introspective-confabulation.md) --uses_concept-->
+  - [argument-no-appearance-reality-gap](arguments/no-appearance-reality-gap.md) --uses_concept-->
   - [claim-access-gap-symmetric](claims/access-gap-symmetric.md) --uses_concept-->
   - [claim-access-grounds-moral-status-asymmetry](claims/access-grounds-moral-status-asymmetry.md) --uses_concept-->
   - [claim-access-grounds-no-asymmetry](claims/access-grounds-no-asymmetry.md) --uses_concept-->
   - [claim-acquaintance-necessary-for-moral-status-warrant](claims/acquaintance-necessary-for-moral-status-warrant.md) --uses_concept-->
+  - [claim-introspection-is-fallible-representation](claims/introspection-is-fallible-representation.md) --uses_concept-->
+  - [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md) --uses_concept-->
   - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md) --uses_concept-->
   - [claim-privileged-first-person-access](claims/privileged-first-person-access.md) --uses_concept-->
@@ -1837,13 +2008,20 @@
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --uses_concept-->
   - [argument-dispositionalist-reply](arguments/dispositionalist-reply.md) --uses_concept-->
   - [argument-kripke-rule-following](arguments/kripke-rule-following.md) --uses_concept-->
+  - [argument-swampman](arguments/swampman.md) --uses_concept-->
+  - [argument-teleosemantics-explains-misrepresentation](arguments/teleosemantics-explains-misrepresentation.md) --uses_concept-->
   - [claim-brains-cause-minds](claims/brains-cause-minds.md) --uses_concept-->
+  - [claim-intentional-content-from-biological-function](claims/intentional-content-from-biological-function.md) --uses_concept-->
+  - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --uses_concept-->
+  - [claim-intentionality-is-stance-relative](claims/intentionality-is-stance-relative.md) --uses_concept-->
   - [claim-llm-text-yields-human-aligned-representations](claims/llm-text-yields-human-aligned-representations.md) --uses_concept-->
   - [claim-meaning-constituted-by-dispositions](claims/meaning-constituted-by-dispositions.md) --uses_concept-->
   - [claim-minds-have-semantics](claims/minds-have-semantics.md) --uses_concept-->
   - [claim-no-constitutive-fact-of-meaning](claims/no-constitutive-fact-of-meaning.md) --uses_concept-->
   - [concept-intrinsic-derived-intentionality](concepts/intrinsic-derived-intentionality.md) --uses_concept-->
   - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
+  - [position-intentional-stance](positions/intentional-stance.md) --uses_concept-->
+  - [position-teleosemantics](positions/teleosemantics.md) --uses_concept-->
   - [question-intentionality](questions/intentionality.md) --uses_concept-->
 
 ## [concept-intrinsic-derived-intentionality](concepts/intrinsic-derived-intentionality.md)
@@ -1853,6 +2031,11 @@
   - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --uses_concept-->
   - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --uses_concept-->
   - [argument-robot-reply](arguments/robot-reply.md) --uses_concept-->
+  - [claim-intentional-content-from-biological-function](claims/intentional-content-from-biological-function.md) --uses_concept-->
+  - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --uses_concept-->
+  - [claim-intentionality-is-stance-relative](claims/intentionality-is-stance-relative.md) --uses_concept-->
+  - [position-intentional-stance](positions/intentional-stance.md) --uses_concept-->
+  - [position-teleosemantics](positions/teleosemantics.md) --uses_concept-->
   - [question-intentionality](questions/intentionality.md) --uses_concept-->
 
 ## [concept-intrinsic-structural-distinction](concepts/intrinsic-structural-distinction.md)
@@ -1885,6 +2068,21 @@
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
+
+## [concept-j-space](concepts/j-space.md)
+- type: concept | author: gurnee | status: asserted
+- backlinks:
+  - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --uses_concept-->
+  - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --uses_concept-->
+  - [claim-j-space-ablation-experiential-language](claims/j-space-ablation-experiential-language.md) --uses_concept-->
+  - [claim-j-space-directed-modulation](claims/j-space-directed-modulation.md) --uses_concept-->
+  - [claim-j-space-flexible-generalization](claims/j-space-flexible-generalization.md) --uses_concept-->
+  - [claim-j-space-internal-reasoning](claims/j-space-internal-reasoning.md) --uses_concept-->
+  - [claim-j-space-selectivity](claims/j-space-selectivity.md) --uses_concept-->
+  - [claim-j-space-verbal-report](claims/j-space-verbal-report.md) --uses_concept-->
+  - [claim-llm-global-workspace](claims/llm-global-workspace.md) --uses_concept-->
+  - [claim-workspace-convergent-architecture](claims/workspace-convergent-architecture.md) --uses_concept-->
+  - [claim-workspace-precedes-self](claims/workspace-precedes-self.md) --uses_concept-->
 
 ## [concept-jo-cameron](concepts/jo-cameron.md)
 - type: concept | author: generic | status: asserted
@@ -2025,6 +2223,7 @@
 ## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --uses_concept-->
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
@@ -2108,6 +2307,7 @@
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
+  - [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
 
 ## [concept-validity](concepts/validity.md)
@@ -2122,6 +2322,12 @@
   - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --uses_concept-->
   - [claim-sim-agents-can-have-sim-qualia](claims/sim-agents-can-have-sim-qualia.md) --uses_concept-->
   - [claim-simulated-rain-wet-in-simulated-world](claims/simulated-rain-wet-in-simulated-world.md) --uses_concept-->
+
+## [position-animalism](positions/animalism.md)
+- type: position | author: olson | status: asserted
+
+## [position-anomalous-monism](positions/anomalous-monism.md)
+- type: position | author: davidson | status: asserted
 
 ## [position-biological-naturalism](positions/biological-naturalism.md)
 - type: position | author: searle | status: asserted
@@ -2191,6 +2397,9 @@
 ## [position-integrated-information-theory](positions/integrated-information-theory.md)
 - type: position | author: tononi | status: asserted
 
+## [position-intentional-stance](positions/intentional-stance.md)
+- type: position | author: dennett | status: asserted
+
 ## [position-libertarianism](positions/libertarianism.md)
 - type: position | author: generic | status: asserted
 
@@ -2214,11 +2423,17 @@
 - backlinks:
   - [character-cyril](characters/cyril.md) --holds-->
 
+## [position-psychological-continuity-theory](positions/psychological-continuity-theory.md)
+- type: position | author: generic | status: asserted
+
 ## [position-representationalism](positions/representationalism.md)
 - type: position | author: tye | status: asserted
 
 ## [position-russellian-monism](positions/russellian-monism.md)
 - type: position | author: russell | status: asserted
+
+## [position-teleosemantics](positions/teleosemantics.md)
+- type: position | author: millikan | status: asserted
 
 ## [position-type-a-materialism](positions/type-a-materialism.md)
 - type: position | author: chalmers | status: asserted
@@ -2234,6 +2449,9 @@
 
 ## [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md)
 - type: question | author: generic | status: contested
+- backlinks:
+  - [claim-introspection-is-fallible-representation](claims/introspection-is-fallible-representation.md) --answers-->
+  - [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md) --answers-->
 
 ## [question-external-world-knowledge](questions/external-world-knowledge.md)
 - type: question | author: generic | status: asserted
@@ -2289,6 +2507,12 @@
 
 ## [question-intentionality](questions/intentionality.md)
 - type: question | author: generic | status: asserted
+- backlinks:
+  - [claim-intentional-content-from-biological-function](claims/intentional-content-from-biological-function.md) --answers-->
+  - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --answers-->
+  - [claim-intentionality-is-stance-relative](claims/intentionality-is-stance-relative.md) --answers-->
+  - [position-intentional-stance](positions/intentional-stance.md) --answers-->
+  - [position-teleosemantics](positions/teleosemantics.md) --answers-->
 
 ## [question-llm-moral-status](questions/llm-moral-status.md)
 - type: question | author: mishka | status: asserted
@@ -2307,9 +2531,22 @@
 
 ## [question-mental-causation](questions/mental-causation.md)
 - type: question | author: generic | status: asserted
+- backlinks:
+  - [claim-mental-causes-are-difference-makers](claims/mental-causes-are-difference-makers.md) --answers-->
+  - [claim-mental-is-physical](claims/mental-is-physical.md) --answers-->
+  - [position-anomalous-monism](positions/anomalous-monism.md) --answers-->
+  - [position-epiphenomenalism](positions/epiphenomenalism.md) --answers-->
+  - [position-type-identity](positions/type-identity.md) --answers-->
 
 ## [question-personal-identity](questions/personal-identity.md)
 - type: question | author: generic | status: asserted
+- backlinks:
+  - [claim-identity-is-biological-continuity](claims/identity-is-biological-continuity.md) --answers-->
+  - [claim-identity-is-further-fact](claims/identity-is-further-fact.md) --answers-->
+  - [claim-identity-is-psychological-continuity](claims/identity-is-psychological-continuity.md) --answers-->
+  - [claim-identity-not-what-matters](claims/identity-not-what-matters.md) --answers-->
+  - [position-animalism](positions/animalism.md) --answers-->
+  - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --answers-->
 
 ## [question-substrate-independence](questions/substrate-independence.md)
 - type: question | author: mishka | status: contested
@@ -2367,6 +2604,9 @@
 ## [source-block-1995](sources/block-1995.md)
 - type: source | author: mishka | status: asserted
 
+## [source-block-2003](sources/block-2003.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-block-2007](sources/block-2007.md)
 - type: source | author: mishka | status: asserted
 
@@ -2374,6 +2614,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-breuer-1995](sources/breuer-1995.md)
+- type: source | author: mishka | status: asserted
+
+## [source-butlin-2023](sources/butlin-2023.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-carnap-1950](sources/carnap-1950.md)
@@ -2433,13 +2676,25 @@
 ## [source-conee-1994](sources/conee-1994.md)
 - type: source | author: mishka | status: asserted
 
+## [source-davidson-1970](sources/davidson-1970.md)
+- type: source | author: mishka | status: asserted
+
+## [source-davidson-1987](sources/davidson-1987.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dehaene-naccache-2001](sources/dehaene-naccache-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dennett-1987](sources/dennett-1987.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-1988](sources/dennett-1988.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-1991](sources/dennett-1991.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dennett-1993](sources/dennett-1993.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-2005](sources/dennett-2005.md)
@@ -2532,16 +2787,28 @@
 ## [source-gurnee-2023](sources/gurnee-2023.md)
 - type: source | author: mishka | status: asserted
 
+## [source-gurnee-2026-workspace](sources/gurnee-2026-workspace.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-habib-2019](sources/habib-2019.md)
 - type: source | author: mishka | status: asserted
 
+## [source-haidt-2001](sources/haidt-2001.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-harman-1990](sources/harman-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-hauser-2006](sources/hauser-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-hoffman-2008](sources/hoffman-2008.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-horgan-1984](sources/horgan-1984.md)
+- type: source | author: mishka | status: asserted
+
+## [source-horgan-tienson-2002](sources/horgan-tienson-2002.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-hosten-2006](sources/hosten-2006.md)
@@ -2613,6 +2880,9 @@
 ## [source-lindsey-introspection-2025](sources/lindsey-introspection-2025.md)
 - type: source | author: mishka | status: asserted
 
+## [source-list-menzies-2009](sources/list-menzies-2009.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-liu-cixin](sources/liu-cixin.md)
 - type: source | author: mishka | status: asserted
 
@@ -2652,6 +2922,9 @@
 ## [source-metzinger-2003](sources/metzinger-2003.md)
 - type: source | author: mishka | status: asserted
 
+## [source-millikan-1984](sources/millikan-1984.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-mitchison-jozsa-2001](sources/mitchison-jozsa-2001.md)
 - type: source | author: mishka | status: asserted
 
@@ -2671,6 +2944,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-nemirow-1990](sources/nemirow-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-nisbett-wilson-1977](sources/nisbett-wilson-1977.md)
+- type: source | author: mishka | status: asserted
+
+## [source-olson-1997](sources/olson-1997.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-papineau-2002](sources/papineau-2002.md)
@@ -2761,6 +3040,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-shani-2015](sources/shani-2015.md)
+- type: source | author: mishka | status: asserted
+
+## [source-shoemaker-1963](sources/shoemaker-1963.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-smart-1959](sources/smart-1959.md)
