@@ -5,6 +5,7 @@ title: Room in the robot — the man manipulates the robot's symbols and still a
 headword: Room in the robot
 author: searle
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, ai, semantics]
 responds_to: [argument-robot-reply]
 supports: [claim-syntax-insufficient-for-semantics]

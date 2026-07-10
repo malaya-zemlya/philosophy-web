@@ -5,6 +5,7 @@ title: The Brain Simulator Reply — simulate the neuron firings of a real Chine
 headword: Brain simulator reply
 author: generic
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, ai, neuroscience]
 attacks: [claim-syntax-insufficient-for-semantics]
 uses_concept: [concept-chinese-room, concept-chinese-nation]

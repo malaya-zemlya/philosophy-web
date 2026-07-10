@@ -27,6 +27,9 @@
 ## [argument-ambient-consciousness-collapse](arguments/ambient-consciousness-collapse.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-anti-zombie-parity](arguments/anti-zombie-parity.md)
+- type: argument | author: frankish | status: asserted
+
 ## [argument-aoe2-anthropomorphism](arguments/aoe2-anthropomorphism.md)
 - type: argument | author: dewynter | status: asserted
 
@@ -40,6 +43,8 @@
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --responds_to-->
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --attacks-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --responds_to-->
+  - [argument-trained-mimicry-rival](arguments/trained-mimicry-rival.md) --attacks-->
+  - [argument-trained-mimicry-rival](arguments/trained-mimicry-rival.md) --responds_to-->
 
 ## [argument-bike-rider-learns-facts](arguments/bike-rider-learns-facts.md)
 - type: argument | author: stanley | status: asserted
@@ -115,6 +120,9 @@
 - backlinks:
   - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --supports-->
   - [argument-rejoinder-chinese-gym](arguments/rejoinder-chinese-gym.md) --responds_to-->
+
+## [argument-conscious-usa-counter-analogy](arguments/conscious-usa-counter-analogy.md)
+- type: argument | author: schwitzgebel | status: asserted
 
 ## [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md)
 - type: argument | author: mishka | status: asserted
@@ -236,8 +244,12 @@
   - [argument-indexical-reply](arguments/indexical-reply.md) --responds_to-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --attacks-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --responds_to-->
+  - [argument-mary-equivocation](arguments/mary-equivocation.md) --attacks-->
+  - [argument-mary-equivocation](arguments/mary-equivocation.md) --responds_to-->
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --responds_to-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --responds_to-->
+  - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --attacks-->
+  - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --responds_to-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --attacks-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --responds_to-->
 
@@ -285,11 +297,17 @@
 - backlinks:
   - [argument-rejoinder-trivializes-strong-ai](arguments/rejoinder-trivializes-strong-ai.md) --responds_to-->
 
+## [argument-mary-equivocation](arguments/mary-equivocation.md)
+- type: argument | author: churchland | status: asserted
+
 ## [argument-mary-misimagined](arguments/mary-misimagined.md)
 - type: argument | author: dennett | status: asserted
 
 ## [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-mary-scope-reply](arguments/mary-scope-reply.md)
+- type: argument | author: horgan | status: asserted
 
 ## [argument-modal-rationalism](arguments/modal-rationalism.md)
 - type: argument | author: chalmers | status: asserted
@@ -395,6 +413,8 @@
 
 ## [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md)
 - type: argument | author: mishka | status: asserted
+- backlinks:
+  - [argument-two-sided-precaution](arguments/two-sided-precaution.md) --attacks-->
 
 ## [argument-robot-reply](arguments/robot-reply.md)
 - type: argument | author: generic | status: asserted
@@ -434,6 +454,9 @@
 
 ## [argument-subjects-can-combine](arguments/subjects-can-combine.md)
 - type: argument | author: mishka | status: asserted
+- backlinks:
+  - [argument-conscious-usa-counter-analogy](arguments/conscious-usa-counter-analogy.md) --attacks-->
+  - [argument-conscious-usa-counter-analogy](arguments/conscious-usa-counter-analogy.md) --responds_to-->
 
 ## [argument-swampman](arguments/swampman.md)
 - type: argument | author: generic | status: asserted
@@ -449,11 +472,23 @@
 ## [argument-too-many-thinkers](arguments/too-many-thinkers.md)
 - type: argument | author: olson | status: asserted
 
+## [argument-trained-mimicry-rival](arguments/trained-mimicry-rival.md)
+- type: argument | author: bender | status: asserted
+
 ## [argument-transplant-intuition](arguments/transplant-intuition.md)
 - type: argument | author: shoemaker | status: asserted
 
+## [argument-two-sided-precaution](arguments/two-sided-precaution.md)
+- type: argument | author: schwitzgebel | status: asserted
+
+## [argument-undivided-split-brain](arguments/undivided-split-brain.md)
+- type: argument | author: pinto | status: asserted
+
 ## [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-unforgeability-proxy](arguments/unforgeability-proxy.md)
+- type: argument | author: birch | status: asserted
 
 ## [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md)
 - type: argument | author: mishka | status: asserted
@@ -549,6 +584,11 @@
   - [argument-disappearing-agent](arguments/disappearing-agent.md) --presupposes-->
   - [position-hard-determinism](positions/hard-determinism.md) --rejects-->
   - [position-libertarianism](positions/libertarianism.md) --commits_to-->
+
+## [claim-anti-zombie-conceivable](claims/anti-zombie-conceivable.md)
+- type: claim | author: frankish | status: asserted
+- backlinks:
+  - [argument-anti-zombie-parity](arguments/anti-zombie-parity.md) --premise-->
 
 ## [claim-aposteriori-necessities-are-misdescribed-possibilities](claims/aposteriori-necessities-are-misdescribed-possibilities.md)
 - type: claim | author: chalmers | status: asserted
@@ -659,6 +699,7 @@
 ## [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md)
 - type: claim | author: chalmers | status: contested
 - backlinks:
+  - [argument-anti-zombie-parity](arguments/anti-zombie-parity.md) --attacks-->
   - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --attacks-->
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --concludes-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --premise-->
@@ -840,6 +881,7 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --premise-->
+  - [argument-unforgeability-proxy](arguments/unforgeability-proxy.md) --attacks-->
 
 ## [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md)
 - type: claim | author: mishka | status: asserted
@@ -1098,6 +1140,11 @@
   - [character-cyril](characters/cyril.md) --rejects-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --rejects-->
+
+## [claim-llm-mimicry-rival](claims/llm-mimicry-rival.md)
+- type: claim | author: bender | status: asserted
+- backlinks:
+  - [argument-trained-mimicry-rival](arguments/trained-mimicry-rival.md) --premise-->
 
 ## [claim-llm-text-yields-human-aligned-representations](claims/llm-text-yields-human-aligned-representations.md)
 - type: claim | author: mishka | status: asserted
@@ -1368,6 +1415,11 @@
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --premise-->
   - [character-cyril](characters/cyril.md) --commits_to-->
 
+## [claim-precaution-is-two-sided](claims/precaution-is-two-sided.md)
+- type: claim | author: birch | status: asserted
+- backlinks:
+  - [argument-two-sided-precaution](arguments/two-sided-precaution.md) --premise-->
+
 ## [claim-privileged-first-person-access](claims/privileged-first-person-access.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1491,6 +1543,7 @@
 - type: claim | author: kripke | status: asserted
 - backlinks:
   - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --premise-->
+  - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --presupposes-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --presupposes-->
 
 ## [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md)
@@ -1508,6 +1561,11 @@
 - backlinks:
   - [position-hylomorphism](positions/hylomorphism.md) --commits_to-->
 
+## [claim-split-brain-single-subject](claims/split-brain-single-subject.md)
+- type: claim | author: pinto | status: asserted
+- backlinks:
+  - [argument-undivided-split-brain](arguments/undivided-split-brain.md) --premise-->
+
 ## [claim-strong-emergence-is-acceptable](claims/strong-emergence-is-acceptable.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -1522,6 +1580,7 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --premise-->
+  - [argument-undivided-split-brain](arguments/undivided-split-brain.md) --attacks-->
 
 ## [claim-substrate-independence](claims/substrate-independence.md)
 - type: claim | author: putnam | status: contested
@@ -1796,9 +1855,12 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-rights-sign-forgeable](arguments/rights-sign-forgeable.md) --uses_concept-->
+  - [argument-two-sided-precaution](arguments/two-sided-precaution.md) --uses_concept-->
   - [argument-unforgeability-is-not-flesh](arguments/unforgeability-is-not-flesh.md) --uses_concept-->
+  - [argument-unforgeability-proxy](arguments/unforgeability-proxy.md) --uses_concept-->
   - [claim-biology-currently-unforgeable](claims/biology-currently-unforgeable.md) --uses_concept-->
   - [claim-forgeable-sign-unfit-as-criterion](claims/forgeable-sign-unfit-as-criterion.md) --uses_concept-->
+  - [claim-precaution-is-two-sided](claims/precaution-is-two-sided.md) --uses_concept-->
   - [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md) --uses_concept-->
   - [claim-prudence-tracks-unforgeability-not-flesh](claims/prudence-tracks-unforgeability-not-flesh.md) --uses_concept-->
   - [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md) --uses_concept-->
@@ -1865,6 +1927,7 @@
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --uses_concept-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --uses_concept-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --uses_concept-->
+  - [argument-trained-mimicry-rival](arguments/trained-mimicry-rival.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md) --uses_concept-->
   - [claim-consciousness-is-biological-feature](claims/consciousness-is-biological-feature.md) --uses_concept-->
@@ -2096,8 +2159,10 @@
   - [argument-indexical-reply](arguments/indexical-reply.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
+  - [argument-mary-equivocation](arguments/mary-equivocation.md) --uses_concept-->
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --uses_concept-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --uses_concept-->
+  - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --uses_concept-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --uses_concept-->
   - [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md) --uses_concept-->
   - [claim-mary-gains-acquaintance](claims/mary-gains-acquaintance.md) --uses_concept-->
@@ -2143,7 +2208,9 @@
 ## [concept-materialism-types](concepts/materialism-types.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
+  - [argument-anti-zombie-parity](arguments/anti-zombie-parity.md) --uses_concept-->
   - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --uses_concept-->
+  - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --uses_concept-->
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
   - [claim-conceivability-entails-possibility](claims/conceivability-entails-possibility.md) --uses_concept-->
@@ -2201,6 +2268,7 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [argument-combination-problem](arguments/combination-problem.md) --uses_concept-->
+  - [argument-conscious-usa-counter-analogy](arguments/conscious-usa-counter-analogy.md) --uses_concept-->
   - [argument-genetic-panpsychism](arguments/genetic-panpsychism.md) --uses_concept-->
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --uses_concept-->
   - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --uses_concept-->
@@ -2231,10 +2299,12 @@
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
+  - [argument-anti-zombie-parity](arguments/anti-zombie-parity.md) --uses_concept-->
   - [argument-conceivability-not-guide-to-possibility](arguments/conceivability-not-guide-to-possibility.md) --uses_concept-->
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
+  - [claim-anti-zombie-conceivable](claims/anti-zombie-conceivable.md) --uses_concept-->
   - [claim-ideal-conceivability-is-apriori-consistency](claims/ideal-conceivability-is-apriori-consistency.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
   - [claim-zombie-dualizes-to-volitional-zombie](claims/zombie-dualizes-to-volitional-zombie.md) --uses_concept-->
@@ -2589,10 +2659,19 @@
 ## [source-baars-1988](sources/baars-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-bender-2021](sources/bender-2021.md)
+- type: source | author: mishka | status: asserted
+
+## [source-bender-koller-2020](sources/bender-koller-2020.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-berkeley-1710](sources/berkeley-1710.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-berthier-1988](sources/berthier-1988.md)
+- type: source | author: mishka | status: asserted
+
+## [source-birch-2024](sources/birch-2024.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-block](sources/block.md)
@@ -2659,6 +2738,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-churchland-1981](sources/churchland-1981.md)
+- type: source | author: mishka | status: asserted
+
+## [source-churchland-1985](sources/churchland-1985.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-churchland-1990](sources/churchland-1990.md)
@@ -2749,6 +2831,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-frankfurt-1969](sources/frankfurt-1969.md)
+- type: source | author: mishka | status: asserted
+
+## [source-frankish-2007](sources/frankish-2007.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-frankish-2016](sources/frankish-2016.md)
@@ -2976,6 +3061,9 @@
 ## [source-perry-2001](sources/perry-2001.md)
 - type: source | author: mishka | status: asserted
 
+## [source-pinto-2017](sources/pinto-2017.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-place-1956](sources/place-1956.md)
 - type: source | author: mishka | status: asserted
 
@@ -3022,6 +3110,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-schlick-1939](sources/schlick-1939.md)
+- type: source | author: mishka | status: asserted
+
+## [source-schwitzgebel-2015](sources/schwitzgebel-2015.md)
+- type: source | author: mishka | status: asserted
+
+## [source-schwitzgebel-garza-2015](sources/schwitzgebel-garza-2015.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-seager-2006](sources/seager-2006.md)

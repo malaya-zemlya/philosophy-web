@@ -5,6 +5,7 @@ title: The bad-explanation argument against solipsism — it reconstructs realis
 headword: Deutsch's anti-solipsism
 author: deutsch
 status: asserted
+pattern: best-explanation
 tags: [epistemology, skepticism, metaphysics, explanation]
 premise: [claim-solipsism-parasitic-on-realism, claim-good-explanation-is-hard-to-vary]
 concludes: claim-external-world-exists

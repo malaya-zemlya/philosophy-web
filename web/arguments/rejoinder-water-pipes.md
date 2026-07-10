@@ -5,6 +5,7 @@ title: The water-pipe brain — simulating the form of neural firing reproduces 
 headword: Water pipes
 author: searle
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, ai, neuroscience]
 responds_to: [argument-brain-simulator-reply]
 supports: [claim-syntax-insufficient-for-semantics]

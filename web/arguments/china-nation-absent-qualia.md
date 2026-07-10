@@ -5,6 +5,7 @@ title: The Chinese Nation realises the organisation yet lacks qualia — organis
 headword: Chinese nation (absent qualia)
 author: block
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, functionalism, consciousness]
 premise: [claim-chinese-nation-realises-organisation, claim-chinese-nation-lacks-qualia]
 supports: [claim-phenomenal-residue]

@@ -5,6 +5,7 @@ title: The LLM-representations reply — actual text-trained models build human-
 headword: LLM-representations reply
 author: mishka
 status: asserted
+pattern: best-explanation
 tags: [ai, philosophy-of-mind, cognitive-science, semantics]
 premise: [claim-llm-text-yields-human-aligned-representations]
 attacks: [claim-syntax-insufficient-for-semantics]

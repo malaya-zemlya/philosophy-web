@@ -5,6 +5,7 @@ title: The explanatory gap is evidence against uniform substrate-independence
 headword: Explanatory-gap argument
 author: mishka
 status: asserted
+pattern: best-explanation
 tags: [philosophy-of-mind, consciousness, bayesian]
 premise: [claim-phenomenal-residue]
 concludes: claim-phenomenal-residue

@@ -5,6 +5,7 @@ title: The intrinsic-nature argument — matter's hidden categorical nature is e
 headword: Intrinsic-nature argument
 author: seager
 status: asserted
+pattern: best-explanation
 tags: [philosophy-of-mind, consciousness, metaphysics, panpsychism]
 premise: [claim-functional-description-structural-dynamical-only, claim-relations-grounded-in-intrinsic, claim-consciousness-is-intrinsic-property, claim-consciousness-only-known-intrinsic, claim-no-radical-emergence]
 concludes: claim-consciousness-fundamental-ubiquitous

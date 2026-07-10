@@ -53,6 +53,7 @@ short slug, the doubt it raises, and *what it attacks*) + **Notes** on typical u
 ## The library
 | id | move |
 |----|------|
+| `best-explanation` | infer the hypothesis that best explains the evidence |
 | `expert-opinion`   | appeal to a relevant authority |
 | `analogy`          | transfer a verdict between similar cases |
 | `cause-to-effect`  | predict/explain via a causal generalisation |

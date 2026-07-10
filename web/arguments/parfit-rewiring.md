@@ -5,6 +5,7 @@ title: Gradual psychological rewiring (Parfit's spectrum) forces identity to adm
 headword: Parfit's rewiring spectrum
 author: parfit
 status: asserted
+pattern: thought-experiment
 tags: [personal-identity, sorites]
 premise: [claim-psychological-rewiring-tolerance]
 concludes: claim-personal-identity-admits-of-degree

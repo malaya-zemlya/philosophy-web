@@ -5,6 +5,7 @@ title: A rights-granting behavioural sign will be forged, so caution favours the
 headword: Forgeable rights-sign
 author: mishka
 status: asserted
+pattern: consequences
 tags: [ai-rights, metaethics, ai-safety]
 premise: [claim-rights-criterion-will-be-gamed, claim-forgeable-sign-unfit-as-criterion, claim-biology-currently-unforgeable]
 concludes: claim-prudence-favors-flesh-criterion

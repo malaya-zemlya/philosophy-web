@@ -5,6 +5,7 @@ title: The Other Minds Reply — we attribute understanding to others on behavio
 headword: Other minds reply
 author: generic
 status: asserted
+pattern: analogy
 tags: [philosophy-of-mind, ai, epistemology]
 attacks: [argument-chinese-room-derivation]
 uses_concept: [concept-chinese-room]

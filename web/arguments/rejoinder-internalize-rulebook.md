@@ -5,6 +5,7 @@ title: Internalise the rulebook — the person becomes the whole system and stil
 headword: Internalise the rulebook
 author: searle
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, ai, functionalism]
 responds_to: [argument-systems-reply]
 supports: [argument-chinese-room-derivation]

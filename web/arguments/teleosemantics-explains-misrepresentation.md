@@ -5,6 +5,7 @@ title: Only function-based content earns a principled distinction between meanin
 headword: Misrepresentation argument for teleosemantics
 author: millikan
 status: asserted
+pattern: best-explanation
 tags: [philosophy-of-mind, intentionality, teleosemantics]
 supports: [claim-intentional-content-from-biological-function]
 uses_concept: [concept-intentionality]

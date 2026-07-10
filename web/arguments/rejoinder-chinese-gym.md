@@ -5,6 +5,7 @@ title: The Chinese Gym — a parallel crowd of clerks understands no more than o
 headword: Chinese gym
 author: searle
 status: asserted
+pattern: thought-experiment
 tags: [philosophy-of-mind, ai, connectionism]
 responds_to: [argument-connectionist-reply]
 supports: [argument-chinese-room-derivation]
