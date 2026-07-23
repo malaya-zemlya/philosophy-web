@@ -60,6 +60,9 @@
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --responds_to-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --responds_to-->
 
+## [argument-brain-headroom](arguments/brain-headroom.md)
+- type: argument | author: chalmers | status: asserted
+
 ## [argument-brain-simulator-reply](arguments/brain-simulator-reply.md)
 - type: argument | author: generic | status: asserted
 - backlinks:
@@ -165,6 +168,9 @@
 ## [argument-deutsch-anti-solipsism](arguments/deutsch-anti-solipsism.md)
 - type: argument | author: deutsch | status: asserted
 
+## [argument-diminishing-returns-objection](arguments/diminishing-returns-objection.md)
+- type: argument | author: chollet | status: asserted
+
 ## [argument-disappearing-agent](arguments/disappearing-agent.md)
 - type: argument | author: pereboom | status: asserted
 
@@ -212,11 +218,19 @@
 - backlinks:
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --responds_to-->
 
+## [argument-goal-reflection-objection](arguments/goal-reflection-objection.md)
+- type: argument | author: pinker | status: contested
+- backlinks:
+  - [argument-humean-defense-of-orthogonality](arguments/humean-defense-of-orthogonality.md) --responds_to-->
+
 ## [argument-graded-polarity](arguments/graded-polarity.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-humean-defense-of-orthogonality](arguments/humean-defense-of-orthogonality.md)
+- type: argument | author: bostrom | status: asserted
 
 ## [argument-indexical-reply](arguments/indexical-reply.md)
 - type: argument | author: perry | status: asserted
@@ -232,6 +246,11 @@
 
 ## [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md)
 - type: argument | author: mishka | status: asserted
+
+## [argument-just-turn-it-off](arguments/just-turn-it-off.md)
+- type: argument | author: generic | status: contested
+- backlinks:
+  - [argument-shutdown-avoidance](arguments/shutdown-avoidance.md) --responds_to-->
 
 ## [argument-knowledge-argument](arguments/knowledge-argument.md)
 - type: argument | author: jackson | status: asserted
@@ -320,6 +339,9 @@
 - backlinks:
   - [argument-moore-proof-begs-the-question](arguments/moore-proof-begs-the-question.md) --attacks-->
 
+## [argument-multidimensionality-objection](arguments/multidimensionality-objection.md)
+- type: argument | author: kelly | status: asserted
+
 ## [argument-munchhausen-trilemma](arguments/munchhausen-trilemma.md)
 - type: argument | author: generic | status: asserted
 
@@ -365,6 +387,11 @@
 - backlinks:
   - [argument-rejoinder-attribution-vs-detection](arguments/rejoinder-attribution-vs-detection.md) --responds_to-->
 
+## [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md)
+- type: argument | author: bostrom | status: contested
+- backlinks:
+  - [argument-just-turn-it-off](arguments/just-turn-it-off.md) --attacks-->
+
 ## [argument-parfit-rewiring](arguments/parfit-rewiring.md)
 - type: argument | author: parfit | status: asserted
 
@@ -372,6 +399,11 @@
 - type: argument | author: mishka | status: asserted
 - backlinks:
   - [character-alvin](characters/alvin.md) --holds-->
+
+## [argument-proportionality-thesis](arguments/proportionality-thesis.md)
+- type: argument | author: good | status: contested
+- backlinks:
+  - [argument-diminishing-returns-objection](arguments/diminishing-returns-objection.md) --attacks-->
 
 ## [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md)
 - type: argument | author: mishka | status: asserted
@@ -436,6 +468,9 @@
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --attacks-->
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --responds_to-->
   - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --attacks-->
+
+## [argument-shutdown-avoidance](arguments/shutdown-avoidance.md)
+- type: argument | author: stuart-russell | status: asserted
 
 ## [argument-sorites-paradox](arguments/sorites-paradox.md)
 - type: argument | author: eubulides | status: asserted
@@ -1009,6 +1044,28 @@
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --supports-->
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --premise-->
 
+## [claim-instrumental-convergence-thesis](claims/instrumental-convergence-thesis.md)
+- type: claim | author: omohundro | status: asserted
+- backlinks:
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --premise-->
+  - [argument-shutdown-avoidance](arguments/shutdown-avoidance.md) --premise-->
+
+## [claim-intelligence-entails-goal-convergence](claims/intelligence-entails-goal-convergence.md)
+- type: claim | author: pinker | status: contested
+- backlinks:
+  - [argument-goal-reflection-objection](arguments/goal-reflection-objection.md) --supports-->
+  - [argument-humean-defense-of-orthogonality](arguments/humean-defense-of-orthogonality.md) --attacks-->
+
+## [claim-intelligence-explosion-self-limiting](claims/intelligence-explosion-self-limiting.md)
+- type: claim | author: chollet | status: asserted
+- backlinks:
+  - [argument-diminishing-returns-objection](arguments/diminishing-returns-objection.md) --supports-->
+
+## [claim-intelligence-not-one-dimensional](claims/intelligence-not-one-dimensional.md)
+- type: claim | author: kelly | status: asserted
+- backlinks:
+  - [argument-multidimensionality-objection](arguments/multidimensionality-objection.md) --premise-->
+
 ## [claim-intentional-content-from-biological-function](claims/intentional-content-from-biological-function.md)
 - type: claim | author: millikan | status: asserted
 - backlinks:
@@ -1280,6 +1337,12 @@
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
   - [position-intentional-stance](positions/intentional-stance.md) --rejects-->
 
+## [claim-misaligned-superintelligence-catastrophic](claims/misaligned-superintelligence-catastrophic.md)
+- type: claim | author: bostrom | status: contested
+- backlinks:
+  - [argument-just-turn-it-off](arguments/just-turn-it-off.md) --attacks-->
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --concludes-->
+
 ## [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1331,6 +1394,13 @@
 - backlinks:
   - [argument-dancing-qualia](arguments/dancing-qualia.md) --concludes-->
   - [argument-fading-qualia](arguments/fading-qualia.md) --supports-->
+
+## [claim-orthogonality-thesis](claims/orthogonality-thesis.md)
+- type: claim | author: bostrom | status: contested
+- backlinks:
+  - [argument-goal-reflection-objection](arguments/goal-reflection-objection.md) --attacks-->
+  - [argument-humean-defense-of-orthogonality](arguments/humean-defense-of-orthogonality.md) --supports-->
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --premise-->
 
 ## [claim-perceptron-realizable-in-any-substrate](claims/perceptron-realizable-in-any-substrate.md)
 - type: claim | author: dewynter | status: asserted
@@ -1507,6 +1577,12 @@
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --concludes-->
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --premise-->
 
+## [claim-self-improvement-leads-to-explosion](claims/self-improvement-leads-to-explosion.md)
+- type: claim | author: good | status: contested
+- backlinks:
+  - [argument-diminishing-returns-objection](arguments/diminishing-returns-objection.md) --attacks-->
+  - [argument-proportionality-thesis](arguments/proportionality-thesis.md) --concludes-->
+
 ## [claim-self-model-is-part-of-state](claims/self-model-is-part-of-state.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1612,6 +1688,13 @@
   - [position-proteocentrism](positions/proteocentrism.md) --rejects-->
   - [position-type-identity](positions/type-identity.md) --rejects-->
 
+## [claim-superintelligence-physically-possible](claims/superintelligence-physically-possible.md)
+- type: claim | author: bostrom | status: contested
+- backlinks:
+  - [argument-brain-headroom](arguments/brain-headroom.md) --concludes-->
+  - [argument-multidimensionality-objection](arguments/multidimensionality-objection.md) --attacks-->
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --premise-->
+
 ## [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md)
 - type: claim | author: searle | status: asserted
 - backlinks:
@@ -1639,6 +1722,11 @@
 - backlinks:
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --premise-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
+
+## [claim-value-specification-hard](claims/value-specification-hard.md)
+- type: claim | author: yudkowsky | status: asserted
+- backlinks:
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --premise-->
 
 ## [claim-workspace-convergent-architecture](claims/workspace-convergent-architecture.md)
 - type: claim | author: gurnee | status: asserted
@@ -1864,7 +1952,9 @@
   - [claim-prudence-favors-flesh-criterion](claims/prudence-favors-flesh-criterion.md) --uses_concept-->
   - [claim-prudence-tracks-unforgeability-not-flesh](claims/prudence-tracks-unforgeability-not-flesh.md) --uses_concept-->
   - [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md) --uses_concept-->
+  - [claim-value-specification-hard](claims/value-specification-hard.md) --uses_concept-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
+  - [concept-paperclip-maximizer](concepts/paperclip-maximizer.md) --uses_concept-->
 
 ## [concept-dialectical-cogency](concepts/dialectical-cogency.md)
 - type: concept | author: generic | status: asserted
@@ -2064,6 +2154,39 @@
   - [claim-external-world-exists](claims/external-world-exists.md) --uses_concept-->
   - [position-hinge-epistemology](positions/hinge-epistemology.md) --uses_concept-->
   - [question-external-world-knowledge](questions/external-world-knowledge.md) --uses_concept-->
+
+## [concept-instrumental-convergence](concepts/instrumental-convergence.md)
+- type: concept | author: omohundro | status: asserted
+- backlinks:
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --uses_concept-->
+  - [argument-shutdown-avoidance](arguments/shutdown-avoidance.md) --uses_concept-->
+  - [claim-instrumental-convergence-thesis](claims/instrumental-convergence-thesis.md) --uses_concept-->
+  - [concept-paperclip-maximizer](concepts/paperclip-maximizer.md) --uses_concept-->
+
+## [concept-intelligence](concepts/intelligence.md)
+- type: concept | author: generic | status: contested
+- backlinks:
+  - [argument-goal-reflection-objection](arguments/goal-reflection-objection.md) --uses_concept-->
+  - [argument-humean-defense-of-orthogonality](arguments/humean-defense-of-orthogonality.md) --uses_concept-->
+  - [argument-multidimensionality-objection](arguments/multidimensionality-objection.md) --uses_concept-->
+  - [claim-intelligence-entails-goal-convergence](claims/intelligence-entails-goal-convergence.md) --uses_concept-->
+  - [claim-intelligence-not-one-dimensional](claims/intelligence-not-one-dimensional.md) --uses_concept-->
+  - [claim-orthogonality-thesis](claims/orthogonality-thesis.md) --uses_concept-->
+  - [concept-instrumental-convergence](concepts/instrumental-convergence.md) --uses_concept-->
+  - [concept-intelligence-explosion](concepts/intelligence-explosion.md) --uses_concept-->
+  - [concept-superintelligence](concepts/superintelligence.md) --uses_concept-->
+  - [question-intelligence-goal-independence](questions/intelligence-goal-independence.md) --uses_concept-->
+  - [question-superintelligence-feasibility](questions/superintelligence-feasibility.md) --uses_concept-->
+
+## [concept-intelligence-explosion](concepts/intelligence-explosion.md)
+- type: concept | author: good | status: asserted
+- backlinks:
+  - [argument-diminishing-returns-objection](arguments/diminishing-returns-objection.md) --uses_concept-->
+  - [argument-just-turn-it-off](arguments/just-turn-it-off.md) --uses_concept-->
+  - [argument-proportionality-thesis](arguments/proportionality-thesis.md) --uses_concept-->
+  - [claim-intelligence-explosion-self-limiting](claims/intelligence-explosion-self-limiting.md) --uses_concept-->
+  - [claim-self-improvement-leads-to-explosion](claims/self-improvement-leads-to-explosion.md) --uses_concept-->
+  - [question-superintelligence-feasibility](questions/superintelligence-feasibility.md) --uses_concept-->
 
 ## [concept-intentionality](concepts/intentionality.md)
 - type: concept | author: generic | status: asserted
@@ -2276,6 +2399,13 @@
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
   - [claim-combination-dualizes-to-composition-of-will](claims/combination-dualizes-to-composition-of-will.md) --uses_concept-->
 
+## [concept-paperclip-maximizer](concepts/paperclip-maximizer.md)
+- type: concept | author: bostrom | status: asserted
+- backlinks:
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --uses_concept-->
+  - [claim-misaligned-superintelligence-catastrophic](claims/misaligned-superintelligence-catastrophic.md) --uses_concept-->
+  - [question-misaligned-superintelligence](questions/misaligned-superintelligence.md) --uses_concept-->
+
 ## [concept-paradox-of-phenomenal-judgment](concepts/paradox-of-phenomenal-judgment.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
@@ -2367,6 +2497,19 @@
 
 ## [concept-super-spartan](concepts/super-spartan.md)
 - type: concept | author: putnam | status: asserted
+
+## [concept-superintelligence](concepts/superintelligence.md)
+- type: concept | author: bostrom | status: asserted
+- backlinks:
+  - [argument-brain-headroom](arguments/brain-headroom.md) --uses_concept-->
+  - [argument-multidimensionality-objection](arguments/multidimensionality-objection.md) --uses_concept-->
+  - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --uses_concept-->
+  - [claim-misaligned-superintelligence-catastrophic](claims/misaligned-superintelligence-catastrophic.md) --uses_concept-->
+  - [claim-superintelligence-physically-possible](claims/superintelligence-physically-possible.md) --uses_concept-->
+  - [concept-intelligence-explosion](concepts/intelligence-explosion.md) --uses_concept-->
+  - [concept-paperclip-maximizer](concepts/paperclip-maximizer.md) --uses_concept-->
+  - [question-misaligned-superintelligence](questions/misaligned-superintelligence.md) --uses_concept-->
+  - [question-superintelligence-feasibility](questions/superintelligence-feasibility.md) --uses_concept-->
 
 ## [concept-transcendental-argument](concepts/transcendental-argument.md)
 - type: concept | author: generic | status: asserted
@@ -2575,6 +2718,12 @@
   - [position-type-c-materialism](positions/type-c-materialism.md) --answers-->
   - [position-type-identity](positions/type-identity.md) --answers-->
 
+## [question-intelligence-goal-independence](questions/intelligence-goal-independence.md)
+- type: question | author: mishka | status: contested
+- backlinks:
+  - [claim-intelligence-entails-goal-convergence](claims/intelligence-entails-goal-convergence.md) --answers-->
+  - [claim-orthogonality-thesis](claims/orthogonality-thesis.md) --answers-->
+
 ## [question-intentionality](questions/intentionality.md)
 - type: question | author: generic | status: asserted
 - backlinks:
@@ -2608,6 +2757,11 @@
   - [position-epiphenomenalism](positions/epiphenomenalism.md) --answers-->
   - [position-type-identity](positions/type-identity.md) --answers-->
 
+## [question-misaligned-superintelligence](questions/misaligned-superintelligence.md)
+- type: question | author: mishka | status: contested
+- backlinks:
+  - [claim-misaligned-superintelligence-catastrophic](claims/misaligned-superintelligence-catastrophic.md) --answers-->
+
 ## [question-personal-identity](questions/personal-identity.md)
 - type: question | author: generic | status: asserted
 - backlinks:
@@ -2630,6 +2784,11 @@
   - [position-integrated-information-theory](positions/integrated-information-theory.md) --answers-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
   - [position-type-identity](positions/type-identity.md) --answers-->
+
+## [question-superintelligence-feasibility](questions/superintelligence-feasibility.md)
+- type: question | author: mishka | status: contested
+- backlinks:
+  - [claim-superintelligence-physically-possible](claims/superintelligence-physically-possible.md) --answers-->
 
 ## [question-what-does-mary-learn](questions/what-does-mary-learn.md)
 - type: question | author: generic | status: asserted
@@ -2689,6 +2848,15 @@
 ## [source-block-2007](sources/block-2007.md)
 - type: source | author: mishka | status: asserted
 
+## [source-bostrom-2003](sources/bostrom-2003.md)
+- type: source | author: mishka | status: asserted
+
+## [source-bostrom-2012](sources/bostrom-2012.md)
+- type: source | author: mishka | status: asserted
+
+## [source-bostrom-2014](sources/bostrom-2014.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-brentano-1874](sources/brentano-1874.md)
 - type: source | author: mishka | status: asserted
 
@@ -2725,6 +2893,9 @@
 ## [source-chalmers-2003b](sources/chalmers-2003b.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chalmers-2010](sources/chalmers-2010.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chalmers-2017](sources/chalmers-2017.md)
 - type: source | author: mishka | status: asserted
 
@@ -2735,6 +2906,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chisholm-1964](sources/chisholm-1964.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chollet-2017](sources/chollet-2017.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-churchland-1981](sources/churchland-1981.md)
@@ -2860,6 +3034,9 @@
 ## [source-goldman-1979](sources/goldman-1979.md)
 - type: source | author: mishka | status: asserted
 
+## [source-good-1966](sources/good-1966.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-goodhart](sources/goodhart.md)
 - type: source | author: mishka | status: asserted
 
@@ -2902,6 +3079,9 @@
 ## [source-hume-dialogues](sources/hume-dialogues.md)
 - type: source | author: mishka | status: asserted
 
+## [source-hume-treatise](sources/hume-treatise.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-huxley-1874](sources/huxley-1874.md)
 - type: source | author: mishka | status: asserted
 
@@ -2932,6 +3112,9 @@
 ## [source-kawakita-2024](sources/kawakita-2024.md)
 - type: source | author: mishka | status: asserted
 
+## [source-kelly-2017](sources/kelly-2017.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kim-2005](sources/kim-2005.md)
 - type: source | author: mishka | status: asserted
 
@@ -2939,6 +3122,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-kripke-1982](sources/kripke-1982.md)
+- type: source | author: mishka | status: asserted
+
+## [source-legg-hutter-2007](sources/legg-hutter-2007.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-leibniz-monadology](sources/leibniz-monadology.md)
@@ -3037,6 +3223,9 @@
 ## [source-olson-1997](sources/olson-1997.md)
 - type: source | author: mishka | status: asserted
 
+## [source-omohundro-2008](sources/omohundro-2008.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-papineau-2002](sources/papineau-2002.md)
 - type: source | author: mishka | status: asserted
 
@@ -3059,6 +3248,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-perry-2001](sources/perry-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-pinker-2018](sources/pinker-2018.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-pinto-2017](sources/pinto-2017.md)
@@ -3169,6 +3361,9 @@
 ## [source-stroud-1968](sources/stroud-1968.md)
 - type: source | author: mishka | status: asserted
 
+## [source-stuart-russell-2019](sources/stuart-russell-2019.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-tononi-2004](sources/tononi-2004.md)
 - type: source | author: mishka | status: asserted
 
@@ -3179,6 +3374,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-turing-1950](sources/turing-1950.md)
+- type: source | author: mishka | status: asserted
+
+## [source-turing-1951](sources/turing-1951.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-tye-2000](sources/tye-2000.md)
@@ -3212,4 +3410,7 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-yuan-2025](sources/yuan-2025.md)
+- type: source | author: mishka | status: asserted
+
+## [source-yudkowsky-2008](sources/yudkowsky-2008.md)
 - type: source | author: mishka | status: asserted

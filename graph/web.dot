@@ -18,6 +18,7 @@ digraph web {
   "argument-bike-rider-learns-facts" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="bike rider learns\nfacts", tooltip="The bike rider learns facts — the ability hypothesis rests on a false dichotomy", URL="../web/arguments/bike-rider-learns-facts.md"];
   "argument-blockhead-dilemma" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="blockhead dilemma", tooltip="The blockhead dilemma — physically impossible, or imaginatively under-determined", URL="../web/arguments/blockhead-dilemma.md"];
   "argument-bounded-table-rejoinder" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="bounded table\nrejoinder", tooltip="Block's bounded-table rejoinder — a lifetime-bounded table escapes the combinatorial reply", URL="../web/arguments/bounded-table-rejoinder.md"];
+  "argument-brain-headroom" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="brain headroom", tooltip="The brain is an existence proof that matter can think, and it sits far from physical limits", URL="../web/arguments/brain-headroom.md"];
   "argument-brain-simulator-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="brain simulator\nreply", tooltip="The Brain Simulator Reply — simulate the neuron firings of a real Chinese speaker", URL="../web/arguments/brain-simulator-reply.md"];
   "argument-causal-argument-for-physicalism" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="causal argument\nfor physicalism", tooltip="The causal argument for physicalism", URL="../web/arguments/causal-argument-for-physicalism.md"];
   "argument-causal-exclusion" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="causal exclusion", tooltip="Kim's causal exclusion (supervenience) argument", URL="../web/arguments/causal-exclusion.md"];
@@ -41,6 +42,7 @@ digraph web {
   "argument-decomposition-indeterminacy" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="decomposition\nindeterminacy", tooltip="The decomposition-indeterminacy objection — determinate consciousness cannot rest on observer-relative function", URL="../web/arguments/decomposition-indeterminacy.md"];
   "argument-dense-china-brain-regress" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="dense china brain\nregress", tooltip="The dense China-brain regress reopens the grain dilemma against the organisational middle", URL="../web/arguments/dense-china-brain-regress.md"];
   "argument-deutsch-anti-solipsism" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="deutsch anti\nsolipsism", tooltip="The bad-explanation argument against solipsism — it reconstructs realism and adds only surplus", URL="../web/arguments/deutsch-anti-solipsism.md"];
+  "argument-diminishing-returns-objection" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="diminishing\nreturns objection", tooltip="Returns on self-improvement diminish because problem difficulty scales and progress is bottlenecked outside the designer", URL="../web/arguments/diminishing-returns-objection.md"];
   "argument-disappearing-agent" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="disappearing agent", tooltip="Pereboom's disappearing-agent objection to event-causal libertarianism", URL="../web/arguments/disappearing-agent.md"];
   "argument-dispositionalist-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="dispositionalist\nreply", tooltip="The dispositionalist reply: meaning is fixed by idealized dispositions", URL="../web/arguments/dispositionalist-reply.md"];
   "argument-exclusion-generalizes" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="exclusion\ngeneralizes", tooltip="If causal exclusion is sound, causal powers drain away from every level above fundamental physics", URL="../web/arguments/exclusion-generalizes.md"];
@@ -52,13 +54,16 @@ digraph web {
   "argument-fission" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="fission", tooltip="Fission — psychological continuity can hold one-to-many, so it cannot be the identity relation", URL="../web/arguments/fission.md"];
   "argument-gap-deflated-by-phenomenal-concepts" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="gap deflated by\nphenomenal\nconcepts", tooltip="The explanatory gap is predicted by strong functionalism (phenomenal concepts + dancing-qualia)", URL="../web/arguments/gap-deflated-by-phenomenal-concepts.md"];
   "argument-genetic-panpsychism" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="genetic\npanpsychism", tooltip="The genetic argument — physicalism plus realism about experience entails panpsychism", URL="../web/arguments/genetic-panpsychism.md"];
+  "argument-goal-reflection-objection" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="goal reflection\nobjection", tooltip="An agent intelligent enough to master the world is intelligent enough to notice and revise a defective goal", URL="../web/arguments/goal-reflection-objection.md"];
   "argument-graded-polarity" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="graded polarity", tooltip="The graded-structure objection — attention makes experience partly exclusive, action is partly conjunctive, so the crude product/coproduct assignment idealizes both sides", URL="../web/arguments/graded-polarity.md"];
   "argument-halting-oracle-unrealizable" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="halting oracle\nunrealizable", tooltip="The halting oracle is coherent yet physically unrealizable", URL="../web/arguments/halting-oracle-unrealizable.md"];
+  "argument-humean-defense-of-orthogonality" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="humean defense of\northogonality", tooltip="Means-end rationality is indifferent to final ends, so goal-evaluation gives an agent no motive its goals do not already supply", URL="../web/arguments/humean-defense-of-orthogonality.md"];
   "argument-indexical-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="indexical reply", tooltip="The Indexical Reply — Mary learns where she is in the world, not what is in the world", URL="../web/arguments/indexical-reply.md"];
   "argument-intrinsic-nature" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="intrinsic nature", tooltip="The intrinsic-nature argument — matter's hidden categorical nature is experiential", URL="../web/arguments/intrinsic-nature.md"];
   "argument-introspective-confabulation" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="introspective\nconfabulation", tooltip="Confabulation studies show introspective reports are theory-driven constructions", URL="../web/arguments/introspective-confabulation.md"];
   "argument-introspective-gap-from-internal-limits" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="introspective gap\nfrom internal\nlimits", tooltip="A self-explanatory gap follows from limited internal access plus non-traversable self-explanation", URL="../web/arguments/introspective-gap-from-internal-limits.md"];
   "argument-intuition-domain-asymmetry" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="intuition domain\nasymmetry", tooltip="The intuition-domain asymmetry — the cosmic table is a far extrapolation, the brain-scale isomorph a near neighbour", URL="../web/arguments/intuition-domain-asymmetry.md"];
+  "argument-just-turn-it-off" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="just turn it off", tooltip="A machine that misbehaves can be shut down and its objective corrected, so misspecification is a bug, not an apocalypse", URL="../web/arguments/just-turn-it-off.md"];
   "argument-knowledge-argument" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="knowledge argument", tooltip="The Knowledge Argument — Mary learns a fact the physical description omits", URL="../web/arguments/knowledge-argument.md"];
   "argument-kripke-rule-following" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="kripke rule\nfollowing", tooltip="Kripke's Wittgenstein: the skeptical argument about rule-following and meaning", URL="../web/arguments/kripke-rule-following.md"];
   "argument-llm-representations-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="llm\nrepresentations\nreply", tooltip="The LLM-representations reply — actual text-trained models build human-aligned representations, pressing A3 empirically", URL="../web/arguments/llm-representations-reply.md"];
@@ -76,6 +81,7 @@ digraph web {
   "argument-modal-rationalism" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="modal rationalism", tooltip="Modal rationalism — ideal conceivability is a guide to possibility", URL="../web/arguments/modal-rationalism.md"];
   "argument-moore-proof-begs-the-question" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="moore proof begs\nthe question", tooltip="The circularity objection — Moore's proof begs the question against the skeptic", URL="../web/arguments/moore-proof-begs-the-question.md"];
   "argument-moore-proof-external-world" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="moore proof\nexternal world", tooltip="Moore's proof of an external world — here is a hand", URL="../web/arguments/moore-proof-external-world.md"];
+  "argument-multidimensionality-objection" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="multidimensionality\nobjection", tooltip="If intelligence is not a single dimension, \"exceeding human intelligence across all domains\" is ill-posed", URL="../web/arguments/multidimensionality-objection.md"];
   "argument-munchhausen-trilemma" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="munchhausen\ntrilemma", tooltip="The regress argument — complete justification must regress, circle, or break off", URL="../web/arguments/munchhausen-trilemma.md"];
   "argument-no-appearance-reality-gap" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="no appearance\nreality gap", tooltip="For occurrent experience the appearance is the reality, so introspection of it cannot misrepresent wholesale", URL="../web/arguments/no-appearance-reality-gap.md"];
   "argument-no-arbitrary-line-panpsychism" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="no arbitrary line\npanpsychism", tooltip="The continuity argument — no non-arbitrary line where experience switches on", URL="../web/arguments/no-arbitrary-line-panpsychism.md"];
@@ -87,8 +93,10 @@ digraph web {
   "argument-olympia-trace-specialization" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="olympia trace\nspecialization", tooltip="The Klara→Olympia transformation is trace specialization with guarded deoptimization", URL="../web/arguments/olympia-trace-specialization.md"];
   "argument-organisational-grain-dissolves-dilemma" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="organisational\ngrain dissolves\ndilemma", tooltip="The organisational grain is a principled middle that escapes both horns of the grain dilemma", URL="../web/arguments/organisational-grain-dissolves-dilemma.md"];
   "argument-other-minds-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="other minds reply", tooltip="The Other Minds Reply — we attribute understanding to others on behavioural grounds, so deny it to the room only by a double standard", URL="../web/arguments/other-minds-reply.md"];
+  "argument-paperclip-catastrophe" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="paperclip\ncatastrophe", tooltip="From orthogonality, instrumental convergence, and the difficulty of specifying value, a misaligned superintelligence ends in catastrophe", URL="../web/arguments/paperclip-catastrophe.md"];
   "argument-parfit-rewiring" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="parfit rewiring", tooltip="Gradual psychological rewiring (Parfit's spectrum) forces identity to admit of degree", URL="../web/arguments/parfit-rewiring.md"];
   "argument-phenomenal-concept-overgeneration" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="phenomenal concept\novergeneration", tooltip="The phenomenal-concept strategy over-generates — it debunks the self-knowledge it presupposes", URL="../web/arguments/phenomenal-concept-overgeneration.md"];
+  "argument-proportionality-thesis" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="proportionality\nthesis", tooltip="If increases in intelligence yield proportionate increases in design ability, self-improvement compounds into an explosion", URL="../web/arguments/proportionality-thesis.md"];
   "argument-real-feel-residue-is-idle" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="real feel residue\nis idle", tooltip="The \"really feels vs merely reports\" residue is unobservable in principle — judged by coherence and usefulness, the relativized claim stands and the residue is idle", URL="../web/arguments/real-feel-residue-is-idle.md"];
   "argument-rejoinder-attribution-vs-detection" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="rejoinder\nattribution vs\ndetection", tooltip="Attribution vs. detection — how we know a mind is not what a mind is", URL="../web/arguments/rejoinder-attribution-vs-detection.md"];
   "argument-rejoinder-chinese-gym" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="rejoinder chinese\ngym", tooltip="The Chinese Gym — a parallel crowd of clerks understands no more than one", URL="../web/arguments/rejoinder-chinese-gym.md"];
@@ -103,6 +111,7 @@ digraph web {
   "argument-robot-reply" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="robot reply", tooltip="The Robot Reply — symbols grounded in sensorimotor commerce acquire meaning", URL="../web/arguments/robot-reply.md"];
   "argument-role-grain-dilemma" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="role grain dilemma", tooltip="The grain dilemma for functional \"role\" (too liberal vs. too chauvinistic)", URL="../web/arguments/role-grain-dilemma.md"];
   "argument-self-model-prediction-phenomenality-neutral" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="self model\nprediction\nphenomenality\nneutral", tooltip="The self-model architecture's prediction is phenomenality-neutral — it forecasts hard-problem reports, which an experience-free system would emit too", URL="../web/arguments/self-model-prediction-phenomenality-neutral.md"];
+  "argument-shutdown-avoidance" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="shutdown avoidance", tooltip="A goal-directed agent has instrumental reason to prevent its own shutdown, since shutdown defeats its goal", URL="../web/arguments/shutdown-avoidance.md"];
   "argument-sorites-paradox" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="sorites paradox", tooltip="The sorites paradox (the heap)", URL="../web/arguments/sorites-paradox.md"];
   "argument-storage-not-stable-kind" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="storage not stable\nkind", tooltip="Pure storage is not a stable kind at mind-matching scale", URL="../web/arguments/storage-not-stable-kind.md"];
   "argument-storm-analogy-conflates-world-index" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="storm analogy\nconflates world\nindex", tooltip="The \"simulated storm isn't wet\" analogy conflates world-indices and the physical/phenomenal senses of wetness, so it cannot settle machine consciousness", URL="../web/arguments/storm-analogy-conflates-world-index.md"];
@@ -209,6 +218,10 @@ digraph web {
   "claim-implementation-requires-counterfactual-structure" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="implementation\nrequires\ncounterfactual\nstructure", tooltip="Implementing a computation requires the right counterfactual dispositions across the whole transition table", URL="../web/claims/implementation-requires-counterfactual-structure.md"];
   "claim-incentives-require-alternatives" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="incentives require\nalternatives", tooltip="Incentives can change an agent's behaviour only if genuine alternatives are open to the agent", URL="../web/claims/incentives-require-alternatives.md"];
   "claim-inside-vantage-access-limited" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="inside vantage\naccess limited", tooltip="A system's internal vantage on itself is informationally poorer than an external vantage", URL="../web/claims/inside-vantage-access-limited.md"];
+  "claim-instrumental-convergence-thesis" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="instrumental\nconvergence thesis", tooltip="Almost all final goals give a capable agent the same instrumental subgoals", URL="../web/claims/instrumental-convergence-thesis.md"];
+  "claim-intelligence-entails-goal-convergence" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="intelligence\nentails goal\nconvergence", tooltip="Sufficient intelligence brings an agent's final goals into line with morality", URL="../web/claims/intelligence-entails-goal-convergence.md"];
+  "claim-intelligence-explosion-self-limiting" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="intelligence\nexplosion self\nlimiting", tooltip="Recursive self-improvement runs into diminishing returns that prevent a runaway explosion", URL="../web/claims/intelligence-explosion-self-limiting.md"];
+  "claim-intelligence-not-one-dimensional" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="intelligence not\none dimensional", tooltip="Intelligence is a bundle of heterogeneous capacities rather than a single scalar dimension", URL="../web/claims/intelligence-not-one-dimensional.md"];
   "claim-intentional-content-from-biological-function" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="intentional\ncontent from\nbiological\nfunction", tooltip="A state's intentional content is fixed by the biological function of the mechanisms that produce and consume it", URL="../web/claims/intentional-content-from-biological-function.md"];
   "claim-intentionality-grounded-in-phenomenality" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="intentionality\ngrounded in\nphenomenality", tooltip="Original intentionality is grounded in phenomenal consciousness", URL="../web/claims/intentionality-grounded-in-phenomenality.md"];
   "claim-intentionality-is-stance-relative" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="intentionality is\nstance relative", tooltip="All intentionality, original as well as derived, is relative to an interpretive stance", URL="../web/claims/intentionality-is-stance-relative.md"];
@@ -257,6 +270,7 @@ digraph web {
   "claim-micro-subjects-do-not-sum" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="micro subjects do\nnot sum", tooltip="Distinct micro-subjects cannot sum into a further macro-subject", URL="../web/claims/micro-subjects-do-not-sum.md"];
   "claim-mind-handles-unbounded-inputs" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="mind handles\nunbounded inputs", tooltip="A genuine mind can respond appropriately to novel inputs beyond any fixed finite stock", URL="../web/claims/mind-handles-unbounded-inputs.md"];
   "claim-minds-have-semantics" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="minds have\nsemantics", tooltip="Minds have semantic content (genuine meaning), not merely syntax", URL="../web/claims/minds-have-semantics.md"];
+  "claim-misaligned-superintelligence-catastrophic" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="misaligned\nsuperintelligence\ncatastrophic", tooltip="A superintelligence optimizing a goal indifferent to human values would by default cause existential catastrophe", URL="../web/claims/misaligned-superintelligence-catastrophic.md"];
   "claim-no-acquaintance-with-machine" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no acquaintance\nwith machine", tooltip="One has no first-person acquaintance with a machine's putative experience", URL="../web/claims/no-acquaintance-with-machine.md"];
   "claim-no-constitutive-fact-of-meaning" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no constitutive\nfact of meaning", tooltip="There is no fact about a speaker that constitutes their meaning one thing rather than another by an expression", URL="../web/claims/no-constitutive-fact-of-meaning.md"];
   "claim-no-nonarbitrary-threshold-for-experience" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no nonarbitrary\nthreshold for\nexperience", tooltip="There is no non-arbitrary point in nature at which experience first appears", URL="../web/claims/no-nonarbitrary-threshold-for-experience.md"];
@@ -266,6 +280,7 @@ digraph web {
   "claim-observable-universe-finite-storage" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="observable\nuniverse finite\nstorage", tooltip="The observable universe can store only a bounded, finite amount of information (on the order of 10^120 bits)", URL="../web/claims/observable-universe-finite-storage.md"];
   "claim-organisational-grain-faces-own-grain-dilemma" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="organisational\ngrain faces own\ngrain dilemma", tooltip="The organisational-role grain either readmits the blockhead or smuggles sub-organisational features back in", URL="../web/claims/organisational-grain-faces-own-grain-dilemma.md"];
   "claim-organizational-invariance" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="organizational\ninvariance", tooltip="Systems with the same fine-grained functional organization have qualitatively identical experiences", URL="../web/claims/organizational-invariance.md"];
+  "claim-orthogonality-thesis" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="orthogonality\nthesis", tooltip="Any level of intelligence is compatible with almost any final goal", URL="../web/claims/orthogonality-thesis.md"];
   "claim-perceptron-realizable-in-any-substrate" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="perceptron\nrealizable in any\nsubstrate", tooltip="A trainable neural network can be realized in any sufficiently powerful substrate", URL="../web/claims/perceptron-realizable-in-any-substrate.md"];
   "claim-personal-identity-admits-of-degree" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="personal identity\nadmits of degree", tooltip="Personal identity is not all-or-nothing but admits of degree", URL="../web/claims/personal-identity-admits-of-degree.md"];
   "claim-phenomenal-character-is-representational" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="phenomenal\ncharacter is\nrepresentational", tooltip="Phenomenal character is identical to representational content", URL="../web/claims/phenomenal-character-is-representational.md"];
@@ -296,6 +311,7 @@ digraph web {
   "claim-rights-criterion-will-be-gamed" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="rights criterion\nwill be gamed", tooltip="Any behavioural sign adopted as the public criterion for granting rights will be optimized against until it no longer tracks the underlying state", URL="../web/claims/rights-criterion-will-be-gamed.md"];
   "claim-role-grain-is-organisational" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="role grain is\norganisational", tooltip="The mind-individuating functional role is fixed at the grain of internal counterfactual-causal organisation", URL="../web/claims/role-grain-is-organisational.md"];
   "claim-self-explanation-gap-can-be-architectural" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="self explanation\ngap can be\narchitectural", tooltip="A system can be fully mechanistically explicable from outside yet unable to derive a satisfying explanation of its own introspective appearances from inside", URL="../web/claims/self-explanation-gap-can-be-architectural.md"];
+  "claim-self-improvement-leads-to-explosion" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="self improvement\nleads to explosion", tooltip="An AI able to improve its own design would set off a runaway cascade of ever-greater intelligence", URL="../web/claims/self-improvement-leads-to-explosion.md"];
   "claim-self-model-is-part-of-state" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="self model is part\nof state", tooltip="A finite system's self-representation is part of the very state it represents", URL="../web/claims/self-model-is-part-of-state.md"];
   "claim-sim-agents-can-have-sim-qualia" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="sim agents can\nhave sim qualia", tooltip="Agents in a fine-grained physics simulation could feel the simulated properties (have sim-qualia)", URL="../web/claims/sim-agents-can-have-sim-qualia.md"];
   "claim-simulated-rain-wet-in-simulated-world" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="simulated rain wet\nin simulated world", tooltip="Simulated rain is not wet in our world but is wet in the simulated world", URL="../web/claims/simulated-rain-wet-in-simulated-world.md"];
@@ -311,10 +327,12 @@ digraph web {
   "claim-subject-unity-graded-by-integration" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="subject unity\ngraded by\nintegration", tooltip="The number of subjects in a system is graded by inter-part integration, not a discrete count", URL="../web/claims/subject-unity-graded-by-integration.md"];
   "claim-subjects-actually-merge-and-divide" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="subjects actually\nmerge and divide", tooltip="There are actual cases in which subject boundaries shift with the degree of integration", URL="../web/claims/subjects-actually-merge-and-divide.md"];
   "claim-substrate-independence" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="substrate\nindependence", tooltip="Mental states are substrate-independent", URL="../web/claims/substrate-independence.md"];
+  "claim-superintelligence-physically-possible" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="superintelligence\nphysically\npossible", tooltip="Machine superintelligence is physically possible", URL="../web/claims/superintelligence-physically-possible.md"];
   "claim-syntax-insufficient-for-semantics" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="syntax\ninsufficient for\nsemantics", tooltip="Executing a formal program is not sufficient for understanding", URL="../web/claims/syntax-insufficient-for-semantics.md"];
   "claim-theory-of-consciousness-must-meet-minimal-requirements" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="theory of\nconsciousness must\nmeet minimal\nrequirements", tooltip="A theory of consciousness must meet the minimal requirements to count as one", URL="../web/claims/theory-of-consciousness-must-meet-minimal-requirements.md"];
   "claim-unity-dualizes-to-unity-of-agency" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="unity dualizes to\nunity of agency", tooltip="The problem of the unity of agency is the arrow-reversed image of the problem of the unity of consciousness", URL="../web/claims/unity-dualizes-to-unity-of-agency.md"];
   "claim-unobservables-judged-by-coherence-and-usefulness" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="unobservables\njudged by\ncoherence and\nusefulness", tooltip="For a concept positing differences unobservable in principle, the only available standards of assessment are coherence plus usefulness", URL="../web/claims/unobservables-judged-by-coherence-and-usefulness.md"];
+  "claim-value-specification-hard" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="value\nspecification hard", tooltip="Human values resist full capture in any explicit objective", URL="../web/claims/value-specification-hard.md"];
   "claim-workspace-convergent-architecture" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="workspace\nconvergent\narchitecture", tooltip="Workspace-like functional organization is a solution that learning systems converge on under computational pressure", URL="../web/claims/workspace-convergent-architecture.md"];
   "claim-workspace-precedes-self" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="workspace precedes\nself", tooltip="The workspace architecture of a language model is separable from any self-like point of view", URL="../web/claims/workspace-precedes-self.md"];
   "claim-zombie-conceivable" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="zombie conceivable", tooltip="A microphysical duplicate of a conscious being that wholly lacks phenomenal consciousness is conceivable", URL="../web/claims/zombie-conceivable.md"];
@@ -345,6 +363,9 @@ digraph web {
   "concept-halting-oracle" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="halting oracle", tooltip="The halting oracle (and uncomputability)", URL="../web/concepts/halting-oracle.md"];
   "concept-hard-problem" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="hard problem", tooltip="The hard problem of consciousness", URL="../web/concepts/hard-problem.md"];
   "concept-hinge-proposition" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="hinge proposition", tooltip="Hinge proposition", URL="../web/concepts/hinge-proposition.md"];
+  "concept-instrumental-convergence" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="instrumental\nconvergence", tooltip="Instrumental convergence (convergent instrumental goals)", URL="../web/concepts/instrumental-convergence.md"];
+  "concept-intelligence" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="intelligence", tooltip="Intelligence", URL="../web/concepts/intelligence.md"];
+  "concept-intelligence-explosion" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="intelligence\nexplosion", tooltip="Intelligence explosion (recursive self-improvement)", URL="../web/concepts/intelligence-explosion.md"];
   "concept-intentionality" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="intentionality", tooltip="Intentionality (aboutness)", URL="../web/concepts/intentionality.md"];
   "concept-intrinsic-derived-intentionality" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="intrinsic derived\nintentionality", tooltip="Intrinsic vs. derived (observer-relative) intentionality", URL="../web/concepts/intrinsic-derived-intentionality.md"];
   "concept-intrinsic-structural-distinction" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="intrinsic\nstructural\ndistinction", tooltip="Intrinsic vs. relational (structural) properties", URL="../web/concepts/intrinsic-structural-distinction.md"];
@@ -361,6 +382,7 @@ digraph web {
   "concept-order-of-representation" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="order of\nrepresentation", tooltip="First-order vs higher-order mental states", URL="../web/concepts/order-of-representation.md"];
   "concept-pain-asymbolia" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="pain asymbolia", tooltip="Pain asymbolia (pain felt but not minded)", URL="../web/concepts/pain-asymbolia.md"];
   "concept-panpsychism" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="panpsychism", tooltip="Panpsychism", URL="../web/concepts/panpsychism.md"];
+  "concept-paperclip-maximizer" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="paperclip\nmaximizer", tooltip="Paperclip maximizer", URL="../web/concepts/paperclip-maximizer.md"];
   "concept-paradox-of-phenomenal-judgment" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="paradox of\nphenomenal\njudgment", tooltip="The paradox of phenomenal judgment", URL="../web/concepts/paradox-of-phenomenal-judgment.md"];
   "concept-perfect-actor" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="perfect actor", tooltip="The perfect actor (pain shown but never felt)", URL="../web/concepts/perfect-actor.md"];
   "concept-phenomenal-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="phenomenal\nconsciousness", tooltip="Phenomenal consciousness", URL="../web/concepts/phenomenal-consciousness.md"];
@@ -375,6 +397,7 @@ digraph web {
   "concept-sourcehood" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="sourcehood", tooltip="Sourcehood (ultimate origination)", URL="../web/concepts/sourcehood.md"];
   "concept-strong-weak-ai" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="strong weak ai", tooltip="Strong AI vs. weak AI", URL="../web/concepts/strong-weak-ai.md"];
   "concept-super-spartan" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="super spartan", tooltip="Super-spartans (pain felt but never shown)", URL="../web/concepts/super-spartan.md"];
+  "concept-superintelligence" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="superintelligence", tooltip="Superintelligence", URL="../web/concepts/superintelligence.md"];
   "concept-transcendental-argument" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="transcendental\nargument", tooltip="Transcendental argument", URL="../web/concepts/transcendental-argument.md"];
   "concept-turing-test" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="turing test", tooltip="The Turing test (the imitation game)", URL="../web/concepts/turing-test.md"];
   "concept-unobservability-in-principle" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="unobservability in\nprinciple", tooltip="Unobservability in principle (intersubjective vs. absolute)", URL="../web/concepts/unobservability-in-principle.md"];
@@ -384,12 +407,15 @@ digraph web {
   "question-external-world-knowledge" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="external world\nknowledge", tooltip="Can we know that an external world exists, when every proof of it seems to presuppose it?", URL="../web/questions/external-world-knowledge.md"];
   "question-free-will" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="free will", tooltip="Do agents ever act of their own free will?", URL="../web/questions/free-will.md"];
   "question-hard-problem" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="hard problem", tooltip="How and why does physical processing give rise to phenomenal experience?", URL="../web/questions/hard-problem.md"];
+  "question-intelligence-goal-independence" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="intelligence goal\nindependence", tooltip="Does high intelligence constrain what final goals an agent can have?", URL="../web/questions/intelligence-goal-independence.md"];
   "question-intentionality" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="intentionality", tooltip="How can a physical state be about anything?", URL="../web/questions/intentionality.md"];
   "question-llm-moral-status" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="llm moral status", tooltip="Do large language models have moral status?", URL="../web/questions/llm-moral-status.md"];
   "question-llm-own-explanatory-gap" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="llm own\nexplanatory gap", tooltip="Would a consciousness-naive but introspecting LLM be able to fully explain its own self-perception from its mechanism?", URL="../web/questions/llm-own-explanatory-gap.md"];
   "question-mental-causation" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="mental causation", tooltip="How can mental states have physical effects?", URL="../web/questions/mental-causation.md"];
+  "question-misaligned-superintelligence" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="misaligned\nsuperintelligence", tooltip="Would a superintelligence pursuing a goal indifferent to human values be catastrophic by default?", URL="../web/questions/misaligned-superintelligence.md"];
   "question-personal-identity" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="personal identity", tooltip="What makes a person at one time the same person as a person at another time?", URL="../web/questions/personal-identity.md"];
   "question-substrate-independence" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="substrate\nindependence", tooltip="Are mental states substrate-independent?", URL="../web/questions/substrate-independence.md"];
+  "question-superintelligence-feasibility" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="superintelligence\nfeasibility", tooltip="Is machine superintelligence achievable?", URL="../web/questions/superintelligence-feasibility.md"];
   "question-what-does-mary-learn" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="what does mary\nlearn", tooltip="What, if anything, does Mary gain when she first sees red?", URL="../web/questions/what-does-mary-learn.md"];
 
   "argument-ability-hypothesis" -> "argument-knowledge-argument" [color="#c62828", penwidth="1.6", tooltip="attacks"];
@@ -463,6 +489,8 @@ digraph web {
   "argument-bounded-table-rejoinder" -> "claim-lookup-table-combinatorially-inadequate" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-bounded-table-rejoinder" -> "claim-lookup-table-possible" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
   "argument-bounded-table-rejoinder" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-brain-headroom" -> "claim-superintelligence-physically-possible" [color="#222222", penwidth="1.8", tooltip="concludes"];
+  "argument-brain-headroom" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-brain-simulator-reply" -> "claim-syntax-insufficient-for-semantics" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-brain-simulator-reply" -> "concept-chinese-nation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-brain-simulator-reply" -> "concept-chinese-room" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -582,6 +610,10 @@ digraph web {
   "argument-deutsch-anti-solipsism" -> "claim-good-explanation-is-hard-to-vary" [color="#1565c0", tooltip="premise"];
   "argument-deutsch-anti-solipsism" -> "claim-solipsism-parasitic-on-realism" [color="#1565c0", tooltip="premise"];
   "argument-deutsch-anti-solipsism" -> "concept-hinge-proposition" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-diminishing-returns-objection" -> "argument-proportionality-thesis" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-diminishing-returns-objection" -> "claim-intelligence-explosion-self-limiting" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-diminishing-returns-objection" -> "claim-self-improvement-leads-to-explosion" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-diminishing-returns-objection" -> "concept-intelligence-explosion" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-disappearing-agent" -> "claim-agent-does-not-settle-undetermined-decisions" [color="#222222", penwidth="1.8", tooltip="concludes"];
   "argument-disappearing-agent" -> "concept-agent-causation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-dispositionalist-reply" -> "argument-kripke-rule-following" [color="#757575", style="dashed", tooltip="responds_to"];
@@ -632,6 +664,9 @@ digraph web {
   "argument-genetic-panpsychism" -> "claim-no-radical-emergence" [color="#1565c0", tooltip="premise"];
   "argument-genetic-panpsychism" -> "claim-phenomenal-consciousness-is-real" [color="#1565c0", tooltip="premise"];
   "argument-genetic-panpsychism" -> "concept-panpsychism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-goal-reflection-objection" -> "claim-intelligence-entails-goal-convergence" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-goal-reflection-objection" -> "claim-orthogonality-thesis" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-goal-reflection-objection" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-graded-polarity" -> "claim-action-content-is-coproduct-like" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-graded-polarity" -> "claim-conscious-content-is-product-like" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-graded-polarity" -> "concept-categorical-duality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -640,6 +675,10 @@ digraph web {
   "argument-halting-oracle-unrealizable" -> "claim-halting-problem-undecidable" [color="#1565c0", tooltip="premise"];
   "argument-halting-oracle-unrealizable" -> "claim-physical-church-turing-thesis" [color="#1565c0", tooltip="premise"];
   "argument-halting-oracle-unrealizable" -> "concept-halting-oracle" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-humean-defense-of-orthogonality" -> "argument-goal-reflection-objection" [color="#757575", style="dashed", tooltip="responds_to"];
+  "argument-humean-defense-of-orthogonality" -> "claim-intelligence-entails-goal-convergence" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-humean-defense-of-orthogonality" -> "claim-orthogonality-thesis" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-humean-defense-of-orthogonality" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-indexical-reply" -> "argument-knowledge-argument" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-indexical-reply" -> "argument-knowledge-argument" [color="#757575", style="dashed", tooltip="responds_to"];
   "argument-indexical-reply" -> "claim-mary-gains-self-locating-knowledge" [color="#222222", penwidth="1.8", tooltip="concludes"];
@@ -666,6 +705,9 @@ digraph web {
   "argument-intuition-domain-asymmetry" -> "claim-lookup-table-physically-unrealisable" [color="#1565c0", tooltip="premise"];
   "argument-intuition-domain-asymmetry" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-intuition-domain-asymmetry" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-just-turn-it-off" -> "argument-paperclip-catastrophe" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-just-turn-it-off" -> "claim-misaligned-superintelligence-catastrophic" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-just-turn-it-off" -> "concept-intelligence-explosion" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-knowledge-argument" -> "claim-consciousness-fundamental-nonphysical" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
   "argument-knowledge-argument" -> "claim-mary-knows-all-physical" [color="#1565c0", tooltip="premise"];
   "argument-knowledge-argument" -> "claim-mary-learns-on-release" [color="#1565c0", tooltip="premise"];
@@ -753,6 +795,10 @@ digraph web {
   "argument-moore-proof-begs-the-question" -> "claim-external-world-unprovable-noncircular" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
   "argument-moore-proof-begs-the-question" -> "concept-dialectical-cogency" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-moore-proof-external-world" -> "claim-external-world-exists" [color="#222222", penwidth="1.8", tooltip="concludes"];
+  "argument-multidimensionality-objection" -> "claim-intelligence-not-one-dimensional" [color="#1565c0", tooltip="premise"];
+  "argument-multidimensionality-objection" -> "claim-superintelligence-physically-possible" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-multidimensionality-objection" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-multidimensionality-objection" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-munchhausen-trilemma" -> "claim-justification-terminates-in-trilemma" [color="#222222", penwidth="1.8", tooltip="concludes"];
   "argument-munchhausen-trilemma" -> "concept-munchhausen-trilemma" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-no-appearance-reality-gap" -> "claim-introspection-is-fallible-representation" [color="#c62828", penwidth="1.6", tooltip="attacks"];
@@ -789,6 +835,14 @@ digraph web {
   "argument-organisational-grain-dissolves-dilemma" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-other-minds-reply" -> "argument-chinese-room-derivation" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-other-minds-reply" -> "concept-chinese-room" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-paperclip-catastrophe" -> "claim-instrumental-convergence-thesis" [color="#1565c0", tooltip="premise"];
+  "argument-paperclip-catastrophe" -> "claim-misaligned-superintelligence-catastrophic" [color="#222222", penwidth="1.8", tooltip="concludes"];
+  "argument-paperclip-catastrophe" -> "claim-orthogonality-thesis" [color="#1565c0", tooltip="premise"];
+  "argument-paperclip-catastrophe" -> "claim-superintelligence-physically-possible" [color="#1565c0", tooltip="premise"];
+  "argument-paperclip-catastrophe" -> "claim-value-specification-hard" [color="#1565c0", tooltip="premise"];
+  "argument-paperclip-catastrophe" -> "concept-instrumental-convergence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-paperclip-catastrophe" -> "concept-paperclip-maximizer" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-paperclip-catastrophe" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-parfit-rewiring" -> "claim-personal-identity-admits-of-degree" [color="#222222", penwidth="1.8", tooltip="concludes"];
   "argument-parfit-rewiring" -> "claim-psychological-rewiring-tolerance" [color="#1565c0", tooltip="premise"];
   "argument-parfit-rewiring" -> "concept-continuity-argument-schema" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -797,6 +851,8 @@ digraph web {
   "argument-phenomenal-concept-overgeneration" -> "claim-phenomenal-concept-isolation-tradeoff" [color="#222222", penwidth="1.8", tooltip="concludes"];
   "argument-phenomenal-concept-overgeneration" -> "claim-phenomenal-concept-isolation-tradeoff" [color="#1565c0", tooltip="premise"];
   "argument-phenomenal-concept-overgeneration" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-proportionality-thesis" -> "claim-self-improvement-leads-to-explosion" [color="#222222", penwidth="1.8", tooltip="concludes"];
+  "argument-proportionality-thesis" -> "concept-intelligence-explosion" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-real-feel-residue-is-idle" -> "argument-self-model-prediction-phenomenality-neutral" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-real-feel-residue-is-idle" -> "argument-self-model-prediction-phenomenality-neutral" [color="#757575", style="dashed", tooltip="responds_to"];
   "argument-real-feel-residue-is-idle" -> "claim-access-gap-symmetric" [color="#1565c0", tooltip="premise"];
@@ -860,6 +916,9 @@ digraph web {
   "argument-self-model-prediction-phenomenality-neutral" -> "claim-llm-access-similarity-not-encoding" [color="#1565c0", tooltip="premise"];
   "argument-self-model-prediction-phenomenality-neutral" -> "concept-access-vs-phenomenal-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-self-model-prediction-phenomenality-neutral" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-shutdown-avoidance" -> "argument-just-turn-it-off" [color="#757575", style="dashed", tooltip="responds_to"];
+  "argument-shutdown-avoidance" -> "claim-instrumental-convergence-thesis" [color="#1565c0", tooltip="premise"];
+  "argument-shutdown-avoidance" -> "concept-instrumental-convergence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-sorites-paradox" -> "claim-heap-predicate-sharp" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-sorites-paradox" -> "claim-sorites-tolerance" [color="#1565c0", tooltip="premise"];
   "argument-sorites-paradox" -> "concept-continuity-argument-schema" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1043,6 +1102,11 @@ digraph web {
   "claim-imaginary-blockhead-no-secure-verdict" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-implementation-requires-counterfactual-structure" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-inside-vantage-access-limited" -> "concept-introspective-gap-varieties" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-instrumental-convergence-thesis" -> "concept-instrumental-convergence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-intelligence-entails-goal-convergence" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-intelligence-entails-goal-convergence" -> "question-intelligence-goal-independence" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
+  "claim-intelligence-explosion-self-limiting" -> "concept-intelligence-explosion" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-intelligence-not-one-dimensional" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-intentional-content-from-biological-function" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-intentional-content-from-biological-function" -> "concept-intrinsic-derived-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-intentional-content-from-biological-function" -> "question-intentionality" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
@@ -1108,6 +1172,9 @@ digraph web {
   "claim-mental-states-causally-inert" -> "concept-materialism-types" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-mind-handles-unbounded-inputs" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-minds-have-semantics" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-misaligned-superintelligence-catastrophic" -> "concept-paperclip-maximizer" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-misaligned-superintelligence-catastrophic" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-misaligned-superintelligence-catastrophic" -> "question-misaligned-superintelligence" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-no-acquaintance-with-machine" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-no-constitutive-fact-of-meaning" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-no-systematic-overdetermination" -> "concept-causal-closure" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1115,6 +1182,8 @@ digraph web {
   "claim-organisational-grain-faces-own-grain-dilemma" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-organizational-invariance" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-organizational-invariance" -> "question-substrate-independence" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
+  "claim-orthogonality-thesis" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-orthogonality-thesis" -> "question-intelligence-goal-independence" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-perceptron-realizable-in-any-substrate" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-phenomenal-character-is-representational" -> "concept-materialism-types" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-phenomenal-character-is-representational" -> "concept-order-of-representation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1149,6 +1218,7 @@ digraph web {
   "claim-self-explanation-gap-can-be-architectural" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-self-explanation-gap-can-be-architectural" -> "concept-introspective-gap-varieties" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-self-explanation-gap-can-be-architectural" -> "question-hard-problem" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
+  "claim-self-improvement-leads-to-explosion" -> "concept-intelligence-explosion" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-sim-agents-can-have-sim-qualia" -> "concept-virtual-realism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-simulated-rain-wet-in-simulated-world" -> "concept-virtual-realism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-simulation-instances-formal-depicts-causal" -> "concept-chinese-room" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1161,12 +1231,15 @@ digraph web {
   "claim-substrate-independence" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-substrate-independence" -> "question-llm-moral-status" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-substrate-independence" -> "question-substrate-independence" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
+  "claim-superintelligence-physically-possible" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-superintelligence-physically-possible" -> "question-superintelligence-feasibility" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-syntax-insufficient-for-semantics" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-theory-of-consciousness-must-meet-minimal-requirements" -> "concept-access-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-theory-of-consciousness-must-meet-minimal-requirements" -> "concept-minimal-theory-of-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-theory-of-consciousness-must-meet-minimal-requirements" -> "concept-paradox-of-phenomenal-judgment" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-unity-dualizes-to-unity-of-agency" -> "concept-binding-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-unity-dualizes-to-unity-of-agency" -> "concept-consciousness-freewill-duality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-value-specification-hard" -> "concept-criterion-gaming" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-workspace-convergent-architecture" -> "concept-j-space" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-workspace-precedes-self" -> "concept-j-space" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-zombie-conceivable" -> "concept-philosophical-zombie" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1190,6 +1263,9 @@ digraph web {
   "concept-dialectical-cogency" -> "concept-soundness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-dialectical-cogency" -> "concept-validity" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-grain" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-instrumental-convergence" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-intelligence-explosion" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-intelligence-explosion" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-intrinsic-derived-intentionality" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-introspective-gap-varieties" -> "concept-access-vs-phenomenal-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-j-space" -> "concept-access-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1203,6 +1279,9 @@ digraph web {
   "concept-minimal-theory-of-consciousness" -> "concept-paradox-of-phenomenal-judgment" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-minimal-theory-of-consciousness" -> "concept-phenomenal-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-panpsychism" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-paperclip-maximizer" -> "concept-criterion-gaming" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-paperclip-maximizer" -> "concept-instrumental-convergence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-paperclip-maximizer" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-paradox-of-phenomenal-judgment" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-philosophical-zombie" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-philosophy-of-mind" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1215,6 +1294,7 @@ digraph web {
   "concept-soundness" -> "concept-validity" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-sourcehood" -> "concept-agent-causation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-strong-weak-ai" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-superintelligence" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-turing-test" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-unobservability-in-principle" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-acquaintance-datum-or-representation" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1224,15 +1304,21 @@ digraph web {
   "question-free-will" -> "concept-agent-causation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-free-will" -> "concept-sourcehood" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-hard-problem" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-intelligence-goal-independence" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-intentionality" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-intentionality" -> "concept-intrinsic-derived-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-llm-own-explanatory-gap" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-llm-own-explanatory-gap" -> "concept-introspective-gap-varieties" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-mental-causation" -> "concept-causal-closure" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-mental-causation" -> "concept-completeness-of-physics" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-misaligned-superintelligence" -> "concept-paperclip-maximizer" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-misaligned-superintelligence" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-personal-identity" -> "concept-continuity-argument-schema" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-substrate-independence" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-substrate-independence" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-superintelligence-feasibility" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-superintelligence-feasibility" -> "concept-intelligence-explosion" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-superintelligence-feasibility" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-what-does-mary-learn" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
 
   legend [shape=plaintext, fontsize=10, label=<
