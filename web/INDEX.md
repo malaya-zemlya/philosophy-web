@@ -247,6 +247,9 @@
 ## [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-isomorphic-feedforward-zombie](arguments/isomorphic-feedforward-zombie.md)
+- type: argument | author: hanson | status: asserted
+
 ## [argument-just-turn-it-off](arguments/just-turn-it-off.md)
 - type: argument | author: generic | status: contested
 - backlinks:
@@ -816,6 +819,7 @@
 ## [claim-consciousness-is-integrated-information](claims/consciousness-is-integrated-information.md)
 - type: claim | author: tononi | status: asserted
 - backlinks:
+  - [argument-isomorphic-feedforward-zombie](arguments/isomorphic-feedforward-zombie.md) --attacks-->
   - [position-integrated-information-theory](positions/integrated-information-theory.md) --commits_to-->
 
 ## [claim-consciousness-is-intrinsic-property](claims/consciousness-is-intrinsic-property.md)
@@ -1670,6 +1674,7 @@
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --attacks-->
   - [argument-fading-qualia](arguments/fading-qualia.md) --supports-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --supports-->
+  - [argument-isomorphic-feedforward-zombie](arguments/isomorphic-feedforward-zombie.md) --supports-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
   - [argument-olympia](arguments/olympia.md) --attacks-->
   - [argument-olympia-quantum-counterfactuals](arguments/olympia-quantum-counterfactuals.md) --supports-->
@@ -2010,6 +2015,7 @@
   - [argument-fading-qualia](arguments/fading-qualia.md) --uses_concept-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --presupposes-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --uses_concept-->
+  - [argument-isomorphic-feedforward-zombie](arguments/isomorphic-feedforward-zombie.md) --uses_concept-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --uses_concept-->
   - [argument-olympia](arguments/olympia.md) --uses_concept-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --uses_concept-->
@@ -2800,6 +2806,9 @@
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --answers-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --answers-->
 
+## [source-aaronson-2014](sources/aaronson-2014.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-albert-1985](sources/albert-1985.md)
 - type: source | author: mishka | status: asserted
 
@@ -2977,6 +2986,9 @@
 ## [source-dewynter-2026](sources/dewynter-2026.md)
 - type: source | author: mishka | status: asserted
 
+## [source-doerig-2019](sources/doerig-2019.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-doerig-2025](sources/doerig-2025.md)
 - type: source | author: mishka | status: asserted
 
@@ -3056,6 +3068,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-haidt-2001](sources/haidt-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-hanson-walker-2019](sources/hanson-walker-2019.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-harman-1990](sources/harman-1990.md)

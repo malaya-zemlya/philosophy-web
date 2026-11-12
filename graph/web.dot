@@ -63,6 +63,7 @@ digraph web {
   "argument-introspective-confabulation" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="introspective\nconfabulation", tooltip="Confabulation studies show introspective reports are theory-driven constructions", URL="../web/arguments/introspective-confabulation.md"];
   "argument-introspective-gap-from-internal-limits" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="introspective gap\nfrom internal\nlimits", tooltip="A self-explanatory gap follows from limited internal access plus non-traversable self-explanation", URL="../web/arguments/introspective-gap-from-internal-limits.md"];
   "argument-intuition-domain-asymmetry" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="intuition domain\nasymmetry", tooltip="The intuition-domain asymmetry — the cosmic table is a far extrapolation, the brain-scale isomorph a near neighbour", URL="../web/arguments/intuition-domain-asymmetry.md"];
+  "argument-isomorphic-feedforward-zombie" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="isomorphic\nfeedforward zombie", tooltip="Isomorphic feed-forward zombies — a behaviorally identical twin can have Φ = 0 against the original's Φ > 0", URL="../web/arguments/isomorphic-feedforward-zombie.md"];
   "argument-just-turn-it-off" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="just turn it off", tooltip="A machine that misbehaves can be shut down and its objective corrected, so misspecification is a bug, not an apocalypse", URL="../web/arguments/just-turn-it-off.md"];
   "argument-knowledge-argument" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="knowledge argument", tooltip="The Knowledge Argument — Mary learns a fact the physical description omits", URL="../web/arguments/knowledge-argument.md"];
   "argument-kripke-rule-following" [shape="box", style="filled", fillcolor="#eeeeee", color="#888888", label="kripke rule\nfollowing", tooltip="Kripke's Wittgenstein: the skeptical argument about rule-following and meaning", URL="../web/arguments/kripke-rule-following.md"];
@@ -705,6 +706,9 @@ digraph web {
   "argument-intuition-domain-asymmetry" -> "claim-lookup-table-physically-unrealisable" [color="#1565c0", tooltip="premise"];
   "argument-intuition-domain-asymmetry" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-intuition-domain-asymmetry" -> "concept-lookup-table-mind" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "argument-isomorphic-feedforward-zombie" -> "claim-consciousness-is-integrated-information" [color="#c62828", penwidth="1.6", tooltip="attacks"];
+  "argument-isomorphic-feedforward-zombie" -> "claim-substrate-independence" [color="#2e7d32", penwidth="1.6", tooltip="supports"];
+  "argument-isomorphic-feedforward-zombie" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "argument-just-turn-it-off" -> "argument-paperclip-catastrophe" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-just-turn-it-off" -> "claim-misaligned-superintelligence-catastrophic" [color="#c62828", penwidth="1.6", tooltip="attacks"];
   "argument-just-turn-it-off" -> "concept-intelligence-explosion" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
