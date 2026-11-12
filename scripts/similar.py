@@ -15,6 +15,12 @@ per node: id, a content hash, model/dims, and the vector. Only changed nodes re-
 diffs stay small. Reading the cache needs no API key — `similar.py query --id <node>` and
 `dupes` work keyless on any clone; only `embed` and free-text queries call OpenAI.
 
+SEP: the local Stanford Encyclopedia mirror (sep/, see sep/README.md) is a second, read-only
+corpus, embedded per section so a hit points at `<entry-url>#<anchor>`. Its cache lives in the
+gitignored sep/data/embeddings/ (one <slug>.npy + <slug>.json per entry; copyrighted source,
+~37M tokens, never committed). `query` shows web hits first, then a separate block of SEP hits;
+`dupes` and lint's staleness advisory stay web-only.
+
 Key: OPENAI_API_KEY from the environment, else from a gitignored `.env` at the repo root.
 
 Usage (prefer the make targets):
@@ -22,6 +28,8 @@ Usage (prefer the make targets):
   make similar Q="rough idea"     # ... query --q "rough idea" [--k 10] [--type claim]
   make similar ID=claim-foo       # ... query --id claim-foo   (keyless)
   make dupes MIN=0.85             # ... dupes --min 0.85       (keyless)
+  make sep-embed                  # ... sep-embed [--slugs a b] (embed/refresh the SEP mirror)
+  make similar Q=... SEP=only     # ... query --sep only|none|include (default include)
 """
 import argparse
 import hashlib
@@ -44,6 +52,11 @@ EMBED_TYPES = {"claim", "argument", "concept", "position", "question", "source"}
 SKIP_DIRS = {"characters", "test"}
 BATCH = 96                      # inputs per API request
 MAX_CHARS = 32_000              # ~8k tokens, the embedding-model input ceiling
+
+SEP_JSONL = ROOT / "sep" / "data" / "sep.jsonl"
+SEP_CACHE = ROOT / "sep" / "data" / "embeddings"
+SEP_CHUNK = 6_000               # chars per SEP chunk (~1.5k tokens); split at paragraph breaks
+SEP_WORKERS = 4                 # concurrent entries during sep-embed
 
 
 # ---------------------------------------------------------------- corpus
@@ -130,15 +143,168 @@ def api_key():
     return key
 
 
-def embed_texts(texts):
-    """Embed a list of strings via the OpenAI API; returns list of vectors."""
+def openai_client():
     from openai import OpenAI  # lazy: keyless paths must not require the package at import time
-    client = OpenAI(api_key=api_key())
+    return OpenAI(api_key=api_key(), max_retries=8)
+
+
+def embed_texts(texts, client=None):
+    """Embed a list of strings via the OpenAI API; returns list of vectors."""
+    client = client or openai_client()
     vecs = []
     for i in range(0, len(texts), BATCH):
         resp = client.embeddings.create(model=MODEL, dimensions=DIMS, input=texts[i:i + BATCH])
         vecs += [d.embedding for d in sorted(resp.data, key=lambda d: d.index)]
     return vecs
+
+
+# ---------------------------------------------------------------- SEP corpus
+
+def _split(text, limit):
+    """Split text into pieces <= limit chars, preferring paragraph boundaries."""
+    out, cur = [], ""
+    for para in text.split("\n\n"):
+        while len(para) > limit:                      # a single oversized paragraph
+            if cur:
+                out.append(cur)
+                cur = ""
+            out.append(para[:limit])
+            para = para[limit:]
+        if cur and len(cur) + 2 + len(para) > limit:
+            out.append(cur)
+            cur = para
+        else:
+            cur = f"{cur}\n\n{para}" if cur else para
+    if cur.strip():
+        out.append(cur)
+    return out
+
+
+def sep_chunks(rec):
+    """[{anchor, label, text}] for one SEP record: the preamble, then each non-empty section
+    (prefixed with entry title and section path), split into SEP_CHUNK-sized pieces."""
+    chunks = []
+    title = rec["title"]
+
+    def add(anchor, label, body):
+        for i, piece in enumerate(_split(body.strip(), SEP_CHUNK)):
+            chunks.append({"anchor": anchor, "label": label + (f" (part {i + 1})" if i else ""),
+                           "text": f"{title} — {label}\n\n{piece}"[:MAX_CHARS]})
+
+    if rec.get("preamble", "").strip():
+        add("", "introduction", rec["preamble"])
+    path = {}
+    for sec in rec.get("sections", []):
+        lvl = sec.get("level", 1)
+        path = {k: v for k, v in path.items() if k < lvl}
+        path[lvl] = f"{sec.get('number', '')} {sec.get('title', '')}".strip()
+        if sec.get("markdown", "").strip():
+            add(sec.get("anchor", ""), " › ".join(path[k] for k in sorted(path)), sec["markdown"])
+    return chunks
+
+
+def sep_records(slugs=None):
+    if not SEP_JSONL.is_file():
+        raise SystemExit(f"no SEP mirror at {SEP_JSONL.relative_to(ROOT)} — see sep/README.md")
+    want = set(slugs) if slugs else None
+    with SEP_JSONL.open(encoding="utf-8") as f:
+        for line in f:
+            if line.strip():
+                rec = json.loads(line)
+                if want is None or rec["slug"] in want:
+                    yield rec
+
+
+def _sep_hash(chunks):
+    return text_hash("\x00".join(c["text"] for c in chunks))
+
+
+def cmd_sep_embed(args):
+    import numpy as np
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    SEP_CACHE.mkdir(parents=True, exist_ok=True)
+    todo, fresh = [], 0
+    for rec in sep_records(args.slugs):
+        chunks = sep_chunks(rec)
+        if not chunks:
+            continue
+        h = _sep_hash(chunks)
+        meta_p = SEP_CACHE / f"{rec['slug']}.json"
+        if meta_p.is_file() and (SEP_CACHE / f"{rec['slug']}.npy").is_file() \
+                and json.loads(meta_p.read_text(encoding="utf-8")).get("hash") == h:
+            fresh += 1
+            continue
+        todo.append((rec, chunks, h))
+    if args.limit:
+        todo = todo[:args.limit]
+    est = sum(len(c["text"]) for _, chunks, _ in todo for c in chunks) / 4 / 1e6
+    print(f"SEP: {fresh} entries fresh, {len(todo)} to embed (~{est:.1f}M tokens)", flush=True)
+    if not todo:
+        return
+    client = openai_client()
+
+    def work(item):
+        rec, chunks, h = item
+        vecs = np.array(embed_texts([c["text"] for c in chunks], client), dtype=np.float32)
+        vecs /= np.linalg.norm(vecs, axis=1, keepdims=True)
+        np.save(SEP_CACHE / f"{rec['slug']}.npy", vecs.astype(np.float16))
+        meta = {"slug": rec["slug"], "url": rec["url"], "title": rec["title"], "hash": h,
+                "model": MODEL, "dims": DIMS,
+                "chunks": [{"anchor": c["anchor"], "label": c["label"]} for c in chunks]}
+        (SEP_CACHE / f"{rec['slug']}.json").write_text(json.dumps(meta), encoding="utf-8")
+        return rec["slug"]
+
+    done = 0
+    with ThreadPoolExecutor(SEP_WORKERS) as pool:
+        for fut in as_completed([pool.submit(work, it) for it in todo]):
+            fut.result()
+            done += 1
+            if done % 25 == 0 or done == len(todo):
+                print(f"  {done}/{len(todo)} entries", flush=True)
+    print(f"SEP cache: {SEP_CACHE.relative_to(ROOT)}  (resumable — rerun to continue)")
+
+
+def load_sep():
+    """(labels, unit-normalized float32 matrix) over every cached SEP chunk, or (None, None)."""
+    import numpy as np
+    if not SEP_CACHE.is_dir():
+        return None, None
+    labels, mats = [], []
+    for meta_p in sorted(SEP_CACHE.glob("*.json")):
+        vec_p = meta_p.with_suffix(".npy")
+        if not vec_p.is_file():
+            continue
+        meta = json.loads(meta_p.read_text(encoding="utf-8"))
+        if meta.get("model") != MODEL or meta.get("dims") != DIMS:
+            continue
+        mats.append(np.load(vec_p))
+        labels += [(meta["slug"], meta["title"], meta["url"], c["anchor"], c["label"])
+                   for c in meta["chunks"]]
+    if not mats:
+        return None, None
+    mat = np.concatenate(mats).astype(np.float32)
+    mat /= np.linalg.norm(mat, axis=1, keepdims=True)
+    return labels, mat
+
+
+def _print_sep_hits(q, k):
+    import numpy as np
+    labels, mat = load_sep()
+    if labels is None:
+        print("(SEP not embedded — run `make sep-embed`)", file=sys.stderr)
+        return
+    scores = mat @ q
+    seen = set()
+    print(f"\n— SEP ({len({l[0] for l in labels})} entries embedded; best section per entry) —")
+    for i in np.argsort(-scores):
+        slug, title, url, anchor, label = labels[i]
+        if slug in seen:
+            continue
+        seen.add(slug)
+        print(f"{float(scores[i]):.3f}  sep:{slug}  — {title} › {label}  "
+              f"({url}{'#' + anchor if anchor else ''})")
+        if len(seen) >= k:
+            break
 
 
 # ---------------------------------------------------------------- commands
@@ -191,8 +357,6 @@ def cmd_query(args):
     import numpy as np
     nodes = corpus()
     cache = load_cache()
-    _staleness_warning(nodes)
-    ids, mat = _matrix(nodes, cache, args.type)
     if args.id:
         rec = cache.get(args.id)
         if not rec:
@@ -202,16 +366,21 @@ def cmd_query(args):
     else:
         q = np.array(embed_texts([args.q])[0], dtype=np.float32)
     q /= np.linalg.norm(q)
-    scores = mat @ q
-    order = np.argsort(-scores)
-    shown = 0
-    for i in order:
-        if ids[i] == args.id:
-            continue  # a node is trivially most similar to itself
-        _print_hit(float(scores[i]), ids[i], nodes)
-        shown += 1
-        if shown >= args.k:
-            break
+    if args.sep != "only":
+        _staleness_warning(nodes)
+        ids, mat = _matrix(nodes, cache, args.type)
+        scores = mat @ q
+        order = np.argsort(-scores)
+        shown = 0
+        for i in order:
+            if ids[i] == args.id:
+                continue  # a node is trivially most similar to itself
+            _print_hit(float(scores[i]), ids[i], nodes)
+            shown += 1
+            if shown >= args.k:
+                break
+    if args.sep != "none":
+        _print_sep_hits(q, args.sep_k if args.sep != "only" else args.k)
 
 
 def cmd_dupes(args):
@@ -249,13 +418,19 @@ def main():
     q.add_argument("--id", help="node id — nearest neighbors from the cache, keyless")
     q.add_argument("--k", type=int, default=10, help="results to show (default 10)")
     q.add_argument("--type", choices=sorted(EMBED_TYPES), help="restrict hits to one node type")
+    q.add_argument("--sep", choices=["include", "only", "none"], default="include",
+                   help="also search the local SEP mirror (default include)")
+    q.add_argument("--sep-k", type=int, default=5, help="SEP entries to show alongside web hits")
     d = sub.add_parser("dupes", help="same-type pairs above a similarity threshold (keyless)")
     d.add_argument("--min", type=float, default=0.85, help="similarity threshold (default 0.85)")
     d.add_argument("--type", choices=sorted(EMBED_TYPES), help="check only one node type")
+    e = sub.add_parser("sep-embed", help="embed/refresh the SEP mirror into sep/data/embeddings/")
+    e.add_argument("--slugs", nargs="*", help="only these SEP entry slugs")
+    e.add_argument("--limit", type=int, help="embed at most N stale entries this run")
     args = ap.parse_args()
     if args.cmd == "query" and bool(args.q) == bool(args.id):
         ap.error("query needs exactly one of --q or --id")
-    {"embed": cmd_embed, "query": cmd_query, "dupes": cmd_dupes}[args.cmd](args)
+    {"embed": cmd_embed, "query": cmd_query, "dupes": cmd_dupes, "sep-embed": cmd_sep_embed}[args.cmd](args)
 
 
 if __name__ == "__main__":

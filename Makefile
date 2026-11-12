@@ -31,17 +31,19 @@ MIN ?= 0.85
 # similarity threshold for `make dupes`
 TYPE ?=
 # optional node-type filter for `make similar` / `make dupes` (claim, argument, ...)
+SEP ?= include
+# whether `make similar` also searches the local SEP mirror: include | only | none
 
 .DEFAULT_GOAL := help
 .PHONY: help lint lint-check book book-all graph all preview entry progress find clean clean-preview \
-        similar embed dupes
+        similar embed dupes sep-embed sep-index sep-fetch sep-all sep-parse sep-status sep-test
 
 help:  ## list the available targets
 	@grep -E '^[a-zA-Z0-9_-]+:.*## ' $(MAKEFILE_LIST) \
 	  | sed -E 's/:.*## /\t/' | sort | awk -F'\t' '{printf "  make %-14s %s\n", $$1, $$2}'
 	@echo
 	@echo "  vars: STYLE=$(STYLE)  DPI=$(DPI)  FROM=$(FROM) TO=$(TO)  PDF=$(PDF)  ID=<node>  Q=<text>"
-	@echo "        K=$(K)  MIN=$(MIN)  TYPE=<node-type>   (semantic search: similar / embed / dupes)"
+	@echo "        K=$(K)  MIN=$(MIN)  TYPE=<node-type>  SEP=$(SEP)   (semantic search: similar / embed / dupes)"
 
 lint:  ## integrity check + render [[id]] links + regenerate web/INDEX.md
 	$(PY) scripts/lint.py
@@ -78,9 +80,9 @@ progress:  ## report encyclopedia-style vs legacy node counts
 	  "$$(grep -rl '^style: encyclopedia' web/ | wc -l | tr -d ' ')" \
 	  "$$(grep -rl '^style: legacy' web/ | wc -l | tr -d ' ')"
 
-similar:  ## semantic search: nodes nearest Q=<free text> or ID=<node-id>  (K=, TYPE=)
-	@test -n "$(Q)$(ID)" || { echo 'usage: make similar Q=<text> | ID=<node-id>  [K=10] [TYPE=claim]'; exit 2; }
-	$(PY) scripts/similar.py query $(if $(Q),--q '$(Q)') $(if $(ID),--id '$(ID)') --k $(K) $(if $(TYPE),--type $(TYPE))
+similar:  ## semantic search: web nodes + SEP sections nearest Q=<text> or ID=<node-id>  (K=, TYPE=, SEP=)
+	@test -n "$(Q)$(ID)" || { echo 'usage: make similar Q=<text> | ID=<node-id>  [K=10] [TYPE=claim] [SEP=include|only|none]'; exit 2; }
+	$(PY) scripts/similar.py query $(if $(Q),--q '$(Q)') $(if $(ID),--id '$(ID)') --k $(K) $(if $(TYPE),--type $(TYPE)) --sep $(SEP)
 
 embed:  ## refresh the embedding cache -> embeddings/web.jsonl  (needs OPENAI_API_KEY)
 	$(PY) scripts/similar.py embed
@@ -98,3 +100,31 @@ clean-preview:  ## delete the PNG previews
 clean: clean-preview  ## delete LaTeX intermediates (build/) and book scratch (book/_*); keep deliverables
 	rm -rf build
 	rm -f book/_*
+
+# --- Stanford Encyclopedia of Philosophy mirror (sep/; data in gitignored sep/data/) ---------
+
+SLUGS ?=
+# SEP entry slugs for `make sep-fetch`, e.g. SLUGS="zombies qualia"
+SEP_ARGS ?=
+# extra flags for sep/scrape.py fetch, e.g. SEP_ARGS="--limit 50 --supplements --older-than 90"
+
+sep-index:  ## SEP: fetch the table of contents -> sep/data/index.json
+	$(PY) sep/scrape.py index
+
+sep-fetch:  ## SEP: fetch specific entries (SLUGS="zombies qualia", SEP_ARGS=...)
+	$(PY) sep/scrape.py fetch $(SLUGS) $(SEP_ARGS)
+
+sep-all:  ## SEP: polite full crawl, resumable (~2.7 h first time; SEP_ARGS=...)
+	$(PY) sep/scrape.py fetch --all $(SEP_ARGS)
+
+sep-parse:  ## SEP: re-parse the cached HTML offline -> sep/data/entries/, sep.jsonl
+	$(PY) sep/scrape.py parse
+
+sep-embed:  ## SEP: embed/refresh the mirror for `make similar` -> sep/data/embeddings/ (SLUGS=; ~$$5 first time)
+	$(PY) scripts/similar.py sep-embed $(if $(SLUGS),--slugs $(SLUGS))
+
+sep-status:  ## SEP: crawl progress
+	$(PY) sep/scrape.py status
+
+sep-test:  ## SEP: parser tests
+	uv run pytest -v sep/tests

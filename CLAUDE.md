@@ -104,7 +104,14 @@ One utterance is not one node.
     at the point of attribution. Prefer a source for the **specific work** over a bare "Person" node, and split a
     person's distinct works into distinct sources when they ground different ideas (e.g.
     `source-block-1978` for *Troubles with Functionalism* vs `source-block` for *Psychologism and
-    Behaviorism*). If you genuinely cannot pin down the source, flag it for the user rather than
+    Behaviorism*). **Consult the local SEP mirror first:** `sep/data/entries/<slug>.md` holds a
+    current copy of the whole Stanford Encyclopedia of Philosophy (~1,870 entries), and its
+    bibliographies are the fastest reliable way to pin down a citation or check an attribution,
+    survey a topic's standard positions and objections, or confirm terminology before writing.
+    Find the relevant entries lexically (`grep -ril "<phrase>" sep/data/entries/`) or semantically:
+    `make similar` also returns the nearest SEP sections, with `url#anchor` links (`SEP=only` for
+    just those). Use it as a reference only: never paste SEP text into the web, and cite an entry
+    you relied on by URL via a `source` node. If you genuinely cannot pin down the source, flag it for the user rather than
     invent one. This applies to encyclopedify conversions too: surfacing a named attribution that
     lacks a source is part of bringing an entry up to standard.
 11. New nodes should be created in enencyclopedia form.
@@ -127,18 +134,26 @@ One utterance is not one node.
   `scripts/bookgen/` package → `book/encyclopedia.{tex,pdf}`. Manual, on demand; the PDF step needs
   a LaTeX engine but degrades to `.tex` without one. See `scripts/bookgen/README.md`. This is the
   delivery vehicle for the encyclopedia style of rule 8 / `schemas/_style.md`.
-- Semantic search (OpenAI embeddings over content + source nodes): `scripts/similar.py` →
-  committed cache `embeddings/web.jsonl`. `make similar Q=<text>` / `ID=<node>` (nearest nodes),
+- Semantic search (OpenAI embeddings over content + source nodes, plus the SEP mirror):
+  `scripts/similar.py` → committed cache `embeddings/web.jsonl`. `make similar Q=<text>` /
+  `ID=<node>` (nearest web nodes, then a separate block of nearest SEP sections; `SEP=only|none`),
+  `make sep-embed` (refresh the SEP vectors in gitignored `sep/data/embeddings/`; resumable),
   `make dupes` (near-duplicate pairs for `/reconcile`), `make embed` (refresh after node edits;
   needs `OPENAI_API_KEY` from env or the gitignored `.env`). Queries by ID and `dupes` work
   keyless from the cache; lint prints a warn-only advisory when the cache is stale.
+
+- Local mirror of the Stanford Encyclopedia of Philosophy (whole SEP, current copy, parsed to
+  JSON/Markdown): `sep/` (see `sep/README.md`). **Consult it as a reference** when researching,
+  citing, or writing nodes (see rule 10). `make sep-all` (polite resumable crawl), `make sep-fetch
+  SLUGS=…`, `make sep-status`. Data in gitignored `sep/data/` (`entries/<slug>.md`, `sep.jsonl`)
+  — copyrighted, research use only: cite SEP entries by URL via a `source` node, never paste text.
 
 ## Make targets (use these for routine ops)
 Recurring non-AI operations are captured in the `Makefile` — **prefer them over re-typing the
 commands**: `make lint`, `make book` (build the encyclopedia; `STYLE=any` for everything),
 `make entry ID=<node>` (typeset + render one node to `build/preview/`), `make preview`,
 `make progress` (encyclopedia vs legacy counts), `make find Q=<text>`,
-`make similar Q=<text>|ID=<node>` (semantic nearest-nodes), `make embed` (refresh the embedding
+`make similar Q=<text>|ID=<node>` (semantic nearest-nodes + SEP sections), `make embed` (refresh the embedding
 cache), `make dupes` (near-duplicate report), `make clean`. `make help`
 lists them. They wrap the scripts below; the Python still runs through uv.
 

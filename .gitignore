@@ -22,3 +22,7 @@ external/
 AGENTS.md
 .agents/
 .codex/
+
+# Local mirror of the Stanford Encyclopedia of Philosophy: scraper, parsed entries and embeddings.
+# Copyrighted content for private research only; kept wholly out of the repo to avoid ownership issues.
+sep/
