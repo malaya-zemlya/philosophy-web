@@ -229,6 +229,11 @@
 ## [argument-halting-oracle-unrealizable](arguments/halting-oracle-unrealizable.md)
 - type: argument | author: mishka | status: asserted
 
+## [argument-hempels-dilemma](arguments/hempels-dilemma.md)
+- type: argument | author: hempel | status: contested
+- backlinks:
+  - [argument-no-fundamental-mentality-reply](arguments/no-fundamental-mentality-reply.md) --responds_to-->
+
 ## [argument-humean-defense-of-orthogonality](arguments/humean-defense-of-orthogonality.md)
 - type: argument | author: bostrom | status: asserted
 
@@ -353,6 +358,9 @@
 
 ## [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md)
 - type: argument | author: nagel | status: asserted
+
+## [argument-no-fundamental-mentality-reply](arguments/no-fundamental-mentality-reply.md)
+- type: argument | author: wilson | status: contested
 
 ## [argument-no-universal-property](arguments/no-universal-property.md)
 - type: argument | author: mishka | status: asserted
@@ -858,6 +866,11 @@
 - backlinks:
   - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --premise-->
 
+## [claim-current-physics-incomplete](claims/current-physics-incomplete.md)
+- type: claim | author: hempel | status: asserted
+- backlinks:
+  - [argument-hempels-dilemma](arguments/hempels-dilemma.md) --premise-->
+
 ## [claim-dancing-qualia-presupposes-functional-introspection](claims/dancing-qualia-presupposes-functional-introspection.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -956,6 +969,11 @@
 - backlinks:
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --concludes-->
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --supports-->
+
+## [claim-future-physics-unspecifiable](claims/future-physics-unspecifiable.md)
+- type: claim | author: hempel | status: asserted
+- backlinks:
+  - [argument-hempels-dilemma](arguments/hempels-dilemma.md) --premise-->
 
 ## [claim-gap-persistence-cannot-separate-blind-spot-from-consciousness](claims/gap-persistence-cannot-separate-blind-spot-from-consciousness.md)
 - type: claim | author: mishka | status: asserted
@@ -1477,6 +1495,12 @@
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
   - [argument-causal-exclusion](arguments/causal-exclusion.md) --premise-->
+
+## [claim-physicalism-false-or-empty](claims/physicalism-false-or-empty.md)
+- type: claim | author: hempel | status: contested
+- backlinks:
+  - [argument-hempels-dilemma](arguments/hempels-dilemma.md) --concludes-->
+  - [argument-no-fundamental-mentality-reply](arguments/no-fundamental-mentality-reply.md) --attacks-->
 
 ## [claim-physics-delivers-all-dispositions-indiscriminately](claims/physics-delivers-all-dispositions-indiscriminately.md)
 - type: claim | author: mishka | status: asserted
@@ -2449,6 +2473,15 @@
 ## [concept-philosophy-of-mind](concepts/philosophy-of-mind.md)
 - type: concept | author: generic | status: asserted
 
+## [concept-physical](concepts/physical.md)
+- type: concept | author: generic | status: contested
+- backlinks:
+  - [argument-hempels-dilemma](arguments/hempels-dilemma.md) --uses_concept-->
+  - [argument-no-fundamental-mentality-reply](arguments/no-fundamental-mentality-reply.md) --uses_concept-->
+  - [claim-current-physics-incomplete](claims/current-physics-incomplete.md) --uses_concept-->
+  - [claim-future-physics-unspecifiable](claims/future-physics-unspecifiable.md) --uses_concept-->
+  - [claim-physicalism-false-or-empty](claims/physicalism-false-or-empty.md) --uses_concept-->
+
 ## [concept-primary-intension](concepts/primary-intension.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
@@ -2920,6 +2953,9 @@
 ## [source-chollet-2017](sources/chollet-2017.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chomsky-2000](sources/chomsky-2000.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-churchland-1981](sources/churchland-1981.md)
 - type: source | author: mishka | status: asserted
 
@@ -2939,6 +2975,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-conee-1994](sources/conee-1994.md)
+- type: source | author: mishka | status: asserted
+
+## [source-crane-mellor-1990](sources/crane-mellor-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-davidson-1970](sources/davidson-1970.md)
@@ -3079,6 +3118,12 @@
 ## [source-hauser-2006](sources/hauser-2006.md)
 - type: source | author: mishka | status: asserted
 
+## [source-hempel-1969](sources/hempel-1969.md)
+- type: source | author: mishka | status: asserted
+
+## [source-hempel-1980](sources/hempel-1980.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-hoffman-2008](sources/hoffman-2008.md)
 - type: source | author: mishka | status: asserted
 
@@ -3157,6 +3202,9 @@
 ## [source-lewis-1988](sources/lewis-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lewis-1994](sources/lewis-1994.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-li-2022](sources/li-2022.md)
 - type: source | author: mishka | status: asserted
 
@@ -3205,6 +3253,9 @@
 ## [source-mcginn-1989](sources/mcginn-1989.md)
 - type: source | author: mishka | status: asserted
 
+## [source-melnyk-1997](sources/melnyk-1997.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-metzinger-2003](sources/metzinger-2003.md)
 - type: source | author: mishka | status: asserted
 
@@ -3212,6 +3263,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-mitchison-jozsa-2001](sources/mitchison-jozsa-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-montero-1999](sources/montero-1999.md)
+- type: source | author: mishka | status: asserted
+
+## [source-montero-papineau-2005](sources/montero-papineau-2005.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-moore-1939](sources/moore-1939.md)
@@ -3230,6 +3287,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-nemirow-1990](sources/nemirow-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-ney-2008](sources/ney-2008.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-nisbett-wilson-1977](sources/nisbett-wilson-1977.md)
@@ -3340,6 +3400,9 @@
 ## [source-searle-1992](sources/searle-1992.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-physicalism](sources/sep-physicalism.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-shani-2015](sources/shani-2015.md)
 - type: source | author: mishka | status: asserted
 
@@ -3358,7 +3421,16 @@
 ## [source-sprevak-2018](sources/sprevak-2018.md)
 - type: source | author: mishka | status: asserted
 
+## [source-spurrett-papineau-1999](sources/spurrett-papineau-1999.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-stanley-williamson-2001](sources/stanley-williamson-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-stoljar-2001](sources/stoljar-2001.md)
+- type: source | author: mishka | status: asserted
+
+## [source-stoljar-2010](sources/stoljar-2010.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-strawson-1959](sources/strawson-1959.md)
@@ -3404,6 +3476,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-williamson-2007](sources/williamson-2007.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wilson-2006](sources/wilson-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-wittgenstein-1953](sources/wittgenstein-1953.md)

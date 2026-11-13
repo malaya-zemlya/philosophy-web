@@ -61,3 +61,4 @@ physical fact about a brain and still leave out what the experience *feels like*
 - [materialism-types](../concepts/materialism-types.md) — Chalmers' taxonomy of physicalist responses to the hard problem.
 - [dualism](dualism.md), [epiphenomenalism](epiphenomenalism.md) — the chief rivals, each rejecting a different premise.
 - [hard-problem](../questions/hard-problem.md) — the question physicalism must answer to be complete.
+- [physical](../concepts/physical.md) and [hempels-dilemma](../arguments/hempels-dilemma.md) — what "physical" means, and the chief difficulty in defining it.
