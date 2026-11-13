@@ -152,8 +152,18 @@ def embed_texts(texts, client=None):
     """Embed a list of strings via the OpenAI API; returns list of vectors."""
     client = client or openai_client()
     vecs = []
+    import time
+    from openai import RateLimitError
     for i in range(0, len(texts), BATCH):
-        resp = client.embeddings.create(model=MODEL, dimensions=DIMS, input=texts[i:i + BATCH])
+        for attempt in range(10):           # beyond the client's own retries: TPM limits on bulk runs
+            try:
+                resp = client.embeddings.create(model=MODEL, dimensions=DIMS,
+                                                input=texts[i:i + BATCH])
+                break
+            except RateLimitError:
+                if attempt == 9:
+                    raise
+                time.sleep(min(60, 5 * 2 ** attempt))
         vecs += [d.embedding for d in sorted(resp.data, key=lambda d: d.index)]
     return vecs
 
@@ -254,13 +264,20 @@ def cmd_sep_embed(args):
         (SEP_CACHE / f"{rec['slug']}.json").write_text(json.dumps(meta), encoding="utf-8")
         return rec["slug"]
 
-    done = 0
+    done, failed = 0, []
     with ThreadPoolExecutor(SEP_WORKERS) as pool:
-        for fut in as_completed([pool.submit(work, it) for it in todo]):
-            fut.result()
+        futs = {pool.submit(work, it): it[0]["slug"] for it in todo}
+        for fut in as_completed(futs):
+            try:
+                fut.result()
+            except Exception as exc:            # keep going; a rerun retries what failed
+                failed.append(futs[fut])
+                print(f"  failed {futs[fut]}: {exc.__class__.__name__}: {exc}", file=sys.stderr)
             done += 1
             if done % 25 == 0 or done == len(todo):
                 print(f"  {done}/{len(todo)} entries", flush=True)
+    if failed:
+        print(f"{len(failed)} entr(y/ies) failed — rerun `make sep-embed` to retry them")
     print(f"SEP cache: {SEP_CACHE.relative_to(ROOT)}  (resumable — rerun to continue)")
 
 
