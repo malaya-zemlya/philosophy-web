@@ -80,3 +80,5 @@ already assumes its own answer here, which is why this one keeps ending in a sta
   on the representation answer.
 - [privileged-first-person-access](../claims/privileged-first-person-access.md) — read metaphysically, the acquaintance-as-bedrock move
   the datum answer licenses.
+- [epistemic-access-to-experience](epistemic-access-to-experience.md) — the survey of accounts of self-knowledge of experience, of
+  which acquaintance is one.

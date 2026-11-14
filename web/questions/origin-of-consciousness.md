@@ -141,3 +141,5 @@ to.
 - [strong-emergence-is-acceptable](../claims/strong-emergence-is-acceptable.md) and [no-radical-emergence](../claims/no-radical-emergence.md): the opposing claims about whether experience can emerge.
 - [consciousness-is-biological-feature](../claims/consciousness-is-biological-feature.md): the biological-naturalist claim that consciousness is caused by brains, implying that it began with them.
 - [substrate-independence](substrate-independence.md): whether consciousness could also arise in non-biological systems, the forward-looking counterpart of this question.
+- [onset-of-consciousness](onset-of-consciousness.md) — the parallel question for the individual: when consciousness begins in
+  fetal and infant development.

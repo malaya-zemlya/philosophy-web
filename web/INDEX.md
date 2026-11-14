@@ -2007,6 +2007,7 @@
   - [concept-explanatory-gap](concepts/explanatory-gap.md) --uses_concept-->
   - [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md) --uses_concept-->
   - [concept-unity-of-consciousness](concepts/unity-of-consciousness.md) --uses_concept-->
+  - [question-onset-of-consciousness](questions/onset-of-consciousness.md) --uses_concept-->
   - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-consciousness-freewill-duality](concepts/consciousness-freewill-duality.md)
@@ -2043,6 +2044,7 @@
   - [claim-identity-is-psychological-continuity](claims/identity-is-psychological-continuity.md) --uses_concept-->
   - [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md) --uses_concept-->
   - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --uses_concept-->
+  - [question-onset-of-consciousness](questions/onset-of-consciousness.md) --uses_concept-->
   - [question-personal-identity](questions/personal-identity.md) --uses_concept-->
 
 ## [concept-criterion-gaming](concepts/criterion-gaming.md)
@@ -2104,6 +2106,7 @@
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
+  - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
 ## [concept-frankfurt-cases](concepts/frankfurt-cases.md)
 - type: concept | author: frankfurt | status: asserted
@@ -2358,6 +2361,7 @@
   - [claim-consciousness-only-known-intrinsic](claims/consciousness-only-known-intrinsic.md) --uses_concept-->
   - [claim-relations-grounded-in-intrinsic](claims/relations-grounded-in-intrinsic.md) --uses_concept-->
   - [concept-grain-problem](concepts/grain-problem.md) --uses_concept-->
+  - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
 ## [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md)
 - type: concept | author: mishka | status: asserted
@@ -2511,6 +2515,7 @@
 - backlinks:
   - [position-intermediate-level-theory](positions/intermediate-level-theory.md) --uses_concept-->
   - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
+  - [question-onset-of-consciousness](questions/onset-of-consciousness.md) --uses_concept-->
 
 ## [concept-order-of-representation](concepts/order-of-representation.md)
 - type: concept | author: generic | status: asserted
@@ -2567,6 +2572,8 @@
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
   - [position-intermediate-level-theory](positions/intermediate-level-theory.md) --uses_concept-->
+  - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
+  - [question-onset-of-consciousness](questions/onset-of-consciousness.md) --uses_concept-->
 
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
 - type: concept | author: chalmers | status: asserted
@@ -2608,6 +2615,7 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [claim-conscious-content-is-product-like](claims/conscious-content-is-product-like.md) --uses_concept-->
+  - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
 ## [concept-rendering-test](test/rendering-test.md)
 - type: concept | author: mishka | status: asserted
@@ -2693,6 +2701,7 @@
 - backlinks:
   - [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
+  - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
 ## [concept-validity](concepts/validity.md)
 - type: concept | author: generic | status: asserted
@@ -2861,6 +2870,9 @@
 ## [question-dispensability-of-mental-causes](questions/dispensability-of-mental-causes.md)
 - type: question | author: generic | status: asserted
 
+## [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md)
+- type: question | author: generic | status: asserted
+
 ## [question-external-world-knowledge](questions/external-world-knowledge.md)
 - type: question | author: generic | status: asserted
 - backlinks:
@@ -2958,6 +2970,9 @@
 - backlinks:
   - [claim-misaligned-superintelligence-catastrophic](claims/misaligned-superintelligence-catastrophic.md) --answers-->
 
+## [question-onset-of-consciousness](questions/onset-of-consciousness.md)
+- type: question | author: generic | status: asserted
+
 ## [question-origin-of-consciousness](questions/origin-of-consciousness.md)
 - type: question | author: generic | status: asserted
 
@@ -3027,6 +3042,12 @@
 ## [source-albert-1985](sources/albert-1985.md)
 - type: source | author: mishka | status: asserted
 
+## [source-amsterdam-1972](sources/amsterdam-1972.md)
+- type: source | author: mishka | status: asserted
+
+## [source-anand-hickey-1987](sources/anand-hickey-1987.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-aquinas-summa](sources/aquinas-summa.md)
 - type: source | author: mishka | status: asserted
 
@@ -3052,6 +3073,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-bayne-2010](sources/bayne-2010.md)
+- type: source | author: mishka | status: asserted
+
+## [source-bayne-2023](sources/bayne-2023.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-bayne-chalmers-2003](sources/bayne-chalmers-2003.md)
@@ -3120,10 +3144,16 @@
 ## [source-butlin-2023](sources/butlin-2023.md)
 - type: source | author: mishka | status: asserted
 
+## [source-byrne-2018](sources/byrne-2018.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-carnap-1950](sources/carnap-1950.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-carruthers-2000](sources/carruthers-2000.md)
+- type: source | author: mishka | status: asserted
+
+## [source-carruthers-2011](sources/carruthers-2011.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-1995](sources/chalmers-1995.md)
@@ -3225,6 +3255,9 @@
 ## [source-davidson-1993](sources/davidson-1993.md)
 - type: source | author: mishka | status: asserted
 
+## [source-dehaene-lambertz-2002](sources/dehaene-lambertz-2002.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dehaene-naccache-2001](sources/dehaene-naccache-2001.md)
 - type: source | author: mishka | status: asserted
 
@@ -3247,6 +3280,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-2013](sources/dennett-2013.md)
+- type: source | author: mishka | status: asserted
+
+## [source-derbyshire-2006](sources/derbyshire-2006.md)
+- type: source | author: mishka | status: asserted
+
+## [source-derbyshire-bockmann-2020](sources/derbyshire-bockmann-2020.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-descartes-meditations](sources/descartes-meditations.md)
@@ -3291,6 +3330,15 @@
 ## [source-elitzur-vaidman-1993](sources/elitzur-vaidman-1993.md)
 - type: source | author: mishka | status: asserted
 
+## [source-eu-directive-2010-63](sources/eu-directive-2010-63.md)
+- type: source | author: mishka | status: asserted
+
+## [source-evans-1982](sources/evans-1982.md)
+- type: source | author: mishka | status: asserted
+
+## [source-fabrizi-2011](sources/fabrizi-2011.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-feigl-1958](sources/feigl-1958.md)
 - type: source | author: mishka | status: asserted
 
@@ -3330,6 +3378,9 @@
 ## [source-gazzaniga-1970](sources/gazzaniga-1970.md)
 - type: source | author: mishka | status: asserted
 
+## [source-gertler-2011](sources/gertler-2011.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-ginsburg-jablonka-2019](sources/ginsburg-jablonka-2019.md)
 - type: source | author: mishka | status: asserted
 
@@ -3367,6 +3418,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-goodhart](sources/goodhart.md)
+- type: source | author: mishka | status: asserted
+
+## [source-gopnik-2009](sources/gopnik-2009.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-grahek-2007](sources/grahek-2007.md)
@@ -3495,13 +3549,22 @@
 ## [source-koch-massimini-boly-tononi-2016](sources/koch-massimini-boly-tononi-2016.md)
 - type: source | author: mishka | status: asserted
 
+## [source-kouider-2013](sources/kouider-2013.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kripke-1980](sources/kripke-1980.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-kripke-1982](sources/kripke-1982.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lagercrantz-changeux-2009](sources/lagercrantz-changeux-2009.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-landauer-1961](sources/landauer-1961.md)
+- type: source | author: mishka | status: asserted
+
+## [source-lee-2005](sources/lee-2005.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-legg-hutter-2007](sources/legg-hutter-2007.md)
@@ -3597,7 +3660,16 @@
 ## [source-meehl-1966](sources/meehl-1966.md)
 - type: source | author: mishka | status: asserted
 
+## [source-mellor-2005](sources/mellor-2005.md)
+- type: source | author: mishka | status: asserted
+
+## [source-mellor-diesch-2007](sources/mellor-diesch-2007.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-melnyk-1997](sources/melnyk-1997.md)
+- type: source | author: mishka | status: asserted
+
+## [source-merker-2007](sources/merker-2007.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-metzinger-2003](sources/metzinger-2003.md)
@@ -3622,6 +3694,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-montero-papineau-2005](sources/montero-papineau-2005.md)
+- type: source | author: mishka | status: asserted
+
+## [source-moore-1903](sources/moore-1903.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-moore-1939](sources/moore-1939.md)
@@ -3667,6 +3742,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-parfit-1984](sources/parfit-1984.md)
+- type: source | author: mishka | status: asserted
+
+## [source-passos-ferreira-2023](sources/passos-ferreira-2023.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-pauli-jung-1955](sources/pauli-jung-1955.md)
@@ -3723,10 +3801,16 @@
 ## [source-putnam-1988](sources/putnam-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-rcog-2010](sources/rcog-2010.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-reid-1785](sources/reid-1785.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-roelofs-2019](sources/roelofs-2019.md)
+- type: source | author: mishka | status: asserted
+
+## [source-rorty-1970](sources/rorty-1970.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-rosenberg-1998](sources/rosenberg-1998.md)
@@ -3757,6 +3841,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-schlick-1939](sources/schlick-1939.md)
+- type: source | author: mishka | status: asserted
+
+## [source-schlick-1979](sources/schlick-1979.md)
+- type: source | author: mishka | status: asserted
+
+## [source-schwitzgebel-2008](sources/schwitzgebel-2008.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-schwitzgebel-2015](sources/schwitzgebel-2015.md)
@@ -3822,6 +3912,9 @@
 ## [source-sep-ibn-sina](sources/sep-ibn-sina.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-introspection](sources/sep-introspection.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-jaina-philosophy](sources/sep-jaina-philosophy.md)
 - type: source | author: mishka | status: asserted
 
@@ -3843,6 +3936,15 @@
 ## [source-sep-physicalism](sources/sep-physicalism.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-private-language](sources/sep-private-language.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-qualia-inverted](sources/sep-qualia-inverted.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-self-knowledge](sources/sep-self-knowledge.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-sellars](sources/sep-sellars.md)
 - type: source | author: mishka | status: asserted
 
@@ -3862,6 +3964,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-shoemaker-1963](sources/shoemaker-1963.md)
+- type: source | author: mishka | status: asserted
+
+## [source-shoemaker-1982](sources/shoemaker-1982.md)
+- type: source | author: mishka | status: asserted
+
+## [source-shoemaker-1994](sources/shoemaker-1994.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-siderits-2003](sources/siderits-2003.md)

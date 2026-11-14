@@ -75,3 +75,5 @@ itself something special, or just more of the mind's ordinary machinery?
   whether introspective self-access is functional.
 - [phenomenal-concept-isolation-tradeoff](../claims/phenomenal-concept-isolation-tradeoff.md) — whether a concept can be informative enough to
   ground self-knowledge yet isolated enough to deflate the explanatory gap.
+- [epistemic-access-to-experience](../questions/epistemic-access-to-experience.md) — the wider question of how experience is known by its subject
+  and why it resists communication.

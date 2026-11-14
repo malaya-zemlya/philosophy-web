@@ -81,3 +81,5 @@ at it closely.
 - [access-vs-phenomenal-consciousness](access-vs-phenomenal-consciousness.md) — Block's distinction; qualia live on the phenomenal
   side of it.
 - [functionalism](functionalism.md) — the theory of mind that qualia are most often said to outrun.
+- [epistemic-access-to-experience](../questions/epistemic-access-to-experience.md) — why the qualitative character of experience seems
+  incommunicable, and how its subject knows it.

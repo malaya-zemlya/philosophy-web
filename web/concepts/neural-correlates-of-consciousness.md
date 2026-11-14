@@ -123,3 +123,5 @@ would tell us *what* goes with feeling, not *why* brain activity should feel lik
 - [origin-of-consciousness](../questions/origin-of-consciousness.md): the evolutionary question of when the first NCCs appeared.
 - [intermediate-level-theory](../positions/intermediate-level-theory.md): the theory that conscious contents come from intermediate
   stages of processing, not the earliest ones.
+- [onset-of-consciousness](../questions/onset-of-consciousness.md): the question of when consciousness begins in development, where the
+  correlates are least securely established.
