@@ -76,3 +76,4 @@ fundamental, like Russellian monism and panpsychism.)
 - [illusionism](../positions/illusionism.md) and [phenomenality-is-illusion](../claims/phenomenality-is-illusion.md) — the strongest Type-A line, that the felt residue is an introspective illusion.
 - [dualism](../positions/dualism.md), [russellian-monism](../positions/russellian-monism.md), [panpsychism](../positions/panpsychism.md) — the non-physicalist Types D/E/F that keep consciousness fundamental.
 - [chalmers-2003](../sources/chalmers-2003.md), [chalmers-1996](../sources/chalmers-1996.md) — Chalmers' statement of the taxonomy and the apparatus behind it.
+- [metaphysical-gap](metaphysical-gap.md): the ontological gap that Type-A, B and C materialists all deny, and the inference to it from the epistemic gap.

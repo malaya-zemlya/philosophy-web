@@ -10,7 +10,7 @@ created: 2026-06-13
 
 The paper that introduced the term *explanatory gap* — the gap between a complete physical
 account of a mental state and its felt, qualitative character. Grounds the
-[explanatory-gap](../arguments/explanatory-gap.md) and is cited in [hard-problem](../concepts/hard-problem.md) as a neighbour of the hard
+[explanatory-gap](../concepts/explanatory-gap.md) and the [explanatory-gap](../arguments/explanatory-gap.md), and is cited in [hard-problem](../concepts/hard-problem.md) as a neighbour of the hard
 problem.
 
 Levine, J. (1983). Materialism and qualia: The explanatory gap. *Pacific Philosophical

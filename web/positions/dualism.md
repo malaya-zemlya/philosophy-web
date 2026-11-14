@@ -79,3 +79,4 @@ Its famous headache: if the mind isn't physical, how does it manage to push the 
   than in non-physicality.
 - [epiphenomenalism](epiphenomenalism.md) — the horn of dualism that accepts the mind's causal inefficacy
   rather than positing interaction.
+- [metaphysical-gap](../concepts/metaphysical-gap.md): the thesis that phenomenal facts are something over and above the physical facts, which dualism needs.

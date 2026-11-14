@@ -87,7 +87,7 @@ meta-position that the problem, though real, lies permanently beyond human under
 Several arguments keep the problem alive by pressing on the physicalist and dualist alike. The
 [zombie/conceivability argument](../arguments/zombie-conceivability.md) and the
 [knowledge argument](../arguments/knowledge-argument.md) press that no amount of physical fact seems to *entail*
-the facts of experience. The [explanatory gap](../arguments/explanatory-gap.md) notes that we have no idea *how*
+the facts of experience. The [explanatory gap](explanatory-gap.md) notes that we have no idea *how*
 physical processing could constitute feeling. From the other side, the causal exclusion problem squeezes any
 view on which the mental is both real and non-physical toward epiphenomenalism. The persistence of these
 pressures from both directions — the mental seeming neither cleanly reducible to the physical nor safely
@@ -113,6 +113,7 @@ problem is still open.
   answers.
 - [intentionality](intentionality.md) — the aboutness of thought, the fourth strand of the problem.
 - [origin-of-consciousness](../questions/origin-of-consciousness.md): whether consciousness ever began, and if so when and how, the historical strand.
+- [metaphysical-gap](metaphysical-gap.md): whether phenomenal facts are something over and above the physical ones, the narrower thesis behind dualism.
 - [dualism](../positions/dualism.md), [physicalism](../positions/physicalism.md), [idealism](../positions/idealism.md), [neutral-monism](../positions/neutral-monism.md),
   [dual-aspect-monism](../positions/dual-aspect-monism.md), [russellian-monism](../positions/russellian-monism.md), [panpsychism](../positions/panpsychism.md),
   [hylomorphism](../positions/hylomorphism.md), [mysterianism](../positions/mysterianism.md) — the principal answers.

@@ -1813,8 +1813,10 @@
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md) --uses_concept-->
+  - [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md) --uses_concept-->
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
+  - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
 
 ## [concept-agent-causation](concepts/agent-causation.md)
 - type: concept | author: generic | status: asserted
@@ -1882,6 +1884,7 @@
   - [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md) --uses_concept-->
   - [position-anomalous-monism](positions/anomalous-monism.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
+  - [question-dispensability-of-mental-causes](questions/dispensability-of-mental-causes.md) --uses_concept-->
   - [question-mental-causation](questions/mental-causation.md) --uses_concept-->
 
 ## [concept-chinese-nation](concepts/chinese-nation.md)
@@ -1927,11 +1930,14 @@
   - [claim-physical-domain-complete](claims/physical-domain-complete.md) --uses_concept-->
   - [concept-causal-closure](concepts/causal-closure.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
+  - [question-dispensability-of-mental-causes](questions/dispensability-of-mental-causes.md) --uses_concept-->
   - [question-mental-causation](questions/mental-causation.md) --uses_concept-->
 
 ## [concept-consciousness](concepts/consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [concept-explanatory-gap](concepts/explanatory-gap.md) --uses_concept-->
+  - [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md) --uses_concept-->
   - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-consciousness-freewill-duality](concepts/consciousness-freewill-duality.md)
@@ -1997,6 +2003,12 @@
   - [claim-knowledge-without-noncircular-proof](claims/knowledge-without-noncircular-proof.md) --uses_concept-->
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
   - [position-epistemic-externalism](positions/epistemic-externalism.md) --uses_concept-->
+
+## [concept-explanatory-gap](concepts/explanatory-gap.md)
+- type: concept | author: levine | status: asserted
+- backlinks:
+  - [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md) --uses_concept-->
+  - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
 
 ## [concept-first-person-access](concepts/first-person-access.md)
 - type: concept | author: mishka | status: asserted
@@ -2152,8 +2164,10 @@
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
+  - [concept-explanatory-gap](concepts/explanatory-gap.md) --uses_concept-->
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
+  - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
   - [concept-mind-body-problem](concepts/mind-body-problem.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
   - [concept-panpsychism](concepts/panpsychism.md) --uses_concept-->
@@ -2374,6 +2388,7 @@
   - [claim-mental-states-are-brain-state-types](claims/mental-states-are-brain-state-types.md) --uses_concept-->
   - [claim-mental-states-causally-inert](claims/mental-states-causally-inert.md) --uses_concept-->
   - [claim-phenomenal-character-is-representational](claims/phenomenal-character-is-representational.md) --uses_concept-->
+  - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
   - [position-eliminative-materialism](positions/eliminative-materialism.md) --uses_concept-->
   - [position-epiphenomenalism](positions/epiphenomenalism.md) --uses_concept-->
   - [position-representationalism](positions/representationalism.md) --uses_concept-->
@@ -2381,6 +2396,9 @@
   - [position-type-b-materialism](positions/type-b-materialism.md) --uses_concept-->
   - [position-type-c-materialism](positions/type-c-materialism.md) --uses_concept-->
   - [position-type-identity](positions/type-identity.md) --uses_concept-->
+
+## [concept-metaphysical-gap](concepts/metaphysical-gap.md)
+- type: concept | author: generic | status: asserted
 
 ## [concept-mind-body-problem](concepts/mind-body-problem.md)
 - type: concept | author: generic | status: asserted
@@ -2407,6 +2425,11 @@
   - [position-foundationalism](positions/foundationalism.md) --uses_concept-->
   - [position-infinitism](positions/infinitism.md) --uses_concept-->
   - [question-external-world-knowledge](questions/external-world-knowledge.md) --uses_concept-->
+
+## [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md)
+- type: concept | author: crick | status: asserted
+- backlinks:
+  - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
 
 ## [concept-order-of-representation](concepts/order-of-representation.md)
 - type: concept | author: generic | status: asserted
@@ -2474,6 +2497,7 @@
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
   - [claim-zombie-dualizes-to-volitional-zombie](claims/zombie-dualizes-to-volitional-zombie.md) --uses_concept-->
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
+  - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
 
 ## [concept-philosophy-of-mind](concepts/philosophy-of-mind.md)
 - type: concept | author: generic | status: asserted
@@ -2486,6 +2510,7 @@
   - [claim-current-physics-incomplete](claims/current-physics-incomplete.md) --uses_concept-->
   - [claim-future-physics-unspecifiable](claims/future-physics-unspecifiable.md) --uses_concept-->
   - [claim-physicalism-false-or-empty](claims/physicalism-false-or-empty.md) --uses_concept-->
+  - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
 
 ## [concept-primary-intension](concepts/primary-intension.md)
 - type: concept | author: chalmers | status: asserted
@@ -2710,6 +2735,12 @@
   - [claim-introspection-is-fallible-representation](claims/introspection-is-fallible-representation.md) --answers-->
   - [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md) --answers-->
 
+## [question-consciousness-reading-machine](questions/consciousness-reading-machine.md)
+- type: question | author: generic | status: asserted
+
+## [question-dispensability-of-mental-causes](questions/dispensability-of-mental-causes.md)
+- type: question | author: generic | status: asserted
+
 ## [question-external-world-knowledge](questions/external-world-knowledge.md)
 - type: question | author: generic | status: asserted
 - backlinks:
@@ -2862,6 +2893,9 @@
 ## [source-armstrong-1968](sources/armstrong-1968.md)
 - type: source | author: mishka | status: asserted
 
+## [source-aru-2012](sources/aru-2012.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-augustine-confessions](sources/augustine-confessions.md)
 - type: source | author: mishka | status: asserted
 
@@ -2875,6 +2909,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-bender-koller-2020](sources/bender-koller-2020.md)
+- type: source | author: mishka | status: asserted
+
+## [source-bennett-2003](sources/bennett-2003.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-berkeley-1710](sources/berkeley-1710.md)
@@ -2899,6 +2936,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-block-2007](sources/block-2007.md)
+- type: source | author: mishka | status: asserted
+
+## [source-block-stalnaker-1999](sources/block-stalnaker-1999.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-boltzmann-1877](sources/boltzmann-1877.md)
@@ -2938,6 +2978,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-1996b](sources/chalmers-1996b.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-2000](sources/chalmers-2000.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2002](sources/chalmers-2002.md)
@@ -2997,10 +3040,16 @@
 ## [source-crane-mellor-1990](sources/crane-mellor-1990.md)
 - type: source | author: mishka | status: asserted
 
+## [source-crick-koch-1990](sources/crick-koch-1990.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-davidson-1970](sources/davidson-1970.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-davidson-1987](sources/davidson-1987.md)
+- type: source | author: mishka | status: asserted
+
+## [source-davidson-1993](sources/davidson-1993.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dehaene-naccache-2001](sources/dehaene-naccache-2001.md)
@@ -3013,6 +3062,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-1991](sources/dennett-1991.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dennett-1991b](sources/dennett-1991b.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-dennett-1993](sources/dennett-1993.md)
@@ -3051,6 +3103,9 @@
 ## [source-dominus-2011](sources/dominus-2011.md)
 - type: source | author: mishka | status: asserted
 
+## [source-dretske-1988](sources/dretske-1988.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dretske-1995](sources/dretske-1995.md)
 - type: source | author: mishka | status: asserted
 
@@ -3070,6 +3125,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-fischer-ravizza-1998](sources/fischer-ravizza-1998.md)
+- type: source | author: mishka | status: asserted
+
+## [source-fodor-1974](sources/fodor-1974.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-fodor-1990](sources/fodor-1990.md)
@@ -3153,7 +3211,13 @@
 ## [source-hoffman-2008](sources/hoffman-2008.md)
 - type: source | author: mishka | status: asserted
 
+## [source-hofstadter-2007](sources/hofstadter-2007.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-horgan-1984](sources/horgan-1984.md)
+- type: source | author: mishka | status: asserted
+
+## [source-horgan-1989](sources/horgan-1989.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-horgan-tienson-2002](sources/horgan-tienson-2002.md)
@@ -3175,6 +3239,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-jackson-1998](sources/jackson-1998.md)
+- type: source | author: mishka | status: asserted
+
+## [source-jackson-pettit-1990](sources/jackson-pettit-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-james-1890](sources/james-1890.md)
@@ -3207,7 +3274,13 @@
 ## [source-kelly-2017](sources/kelly-2017.md)
 - type: source | author: mishka | status: asserted
 
+## [source-kim-1989](sources/kim-1989.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kim-2005](sources/kim-2005.md)
+- type: source | author: mishka | status: asserted
+
+## [source-koch-massimini-boly-tononi-2016](sources/koch-massimini-boly-tononi-2016.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-kripke-1980](sources/kripke-1980.md)
@@ -3228,7 +3301,13 @@
 ## [source-lem](sources/lem.md)
 - type: source | author: mishka | status: asserted
 
+## [source-leopold-logothetis-1996](sources/leopold-logothetis-1996.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-levine-1983](sources/levine-1983.md)
+- type: source | author: mishka | status: asserted
+
+## [source-levine-2001](sources/levine-2001.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-lewis-1979](sources/lewis-1979.md)
@@ -3288,6 +3367,9 @@
 ## [source-mcginn-1989](sources/mcginn-1989.md)
 - type: source | author: mishka | status: asserted
 
+## [source-meehl-1966](sources/meehl-1966.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-melnyk-1997](sources/melnyk-1997.md)
 - type: source | author: mishka | status: asserted
 
@@ -3336,6 +3418,12 @@
 ## [source-omohundro-2008](sources/omohundro-2008.md)
 - type: source | author: mishka | status: asserted
 
+## [source-overgaard-fazekas-2016](sources/overgaard-fazekas-2016.md)
+- type: source | author: mishka | status: asserted
+
+## [source-owen-2006](sources/owen-2006.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-papineau-2002](sources/papineau-2002.md)
 - type: source | author: mishka | status: asserted
 
@@ -3379,6 +3467,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-putnam-1967](sources/putnam-1967.md)
+- type: source | author: mishka | status: asserted
+
+## [source-putnam-1975](sources/putnam-1975.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-putnam-1988](sources/putnam-1988.md)
@@ -3438,7 +3529,19 @@
 ## [source-searle-1992](sources/searle-1992.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-consciousness](sources/sep-consciousness.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-consciousness-animal](sources/sep-consciousness-animal.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-consciousness-neuroscience](sources/sep-consciousness-neuroscience.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-mental-causation](sources/sep-mental-causation.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-neuroethics](sources/sep-neuroethics.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-physicalism](sources/sep-physicalism.md)
@@ -3453,7 +3556,13 @@
 ## [source-smart-1959](sources/smart-1959.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sosa-1984](sources/sosa-1984.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-specification-gaming](sources/specification-gaming.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sperling-1960](sources/sperling-1960.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-spinoza-ethics](sources/spinoza-ethics.md)
@@ -3492,10 +3601,16 @@
 ## [source-stuart-russell-2019](sources/stuart-russell-2019.md)
 - type: source | author: mishka | status: asserted
 
+## [source-tang-2023](sources/tang-2023.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-tononi-2004](sources/tononi-2004.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-tononi-2016](sources/tononi-2016.md)
+- type: source | author: mishka | status: asserted
+
+## [source-tsuchiya-2015](sources/tsuchiya-2015.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-turing-1936](sources/turing-1936.md)
@@ -3541,6 +3656,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-xu-2025](sources/xu-2025.md)
+- type: source | author: mishka | status: asserted
+
+## [source-yablo-1992](sources/yablo-1992.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-yuan-2025](sources/yuan-2025.md)
