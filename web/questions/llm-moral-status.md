@@ -40,3 +40,8 @@ its own right — do its interests, if it has any, give the rest of us reasons t
 rather than another? A rock has none; a person has full status; animals are argued over. The
 question here is where today's AI language models fall. Not "are they clever" or "do they seem
 human," but: is there anyone in there whose well-being we're obliged to take into account?
+
+### See also
+
+- [ai-introspection](ai-introspection.md) — the functional question of AI self-access, on which the reliability of
+  self-reports depends.

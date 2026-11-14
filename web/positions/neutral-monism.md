@@ -62,3 +62,5 @@ matter from mind)?" is a trick question: you get both from something underneath 
   neutral.
 - [idealism](idealism.md) — rival monism on which the base is mental.
 - [dualism](dualism.md) — rival on which there are two fundamental kinds.
+- [panqualityism](panqualityism.md) — the contemporary descendant that gives the neutral stuff a positive,
+  qualitative character.

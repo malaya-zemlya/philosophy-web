@@ -182,3 +182,4 @@ some say you largely work it out, often getting it wrong.
 - [illusionism](../positions/illusionism.md): the view that the apparent privacy of experience is an introspective illusion.
 - [paradox-of-phenomenal-judgment](../concepts/paradox-of-phenomenal-judgment.md): the puzzle of how physically caused reports can be
   evidence about experience.
+- [ai-introspection](ai-introspection.md): the same question asked of artificial systems.

@@ -182,3 +182,4 @@ that the whole universe is the one basic mind. Nobody yet claims a complete answ
   problem, is usually posed.
 - [boundary-problem](boundary-problem.md): Rosenberg's question of what fixes the edges of a subject, one aspect of
   the combination problem.
+- [panqualityism](../positions/panqualityism.md): the response that denies there are micro-subjects to combine.

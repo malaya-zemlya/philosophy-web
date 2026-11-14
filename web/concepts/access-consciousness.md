@@ -45,3 +45,4 @@ from a machine describing its own inner states to assuming it must therefore fee
   dissociate in both directions.
 - [global-workspace](../positions/global-workspace.md) — a theory that ties consciousness to access (global broadcast).
 - [first-person-access](first-person-access.md) — privileged first-person access, a distinct, epistemic notion.
+- [ai-introspection](../questions/ai-introspection.md) — whether AI systems can have access consciousness, and the evidence.

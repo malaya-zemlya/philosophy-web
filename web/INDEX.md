@@ -810,6 +810,7 @@
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --concludes-->
   - [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md) --supports-->
   - [position-panpsychism](positions/panpsychism.md) --commits_to-->
+  - [position-panqualityism](positions/panqualityism.md) --rejects-->
 
 ## [claim-consciousness-has-natural-explanation](claims/consciousness-has-natural-explanation.md)
 - type: claim | author: mcginn | status: asserted
@@ -1373,6 +1374,7 @@
 - backlinks:
   - [argument-combination-problem](arguments/combination-problem.md) --premise-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --attacks-->
+  - [position-panqualityism](positions/panqualityism.md) --commits_to-->
 
 ## [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md)
 - type: claim | author: mishka | status: asserted
@@ -1584,6 +1586,16 @@
 - type: claim | author: parfit | status: asserted
 - backlinks:
   - [argument-parfit-rewiring](arguments/parfit-rewiring.md) --premise-->
+
+## [claim-qualities-do-not-necessitate-awareness](claims/qualities-do-not-necessitate-awareness.md)
+- type: claim | author: chalmers | status: asserted
+- backlinks:
+  - [position-panqualityism](positions/panqualityism.md) --rejects-->
+
+## [claim-qualities-exist-unexperienced](claims/qualities-exist-unexperienced.md)
+- type: claim | author: coleman | status: asserted
+- backlinks:
+  - [position-panqualityism](positions/panqualityism.md) --commits_to-->
 
 ## [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md)
 - type: claim | author: mishka | status: asserted
@@ -1844,6 +1856,7 @@
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
   - [concept-j-space](concepts/j-space.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
+  - [question-ai-introspection](questions/ai-introspection.md) --uses_concept-->
 
 ## [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md)
 - type: concept | author: block | status: asserted
@@ -1872,6 +1885,7 @@
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
   - [position-samkhya](positions/samkhya.md) --uses_concept-->
+  - [question-ai-introspection](questions/ai-introspection.md) --uses_concept-->
   - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
 
 ## [concept-agent-causation](concepts/agent-causation.md)
@@ -1988,6 +2002,7 @@
   - [concept-boundary-problem](concepts/boundary-problem.md) --uses_concept-->
   - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
   - [concept-grain-problem](concepts/grain-problem.md) --uses_concept-->
+  - [position-panqualityism](positions/panqualityism.md) --uses_concept-->
 
 ## [concept-completeness-of-physics](concepts/completeness-of-physics.md)
 - type: concept | author: generic | status: asserted
@@ -2106,6 +2121,7 @@
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
+  - [question-ai-introspection](questions/ai-introspection.md) --uses_concept-->
   - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
 ## [concept-frankfurt-cases](concepts/frankfurt-cases.md)
@@ -2361,6 +2377,7 @@
   - [claim-consciousness-only-known-intrinsic](claims/consciousness-only-known-intrinsic.md) --uses_concept-->
   - [claim-relations-grounded-in-intrinsic](claims/relations-grounded-in-intrinsic.md) --uses_concept-->
   - [concept-grain-problem](concepts/grain-problem.md) --uses_concept-->
+  - [position-panqualityism](positions/panqualityism.md) --uses_concept-->
   - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
 ## [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md)
@@ -2400,6 +2417,7 @@
   - [claim-llm-global-workspace](claims/llm-global-workspace.md) --uses_concept-->
   - [claim-workspace-convergent-architecture](claims/workspace-convergent-architecture.md) --uses_concept-->
   - [claim-workspace-precedes-self](claims/workspace-precedes-self.md) --uses_concept-->
+  - [question-ai-introspection](questions/ai-introspection.md) --uses_concept-->
 
 ## [concept-jo-cameron](concepts/jo-cameron.md)
 - type: concept | author: generic | status: asserted
@@ -2543,6 +2561,7 @@
   - [claim-combination-dualizes-to-composition-of-will](claims/combination-dualizes-to-composition-of-will.md) --uses_concept-->
   - [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md) --uses_concept-->
   - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
+  - [position-panqualityism](positions/panqualityism.md) --uses_concept-->
   - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-paperclip-maximizer](concepts/paperclip-maximizer.md)
@@ -2615,6 +2634,7 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [claim-conscious-content-is-product-like](claims/conscious-content-is-product-like.md) --uses_concept-->
+  - [position-panqualityism](positions/panqualityism.md) --uses_concept-->
   - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
 ## [concept-rendering-test](test/rendering-test.md)
@@ -2820,6 +2840,9 @@
 ## [position-panpsychism](positions/panpsychism.md)
 - type: position | author: generic | status: asserted
 
+## [position-panqualityism](positions/panqualityism.md)
+- type: position | author: feigl | status: asserted
+
 ## [position-physicalism](positions/physicalism.md)
 - type: position | author: generic | status: asserted
 
@@ -2863,6 +2886,9 @@
 - backlinks:
   - [claim-introspection-is-fallible-representation](claims/introspection-is-fallible-representation.md) --answers-->
   - [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md) --answers-->
+
+## [question-ai-introspection](questions/ai-introspection.md)
+- type: question | author: generic | status: asserted
 
 ## [question-consciousness-reading-machine](questions/consciousness-reading-machine.md)
 - type: question | author: generic | status: asserted
@@ -2918,6 +2944,7 @@
   - [position-neutral-monism](positions/neutral-monism.md) --answers-->
   - [position-noncomputable-consciousness](positions/noncomputable-consciousness.md) --answers-->
   - [position-panpsychism](positions/panpsychism.md) --answers-->
+  - [position-panqualityism](positions/panqualityism.md) --answers-->
   - [position-physicalism](positions/physicalism.md) --answers-->
   - [position-representationalism](positions/representationalism.md) --answers-->
   - [position-russellian-monism](positions/russellian-monism.md) --answers-->
@@ -3102,6 +3129,9 @@
 ## [source-berthier-1988](sources/berthier-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-binder-2024](sources/binder-2024.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-birch-2024](sources/birch-2024.md)
 - type: source | author: mishka | status: asserted
 
@@ -3195,6 +3225,9 @@
 ## [source-chalmers-2022](sources/chalmers-2022.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chen-2025-cot](sources/chen-2025-cot.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chisholm-1964](sources/chisholm-1964.md)
 - type: source | author: mishka | status: asserted
 
@@ -3222,7 +3255,16 @@
 ## [source-clausius-1865](sources/clausius-1865.md)
 - type: source | author: mishka | status: asserted
 
+## [source-coleman-2012](sources/coleman-2012.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-coleman-2014](sources/coleman-2014.md)
+- type: source | author: mishka | status: asserted
+
+## [source-coleman-2015](sources/coleman-2015.md)
+- type: source | author: mishka | status: asserted
+
+## [source-coleman-2016](sources/coleman-2016.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-collins-1982](sources/collins-1982.md)
@@ -3340,6 +3382,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-feigl-1958](sources/feigl-1958.md)
+- type: source | author: mishka | status: asserted
+
+## [source-feigl-1960](sources/feigl-1960.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-feinberg-mallatt-2016](sources/feinberg-mallatt-2016.md)
@@ -3525,6 +3570,9 @@
 ## [source-jaynes-1976](sources/jaynes-1976.md)
 - type: source | author: mishka | status: asserted
 
+## [source-kadavath-2022](sources/kadavath-2022.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kane-1996](sources/kane-1996.md)
 - type: source | author: mishka | status: asserted
 
@@ -3601,6 +3649,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-libet-1985](sources/libet-1985.md)
+- type: source | author: mishka | status: asserted
+
+## [source-lindsey-biology-2025](sources/lindsey-biology-2025.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-lindsey-introspection-2025](sources/lindsey-introspection-2025.md)
@@ -3760,6 +3811,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-pereboom-2014](sources/pereboom-2014.md)
+- type: source | author: mishka | status: asserted
+
+## [source-perez-long-2023](sources/perez-long-2023.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-perry-2001](sources/perry-2001.md)
@@ -4075,6 +4129,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-tye-2000](sources/tye-2000.md)
+- type: source | author: mishka | status: asserted
+
+## [source-unger-1999](sources/unger-1999.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-van-inwagen-1978](sources/van-inwagen-1978.md)

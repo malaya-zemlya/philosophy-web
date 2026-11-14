@@ -72,3 +72,5 @@ uses it to work through multi-step problems, and can get by without it only for 
 - [consciousness-is-cerebral-celebrity](../claims/consciousness-is-cerebral-celebrity.md) — Dennett's anticipation: consciousness as
   widespread influence, especially over verbal report, which is the very property that defines this
   construct.
+- [ai-introspection](../questions/ai-introspection.md) — the question of AI introspection and access consciousness, to which the
+  J-space findings are central.

@@ -70,3 +70,4 @@ countless tiny experiences add up to the single unified experience you're having
   individual minds are carved out of it.
 - [dualism](dualism.md) — the rival on which consciousness is fundamental but non-physical.
 - [illusionism](illusionism.md) — the rival that denies there is any fundamental experience to distribute.
+- [panqualityism](panqualityism.md) — the variant that keeps qualities fundamental but drops micro-subjects.

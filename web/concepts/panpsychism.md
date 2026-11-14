@@ -124,3 +124,5 @@ of the world.
   quality and structure faces, and the main responses.
 - [grain-problem](grain-problem.md) — the older worry about the smoothness of experience, now counted one aspect
   of the combination problem.
+- [panqualityism](../positions/panqualityism.md) — the variety that puts unexperienced qualities, not experiences or subjects,
+  at the base of reality.

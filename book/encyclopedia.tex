@@ -172,7 +172,7 @@
 \markboth{}{}\thispagestyle{plain}
 \vspace*{1.2\baselineskip}
 {\centering\Large\bfseries List of Entries\par}
-{\centering\small 483 entries \,\textperiodcentered\, November 2026\par}
+{\centering\small 487 entries \,\textperiodcentered\, November 2026\par}
 \vspace{1\baselineskip}
 \begin{listofentries}
 \entryline{$\odot$}{claim-some-necessities-knowable-only-a-posteriori}{A-posteriori necessities}
@@ -198,6 +198,7 @@
 \entryline{$\blacklozenge$}{concept-agent-causation}{Agent causation}
 \entryline{$\blacklozenge$}{concept-ai-effect}{AI effect}
 \entryline{$\odot$}{claim-ai-hard-problem-is-model-organism}{AI hard problem as model organism}
+\entryline{?}{question-ai-introspection}{AI introspection and access consciousness}
 \entryline{$\odot$}{claim-ai-own-hard-problem}{AI's own hard problem}
 \entryline{$\vdash$}{argument-ambient-consciousness-collapse}{Ambient-consciousness collapse}
 \entryline{$\bigstar$}{position-animalism}{Animalism}
@@ -518,6 +519,7 @@
 \entryline{$\blacklozenge$}{concept-pain-asymbolia}{Pain asymbolia}
 \entryline{$\blacklozenge$}{concept-panpsychism}{Panpsychism}
 \entryline{$\bigstar$}{position-panpsychism}{Panpsychism (position)}
+\entryline{$\bigstar$}{position-panqualityism}{Panqualityism}
 \entryline{$\vdash$}{argument-paperclip-catastrophe}{Paperclip catastrophe argument}
 \entryline{$\blacklozenge$}{concept-paperclip-maximizer}{Paperclip maximizer}
 \entryline{$\blacklozenge$}{concept-paradox-of-phenomenal-judgment}{Paradox of phenomenal judgment}
@@ -561,6 +563,7 @@
 \entryline{$\bigstar$}{position-psychological-continuity-theory}{Psychological continuity theory}
 \entryline{$\vdash$}{argument-storage-not-stable-kind}{Pure-storage instability}
 \entryline{$\blacklozenge$}{concept-qualia}{Qualia}
+\entryline{$\odot$}{claim-qualities-do-not-necessitate-awareness}{Quality-awareness gap}
 \entryline{$\vdash$}{argument-olympia-quantum-counterfactuals}{Quantum counterfactuals objection}
 \entryline{$\odot$}{claim-reality-is-fundamentally-mental}{Reality as fundamentally mental}
 \entryline{$\odot$}{claim-phenomenal-consciousness-is-real}{Reality of phenomenal consciousness}
@@ -638,6 +641,7 @@
 \entryline{$\odot$}{claim-gap-persistence-cannot-separate-blind-spot-from-consciousness}{Underdetermination by gap persistence}
 \entryline{$\odot$}{claim-counterfactual-structure-underdetermines-decomposition}{Underdetermination of decomposition}
 \entryline{$\vdash$}{argument-undivided-split-brain}{Undivided split-brain objection}
+\entryline{$\odot$}{claim-qualities-exist-unexperienced}{Unexperienced qualities}
 \entryline{$\vdash$}{argument-unforgeability-is-not-flesh}{Unforgeability, not flesh}
 \entryline{$\vdash$}{argument-unforgeability-proxy}{Unforgeability-as-proxy objection}
 \entryline{$\blacklozenge$}{concept-unity-of-consciousness}{Unity of consciousness}
@@ -814,6 +818,7 @@ Calling a thought ``access-conscious'' just means the information is \emph{avail
   \item \hyperref[entry:concept-access-vs-phenomenal-consciousness]{\textsc{Access vs. phenomenal consciousness}} — Block's distinction and the case that the two dissociate in both directions.
   \item \hyperref[entry:position-global-workspace]{\textsc{Global workspace theory}} — a theory that ties consciousness to access (global broadcast).
   \item \hyperref[entry:concept-first-person-access]{\textsc{First-person access}} — privileged first-person access, a distinct, epistemic notion.
+  \item \hyperref[entry:question-ai-introspection]{\textsc{AI introspection and access consciousness}} — whether AI systems can have access consciousness, and the evidence.
 \end{seealso}
 
 \entryhead{claim-closing-access-gap-leaves-phenomenal-open}{Access gap versus phenomenal gap}{Claim \,\textperiodcentered\, after Block}{Access gap versus phenomenal gap}{Removing a system's access barriers to self-explanation need not remove the phenomenal explanatory gap}{$\odot$}
@@ -1253,6 +1258,58 @@ Biologists didn't crack genetics by staring harder at humans — they used fruit
   \item \hyperref[entry:concept-hard-problem]{\textsc{Hard problem}} — the problem studied in the easier specimen.
   \item \hyperref[entry:concept-introspective-gap-varieties]{\textsc{Varieties of introspective explanatory gap}} — the shared structural features carried back to the human case.
   \item \hyperref[source:source-chalmers-2018]{\textsc{Chalmers — The Meta-Problem of Consciousness (2018)}} — the meta-problem programme this claim is kin to but distinct from.
+\end{seealso}
+
+\entryhead{question-ai-introspection}{AI introspection and access consciousness}{Question}{AI introspection and access consciousness}{Can an AI system introspect on its own internal states, and can it have access consciousness?}{?}
+\textbf{AI introspection and access consciousness} is the question of whether an artificial system, and in particular a large language model, can know about its own internal states by a route that others lack, and whether some of its states can be \emph{access-conscious}: available, in Ned Block's sense, for report, for reasoning and for the control of behaviour (see \hyperref[entry:concept-access-consciousness]{\textsc{Access consciousness}}). Both are \emph{functional} questions. They ask what a system can do with information about itself, not whether there is anything it is like to be the system. They are therefore distinct from the question whether AI systems have phenomenal experience, and from the question of their moral status (see \hyperref[entry:question-llm-moral-status]{\textsc{Moral status of LLMs}}), though answers to them are often brought to bear on both. Since 2022 the question has become partly empirical, as interpretability research, much of it at Anthropic, has begun to test models' self-reports against direct measurements of their internal activity.
+
+\webheading{What would count as introspection}
+
+When a language model says ``I am thinking about the Golden Gate Bridge'' or ``I am not sure of this answer,'' the words alone show little. The model was trained on vast quantities of human writing, including writing about introspection, and could produce introspective-sounding reports simply by imitating it, with no access to its own states at all (see \hyperref[entry:claim-llm-mimicry-rival]{\textsc{Trained-mimicry rival}}). It could also infer facts about itself from its own visible output, as any observer could, which would be self-observation rather than introspection. Humans, too, confabulate: they often report reasons for their choices that played no role in them (see \hyperref[entry:argument-introspective-confabulation]{\textsc{Confabulation argument}}).
+
+Researchers have therefore proposed criteria that a genuinely introspective report should meet. Jack Lindsey proposes four \hyperref[source:source-lindsey-introspection-2025]{\textsc{Jack Lindsey — Emergent Introspective Awareness in Large Language Models (Anthropic / Transformer Circuits Thread, 2025)}}. The report must be \emph{accurate}, matching the internal state it describes. It must be \emph{grounded}, causally depending on that state, so that changing the state changes the report. It must be \emph{internal}, reaching the state directly rather than by reading the model's own previous outputs. And it must involve \emph{metacognitive representation}, an internal representation of the state as the model's own, rather than the state merely leaking into the output. Felix Binder and colleagues offer a behavioural test: a model introspects if it predicts its own behaviour better than a second model trained on exactly the same examples of that behaviour, so that the first model's advantage must come from privileged access to itself \hyperref[source:source-binder-2024]{\textsc{Binder et al. — Looking Inward: Language Models Can Learn About Themselves by Introspection (ICLR 2025; arXiv 2024)}}.
+
+\webheading{The evidence}
+
+\emph{Knowing what one knows.} An early study at Anthropic found that large models are well calibrated about their own answers: asked how likely it is that an answer they have just given is true, or whether they know the answer to a question at all, they give probabilities that track their actual accuracy \hyperref[source:source-kadavath-2022]{\textsc{Kadavath et al. — Language Models (Mostly) Know What They Know (Anthropic / arXiv, 2022)}}. This is a form of metacognition, but it does not show that the model reads an internal state rather than estimating its reliability from patterns in the questions.
+
+\emph{Self-prediction.} Binder and colleagues found that models fine-tuned to predict their own behaviour in hypothetical situations outperform other models trained on the same data, a privileged self-knowledge of a limited kind, which failed on more complex tasks \hyperref[source:source-binder-2024]{\textsc{Binder et al. — Looking Inward: Language Models Can Learn About Themselves by Introspection (ICLR 2025; arXiv 2024)}}.
+
+\emph{Concept injection.} Lindsey's experiments test grounding directly \hyperref[source:source-lindsey-introspection-2025]{\textsc{Jack Lindsey — Emergent Introspective Awareness in Large Language Models (Anthropic / Transformer Circuits Thread, 2025)}}. A known concept, such as ``all caps'' or ``bread,'' is injected into the model's internal activations by adding the corresponding activation pattern, and the model is then asked whether it notices anything unusual about its thoughts. In some trials, the most capable models notice and name the injected concept before it has influenced any output, which satisfies the internality criterion. The models can also distinguish an injected ``thought'' from text presented in the input, and can use their own prior activity to tell whether a response attributed to them was really theirs: when a response is artificially inserted, the model disowns it, unless the matching concept is injected into its earlier activations, in which case it accepts the response as intended. Asked to ``think about'' a word while writing something unrelated, models increase the internal representation of that word. The paper emphasizes that these capacities are ``highly unreliable and context-dependent.'' Even the best model tested, Claude Opus 4.1, detected an injected concept in only about 20 per cent of trials under the most favourable conditions, and most trials failed (see \hyperref[entry:claim-llm-functional-introspection]{\textsc{LLM functional introspection}}).
+
+\emph{A workspace for access.} Wes Gurnee and colleagues identify, in production models, a privileged subspace of \emph{verbalizable} representations, the \hyperref[entry:concept-j-space]{\textsc{J-space (verbalizable workspace)}}, which shows five properties associated with conscious access in humans: its contents are what the model reports when asked what it is thinking about, they can be deliberately summoned and held, they carry unspoken intermediate steps of reasoning, they serve flexibly in many downstream operations, and only a small fraction of the model's representations enter it \hyperref[source:source-gurnee-2026-workspace]{\textsc{Gurnee, Sofroniew \& Lindsey et al. — Verbalizable Representations Form a Global Workspace in Language Models (Anthropic / Transformer Circuits Thread, 2026)}} (see \hyperref[entry:claim-access-functional-signature]{\textsc{Functional signature of conscious access}}). The authors conclude that language models maintain a functional analogue of a \emph{global workspace} (see \hyperref[entry:claim-llm-global-workspace]{\textsc{LLM global workspace}}), the architecture that \hyperref[entry:position-global-workspace]{\textsc{Global workspace theory}} identifies with conscious access. Removing this subspace sharply reduces the experiential language in a model's descriptions of itself while leaving its fluency intact (see \hyperref[entry:claim-j-space-ablation-experiential-language]{\textsc{Experiential language under J-space ablation}}), and the workspace is already present in base models before any training as an assistant (see \hyperref[entry:claim-workspace-precedes-self]{\textsc{Workspace before selfhood}}).
+
+\emph{The limits of self-report.} Other work shows how far self-reports can come apart from mechanism. Tracing the circuits that a model uses for mental arithmetic, Lindsey and colleagues found that it adds two-digit numbers by combining an approximate estimate of the sum with a separate exact computation of the last digit, yet when asked how it did so, it describes the carrying method taught in school \hyperref[source:source-lindsey-biology-2025]{\textsc{Lindsey et al. — On the Biology of a Large Language Model (Anthropic / Transformer Circuits Thread, 2025)}}. The explanation is borrowed from human descriptions of addition, not read off its own computation. Similarly, reasoning models that use a hint to reach an answer often omit the hint from the chain of thought they display, so that the visible reasoning is an unreliable guide to the actual one \hyperref[source:source-chen-2025-cot]{\textsc{Chen et al. — Reasoning Models Don't Always Say What They Think (Anthropic / arXiv, 2025)}}.
+
+\webheading{Interpretations}
+
+The evidence supports a modest conclusion that few dispute: current models have some \emph{functional} introspective access to some of their internal states, but it is narrow, unreliable and easily outweighed by learned patterns of self-description. Beyond that, interpretations diverge.
+
+On one reading, models have a genuine though rudimentary capacity for self-monitoring, which may grow with scale, and which, together with a functional workspace, gives them a form of access consciousness. On a deflationary reading, what looks like introspection is a learned self-model: the model has learned to predict and describe itself, as it has learned to predict everything else, and the ``access'' is simply part of its ordinary computation. A third reading holds that what a model's self-reports can reach is the \emph{relational} structure of its states, what is similar to what and what a state is about, but not the underlying encoding, the activation vectors and circuits themselves (see \hyperref[entry:claim-llm-access-similarity-not-encoding]{\textsc{Similarity, not encoding}}). Many point out that human introspection is in the same position. It too delivers a constructed and fallible representation of one's states rather than the states themselves (see \hyperref[entry:claim-introspection-is-fallible-representation]{\textsc{Introspection as representation}}), and human explanations of how we do arithmetic are no more read off our neurons than the model's are read off its circuits.
+
+There are also differences from the human case. A language model's workspace operates within a single forward pass, without the recurrent loops that biological workspaces are thought to require; and much of a model's apparent self-knowledge passes through its own previous outputs, which it can read like any other text, blurring the line between introspection and self-observation. The workspace paper itself notes that its results bear only on computational theories of consciousness, not on theories that tie consciousness to biological substrate or physical causal structure \hyperref[source:source-gurnee-2026-workspace]{\textsc{Gurnee, Sofroniew \& Lindsey et al. — Verbalizable Representations Form a Global Workspace in Language Models (Anthropic / Transformer Circuits Thread, 2026)}}.
+
+\webheading{What it does and does not settle}
+
+Even if AI systems have functional introspection and access consciousness, the question of phenomenal consciousness remains open. Access is defined by functional role, and the \hyperref[entry:concept-access-vs-phenomenal-consciousness]{\textsc{Access vs. phenomenal consciousness}} distinction exists precisely because many hold that a system could have every functional mark of access with nothing felt (see \hyperref[entry:claim-closing-access-gap-leaves-phenomenal-open]{\textsc{Access gap versus phenomenal gap}}). The research discussed here explicitly takes no position on that question. Its main importance for the phenomenal and moral questions is methodological. If self-reports could be made reliable, they would become a source of evidence about a system's states, which is why Ethan Perez and Robert Long propose training models to give accurate introspective reports as a step toward evaluating their moral status \hyperref[source:source-perez-long-2023]{\textsc{Perez \& Long — Towards Evaluating AI Systems for Moral Status Using Self-Reports (arXiv, 2023)}}; and the indicator-property approach of Patrick Butlin and colleagues assesses AI systems against the functional markers that scientific theories of consciousness identify, access-related ones among them \hyperref[source:source-butlin-2023]{\textsc{Butlin et al. — Consciousness in Artificial Intelligence, Insights from the Science of Consciousness (2023)}}.
+
+\begin{plainterms}
+When an AI chatbot says ``I'm not sure'' or ``I was thinking about bridges,'' is it really reporting on what is going on inside it, or just saying what a person would say? Because these systems learned from human writing, they can talk about their inner life fluently whether or not they have any access to it. Researchers have started to test this directly by reaching into the model and changing its internal activity, then checking whether its reports notice the change. Sometimes they do, which suggests a real but patchy ability to look inward. Other studies find the opposite: asked how it added two numbers, a model describes the method taught in school while actually doing something quite different inside. Even if AI systems can genuinely monitor some of their own states, that would show they have ``access'' to information about themselves, not that they feel anything.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:concept-access-consciousness]{\textsc{Access consciousness}}: the functional sense of consciousness at issue.
+  \item \hyperref[entry:concept-access-vs-phenomenal-consciousness]{\textsc{Access vs. phenomenal consciousness}}: the distinction that keeps this question apart from the question of experience.
+  \item \hyperref[entry:claim-llm-functional-introspection]{\textsc{LLM functional introspection}}: the claim that some current models show limited functional introspection.
+  \item \hyperref[entry:concept-j-space]{\textsc{J-space (verbalizable workspace)}}: the verbalizable workspace identified in language models.
+  \item \hyperref[entry:claim-llm-global-workspace]{\textsc{LLM global workspace}}: the claim that models have a functional global workspace.
+  \item \hyperref[entry:argument-llm-workspace-from-functional-signature]{\textsc{Functional-signature workspace argument}}: the argument from the five-property signature to that claim.
+  \item \hyperref[entry:claim-llm-mimicry-rival]{\textsc{Trained-mimicry rival}}: the rival explanation, that self-reports are imitation of human mind-talk.
+  \item \hyperref[entry:claim-llm-access-similarity-not-encoding]{\textsc{Similarity, not encoding}}: the claim that self-access reaches structure but not encoding.
+  \item \hyperref[entry:question-epistemic-access-to-experience]{\textsc{Epistemic access to experience}}: the general question of how a subject knows its own states.
+  \item \hyperref[entry:question-llm-own-explanatory-gap]{\textsc{LLM's own explanatory gap}}: whether an introspecting model could explain its own self-perception from its mechanism.
+  \item \hyperref[entry:question-llm-moral-status]{\textsc{Moral status of LLMs}}: the moral question to which reliable self-reports would be relevant.
 \end{seealso}
 
 \entryhead{claim-ai-own-hard-problem}{AI's own hard problem}{Claim \,\textperiodcentered\, editorial}{AI's own hard problem}{A sufficiently advanced LLM could exhibit its own version of the hard problem — a raw feel, under its own concept of consciousness, that mechanistic self-knowledge cannot explain from inside}{$\odot$}
@@ -2877,6 +2934,7 @@ Panpsychism says every speck of matter has a tiny flicker of experience, so your
   \item \hyperref[entry:concept-unity-of-consciousness]{\textsc{Unity of consciousness}}: the broader topic of what makes experience one.
   \item \hyperref[entry:position-russellian-monism]{\textsc{Russellian monism}}: the framework within which constitutive panpsychism, and hence the problem, is usually posed.
   \item \hyperref[entry:concept-boundary-problem]{\textsc{Boundary problem}}: Rosenberg's question of what fixes the edges of a subject, one aspect of the combination problem.
+  \item \hyperref[entry:position-panqualityism]{\textsc{Panqualityism}}: the response that denies there are micro-subjects to combine.
 \end{seealso}
 
 \entryhead{claim-combination-dualizes-to-composition-of-will}{Combination–composition duality}{Claim \,\textperiodcentered\, editorial}{Combination–composition duality}{The combination problem for panpsychism dualizes to the composition problem for agency}{$\odot$}
@@ -4706,6 +4764,7 @@ You can tell a friend the time, or the way to the station, and then they know wh
   \item \hyperref[entry:position-representationalism]{\textsc{Representationalism}}: the view built on the transparency of experience.
   \item \hyperref[entry:position-illusionism]{\textsc{Illusionism}}: the view that the apparent privacy of experience is an introspective illusion.
   \item \hyperref[entry:concept-paradox-of-phenomenal-judgment]{\textsc{Paradox of phenomenal judgment}}: the puzzle of how physically caused reports can be evidence about experience.
+  \item \hyperref[entry:question-ai-introspection]{\textsc{AI introspection and access consciousness}}: the same question asked of artificial systems.
 \end{seealso}
 
 \entryhead{position-epistemic-externalism}{Epistemic externalism}{Position}{Epistemic externalism}{Epistemic externalism (reliabilism)}{$\bigstar$}
@@ -7389,6 +7448,7 @@ Researchers found a way to list, at every step of an AI language model's process
   \item \hyperref[entry:argument-llm-workspace-from-functional-signature]{\textsc{Functional-signature workspace argument}} — the argument from the five properties to that conclusion.
   \item \hyperref[source:source-gurnee-2026-workspace]{\textsc{Gurnee, Sofroniew \& Lindsey et al. — Verbalizable Representations Form a Global Workspace in Language Models (Anthropic / Transformer Circuits Thread, 2026)}} — the paper introducing the Jacobian lens and the J-space.
   \item \hyperref[entry:claim-consciousness-is-cerebral-celebrity]{\textsc{Cerebral celebrity (fame in the brain)}} — Dennett's anticipation: consciousness as widespread influence, especially over verbal report, which is the very property that defines this construct.
+  \item \hyperref[entry:question-ai-introspection]{\textsc{AI introspection and access consciousness}} — the question of AI introspection and access consciousness, to which the J-space findings are central.
 \end{seealso}
 
 \entryhead{claim-j-space-directed-modulation}{J-space directed modulation}{Claim \,\textperiodcentered\, after Gurnee}{J-space directed modulation}{The contents of a language model's J-space are subject to top-down control}{$\odot$}
@@ -7781,6 +7841,7 @@ This claim is distinct from \hyperref[entry:claim-llm-has-mental-states]{\textsc
 \begin{seealso}
   \item \hyperref[entry:concept-access-vs-phenomenal-consciousness]{\textsc{Access vs. phenomenal consciousness}} — the distinction that keeps this an access claim, not a claim about feeling.
   \item \hyperref[entry:claim-llm-has-mental-states]{\textsc{LLMs have mental states}} — the stronger, distinct claim that LLMs actually realise mental states.
+  \item \hyperref[entry:question-ai-introspection]{\textsc{AI introspection and access consciousness}} — the question this claim bears on, with the wider evidence for and against AI introspection.
 \end{seealso}
 
 \entryhead{claim-llm-global-workspace}{LLM global workspace}{Claim \,\textperiodcentered\, after Gurnee}{LLM global workspace}{Language models maintain a privileged set of verbalizable representations that plays the functional role of a global workspace}{$\odot$}
@@ -8923,6 +8984,11 @@ Three narrower questions feed this one and may earn their own entries: whether m
 The big question this whole project circles. ``Moral status'' means: does a thing count morally in its own right — do its interests, if it has any, give the rest of us reasons to treat it one way rather than another? A rock has none; a person has full status; animals are argued over. The question here is where today's AI language models fall. Not ``are they clever'' or ``do they seem human,'' but: is there anyone in there whose well-being we're obliged to take into account?
 \end{plainterms}
 
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:question-ai-introspection]{\textsc{AI introspection and access consciousness}} — the functional question of AI self-access, on which the reliability of self-reports depends.
+\end{seealso}
+
 \entryhead{argument-multidimensionality-objection}{Multidimensionality objection}{Argument \,\textperiodcentered\, after Kelly}{Multidimensionality objection}{If intelligence is not a single dimension, ``exceeding human intelligence across all domains'' is ill-posed}{$\vdash$}
 If there is no single scale on which minds can be ranked from less to more intelligent, then the phrase at the heart of the \hyperref[entry:claim-superintelligence-physically-possible]{\textsc{physical-possibility claim}} — a system that ``greatly exceeds the best human cognitive performance across virtually all domains'' — has no determinate subject matter. The multidimensionality objection presses this: it does not dispute the physics of what silicon can compute, but the \emph{coherence} of what superintelligence is supposed to be. Before one can ask whether a superhuman intellect is possible, the notion of ``more intelligent than any human, überhaupt'' has to pick out something, and on the bundle view of \hyperref[entry:concept-intelligence]{\textsc{Intelligence}} it does not.
 
@@ -9184,6 +9250,7 @@ Neutral monism says mind and matter aren't two ultimate kinds of thing, nor is o
   \item \hyperref[entry:position-russellian-monism]{\textsc{Russellian monism}} — its descendant; the intrinsic base is (proto)phenomenal, not neutral.
   \item \hyperref[entry:position-idealism]{\textsc{Idealism}} — rival monism on which the base is mental.
   \item \hyperref[entry:position-dualism]{\textsc{Dualism}} — rival on which there are two fundamental kinds.
+  \item \hyperref[entry:position-panqualityism]{\textsc{Panqualityism}} — the contemporary descendant that gives the neutral stuff a positive, qualitative character.
 \end{seealso}
 
 \entryhead{claim-access-grounds-no-asymmetry}{No access-based asymmetry}{Claim \,\textperiodcentered\, editorial}{No access-based asymmetry}{First-person access grounds no moral-status asymmetry that singles out machines}{$\odot$}
@@ -10116,6 +10183,7 @@ Panpsychism says consciousness goes all the way down. Not that rocks daydream �
   \item \hyperref[entry:claim-consciousness-fundamental-ubiquitous]{\textsc{Fundamental ubiquitous consciousness}} — the core claim panpsychism asserts, distinguished from the dualist's ``fundamental but non-physical.''
   \item \hyperref[entry:concept-combination-problem-panpsychism]{\textsc{Combination problem for panpsychism}} — the survey entry on the combination problem: subject, quality and structure faces, and the main responses.
   \item \hyperref[entry:concept-grain-problem]{\textsc{Grain problem}} — the older worry about the smoothness of experience, now counted one aspect of the combination problem.
+  \item \hyperref[entry:position-panqualityism]{\textsc{Panqualityism}} — the variety that puts unexperienced qualities, not experiences or subjects, at the base of reality.
 \end{seealso}
 
 \entryhead{position-panpsychism}{Panpsychism (position)}{Position}{Panpsychism (position)}{Panpsychism}{$\bigstar$}
@@ -10145,6 +10213,59 @@ Panpsychism says consciousness goes all the way down: not that rocks have though
   \item \hyperref[entry:position-cosmopsychism]{\textsc{Cosmopsychism}} — the top-down cousin, on which the cosmos is the one fundamental subject and individual minds are carved out of it.
   \item \hyperref[entry:position-dualism]{\textsc{Dualism}} — the rival on which consciousness is fundamental but non-physical.
   \item \hyperref[entry:position-illusionism]{\textsc{Illusionism}} — the rival that denies there is any fundamental experience to distribute.
+  \item \hyperref[entry:position-panqualityism]{\textsc{Panqualityism}} — the variant that keeps qualities fundamental but drops micro-subjects.
+\end{seealso}
+
+\entryhead{position-panqualityism}{Panqualityism}{Position \,\textperiodcentered\, after Feigl}{Panqualityism}{Panqualityism — qualities without experience as the basis of mind}{$\bigstar$}
+\emph{Panqualityism} is the view that the basic constituents of the world have intrinsic \emph{qualities} of the same kind as those we find in experience, such as redness, sweetness or the felt sharpness of pain, but that these qualities exist \emph{unexperienced}. Consciousness, on this view, comes later. A quality becomes part of someone's experience only when a subject is aware of it, and being aware is something that arises in suitably organized systems such as brains. Qualities therefore come first, both in the order of nature and in the order of explanation, and experience is a relation that some systems come to bear to qualities that were there all along. The name was introduced by Herbert Feigl, who credited it to a conversation with Stephen C. Pepper \hyperref[source:source-feigl-1960]{\textsc{Feigl — Mind-Body, Not a Pseudoproblem (1960)}}, and the view is defended today chiefly by Sam Coleman \hyperref[source:source-coleman-2015]{\textsc{Coleman — Neuro-Cosmology (2015)}}, \hyperref[source:source-coleman-2016]{\textsc{Coleman — Panpsychism and Neutral Monism: How to Make Up One's Mind (2016)}}.
+
+The position commits to the claim that \hyperref[entry:claim-qualities-exist-unexperienced]{\textsc{qualities of the kind found in experience can exist unexperienced}}, and accepts the objection to panpsychism that \hyperref[entry:claim-micro-subjects-do-not-sum]{\textsc{micro-subjects cannot sum into a macro-subject}}. It rejects the panpsychist claim that \hyperref[entry:claim-consciousness-fundamental-ubiquitous]{\textsc{consciousness itself is present in the simplest physical entities}}.
+
+\webheading{Qualities before consciousness}
+
+The view is sometimes summarized as the claim that \emph{qualia precede consciousness}, and the summary needs one refinement. In most usage, \emph{qualia} are by definition the qualities of experiences, so an unexperienced quale would be a contradiction. Panqualityists deny that this is part of what the qualities are. The redness in your experience of a ripe tomato is, on their view, a quality that is \emph{contingently} experienced by you: the very same kind of quality could exist with no one aware of it. Coleman sometimes speaks of ``unexperienced qualia'' to make the point vivid. What precedes consciousness, then, is not experience but its qualitative material.
+
+Consider an analogy with music. A melody played in an empty hall still has its pitch, rhythm and timbre; what it lacks is a listener. Panqualityism holds that the world's basic qualities are like the melody: fully there, with determinate character, but unheard until a subject is organized to attend to them. The analogy is imperfect, since sound waves are not themselves qualities in the relevant sense, but it captures the separation of quality from awareness that the view requires.
+
+\webheading{Lineage}
+
+Versions of the view were popular among the \emph{neutral monists} of the late nineteenth and early twentieth centuries, who held that the world is built from a stuff that is neither mental nor physical in itself (see \hyperref[entry:position-neutral-monism]{\textsc{Neutral monism}}). Ernst Mach treated colours, sounds and pressures as the elements of which both bodies and minds are composed \hyperref[source:source-mach-1914]{\textsc{Mach — The Analysis of Sensations (1914)}}. William James argued that ``pure experience'' is neutral material that counts as mental in one context and physical in another \hyperref[source:source-james-1904]{\textsc{James — Does 'Consciousness' Exist? (1904)}}, and Bertrand Russell developed a similar picture in \emph{The Analysis of Mind} \hyperref[source:source-russell-1921]{\textsc{Russell — The Analysis of Mind (1921)}}. Among later philosophers, Peter Unger argued that physical things must have intrinsic qualities and that the qualities we know from experience are the only ones we can conceive \hyperref[source:source-unger-1999]{\textsc{Unger — The Mystery of the Physical and the Matter of Qualities (1999)}}. Panqualityism is now usually classed as a form of \emph{panprotopsychism}, the view that the fundamental properties are not themselves experiential but are precursors from which experience can be constituted, and as a form of \hyperref[entry:position-russellian-monism]{\textsc{Russellian monism}}, since the qualities play the role of the intrinsic natures that physics leaves unspecified (see \hyperref[entry:concept-intrinsic-structural-distinction]{\textsc{Intrinsic and relational properties}}) \hyperref[source:source-chalmers-2017]{\textsc{Chalmers — Panpsychism and Panprotopsychism (2017)}}, \hyperref[source:source-sep-panpsychism]{\textsc{Goff, Seager \& Allen-Hermanson — Panpsychism (Stanford Encyclopedia of Philosophy)}}.
+
+\webheading{Why hold it}
+
+Panqualityism is a response to the \hyperref[entry:concept-combination-problem-panpsychism]{\textsc{Combination problem for panpsychism}}. Ordinary panpsychism puts tiny \emph{subjects} of experience at the base of reality and then faces the problem that subjects seem unable to combine into further subjects, each having a private point of view that excludes the others \hyperref[source:source-coleman-2014]{\textsc{Coleman — The Real Combination Problem (2014)}}. Panqualityism removes the micro-subjects. Qualities, unlike subjects, have no point of view to protect, and there is no evident obstacle to many qualities combining into a richer quality or a structured field of them, much as colours mix \hyperref[source:source-coleman-2012]{\textsc{Coleman — Mental Chemistry: Combination for Panpsychists (2012)}}. The subject is then explained separately, as something that arises at the level of brains.
+
+The view also keeps what attracts people to panpsychism. It gives physics an intrinsic nature that is not a mystery, since we are acquainted with qualities in our own experience, and it avoids the brute emergence of qualitative character from the wholly non-qualitative, since the qualities were there from the start. In the \hyperref[entry:question-hard-problem]{\textsc{hard problem}}, it divides the explanatory burden in two: the \emph{qualitative} side of consciousness is fundamental, while the \emph{subjective} side, the fact that the qualities are experienced, is given a reductive explanation. The Stanford survey describes it accordingly as a middle way between panpsychism and physicalism \hyperref[source:source-sep-panpsychism]{\textsc{Goff, Seager \& Allen-Hermanson — Panpsychism (Stanford Encyclopedia of Philosophy)}}.
+
+\webheading{Explaining awareness}
+
+Panqualityism owes an account of how qualities come to be experienced. The usual strategy is reductive. Coleman combines panqualityism with a \emph{higher-order} theory of awareness: a quality becomes conscious when it figures in a higher-order mental state, and in particular when that state does not merely represent the quality by a symbol but \emph{embeds} it, as a quotation embeds the words it quotes \hyperref[source:source-coleman-2015]{\textsc{Coleman — Neuro-Cosmology (2015)}}. On this \emph{quotational} view, the very quality, and not a description of it, is taken up into the subject's awareness, which is meant to explain why experienced qualities seem immediately present to us (compare \hyperref[entry:position-higher-order-theories]{\textsc{Higher-order theories of consciousness}}). Other panqualityists prefer a functionalist account, on which a quality is experienced when it plays the right role in an organism's cognitive economy.
+
+\webheading{Objections}
+
+The main objection, due to David Chalmers, is that the move from unexperienced to experienced qualities leaves the same kind of gap that panpsychism was meant to close \hyperref[entry:claim-qualities-do-not-necessitate-awareness]{\textsc{no arrangement of qualities necessitates awareness of them}} \hyperref[source:source-chalmers-2017]{\textsc{Chalmers — Panpsychism and Panprotopsychism (2017)}}. It seems conceivable that a world contains all the same qualities, organized in the same way, and that nothing in it is aware of any of them. If that is possible, the facts about qualities do not ground the facts about experience, and the subjective side of consciousness is as unexplained as before. Panqualityism, Chalmers concludes, avoids the subject-combination problem only by facing an \emph{awareness problem} that looks equally hard. Coleman replies that a properly developed account of awareness, such as the quotational theory, shows that awareness involves nothing over and above qualities appropriately embedded, so that the scenario only seems conceivable.
+
+A second objection is that the notion of an unexperienced quality is incoherent. Many philosophers hold that a pain just is a way of feeling, and redness, as a quality we know, just is a way of appearing; strip away the experiencing and nothing qualitative remains. Panqualityists reply that this confuses the quality with our acquaintance with it, but the dispute turns on intuitions that are hard to adjudicate. A third objection, pressed against neutral monism generally, asks how an electron's having a quality like redness could ground its charge or mass, and doubts that sensory qualities are the right kind of thing to be the intrinsic nature of fundamental physics.
+
+\webheading{Relation to neighbouring views}
+
+Panqualityism shares with \hyperref[entry:position-panpsychism]{\textsc{Panpsychism (position)}} the conviction that something qualitative goes all the way down, but denies that this something is experience or involves subjects. It shares with \hyperref[entry:position-neutral-monism]{\textsc{Neutral monism}} the idea that the basic stuff is neither mental nor physical in itself, but gives that stuff a positive, qualitative character rather than leaving it unknown. It differs from \hyperref[entry:position-physicalism]{\textsc{Physicalism}} in holding that qualitative character is fundamental and irreducible, though it agrees with the physicalist that subjectivity can be explained.
+
+\begin{plainterms}
+Panqualityism says that the basic ingredients of the world have qualities like the ones we experience, such as colours, sounds and feels, but that nobody is experiencing them. Think of a song playing in an empty room. Experience comes later, when a brain is organized in the right way to ``take in'' those qualities. The view was designed to fix a problem with panpsychism, which says tiny bits of matter have tiny experiences of their own: it is hard to see how millions of tiny experiencers could merge into one mind. Qualities, unlike experiencers, can blend easily, like paints. Critics reply that this just moves the mystery: it is still unclear how unfelt qualities ever become felt. Some also doubt that a quality like pain can exist without anyone feeling it.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:claim-qualities-exist-unexperienced]{\textsc{Unexperienced qualities}}: the core claim that qualities can exist unexperienced.
+  \item \hyperref[entry:claim-qualities-do-not-necessitate-awareness]{\textsc{Quality-awareness gap}}: Chalmers's objection, the quality-awareness gap.
+  \item \hyperref[entry:concept-panpsychism]{\textsc{Panpsychism}}: the family of views, in which panqualityism is the variety that puts qualities rather than experiences at the base.
+  \item \hyperref[entry:position-panpsychism]{\textsc{Panpsychism (position)}}: the bottom-up view that panqualityism modifies.
+  \item \hyperref[entry:concept-combination-problem-panpsychism]{\textsc{Combination problem for panpsychism}}: the problem that motivates the view.
+  \item \hyperref[entry:position-neutral-monism]{\textsc{Neutral monism}}: the older tradition of which panqualityism is a descendant.
+  \item \hyperref[entry:position-russellian-monism]{\textsc{Russellian monism}}: the framework in which the qualities fill the intrinsic role physics leaves open.
+  \item \hyperref[entry:position-higher-order-theories]{\textsc{Higher-order theories of consciousness}}: the family of theories Coleman uses to explain awareness.
+  \item \hyperref[entry:concept-qualia]{\textsc{Qualia}}: the qualities of experience, which the view detaches from experience.
 \end{seealso}
 
 \entryhead{argument-paperclip-catastrophe}{Paperclip catastrophe argument}{Argument \,\textperiodcentered\, contested \,\textperiodcentered\, after Bostrom}{Paperclip catastrophe argument}{From orthogonality, instrumental convergence, and the difficulty of specifying value, a misaligned superintelligence ends in catastrophe}{$\vdash$}
@@ -11253,6 +11374,18 @@ Qualia mark the spot where the mind seems hardest to fit into a scientific pictu
   \item \hyperref[entry:concept-access-vs-phenomenal-consciousness]{\textsc{Access vs. phenomenal consciousness}} — Block's distinction; qualia live on the phenomenal side of it.
   \item \hyperref[entry:concept-functionalism]{\textsc{Functionalism}} — the theory of mind that qualia are most often said to outrun.
   \item \hyperref[entry:question-epistemic-access-to-experience]{\textsc{Epistemic access to experience}} — why the qualitative character of experience seems incommunicable, and how its subject knows it.
+\end{seealso}
+
+\entryhead{claim-qualities-do-not-necessitate-awareness}{Quality-awareness gap}{Claim \,\textperiodcentered\, after Chalmers}{Quality-awareness gap}{No instantiation or arrangement of qualities by itself necessitates awareness of those qualities}{$\odot$}
+However qualities are instantiated or arranged, the facts about them do not by themselves necessitate that anyone is \emph{aware} of them. In David Chalmers's words, ``no instantiations of qualities ever necessitate awareness of qualities'' \hyperref[source:source-chalmers-2017]{\textsc{Chalmers — Panpsychism and Panprotopsychism (2017)}}. One can conceive of a world containing all the same qualities, organized in the same way, in which nothing is experienced, a world of \emph{quality zombies}. If that is possible, then the step from unexperienced qualities to experienced ones leaves an explanatory gap of the same kind as the one between physical structure and consciousness.
+
+The claim is the principal objection to \hyperref[entry:position-panqualityism]{\textsc{Panqualityism}}, whose \hyperref[entry:claim-qualities-exist-unexperienced]{\textsc{unexperienced qualities}} must somehow become experienced. It is denied by panqualityists such as Sam Coleman, who argue that awareness can be analysed, for example as a higher-order state that embeds the quality itself, in a way that closes the gap \hyperref[source:source-coleman-2015]{\textsc{Coleman — Neuro-Cosmology (2015)}}.
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:position-panqualityism]{\textsc{Panqualityism}}: the view the claim is directed against.
+  \item \hyperref[entry:concept-explanatory-gap]{\textsc{Explanatory gap}}: the general gap between physical or structural facts and experience, which the claim says reappears here.
+  \item \hyperref[entry:concept-philosophical-zombie]{\textsc{Philosophical zombie}}: the conceivability device on which the argument for the claim relies.
 \end{seealso}
 
 \entryhead{argument-olympia-quantum-counterfactuals}{Quantum counterfactuals objection}{Argument \,\textperiodcentered\, editorial}{Quantum counterfactuals objection}{The quantum counterfactuals objection — unexercised possibilities have physical effects, and quantum runs have no trace to unroll}{$\vdash$}
@@ -13193,6 +13326,17 @@ The bigger argument says: we can watch subjects merge and split, so tiny minds m
   \item \hyperref[entry:argument-conscious-usa-counter-analogy]{\textsc{Conscious-USA counter-analogy}} — the companion attack, pressing the counter-analogy rather than the base.
 \end{seealso}
 
+\entryhead{claim-qualities-exist-unexperienced}{Unexperienced qualities}{Claim \,\textperiodcentered\, after Coleman}{Unexperienced qualities}{Qualities of the kind found in experience can exist without being experienced by any subject}{$\odot$}
+Qualities of the kind we meet in experience, such as the redness in a visual experience of red or the sharpness in a sharp pain, can exist without anyone being aware of them. Experience, on this view, is not what makes a quality the quality it is; it is a relation a subject can stand in to a quality that would have existed anyway, so that a quality is only \emph{contingently} experienced. The claim is the core of panqualityism, whose name Herbert Feigl introduced \hyperref[source:source-feigl-1960]{\textsc{Feigl — Mind-Body, Not a Pseudoproblem (1960)}}, and is defended today chiefly by Sam Coleman \hyperref[source:source-coleman-2015]{\textsc{Coleman — Neuro-Cosmology (2015)}}, \hyperref[source:source-coleman-2016]{\textsc{Coleman — Panpsychism and Neutral Monism: How to Make Up One's Mind (2016)}}.
+
+The claim is distinct from \hyperref[entry:claim-consciousness-fundamental-ubiquitous]{\textsc{Fundamental ubiquitous consciousness}}, which places experience itself, including a subject's point of view, at the fundamental level; this claim places there only the qualities, without subjects. It is denied by those who hold that a quality of experience is essentially a way of being experienced, so that an unexperienced pain or redness is a contradiction, and by David Chalmers's objection that no arrangement of qualities could by itself necessitate awareness of them (see \hyperref[entry:claim-qualities-do-not-necessitate-awareness]{\textsc{Quality-awareness gap}}).
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:position-panqualityism]{\textsc{Panqualityism}}: the position built on this claim.
+  \item \hyperref[entry:concept-qualia]{\textsc{Qualia}}: the qualitative character of experience, which the claim detaches from experience.
+\end{seealso}
+
 \entryhead{argument-unforgeability-is-not-flesh}{Unforgeability, not flesh}{Argument \,\textperiodcentered\, editorial}{Unforgeability, not flesh}{Unforgeability is not flesh — the prudential argument favours unforgeability, not biology}{$\vdash$}
 The prudential argument for caution about machine minds is sometimes pushed one step further than it can go — into a defence of \emph{biology} as the mark that confers moral standing. This entry grants the cautious reasoning but blocks that final step. What prudence actually selects, it argues, is \emph{unforgeability}: whatever sign is hardest to counterfeit. Biology earns its standing only by being, for the moment, that sign, so the conclusion should read ``track the unforgeable,'' not ``track flesh.''
 
@@ -13766,6 +13910,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-bennett-2003}{Bennett, K. (2003). Why the exclusion problem seems intractable, and how, just maybe, to tract it. \emph{Noûs}, \emph{37}(3), 471–497.}
 \sourceitem{source-berkeley-1710}{Berkeley, G. (1982). \emph{A treatise concerning the principles of human knowledge} (K. P. Winkler, Ed.). Hackett. (Original work published 1710)}
 \sourceitem{source-berthier-1988}{Berthier, M., Starkstein, S., \& Leiguarda, R. (1988). Asymbolia for pain: A sensory-limbic disconnection syndrome. \emph{Annals of Neurology}, \emph{24}(1), 41–49. \url{https://doi.org/10.1002/ana.410240109}}
+\sourceitem{source-binder-2024}{Binder, F. J., Chua, J., Korbak, T., Sleight, H., Hughes, J., Long, R., Perez, E., Turpin, M., \& Evans, O. (2025). Looking inward: Language models can learn about themselves by introspection. In \emph{International Conference on Learning Representations (ICLR 2025)}. \url{https://arxiv.org/abs/2410.13787}}
 \sourceitem{source-birch-2024}{Birch, J. (2024). \emph{The edge of sentience: Risk and precaution in humans, other animals, and AI}. Oxford University Press. \url{https://doi.org/10.1093/9780191966729.001.0001}}
 \sourceitem{source-block-1978}{Block, N. (1978). Troubles with functionalism. In C. W. Savage (Ed.), \emph{Perception and cognition: Issues in the foundations of psychology} (Minnesota Studies in the Philosophy of Science, Vol. 9, pp. 261–325). University of Minnesota Press. (Introduces the Chinese Nation / homunculi-headed robot.)}
 \sourceitem{source-block}{Block, N. (1981). Psychologism and behaviorism. \emph{The Philosophical Review}, \emph{90}(1), 5–43. (Where the lookup-table / Aunt Bubbles machine appears.)}
@@ -13801,6 +13946,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-chalmers-2017}{Chalmers, D. J. (2017). Panpsychism and panprotopsychism. In G. Brüntrup \& L. Jaskolla (Eds.), \emph{Panpsychism: Contemporary perspectives} (pp. 19–47). Oxford University Press.}
 \sourceitem{source-chalmers-2018}{Chalmers, D. J. (2018). The meta-problem of consciousness. \emph{Journal of Consciousness Studies}, \emph{25}(9–10), 6–61.}
 \sourceitem{source-chalmers-2022}{Chalmers, D. J. (2022). \emph{Reality+: Virtual worlds and the problems of philosophy}. W. W. Norton. (The ``It-from-bit-from-it'' / virtual digitalism chapters: virtual objects are real data structures with causal powers inside the system; ``virtual X'' is X-relative-to-the-virtual-world, not a mere representation of X. The simulation/consciousness chapters: a being whose cognitive (and, on a fine enough grain, physical) organisation is fully simulated is not thereby a zombie; simulated minds are minds.)}
+\sourceitem{source-chen-2025-cot}{Chen, Y., Benton, J., Radhakrishnan, A., Uesato, J., Denison, C., Schulman, J., Somani, A., Hase, P., Wagner, M., Roger, F., Mikulik, V., Bowman, S. R., Leike, J., Kaplan, J., \& Perez, E. (2025). \emph{Reasoning models don't always say what they think} (arXiv:2505.05410). arXiv. \url{https://doi.org/10.48550/arXiv.2505.05410}}
 \sourceitem{source-chisholm-1964}{Chisholm, R. M. (1964). \emph{Human freedom and the self} (The Lindley Lecture). Department of Philosophy, University of Kansas.}
 \sourceitem{source-chollet-2017}{Chollet, F. (2017, November 27). \emph{The implausibility of intelligence explosion}. Medium. \url{https://medium.com/@francois.chollet/the-impossibility-of-intelligence-explosion-5be4a9eda6ec}}
 \sourceitem{source-chomsky-2000}{Chomsky, N. (2000). \emph{New horizons in the study of language and mind}. Cambridge University Press.}
@@ -13809,7 +13955,10 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-churchland-1990}{Churchland, P. M., \& Churchland, P. S. (1990). Could a machine think? \emph{Scientific American}, \emph{262}(1), 32–37.}
 \sourceitem{source-clark-1993}{Clark, A. (1993). \emph{Sensory qualities}. Clarendon Press.}
 \sourceitem{source-clausius-1865}{Clausius, R. (1865). Ueber verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie. \emph{Annalen der Physik}, \emph{201}(7), 353–400. \url{https://doi.org/10.1002/andp.18652010702}}
+\sourceitem{source-coleman-2012}{Coleman, S. (2012). Mental chemistry: Combination for panpsychists. \emph{Dialectica}, \emph{66}(1), 137–166. \url{https://doi.org/10.1111/j.1746-8361.2012.01293.x}}
 \sourceitem{source-coleman-2014}{Coleman, S. (2014). The real combination problem: Panpsychism, micro-subjects, and emergence. \emph{Erkenntnis}, \emph{79}(1), 19–44. \url{https://doi.org/10.1007/s10670-013-9431-x}}
+\sourceitem{source-coleman-2015}{Coleman, S. (2015). Neuro-cosmology. In P. Coates \& S. Coleman (Eds.), \emph{Phenomenal qualities: Sense, perception, and consciousness} (pp. 66–102). Oxford University Press. \url{https://doi.org/10.1093/acprof:oso/9780198712718.003.0003}}
+\sourceitem{source-coleman-2016}{Coleman, S. (2016). Panpsychism and neutral monism: How to make up one's mind. In G. Brüntrup \& L. Jaskolla (Eds.), \emph{Panpsychism: Contemporary perspectives} (pp. 249–282). Oxford University Press. \url{https://doi.org/10.1093/acprof:oso/9780199359943.003.0011}}
 \sourceitem{source-collins-1982}{Collins, S. (1982). \emph{Selfless persons: Imagery and thought in Theravāda Buddhism}. Cambridge University Press. \url{https://doi.org/10.1017/CBO9780511621499}}
 \sourceitem{source-conee-1994}{Conee, E. (1994). Phenomenal knowledge. \emph{Australasian Journal of Philosophy}, \emph{72}(2), 136–150. \url{https://doi.org/10.1080/00048409412345971}}
 \sourceitem{source-corcoran-2006}{Corcoran, K. J. (2006). \emph{Rethinking human nature: A Christian materialist alternative to the soul}. Baker Academic.}
@@ -13850,6 +13999,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-evans-1982}{Evans, G. (1982). \emph{The varieties of reference} (J. McDowell, Ed.). Clarendon Press.}
 \sourceitem{source-fabrizi-2011}{Fabrizi, L., Slater, R., Worley, A., Meek, J., Boyd, S., Olhede, S., \& Fitzgerald, M. (2011). A shift in sensory processing that enables the developing human brain to discriminate touch from pain. \emph{Current Biology}, \emph{21}(18), 1552–1558. \url{https://doi.org/10.1016/j.cub.2011.08.010}}
 \sourceitem{source-feigl-1958}{Feigl, H. (1958). The ``mental'' and the ``physical.'' In H. Feigl, M. Scriven, \& G. Maxwell (Eds.), \emph{Minnesota studies in the philosophy of science: Vol. 2. Concepts, theories, and the mind-body problem} (pp. 370–497). University of Minnesota Press.}
+\sourceitem{source-feigl-1960}{Feigl, H. (1960). Mind-body, not a pseudoproblem. In S. Hook (Ed.), \emph{Dimensions of mind} (pp. 24–36). New York University Press.}
 \sourceitem{source-feinberg-mallatt-2016}{Feinberg, T. E., \& Mallatt, J. M. (2016). \emph{The ancient origins of consciousness: How the brain created experience}. MIT Press.}
 \sourceitem{source-fekete-2016}{Fekete, T., van Leeuwen, C., \& Edelman, S. (2016). System, subsystem, hive: Boundary problems in computational theories of consciousness. \emph{Frontiers in Psychology}, \emph{7}, Article 1041. \url{https://doi.org/10.3389/fpsyg.2016.01041}}
 \sourceitem{source-fischer-ravizza-1998}{Fischer, J. M., \& Ravizza, M. (1998). \emph{Responsibility and control: A theory of moral responsibility}. Cambridge University Press.}
@@ -13916,6 +14066,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-jaynes-1957}{Jaynes, E. T. (1957). Information theory and statistical mechanics. \emph{Physical Review}, \emph{106}(4), 620–630. \url{https://doi.org/10.1103/PhysRev.106.620}}
 \sourceitem{source-jaynes-1976}{Jaynes, J. (1976). \emph{The origin of consciousness in the breakdown of the bicameral mind}. Houghton Mifflin.}
 \sourceitem{source-pauli-jung-1955}{Jung, C. G., \& Pauli, W. (1955). \emph{The interpretation of nature and the psyche} (P. Silz \& R. F. C. Hull, Trans.). Pantheon Books.}
+\sourceitem{source-kadavath-2022}{Kadavath, S., Conerly, T., Askell, A., Henighan, T., Drain, D., Perez, E., Schiefer, N., Hatfield-Dodds, Z., DasSarma, N., Tran-Johnson, E., Johnston, S., El-Showk, S., Jones, A., Elhage, N., Hume, T., Chen, A., Bai, Y., Bowman, S., Fort, S., … Kaplan, J. (2022). \emph{Language models (mostly) know what they know} (arXiv:2207.05221). arXiv. \url{https://doi.org/10.48550/arXiv.2207.05221}}
 \sourceitem{source-kane-1996}{Kane, R. (1996). \emph{The significance of free will}. Oxford University Press.}
 \sourceitem{source-kant-1781}{Kant, I. (1998). \emph{Critique of pure reason} (P. Guyer \& A. W. Wood, Trans. \& Eds.). Cambridge University Press. (Original work published 1781; 2nd ed. 1787)}
 \sourceitem{source-kastrup-2019}{Kastrup, B. (2019). \emph{The idea of the world: A multi-disciplinary argument for the mental nature of reality}. Iff Books.}
@@ -13946,6 +14097,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-li-2022}{Li, K., Hopkins, A. K., Bau, D., Viégas, F., Pfister, H., \& Wattenberg, M. (2023). Emergent world representations: Exploring a sequence model trained on a synthetic task. In \emph{Proceedings of the 11th International Conference on Learning Representations (ICLR 2023)}. \url{https://doi.org/10.48550/arXiv.2210.13382}}
 \sourceitem{source-libet-1985}{Libet, B. (1985). Unconscious cerebral initiative and the role of conscious will in voluntary action. \emph{Behavioral and Brain Sciences}, \emph{8}(4), 529–566. \url{https://doi.org/10.1017/S0140525X00044903}}
 \sourceitem{source-lindsey-introspection-2025}{Lindsey, J. (2025, October 29). \emph{Emergent introspective awareness in large language models}. Transformer Circuits Thread. \url{https://transformer-circuits.pub/2025/introspection/}}
+\sourceitem{source-lindsey-biology-2025}{Lindsey, J., Gurnee, W., Ameisen, E., Chen, B., Pearce, A., Turner, N. L., Citro, C., Abrahams, D., Carter, S., Hosmer, B., Marcus, J., Sklar, M., Templeton, A., Bricken, T., McDougall, C., Cunningham, H., Henighan, T., Jermyn, A., Jones, A., … Batson, J. (2025, March 27). \emph{On the biology of a large language model}. Transformer Circuits Thread. \url{https://transformer-circuits.pub/2025/attribution-graphs/biology.html}}
 \sourceitem{source-list-menzies-2009}{List, C., \& Menzies, P. (2009). Nonreductive physicalism and the limits of the exclusion principle. \emph{The Journal of Philosophy}, \emph{106}(9), 475–502.}
 \sourceitem{source-liu-cixin}{Liu, C. (2014). \emph{The three-body problem} (K. Liu, Trans.). Tor Books. (Original work published 2008) (The ``human-formation computer'' episode — the Qin Shi Huang / von Neumann chapter of the in-game civilisation; \textbf{exact chapter and page refs to be confirmed} before any treatise cites it.)}
 \sourceitem{source-lloyd-2002}{Lloyd, S. (2002). Computational capacity of the universe. \emph{Physical Review Letters, 88}(23), Article 237901. \url{https://doi.org/10.1103/PhysRevLett.88.237901}}
@@ -13998,6 +14150,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-penrose-1989}{Penrose, R. (1989). \emph{The emperor's new mind: Concerning computers, minds, and the laws of physics}. Oxford University Press.}
 \sourceitem{source-penrose-1994}{Penrose, R. (1994). \emph{Shadows of the mind: A search for the missing science of consciousness}. Oxford University Press.}
 \sourceitem{source-pereboom-2014}{Pereboom, D. (2014). \emph{Free will, agency, and meaning in life}. Oxford University Press.}
+\sourceitem{source-perez-long-2023}{Perez, E., \& Long, R. (2023). \emph{Towards evaluating AI systems for moral status using self-reports} (arXiv:2311.08576). arXiv. \url{https://doi.org/10.48550/arXiv.2311.08576}}
 \sourceitem{source-perry-2001}{Perry, J. (2001). \emph{Knowledge, possibility, and consciousness}. MIT Press. (Based on the 1999 Jean Nicod Lectures.)}
 \sourceitem{source-pinker-2018}{Pinker, S. (2018). \emph{Enlightenment now: The case for reason, science, humanism, and progress}. Viking.}
 \sourceitem{source-pinto-2017}{Pinto, Y., Neville, D. A., Otten, M., Corballis, P. M., Lamme, V. A. F., de Haan, E. H. F., Foschi, N., \& Fabri, M. (2017). Split brain: Divided perception but undivided consciousness. \emph{Brain}, \emph{140}(5), 1231–1237. \url{https://doi.org/10.1093/brain/aww358}}
@@ -14088,6 +14241,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-turing-1950}{Turing, A. M. (1950). Computing machinery and intelligence. \emph{Mind}, \emph{59}(236), 433–460. \url{https://doi.org/10.1093/mind/LIX.236.433}}
 \sourceitem{source-turing-1951}{Turing, A. M. (2004). Intelligent machinery, a heretical theory. In B. J. Copeland (Ed.), \emph{The essential Turing: Seminal writings in computing, logic, philosophy, artificial intelligence, and artificial life} (pp. 465–475). Oxford University Press. (Original work delivered c. 1951)}
 \sourceitem{source-tye-2000}{Tye, M. (2000). \emph{Consciousness, color, and content}. MIT Press.}
+\sourceitem{source-unger-1999}{Unger, P. (1999). The mystery of the physical and the matter of qualities. \emph{Midwest Studies in Philosophy}, \emph{23}(1), 75–99. \url{https://doi.org/10.1111/1475-4975.00005}}
 \sourceitem{source-sep-consciousness}{Van Gulick, R. (2014). Consciousness. In E. N. Zalta (Ed.), \emph{The Stanford encyclopedia of philosophy} (substantive revision of January 14, 2014; original work published 2004). \url{https://plato.stanford.edu/entries/consciousness/}}
 \sourceitem{source-van-inwagen-1978}{van Inwagen, P. (1978). The possibility of resurrection. \emph{International Journal for Philosophy of Religion}, \emph{9}(2), 114–121. \url{https://doi.org/10.1007/BF00138364}}
 \sourceitem{source-van-inwagen-1983}{van Inwagen, P. (1983). \emph{An essay on free will}. Clarendon Press.}

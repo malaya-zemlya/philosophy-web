@@ -53,3 +53,5 @@ sometimes report on its own machinery.
   not a claim about feeling.
 - [llm-has-mental-states](llm-has-mental-states.md) — the stronger, distinct claim that LLMs actually realise mental
   states.
+- [ai-introspection](../questions/ai-introspection.md) — the question this claim bears on, with the wider evidence for and against
+  AI introspection.
