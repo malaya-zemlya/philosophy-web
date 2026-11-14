@@ -7,7 +7,7 @@ author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 commits_to: [claim-consciousness-fundamental-nonphysical, claim-phenomenal-residue]
-answers: [question-hard-problem]
+answers: [question-hard-problem, question-soul]
 uses_concept: [concept-hard-problem]
 style: encyclopedia
 created: 2026-06-07
@@ -80,3 +80,6 @@ Its famous headache: if the mind isn't physical, how does it manage to push the 
 - [epiphenomenalism](epiphenomenalism.md) — the horn of dualism that accepts the mind's causal inefficacy
   rather than positing interaction.
 - [metaphysical-gap](../concepts/metaphysical-gap.md): the thesis that phenomenal facts are something over and above the physical facts, which dualism needs.
+- [soul](../concepts/soul.md) — the survey of views on the soul, where substance dualism heads the immaterial-substance
+  family alongside Plato, Avicenna and the Indian soul-dualisms.
+- [floating-man](../arguments/floating-man.md) — Avicenna's thought experiment, which anticipates Descartes's argument.

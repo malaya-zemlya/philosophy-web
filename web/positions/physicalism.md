@@ -8,7 +8,7 @@ status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics, physicalism]
 style: encyclopedia
 commits_to: [claim-mental-is-physical]
-answers: [question-hard-problem]
+answers: [question-hard-problem, question-soul]
 uses_concept: [concept-completeness-of-physics, concept-causal-closure, concept-hard-problem]
 created: 2026-06-14
 ---

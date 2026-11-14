@@ -49,3 +49,8 @@ says it's being the same living animal. Philosophers test these with brain swaps
 "what if there were two of you?" cases — and some, like Parfit, conclude that being "the same person"
 isn't always a clean yes-or-no but can come in degrees. The same puzzle returns, sharpened, for mind
 uploading: is the upload *you*, or just a very good copy?
+
+### See also
+
+- [no-self](../positions/no-self.md) — the Buddhist denial of an enduring self, a forerunner of reductionism.
+- [soul](soul.md) — the intertwined question of whether there is a soul.

@@ -7,7 +7,7 @@ author: aristotle
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 commits_to: [claim-soul-is-form-of-body]
-answers: [question-hard-problem]
+answers: [question-hard-problem, question-soul]
 uses_concept: [concept-functionalism]
 style: encyclopedia
 created: 2026-06-09
@@ -66,3 +66,5 @@ dualism and "nothing but atoms" materialism.
   of form to living substance.
 - [hard-problem](../questions/hard-problem.md) — the problem it addresses by treating mind as the form of an
   organised living thing.
+- [soul](../concepts/soul.md) — the survey of views on the soul, including the Thomist debate over whether the person
+  survives as a separated soul.

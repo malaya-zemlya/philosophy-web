@@ -7,7 +7,7 @@ author: generic
 status: asserted
 tags: [philosophy-of-mind, consciousness, metaphysics]
 commits_to: [claim-reality-is-fundamentally-mental]
-answers: [question-hard-problem]
+answers: [question-hard-problem, question-soul]
 uses_concept: [concept-hard-problem]
 style: encyclopedia
 created: 2026-06-09
@@ -66,3 +66,5 @@ is so stable, lawful, and the same for everyone.
 - [hard-problem](../concepts/hard-problem.md) — the explanatory gap that, idealism claims, never arises.
 - [neutral-monism](neutral-monism.md) — rival monism whose single base is neither mental nor physical.
 - [dualism](dualism.md) — rival on which mind and matter are two fundamental kinds.
+- [advaita-vedanta](advaita-vedanta.md) — the Hindu non-dualism on which the one reality is pure consciousness.
+- [yogacara](yogacara.md) — the Buddhist consciousness-only school, an idealism without a self.

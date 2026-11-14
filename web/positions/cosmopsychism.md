@@ -58,3 +58,5 @@ walled-off selves?
   decombination problem.
 - [decombination-problem](../concepts/decombination-problem.md) — the mirror-image problem the position faces: how one cosmic subject
   grounds many bounded subjects.
+- [advaita-vedanta](advaita-vedanta.md) — the Hindu view of one universal consciousness without a point of view,
+  proposed as an alternative to a cosmic subject.

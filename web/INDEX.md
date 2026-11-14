@@ -205,6 +205,9 @@
 ## [argument-fission](arguments/fission.md)
 - type: argument | author: parfit | status: asserted
 
+## [argument-floating-man](arguments/floating-man.md)
+- type: argument | author: avicenna | status: asserted
+
 ## [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -595,6 +598,11 @@
   - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
   - [argument-graded-polarity](arguments/graded-polarity.md) --attacks-->
 
+## [claim-affirmed-differs-from-unaffirmed](claims/affirmed-differs-from-unaffirmed.md)
+- type: claim | author: avicenna | status: asserted
+- backlinks:
+  - [argument-floating-man](arguments/floating-man.md) --premise-->
+
 ## [claim-agent-causation-conceivability-uncertified](claims/agent-causation-conceivability-uncertified.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -722,6 +730,11 @@
   - [argument-agent-causation-certificate](arguments/agent-causation-certificate.md) --premise-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --premise-->
 
+## [claim-cognition-belongs-to-matter](claims/cognition-belongs-to-matter.md)
+- type: claim | author: isvarakrsna | status: asserted
+- backlinks:
+  - [position-samkhya](positions/samkhya.md) --commits_to-->
+
 ## [claim-cognitive-closure-exists](claims/cognitive-closure-exists.md)
 - type: claim | author: mcginn | status: asserted
 - backlinks:
@@ -787,6 +800,7 @@
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --supports-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --concludes-->
   - [position-dualism](positions/dualism.md) --commits_to-->
+  - [position-samkhya](positions/samkhya.md) --commits_to-->
 
 ## [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md)
 - type: claim | author: generic | status: asserted
@@ -929,6 +943,11 @@
 - backlinks:
   - [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md) --premise-->
 
+## [claim-floating-man-affirms-self](claims/floating-man-affirms-self.md)
+- type: claim | author: avicenna | status: asserted
+- backlinks:
+  - [argument-floating-man](arguments/floating-man.md) --premise-->
+
 ## [claim-folk-psychology-is-false-theory](claims/folk-psychology-is-false-theory.md)
 - type: claim | author: churchland | status: asserted
 - backlinks:
@@ -1034,6 +1053,7 @@
 ## [claim-identity-is-further-fact](claims/identity-is-further-fact.md)
 - type: claim | author: reid | status: asserted
 - backlinks:
+  - [position-no-self](positions/no-self.md) --rejects-->
   - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --rejects-->
 
 ## [claim-identity-is-psychological-continuity](claims/identity-is-psychological-continuity.md)
@@ -1330,6 +1350,7 @@
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --attacks-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --attacks-->
   - [position-anomalous-monism](positions/anomalous-monism.md) --commits_to-->
+  - [position-christian-physicalism](positions/christian-physicalism.md) --commits_to-->
   - [position-physicalism](positions/physicalism.md) --commits_to-->
   - [position-type-a-materialism](positions/type-a-materialism.md) --commits_to-->
   - [position-type-b-materialism](positions/type-b-materialism.md) --commits_to-->
@@ -1380,6 +1401,14 @@
 - backlinks:
   - [argument-dispositionalist-reply](arguments/dispositionalist-reply.md) --attacks-->
   - [argument-kripke-rule-following](arguments/kripke-rule-following.md) --concludes-->
+
+## [claim-no-enduring-self](claims/no-enduring-self.md)
+- type: claim | author: buddha | status: asserted
+- backlinks:
+  - [position-advaita-vedanta](positions/advaita-vedanta.md) --rejects-->
+  - [position-no-self](positions/no-self.md) --commits_to-->
+  - [position-samkhya](positions/samkhya.md) --rejects-->
+  - [position-yogacara](positions/yogacara.md) --commits_to-->
 
 ## [claim-no-nonarbitrary-threshold-for-experience](claims/no-nonarbitrary-threshold-for-experience.md)
 - type: claim | author: nagel | status: asserted
@@ -1569,7 +1598,9 @@
 ## [claim-reality-is-fundamentally-mental](claims/reality-is-fundamentally-mental.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
+  - [position-advaita-vedanta](positions/advaita-vedanta.md) --commits_to-->
   - [position-idealism](positions/idealism.md) --commits_to-->
+  - [position-yogacara](positions/yogacara.md) --commits_to-->
 
 ## [claim-reality-two-aspects-mental-physical](claims/reality-two-aspects-mental-physical.md)
 - type: claim | author: generic | status: asserted
@@ -1615,6 +1646,13 @@
 - backlinks:
   - [argument-diminishing-returns-objection](arguments/diminishing-returns-objection.md) --attacks-->
   - [argument-proportionality-thesis](arguments/proportionality-thesis.md) --concludes-->
+
+## [claim-self-is-brahman](claims/self-is-brahman.md)
+- type: claim | author: shankara | status: asserted
+- backlinks:
+  - [position-advaita-vedanta](positions/advaita-vedanta.md) --commits_to-->
+  - [position-no-self](positions/no-self.md) --rejects-->
+  - [position-samkhya](positions/samkhya.md) --rejects-->
 
 ## [claim-self-model-is-part-of-state](claims/self-model-is-part-of-state.md)
 - type: claim | author: mishka | status: asserted
@@ -1669,6 +1707,13 @@
 - type: claim | author: aristotle | status: asserted
 - backlinks:
   - [position-hylomorphism](positions/hylomorphism.md) --commits_to-->
+
+## [claim-soul-is-immaterial-substance](claims/soul-is-immaterial-substance.md)
+- type: claim | author: plato | status: asserted
+- backlinks:
+  - [argument-floating-man](arguments/floating-man.md) --concludes-->
+  - [position-christian-physicalism](positions/christian-physicalism.md) --rejects-->
+  - [position-no-self](positions/no-self.md) --rejects-->
 
 ## [claim-split-brain-single-subject](claims/split-brain-single-subject.md)
 - type: claim | author: pinto | status: asserted
@@ -1728,6 +1773,11 @@
   - [argument-brain-headroom](arguments/brain-headroom.md) --concludes-->
   - [argument-multidimensionality-objection](arguments/multidimensionality-objection.md) --attacks-->
   - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --premise-->
+
+## [claim-survival-requires-resurrection](claims/survival-requires-resurrection.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [position-christian-physicalism](positions/christian-physicalism.md) --commits_to-->
 
 ## [claim-syntax-insufficient-for-semantics](claims/syntax-insufficient-for-semantics.md)
 - type: claim | author: searle | status: asserted
@@ -1821,6 +1871,7 @@
   - [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md) --uses_concept-->
   - [position-global-workspace](positions/global-workspace.md) --uses_concept-->
   - [position-higher-order-theories](positions/higher-order-theories.md) --uses_concept-->
+  - [position-samkhya](positions/samkhya.md) --uses_concept-->
   - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
 
 ## [concept-agent-causation](concepts/agent-causation.md)
@@ -2013,6 +2064,8 @@
 
 ## [concept-decombination-problem](concepts/decombination-problem.md)
 - type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [position-advaita-vedanta](positions/advaita-vedanta.md) --uses_concept-->
 
 ## [concept-dialectical-cogency](concepts/dialectical-cogency.md)
 - type: concept | author: generic | status: asserted
@@ -2572,6 +2625,17 @@
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-primary-intension](concepts/primary-intension.md) --uses_concept-->
 
+## [concept-soul](concepts/soul.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-floating-man](arguments/floating-man.md) --uses_concept-->
+  - [position-advaita-vedanta](positions/advaita-vedanta.md) --uses_concept-->
+  - [position-christian-physicalism](positions/christian-physicalism.md) --uses_concept-->
+  - [position-no-self](positions/no-self.md) --uses_concept-->
+  - [position-samkhya](positions/samkhya.md) --uses_concept-->
+  - [position-yogacara](positions/yogacara.md) --uses_concept-->
+  - [question-soul](questions/soul.md) --uses_concept-->
+
 ## [concept-soundness](concepts/soundness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -2643,6 +2707,9 @@
   - [claim-sim-agents-can-have-sim-qualia](claims/sim-agents-can-have-sim-qualia.md) --uses_concept-->
   - [claim-simulated-rain-wet-in-simulated-world](claims/simulated-rain-wet-in-simulated-world.md) --uses_concept-->
 
+## [position-advaita-vedanta](positions/advaita-vedanta.md)
+- type: position | author: shankara | status: asserted
+
 ## [position-animalism](positions/animalism.md)
 - type: position | author: olson | status: asserted
 
@@ -2653,6 +2720,9 @@
 - type: position | author: searle | status: asserted
 - backlinks:
   - [character-cyril](characters/cyril.md) --holds-->
+
+## [position-christian-physicalism](positions/christian-physicalism.md)
+- type: position | author: generic | status: asserted
 
 ## [position-coherentism](positions/coherentism.md)
 - type: position | author: generic | status: asserted
@@ -2732,6 +2802,9 @@
 ## [position-neutral-monism](positions/neutral-monism.md)
 - type: position | author: russell | status: asserted
 
+## [position-no-self](positions/no-self.md)
+- type: position | author: buddha | status: asserted
+
 ## [position-noncomputable-consciousness](positions/noncomputable-consciousness.md)
 - type: position | author: penrose | status: asserted
 
@@ -2755,6 +2828,9 @@
 ## [position-russellian-monism](positions/russellian-monism.md)
 - type: position | author: russell | status: asserted
 
+## [position-samkhya](positions/samkhya.md)
+- type: position | author: isvarakrsna | status: asserted
+
 ## [position-teleosemantics](positions/teleosemantics.md)
 - type: position | author: millikan | status: asserted
 
@@ -2769,6 +2845,9 @@
 
 ## [position-type-identity](positions/type-identity.md)
 - type: position | author: generic | status: asserted
+
+## [position-yogacara](positions/yogacara.md)
+- type: position | author: vasubandhu | status: asserted
 
 ## [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md)
 - type: question | author: generic | status: contested
@@ -2796,6 +2875,7 @@
   - [position-foundationalism](positions/foundationalism.md) --answers-->
   - [position-hinge-epistemology](positions/hinge-epistemology.md) --answers-->
   - [position-infinitism](positions/infinitism.md) --answers-->
+  - [position-yogacara](positions/yogacara.md) --answers-->
 
 ## [question-free-will](questions/free-will.md)
 - type: question | author: generic | status: asserted
@@ -2889,7 +2969,26 @@
   - [claim-identity-is-psychological-continuity](claims/identity-is-psychological-continuity.md) --answers-->
   - [claim-identity-not-what-matters](claims/identity-not-what-matters.md) --answers-->
   - [position-animalism](positions/animalism.md) --answers-->
+  - [position-christian-physicalism](positions/christian-physicalism.md) --answers-->
+  - [position-no-self](positions/no-self.md) --answers-->
   - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --answers-->
+
+## [question-soul](questions/soul.md)
+- type: question | author: generic | status: asserted
+- backlinks:
+  - [claim-no-enduring-self](claims/no-enduring-self.md) --answers-->
+  - [claim-self-is-brahman](claims/self-is-brahman.md) --answers-->
+  - [claim-soul-is-immaterial-substance](claims/soul-is-immaterial-substance.md) --answers-->
+  - [claim-survival-requires-resurrection](claims/survival-requires-resurrection.md) --answers-->
+  - [position-advaita-vedanta](positions/advaita-vedanta.md) --answers-->
+  - [position-christian-physicalism](positions/christian-physicalism.md) --answers-->
+  - [position-dualism](positions/dualism.md) --answers-->
+  - [position-hylomorphism](positions/hylomorphism.md) --answers-->
+  - [position-idealism](positions/idealism.md) --answers-->
+  - [position-no-self](positions/no-self.md) --answers-->
+  - [position-physicalism](positions/physicalism.md) --answers-->
+  - [position-samkhya](positions/samkhya.md) --answers-->
+  - [position-yogacara](positions/yogacara.md) --answers-->
 
 ## [question-substrate-independence](questions/substrate-independence.md)
 - type: question | author: mishka | status: contested
@@ -2943,7 +3042,13 @@
 ## [source-augustine-confessions](sources/augustine-confessions.md)
 - type: source | author: mishka | status: asserted
 
+## [source-avicenna-de-anima](sources/avicenna-de-anima.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-baars-1988](sources/baars-1988.md)
+- type: source | author: mishka | status: asserted
+
+## [source-baker-2000](sources/baker-2000.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-bayne-2010](sources/bayne-2010.md)
@@ -3090,7 +3195,13 @@
 ## [source-coleman-2014](sources/coleman-2014.md)
 - type: source | author: mishka | status: asserted
 
+## [source-collins-1982](sources/collins-1982.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-conee-1994](sources/conee-1994.md)
+- type: source | author: mishka | status: asserted
+
+## [source-corcoran-2006](sources/corcoran-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-crane-mellor-1990](sources/crane-mellor-1990.md)
@@ -3100,6 +3211,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-crick-koch-1995](sources/crick-koch-1995.md)
+- type: source | author: mishka | status: asserted
+
+## [source-cullmann-1958](sources/cullmann-1958.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-davidson-1970](sources/davidson-1970.md)
@@ -3210,6 +3324,9 @@
 ## [source-gambarian](sources/gambarian.md)
 - type: source | author: mishka | status: asserted
 
+## [source-ganeri-2012](sources/ganeri-2012.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-gazzaniga-1970](sources/gazzaniga-1970.md)
 - type: source | author: mishka | status: asserted
 
@@ -3276,6 +3393,9 @@
 ## [source-harman-1990](sources/harman-1990.md)
 - type: source | author: mishka | status: asserted
 
+## [source-hasker-1999](sources/hasker-1999.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-hauser-2006](sources/hauser-2006.md)
 - type: source | author: mishka | status: asserted
 
@@ -3310,6 +3430,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-huxley-1874](sources/huxley-1874.md)
+- type: source | author: mishka | status: asserted
+
+## [source-isvarakrsna-samkhyakarika](sources/isvarakrsna-samkhyakarika.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-jackendoff-1987](sources/jackendoff-1987.md)
@@ -3453,6 +3576,9 @@
 ## [source-marmodoro-2013](sources/marmodoro-2013.md)
 - type: source | author: mishka | status: asserted
 
+## [source-marmura-1986](sources/marmura-1986.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-marr-1982](sources/marr-1982.md)
 - type: source | author: mishka | status: asserted
 
@@ -3477,6 +3603,9 @@
 ## [source-metzinger-2003](sources/metzinger-2003.md)
 - type: source | author: mishka | status: asserted
 
+## [source-milindapanha](sources/milindapanha.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-miller-2018](sources/miller-2018.md)
 - type: source | author: mishka | status: asserted
 
@@ -3496,6 +3625,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-moore-1939](sources/moore-1939.md)
+- type: source | author: mishka | status: asserted
+
+## [source-murphy-2006](sources/murphy-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-nagasawa-wager-2017](sources/nagasawa-wager-2017.md)
@@ -3562,6 +3694,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-place-1956](sources/place-1956.md)
+- type: source | author: mishka | status: asserted
+
+## [source-plato-phaedo](sources/plato-phaedo.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-plato-republic](sources/plato-republic.md)
@@ -3657,6 +3792,18 @@
 ## [source-sellars-1965](sources/sellars-1965.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-abhidharma](sources/sep-abhidharma.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-afterlife](sources/sep-afterlife.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-ancient-soul](sources/sep-ancient-soul.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-arabic-islamic-mind](sources/sep-arabic-islamic-mind.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-consciousness](sources/sep-consciousness.md)
 - type: source | author: mishka | status: asserted
 
@@ -3669,7 +3816,22 @@
 ## [source-sep-consciousness-unity](sources/sep-consciousness-unity.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-dualism](sources/sep-dualism.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-ibn-sina](sources/sep-ibn-sina.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-jaina-philosophy](sources/sep-jaina-philosophy.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-mental-causation](sources/sep-mental-causation.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-mind-indian-buddhism](sources/sep-mind-indian-buddhism.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-mulla-sadra](sources/sep-mulla-sadra.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-neuroethics](sources/sep-neuroethics.md)
@@ -3684,13 +3846,25 @@
 ## [source-sep-sellars](sources/sep-sellars.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-shankara](sources/sep-shankara.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-yogacara](sources/sep-yogacara.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-shani-2015](sources/shani-2015.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-shani-keppler-2018](sources/shani-keppler-2018.md)
 - type: source | author: mishka | status: asserted
 
+## [source-shankara-brahmasutra](sources/shankara-brahmasutra.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-shoemaker-1963](sources/shoemaker-1963.md)
+- type: source | author: mishka | status: asserted
+
+## [source-siderits-2003](sources/siderits-2003.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-siegel-2010](sources/siegel-2010.md)
@@ -3750,7 +3924,19 @@
 ## [source-stuart-russell-2019](sources/stuart-russell-2019.md)
 - type: source | author: mishka | status: asserted
 
+## [source-stump-2006](sources/stump-2006.md)
+- type: source | author: mishka | status: asserted
+
+## [source-swinburne-1986](sources/swinburne-1986.md)
+- type: source | author: mishka | status: asserted
+
+## [source-taber-2003](sources/taber-2003.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-tang-2023](sources/tang-2023.md)
+- type: source | author: mishka | status: asserted
+
+## [source-toner-2009](sources/toner-2009.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-tononi-2004](sources/tononi-2004.md)
@@ -3783,7 +3969,16 @@
 ## [source-tye-2000](sources/tye-2000.md)
 - type: source | author: mishka | status: asserted
 
+## [source-van-inwagen-1978](sources/van-inwagen-1978.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-van-inwagen-1983](sources/van-inwagen-1983.md)
+- type: source | author: mishka | status: asserted
+
+## [source-vasubandhu-abhidharmakosa](sources/vasubandhu-abhidharmakosa.md)
+- type: source | author: mishka | status: asserted
+
+## [source-vasubandhu-vimsatika](sources/vasubandhu-vimsatika.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-wegner-2002](sources/wegner-2002.md)
@@ -3823,4 +4018,7 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-yudkowsky-2008](sources/yudkowsky-2008.md)
+- type: source | author: mishka | status: asserted
+
+## [source-zimmerman-1999](sources/zimmerman-1999.md)
 - type: source | author: mishka | status: asserted
