@@ -79,3 +79,5 @@ both distinct from the brain and still does real work.
 - [mental-is-physical](../claims/mental-is-physical.md) — the reductive horn Kim recommends, the only way to keep the mental a cause.
 - [causal-closure](../concepts/causal-closure.md) and [completeness-of-physics](../concepts/completeness-of-physics.md) — the closure premise the argument leans
   on.
+- [mental-causation](../questions/mental-causation.md): the general problem, of which exclusion is the version facing non-reductive physicalism.
+- [dispensability-of-mental-causes](../questions/dispensability-of-mental-causes.md): whether mental explanations still do work once physics is complete, the explanatory side of exclusion.
