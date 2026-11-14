@@ -18,8 +18,11 @@ present only in some conditions.
 
 Reference:
 - Lindsey, J. (2025, October 29). *Emergent introspective awareness in large language models*. Transformer Circuits Thread. https://transformer-circuits.pub/2025/introspection/
+  (Also posted as arXiv:2601.01828, January 5, 2026. https://arxiv.org/abs/2601.01828)
 
 framing to preserve when citing:
+- A local copy of the arXiv version is saved at
+  `external/lindsey-introspection-2025/2601.01828v1.pdf` (text conversion: `2601.01828v1.txt`).
 - The paper **explicitly disclaims** phenomenal readings: "We do not seek to address the question of
   whether AI systems possess human-like self-awareness or subjective experience," and flags that the
   observed capacities "may not have the same philosophical significance they do in humans." So it
