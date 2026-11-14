@@ -420,6 +420,7 @@ digraph web {
   "question-llm-own-explanatory-gap" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="llm own\nexplanatory gap", tooltip="Would a consciousness-naive but introspecting LLM be able to fully explain its own self-perception from its mechanism?", URL="../web/questions/llm-own-explanatory-gap.md"];
   "question-mental-causation" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="mental causation", tooltip="How can mental states have physical effects?", URL="../web/questions/mental-causation.md"];
   "question-misaligned-superintelligence" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="misaligned\nsuperintelligence", tooltip="Would a superintelligence pursuing a goal indifferent to human values be catastrophic by default?", URL="../web/questions/misaligned-superintelligence.md"];
+  "question-origin-of-consciousness" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="origin of\nconsciousness", tooltip="Was there a time in the history of the universe without consciousness, and if so, when and how did consciousness first appear?", URL="../web/questions/origin-of-consciousness.md"];
   "question-personal-identity" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="personal identity", tooltip="What makes a person at one time the same person as a person at another time?", URL="../web/questions/personal-identity.md"];
   "question-substrate-independence" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="substrate\nindependence", tooltip="Are mental states substrate-independent?", URL="../web/questions/substrate-independence.md"];
   "question-superintelligence-feasibility" [shape="doubleoctagon", style="filled,bold", fillcolor="#fff2cc", color="#bfa400", label="superintelligence\nfeasibility", tooltip="Is machine superintelligence achievable?", URL="../web/questions/superintelligence-feasibility.md"];
@@ -1333,6 +1334,10 @@ digraph web {
   "question-mental-causation" -> "concept-completeness-of-physics" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-misaligned-superintelligence" -> "concept-paperclip-maximizer" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-misaligned-superintelligence" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-origin-of-consciousness" -> "concept-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-origin-of-consciousness" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-origin-of-consciousness" -> "concept-mind-body-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "question-origin-of-consciousness" -> "concept-panpsychism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-personal-identity" -> "concept-continuity-argument-schema" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-substrate-independence" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-substrate-independence" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];

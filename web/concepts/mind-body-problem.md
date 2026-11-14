@@ -44,6 +44,9 @@ running them together.
   [hard problem](hard-problem.md), the part of the mind-body problem that has proved most stubborn.
 - **The problem of intentionality.** *How can physical states be about things?* A thought reaches out to its
   object ([aboutness](intentionality.md)); how a lump of matter does so is a further puzzle.
+- **The problem of origin.** *When and how did minds first appear?* The early universe held no brains,
+  and today's does; whether consciousness began at some point, and how it could have arisen from matter
+  that had none, is the historical form of the problem ([origin-of-consciousness](../questions/origin-of-consciousness.md)).
 
 ### The landscape of answers
 
@@ -109,6 +112,7 @@ problem is still open.
 - [functionalism](functionalism.md), [materialism-types](materialism-types.md) — the machinery and taxonomy of the physicalist
   answers.
 - [intentionality](intentionality.md) — the aboutness of thought, the fourth strand of the problem.
+- [origin-of-consciousness](../questions/origin-of-consciousness.md): whether consciousness ever began, and if so when and how, the historical strand.
 - [dualism](../positions/dualism.md), [physicalism](../positions/physicalism.md), [idealism](../positions/idealism.md), [neutral-monism](../positions/neutral-monism.md),
   [dual-aspect-monism](../positions/dual-aspect-monism.md), [russellian-monism](../positions/russellian-monism.md), [panpsychism](../positions/panpsychism.md),
   [hylomorphism](../positions/hylomorphism.md), [mysterianism](../positions/mysterianism.md) — the principal answers.

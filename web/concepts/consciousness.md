@@ -106,3 +106,4 @@ how to check.
   [biological-naturalism](../positions/biological-naturalism.md) — the principal theories of what consciousness is.
 - [substrate-independence](../claims/substrate-independence.md), [llm-moral-status](../questions/llm-moral-status.md) — whether consciousness can arise in
   machines, and why it matters.
+- [origin-of-consciousness](../questions/origin-of-consciousness.md): whether there was ever a time without consciousness, and how it first appeared.
