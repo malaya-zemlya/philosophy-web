@@ -90,3 +90,4 @@ work, not a given.
 - [combination-problem](../arguments/combination-problem.md): the neighbouring unity puzzle about subjects, not features.
 - [neural-correlates-of-consciousness](neural-correlates-of-consciousness.md): the search for neural correlates, in which synchrony was an early candidate.
 - [combination-problem-panpsychism](combination-problem-panpsychism.md): the survey entry on the combination problem.
+- [boundary-problem](boundary-problem.md): the overlooked cousin of binding, asking why a unified experience has an edge.

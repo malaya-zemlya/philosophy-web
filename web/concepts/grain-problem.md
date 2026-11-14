@@ -138,3 +138,5 @@ confuse how the apple looks with how the experience itself is built.
   experienced together.
 - [grain](grain.md): an unrelated use of "grain" in this web, for the level of detail at which a
   functional role is individuated.
+- [intermediate-level-theory](../positions/intermediate-level-theory.md): Jackendoff's theory that experience reflects a middle level of
+  processing, which softens the mismatch.

@@ -121,3 +121,5 @@ would tell us *what* goes with feeling, not *why* brain activity should feel lik
 - [dehaene-naccache-2001](../sources/dehaene-naccache-2001.md): the workspace framework that guided much report-based NCC research.
 - [consciousness-is-biological-feature](../claims/consciousness-is-biological-feature.md): biological naturalism, on which the NCC is what causes experience.
 - [origin-of-consciousness](../questions/origin-of-consciousness.md): the evolutionary question of when the first NCCs appeared.
+- [intermediate-level-theory](../positions/intermediate-level-theory.md): the theory that conscious contents come from intermediate
+  stages of processing, not the earliest ones.

@@ -180,3 +180,5 @@ that the whole universe is the one basic mind. Nobody yet claims a complete answ
 - [unity-of-consciousness](unity-of-consciousness.md): the broader topic of what makes experience one.
 - [russellian-monism](../positions/russellian-monism.md): the framework within which constitutive panpsychism, and hence the
   problem, is usually posed.
+- [boundary-problem](boundary-problem.md): Rosenberg's question of what fixes the edges of a subject, one aspect of
+  the combination problem.

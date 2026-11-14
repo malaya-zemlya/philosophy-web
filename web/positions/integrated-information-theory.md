@@ -76,3 +76,5 @@ matters, not just the behaviour or the program.
 - [llm-has-mental-states](../claims/llm-has-mental-states.md) — bears against it: an LLM on standard hardware would score low Φ.
 - [global-workspace](global-workspace.md) — the leading functional rival, against which IIT makes consciousness
   intrinsic rather than a matter of availability.
+- [boundary-problem](../concepts/boundary-problem.md) — the problem the exclusion postulate is meant to solve, and the objections
+  to that solution.

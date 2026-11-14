@@ -130,3 +130,4 @@ one experience at a time.
 - [conscious-content-is-product-like](../claims/conscious-content-is-product-like.md) and [binding-is-obstruction-to-product](../claims/binding-is-obstruction-to-product.md): claims in this web about the structure of a unified conscious moment.
 - [unity-dualizes-to-unity-of-agency](../claims/unity-dualizes-to-unity-of-agency.md): the claim that the unity of consciousness has a counterpart in the unity of agency.
 - [access-vs-phenomenal-consciousness](access-vs-phenomenal-consciousness.md): the distinction behind access unity and phenomenal unity.
+- [boundary-problem](boundary-problem.md): the question of what fixes the edges of a unified subject.

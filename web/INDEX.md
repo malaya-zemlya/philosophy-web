@@ -830,6 +830,11 @@
   - [argument-isomorphic-feedforward-zombie](arguments/isomorphic-feedforward-zombie.md) --attacks-->
   - [position-integrated-information-theory](positions/integrated-information-theory.md) --commits_to-->
 
+## [claim-consciousness-is-intermediate-level](claims/consciousness-is-intermediate-level.md)
+- type: claim | author: jackendoff | status: asserted
+- backlinks:
+  - [position-intermediate-level-theory](positions/intermediate-level-theory.md) --commits_to-->
+
 ## [claim-consciousness-is-intrinsic-property](claims/consciousness-is-intrinsic-property.md)
 - type: claim | author: seager | status: asserted
 - backlinks:
@@ -1855,7 +1860,11 @@
   - [claim-binding-is-obstruction-to-product](claims/binding-is-obstruction-to-product.md) --uses_concept-->
   - [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md) --uses_concept-->
   - [claim-unity-dualizes-to-unity-of-agency](claims/unity-dualizes-to-unity-of-agency.md) --uses_concept-->
+  - [concept-boundary-problem](concepts/boundary-problem.md) --uses_concept-->
   - [concept-unity-of-consciousness](concepts/unity-of-consciousness.md) --uses_concept-->
+
+## [concept-boundary-problem](concepts/boundary-problem.md)
+- type: concept | author: rosenberg | status: asserted
 
 ## [concept-categorical-duality](concepts/categorical-duality.md)
 - type: concept | author: generic | status: asserted
@@ -1925,6 +1934,7 @@
 ## [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md)
 - type: concept | author: james | status: asserted
 - backlinks:
+  - [concept-boundary-problem](concepts/boundary-problem.md) --uses_concept-->
   - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
   - [concept-grain-problem](concepts/grain-problem.md) --uses_concept-->
 
@@ -2446,6 +2456,7 @@
 ## [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md)
 - type: concept | author: crick | status: asserted
 - backlinks:
+  - [position-intermediate-level-theory](positions/intermediate-level-theory.md) --uses_concept-->
   - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
 
 ## [concept-order-of-representation](concepts/order-of-representation.md)
@@ -2502,6 +2513,7 @@
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
+  - [position-intermediate-level-theory](positions/intermediate-level-theory.md) --uses_concept-->
 
 ## [concept-philosophical-zombie](concepts/philosophical-zombie.md)
 - type: concept | author: chalmers | status: asserted
@@ -2608,6 +2620,7 @@
 ## [concept-unity-of-consciousness](concepts/unity-of-consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [concept-boundary-problem](concepts/boundary-problem.md) --uses_concept-->
   - [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md) --uses_concept-->
   - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
 
@@ -2706,6 +2719,9 @@
 
 ## [position-intentional-stance](positions/intentional-stance.md)
 - type: position | author: dennett | status: asserted
+
+## [position-intermediate-level-theory](positions/intermediate-level-theory.md)
+- type: position | author: jackendoff | status: asserted
 
 ## [position-libertarianism](positions/libertarianism.md)
 - type: position | author: generic | status: asserted
@@ -2936,6 +2952,9 @@
 ## [source-bayne-chalmers-2003](sources/bayne-chalmers-2003.md)
 - type: source | author: mishka | status: asserted
 
+## [source-bayne-montague-2011](sources/bayne-montague-2011.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-bekenstein-1973](sources/bekenstein-1973.md)
 - type: source | author: mishka | status: asserted
 
@@ -3080,6 +3099,9 @@
 ## [source-crick-koch-1990](sources/crick-koch-1990.md)
 - type: source | author: mishka | status: asserted
 
+## [source-crick-koch-1995](sources/crick-koch-1995.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-davidson-1970](sources/davidson-1970.md)
 - type: source | author: mishka | status: asserted
 
@@ -3161,6 +3183,9 @@
 ## [source-feinberg-mallatt-2016](sources/feinberg-mallatt-2016.md)
 - type: source | author: mishka | status: asserted
 
+## [source-fekete-2016](sources/fekete-2016.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-fischer-ravizza-1998](sources/fischer-ravizza-1998.md)
 - type: source | author: mishka | status: asserted
 
@@ -3216,6 +3241,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-goldman-1979](sources/goldman-1979.md)
+- type: source | author: mishka | status: asserted
+
+## [source-gomez-emilsson-percy-2023](sources/gomez-emilsson-percy-2023.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-good-1966](sources/good-1966.md)
@@ -3282,6 +3310,15 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-huxley-1874](sources/huxley-1874.md)
+- type: source | author: mishka | status: asserted
+
+## [source-jackendoff-1987](sources/jackendoff-1987.md)
+- type: source | author: mishka | status: asserted
+
+## [source-jackendoff-1996](sources/jackendoff-1996.md)
+- type: source | author: mishka | status: asserted
+
+## [source-jackendoff-2007](sources/jackendoff-2007.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-jackson-1982](sources/jackson-1982.md)
@@ -3356,6 +3393,9 @@
 ## [source-leopold-logothetis-1996](sources/leopold-logothetis-1996.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lerdahl-jackendoff-1983](sources/lerdahl-jackendoff-1983.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-levine-1983](sources/levine-1983.md)
 - type: source | author: mishka | status: asserted
 
@@ -3411,6 +3451,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-marmodoro-2013](sources/marmodoro-2013.md)
+- type: source | author: mishka | status: asserted
+
+## [source-marr-1982](sources/marr-1982.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-maudlin-1989](sources/maudlin-1989.md)
@@ -3527,6 +3570,12 @@
 ## [source-popper-1963](sources/popper-1963.md)
 - type: source | author: mishka | status: asserted
 
+## [source-prinz-2000](sources/prinz-2000.md)
+- type: source | author: mishka | status: asserted
+
+## [source-prinz-2012](sources/prinz-2012.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-putnam-1963](sources/putnam-1963.md)
 - type: source | author: mishka | status: asserted
 
@@ -3543,6 +3592,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-roelofs-2019](sources/roelofs-2019.md)
+- type: source | author: mishka | status: asserted
+
+## [source-rosenberg-1998](sources/rosenberg-1998.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-rosenberg-2004](sources/rosenberg-2004.md)
@@ -3641,6 +3693,9 @@
 ## [source-shoemaker-1963](sources/shoemaker-1963.md)
 - type: source | author: mishka | status: asserted
 
+## [source-siegel-2010](sources/siegel-2010.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-singer-gray-1995](sources/singer-gray-1995.md)
 - type: source | author: mishka | status: asserted
 
@@ -3681,6 +3736,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-strawson-1994](sources/strawson-1994.md)
+- type: source | author: mishka | status: asserted
+
+## [source-strawson-1994b](sources/strawson-1994b.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-strawson-2006](sources/strawson-2006.md)

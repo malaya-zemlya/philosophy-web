@@ -128,3 +128,4 @@ mind into many is just as puzzling as merging many into one.
   subjects can divide as well as merge.
 - [idealism](../positions/idealism.md): the family that includes analytic idealism and its dissociation model.
 - [panpsychism](panpsychism.md): the broader doctrine, in which cosmopsychism is the whole-first branch.
+- [boundary-problem](boundary-problem.md): the neighbouring question of where any subject's edges fall.
