@@ -87,6 +87,38 @@ facts about mountains, proteins and hurricanes are settled as well. Physicalism 
 with the narrow sense in the base and the broad sense in the conclusion: everything is physical in
 the broad sense because everything is fixed by what is physical in the narrow one.
 
+### Example: entropy
+
+Entropy shows how the standing of a quantity can seem to shift while its physicality does not.
+Clausius ([1865](../sources/clausius-1865.md)) introduced it as a thermodynamic quantity defined through
+heat and temperature, apparently as basic as energy. Boltzmann ([1877](../sources/boltzmann-1877.md))
+recast it statistically, as a measure ($S = k \log W$) of the number of molecular arrangements
+compatible with a system's large-scale state. On that analysis entropy is no longer fundamental, and
+Jaynes ([1957](../sources/jaynes-1957.md)) went further, reading it as a measure of the information an
+observer lacks about the system's exact state. Entropy then looked less like a property of the gas
+than of our description of it. Later physics restored its weight. Landauer
+([1961](../sources/landauer-1961.md)) showed that erasing information has an unavoidable thermodynamic
+cost, Bekenstein ([1973](../sources/bekenstein-1973.md)) assigned black holes an entropy proportional to
+the area of their horizon, and Wheeler ([1990](../sources/wheeler-1990.md)) proposed, under the slogan
+"it from bit", that physical things are at bottom informational.
+
+The distinction between narrow and broad senses shows what did and did not change. Statistical
+mechanics moved entropy out of the narrow class of fundamental quantities, but not out of the
+physical. Like temperature, once identified with the mean kinetic energy of molecules, it stayed
+physical in the broad sense because it is fixed by the underlying mechanics. What made it look
+mathematical was that Boltzmann's $W$ counts possibilities rather than describing the actual state:
+it is the number of arrangements the system *could* be in, given its large-scale state, which makes
+entropy seem a fact about a space of combinations rather than about the gas. But that count is fixed
+by the system's physical constraints, its energy, volume and number of particles, so it remains a
+physical fact even though it is stated as a number of possibilities. The informational reading raises a different question: whether entropy is an
+objective feature of a system or relative to how the system is described, and, if it is relative to
+what someone knows, whether something mental has entered physics. The usual answer is that it is
+relative to a choice of large-scale variables, not to anyone's state of mind. "It from bit", for its
+part, points toward the structuralist conception discussed below, on which the physical and the
+mathematical are not sharply opposed; on that conception entropy's status never changed at all. A
+definition of the physical as whatever current physics says would have given different verdicts on
+entropy in 1870, 1910 and 1990, which illustrates the instability behind [hempels-dilemma](../arguments/hempels-dilemma.md).
+
 ### The via negativa
 
 A third strategy gives up on saying what the physical is and says instead what it is not. On the

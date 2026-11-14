@@ -1931,6 +1931,8 @@
 
 ## [concept-consciousness](concepts/consciousness.md)
 - type: concept | author: generic | status: asserted
+- backlinks:
+  - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-consciousness-freewill-duality](concepts/consciousness-freewill-duality.md)
 - type: concept | author: mishka | status: asserted
@@ -2176,6 +2178,7 @@
   - [position-type-c-materialism](positions/type-c-materialism.md) --uses_concept-->
   - [question-hard-problem](questions/hard-problem.md) --uses_concept-->
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
+  - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-hinge-proposition](concepts/hinge-proposition.md)
 - type: concept | author: wittgenstein | status: asserted
@@ -2383,6 +2386,7 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
+  - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md)
 - type: concept | author: mishka | status: asserted
@@ -2428,6 +2432,7 @@
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
   - [claim-combination-dualizes-to-composition-of-will](claims/combination-dualizes-to-composition-of-will.md) --uses_concept-->
+  - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-paperclip-maximizer](concepts/paperclip-maximizer.md)
 - type: concept | author: bostrom | status: asserted
@@ -2801,6 +2806,9 @@
 - backlinks:
   - [claim-misaligned-superintelligence-catastrophic](claims/misaligned-superintelligence-catastrophic.md) --answers-->
 
+## [question-origin-of-consciousness](questions/origin-of-consciousness.md)
+- type: question | author: generic | status: asserted
+
 ## [question-personal-identity](questions/personal-identity.md)
 - type: question | author: generic | status: asserted
 - backlinks:
@@ -2860,6 +2868,9 @@
 ## [source-baars-1988](sources/baars-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-bekenstein-1973](sources/bekenstein-1973.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-bender-2021](sources/bender-2021.md)
 - type: source | author: mishka | status: asserted
 
@@ -2888,6 +2899,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-block-2007](sources/block-2007.md)
+- type: source | author: mishka | status: asserted
+
+## [source-boltzmann-1877](sources/boltzmann-1877.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-bostrom-2003](sources/bostrom-2003.md)
@@ -2971,6 +2985,9 @@
 ## [source-clark-1993](sources/clark-1993.md)
 - type: source | author: mishka | status: asserted
 
+## [source-clausius-1865](sources/clausius-1865.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-coleman-2014](sources/coleman-2014.md)
 - type: source | author: mishka | status: asserted
 
@@ -3049,6 +3066,9 @@
 ## [source-feigl-1958](sources/feigl-1958.md)
 - type: source | author: mishka | status: asserted
 
+## [source-feinberg-mallatt-2016](sources/feinberg-mallatt-2016.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-fischer-ravizza-1998](sources/fischer-ravizza-1998.md)
 - type: source | author: mishka | status: asserted
 
@@ -3070,10 +3090,16 @@
 ## [source-gambarian](sources/gambarian.md)
 - type: source | author: mishka | status: asserted
 
+## [source-ginsburg-jablonka-2019](sources/ginsburg-jablonka-2019.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-girard-1987](sources/girard-1987.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-godfrey-smith-2009](sources/godfrey-smith-2009.md)
+- type: source | author: mishka | status: asserted
+
+## [source-godfrey-smith-2016](sources/godfrey-smith-2016.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-goff-2017](sources/goff-2017.md)
@@ -3163,6 +3189,12 @@
 ## [source-jaworski-2016](sources/jaworski-2016.md)
 - type: source | author: mishka | status: asserted
 
+## [source-jaynes-1957](sources/jaynes-1957.md)
+- type: source | author: mishka | status: asserted
+
+## [source-jaynes-1976](sources/jaynes-1976.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kane-1996](sources/kane-1996.md)
 - type: source | author: mishka | status: asserted
 
@@ -3182,6 +3214,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-kripke-1982](sources/kripke-1982.md)
+- type: source | author: mishka | status: asserted
+
+## [source-landauer-1961](sources/landauer-1961.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-legg-hutter-2007](sources/legg-hutter-2007.md)
@@ -3382,6 +3417,9 @@
 ## [source-schwitzgebel-2015](sources/schwitzgebel-2015.md)
 - type: source | author: mishka | status: asserted
 
+## [source-schwitzgebel-2023](sources/schwitzgebel-2023.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-schwitzgebel-garza-2015](sources/schwitzgebel-garza-2015.md)
 - type: source | author: mishka | status: asserted
 
@@ -3398,6 +3436,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-searle-1992](sources/searle-1992.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-consciousness-animal](sources/sep-consciousness-animal.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-physicalism](sources/sep-physicalism.md)
@@ -3473,6 +3514,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-wegner-2002](sources/wegner-2002.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wheeler-1990](sources/wheeler-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-williamson-2007](sources/williamson-2007.md)
