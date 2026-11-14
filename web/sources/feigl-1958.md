@@ -13,6 +13,9 @@ raw-feel mental states and certain neurophysiological states are one and the sam
 empirical identity rather than mere correlation. With [place-1956](place-1956.md) and [smart-1959](smart-1959.md)
 it is one of the three founding statements of [type-identity](../positions/type-identity.md); grounds
 [mental-states-are-brain-state-types](../claims/mental-states-are-brain-state-types.md).
+Also the origin (p. 456) of the *autocerebroscope*, a device letting a subject watch his own brain
+states while experiencing, later developed by Meehl ([meehl-1966](meehl-1966.md)) and cited in
+[consciousness-reading-machine](../questions/consciousness-reading-machine.md).
 
 Reference:
 - Feigl, H. (1958). The "mental" and the "physical." In H. Feigl, M. Scriven, & G. Maxwell (Eds.),

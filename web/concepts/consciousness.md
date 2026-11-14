@@ -40,7 +40,7 @@ states, controls behaviour — are "easy" only by comparison: they ask for *mech
 successful answer would look like. The [hard problem](hard-problem.md)
 ([why there is experience at all](../questions/hard-problem.md)) is to say why the performance of any such
 functions should be accompanied by experience — why it doesn't all go on "in the dark." Closely related is
-the [explanatory gap](../arguments/explanatory-gap.md): even a complete physical account of the brain seems to
+the [explanatory gap](explanatory-gap.md): even a complete physical account of the brain seems to
 leave us with no idea *how* the physical constitutes the felt.
 
 ### Theories of consciousness
@@ -107,3 +107,5 @@ how to check.
 - [substrate-independence](../claims/substrate-independence.md), [llm-moral-status](../questions/llm-moral-status.md) — whether consciousness can arise in
   machines, and why it matters.
 - [origin-of-consciousness](../questions/origin-of-consciousness.md): whether there was ever a time without consciousness, and how it first appeared.
+- [neural-correlates-of-consciousness](neural-correlates-of-consciousness.md): the brain activity that goes with experience, and the science that seeks it.
+- [consciousness-reading-machine](../questions/consciousness-reading-machine.md): whether a machine could read the contents of experience from the brain, and how we would know.
