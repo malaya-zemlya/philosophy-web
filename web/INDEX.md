@@ -1922,6 +1922,12 @@
   - [claim-simulation-instances-formal-depicts-causal](claims/simulation-instances-formal-depicts-causal.md) --uses_concept-->
   - [position-biological-naturalism](positions/biological-naturalism.md) --uses_concept-->
 
+## [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md)
+- type: concept | author: james | status: asserted
+- backlinks:
+  - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
+  - [concept-grain-problem](concepts/grain-problem.md) --uses_concept-->
+
 ## [concept-completeness-of-physics](concepts/completeness-of-physics.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -1994,6 +2000,9 @@
   - [claim-value-specification-hard](claims/value-specification-hard.md) --uses_concept-->
   - [concept-ai-hard-problem-etiologies](concepts/ai-hard-problem-etiologies.md) --uses_concept-->
   - [concept-paperclip-maximizer](concepts/paperclip-maximizer.md) --uses_concept-->
+
+## [concept-decombination-problem](concepts/decombination-problem.md)
+- type: concept | author: chalmers | status: asserted
 
 ## [concept-dialectical-cogency](concepts/dialectical-cogency.md)
 - type: concept | author: generic | status: asserted
@@ -2119,6 +2128,11 @@
   - [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md) --uses_concept-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
   - [question-substrate-independence](questions/substrate-independence.md) --uses_concept-->
+
+## [concept-grain-problem](concepts/grain-problem.md)
+- type: concept | author: sellars | status: asserted
+- backlinks:
+  - [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md) --uses_concept-->
 
 ## [concept-halting-oracle](concepts/halting-oracle.md)
 - type: concept | author: turing | status: asserted
@@ -2280,6 +2294,7 @@
   - [claim-consciousness-is-intrinsic-property](claims/consciousness-is-intrinsic-property.md) --uses_concept-->
   - [claim-consciousness-only-known-intrinsic](claims/consciousness-only-known-intrinsic.md) --uses_concept-->
   - [claim-relations-grounded-in-intrinsic](claims/relations-grounded-in-intrinsic.md) --uses_concept-->
+  - [concept-grain-problem](concepts/grain-problem.md) --uses_concept-->
 
 ## [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md)
 - type: concept | author: mishka | status: asserted
@@ -2457,6 +2472,8 @@
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
   - [claim-combination-dualizes-to-composition-of-will](claims/combination-dualizes-to-composition-of-will.md) --uses_concept-->
+  - [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md) --uses_concept-->
+  - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
   - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-paperclip-maximizer](concepts/paperclip-maximizer.md)
@@ -2590,6 +2607,9 @@
 
 ## [concept-unity-of-consciousness](concepts/unity-of-consciousness.md)
 - type: concept | author: generic | status: asserted
+- backlinks:
+  - [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md) --uses_concept-->
+  - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
 
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted
@@ -2886,6 +2906,9 @@
 ## [source-aaronson-2014](sources/aaronson-2014.md)
 - type: source | author: mishka | status: asserted
 
+## [source-albahari-2020](sources/albahari-2020.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-albert-1985](sources/albert-1985.md)
 - type: source | author: mishka | status: asserted
 
@@ -3004,6 +3027,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2010](sources/chalmers-2010.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-2016](sources/chalmers-2016.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2017](sources/chalmers-2017.md)
@@ -3174,10 +3200,19 @@
 ## [source-godfrey-smith-2016](sources/godfrey-smith-2016.md)
 - type: source | author: mishka | status: asserted
 
+## [source-goff-2009](sources/goff-2009.md)
+- type: source | author: mishka | status: asserted
+
+## [source-goff-2016](sources/goff-2016.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-goff-2017](sources/goff-2017.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-goff-2019](sources/goff-2019.md)
+- type: source | author: mishka | status: asserted
+
+## [source-goff-2020](sources/goff-2020.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-goldman-1979](sources/goldman-1979.md)
@@ -3360,6 +3395,9 @@
 ## [source-locke-1689](sources/locke-1689.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lockwood-1993](sources/lockwood-1993.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-lucas-1961](sources/lucas-1961.md)
 - type: source | author: mishka | status: asserted
 
@@ -3378,6 +3416,9 @@
 ## [source-maudlin-1989](sources/maudlin-1989.md)
 - type: source | author: mishka | status: asserted
 
+## [source-maxwell-1978](sources/maxwell-1978.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-mccorduck-1979](sources/mccorduck-1979.md)
 - type: source | author: mishka | status: asserted
 
@@ -3391,6 +3432,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-metzinger-2003](sources/metzinger-2003.md)
+- type: source | author: mishka | status: asserted
+
+## [source-miller-2018](sources/miller-2018.md)
+- type: source | author: mishka | status: asserted
+
+## [source-miller-2021](sources/miller-2021.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-millikan-1984](sources/millikan-1984.md)
@@ -3498,6 +3545,9 @@
 ## [source-roelofs-2019](sources/roelofs-2019.md)
 - type: source | author: mishka | status: asserted
 
+## [source-rosenberg-2004](sources/rosenberg-2004.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-rosenthal-2005](sources/rosenthal-2005.md)
 - type: source | author: mishka | status: asserted
 
@@ -3531,6 +3581,9 @@
 ## [source-schwitzgebel-garza-2015](sources/schwitzgebel-garza-2015.md)
 - type: source | author: mishka | status: asserted
 
+## [source-seager-1995](sources/seager-1995.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-seager-2006](sources/seager-2006.md)
 - type: source | author: mishka | status: asserted
 
@@ -3544,6 +3597,12 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-searle-1992](sources/searle-1992.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sellars-1962](sources/sellars-1962.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sellars-1965](sources/sellars-1965.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-consciousness](sources/sep-consciousness.md)
@@ -3564,10 +3623,19 @@
 ## [source-sep-neuroethics](sources/sep-neuroethics.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-panpsychism](sources/sep-panpsychism.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-physicalism](sources/sep-physicalism.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-sellars](sources/sep-sellars.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-shani-2015](sources/shani-2015.md)
+- type: source | author: mishka | status: asserted
+
+## [source-shani-keppler-2018](sources/shani-keppler-2018.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-shoemaker-1963](sources/shoemaker-1963.md)

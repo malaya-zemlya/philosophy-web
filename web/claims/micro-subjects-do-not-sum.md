@@ -31,3 +31,5 @@ facing [cosmopsychism](../positions/cosmopsychism.md), where the puzzle is inste
 - [combination-problem](../arguments/combination-problem.md) — the objection this claim powers.
 - [consciousness-fundamental-ubiquitous](consciousness-fundamental-ubiquitous.md) — the constitutive thesis that fails if subjects cannot sum.
 - [cosmopsychism](../positions/cosmopsychism.md) — the top-down view facing the reverse, *decombination*, problem.
+- [combination-problem-panpsychism](../concepts/combination-problem-panpsychism.md) — the wider problem this claim is the sharpest form of.
+- [decombination-problem](../concepts/decombination-problem.md) — the reverse, *decombination*, problem.

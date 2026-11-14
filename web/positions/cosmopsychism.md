@@ -56,3 +56,5 @@ walled-off selves?
   leaves unspecified.
 - [combination-problem](../arguments/combination-problem.md) — the objection cosmopsychism escapes, only to face its mirror, the
   decombination problem.
+- [decombination-problem](../concepts/decombination-problem.md) — the mirror-image problem the position faces: how one cosmic subject
+  grounds many bounded subjects.

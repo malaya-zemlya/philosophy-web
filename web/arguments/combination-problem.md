@@ -71,3 +71,6 @@ which looks just as hard.
   varieties.
 - [cosmopsychism](../positions/cosmopsychism.md) — the top-down cousin, which trades this problem for its mirror image, the
   *decombination* problem.
+- [combination-problem-panpsychism](../concepts/combination-problem-panpsychism.md) — the survey entry on the problem as a whole: its history,
+  its subject, quality and structure faces, and the families of response.
+- [decombination-problem](../concepts/decombination-problem.md) — the mirror-image problem facing cosmopsychism.

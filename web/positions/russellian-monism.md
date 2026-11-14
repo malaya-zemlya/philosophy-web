@@ -67,3 +67,5 @@ leans toward, and it shades into panpsychism.
   cousin shading into this view.
 - [dualism](dualism.md) — the rival on which consciousness is non-physical, not intrinsic-physical.
 - [mysterianism](mysterianism.md) — the rival that says the psychophysical link cannot be grasped at all.
+- [grain-problem](../concepts/grain-problem.md) — the structural-mismatch difficulty that bites hardest on this view, since
+  experience is taken to be the intrinsic nature of brain processes.

@@ -120,3 +120,7 @@ of the world.
   fundamental subject and individual minds are carved out of it.
 - [consciousness-fundamental-ubiquitous](../claims/consciousness-fundamental-ubiquitous.md) — the core claim
   panpsychism asserts, distinguished from the dualist's "fundamental but non-physical."
+- [combination-problem-panpsychism](combination-problem-panpsychism.md) — the survey entry on the combination problem: subject,
+  quality and structure faces, and the main responses.
+- [grain-problem](grain-problem.md) — the older worry about the smoothness of experience, now counted one aspect
+  of the combination problem.

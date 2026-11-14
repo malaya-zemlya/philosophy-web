@@ -45,3 +45,5 @@ walled-off minds like ours.
   consciousness in the smallest things, composed up into minds; cosmopsychism runs the other way.
 - [cosmopsychism](../positions/cosmopsychism.md) — the named position this claim states.
 - [panpsychism](../concepts/panpsychism.md) — the broader family; cosmopsychism is its priority-monist variant.
+- [decombination-problem](../concepts/decombination-problem.md) — the central difficulty for the claim: how one cosmic subject grounds
+  many bounded subjects.
