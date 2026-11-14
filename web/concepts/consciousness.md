@@ -109,3 +109,4 @@ how to check.
 - [origin-of-consciousness](../questions/origin-of-consciousness.md): whether there was ever a time without consciousness, and how it first appeared.
 - [neural-correlates-of-consciousness](neural-correlates-of-consciousness.md): the brain activity that goes with experience, and the science that seeks it.
 - [consciousness-reading-machine](../questions/consciousness-reading-machine.md): whether a machine could read the contents of experience from the brain, and how we would know.
+- [unity-of-consciousness](unity-of-consciousness.md): the way a subject's simultaneous experiences are had together, and the cases that test it.

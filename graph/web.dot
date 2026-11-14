@@ -410,6 +410,7 @@ digraph web {
   "concept-superintelligence" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="superintelligence", tooltip="Superintelligence", URL="../web/concepts/superintelligence.md"];
   "concept-transcendental-argument" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="transcendental\nargument", tooltip="Transcendental argument", URL="../web/concepts/transcendental-argument.md"];
   "concept-turing-test" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="turing test", tooltip="The Turing test (the imitation game)", URL="../web/concepts/turing-test.md"];
+  "concept-unity-of-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="unity of\nconsciousness", tooltip="The unity of consciousness", URL="../web/concepts/unity-of-consciousness.md"];
   "concept-unobservability-in-principle" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="unobservability in\nprinciple", tooltip="Unobservability in principle (intersubjective vs. absolute)", URL="../web/concepts/unobservability-in-principle.md"];
   "concept-validity" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="validity", tooltip="Validity (logical)", URL="../web/concepts/validity.md"];
   "concept-virtual-realism" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="virtual realism", tooltip="Virtual realism (world-indexed properties of a simulation)", URL="../web/concepts/virtual-realism.md"];
@@ -1331,6 +1332,8 @@ digraph web {
   "concept-strong-weak-ai" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-superintelligence" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-turing-test" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-unity-of-consciousness" -> "concept-binding-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-unity-of-consciousness" -> "concept-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-unobservability-in-principle" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-acquaintance-datum-or-representation" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "question-acquaintance-datum-or-representation" -> "concept-unobservability-in-principle" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];

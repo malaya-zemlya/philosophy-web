@@ -1855,6 +1855,7 @@
   - [claim-binding-is-obstruction-to-product](claims/binding-is-obstruction-to-product.md) --uses_concept-->
   - [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md) --uses_concept-->
   - [claim-unity-dualizes-to-unity-of-agency](claims/unity-dualizes-to-unity-of-agency.md) --uses_concept-->
+  - [concept-unity-of-consciousness](concepts/unity-of-consciousness.md) --uses_concept-->
 
 ## [concept-categorical-duality](concepts/categorical-duality.md)
 - type: concept | author: generic | status: asserted
@@ -1938,6 +1939,7 @@
 - backlinks:
   - [concept-explanatory-gap](concepts/explanatory-gap.md) --uses_concept-->
   - [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md) --uses_concept-->
+  - [concept-unity-of-consciousness](concepts/unity-of-consciousness.md) --uses_concept-->
   - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
 ## [concept-consciousness-freewill-duality](concepts/consciousness-freewill-duality.md)
@@ -2586,6 +2588,9 @@
 ## [concept-turing-test](concepts/turing-test.md)
 - type: concept | author: turing | status: asserted
 
+## [concept-unity-of-consciousness](concepts/unity-of-consciousness.md)
+- type: concept | author: generic | status: asserted
+
 ## [concept-unobservability-in-principle](concepts/unobservability-in-principle.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
@@ -2902,6 +2907,12 @@
 ## [source-baars-1988](sources/baars-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-bayne-2010](sources/bayne-2010.md)
+- type: source | author: mishka | status: asserted
+
+## [source-bayne-chalmers-2003](sources/bayne-chalmers-2003.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-bekenstein-1973](sources/bekenstein-1973.md)
 - type: source | author: mishka | status: asserted
 
@@ -3148,6 +3159,9 @@
 ## [source-gambarian](sources/gambarian.md)
 - type: source | author: mishka | status: asserted
 
+## [source-gazzaniga-1970](sources/gazzaniga-1970.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-ginsburg-jablonka-2019](sources/ginsburg-jablonka-2019.md)
 - type: source | author: mishka | status: asserted
 
@@ -3263,6 +3277,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-kane-1996](sources/kane-1996.md)
+- type: source | author: mishka | status: asserted
+
+## [source-kant-1781](sources/kant-1781.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-kastrup-2019](sources/kastrup-2019.md)
@@ -3538,6 +3555,9 @@
 ## [source-sep-consciousness-neuroscience](sources/sep-consciousness-neuroscience.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-consciousness-unity](sources/sep-consciousness-unity.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-mental-causation](sources/sep-mental-causation.md)
 - type: source | author: mishka | status: asserted
 
@@ -3551,6 +3571,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-shoemaker-1963](sources/shoemaker-1963.md)
+- type: source | author: mishka | status: asserted
+
+## [source-singer-gray-1995](sources/singer-gray-1995.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-smart-1959](sources/smart-1959.md)
@@ -3608,6 +3631,15 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-tononi-2016](sources/tononi-2016.md)
+- type: source | author: mishka | status: asserted
+
+## [source-treisman-1996](sources/treisman-1996.md)
+- type: source | author: mishka | status: asserted
+
+## [source-treisman-gelade-1980](sources/treisman-gelade-1980.md)
+- type: source | author: mishka | status: asserted
+
+## [source-treisman-schmidt-1982](sources/treisman-schmidt-1982.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-tsuchiya-2015](sources/tsuchiya-2015.md)
