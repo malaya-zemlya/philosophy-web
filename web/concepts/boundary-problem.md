@@ -85,6 +85,23 @@ On this view the boundary problem asks for the *conditions* under which subjects
 distinct, not for a single sharp line. Opponents reply that whether there is something it is like to be
 a given system seems to admit of no halfway cases (see [phenomenal-determinacy](../claims/phenomenal-determinacy.md)).
 
+### The outer edge
+
+The proposals above mostly concern where boundaries fall within and among brains. A related debate
+concerns a subject's outer edge, between it and the world it is coupled to. The [extended-mind](extended-mind.md)
+thesis holds that cognition can include external resources, such as a notebook consulted the way other
+people consult memory ([clark-chalmers-1998](../sources/clark-chalmers-1998.md)). Most defenders of that thesis deny that
+consciousness extends along with it, on the ground that loops through the environment are too slow and
+indirect to take part in experience ([extended-cognition-not-extended-consciousness](../claims/extended-cognition-not-extended-consciousness.md)). Defenders
+of [extended-consciousness](extended-consciousness.md) reply that no principled line separates the two cases
+([parity-argument-extended-consciousness](../arguments/parity-argument-extended-consciousness.md)). If they are right, a subject's boundary need not
+coincide with the skull, and the boundary problem has to be posed for systems made of a brain together
+with parts of its world. If the non-entailment view is right instead, the edge of the cognitive system
+and the edge of the experiencing subject can come apart, and a theory of boundaries must say which one
+it is drawing. Artificial systems give the question a new form. What a language model can draw on as
+working context is decided by the software that runs it, so the boundary of its serial reasoning
+workspace is set from outside the model ([cot-serial-verbal-workspace](../claims/cot-serial-verbal-workspace.md)).
+
 ### Relation to neighbouring problems
 
 The boundary problem is distinct from three problems it is often grouped with. The
@@ -105,7 +122,9 @@ floor, and so on outward. So why does experience come in separate, sealed-off pa
 brain? Why isn't each brain cell a tiny separate mind, or a whole crowd one big mind? That is the
 boundary problem. Proposed answers say the edge falls where the brain's activity is most tightly
 integrated, or where its electrical field forms a closed pocket. Some philosophers suspect the edges are
-blurrier than they seem, pointing to patients whose brain halves have been surgically separated.
+blurrier than they seem, pointing to patients whose brain halves have been surgically separated. A
+related question runs the other way: whether a mind, or even an experience, can reach outward beyond the
+brain into the notebooks and tools a person relies on.
 
 ### See also
 
@@ -124,3 +143,13 @@ blurrier than they seem, pointing to patients whose brain halves have been surgi
 - [split-brain-single-subject](../claims/split-brain-single-subject.md): one reading of the split-brain case, on which the boundary does
   not move.
 - [panpsychism](../positions/panpsychism.md): the view for which the problem is most pressing.
+- [extended-consciousness](extended-consciousness.md): the thesis that a subject's conscious machinery can include
+  parts of the world outside the brain, which puts the boundary in question from the other side.
+- [extended-mind](extended-mind.md): the thesis that cognition can extend into external resources, which
+  raises the question of a subject's outer edge.
+- [extended-cognition-not-extended-consciousness](../claims/extended-cognition-not-extended-consciousness.md): the claim that the cognitive boundary and
+  the experiential boundary can come apart.
+- [parity-argument-extended-consciousness](../arguments/parity-argument-extended-consciousness.md): the argument that they cannot be separated on
+  principle.
+- [cot-serial-verbal-workspace](../claims/cot-serial-verbal-workspace.md): a machine case in which the boundary of a reasoning workspace is
+  set by the software running the model.

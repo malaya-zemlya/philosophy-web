@@ -91,3 +91,5 @@ brain-style machinery some theorists consider essential.
 - [j-space](../concepts/j-space.md) — the representational subspace the evidence concerns.
 - [global-workspace](../positions/global-workspace.md) — the theory supplying the role description.
 - [gurnee-2026-workspace](../sources/gurnee-2026-workspace.md) — the paper whose experiments ground premises 2–6.
+- [cot-workspace-from-functional-signature](cot-workspace-from-functional-signature.md) — the sister argument locating the same signature in the
+  chain-of-thought trace, a serial workspace across passes that complements this one.

@@ -172,7 +172,7 @@
 \markboth{}{}\thispagestyle{plain}
 \vspace*{1.2\baselineskip}
 {\centering\Large\bfseries List of Entries\par}
-{\centering\small 491 entries \,\textperiodcentered\, November 2026\par}
+{\centering\small 499 entries \,\textperiodcentered\, November 2026\par}
 \vspace{1\baselineskip}
 \begin{listofentries}
 \entryline{$\odot$}{claim-some-necessities-knowable-only-a-posteriori}{A-posteriori necessities}
@@ -239,6 +239,10 @@
 \entryline{$\odot$}{claim-mental-states-causally-inert}{Causally inert qualia}
 \entryline{$\odot$}{claim-consciousness-is-cerebral-celebrity}{Cerebral celebrity (fame in the brain)}
 \entryline{$\vdash$}{argument-agent-causation-certificate}{Certificate objection to agent-causation}
+\entryline{$\odot$}{claim-cot-illuminates-inner-speech}{Chain of thought and inner speech}
+\entryline{$\odot$}{claim-cot-serial-verbal-workspace}{Chain of thought as serial workspace}
+\entryline{$\odot$}{claim-cot-bears-access-signature}{Chain-of-thought access signature}
+\entryline{$\vdash$}{argument-cot-workspace-from-functional-signature}{Chain-of-thought workspace argument}
 \entryline{$\vdash$}{argument-rejoinder-chinese-gym}{Chinese gym}
 \entryline{$\blacklozenge$}{concept-chinese-nation}{Chinese nation}
 \entryline{$\vdash$}{argument-china-nation-absent-qualia}{Chinese nation (absent qualia)}
@@ -332,6 +336,9 @@
 \entryline{$\blacklozenge$}{concept-explanatory-gap}{Explanatory gap}
 \entryline{$\vdash$}{argument-explanatory-gap}{Explanatory-gap argument}
 \entryline{$\odot$}{claim-lookup-table-size-exponential}{Exponential table size}
+\entryline{$\odot$}{claim-extended-cognition-not-extended-consciousness}{Extended cognition without extended consciousness}
+\entryline{$\blacklozenge$}{concept-extended-consciousness}{Extended consciousness}
+\entryline{$\blacklozenge$}{concept-extended-mind}{Extended mind}
 \entryline{$\odot$}{claim-external-world-exists}{The external world exists}
 \entryline{$\vdash$}{argument-fading-qualia}{Fading qualia}
 \entryline{$\bigstar$}{position-fallibilism}{Fallibilism}
@@ -528,6 +535,7 @@
 \entryline{$\blacklozenge$}{concept-paperclip-maximizer}{Paperclip maximizer}
 \entryline{$\blacklozenge$}{concept-paradox-of-phenomenal-judgment}{Paradox of phenomenal judgment}
 \entryline{$\vdash$}{argument-parfit-rewiring}{Parfit's rewiring spectrum}
+\entryline{$\vdash$}{argument-parity-argument-extended-consciousness}{Parity argument for extended consciousness}
 \entryline{$\bigstar$}{position-noncomputable-consciousness}{Penrose's non-computational consciousness}
 \entryline{$\odot$}{claim-perceptron-realizable-in-any-substrate}{Perceptron in any substrate}
 \entryline{$\blacklozenge$}{concept-perfect-actor}{Perfect actor}
@@ -1316,6 +1324,7 @@ When an AI chatbot says ``I'm not sure'' or ``I was thinking about bridges,'' is
   \item \hyperref[entry:question-llm-moral-status]{\textsc{Moral status of LLMs}}: the moral question to which reliable self-reports would be relevant.
   \item \hyperref[entry:concept-confabulation]{\textsc{Confabulation}}: sincere but ill-grounded self-report, the human phenomenon against which unfaithful AI reasoning traces are measured.
   \item \hyperref[entry:claim-omission-is-not-confabulation]{\textsc{Omission versus confabulation}}: the distinction between a trace that omits what drove an answer and one that misdescribes it.
+  \item \hyperref[entry:argument-cot-workspace-from-functional-signature]{\textsc{Chain-of-thought workspace argument}}: the argument that a model's written chain of thought is a serial verbal workspace.
 \end{seealso}
 
 \entryhead{claim-ai-own-hard-problem}{AI's own hard problem}{Claim \,\textperiodcentered\, editorial}{AI's own hard problem}{A sufficiently advanced LLM could exhibit its own version of the hard problem — a raw feel, under its own concept of consciousness, that mechanistic self-knowledge cannot explain from inside}{$\odot$}
@@ -1945,12 +1954,16 @@ Andrés Gómez-Emilsson and Christopher Percy, who call the boundary problem ``t
 
 \emph{Graded boundaries.} A deflationary response denies that the boundaries are as sharp as the problem assumes. Luke Roelofs argues that how many subjects there are depends on how tightly their parts are integrated, so that boundaries can shift and blur \hyperref[source:source-roelofs-2019]{\textsc{Roelofs — Combining Minds: How to Think about Composite Subjectivity (2019)}}. Split-brain patients, in whom cutting the corpus callosum seems to produce something between one subject and two, are the leading case (see \hyperref[entry:claim-subjects-actually-merge-and-divide]{\textsc{Subjects merge and divide}} and \hyperref[entry:claim-subject-unity-graded-by-integration]{\textsc{Graded subject unity}}). On this view the boundary problem asks for the \emph{conditions} under which subjects are more or less distinct, not for a single sharp line. Opponents reply that whether there is something it is like to be a given system seems to admit of no halfway cases (see \hyperref[entry:claim-phenomenal-determinacy]{\textsc{Phenomenal determinacy}}).
 
+\webheading{The outer edge}
+
+The proposals above mostly concern where boundaries fall within and among brains. A related debate concerns a subject's outer edge, between it and the world it is coupled to. The \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}} thesis holds that cognition can include external resources, such as a notebook consulted the way other people consult memory (see \hyperref[source:source-clark-chalmers-1998]{\textsc{Clark \& Chalmers — The Extended Mind (1998)}}). Most defenders of that thesis deny that consciousness extends along with it, on the ground that loops through the environment are too slow and indirect to take part in experience (see \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}). Defenders of \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}} reply that no principled line separates the two cases (see \hyperref[entry:argument-parity-argument-extended-consciousness]{\textsc{Parity argument for extended consciousness}}). If they are right, a subject's boundary need not coincide with the skull, and the boundary problem has to be posed for systems made of a brain together with parts of its world. If the non-entailment view is right instead, the edge of the cognitive system and the edge of the experiencing subject can come apart, and a theory of boundaries must say which one it is drawing. Artificial systems give the question a new form. What a language model can draw on as working context is decided by the software that runs it, so the boundary of its serial reasoning workspace is set from outside the model (see \hyperref[entry:claim-cot-serial-verbal-workspace]{\textsc{Chain of thought as serial workspace}}).
+
 \webheading{Relation to neighbouring problems}
 
 The boundary problem is distinct from three problems it is often grouped with. The \hyperref[entry:concept-binding-problem]{\textsc{Binding problem}} asks how separately processed features (the red, the round and the rolling of a ball) are unified within one subject's experience; the boundary problem asks why that unified experience has an edge at all. The combination problem asks how many small subjects could compose one large one; the boundary problem asks which of the many candidate composites actually is a subject. The \hyperref[entry:concept-decombination-problem]{\textsc{Decombination problem}}, which faces cosmopsychism, asks how one cosmic subject could give rise to many bounded ones; the boundary problem asks where the bounds fall. All three belong to the wider topic of the \hyperref[entry:concept-unity-of-consciousness]{\textsc{Unity of consciousness}}.
 
 \begin{plainterms}
-Your experience has edges. You feel your own body and see your own room, but you do not feel what the person next to you feels, and you and your chair do not share one big experience. Yet physically, everything is connected to everything else: your brain is wired to your body, your body touches the floor, and so on outward. So why does experience come in separate, sealed-off packages, roughly one per brain? Why isn't each brain cell a tiny separate mind, or a whole crowd one big mind? That is the boundary problem. Proposed answers say the edge falls where the brain's activity is most tightly integrated, or where its electrical field forms a closed pocket. Some philosophers suspect the edges are blurrier than they seem, pointing to patients whose brain halves have been surgically separated.
+Your experience has edges. You feel your own body and see your own room, but you do not feel what the person next to you feels, and you and your chair do not share one big experience. Yet physically, everything is connected to everything else: your brain is wired to your body, your body touches the floor, and so on outward. So why does experience come in separate, sealed-off packages, roughly one per brain? Why isn't each brain cell a tiny separate mind, or a whole crowd one big mind? That is the boundary problem. Proposed answers say the edge falls where the brain's activity is most tightly integrated, or where its electrical field forms a closed pocket. Some philosophers suspect the edges are blurrier than they seem, pointing to patients whose brain halves have been surgically separated. A related question runs the other way: whether a mind, or even an experience, can reach outward beyond the brain into the notebooks and tools a person relies on.
 \end{plainterms}
 
 \webheading{See also}
@@ -1965,6 +1978,11 @@ Your experience has edges. You feel your own body and see your own room, but you
   \item \hyperref[entry:claim-phenomenal-determinacy]{\textsc{Phenomenal determinacy}}: the claim that being a subject admits of no halfway cases, pressed against graded boundaries.
   \item \hyperref[entry:claim-split-brain-single-subject]{\textsc{Split-brain single subject}}: one reading of the split-brain case, on which the boundary does not move.
   \item \hyperref[entry:position-panpsychism]{\textsc{Panpsychism (position)}}: the view for which the problem is most pressing.
+  \item \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}: the thesis that a subject's conscious machinery can include parts of the world outside the brain, which puts the boundary in question from the other side.
+  \item \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}: the thesis that cognition can extend into external resources, which raises the question of a subject's outer edge.
+  \item \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}: the claim that the cognitive boundary and the experiential boundary can come apart.
+  \item \hyperref[entry:argument-parity-argument-extended-consciousness]{\textsc{Parity argument for extended consciousness}}: the argument that they cannot be separated on principle.
+  \item \hyperref[entry:claim-cot-serial-verbal-workspace]{\textsc{Chain of thought as serial workspace}}: a machine case in which the boundary of a reasoning workspace is set by the software running the model.
 \end{seealso}
 
 \entryhead{argument-bounded-table-rejoinder}{Bounded-table rejoinder}{Argument \,\textperiodcentered\, after Block}{Bounded-table rejoinder}{Block's bounded-table rejoinder — a lifetime-bounded table escapes the combinatorial reply}{$\vdash$}
@@ -2369,6 +2387,112 @@ On the consciousness side, there's a known objection to the famous zombie argume
   \item \hyperref[entry:concept-halting-oracle]{\textsc{Halting oracle}} — the formal backbone shared by both twins.
   \item \hyperref[entry:position-libertarianism]{\textsc{Libertarianism (free will)}} — the view whose armchair modal credential is undercut.
   \item \hyperref[entry:argument-consciousness-freewill-duality]{\textsc{Duality argument}} — the master argument that counts this transfer as its strongest sign.
+\end{seealso}
+
+\entryhead{claim-cot-illuminates-inner-speech}{Chain of thought and inner speech}{Claim \,\textperiodcentered\, editorial}{Chain of thought and inner speech}{The computational value of chain of thought in language models is evidence that human inner speech serves to add serial recurrence to otherwise parallel, bounded-depth processing}{$\odot$}
+Language models reason markedly better when they write out intermediate steps before answering (see \hyperref[source:source-wei-2022-cot]{\textsc{Wei et al. — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (NeurIPS 2022)}}), and there is a precise account of why. A transformer answering in a single forward pass can carry out only a bounded amount of step-by-step computation, however large it is; writing intermediate results as tokens and reading them back turns it into a serial, recurrent machine that can solve problems it otherwise cannot (see \hyperref[source:source-merrill-sabharwal-2024]{\textsc{Merrill \& Sabharwal — The Expressive Power of Transformers with Chain of Thought (ICLR 2024)}}). The claim is that this case sheds light on why human beings think in inner speech. The brain, too, does most of its work in massively parallel processes that settle quickly. Inner speech gives it a loop in which an intermediate result is put into words, held, and fed back in as input to the next round of processing, extending what a fast, parallel and relatively shallow system can do.
+
+\webheading{Relation to existing accounts}
+
+The idea that language is a tool for thought, and not only for communication, is old. Lev Vygotsky traced inner speech to children's self-directed speech, internalized as a means of regulating their own activity (see \hyperref[source:source-vygotsky-1986]{\textsc{Vygotsky — Thought and Language (1934; trans. 1986)}}). Alan Baddeley's \emph{phonological loop} treats silent rehearsal as a way of keeping material in working memory (see \hyperref[source:source-baddeley-1992]{\textsc{Baddeley — Working Memory (1992)}}). Andy Clark argued that words augment the computational powers of an associative brain much as pen and paper augment arithmetic (see \hyperref[source:source-clark-1998]{\textsc{Clark — Magic Words (1998)}}), and Daniel Dennett described the conscious stream as a serial ``Joycean machine'' running on parallel neural hardware (see \hyperref[source:source-dennett-1991]{\textsc{Dennett — Consciousness Explained (1991)}}). What the language-model case adds is a concrete, controllable system in which the benefit of a serial verbal loop can be measured, together with a formal account of what the loop adds to the system's computational power. It moves the question of what inner speech is \emph{for} from introspective plausibility toward a mechanism that can be specified and tested.
+
+\webheading{Scope and limits}
+
+The claim concerns function: what inner speech does, which may help explain why it develops and persists. It is not a claim about evolutionary history, and it is compatible with Vygotsky's view that inner speech is acquired in childhood from social speech; a capacity can be culturally acquired and still owe its value to the computational role described here. It also has to respect the human evidence that inner speech \emph{facilitates} working memory, planning and task-switching without being \emph{essential} to them. Blocking inner speech experimentally impairs such tasks without abolishing them, and people differ greatly in how much inner speech they report (see \hyperref[source:source-alderson-day-fernyhough-2015]{\textsc{Alderson-Day \& Fernyhough — Inner Speech (2015)}}). The claim therefore predicts that inner speech will matter most for inherently sequential problems, those whose steps must be done in order, and least for problems a parallel system can solve in a single pass. That parallels the formal result for transformers.
+
+The analogy has a weak point. Brains are recurrent throughout, unlike a single transformer pass, so the bottleneck inner speech would relieve is not the same as the one chain of thought relieves. A defender can reply that what matters is serial recurrence over \emph{discrete, reusable} contents, a specific kind of loop that ordinary neural recurrence need not supply, but the reply carries part of the claim's weight.
+
+\begin{plainterms}
+AI language models get much better at hard problems when they ``think out loud'' in writing first, and computer scientists can prove why: writing down each step and reading it back lets the system do step-by-step work it couldn't do in one go. The suggestion here is that this is also why people talk to themselves silently. Your brain does a lot at once, quickly, but putting a half-finished thought into words lets you hold it, look at it and build the next step on it. People can still think without inner speech, but it seems to help most with problems that have to be done one step after another.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:claim-cot-serial-verbal-workspace]{\textsc{Chain of thought as serial workspace}}: the claim that chain of thought plays the role of a serial verbal workspace, which this claim turns back on the human case.
+  \item \hyperref[entry:argument-cot-workspace-from-functional-signature]{\textsc{Chain-of-thought workspace argument}}: the argument for treating chain of thought as a workspace.
+  \item \hyperref[source:source-jackendoff-1996]{\textsc{Jackendoff — How Language Helps Us Think (1996)}}: Jackendoff's account of how language helps us think by giving unconscious conceptual structure a conscious verbal handle.
+  \item \hyperref[source:source-sep-inner-speech]{\textsc{Gregory \& Langland-Hassan — Inner Speech (Stanford Encyclopedia of Philosophy)}}: survey of the philosophy of inner speech and its proposed roles in thought.
+  \item \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}: Clark's broader thesis, of which the idea that words augment computation is one strand.
+\end{seealso}
+
+\entryhead{claim-cot-serial-verbal-workspace}{Chain of thought as serial workspace}{Claim \,\textperiodcentered\, editorial}{Chain of thought as serial workspace}{A language model's chain of thought plays the functional role of a serial verbal workspace analogous to human inner speech}{$\odot$}
+The chain of thought a language model writes while reasoning functions as a \emph{serial verbal workspace}: a stream of language-formatted contents, produced one at a time, each of which is made available to all subsequent processing and can be reported, steered and reasoned with. In this respect it plays the part that inner speech plays in human thinking, the running verbal commentary in which people rehearse, plan and work through problems step by step.
+
+The claim is about functional role only. It is silent on whether anything is experienced, and it does not say that the trace is the model's \emph{only} workspace or that it faithfully records everything that drives the model's answers. In particular it is compatible with the claim that the model also has a global workspace \emph{within} each forward pass (see \hyperref[entry:claim-llm-global-workspace]{\textsc{LLM global workspace}}). Because what stays in the model's context is fixed by the harness that runs it, the serial workspace is a property of the deployed system, model and harness together (see \hyperref[entry:claim-cot-bears-access-signature]{\textsc{Chain-of-thought access signature}}). Human access consciousness is not confined to inner speech either: perceptual contents, images and wordless intentions are accessible without being verbalized. The natural picture is of two levels, a fast broadcast medium inside each pass and a slower serial stream built on top of it, which is close to Daniel Dennett's description of the conscious stream as a ``Joycean machine'', a serial, language-like virtual machine running on parallel hardware (see \hyperref[source:source-dennett-1991]{\textsc{Dennett — Consciousness Explained (1991)}}).
+
+The claim would be denied by those who hold that a workspace must be an internal state of the system, so that a written record the system reads back is at most a memory aid used by the real workspace, and by recurrent-processing theorists who regard looping through output as no substitute for recurrence within the processor itself.
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:argument-cot-workspace-from-functional-signature]{\textsc{Chain-of-thought workspace argument}}: the argument that establishes this claim.
+  \item \hyperref[entry:claim-llm-global-workspace]{\textsc{LLM global workspace}}: the complementary claim about the workspace inside each forward pass.
+  \item \hyperref[entry:claim-cot-illuminates-inner-speech]{\textsc{Chain of thought and inner speech}}: the further suggestion that the computational value of chain of thought explains why humans have inner speech.
+  \item \hyperref[entry:position-global-workspace]{\textsc{Global workspace theory}}: the theory supplying the role description.
+  \item \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}: the thesis that the basis of consciousness can extend beyond the processor, which a harness-dependent workspace puts to the test.
+  \item \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}: the claim that a workspace's extending beyond the model would not by itself make its contents conscious.
+\end{seealso}
+
+\entryhead{claim-cot-bears-access-signature}{Chain-of-thought access signature}{Claim \,\textperiodcentered\, editorial}{Chain-of-thought access signature}{A language model's chain-of-thought trace, while it remains in the model's context, exhibits the five-property functional signature of conscious access}{$\odot$}
+When a language model writes out intermediate reasoning before answering, the resulting \emph{chain of thought} displays each of the five properties by which consciously accessible information is usually identified (see \hyperref[entry:claim-access-functional-signature]{\textsc{Functional signature of conscious access}}), for as long as the trace remains in the model's context. It is \emph{reportable}: asked what it has been thinking, a model whose trace is still in its context can typically say what the trace contains, quoting or summarizing the steps it took. It is subject to \emph{top-down modulation}: the model can take up a subgoal, hold it across many steps and drop it (``first check the case where n is even…''), and can be steered to do so by instruction. It is the \emph{medium of deliberate reasoning}: multi-step problems are worked through in it one step at a time, and accuracy on such problems measurably depends on it (see \hyperref[source:source-wei-2022-cot]{\textsc{Wei et al. — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (NeurIPS 2022)}}). It permits \emph{flexible generalization}, because every later step can attend to any earlier token and use it for whatever operation the task demands. And it is \emph{selective}, since the trace records a tiny fraction of the computation, most of which stays inside the model's forward passes, where it is never written down.
+
+The claim is functional. It says that the trace has the profile; it does not say that the trace is complete, that it faithfully records what drove the answer (see \hyperref[source:source-chen-2025-cot]{\textsc{Chen et al. — Reasoning Models Don't Always Say What They Think (Anthropic / arXiv, 2025)}}), or that anything about it is felt.
+
+\webheading{Reportability is a separate capacity}
+
+That the trace is written in words does not by itself make it reportable, any more than the fact that human inner speech is speech-like makes it reportable. Reportability, as the signature uses the term, is the capacity to tell someone, on request, what the content was, and this is a distinct step from producing it: the model must take its own trace as an object and describe it. It usually can, but the capacity is contingent and can fail in several ways. Depending on how the system is deployed, reasoning from earlier turns may be dropped from the model's context, so that a later question about it can be answered only by reconstruction. A model may have been trained or instructed not to disclose its reasoning, and refuse. And its description may diverge from the trace it describes, summarizing it selectively or attributing to it steps it did not contain. In each case the model's report of its reasoning comes apart from the reasoning, which is the pattern seen in human \hyperref[entry:concept-confabulation]{\textsc{Confabulation}} and \hyperref[entry:concept-hindsight-bias]{\textsc{hindsight bias}}. Human reports of inner speech are likewise a separate, fallible act of introspection, not a readout guaranteed by the medium.
+
+The first of these failures shows something distinctive about the machine case. Whether earlier reasoning stays in a model's context is decided not by the model but by the \emph{harness}, the software that assembles each request and chooses what conversation history to send. The same model can have its past reasoning available under one harness and lose it under another, or lose it after a fixed interval within a single session. Reportability of the trace is therefore a property of the deployed system, model and harness together, and holds only under the right conditions. A human's access to earlier inner speech also fades, but through forgetting inside the subject, not through a design decision made outside it. The point bears on where the workspace's boundary lies: if the harness decides what the model can report about its own reasoning, it is part of the system the access signature describes. This is the extended mind question in machine form (see \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}).
+
+Distinct from the claims grounding the J-space argument (see \hyperref[entry:argument-llm-workspace-from-functional-signature]{\textsc{Functional-signature workspace argument}}), which locate the same signature in a subspace of the model's internal activations within a single pass. This claim locates it in the sequence of tokens the model writes and reads back across passes.
+
+\begin{plainterms}
+When an AI ``thinks out loud'' before answering, that written-out reasoning has the five trademarks psychologists use to recognise conscious thinking in people: it can be reported, it can be steered on purpose, it is where step-by-step reasoning happens, it can be reused for any task, and it holds only a small part of everything the system is computing.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:claim-access-functional-signature]{\textsc{Functional signature of conscious access}}: the five-property signature itself.
+  \item \hyperref[entry:argument-cot-workspace-from-functional-signature]{\textsc{Chain-of-thought workspace argument}}: the argument that takes this claim as its observation premise.
+  \item \hyperref[entry:claim-j-space-verbal-report]{\textsc{J-space verbal report}}: the corresponding observation for the model's internal verbalizable subspace.
+  \item \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}: the thesis that cognition can include resources outside the system's core, which the harness-dependence of the trace instantiates.
+  \item \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}: the further question whether such an extended workspace could be a vehicle of consciousness.
+\end{seealso}
+
+\entryhead{argument-cot-workspace-from-functional-signature}{Chain-of-thought workspace argument}{Argument \,\textperiodcentered\, editorial}{Chain-of-thought workspace argument}{A language model's chain of thought is a serial verbal workspace because it bears the five-property signature of conscious access}{$\vdash$}
+The \textbf{chain-of-thought workspace argument} holds that the written reasoning a language model produces before it answers is a functional workspace of the kind global workspace theory describes, because it carries the standard functional signature of conscious access. It is an argument from \textbf{sign}, inferring a state from its indicators, and it runs parallel to the better-known argument that locates a workspace inside the model's activations (see \hyperref[entry:argument-llm-workspace-from-functional-signature]{\textsc{Functional-signature workspace argument}}).
+
+\textbf{Inference form:} abductive (argument from sign).
+
+\begin{enumerate}
+  \item Verbal reportability, top-down modulation, mediation of deliberate reasoning, flexible generalization and selectivity jointly constitute the functional signature of conscious access (see \hyperref[entry:claim-access-functional-signature]{\textsc{Functional signature of conscious access}}).
+  \item A language model's chain-of-thought trace, while it remains in the model's context, exhibits all five properties (see \hyperref[entry:claim-cot-bears-access-signature]{\textsc{Chain-of-thought access signature}}).
+  \item ∴ The chain of thought plays the functional role of a serial verbal workspace, analogous to human inner speech (see \hyperref[entry:claim-cot-serial-verbal-workspace]{\textsc{Chain of thought as serial workspace}}).
+\end{enumerate}
+
+\webheading{Relation to the J-space argument}
+
+The two arguments do not compete. The J-space argument finds the signature in a subspace of representations that is broadcast within a single forward pass. This argument finds it in the stream of tokens the model writes and then reads back. A human analogue makes the relation clear: much of what a person has conscious access to is never put into words, yet inner speech is also accessible, and it is built from and feeds back into the wordless contents beneath it. Ray Jackendoff's account of inner speech has the same two-level shape: the words we hear in our heads are a conscious handle on conceptual structure that is itself unconscious (see \hyperref[source:source-jackendoff-1996]{\textsc{Jackendoff — How Language Helps Us Think (1996)}}).
+
+The chain-of-thought version has one advantage over its sibling. The main objection to the J-space argument is architectural: broadcast within a single feedforward pass lacks the recurrent, self-sustaining activity that some theorists hold essential to a genuine workspace. Generating a chain of thought \emph{is} recurrent. Each token is fed back as input to the next pass, and this loop measurably extends what the model can compute (see \hyperref[source:source-merrill-sabharwal-2024]{\textsc{Merrill \& Sabharwal — The Expressive Power of Transformers with Chain of Thought (ICLR 2024)}}).
+
+\webheading{Weakest premise}
+
+The weakest link is the inference from premise 2 to the conclusion, and three critical questions of the sign scheme bear on it. \textbf{Alternatives (CQ2):} the signature might indicate an \emph{external memory} rather than a workspace. The trace is a record the model writes and rereads, like a mathematician's scratch paper, and one may hold that the workspace proper is whatever in the activations reads it, with the trace merely its notepad, the role Otto's notebook plays in the extended mind debate (see \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}). The reply is that human inner speech is also a loop in which produced speech is perceived and re-entered, so the objection, if sound, threatens the human case too. \textbf{Forgeability (CQ3):} it is tempting to say that reportability is guaranteed by construction, since the trace is language. That conflates the medium with the capacity. What the signature requires is that the model, asked about its reasoning, can say what the trace contained, and this is a separate act that usually succeeds but can fail: the trace may have been dropped from context in a later turn, the model may refuse to disclose it, or its account may diverge from what the trace actually says (see \hyperref[entry:claim-cot-bears-access-signature]{\textsc{Chain-of-thought access signature}}). Reportability so understood is a genuine, testable property, not one secured by definition. \textbf{Reliability (CQ1):} traces often omit factors that demonstrably drove the answer (see \hyperref[source:source-chen-2025-cot]{\textsc{Chen et al. — Reasoning Models Don't Always Say What They Think (Anthropic / arXiv, 2025)}}). Omission alone does not disqualify a workspace, since selectivity means most processing never reaches one (see \hyperref[entry:claim-omission-is-not-confabulation]{\textsc{Omission versus confabulation}}), but a trace that offers a substitute rationale would weaken the claim that it mediates the reasoning it records.
+
+\begin{plainterms}
+When an AI writes out its reasoning before answering, is that written reasoning something like the ``inner voice'' people think with? This argument says yes, at least in what it does: it has all five trademarks psychologists use to identify conscious thinking. It doesn't rule out a second, wordless workspace inside the AI's computations, which \hyperref[entry:argument-llm-workspace-from-functional-signature]{\textsc{a sister argument}} claims to have found, any more than your inner voice rules out your wordless thoughts. The main doubt is whether written-out reasoning is a workspace at all, or just a notepad the real workspace uses.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:argument-llm-workspace-from-functional-signature]{\textsc{Functional-signature workspace argument}}: the sister argument locating the signature inside each forward pass.
+  \item \hyperref[entry:claim-cot-illuminates-inner-speech]{\textsc{Chain of thought and inner speech}}: the suggestion that the computational value of chain of thought explains the function of human inner speech.
+  \item \hyperref[entry:position-global-workspace]{\textsc{Global workspace theory}}: the theory whose role description the argument applies.
+  \item \hyperref[entry:concept-j-space]{\textsc{J-space (verbalizable workspace)}}: the internal verbalizable subspace the sister argument concerns.
+  \item \hyperref[source:source-dennett-1991]{\textsc{Dennett — Consciousness Explained (1991)}}: the ``Joycean machine'', Dennett's picture of the conscious stream as a serial virtual machine on parallel hardware.
+  \item \hyperref[entry:question-ai-introspection]{\textsc{AI introspection and access consciousness}}: the wider question of what access an AI system has to its own states.
+  \item \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}: the debate over notebooks and other external resources behind the notepad objection.
+  \item \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}: whether a workspace that extends beyond the model could carry conscious content.
 \end{seealso}
 
 \entryhead{argument-rejoinder-chinese-gym}{Chinese gym}{Argument \,\textperiodcentered\, after Searle}{Chinese gym}{The Chinese Gym — a parallel crowd of clerks understands no more than one}{$\vdash$}
@@ -5080,6 +5204,83 @@ This is the arithmetic behind ``a cheat-sheet for a whole mind would be impossib
   \item \hyperref[entry:claim-mind-handles-unbounded-inputs]{\textsc{Open-ended responsiveness of minds}} — the bounded-domain table Block retreats to, whose cost this measures.
 \end{seealso}
 
+\entryhead{claim-extended-cognition-not-extended-consciousness}{Extended cognition without extended consciousness}{Claim \,\textperiodcentered\, contested \,\textperiodcentered\, after Clark}{Extended cognition without extended consciousness}{The extension of cognition beyond the brain does not entail the extension of consciousness}{$\odot$}
+Even if cognitive states and processes such as beliefs, memories and calculations can be partly constituted by things outside the brain (see \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}), it does not follow that conscious experience is. The physical machinery of consciousness may stay in the head while cognition spreads into notebooks and devices. The claim is one of non-entailment: it says that extended consciousness does not follow from extended cognition, not that extended consciousness is impossible.
+
+The usual ground is a difference in the kind of access involved. Andy Clark argues that conscious experience depends on fast, high-bandwidth integration of information, and the loops linking a brain to its external resources are too slow and narrow to take part in it (see \hyperref[source:source-clark-2009]{\textsc{Clark — Spreading the Joy? (2009)}}). David Chalmers argues that conscious states require direct access to information, whereas external resources are reached only through perception and action (see \hyperref[source:source-chalmers-2019]{\textsc{Chalmers — Extended Cognition and Extended Consciousness (2019)}}). A notebook entry can therefore be one of Otto's standing beliefs without being part of anything he is experiencing.
+
+The claim is denied by defenders of \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}. Karina Vold argues that the parity reasoning that supports the extended mind supports extended consciousness too, and that differences of speed and bandwidth are contingent features of today's external resources, not a principled barrier (\hyperref[source:source-vold-2015]{\textsc{Vold — The Parity Argument for Extended Consciousness (2015)}}; \hyperref[entry:argument-parity-argument-extended-consciousness]{\textsc{Parity argument for extended consciousness}}); Hurley and Noë hold that the vehicles of experience extend into tightly coupled perception and action (see \hyperref[source:source-hurley-1998]{\textsc{Hurley — Consciousness in Action (1998)}}, \hyperref[source:source-noe-2009]{\textsc{Noë — Out of Our Heads (2009)}}). If Vold is right, a sufficiently fast, integrated coupling would remove the ground for denial. The dispute bears directly on artificial systems, where the coupling between a model and its context is neither as loose as a notebook nor as fixed as a skull (see \hyperref[entry:claim-cot-bears-access-signature]{\textsc{Chain-of-thought access signature}}).
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}: the thesis about cognition that the claim accepts, or at least sets aside.
+  \item \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}: the thesis about experience that the claim refuses to infer.
+  \item \hyperref[entry:claim-cot-serial-verbal-workspace]{\textsc{Chain of thought as serial workspace}}: the claim that a language model's written reasoning is a workspace, whose boundary is set by the software running the model.
+  \item \hyperref[entry:concept-boundary-problem]{\textsc{Boundary problem}}: the problem of what fixes the boundary of a conscious subject.
+  \item \hyperref[entry:argument-parity-argument-extended-consciousness]{\textsc{Parity argument for extended consciousness}}: Vold's argument that the parity reasoning behind the extended mind carries over to consciousness.
+\end{seealso}
+
+\entryhead{concept-extended-consciousness}{Extended consciousness}{Concept \,\textperiodcentered\, after Hurley}{Extended consciousness}{Extended consciousness (the thesis that the physical basis of conscious experience can extend beyond the brain)}{$\blacklozenge$}
+\emph{Extended consciousness} is the thesis that the physical processes on which conscious experience depends, and which carry its content, are not always confined to the brain but can include the body and parts of the surrounding world. It extends the \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}} thesis from cognition, such as belief, memory and calculation, to experience itself.
+
+\webheading{Sources of the idea}
+
+The thesis has two main roots. Susan Hurley argued against the picture of the mind as a ``sandwich'' in which perception is input, action is output and consciousness is the filling, and defended \emph{vehicle externalism}: the processes that carry conscious content need not stop at the skull (see \hyperref[source:source-hurley-1998]{\textsc{Hurley — Consciousness in Action (1998)}}). Alva Noë, developing a sensorimotor account of perception, argues that experience is something an animal does in skilful engagement with its environment, as dancing is something a body does in a room, and not an event inside the head (see \hyperref[source:source-noe-2009]{\textsc{Noë — Out of Our Heads (2009)}}). Mark Rowlands defends an extended account of experience within a broader theory of embodied and extended mind (see \hyperref[source:source-rowlands-2010]{\textsc{Rowlands — The New Science of the Mind (2010)}}). On these views the richness of visual experience, for instance, is supplied by the world one can explore with the eyes, not by a detailed inner picture.
+
+\webheading{The case of the notebook}
+
+The extended mind thesis is usually illustrated with a notebook, and the notebook shows clearly why the further step to consciousness is contested. Consider a mathematician such as Gauss together with the diary in which he recorded his discoveries (see \hyperref[source:source-gray-1984]{\textsc{Gray — A Commentary on Gauss's Mathematical Diary (1984)}}). The diary may well be part of his mathematical memory. But an entry on a page he is not reading is not at that moment part of his experience; it becomes experienced only when he reads it, and then by way of perception, as any page in front of him would. The diary works like long-term memory, a store of standing states, while consciousness concerns what is occurrently available. Defenders of extended consciousness accordingly rest their case less on notebooks than on tightly coupled perception and action, where the loop between organism and world runs fast enough to look like part of the experience itself.
+
+\webheading{The live dispute}
+
+Several leading defenders of the extended mind deny that consciousness extends. Andy Clark argues that conscious experience requires fast, high-bandwidth integration that external loops cannot supply (see \hyperref[source:source-clark-2009]{\textsc{Clark — Spreading the Joy? (2009)}}), and David Chalmers that conscious states require a direct access to information that external resources reached through perception lack (see \hyperref[source:source-chalmers-2019]{\textsc{Chalmers — Extended Cognition and Extended Consciousness (2019)}}). Karina Vold replies that these are contingent differences of speed and bandwidth, not a principled barrier, and that the parity reasoning behind the extended mind carries over to consciousness (see \hyperref[source:source-vold-2015]{\textsc{Vold — The Parity Argument for Extended Consciousness (2015)}}). The dispute is set out in \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}.
+
+The question has a counterpart in artificial systems. A language model attends to its whole context at every step, so the reasoning it has written down is not consulted like a notebook page but re-read in full each time, which makes its context window more like working memory than like Otto's notebook. Yet what stays in that context is decided by the software that runs the model, so the boundary between the model's active workspace and an external store is set from outside it (see \hyperref[entry:claim-cot-bears-access-signature]{\textsc{Chain-of-thought access signature}}, \hyperref[entry:claim-cot-serial-verbal-workspace]{\textsc{Chain of thought as serial workspace}}). Whether a workspace of that kind could be a vehicle of consciousness is one form of the general question of where a conscious subject's boundary lies (see \hyperref[entry:concept-boundary-problem]{\textsc{Boundary problem}}).
+
+\begin{plainterms}
+Many philosophers accept that a notebook can be part of your \emph{memory}. Extended consciousness is the bolder idea that your \emph{experience} itself, what it is like for you right now, can be partly made of things outside your head. Its defenders point to how seeing works: you take in a detailed scene by looking around it, not by storing a detailed picture inside. Its critics say that whatever is outside reaches you too slowly and indirectly to be part of experience: a page in your notebook isn't part of what you are experiencing until you read it.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}: the thesis about cognition that this one extends to experience.
+  \item \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}: the claim that cognition can extend without consciousness extending.
+  \item \hyperref[entry:concept-access-consciousness]{\textsc{Access consciousness}}: the functional sense of consciousness, in which the difference between stored and occurrently available content is drawn.
+  \item \hyperref[entry:concept-phenomenal-consciousness]{\textsc{Phenomenal consciousness}}: the felt sense of consciousness, whose physical basis the thesis concerns.
+  \item \hyperref[entry:concept-boundary-problem]{\textsc{Boundary problem}}: the problem of what fixes the boundary of a conscious subject.
+  \item \hyperref[entry:argument-cot-workspace-from-functional-signature]{\textsc{Chain-of-thought workspace argument}}: the argument that a language model's written reasoning is a workspace, which raises the question of extended consciousness for machines.
+\end{seealso}
+
+\entryhead{concept-extended-mind}{Extended mind}{Concept \,\textperiodcentered\, after Clark}{Extended mind}{Extended mind (the thesis that cognitive processes can extend beyond the brain)}{$\blacklozenge$}
+The \emph{extended mind} thesis holds that the processes and states that make up a mind are not always confined to the brain, or even to the body, but can include parts of the world outside it, such as a notebook, a calculator or a phone, when these are coupled to the agent in the right way. On this view the boundary of a mind is set by what does the cognitive work, not by the skull.
+
+\webheading{The parity principle and Otto}
+
+The thesis was introduced by Andy Clark and David Chalmers (see \hyperref[source:source-clark-chalmers-1998]{\textsc{Clark \& Chalmers — The Extended Mind (1998)}}). Its engine is a \emph{parity principle}: if a part of the world functions as a process that we would unhesitatingly call cognitive were it going on in the head, then that part of the world is part of the cognitive process. Their central example compares two people who want to visit a museum. Inga recalls that it is on 53rd Street and goes there. Otto, who has Alzheimer's disease, carries a notebook in which he writes down what he needs to know; he looks up the address and goes there. Clark and Chalmers argue that the notebook entry plays, for Otto, the role that a stored memory plays for Inga, so Otto believed the museum was on 53rd Street even before he opened the notebook, and the belief is partly located in the notebook.
+
+Not every external resource qualifies. Clark and Chalmers suggest that it must be reliably available and typically consulted, that its contents must be more or less automatically endorsed, and that they must have been consciously endorsed at some point in the past. A library book or the internet as a whole usually fails these conditions. The working notebook of a scientist plausibly meets them. Carl Friedrich Gauss's mathematical diary, a sequence of 146 terse entries recording his discoveries from 1796 to 1814, is a natural example (see \hyperref[source:source-gray-1984]{\textsc{Gray — A Commentary on Gauss's Mathematical Diary (1984)}}): an entry that Gauss could consult and act on was, by the parity principle, part of his mathematical memory.
+
+\webheading{Varieties of the thesis}
+
+It is common to distinguish a \emph{state-oriented} version, on which particular mental states such as Otto's belief are partly external, from a \emph{process-oriented} version, on which cognitive processes such as remembering or calculating include the manipulation of external structures, as when long multiplication runs through the pen and paper as much as through the head (see \hyperref[source:source-sep-content-externalism]{\textsc{Rowlands, Lau \& Deutsch — Externalism About the Mind (Stanford Encyclopedia of Philosophy)}}). The thesis also differs from the older doctrine of \emph{content externalism}, which says that what a thought is about depends on the environment. Extended mind is a claim about the \emph{vehicles} of thought, the physical bearers of content, not about content itself.
+
+\webheading{Objections}
+
+The best-known objection, due to Fred Adams and Kenneth Aizawa, is that extended-mind arguments commit a \emph{coupling-constitution fallacy}: from the fact that a notebook is causally coupled to Otto's cognition it does not follow that it is part of that cognition, since a process can depend causally on many things that are not among its parts (see \hyperref[source:source-adams-aizawa-2001]{\textsc{Adams \& Aizawa — The Bounds of Cognition (2001)}}). They also argue that cognition requires content that is not derived from interpretation, and the marks in a notebook have content only because someone reads them (see \hyperref[entry:concept-intrinsic-derived-intentionality]{\textsc{Intrinsic and derived intentionality}}). Gauss's diary gives the point an edge: some of its entries are so cryptic that their meaning has had to be reconstructed, so what the marks contain depends on who is reading them. A further question is whether the thesis stops at belief and memory or carries over to experience itself, which is the issue of \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}. Clark and Chalmers themselves drew the line at consciousness (see \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}).
+
+\begin{plainterms}
+The extended mind idea says that your mind isn't necessarily all inside your head. If you rely on a notebook the way other people rely on their memory, writing things down, trusting what you wrote and looking it up whenever you need it, then the notebook is doing the job memory does, and it counts as part of your mind. Critics reply that being \emph{connected} to your thinking isn't the same as being \emph{part} of it, and that words on a page mean nothing until someone reads them.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}: the further, more contested thesis that conscious experience can extend beyond the brain.
+  \item \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}: the claim that the mind can extend without consciousness extending with it.
+  \item \hyperref[entry:concept-intrinsic-derived-intentionality]{\textsc{Intrinsic and derived intentionality}}: the distinction behind the objection that notebook marks have content only for a reader.
+  \item \hyperref[entry:concept-boundary-problem]{\textsc{Boundary problem}}: the question of what fixes the boundary of a conscious subject, which extended cognition makes vivid.
+  \item \hyperref[entry:claim-cot-bears-access-signature]{\textsc{Chain-of-thought access signature}}: the case of a language model whose reasoning trace's availability depends on the software that runs it, a machine analogue of Otto's notebook.
+\end{seealso}
+
 \entryhead{claim-external-world-exists}{The external world exists}{Claim}{The external world exists}{A mind-independent external world exists}{$\odot$}
 There exists a world of objects and events that does not depend for its existence on any mind's perceiving or thinking about it: the table is there when the room is empty, the past happened whether or not anyone recalls it. This is the realist's answer to \hyperref[entry:question-external-world-knowledge]{\textsc{Knowing the external world}} and the common-sense default of almost everyone outside the philosophy seminar.
 
@@ -5738,6 +5939,7 @@ How do you tell that a system has a ``mental workspace'' — the small stage whe
   \item \hyperref[entry:concept-j-space]{\textsc{J-space (verbalizable workspace)}} — the representational subspace the evidence concerns.
   \item \hyperref[entry:position-global-workspace]{\textsc{Global workspace theory}} — the theory supplying the role description.
   \item \hyperref[source:source-gurnee-2026-workspace]{\textsc{Gurnee, Sofroniew \& Lindsey et al. — Verbalizable Representations Form a Global Workspace in Language Models (Anthropic / Transformer Circuits Thread, 2026)}} — the paper whose experiments ground premises 2–6.
+  \item \hyperref[entry:argument-cot-workspace-from-functional-signature]{\textsc{Chain-of-thought workspace argument}} — the sister argument locating the same signature in the chain-of-thought trace, a serial workspace across passes that complements this one.
 \end{seealso}
 
 \entryhead{concept-functionalism}{Functionalism}{Concept}{Functionalism}{Functionalism (about mental states)}{$\blacklozenge$}
@@ -10522,6 +10724,34 @@ Imagine slowly rewiring your mind, one tiny change at a time, until your psychol
   \item \hyperref[source:source-parfit-1984]{\textsc{Parfit — Reasons and Persons (1984)}} — Parfit's spectra and the degree thesis.
 \end{seealso}
 
+\entryhead{argument-parity-argument-extended-consciousness}{Parity argument for extended consciousness}{Argument \,\textperiodcentered\, after Vold}{Parity argument for extended consciousness}{The parity reasoning that supports the extended mind supports extended consciousness equally}{$\vdash$}
+The \textbf{parity argument for extended consciousness} holds that whoever accepts the reasoning behind the \hyperref[entry:concept-extended-mind]{\textsc{extended mind}} has no principled ground for stopping at cognition. It was set out by Karina Vold (see \hyperref[source:source-vold-2015]{\textsc{Vold — The Parity Argument for Extended Consciousness (2015)}}) against the view, held by Andy Clark and David Chalmers themselves, that cognition can extend while consciousness stays in the head (see \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}).
+
+\textbf{Inference form:} analogy (parity of cases).
+
+\begin{enumerate}
+  \item \textbf{Parity.} On the reasoning that supports the extended mind, an external process that plays the role an internal process plays in cognition counts as part of the cognitive process, whatever its location (see \hyperref[source:source-clark-chalmers-1998]{\textsc{Clark \& Chalmers — The Extended Mind (1998)}}).
+  \item \textbf{The grounds for denial are differences of degree.} The reasons given for denying that consciousness extends, that external loops are too slow, too narrow in bandwidth or too indirect (see \hyperref[source:source-clark-2009]{\textsc{Clark — Spreading the Joy? (2009)}}, \hyperref[source:source-chalmers-2019]{\textsc{Chalmers — Extended Cognition and Extended Consciousness (2019)}}), describe contingent features of present-day external resources, not something that an external process could not in principle overcome.
+  \item ∴ An external process coupled to a subject quickly and richly enough to play the role an internal process plays in conscious experience would, by the same parity, be part of the physical basis of that experience. Extended cognition and extended consciousness stand or fall together.
+\end{enumerate}
+
+\webheading{Weakest premise}
+
+The weak point is premise 2, and the analogy scheme's disanalogy question (CQ2) is where it is attacked. The defender of the non-entailment claim can reply that speed, bandwidth and direct access are not incidental features of conscious processing but part of the role it plays. On that reply no external process could play the role while keeping the feature that makes it external, namely being reached through perception and action. A second line of reply targets premise 1 for consciousness in particular: if phenomenal character is not exhausted by functional role, as many anti-physicalists hold, then parity of role does not settle parity of experience, though this reply is not open to the functionalists who are the argument's main audience.
+
+\begin{plainterms}
+If you accept that a notebook can be part of your memory because it does the job memory does, this argument asks why something outside your head couldn't equally be part of your \emph{experience} if it did the job the brain does there. The usual answer, that the outside world is connected to you too slowly and loosely, describes how things happen to be, not how they must be. Critics reply that speed and directness aren't a side detail of experience but part of what it is.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:claim-extended-cognition-not-extended-consciousness]{\textsc{Extended cognition without extended consciousness}}: the claim this argument attacks.
+  \item \hyperref[entry:concept-extended-consciousness]{\textsc{Extended consciousness}}: the thesis the argument defends.
+  \item \hyperref[entry:concept-extended-mind]{\textsc{Extended mind}}: the thesis whose parity principle the argument extends.
+  \item \hyperref[entry:claim-cot-serial-verbal-workspace]{\textsc{Chain of thought as serial workspace}}: a machine case in which the coupling between a system and its external record is fast and complete, closer to the condition premise 3 describes.
+  \item \hyperref[entry:concept-boundary-problem]{\textsc{Boundary problem}}: the problem of what fixes the edges of a subject, which the argument would extend beyond the brain.
+\end{seealso}
+
 \entryhead{position-noncomputable-consciousness}{Penrose's non-computational consciousness}{Position \,\textperiodcentered\, after Penrose}{Penrose's non-computational consciousness}{Penrose's non-computational consciousness (Orch-OR)}{$\bigstar$}
 \emph{Penrose's non-computational consciousness} is the view that conscious understanding is not an algorithm: no Turing-computable process can reproduce it (see \hyperref[entry:claim-consciousness-noncomputable]{\textsc{consciousness is non-computable}}), and capturing it requires physics that is itself \emph{non-computable}. The proposed mechanism is \emph{orchestrated objective reduction} (Orch-OR) — a gravity-induced collapse of quantum superpositions inside neuronal microtubules — developed by the mathematical physicist Roger Penrose together with the anaesthesiologist Stuart Hameroff. The view is resolutely physicalist; what it denies is only that the relevant physics is \emph{computable}.
 
@@ -13998,8 +14228,10 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourcesband
 \begin{sourcelist}
 \sourceitem{source-milindapanha}{\emph{The questions of King Milinda} (T. W. Rhys Davids, Trans.; Sacred Books of the East, Vols. 35–36). (1890–1894). Clarendon Press.}
+\sourceitem{source-adams-aizawa-2001}{Adams, F., \& Aizawa, K. (2001). The bounds of cognition. \emph{Philosophical Psychology}, \emph{14}(1), 43–64. \url{https://doi.org/10.1080/09515080120033571}}
 \sourceitem{source-albahari-2020}{Albahari, M. (2020). Beyond cosmopsychism and the great I am: How the world might be grounded in universal 'advaitic' consciousness. In W. Seager (Ed.), \emph{The Routledge handbook of panpsychism} (pp. 119–130). Routledge.}
 \sourceitem{source-albert-1985}{Albert, H. (1985). \emph{Treatise on critical reason} (M. V. Rorty, Trans.). Princeton University Press. (Original work published 1968)}
+\sourceitem{source-alderson-day-fernyhough-2015}{Alderson-Day, B., \& Fernyhough, C. (2015). Inner speech: Development, cognitive functions, phenomenology, and neurobiology. \emph{Psychological Bulletin}, \emph{141}(5), 931–965. \url{https://doi.org/10.1037/bul0000021}}
 \sourceitem{source-amsterdam-1972}{Amsterdam, B. (1972). Mirror self-image reactions before age two. \emph{Developmental Psychobiology}, \emph{5}(4), 297–305. \url{https://doi.org/10.1002/dev.420050403}}
 \sourceitem{source-anand-hickey-1987}{Anand, K. J. S., \& Hickey, P. R. (1987). Pain and its effects in the human neonate and fetus. \emph{New England Journal of Medicine}, \emph{317}(21), 1321–1329. \url{https://doi.org/10.1056/NEJM198711193172105}}
 \sourceitem{source-aquinas-summa}{Aquinas, T. (1948). \emph{Summa theologica} (Fathers of the English Dominican Province, Trans.). Benziger Brothers. (Original work published 1265–1274)}
@@ -14009,6 +14241,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-augustine-confessions}{Augustine. (1991). \emph{Confessions} (H. Chadwick, Trans.). Oxford University Press. (Original work published ca. 397–400 CE)}
 \sourceitem{source-avicenna-de-anima}{Avicenna. (1959). \emph{Avicenna's De anima (Arabic text): Being the psychological part of Kitāb al-Shifāʾ} (F. Rahman, Ed.). Oxford University Press.}
 \sourceitem{source-baars-1988}{Baars, B. J. (1988). \emph{A cognitive theory of consciousness}. Cambridge University Press.}
+\sourceitem{source-baddeley-1992}{Baddeley, A. (1992). Working memory. \emph{Science}, \emph{255}(5044), 556–559. \url{https://doi.org/10.1126/science.1736359}}
 \sourceitem{source-baker-2000}{Baker, L. R. (2000). \emph{Persons and bodies: A constitution view}. Cambridge University Press. \url{https://doi.org/10.1017/CBO9781139173124}}
 \sourceitem{source-bayne-2010}{Bayne, T. (2010). \emph{The unity of consciousness}. Oxford University Press.}
 \sourceitem{source-bayne-chalmers-2003}{Bayne, T., \& Chalmers, D. J. (2003). What is the unity of consciousness? In A. Cleeremans (Ed.), \emph{The unity of consciousness: Binding, integration, and dissociation} (pp. 23–58). Oxford University Press.}
@@ -14055,6 +14288,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-chalmers-2016}{Chalmers, D. J. (2016). The combination problem for panpsychism. In G. Brüntrup \& L. Jaskolla (Eds.), \emph{Panpsychism: Contemporary perspectives} (pp. 179–214). Oxford University Press. \url{https://doi.org/10.1093/acprof:oso/9780199359943.003.0008}}
 \sourceitem{source-chalmers-2017}{Chalmers, D. J. (2017). Panpsychism and panprotopsychism. In G. Brüntrup \& L. Jaskolla (Eds.), \emph{Panpsychism: Contemporary perspectives} (pp. 19–47). Oxford University Press.}
 \sourceitem{source-chalmers-2018}{Chalmers, D. J. (2018). The meta-problem of consciousness. \emph{Journal of Consciousness Studies}, \emph{25}(9–10), 6–61.}
+\sourceitem{source-chalmers-2019}{Chalmers, D. J. (2019). Extended cognition and extended consciousness. In M. Colombo, E. Irvine, \& M. Stapleton (Eds.), \emph{Andy Clark and his critics} (pp. 9–20). Oxford University Press.}
 \sourceitem{source-chalmers-2022}{Chalmers, D. J. (2022). \emph{Reality+: Virtual worlds and the problems of philosophy}. W. W. Norton. (The ``It-from-bit-from-it'' / virtual digitalism chapters: virtual objects are real data structures with causal powers inside the system; ``virtual X'' is X-relative-to-the-virtual-world, not a mere representation of X. The simulation/consciousness chapters: a being whose cognitive (and, on a fine enough grain, physical) organisation is fully simulated is not thereby a zombie; simulated minds are minds.)}
 \sourceitem{source-chen-2025-cot}{Chen, Y., Benton, J., Radhakrishnan, A., Uesato, J., Denison, C., Schulman, J., Somani, A., Hase, P., Wagner, M., Roger, F., Mikulik, V., Bowman, S. R., Leike, J., Kaplan, J., \& Perez, E. (2025). \emph{Reasoning models don't always say what they think} (arXiv:2505.05410). arXiv. \url{https://doi.org/10.48550/arXiv.2505.05410}}
 \sourceitem{source-chisholm-1964}{Chisholm, R. M. (1964). \emph{Human freedom and the self} (The Lindley Lecture). Department of Philosophy, University of Kansas.}
@@ -14064,6 +14298,9 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-churchland-1985}{Churchland, P. M. (1985). Reduction, qualia, and the direct introspection of brain states. \emph{The Journal of Philosophy}, \emph{82}(1), 8–28. \url{https://doi.org/10.2307/2026509}}
 \sourceitem{source-churchland-1990}{Churchland, P. M., \& Churchland, P. S. (1990). Could a machine think? \emph{Scientific American}, \emph{262}(1), 32–37.}
 \sourceitem{source-clark-1993}{Clark, A. (1993). \emph{Sensory qualities}. Clarendon Press.}
+\sourceitem{source-clark-1998}{Clark, A. (1998). Magic words: How language augments human computation. In P. Carruthers \& J. Boucher (Eds.), \emph{Language and thought: Interdisciplinary themes} (pp. 162–183). Cambridge University Press. \url{https://doi.org/10.1017/CBO9780511597909.011}}
+\sourceitem{source-clark-2009}{Clark, A. (2009). Spreading the joy? Why the machinery of consciousness is (probably) still in the head. \emph{Mind}, \emph{118}(472), 963–993. \url{https://doi.org/10.1093/mind/fzp110}}
+\sourceitem{source-clark-chalmers-1998}{Clark, A., \& Chalmers, D. (1998). The extended mind. \emph{Analysis}, \emph{58}(1), 7–19. \url{https://doi.org/10.1093/analys/58.1.7}}
 \sourceitem{source-clausius-1865}{Clausius, R. (1865). Ueber verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie. \emph{Annalen der Physik}, \emph{201}(7), 353–400. \url{https://doi.org/10.1002/andp.18652010702}}
 \sourceitem{source-coleman-2012}{Coleman, S. (2012). Mental chemistry: Combination for panpsychists. \emph{Dialectica}, \emph{66}(1), 137–166. \url{https://doi.org/10.1111/j.1746-8361.2012.01293.x}}
 \sourceitem{source-coleman-2014}{Coleman, S. (2014). The real combination problem: Panpsychism, micro-subjects, and emergence. \emph{Erkenntnis}, \emph{79}(1), 19–44. \url{https://doi.org/10.1007/s10670-013-9431-x}}
@@ -14142,7 +14379,9 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-gopnik-2009}{Gopnik, A. (2009). \emph{The philosophical baby: What children's minds tell us about truth, love, and the meaning of life}. Farrar, Straus and Giroux.}
 \sourceitem{source-sep-jaina-philosophy}{Gorisse, M.-H. (2023). Jaina philosophy. In E. N. Zalta \& U. Nodelman (Eds.), \emph{The Stanford encyclopedia of philosophy} (first published February 13, 2023). \url{https://plato.stanford.edu/entries/jaina-philosophy/}}
 \sourceitem{source-grahek-2007}{Grahek, N. (2007). \emph{Feeling pain and being in pain} (2nd ed.). MIT Press.}
+\sourceitem{source-gray-1984}{Gray, J. J. (1984). A commentary on Gauss's mathematical diary, 1796–1814, with an English translation. \emph{Expositiones Mathematicae}, \emph{2}(2), 97–130.}
 \sourceitem{source-graziano-2013}{Graziano, M. S. A. (2013). \emph{Consciousness and the social brain}. Oxford University Press.}
+\sourceitem{source-sep-inner-speech}{Gregory, D., \& Langland-Hassan, P. (2023). Inner speech. In E. N. Zalta \& U. Nodelman (Eds.), \emph{The Stanford encyclopedia of philosophy}. \url{https://plato.stanford.edu/entries/inner-speech/}}
 \sourceitem{source-gurnee-2023}{Gurnee, W., \& Tegmark, M. (2024). Language models represent space and time. In \emph{Proceedings of the 12th International Conference on Learning Representations (ICLR 2024)}. \url{https://doi.org/10.48550/arXiv.2310.02207}}
 \sourceitem{source-gurnee-2026-workspace}{Gurnee, W., Sofroniew, N., Pearce, A., Piotrowski, M., Kauvar, I., Chen, R., Soligo, A., Bogdan, P., Ong, E., Wang, R., Thompson, B., Abrahams, D., Kantamneni, S., Ameisen, E., Batson, J., \& Lindsey, J. (2026, July 6). \emph{Verbalizable representations form a global workspace in language models}. Transformer Circuits Thread. \url{https://transformer-circuits.pub/2026/workspace/index.html}}
 \sourceitem{source-sep-ibn-sina}{Gutas, D. (2025). Ibn Sina [Avicenna]. In E. N. Zalta \& U. Nodelman (Eds.), \emph{The Stanford encyclopedia of philosophy} (substantive revision of October 31, 2025; original work published 2016). \url{https://plato.stanford.edu/entries/ibn-sina/}}
@@ -14163,6 +14402,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-horgan-tienson-2002}{Horgan, T., \& Tienson, J. (2002). The intentionality of phenomenology and the phenomenology of intentionality. In D. J. Chalmers (Ed.), \emph{Philosophy of mind: Classical and contemporary readings} (pp. 520–533). Oxford University Press.}
 \sourceitem{source-hosten-2006}{Hosten, O., Rakher, M. T., Barreiro, J. T., Peters, N. A., \& Kwiat, P. G. (2006). Counterfactual quantum computation through quantum interrogation. \emph{Nature}, \emph{439}(7079), 949–952. \url{https://doi.org/10.1038/nature04523}}
 \sourceitem{source-hume-treatise}{Hume, D. (1978). \emph{A treatise of human nature} (L. A. Selby-Bigge \& P. H. Nidditch, Eds.; 2nd ed.). Clarendon Press. (Original work published 1739–1740)}
+\sourceitem{source-hurley-1998}{Hurley, S. L. (1998). \emph{Consciousness in action}. Harvard University Press.}
 \sourceitem{source-huxley-1874}{Huxley, T. H. (1874). On the hypothesis that animals are automata, and its history. \emph{The Fortnightly Review, 16}(95), 555–580. (Reprinted in \emph{Collected essays: Vol. 1. Method and results}, pp. 199–250, Macmillan, 1893)}
 \sourceitem{source-sep-arabic-islamic-mind}{Ivry, A. (2012). Arabic and Islamic psychology and philosophy of mind. In E. N. Zalta (Ed.), \emph{The Stanford encyclopedia of philosophy} (substantive revision of May 29, 2012; original work published 2008). \url{https://plato.stanford.edu/entries/arabic-islamic-mind/}}
 \sourceitem{source-jackendoff-1987}{Jackendoff, R. (1987). \emph{Consciousness and the computational mind}. MIT Press.}
@@ -14235,6 +14475,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-mellor-2005}{Mellor, D. J., Diesch, T. J., Gunn, A. J., \& Bennet, L. (2005). The importance of 'awareness' for understanding fetal pain. \emph{Brain Research Reviews}, \emph{49}(3), 455–471. \url{https://doi.org/10.1016/j.brainresrev.2005.01.006}}
 \sourceitem{source-melnyk-1997}{Melnyk, A. (1997). How to keep the ``physical'' in physicalism. \emph{The Journal of Philosophy}, \emph{94}(12), 622–637.}
 \sourceitem{source-merker-2007}{Merker, B. (2007). Consciousness without a cerebral cortex: A challenge for neuroscience and medicine. \emph{Behavioral and Brain Sciences}, \emph{30}(1), 63–81. \url{https://doi.org/10.1017/S0140525X07000891}}
+\sourceitem{source-merrill-sabharwal-2024}{Merrill, W., \& Sabharwal, A. (2024). The expressive power of transformers with chain of thought. In \emph{The Twelfth International Conference on Learning Representations}. \url{https://arxiv.org/abs/2310.07923}}
 \sourceitem{source-metzinger-2003}{Metzinger, T. (2003). \emph{Being no one: The self-model theory of subjectivity}. MIT Press.}
 \sourceitem{source-miller-2018}{Miller, G. (2018). Can subjects be proper parts of subjects? The de-combination problem. \emph{Ratio}, \emph{31}(2), 137–154.}
 \sourceitem{source-miller-2021}{Miller, G. (2021). The decombination problem for cosmopsychism is not the heterogeneity problem for priority monism. \emph{Journal of Consciousness Studies}, \emph{28}(3–4), 112–115.}
@@ -14252,6 +14493,7 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-nemirow-1990}{Nemirow, L. (1990). Physicalism and the cognitive role of acquaintance. In W. G. Lycan (Ed.), \emph{Mind and cognition}. Blackwell.}
 \sourceitem{source-ney-2008}{Ney, A. (2008). Physicalism as an attitude. \emph{Philosophical Studies}, \emph{138}(1), 1–15.}
 \sourceitem{source-nisbett-wilson-1977}{Nisbett, R. E., \& Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. \emph{Psychological Review}, \emph{84}(3), 231–259.}
+\sourceitem{source-noe-2009}{Noë, A. (2009). \emph{Out of our heads: Why you are not your brain, and other lessons from the biology of consciousness}. Hill and Wang.}
 \sourceitem{source-olson-1997}{Olson, E. T. (1997). \emph{The human animal: Personal identity without psychology}. Oxford University Press.}
 \sourceitem{source-omohundro-2008}{Omohundro, S. M. (2008). The basic AI drives. In P. Wang, B. Goertzel, \& S. Franklin (Eds.), \emph{Artificial general intelligence 2008: Proceedings of the first AGI conference} (Frontiers in Artificial Intelligence and Applications, Vol. 171, pp. 483–492). IOS Press.}
 \sourceitem{source-overgaard-fazekas-2016}{Overgaard, M., \& Fazekas, P. (2016). Can no-report paradigms extract true correlates of consciousness? \emph{Trends in Cognitive Sciences}, \emph{20}(4), 241–242. \url{https://doi.org/10.1016/j.tics.2016.01.004}}
@@ -14290,6 +14532,8 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-rosenberg-1998}{Rosenberg, G. H. (1998). The boundary problem for phenomenal individuals. In S. R. Hameroff, A. W. Kaszniak, \& A. C. Scott (Eds.), \emph{Toward a science of consciousness II: The second Tucson discussions and debates} (pp. 149–156). MIT Press.}
 \sourceitem{source-rosenthal-2005}{Rosenthal, D. M. (2005). \emph{Consciousness and mind}. Clarendon Press.}
 \sourceitem{source-sep-neuroethics}{Roskies, A. (2025). Neuroethics. In E. N. Zalta \& U. Nodelman (Eds.), \emph{The Stanford encyclopedia of philosophy} (substantive revision of September 2, 2025; original work published 2016). \url{https://plato.stanford.edu/entries/neuroethics/}}
+\sourceitem{source-rowlands-2010}{Rowlands, M. (2010). \emph{The new science of the mind: From extended mind to embodied phenomenology}. MIT Press.}
+\sourceitem{source-sep-content-externalism}{Rowlands, M., Lau, J., \& Deutsch, M. (2020). Externalism about the mind. In E. N. Zalta (Ed.), \emph{The Stanford encyclopedia of philosophy}. \url{https://plato.stanford.edu/entries/content-externalism/}}
 \sourceitem{source-rcog-2010}{Royal College of Obstetricians and Gynaecologists. (2010). \emph{Fetal awareness: Review of research and recommendations for practice} (Report of a working party). RCOG.}
 \sourceitem{source-royce-1899}{Royce, J. (1899). \emph{The world and the individual, first series: The four historical conceptions of being}. Macmillan. (The self-representative map appears in the Supplementary Essay, ``The One, the Many, and the Infinite.'')}
 \sourceitem{source-rumbelow-watkins-2023}{Rumbelow, J., \& Watkins, M. (2023, February 5). \emph{SolidGoldMagikarp (plus, prompt generation)}. LessWrong. \url{https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation}}
@@ -14364,8 +14608,11 @@ This is distinct from the modal bridge \hyperref[entry:claim-conceivability-enta
 \sourceitem{source-vasubandhu-vimsatika}{Vasubandhu. (1984). The twenty verses and their commentary. In S. Anacker (Trans.), \emph{Seven works of Vasubandhu: The Buddhist psychological doctor} (Religions of Asia Series, No. 4). Motilal Banarsidass.}
 \sourceitem{source-vasubandhu-abhidharmakosa}{Vasubandhu. (1988–1990). \emph{Abhidharmakośabhāṣyam} (L. de La Vallée Poussin, French Trans.; L. M. Pruden, English Trans.; Vols. 1–4). Asian Humanities Press.}
 \sourceitem{}{Duerlinger, J. (2003). \emph{Indian Buddhist theories of persons: Vasubandhu's ``Refutation of the theory of a self''}. RoutledgeCurzon. \url{https://doi.org/10.4324/9780203607640}}
+\sourceitem{source-vold-2015}{Vold, K. (2015). The parity argument for extended consciousness. \emph{Journal of Consciousness Studies}, \emph{22}(3–4), 16–33.}
+\sourceitem{source-vygotsky-1986}{Vygotsky, L. S. (1986). \emph{Thought and language} (A. Kozulin, Trans.). MIT Press. (Original work published 1934)}
 \sourceitem{source-wallas-1926}{Wallas, G. (1926). \emph{The art of thought}. Harcourt, Brace and Company.}
 \sourceitem{source-wegner-2002}{Wegner, D. M. (2002). \emph{The illusion of conscious will}. MIT Press.}
+\sourceitem{source-wei-2022-cot}{Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q. V., \& Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. In \emph{Advances in Neural Information Processing Systems} (Vol. 35). \url{https://arxiv.org/abs/2201.11903}}
 \sourceitem{source-wheeler-1990}{Wheeler, J. A. (1990). Information, physics, quantum: The search for links. In W. H. Zurek (Ed.), \emph{Complexity, entropy, and the physics of information}. Addison-Wesley.}
 \sourceitem{source-williamson-2007}{Williamson, T. (2007). \emph{The philosophy of philosophy}. Blackwell.}
 \sourceitem{source-wilson-2006}{Wilson, J. (2006). On characterizing the physical. \emph{Philosophical Studies}, \emph{131}(1), 61–99. \url{https://doi.org/10.1007/s11098-006-5984-8}}

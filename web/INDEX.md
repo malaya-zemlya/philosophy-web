@@ -135,6 +135,9 @@
 - backlinks:
   - [argument-report-scepticism-proves-too-much](arguments/report-scepticism-proves-too-much.md) --attacks-->
 
+## [argument-cot-workspace-from-functional-signature](arguments/cot-workspace-from-functional-signature.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md)
 - type: argument | author: mishka | status: asserted
 
@@ -409,6 +412,9 @@
 ## [argument-parfit-rewiring](arguments/parfit-rewiring.md)
 - type: argument | author: parfit | status: asserted
 
+## [argument-parity-argument-extended-consciousness](arguments/parity-argument-extended-consciousness.md)
+- type: argument | author: vold | status: asserted
+
 ## [argument-phenomenal-concept-overgeneration](arguments/phenomenal-concept-overgeneration.md)
 - type: argument | author: mishka | status: asserted
 - backlinks:
@@ -565,6 +571,7 @@
 ## [claim-access-functional-signature](claims/access-functional-signature.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
+  - [argument-cot-workspace-from-functional-signature](arguments/cot-workspace-from-functional-signature.md) --premise-->
   - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --premise-->
 
 ## [claim-access-gap-symmetric](claims/access-gap-symmetric.md)
@@ -876,6 +883,19 @@
 - backlinks:
   - [position-cosmopsychism](positions/cosmopsychism.md) --commits_to-->
 
+## [claim-cot-bears-access-signature](claims/cot-bears-access-signature.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-cot-workspace-from-functional-signature](arguments/cot-workspace-from-functional-signature.md) --premise-->
+
+## [claim-cot-illuminates-inner-speech](claims/cot-illuminates-inner-speech.md)
+- type: claim | author: mishka | status: asserted
+
+## [claim-cot-serial-verbal-workspace](claims/cot-serial-verbal-workspace.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-cot-workspace-from-functional-signature](arguments/cot-workspace-from-functional-signature.md) --concludes-->
+
 ## [claim-counterfactual-structure-objective](claims/counterfactual-structure-objective.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -919,6 +939,11 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-introspective-gap-from-internal-limits](arguments/introspective-gap-from-internal-limits.md) --premise-->
+
+## [claim-extended-cognition-not-extended-consciousness](claims/extended-cognition-not-extended-consciousness.md)
+- type: claim | author: clark | status: contested
+- backlinks:
+  - [argument-parity-argument-extended-consciousness](arguments/parity-argument-extended-consciousness.md) --attacks-->
 
 ## [claim-external-world-exists](claims/external-world-exists.md)
 - type: claim | author: generic | status: asserted
@@ -1853,11 +1878,16 @@
 ## [concept-access-consciousness](concepts/access-consciousness.md)
 - type: concept | author: block | status: asserted
 - backlinks:
+  - [argument-cot-workspace-from-functional-signature](arguments/cot-workspace-from-functional-signature.md) --uses_concept-->
   - [claim-access-functional-signature](claims/access-functional-signature.md) --uses_concept-->
+  - [claim-cot-bears-access-signature](claims/cot-bears-access-signature.md) --uses_concept-->
+  - [claim-cot-illuminates-inner-speech](claims/cot-illuminates-inner-speech.md) --uses_concept-->
+  - [claim-cot-serial-verbal-workspace](claims/cot-serial-verbal-workspace.md) --uses_concept-->
   - [claim-llm-global-workspace](claims/llm-global-workspace.md) --uses_concept-->
   - [claim-omission-is-not-confabulation](claims/omission-is-not-confabulation.md) --uses_concept-->
   - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
+  - [concept-extended-consciousness](concepts/extended-consciousness.md) --uses_concept-->
   - [concept-incubation](concepts/incubation.md) --uses_concept-->
   - [concept-j-space](concepts/j-space.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
@@ -2110,6 +2140,19 @@
 - backlinks:
   - [concept-neural-correlates-of-consciousness](concepts/neural-correlates-of-consciousness.md) --uses_concept-->
   - [question-consciousness-reading-machine](questions/consciousness-reading-machine.md) --uses_concept-->
+
+## [concept-extended-consciousness](concepts/extended-consciousness.md)
+- type: concept | author: hurley | status: asserted
+- backlinks:
+  - [argument-parity-argument-extended-consciousness](arguments/parity-argument-extended-consciousness.md) --uses_concept-->
+  - [claim-extended-cognition-not-extended-consciousness](claims/extended-cognition-not-extended-consciousness.md) --uses_concept-->
+
+## [concept-extended-mind](concepts/extended-mind.md)
+- type: concept | author: clark | status: asserted
+- backlinks:
+  - [argument-parity-argument-extended-consciousness](arguments/parity-argument-extended-consciousness.md) --uses_concept-->
+  - [claim-extended-cognition-not-extended-consciousness](claims/extended-cognition-not-extended-consciousness.md) --uses_concept-->
+  - [concept-extended-consciousness](concepts/extended-consciousness.md) --uses_concept-->
 
 ## [concept-first-person-access](concepts/first-person-access.md)
 - type: concept | author: mishka | status: asserted
@@ -2384,6 +2427,7 @@
   - [claim-intentional-content-from-biological-function](claims/intentional-content-from-biological-function.md) --uses_concept-->
   - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --uses_concept-->
   - [claim-intentionality-is-stance-relative](claims/intentionality-is-stance-relative.md) --uses_concept-->
+  - [concept-extended-mind](concepts/extended-mind.md) --uses_concept-->
   - [position-intentional-stance](positions/intentional-stance.md) --uses_concept-->
   - [position-teleosemantics](positions/teleosemantics.md) --uses_concept-->
   - [question-intentionality](questions/intentionality.md) --uses_concept-->
@@ -2425,8 +2469,10 @@
 ## [concept-j-space](concepts/j-space.md)
 - type: concept | author: gurnee | status: asserted
 - backlinks:
+  - [argument-cot-workspace-from-functional-signature](arguments/cot-workspace-from-functional-signature.md) --uses_concept-->
   - [argument-llm-workspace-from-functional-signature](arguments/llm-workspace-from-functional-signature.md) --uses_concept-->
   - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --uses_concept-->
+  - [claim-cot-serial-verbal-workspace](claims/cot-serial-verbal-workspace.md) --uses_concept-->
   - [claim-j-space-ablation-experiential-language](claims/j-space-ablation-experiential-language.md) --uses_concept-->
   - [claim-j-space-directed-modulation](claims/j-space-directed-modulation.md) --uses_concept-->
   - [claim-j-space-flexible-generalization](claims/j-space-flexible-generalization.md) --uses_concept-->
@@ -2608,6 +2654,7 @@
   - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --uses_concept-->
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
+  - [concept-extended-consciousness](concepts/extended-consciousness.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
   - [position-intermediate-level-theory](positions/intermediate-level-theory.md) --uses_concept-->
   - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
@@ -3082,10 +3129,16 @@
 ## [source-aaronson-2014](sources/aaronson-2014.md)
 - type: source | author: mishka | status: asserted
 
+## [source-adams-aizawa-2001](sources/adams-aizawa-2001.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-albahari-2020](sources/albahari-2020.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-albert-1985](sources/albert-1985.md)
+- type: source | author: mishka | status: asserted
+
+## [source-alderson-day-fernyhough-2015](sources/alderson-day-fernyhough-2015.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-amsterdam-1972](sources/amsterdam-1972.md)
@@ -3113,6 +3166,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-baars-1988](sources/baars-1988.md)
+- type: source | author: mishka | status: asserted
+
+## [source-baddeley-1992](sources/baddeley-1992.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-baker-2000](sources/baker-2000.md)
@@ -3241,6 +3297,9 @@
 ## [source-chalmers-2018](sources/chalmers-2018.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chalmers-2019](sources/chalmers-2019.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chalmers-2022](sources/chalmers-2022.md)
 - type: source | author: mishka | status: asserted
 
@@ -3269,6 +3328,15 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-clark-1993](sources/clark-1993.md)
+- type: source | author: mishka | status: asserted
+
+## [source-clark-1998](sources/clark-1998.md)
+- type: source | author: mishka | status: asserted
+
+## [source-clark-2009](sources/clark-2009.md)
+- type: source | author: mishka | status: asserted
+
+## [source-clark-chalmers-1998](sources/clark-chalmers-1998.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-clausius-1865](sources/clausius-1865.md)
@@ -3496,6 +3564,9 @@
 ## [source-grahek-2007](sources/grahek-2007.md)
 - type: source | author: mishka | status: asserted
 
+## [source-gray-1984](sources/gray-1984.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-graziano-2013](sources/graziano-2013.md)
 - type: source | author: mishka | status: asserted
 
@@ -3554,6 +3625,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-hume-treatise](sources/hume-treatise.md)
+- type: source | author: mishka | status: asserted
+
+## [source-hurley-1998](sources/hurley-1998.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-huxley-1874](sources/huxley-1874.md)
@@ -3751,6 +3825,9 @@
 ## [source-merker-2007](sources/merker-2007.md)
 - type: source | author: mishka | status: asserted
 
+## [source-merrill-sabharwal-2024](sources/merrill-sabharwal-2024.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-metzinger-2003](sources/metzinger-2003.md)
 - type: source | author: mishka | status: asserted
 
@@ -3803,6 +3880,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-nisbett-wilson-1977](sources/nisbett-wilson-1977.md)
+- type: source | author: mishka | status: asserted
+
+## [source-noe-2009](sources/noe-2009.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-olson-1997](sources/olson-1997.md)
@@ -3907,6 +3987,9 @@
 ## [source-rosenthal-2005](sources/rosenthal-2005.md)
 - type: source | author: mishka | status: asserted
 
+## [source-rowlands-2010](sources/rowlands-2010.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-royce-1899](sources/royce-1899.md)
 - type: source | author: mishka | status: asserted
 
@@ -3991,6 +4074,9 @@
 ## [source-sep-consciousness-unity](sources/sep-consciousness-unity.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-content-externalism](sources/sep-content-externalism.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-creativity](sources/sep-creativity.md)
 - type: source | author: mishka | status: asserted
 
@@ -3998,6 +4084,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-ibn-sina](sources/sep-ibn-sina.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-inner-speech](sources/sep-inner-speech.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-introspection](sources/sep-introspection.md)
@@ -4183,10 +4272,19 @@
 ## [source-vasubandhu-vimsatika](sources/vasubandhu-vimsatika.md)
 - type: source | author: mishka | status: asserted
 
+## [source-vold-2015](sources/vold-2015.md)
+- type: source | author: mishka | status: asserted
+
+## [source-vygotsky-1986](sources/vygotsky-1986.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-wallas-1926](sources/wallas-1926.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-wegner-2002](sources/wegner-2002.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wei-2022-cot](sources/wei-2022-cot.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-wheeler-1990](sources/wheeler-1990.md)

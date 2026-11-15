@@ -161,3 +161,4 @@ information about themselves, not that they feel anything.
 - [llm-moral-status](llm-moral-status.md): the moral question to which reliable self-reports would be relevant.
 - [confabulation](../concepts/confabulation.md): sincere but ill-grounded self-report, the human phenomenon against which unfaithful AI reasoning traces are measured.
 - [omission-is-not-confabulation](../claims/omission-is-not-confabulation.md): the distinction between a trace that omits what drove an answer and one that misdescribes it.
+- [cot-workspace-from-functional-signature](../arguments/cot-workspace-from-functional-signature.md): the argument that a model's written chain of thought is a serial verbal workspace.
