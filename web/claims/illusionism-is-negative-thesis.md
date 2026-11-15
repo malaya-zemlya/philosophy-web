@@ -15,8 +15,9 @@ Illusionism denies that experience has intrinsic, ineffable phenomenal propertie
 ([phenomenality-is-illusion](phenomenality-is-illusion.md)). That denial is not yet an account of what consciousness
 positively is. It must be paired with a positive theory, such as a functionalist, representationalist
 or global-workspace account, which says what the real states are that introspection misdescribes.
-Keith Frankish presents illusionism as replacing the hard problem with the "illusion problem" of
-explaining why experience seems phenomenal ([Frankish, 2016](../sources/frankish-2016.md)), which sets an
+Keith Frankish presents illusionism as replacing the hard problem with the "illusion problem", the
+illusionist version of the [meta-problem-of-consciousness](../concepts/meta-problem-of-consciousness.md):
+the problem of explaining why experience seems phenomenal ([Frankish, 2016](../sources/frankish-2016.md)), which sets an
 explanatory task rather than discharging it. The retort that "illusionism is not a theory of
 consciousness but a theory of what consciousness is not" is a commonplace in discussions of the view.
 

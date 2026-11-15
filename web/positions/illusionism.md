@@ -72,3 +72,5 @@ science can explain. The new question becomes: why is the illusion so powerful?
   too strict to include animals or too loose to exclude thermostats.
 - [representational-slope-from-illusionism](../arguments/representational-slope-from-illusionism.md): the argument that a representationalist
   positive theory spreads consciousness far beyond brains.
+- [meta-problem-of-consciousness](../concepts/meta-problem-of-consciousness.md): the neutral problem of which the illusion problem is the
+  illusionist version.

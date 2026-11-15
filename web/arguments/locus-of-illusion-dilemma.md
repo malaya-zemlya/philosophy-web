@@ -61,5 +61,7 @@ mistaken theory, which is far less dramatic than "consciousness is an illusion".
 ### See also
 
 - [illusionism](../positions/illusionism.md): the position the dilemma targets.
+- [meta-problem-of-consciousness](../concepts/meta-problem-of-consciousness.md): the neutral problem of explaining problem intuitions,
+  including how widely they are shared, which frames both horns.
 - [paradox-of-phenomenal-judgment](../concepts/paradox-of-phenomenal-judgment.md): the puzzle of why we judge that we are phenomenally
   conscious, which illusionism takes as its explanandum.

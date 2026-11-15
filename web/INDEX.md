@@ -2371,6 +2371,7 @@
   - [concept-explanatory-gap](concepts/explanatory-gap.md) --uses_concept-->
   - [concept-knowledge-argument](concepts/knowledge-argument.md) --uses_concept-->
   - [concept-materialism-types](concepts/materialism-types.md) --uses_concept-->
+  - [concept-meta-problem-of-consciousness](concepts/meta-problem-of-consciousness.md) --uses_concept-->
   - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
   - [concept-mind-body-problem](concepts/mind-body-problem.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
@@ -2618,6 +2619,9 @@
   - [position-type-c-materialism](positions/type-c-materialism.md) --uses_concept-->
   - [position-type-identity](positions/type-identity.md) --uses_concept-->
 
+## [concept-meta-problem-of-consciousness](concepts/meta-problem-of-consciousness.md)
+- type: concept | author: chalmers | status: asserted
+
 ## [concept-metaphysical-gap](concepts/metaphysical-gap.md)
 - type: concept | author: generic | status: asserted
 
@@ -2695,6 +2699,7 @@
 - backlinks:
   - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --uses_concept-->
   - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
+  - [concept-meta-problem-of-consciousness](concepts/meta-problem-of-consciousness.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
 
 ## [concept-perfect-actor](concepts/perfect-actor.md)

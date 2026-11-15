@@ -420,6 +420,7 @@ digraph web {
   "concept-llmary" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="llmary", tooltip="LLMary (the language model that never saw token 123)", URL="../web/concepts/llmary.md"];
   "concept-lookup-table-mind" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="lookup table mind", tooltip="Lookup-table mind (\"Blockhead\" / Aunt Bubbles machine)", URL="../web/concepts/lookup-table-mind.md"];
   "concept-materialism-types" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="materialism types", tooltip="Type-A / Type-B / Type-C materialism (responses to the hard problem)", URL="../web/concepts/materialism-types.md"];
+  "concept-meta-problem-of-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="meta problem of\nconsciousness", tooltip="Meta-problem of consciousness (the problem of explaining why we think consciousness is hard to explain)", URL="../web/concepts/meta-problem-of-consciousness.md"];
   "concept-metaphysical-gap" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="metaphysical gap", tooltip="The metaphysical (ontological) gap between the phenomenal and the physical", URL="../web/concepts/metaphysical-gap.md"];
   "concept-mind-body-problem" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="mind body problem", tooltip="The mind-body problem", URL="../web/concepts/mind-body-problem.md"];
   "concept-minimal-theory-of-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="minimal theory of\nconsciousness", tooltip="Minimal requirements for a theory of consciousness", URL="../web/concepts/minimal-theory-of-consciousness.md"];
@@ -1404,6 +1405,8 @@ digraph web {
   "concept-knowledge-argument" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-llmary" -> "concept-knowledge-argument" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-materialism-types" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-meta-problem-of-consciousness" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-meta-problem-of-consciousness" -> "concept-paradox-of-phenomenal-judgment" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-metaphysical-gap" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-metaphysical-gap" -> "concept-materialism-types" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-metaphysical-gap" -> "concept-philosophical-zombie" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];

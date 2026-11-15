@@ -11,6 +11,7 @@ created: 2026-11-15
 relevance (content): the founding paper of cybernetics, which analyses purposeful behaviour as
 behaviour controlled by negative feedback from the goal. Cited in [use-criteria-regress](../claims/use-criteria-regress.md)
 for the cybernetic reading of what it is for a state to be *used*.
+Local copy: `external/rosenblueth-wiener-bigelow-1943.pdf`.
 
 Reference:
 - Rosenblueth, A., Wiener, N., & Bigelow, J. (1943). Behavior, purpose and teleology. *Philosophy

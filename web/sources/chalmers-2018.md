@@ -15,6 +15,9 @@ explaining why we judge and report that there is a hard problem at all — why w
 explanation threatens to *debunk* the phenomenal beliefs those reports express, the tension already at
 work in the report-scepticism cluster ([report-scepticism-proves-too-much](../arguments/report-scepticism-proves-too-much.md)).
 
+Grounds [meta-problem-of-consciousness](../concepts/meta-problem-of-consciousness.md); also cited for its reply to Sytsma & Machery in
+[folk-lack-phenomenal-concept](../claims/folk-lack-phenomenal-concept.md). Local copy: `external/chalmers-2018-meta-problem.pdf`.
+
 Reference:
 - Chalmers, D. J. (2018). The meta-problem of consciousness. *Journal of Consciousness Studies*,
   *25*(9–10), 6–61.

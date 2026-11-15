@@ -63,3 +63,5 @@ consciousness non-physical or idle.
 - [chalmers-2018](../sources/chalmers-2018.md) — the meta-problem, the paradox's modern, generalized descendant.
 - [report-scepticism-proves-too-much](../arguments/report-scepticism-proves-too-much.md) — the live dispute in this web that runs on the same
   debunking tension, applied to machine and human testimony alike.
+- [meta-problem-of-consciousness](meta-problem-of-consciousness.md): the meta-problem as a concept in its own right, including its
+  relation to the illusionist's "illusion problem".
