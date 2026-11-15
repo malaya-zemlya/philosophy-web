@@ -289,6 +289,7 @@ digraph web {
   "claim-no-strict-psychophysical-laws" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no strict\npsychophysical\nlaws", tooltip="There are no strict laws connecting mental kinds with physical kinds", URL="../web/claims/no-strict-psychophysical-laws.md"];
   "claim-no-systematic-overdetermination" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="no systematic\noverdetermination", tooltip="The physical effects of mental causes are not systematically overdetermined", URL="../web/claims/no-systematic-overdetermination.md"];
   "claim-observable-universe-finite-storage" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="observable\nuniverse finite\nstorage", tooltip="The observable universe can store only a bounded, finite amount of information (on the order of 10^120 bits)", URL="../web/claims/observable-universe-finite-storage.md"];
+  "claim-omission-is-not-confabulation" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="omission is not\nconfabulation", tooltip="A self-report that omits causally relevant processing is not thereby a confabulation", URL="../web/claims/omission-is-not-confabulation.md"];
   "claim-organisational-grain-faces-own-grain-dilemma" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="organisational\ngrain faces own\ngrain dilemma", tooltip="The organisational-role grain either readmits the blockhead or smuggles sub-organisational features back in", URL="../web/claims/organisational-grain-faces-own-grain-dilemma.md"];
   "claim-organizational-invariance" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="organizational\ninvariance", tooltip="Systems with the same fine-grained functional organization have qualitatively identical experiences", URL="../web/claims/organizational-invariance.md"];
   "claim-orthogonality-thesis" [shape="box", style="filled,rounded", fillcolor="#cfe0f5", color="#5b8fbf", label="orthogonality\nthesis", tooltip="Any level of intelligence is compatible with almost any final goal", URL="../web/claims/orthogonality-thesis.md"];
@@ -370,6 +371,7 @@ digraph web {
   "concept-chinese-room" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="chinese room", tooltip="The Chinese Room", URL="../web/concepts/chinese-room.md"];
   "concept-combination-problem-panpsychism" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="combination\nproblem\npanpsychism", tooltip="Combination problem for panpsychism (how micro-experiences could compose a macro-experience)", URL="../web/concepts/combination-problem-panpsychism.md"];
   "concept-completeness-of-physics" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="completeness of\nphysics", tooltip="Completeness of physics", URL="../web/concepts/completeness-of-physics.md"];
+  "concept-confabulation" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="confabulation", tooltip="Confabulation (sincere but ill-grounded self-report)", URL="../web/concepts/confabulation.md"];
   "concept-consciousness" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="consciousness", tooltip="Consciousness", URL="../web/concepts/consciousness.md"];
   "concept-consciousness-freewill-duality" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="consciousness\nfreewill duality", tooltip="The mirror duality between the consciousness and free-will debates", URL="../web/concepts/consciousness-freewill-duality.md"];
   "concept-continuity-argument-schema" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="continuity\nargument schema", tooltip="Continuity–connectedness argument schema (no-sharp-line / sorites form)", URL="../web/concepts/continuity-argument-schema.md"];
@@ -384,7 +386,9 @@ digraph web {
   "concept-grain-problem" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="grain problem", tooltip="Grain problem (mismatch between the smooth structure of experience and the granular structure of the brain)", URL="../web/concepts/grain-problem.md"];
   "concept-halting-oracle" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="halting oracle", tooltip="The halting oracle (and uncomputability)", URL="../web/concepts/halting-oracle.md"];
   "concept-hard-problem" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="hard problem", tooltip="The hard problem of consciousness", URL="../web/concepts/hard-problem.md"];
+  "concept-hindsight-bias" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="hindsight bias", tooltip="Hindsight bias (the knew-it-all-along effect)", URL="../web/concepts/hindsight-bias.md"];
   "concept-hinge-proposition" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="hinge proposition", tooltip="Hinge proposition", URL="../web/concepts/hinge-proposition.md"];
+  "concept-incubation" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="incubation", tooltip="Incubation (the unconscious stage of problem solving)", URL="../web/concepts/incubation.md"];
   "concept-instrumental-convergence" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="instrumental\nconvergence", tooltip="Instrumental convergence (convergent instrumental goals)", URL="../web/concepts/instrumental-convergence.md"];
   "concept-intelligence" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="intelligence", tooltip="Intelligence", URL="../web/concepts/intelligence.md"];
   "concept-intelligence-explosion" [shape="ellipse", style="filled", fillcolor="#e8dff5", color="#9a78c0", label="intelligence\nexplosion", tooltip="Intelligence explosion (recursive self-improvement)", URL="../web/concepts/intelligence-explosion.md"];
@@ -1229,6 +1233,9 @@ digraph web {
   "claim-no-constitutive-fact-of-meaning" -> "concept-intentionality" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-no-enduring-self" -> "question-soul" [color="#9e9e9e", style="dotted", arrowhead="onormal", tooltip="answers"];
   "claim-no-systematic-overdetermination" -> "concept-causal-closure" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-omission-is-not-confabulation" -> "concept-access-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-omission-is-not-confabulation" -> "concept-confabulation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "claim-omission-is-not-confabulation" -> "concept-incubation" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-organisational-grain-faces-own-grain-dilemma" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-organisational-grain-faces-own-grain-dilemma" -> "concept-grain" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "claim-organizational-invariance" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1317,6 +1324,7 @@ digraph web {
   "concept-combination-problem-panpsychism" -> "concept-grain-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-combination-problem-panpsychism" -> "concept-panpsychism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-combination-problem-panpsychism" -> "concept-unity-of-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-confabulation" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-consciousness" -> "concept-access-vs-phenomenal-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-consciousness" -> "concept-first-person-access" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-consciousness" -> "concept-hard-problem" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
@@ -1331,6 +1339,7 @@ digraph web {
   "concept-grain" -> "concept-functionalism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-grain-problem" -> "concept-combination-problem-panpsychism" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-grain-problem" -> "concept-intrinsic-structural-distinction" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
+  "concept-incubation" -> "concept-access-consciousness" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-instrumental-convergence" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-intelligence-explosion" -> "concept-intelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];
   "concept-intelligence-explosion" -> "concept-superintelligence" [color="#cccccc", style="dotted", arrowhead="none", penwidth="0.6", tooltip="uses_concept"];

@@ -60,3 +60,5 @@ about *why* they did things — not wrong about how a present pain feels, which 
   domain the evidence touches.
 - [no-appearance-reality-gap](no-appearance-reality-gap.md) — the principled reply that occurrent experience admits
   no appearance/reality gap for confabulation to exploit.
+- [confabulation](../concepts/confabulation.md) — the phenomenon itself, in its clinical and everyday senses, and its neighbours hindsight bias
+  and incubation.

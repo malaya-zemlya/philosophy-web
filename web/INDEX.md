@@ -1440,6 +1440,9 @@
 - backlinks:
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --premise-->
 
+## [claim-omission-is-not-confabulation](claims/omission-is-not-confabulation.md)
+- type: claim | author: mishka | status: asserted
+
 ## [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1852,8 +1855,10 @@
 - backlinks:
   - [claim-access-functional-signature](claims/access-functional-signature.md) --uses_concept-->
   - [claim-llm-global-workspace](claims/llm-global-workspace.md) --uses_concept-->
+  - [claim-omission-is-not-confabulation](claims/omission-is-not-confabulation.md) --uses_concept-->
   - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
+  - [concept-incubation](concepts/incubation.md) --uses_concept-->
   - [concept-j-space](concepts/j-space.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
   - [question-ai-introspection](questions/ai-introspection.md) --uses_concept-->
@@ -2016,6 +2021,11 @@
   - [question-dispensability-of-mental-causes](questions/dispensability-of-mental-causes.md) --uses_concept-->
   - [question-mental-causation](questions/mental-causation.md) --uses_concept-->
 
+## [concept-confabulation](concepts/confabulation.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [claim-omission-is-not-confabulation](claims/omission-is-not-confabulation.md) --uses_concept-->
+
 ## [concept-consciousness](concepts/consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -2118,6 +2128,7 @@
   - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md) --uses_concept-->
   - [claim-privileged-first-person-access](claims/privileged-first-person-access.md) --uses_concept-->
+  - [concept-confabulation](concepts/confabulation.md) --uses_concept-->
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
@@ -2292,6 +2303,9 @@
   - [question-llm-own-explanatory-gap](questions/llm-own-explanatory-gap.md) --uses_concept-->
   - [question-origin-of-consciousness](questions/origin-of-consciousness.md) --uses_concept-->
 
+## [concept-hindsight-bias](concepts/hindsight-bias.md)
+- type: concept | author: fischhoff | status: asserted
+
 ## [concept-hinge-proposition](concepts/hinge-proposition.md)
 - type: concept | author: wittgenstein | status: asserted
 - backlinks:
@@ -2299,6 +2313,11 @@
   - [claim-external-world-exists](claims/external-world-exists.md) --uses_concept-->
   - [position-hinge-epistemology](positions/hinge-epistemology.md) --uses_concept-->
   - [question-external-world-knowledge](questions/external-world-knowledge.md) --uses_concept-->
+
+## [concept-incubation](concepts/incubation.md)
+- type: concept | author: wallas | status: asserted
+- backlinks:
+  - [claim-omission-is-not-confabulation](claims/omission-is-not-confabulation.md) --uses_concept-->
 
 ## [concept-instrumental-convergence](concepts/instrumental-convergence.md)
 - type: concept | author: omohundro | status: asserted
@@ -3396,6 +3415,12 @@
 ## [source-fischer-ravizza-1998](sources/fischer-ravizza-1998.md)
 - type: source | author: mishka | status: asserted
 
+## [source-fischhoff-1975](sources/fischhoff-1975.md)
+- type: source | author: mishka | status: asserted
+
+## [source-fischhoff-beyth-1975](sources/fischhoff-beyth-1975.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-fodor-1974](sources/fodor-1974.md)
 - type: source | author: mishka | status: asserted
 
@@ -3502,6 +3527,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-hempel-1980](sources/hempel-1980.md)
+- type: source | author: mishka | status: asserted
+
+## [source-hirstein-2005](sources/hirstein-2005.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-hoffman-2008](sources/hoffman-2008.md)
@@ -3834,6 +3862,9 @@
 ## [source-plato-republic](sources/plato-republic.md)
 - type: source | author: mishka | status: asserted
 
+## [source-poincare-1908](sources/poincare-1908.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-popper-1963](sources/popper-1963.md)
 - type: source | author: mishka | status: asserted
 
@@ -3960,6 +3991,9 @@
 ## [source-sep-consciousness-unity](sources/sep-consciousness-unity.md)
 - type: source | author: mishka | status: asserted
 
+## [source-sep-creativity](sources/sep-creativity.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-sep-dualism](sources/sep-dualism.md)
 - type: source | author: mishka | status: asserted
 
@@ -4033,6 +4067,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-singer-gray-1995](sources/singer-gray-1995.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sio-ormerod-2009](sources/sio-ormerod-2009.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-smart-1959](sources/smart-1959.md)
@@ -4144,6 +4181,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-vasubandhu-vimsatika](sources/vasubandhu-vimsatika.md)
+- type: source | author: mishka | status: asserted
+
+## [source-wallas-1926](sources/wallas-1926.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-wegner-2002](sources/wegner-2002.md)

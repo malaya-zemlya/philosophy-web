@@ -159,3 +159,5 @@ information about themselves, not that they feel anything.
 - [llm-own-explanatory-gap](llm-own-explanatory-gap.md): whether an introspecting model could explain its own
   self-perception from its mechanism.
 - [llm-moral-status](llm-moral-status.md): the moral question to which reliable self-reports would be relevant.
+- [confabulation](../concepts/confabulation.md): sincere but ill-grounded self-report, the human phenomenon against which unfaithful AI reasoning traces are measured.
+- [omission-is-not-confabulation](../claims/omission-is-not-confabulation.md): the distinction between a trace that omits what drove an answer and one that misdescribes it.
