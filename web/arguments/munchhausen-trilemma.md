@@ -5,6 +5,7 @@ title: The regress argument — complete justification must regress, circle, or 
 headword: Münchhausen trilemma argument
 author: generic
 status: asserted
+pattern: dilemma
 tags: [epistemology, logic, methodology]
 concludes: claim-justification-terminates-in-trilemma
 uses_concept: [concept-munchhausen-trilemma]

@@ -5,6 +5,7 @@ title: The blockhead dilemma — physically impossible, or imaginatively under-d
 headword: Blockhead dilemma
 author: mishka
 status: asserted
+pattern: dilemma
 tags: [philosophy-of-mind, functionalism, methodology]
 premise: [claim-lookup-table-physically-unrealisable, claim-imaginary-blockhead-no-secure-verdict]
 attacks: [argument-lookup-table-objection, claim-lookup-table-lacks-mind]

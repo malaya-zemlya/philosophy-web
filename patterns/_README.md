@@ -61,5 +61,6 @@ short slug, the doubt it raises, and *what it attacks*) + **Notes** on typical u
 | `sign`             | infer a state from an observable indicator |
 | `example`          | generalise from instances |
 | `thought-experiment` | intuition pump / counterexample (project extension) |
+| `dilemma`          | force a choice among exhaustive options, each with an unacceptable consequence (dilemma, trilemma, n-lemma; project extension) |
 
 To add a pattern: copy an existing file, keep the body structure, and add a row above.

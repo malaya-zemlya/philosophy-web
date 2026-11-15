@@ -5,6 +5,7 @@ title: The genetic argument — physicalism plus realism about experience entail
 headword: Genetic argument
 author: strawson
 status: asserted
+pattern: dilemma
 tags: [philosophy-of-mind, consciousness, metaphysics, panpsychism]
 premise: [claim-phenomenal-consciousness-is-real, claim-no-radical-emergence]
 concludes: claim-consciousness-fundamental-ubiquitous

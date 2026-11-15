@@ -31,8 +31,6 @@
 <g id="edge1" class="edge">
 <title>argument&#45;ability&#45;hypothesis&#45;&gt;argument&#45;knowledge&#45;argument</title>
 <g id="a_edge1"><a xlink:title="attacks">
-<path fill="none" stroke="#c62828" stroke-width="1.6" d="M1286.63,-1580.07C1321,-1528.27 1417.09,-1381.85 1422.07,-1356.53 1426.7,-1333.01 1416.88,-1327.01 1413.53,-1303.28 1409.84,-1277.14 1413.18,-1269.81 1406.34,-1244.31 1403.2,-1232.59 1391.27,-1205.32 1381.83,-1184.52"/>
-<polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1384.11,-1183.62 1378.97,-1178.27 1379.65,-1185.66 1384.11,-1183.62"/>
 <path fill="none" stroke="#c62828" stroke-width="1.6" d="M1285.89,-1580.12C1315.82,-1531.95 1395.2,-1401.47 1407.53,-1352.84 1422.61,-1293.4 1398.39,-1222.48 1382.18,-1184.67"/>
 <polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1384.51,-1183.87 1379.44,-1178.46 1380.02,-1185.85 1384.51,-1183.87"/>
 </a>
@@ -2904,6 +2902,8 @@
 <g id="edge167" class="edge">
 <title>argument&#45;dancing&#45;qualia&#45;begs&#45;the&#45;question&#45;&gt;claim&#45;dancing&#45;qualia&#45;presupposes&#45;functional&#45;introspection</title>
 <g id="a_edge167"><a xlink:title="concludes">
+<path fill="none" stroke="#222222" stroke-width="1.8" d="M1772.72,-531.15C1782.31,-539.86 1791.96,-549.01 1793.32,-551.72 1801.59,-568.21 1805.94,-699.39 1812.46,-716.64 1812.53,-716.84 1812.61,-717.04 1812.69,-717.23"/>
+<polygon fill="#222222" stroke="#222222" stroke-width="1.8" points="1810.45,-718.24 1815.69,-723.49 1814.87,-716.12 1810.45,-718.24"/>
 <path fill="none" stroke="#222222" stroke-width="1.8" d="M1776.84,-531.34C1783.12,-537.19 1789.24,-544.13 1793.32,-551.72 1801.98,-567.84 1816.43,-696.43 1821.53,-714.01 1821.82,-714.99 1822.12,-715.98 1822.43,-716.98"/>
 <polygon fill="#222222" stroke="#222222" stroke-width="1.8" points="1820.06,-717.59 1824.69,-723.39 1824.68,-715.97 1820.06,-717.59"/>
 </a>
@@ -3181,8 +3181,6 @@
 <g id="edge187" class="edge">
 <title>argument&#45;dense&#45;china&#45;brain&#45;regress&#45;&gt;argument&#45;organisational&#45;grain&#45;dissolves&#45;dilemma</title>
 <g id="a_edge187"><a xlink:title="attacks">
-<path fill="none" stroke="#c62828" stroke-width="1.6" d="M2215.67,-658.94C2212.58,-660.21 2210.38,-661.31 2209.59,-662.1 2203.92,-667.85 2209.72,-673.81 2203.84,-679.34 2196.86,-685.9 2129.04,-697.14 2120.56,-701.6 2116.75,-703.61 2112.98,-706.04 2109.37,-708.67"/>
-<polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="2108.13,-706.53 2104.14,-712.77 2111.16,-710.38 2108.13,-706.53"/>
 <path fill="none" stroke="#c62828" stroke-width="1.6" d="M2233.61,-662.17C2224.25,-667.91 2213.72,-674.1 2203.84,-679.34 2180.09,-691.93 2152.99,-704.51 2130.27,-714.57"/>
 <polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="2129.43,-712.26 2124.01,-717.32 2131.41,-716.75 2129.43,-712.26"/>
 </a>
@@ -4507,8 +4505,6 @@
 <g id="edge275" class="edge">
 <title>argument&#45;indexical&#45;reply&#45;&gt;argument&#45;knowledge&#45;argument</title>
 <g id="a_edge275"><a xlink:title="attacks">
-<path fill="none" stroke="#c62828" stroke-width="1.6" d="M1029.99,-1343.96C1030.54,-1321.11 1031.73,-1284.64 1033.79,-1282.41 1039.57,-1276.11 1332.09,-1245.5 1338.76,-1240.15 1341.09,-1238.28 1352,-1208.05 1360.15,-1184.78"/>
-<polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1362.43,-1185.67 1362.42,-1178.25 1357.81,-1184.05 1362.43,-1185.67"/>
 <path fill="none" stroke="#c62828" stroke-width="1.6" d="M1069.08,-1348.53C1082.01,-1344.06 1096.45,-1339.1 1109.7,-1334.65 1121.66,-1330.62 1126.66,-1333.48 1136.69,-1325.81 1162.12,-1306.36 1152.18,-1286.73 1176.25,-1265.61 1204.34,-1240.97 1228.87,-1258.38 1251.92,-1228.96 1263.37,-1214.35 1247.9,-1201.64 1260.61,-1188.12 1272.8,-1175.15 1290.01,-1167.57 1307.16,-1163.18"/>
 <polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1307.44,-1165.63 1313.73,-1161.7 1306.36,-1160.85 1307.44,-1165.63"/>
 </a>
@@ -5375,6 +5371,8 @@
 <g id="edge334" class="edge">
 <title>argument&#45;llmary&#45;token&#45;encounter&#45;&gt;argument&#45;knowledge&#45;argument</title>
 <g id="a_edge334"><a xlink:title="attacks">
+<path fill="none" stroke="#c62828" stroke-width="1.6" d="M1452.84,-1416.93C1442.61,-1385.87 1422.34,-1323.62 1416.85,-1301.28 1410.63,-1276.02 1413.98,-1268.58 1406.48,-1243.66 1403,-1232.11 1391.08,-1205.03 1381.7,-1184.36"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1384.01,-1183.52 1378.88,-1178.17 1379.55,-1185.55 1384.01,-1183.52"/>
 <path fill="none" stroke="#c62828" stroke-width="1.6" d="M1453.15,-1416.95C1445.05,-1391.2 1429.78,-1342.66 1416.85,-1301.28 1409.15,-1276.68 1407.6,-1270.41 1399.6,-1245.91 1392.84,-1225.23 1384.86,-1201.96 1378.81,-1184.52"/>
 <polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1381.25,-1184.07 1376.64,-1178.27 1376.62,-1185.69 1381.25,-1184.07"/>
 </a>
@@ -5426,8 +5424,6 @@
 <g id="edge339" class="edge">
 <title>argument&#45;lookup&#45;table&#45;combinatorial&#45;impossibility&#45;&gt;argument&#45;lookup&#45;table&#45;objection</title>
 <g id="a_edge339"><a xlink:title="attacks">
-<path fill="none" stroke="#c62828" stroke-width="1.6" d="M2828.52,-643.65C2781.06,-641.4 2701.45,-638.32 2672.21,-641.27 2651.51,-643.35 2645.22,-642.44 2626.55,-651.62 2619.8,-654.95 2607.39,-664.99 2595.78,-675.03"/>
-<polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="2594.18,-673.18 2590.54,-679.63 2597.41,-676.86 2594.18,-673.18"/>
 <path fill="none" stroke="#c62828" stroke-width="1.6" d="M2828.39,-641.63C2780.77,-638.02 2696.55,-636.43 2630.01,-660.99 2619.75,-664.77 2609.39,-670.43 2600.17,-676.26"/>
 <polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="2598.91,-674.15 2594.42,-680.05 2601.61,-678.24 2598.91,-674.15"/>
 </a>
@@ -7426,6 +7422,8 @@
 <g id="edge493" class="edge">
 <title>argument&#45;report&#45;scepticism&#45;proves&#45;too&#45;much&#45;&gt;argument&#45;self&#45;model&#45;prediction&#45;phenomenality&#45;neutral</title>
 <g id="a_edge493"><a xlink:title="attacks">
+<path fill="none" stroke="#c62828" stroke-width="1.6" d="M1733.02,-1235.82C1750.4,-1229.38 1770.4,-1222.08 1788.66,-1215.7 1854.23,-1192.77 1930.5,-1167.8 1978.84,-1152.18"/>
+<polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1979.32,-1154.6 1985.23,-1150.12 1977.82,-1149.93 1979.32,-1154.6"/>
 <path fill="none" stroke="#c62828" stroke-width="1.6" d="M1732.97,-1235.84C1750.37,-1229.39 1770.38,-1222.09 1788.66,-1215.7 1854.25,-1192.76 1930.55,-1167.78 1978.92,-1152.15"/>
 <polygon fill="#c62828" stroke="#c62828" stroke-width="1.6" points="1979.4,-1154.57 1985.31,-1150.09 1977.9,-1149.91 1979.4,-1154.57"/>
 </a>
@@ -8991,8 +8989,8 @@
 <title>claim&#45;alternatives&#45;genuinely&#45;open</title>
 <g id="a_node146"><a xlink:href="../web/claims/alternatives-genuinely-open.md" xlink:title="At the moment of a free choice, more than one course of action is genuinely open to the agent">
 <path fill="#cfe0f5" stroke="#5b8fbf" d="M981.25,-93C981.25,-93 924,-93 924,-93 918,-93 912,-87 912,-81 912,-81 912,-69 912,-69 912,-63 918,-57 924,-57 924,-57 981.25,-57 981.25,-57 987.25,-57 993.25,-63 993.25,-69 993.25,-69 993.25,-81 993.25,-81 993.25,-87 987.25,-93 981.25,-93"/>
-<text xml:space="preserve" text-anchor="middle" x="952.62" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">alternatives</text>
-<text xml:space="preserve" text-anchor="middle" x="952.62" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00">genuinely open</text>
+<text xml:space="preserve" text-anchor="middle" x="952.63" y="-76.75" font-family="Helvetica,sans-Serif" font-size="10.00">alternatives</text>
+<text xml:space="preserve" text-anchor="middle" x="952.63" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00">genuinely open</text>
 </a>
 </g>
 </g>
@@ -11316,8 +11314,8 @@
 <title>claim&#45;responsibility&#45;partly&#45;instinctual</title>
 <g id="a_node325"><a xlink:href="../web/claims/responsibility-partly-instinctual.md" xlink:title="Responsibility judgments are in part deliverances of an evolved moral instinct rather than reason, so they need not be rationally consistent">
 <path fill="#cfe0f5" stroke="#5b8fbf" d="M1215.25,-2202C1215.25,-2202 1152,-2202 1152,-2202 1146,-2202 1140,-2196 1140,-2190 1140,-2190 1140,-2178 1140,-2178 1140,-2172 1146,-2166 1152,-2166 1152,-2166 1215.25,-2166 1215.25,-2166 1221.25,-2166 1227.25,-2172 1227.25,-2178 1227.25,-2178 1227.25,-2190 1227.25,-2190 1227.25,-2196 1221.25,-2202 1215.25,-2202"/>
-<text xml:space="preserve" text-anchor="middle" x="1183.62" y="-2185.75" font-family="Helvetica,sans-Serif" font-size="10.00">responsibility</text>
-<text xml:space="preserve" text-anchor="middle" x="1183.62" y="-2174.5" font-family="Helvetica,sans-Serif" font-size="10.00">partly instinctual</text>
+<text xml:space="preserve" text-anchor="middle" x="1183.63" y="-2185.75" font-family="Helvetica,sans-Serif" font-size="10.00">responsibility</text>
+<text xml:space="preserve" text-anchor="middle" x="1183.63" y="-2174.5" font-family="Helvetica,sans-Serif" font-size="10.00">partly instinctual</text>
 </a>
 </g>
 </g>
@@ -11523,8 +11521,8 @@
 <title>claim&#45;soul&#45;is&#45;form&#45;of&#45;body</title>
 <g id="a_node340"><a xlink:href="../web/claims/soul-is-form-of-body.md" xlink:title="The mind is the form of a living body">
 <path fill="#cfe0f5" stroke="#5b8fbf" d="M921.25,-1860C921.25,-1860 867,-1860 867,-1860 861,-1860 855,-1854 855,-1848 855,-1848 855,-1836 855,-1836 855,-1830 861,-1824 867,-1824 867,-1824 921.25,-1824 921.25,-1824 927.25,-1824 933.25,-1830 933.25,-1836 933.25,-1836 933.25,-1848 933.25,-1848 933.25,-1854 927.25,-1860 921.25,-1860"/>
-<text xml:space="preserve" text-anchor="middle" x="894.12" y="-1843.75" font-family="Helvetica,sans-Serif" font-size="10.00">soul is form of</text>
-<text xml:space="preserve" text-anchor="middle" x="894.12" y="-1832.5" font-family="Helvetica,sans-Serif" font-size="10.00">body</text>
+<text xml:space="preserve" text-anchor="middle" x="894.13" y="-1843.75" font-family="Helvetica,sans-Serif" font-size="10.00">soul is form of</text>
+<text xml:space="preserve" text-anchor="middle" x="894.13" y="-1832.5" font-family="Helvetica,sans-Serif" font-size="10.00">body</text>
 </a>
 </g>
 </g>

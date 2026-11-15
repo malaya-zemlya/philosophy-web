@@ -5,6 +5,7 @@ title: The relevance-filter regress — selecting mind-relevant causal relations
 headword: Relevance-filter regress
 author: mishka
 status: asserted
+pattern: dilemma
 tags: [philosophy-of-mind, functionalism, computation]
 premise: [claim-physics-delivers-all-dispositions-indiscriminately]
 attacks: [argument-causal-structure-supplies-invariant, claim-causal-structure-fixes-decomposition]

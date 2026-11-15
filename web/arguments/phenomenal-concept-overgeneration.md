@@ -5,6 +5,7 @@ title: The phenomenal-concept strategy over-generates — it debunks the self-kn
 headword: Phenomenal-concept overgeneration
 author: mishka
 status: asserted
+pattern: dilemma
 tags: [philosophy-of-mind, consciousness, epistemology, bayesian]
 premise: [claim-phenomenal-concept-isolation-tradeoff]
 concludes: claim-phenomenal-concept-isolation-tradeoff

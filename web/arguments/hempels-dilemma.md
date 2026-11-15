@@ -5,6 +5,7 @@ title: Hempel's dilemma — physicalism defined by current physics is false, by 
 headword: Hempel's dilemma
 author: hempel
 status: contested
+pattern: dilemma
 tags: [metaphysics, philosophy-of-mind, philosophy-of-science, physicalism]
 style: encyclopedia
 premise: [claim-current-physics-incomplete, claim-future-physics-unspecifiable]
