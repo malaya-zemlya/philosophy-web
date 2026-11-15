@@ -40,8 +40,10 @@ are not incidental features of conscious processing but part of the role it play
 external process could play the role while keeping the feature that makes it external, namely being
 reached through perception and action. A second line of reply targets premise 1 for consciousness in
 particular: if phenomenal character is not exhausted by functional role, as many anti-physicalists
-hold, then parity of role does not settle parity of experience, though this reply is not open to the
-functionalists who are the argument's main audience.
+hold, then parity of role does not settle parity of experience. This reply is not open to
+functionalists, nor to anti-physicalists such as Chalmers who hold that experience, though not
+identical to functional organization, is lawfully fixed by it ([organizational-invariance](../claims/organizational-invariance.md)).
+For them the dispute turns entirely on premise 2.
 
 ### In plain terms
 
