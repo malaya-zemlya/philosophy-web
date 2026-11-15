@@ -243,6 +243,9 @@
 ## [argument-humean-defense-of-orthogonality](arguments/humean-defense-of-orthogonality.md)
 - type: argument | author: bostrom | status: asserted
 
+## [argument-illusion-mechanism-grain-dilemma](arguments/illusion-mechanism-grain-dilemma.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-indexical-reply](arguments/indexical-reply.md)
 - type: argument | author: perry | status: asserted
 
@@ -300,6 +303,9 @@
   - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --supports-->
 
 ## [argument-llmary-token-encounter](arguments/llmary-token-encounter.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-locus-of-illusion-dilemma](arguments/locus-of-illusion-dilemma.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md)
@@ -459,6 +465,9 @@
   - [argument-de-novo-origination-breaks-report-parity](arguments/de-novo-origination-breaks-report-parity.md) --responds_to-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --attacks-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --responds_to-->
+
+## [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md)
 - type: argument | author: generic | status: asserted
@@ -697,6 +706,11 @@
 - type: claim | author: searle | status: asserted
 - backlinks:
   - [argument-chinese-room-derivation](arguments/chinese-room-derivation.md) --premise-->
+
+## [claim-causal-dependence-representation-trivial](claims/causal-dependence-representation-trivial.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md) --premise-->
 
 ## [claim-causal-structure-fixes-decomposition](claims/causal-structure-fixes-decomposition.md)
 - type: claim | author: generic | status: contested
@@ -974,6 +988,11 @@
 - backlinks:
   - [argument-floating-man](arguments/floating-man.md) --premise-->
 
+## [claim-folk-lack-phenomenal-concept](claims/folk-lack-phenomenal-concept.md)
+- type: claim | author: sytsma | status: asserted
+- backlinks:
+  - [argument-locus-of-illusion-dilemma](arguments/locus-of-illusion-dilemma.md) --premise-->
+
 ## [claim-folk-psychology-is-false-theory](claims/folk-psychology-is-false-theory.md)
 - type: claim | author: churchland | status: asserted
 - backlinks:
@@ -1095,6 +1114,22 @@
 - type: claim | author: parfit | status: asserted
 - backlinks:
   - [argument-fission](arguments/fission.md) --supports-->
+
+## [claim-illusion-mechanism-lacks-principled-grain](claims/illusion-mechanism-lacks-principled-grain.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-illusion-mechanism-grain-dilemma](arguments/illusion-mechanism-grain-dilemma.md) --concludes-->
+
+## [claim-illusionism-is-negative-thesis](claims/illusionism-is-negative-thesis.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-illusion-mechanism-grain-dilemma](arguments/illusion-mechanism-grain-dilemma.md) --premise-->
+  - [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md) --premise-->
+
+## [claim-illusionist-representationalism-not-brain-bound](claims/illusionist-representationalism-not-brain-bound.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md) --concludes-->
 
 ## [claim-imaginary-blockhead-no-secure-verdict](claims/imaginary-blockhead-no-secure-verdict.md)
 - type: claim | author: mishka | status: asserted
@@ -1460,6 +1495,11 @@
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
   - [argument-causal-exclusion](arguments/causal-exclusion.md) --premise-->
 
+## [claim-nontrivial-applicability-requires-failure-cases](claims/nontrivial-applicability-requires-failure-cases.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md) --premise-->
+
 ## [claim-observable-universe-finite-storage](claims/observable-universe-finite-storage.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -1545,6 +1585,7 @@
 ## [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md)
 - type: claim | author: frankish | status: asserted
 - backlinks:
+  - [argument-locus-of-illusion-dilemma](arguments/locus-of-illusion-dilemma.md) --attacks-->
   - [position-illusionism](positions/illusionism.md) --commits_to-->
 
 ## [claim-physical-church-turing-thesis](claims/physical-church-turing-thesis.md)
@@ -1847,6 +1888,11 @@
   - [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md) --premise-->
   - [character-mu-043](characters/mu-043.md) --commits_to-->
 
+## [claim-use-criteria-regress](claims/use-criteria-regress.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md) --premise-->
+
 ## [claim-value-specification-hard](claims/value-specification-hard.md)
 - type: claim | author: yudkowsky | status: asserted
 - backlinks:
@@ -2094,9 +2140,11 @@
   - [argument-fission](arguments/fission.md) --uses_concept-->
   - [argument-gap-deflated-by-phenomenal-concepts](arguments/gap-deflated-by-phenomenal-concepts.md) --uses_concept-->
   - [argument-parfit-rewiring](arguments/parfit-rewiring.md) --uses_concept-->
+  - [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md) --uses_concept-->
   - [argument-sorites-paradox](arguments/sorites-paradox.md) --uses_concept-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --uses_concept-->
   - [claim-identity-is-psychological-continuity](claims/identity-is-psychological-continuity.md) --uses_concept-->
+  - [claim-illusionist-representationalism-not-brain-bound](claims/illusionist-representationalism-not-brain-bound.md) --uses_concept-->
   - [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md) --uses_concept-->
   - [position-psychological-continuity-theory](positions/psychological-continuity-theory.md) --uses_concept-->
   - [question-onset-of-consciousness](questions/onset-of-consciousness.md) --uses_concept-->
@@ -2216,6 +2264,7 @@
   - [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md) --uses_concept-->
   - [claim-functional-description-structural-dynamical-only](claims/functional-description-structural-dynamical-only.md) --uses_concept-->
   - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --uses_concept-->
+  - [claim-illusionism-is-negative-thesis](claims/illusionism-is-negative-thesis.md) --uses_concept-->
   - [claim-implementation-requires-counterfactual-structure](claims/implementation-requires-counterfactual-structure.md) --uses_concept-->
   - [claim-llm-has-mental-states](claims/llm-has-mental-states.md) --uses_concept-->
   - [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md) --uses_concept-->
@@ -2249,10 +2298,12 @@
   - [argument-counterfactuals-yield-non-triviality-not-uniqueness](arguments/counterfactuals-yield-non-triviality-not-uniqueness.md) --uses_concept-->
   - [argument-decomposition-indeterminacy](arguments/decomposition-indeterminacy.md) --uses_concept-->
   - [argument-dense-china-brain-regress](arguments/dense-china-brain-regress.md) --uses_concept-->
+  - [argument-illusion-mechanism-grain-dilemma](arguments/illusion-mechanism-grain-dilemma.md) --uses_concept-->
   - [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md) --uses_concept-->
   - [argument-lookup-table-objection](arguments/lookup-table-objection.md) --uses_concept-->
   - [argument-organisational-grain-dissolves-dilemma](arguments/organisational-grain-dissolves-dilemma.md) --uses_concept-->
   - [argument-relevance-filter-regress](arguments/relevance-filter-regress.md) --uses_concept-->
+  - [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md) --uses_concept-->
   - [argument-role-grain-dilemma](arguments/role-grain-dilemma.md) --uses_concept-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --uses_concept-->
   - [claim-behaviour-insufficient-for-mind](claims/behaviour-insufficient-for-mind.md) --uses_concept-->
@@ -2260,6 +2311,7 @@
   - [claim-counterfactual-structure-underdetermines-decomposition](claims/counterfactual-structure-underdetermines-decomposition.md) --uses_concept-->
   - [claim-functional-decomposition-relative](claims/functional-decomposition-relative.md) --uses_concept-->
   - [claim-functionalism-owes-decomposition-invariant](claims/functionalism-owes-decomposition-invariant.md) --uses_concept-->
+  - [claim-illusion-mechanism-lacks-principled-grain](claims/illusion-mechanism-lacks-principled-grain.md) --uses_concept-->
   - [claim-organisational-grain-faces-own-grain-dilemma](claims/organisational-grain-faces-own-grain-dilemma.md) --uses_concept-->
   - [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md) --uses_concept-->
   - [claim-role-grain-is-organisational](claims/role-grain-is-organisational.md) --uses_concept-->
@@ -2424,9 +2476,11 @@
   - [argument-llm-representations-reply](arguments/llm-representations-reply.md) --uses_concept-->
   - [argument-rejoinder-room-in-robot](arguments/rejoinder-room-in-robot.md) --uses_concept-->
   - [argument-robot-reply](arguments/robot-reply.md) --uses_concept-->
+  - [claim-causal-dependence-representation-trivial](claims/causal-dependence-representation-trivial.md) --uses_concept-->
   - [claim-intentional-content-from-biological-function](claims/intentional-content-from-biological-function.md) --uses_concept-->
   - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --uses_concept-->
   - [claim-intentionality-is-stance-relative](claims/intentionality-is-stance-relative.md) --uses_concept-->
+  - [claim-use-criteria-regress](claims/use-criteria-regress.md) --uses_concept-->
   - [concept-extended-mind](concepts/extended-mind.md) --uses_concept-->
   - [position-intentional-stance](positions/intentional-stance.md) --uses_concept-->
   - [position-teleosemantics](positions/teleosemantics.md) --uses_concept-->
@@ -2651,6 +2705,8 @@
 ## [concept-phenomenal-consciousness](concepts/phenomenal-consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-locus-of-illusion-dilemma](arguments/locus-of-illusion-dilemma.md) --uses_concept-->
+  - [claim-folk-lack-phenomenal-concept](claims/folk-lack-phenomenal-concept.md) --uses_concept-->
   - [claim-intentionality-grounded-in-phenomenality](claims/intentionality-grounded-in-phenomenality.md) --uses_concept-->
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
@@ -3204,6 +3260,9 @@
 ## [source-berthier-1988](sources/berthier-1988.md)
 - type: source | author: mishka | status: asserted
 
+## [source-bickhard-2009](sources/bickhard-2009.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-binder-2024](sources/binder-2024.md)
 - type: source | author: mishka | status: asserted
 
@@ -3444,6 +3503,9 @@
 ## [source-dominus-2011](sources/dominus-2011.md)
 - type: source | author: mishka | status: asserted
 
+## [source-dretske-1986](sources/dretske-1986.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dretske-1988](sources/dretske-1988.md)
 - type: source | author: mishka | status: asserted
 
@@ -3451,6 +3513,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-du-bois-reymond-1872](sources/du-bois-reymond-1872.md)
+- type: source | author: mishka | status: asserted
+
+## [source-dung-2022](sources/dung-2022.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-elisabeth-1643](sources/elisabeth-1643.md)
@@ -3858,6 +3923,9 @@
 ## [source-moore-1939](sources/moore-1939.md)
 - type: source | author: mishka | status: asserted
 
+## [source-mossio-saborido-moreno-2009](sources/mossio-saborido-moreno-2009.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-murphy-2006](sources/murphy-2006.md)
 - type: source | author: mishka | status: asserted
 
@@ -3984,6 +4052,9 @@
 ## [source-rosenberg-2004](sources/rosenberg-2004.md)
 - type: source | author: mishka | status: asserted
 
+## [source-rosenblueth-wiener-bigelow-1943](sources/rosenblueth-wiener-bigelow-1943.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-rosenthal-2005](sources/rosenthal-2005.md)
 - type: source | author: mishka | status: asserted
 
@@ -4075,6 +4146,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-content-externalism](sources/sep-content-externalism.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-content-teleological](sources/sep-content-teleological.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-creativity](sources/sep-creativity.md)
@@ -4216,6 +4290,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-swinburne-1986](sources/swinburne-1986.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sytsma-machery-2010](sources/sytsma-machery-2010.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-taber-2003](sources/taber-2003.md)

@@ -64,3 +64,11 @@ science can explain. The new question becomes: why is the illusion so powerful?
   opponents that take phenomenal character to be real.
 - [mysterianism](mysterianism.md) — agrees the matter is striking but holds the gap real-yet-unsolvable,
   where illusionism denies there is a gap.
+- [illusionism-is-negative-thesis](../claims/illusionism-is-negative-thesis.md): the point that illusionism needs a separate positive
+  theory of what consciousness is.
+- [locus-of-illusion-dilemma](../arguments/locus-of-illusion-dilemma.md): the objection that asks who is under the illusion, and
+  whether it exists before philosophical reflection.
+- [illusion-mechanism-grain-dilemma](../arguments/illusion-mechanism-grain-dilemma.md): the objection that the illusion mechanism is either
+  too strict to include animals or too loose to exclude thermostats.
+- [representational-slope-from-illusionism](../arguments/representational-slope-from-illusionism.md): the argument that a representationalist
+  positive theory spreads consciousness far beyond brains.
