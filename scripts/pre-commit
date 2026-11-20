@@ -13,6 +13,8 @@ uv run python "$ROOT/scripts/lint.py" || {
 git add "$ROOT/web/INDEX.md"   # keep the generated index in sync
 # lint also re-renders [[id]] -> clickable links in bodies/transcripts; re-stage any file
 # already part of this commit that it just rewrote (leaves unstaged files untouched).
-git diff --cached --name-only | while read -r f; do
+# Deletions are skipped: there is nothing to re-stage, and `git add` on a deleted path inside
+# an ignored folder (e.g. untracking external/) errors and would abort the commit.
+git diff --cached --name-only --diff-filter=d | while read -r f; do
   [ -n "$f" ] && git add -- "$ROOT/$f"
 done
