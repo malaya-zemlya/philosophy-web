@@ -125,3 +125,11 @@ would tell us *what* goes with feeling, not *why* brain activity should feel lik
   stages of processing, not the earliest ones.
 - [onset-of-consciousness](../questions/onset-of-consciousness.md): the question of when consciousness begins in development, where the
   correlates are least securely established.
+- [ncc-programme-lacks-causal-hypotheses](../claims/ncc-programme-lacks-causal-hypotheses.md): the diagnosis that the programme has stalled for
+  want of causal hypotheses.
+- [empirical-exhaustibility-of-consciousness](../questions/empirical-exhaustibility-of-consciousness.md): whether empirical methods can study
+  consciousness exhaustively.
+- [vertical-and-horizontal-problems-of-consciousness](vertical-and-horizontal-problems-of-consciousness.md): a classification that places the
+  correlates programme within the mind-body problem.
+- [mereological-fallacy](mereological-fallacy.md): the charge that ascribing conscious states to brain parts is a
+  conceptual error.

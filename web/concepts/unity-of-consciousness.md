@@ -131,3 +131,8 @@ one experience at a time.
 - [unity-dualizes-to-unity-of-agency](../claims/unity-dualizes-to-unity-of-agency.md): the claim that the unity of consciousness has a counterpart in the unity of agency.
 - [access-vs-phenomenal-consciousness](access-vs-phenomenal-consciousness.md): the distinction behind access unity and phenomenal unity.
 - [boundary-problem](boundary-problem.md): the question of what fixes the edges of a unified subject.
+- [mind-body-problem-inseparable-from-unity-and-binding](../claims/mind-body-problem-inseparable-from-unity-and-binding.md): the claim that the mind-body problem
+  cannot be studied apart from the problem of unity.
+- [vertical-and-horizontal-problems-of-consciousness](vertical-and-horizontal-problems-of-consciousness.md): a classification on which unity and
+  binding concern part–whole relations.
+- [postdiction](postdiction.md): illusions showing that a unified experience at a moment is assembled from input arriving over an interval.
