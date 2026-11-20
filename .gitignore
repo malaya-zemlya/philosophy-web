@@ -1,9 +1,10 @@
 # Python virtual environment (created via `uv venv`; see CLAUDE.md)
 .venv/
 
-# Python bytecode
+# Python bytecode and test caches
 __pycache__/
 *.py[cod]
+.pytest_cache/
 
 # macOS
 .DS_Store
