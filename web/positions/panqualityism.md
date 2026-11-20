@@ -7,7 +7,7 @@ author: feigl
 status: asserted
 style: encyclopedia
 tags: [philosophy-of-mind, consciousness, metaphysics, panpsychism]
-commits_to: [claim-qualities-exist-unexperienced, claim-micro-subjects-do-not-sum]
+commits_to: [claim-qualities-exist-unexperienced, claim-micro-subjects-do-not-sum, claim-protophenomenal-properties-fundamental]
 rejects: [claim-consciousness-fundamental-ubiquitous, claim-qualities-do-not-necessitate-awareness]
 answers: [question-hard-problem]
 uses_concept: [concept-panpsychism, concept-qualia, concept-combination-problem-panpsychism, concept-intrinsic-structural-distinction]
@@ -58,7 +58,7 @@ is neutral material that counts as mental in one context and physical in another
 intrinsic qualities and that the qualities we know from experience are the only ones we can conceive
 [unger-1999](../sources/unger-1999.md). Panqualityism is now usually classed as a form of *panprotopsychism*, the view
 that the fundamental properties are not themselves experiential but are precursors from which experience
-can be constituted, and as a form of [russellian-monism](russellian-monism.md), since the qualities play the role
+can be constituted ([protophenomenal-properties-fundamental](../claims/protophenomenal-properties-fundamental.md)), and as a form of [russellian-monism](russellian-monism.md), since the qualities play the role
 of the intrinsic natures that physics leaves unspecified ([intrinsic-structural-distinction](../concepts/intrinsic-structural-distinction.md))
 [chalmers-2017](../sources/chalmers-2017.md), [sep-panpsychism](../sources/sep-panpsychism.md).
 
@@ -136,6 +136,8 @@ pain can exist without anyone feeling it.
 ### See also
 
 - [qualities-exist-unexperienced](../claims/qualities-exist-unexperienced.md): the core claim that qualities can exist unexperienced.
+- [protophenomenal-properties-fundamental](../claims/protophenomenal-properties-fundamental.md): the general panprotopsychist thesis, of which the view
+  is the quality-based form.
 - [qualities-do-not-necessitate-awareness](../claims/qualities-do-not-necessitate-awareness.md): Chalmers's objection, the quality-awareness gap.
 - [panpsychism](../concepts/panpsychism.md): the family of views, in which panqualityism is the variety that puts qualities
   rather than experiences at the base.

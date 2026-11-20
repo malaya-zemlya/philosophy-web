@@ -11,7 +11,7 @@ style: encyclopedia
 created: 2026-06-07
 ---
 
-This claim holds that experience — or proto-experience — is a fundamental, ubiquitous feature of the
+This claim holds that experience is a fundamental, ubiquitous feature of the
 physical world: present, in some rudimentary form, even in the simplest physical entities. The
 consciousness of a mind like yours is then not produced from wholly non-experiential matter at some
 threshold, but *constituted* by the experiential properties already carried by that mind's micro-parts.
@@ -26,7 +26,10 @@ macro-subject.
 
 **Who would deny it.** Physicalists and [illusionists](../positions/illusionism.md) deny it, holding there is no
 fundamental experience to distribute in the first place; [dualists](../positions/dualism.md) deny its ubiquity,
-holding consciousness fundamental but *non-physical* and not spread through matter.
+holding consciousness fundamental but *non-physical* and not spread through matter. Panprotopsychists,
+including panqualityists, deny it too, holding that what is fundamental and ubiquitous is not experience
+but [protophenomenal-properties-fundamental](protophenomenal-properties-fundamental.md); on their view there are no micro-subjects at the
+fundamental level, which is why the combination problem does not bear on them in the same way.
 
 Distinct from [the dualist claim that consciousness is
 fundamental but non-physical](consciousness-fundamental-nonphysical.md), and from [the

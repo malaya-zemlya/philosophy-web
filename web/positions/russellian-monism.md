@@ -38,8 +38,9 @@ been revived in recent decades by Stoljar, Strawson, and Chalmers.
 
 Russellian monism comes in degrees of commitment about *what* the intrinsic nature is. In its
 *constitutive* form it just *is* a kind of [panpsychism](panpsychism.md) (the intrinsic natures are
-themselves experiential) or *panprotopsychism* (they are proto-experiential — not yet consciousness, but
-the special non-structural ingredients from which it can be constituted). It contrasts with
+themselves experiential) or *panprotopsychism* (they are proto-experiential: not yet consciousness, but
+the special non-structural ingredients from which it can be constituted, as
+[protophenomenal-properties-fundamental](../claims/protophenomenal-properties-fundamental.md) holds). It contrasts with
 [dualism](dualism.md), for which consciousness is non-physical rather than the intrinsic-physical
 filling; and with [mysterianism](mysterianism.md), which holds the psychophysical link to be
 permanently beyond human grasp where Russellian monism instead *proposes what that link is*.

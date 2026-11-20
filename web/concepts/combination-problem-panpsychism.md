@@ -125,9 +125,11 @@ patients, conjoined twins and tightly coordinated groups as evidence that the bo
 shift with how tightly its parts are integrated [roelofs-2019](../sources/roelofs-2019.md). This reply is developed in
 [subjects-can-combine](../arguments/subjects-can-combine.md).
 
-*Panqualityism* and *panprotopsychism* deny that the fundamental entities are subjects at all. If
-micro-entities carry only unexperienced qualities, or properties that are merely precursors of
-experience, there are no micro-subjects to sum. The price is that subjecthood must then be explained
+*Panqualityism* and *panprotopsychism* leave the key premise standing and deny instead that the
+fundamental entities are subjects at all. If micro-entities carry only unexperienced qualities, or
+properties that are merely precursors of experience, there are no micro-subjects to sum. Coleman, the
+leading panqualityist, endorses the subject-summing argument and offers panqualityism as the way out of
+it [coleman-2014](../sources/coleman-2014.md). The price is that subjecthood must then be explained
 somewhere further up, which threatens to reintroduce the gap.
 
 *Emergentist* panpsychism gives up constitution. Macro-subjects are new fundamental entities that arise

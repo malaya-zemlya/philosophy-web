@@ -17,7 +17,7 @@ created: 2026-06-07
 fundamental and ubiquitous feature of the physical world, and adopts that thesis as its answer to the
 problem of how experience fits into nature. It claims that the rich consciousness of a human or animal is
 not conjured from wholly mindless matter at some threshold of complexity, but is *constituted* by the
-experiential — or proto-experiential — properties already carried by that matter's simplest constituents.
+experiential properties already carried by that matter's simplest constituents.
 The view is set out as a doctrine, with its varieties and arguments, in the concept entry
 [panpsychism](../concepts/panpsychism.md); this entry records what the position commits to and how it stands against its
 neighbours.
@@ -39,7 +39,8 @@ it is firmly realist about experience: there is genuine felt consciousness to di
 to explain away. Its relation to [Russellian monism](russellian-monism.md) is closest of all —
 *constitutive* panpsychism simply *is* a Russellian view on which the intrinsic natures physics leaves
 blank turn out to be experiential, while the more cautious *panprotopsychism* makes them merely
-proto-experiential.
+proto-experiential ([protophenomenal-properties-fundamental](../claims/protophenomenal-properties-fundamental.md)), a variant this position does not
+include and of which [panqualityism](panqualityism.md) is the best-developed form.
 
 The position's standing weak point is the [combination problem](../arguments/combination-problem.md): if each
 micro-part has its own experience and point of view, how do countless micro-subjects compose the single,

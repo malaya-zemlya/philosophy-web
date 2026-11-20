@@ -60,7 +60,10 @@ A second soft spot is the **leap from acquaintance to identification** (premises
 That experience is the *only* intrinsic nature we know does not entail that it *is* matter's intrinsic
 nature; the strictly rational response, as Russell himself granted, may be *agnosticism* about that nature
 rather than its experiential reading. The argument closes the gap only with a parsimony-and-anti-emergence
-consideration — which is why it is abductive, not a proof. Premise (3) carries a further liability:
+consideration — which is why it is abductive, not a proof. The panprotopsychist accepts premises (1)
+and (2) and denies (5): an intrinsic nature that is not experiential but transparently constitutes
+experience ([protophenomenal-properties-fundamental](../claims/protophenomenal-properties-fundamental.md)) is not brute emergence, and it avoids the
+combination problem that the experiential conclusion faces. Premise (3) carries a further liability:
 *content externalism* threatens the claim that experience is fully intrinsic.
 
 ### How it differs from its neighbours

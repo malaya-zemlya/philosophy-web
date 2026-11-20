@@ -45,11 +45,15 @@ subject-combination face is the most resistant.
 
 ### The weak point
 
-The objection turns on premise (1). Constitutive panpsychists reply with accounts of *phenomenal bonding*
-or fusion on which subjects do combine after all. Alternatively they retreat to *panqualityism*, which
-denies that there are micro-*subjects* to combine in the first place — only unexperienced qualities — and
-pays for the move with a residual explanatory gap at the point where subjecthood has to be added back. Which
-of these escapes succeeds is the live question on which the fate of constitutive panpsychism turns.
+Panpsychists who keep micro-subjects must deny premise (1). Some offer an account of *phenomenal bonding*
+on which subjects do combine after all [goff-2016](../sources/goff-2016.md); combinationists argue that subjects
+demonstrably merge and divide [subjects-can-combine](subjects-can-combine.md). The other escape leaves premise (1)
+standing. [panqualityism](../positions/panqualityism.md) grants that subjects cannot sum, and Coleman developed it on exactly
+that basis [coleman-2014](../sources/coleman-2014.md), but denies that the fundamental level contains subjects at all. It
+therefore accepts the argument as a refutation of micro-subject panpsychism and offers in its place a
+constitutive view built from unexperienced qualities. The price is a residual gap at the point where
+awareness has to be added back [qualities-do-not-necessitate-awareness](../claims/qualities-do-not-necessitate-awareness.md). Which of these escapes
+succeeds is the live question on which the fate of constitutive panpsychism turns.
 
 ### In plain terms
 
@@ -74,3 +78,5 @@ which looks just as hard.
 - [combination-problem-panpsychism](../concepts/combination-problem-panpsychism.md) — the survey entry on the problem as a whole: its history,
   its subject, quality and structure faces, and the families of response.
 - [decombination-problem](../concepts/decombination-problem.md) — the mirror-image problem facing cosmopsychism.
+- [panqualityism](../positions/panqualityism.md) — the view that accepts premise (1) and avoids the conclusion by denying
+  that there are micro-subjects.
