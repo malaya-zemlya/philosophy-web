@@ -34,6 +34,35 @@ physics leaves blank.
 The view descends from Bertrand Russell's *The Analysis of Matter* ([1927](../sources/russell-1927.md)) and has
 been revived in recent decades by Stoljar, Strawson, and Chalmers.
 
+### Russell's view and the later division
+
+The name is recent. Russell never used it, and the view credited to him is a reconstruction. In *The
+Analysis of Matter* he argued that physics tells us only the abstract structure of events, and suggested
+that the one place we know their intrinsic character is in our own *percepts*, the events in our brains
+with which we are directly acquainted [russell-1927](../sources/russell-1927.md). Elsewhere he left that character
+unspecified. His wider metaphysics was a [neutral-monism](neutral-monism.md), on which the basic events are in
+themselves neither mental nor physical. Later readers, Chalmers among them, take the suggestion that
+percepts reveal the intrinsic nature of brain events to be the germ of the modern view
+[chalmers-1996](../sources/chalmers-1996.md), [sep-russellian-monism](../sources/sep-russellian-monism.md).
+
+The question of what that intrinsic nature is came up almost at once. Arthur Eddington, starting from
+the same picture of physics as a record of mere "pointer readings," gave the hidden background a mental
+reading: "the stuff of the world is mind-stuff." He immediately qualified this, saying that the
+mind-stuff is "something more general than our individual conscious minds" [eddington-1928](../sources/eddington-1928.md).
+Neither Russell nor Eddington, however, framed the matter as a choice between two named alternatives.
+That framing is due to David Chalmers, who introduced the term *protophenomenal* for properties that are
+not themselves experiential but can collectively constitute experience [chalmers-1996](../sources/chalmers-1996.md), and later
+set out the resulting division in full [chalmers-2017](../sources/chalmers-2017.md).
+
+Contemporary Russellian monism is accordingly a genus with species. On *Russellian panpsychism* the
+intrinsic natures are experiential, as Galen Strawson [strawson-2006](../sources/strawson-2006.md) and Philip Goff
+[goff-2017](../sources/goff-2017.md) hold. On *Russellian panprotopsychism* they are protophenomenal
+([protophenomenal-properties-fundamental](../claims/protophenomenal-properties-fundamental.md)), and [panqualityism](panqualityism.md) is its best-developed
+form. Physicalist versions, which take the intrinsic natures to be physical properties that physics does
+not describe [stoljar-2001](../sources/stoljar-2001.md), are usually classed with the second species, as is Russell's own
+neutral monism when it is read with today's categories [sep-russellian-monism](../sources/sep-russellian-monism.md). This entry records
+only what the species share, which is why it commits to neither.
+
 ### How it differs from neighbouring views
 
 Russellian monism comes in degrees of commitment about *what* the intrinsic nature is. In its

@@ -3613,6 +3613,9 @@
 ## [source-eagleman-sejnowski-2000](sources/eagleman-sejnowski-2000.md)
 - type: source | author: mishka | status: asserted
 
+## [source-eddington-1928](sources/eddington-1928.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-elisabeth-1643](sources/elisabeth-1643.md)
 - type: source | author: mishka | status: asserted
 
@@ -4334,6 +4337,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-qualia-inverted](sources/sep-qualia-inverted.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-russellian-monism](sources/sep-russellian-monism.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-self-knowledge](sources/sep-self-knowledge.md)
