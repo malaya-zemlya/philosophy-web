@@ -66,3 +66,5 @@ move in this corner of philosophy is to suggest that consciousness is what fills
 - [russellian-monism](../positions/russellian-monism.md) — the view that consciousness is the intrinsic nature physics leaves
   blank.
 - [russell-1927](../sources/russell-1927.md) — the historical root of the structural reading of physics this entry rests on.
+- [qualia-are-relational](../claims/qualia-are-relational.md) — the view that qualia fall on the relational side of the
+  distinction, against the thesis that consciousness is a paradigm intrinsic property.

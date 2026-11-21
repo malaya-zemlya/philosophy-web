@@ -80,3 +80,5 @@ representation](../questions/acquaintance-datum-or-representation.md)).
   absolute reading.
 - [acquaintance-datum-or-representation](../questions/acquaintance-datum-or-representation.md) — the substantive residue once the senses are pulled
   apart.
+- [qualia-can-be-inaccessible](../claims/qualia-can-be-inaccessible.md) — a quale inaccessible even to its owner would be a candidate for
+  absolute unobservability.

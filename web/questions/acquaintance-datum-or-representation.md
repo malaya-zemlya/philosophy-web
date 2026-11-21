@@ -82,3 +82,5 @@ already assumes its own answer here, which is why this one keeps ending in a sta
   the datum answer licenses.
 - [epistemic-access-to-experience](epistemic-access-to-experience.md) — the survey of accounts of self-knowledge of experience, of
   which acquaintance is one.
+- [subject-can-be-wrong-about-own-qualia](../claims/subject-can-be-wrong-about-own-qualia.md) — a realist case for the representation answer: error
+  about one's own qualia is possible whether or not they are illusory.

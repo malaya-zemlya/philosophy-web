@@ -51,3 +51,8 @@ bring on the experience of red, and what that experience leads her to expect, re
 That is the whole of it. Her "knowing red" is entirely a matter of how the experience fits in with
 everything else going on in her mind. Critics say this misses the most important part, which is simply
 *what red looks like*.
+
+### See also
+
+- [qualia-are-relational](qualia-are-relational.md) — the general thesis that qualitative character is relational, of
+  which this is the application to Mary.

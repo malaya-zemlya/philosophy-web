@@ -145,6 +145,7 @@
 - type: argument | author: chalmers | status: asserted
 - backlinks:
   - [argument-dancing-qualia-no-memory-trace](arguments/dancing-qualia-no-memory-trace.md) --attacks-->
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --attacks-->
 
 ## [argument-dancing-qualia-begs-the-question](arguments/dancing-qualia-begs-the-question.md)
 - type: argument | author: mishka | status: asserted
@@ -195,6 +196,11 @@
 
 ## [argument-fading-qualia](arguments/fading-qualia.md)
 - type: argument | author: chalmers | status: asserted
+- backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --attacks-->
+
+## [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md)
 - type: argument | author: searle | status: asserted
@@ -373,6 +379,8 @@
 
 ## [argument-no-appearance-reality-gap](arguments/no-appearance-reality-gap.md)
 - type: argument | author: searle | status: asserted
+- backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --attacks-->
 
 ## [argument-no-arbitrary-line-panpsychism](arguments/no-arbitrary-line-panpsychism.md)
 - type: argument | author: nagel | status: asserted
@@ -436,6 +444,9 @@
 - type: argument | author: good | status: contested
 - backlinks:
   - [argument-diminishing-returns-objection](arguments/diminishing-returns-objection.md) --attacks-->
+
+## [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md)
+- type: argument | author: mishka | status: asserted
 
 ## [argument-real-feel-residue-is-idle](arguments/real-feel-residue-is-idle.md)
 - type: argument | author: mishka | status: asserted
@@ -619,6 +630,11 @@
 - backlinks:
   - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
   - [argument-graded-polarity](arguments/graded-polarity.md) --attacks-->
+
+## [claim-activity-kind-misexperienced](claims/activity-kind-misexperienced.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --premise-->
 
 ## [claim-affirmed-differs-from-unaffirmed](claims/affirmed-differs-from-unaffirmed.md)
 - type: claim | author: avicenna | status: asserted
@@ -889,6 +905,7 @@
 - type: claim | author: seager | status: asserted
 - backlinks:
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --attacks-->
 
 ## [claim-consciousness-noncomputable](claims/consciousness-noncomputable.md)
 - type: claim | author: penrose | status: asserted
@@ -898,7 +915,9 @@
 ## [claim-consciousness-only-known-intrinsic](claims/consciousness-only-known-intrinsic.md)
 - type: claim | author: seager | status: asserted
 - backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --attacks-->
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --premise-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --attacks-->
 
 ## [claim-consciousness-science-needs-engineering-level](claims/consciousness-science-needs-engineering-level.md)
 - type: claim | author: mikhailov | status: asserted
@@ -955,6 +974,8 @@
 
 ## [claim-degraded-states-orchestratorless](claims/degraded-states-orchestratorless.md)
 - type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --premise-->
 
 ## [claim-disanalogies-trace-to-entropy](claims/disanalogies-trace-to-entropy.md)
 - type: claim | author: mishka | status: asserted
@@ -1227,10 +1248,12 @@
 - backlinks:
   - [argument-introspective-confabulation](arguments/introspective-confabulation.md) --supports-->
   - [argument-no-appearance-reality-gap](arguments/no-appearance-reality-gap.md) --attacks-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --premise-->
 
 ## [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md)
 - type: claim | author: russell | status: asserted
 - backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --attacks-->
   - [argument-no-appearance-reality-gap](arguments/no-appearance-reality-gap.md) --supports-->
 
 ## [claim-intuition-warrant-tracks-trained-domain](claims/intuition-warrant-tracks-trained-domain.md)
@@ -1407,6 +1430,7 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --concludes-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --premise-->
 
 ## [claim-mary-gains-self-locating-knowledge](claims/mary-gains-self-locating-knowledge.md)
 - type: claim | author: perry | status: asserted
@@ -1621,6 +1645,7 @@
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --concludes-->
   - [argument-explanatory-gap](arguments/explanatory-gap.md) --premise-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --supports-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --attacks-->
   - [argument-structure-and-dynamics](arguments/structure-and-dynamics.md) --supports-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --supports-->
   - [character-alvin](characters/alvin.md) --commits_to-->
@@ -1680,6 +1705,7 @@
 ## [claim-privileged-first-person-access](claims/privileged-first-person-access.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --attacks-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --premise-->
   - [argument-first-person-access](arguments/first-person-access.md) --premise-->
   - [character-cyril](characters/cyril.md) --commits_to-->
@@ -1714,6 +1740,16 @@
 - type: claim | author: parfit | status: asserted
 - backlinks:
   - [argument-parfit-rewiring](arguments/parfit-rewiring.md) --premise-->
+
+## [claim-qualia-are-relational](claims/qualia-are-relational.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --concludes-->
+
+## [claim-qualia-can-be-inaccessible](claims/qualia-can-be-inaccessible.md)
+- type: claim | author: block | status: asserted
+- backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --premise-->
 
 ## [claim-qualities-do-not-necessitate-awareness](claims/qualities-do-not-necessitate-awareness.md)
 - type: claim | author: chalmers | status: asserted
@@ -1864,6 +1900,11 @@
 - type: claim | author: generic | status: asserted
 - backlinks:
   - [argument-strong-emergence-acceptable](arguments/strong-emergence-acceptable.md) --premise-->
+
+## [claim-subject-can-be-wrong-about-own-qualia](claims/subject-can-be-wrong-about-own-qualia.md)
+- type: claim | author: schwitzgebel | status: asserted
+- backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --premise-->
 
 ## [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md)
 - type: claim | author: mishka | status: asserted
@@ -2029,6 +2070,7 @@
   - [claim-consciousness-is-global-broadcast](claims/consciousness-is-global-broadcast.md) --uses_concept-->
   - [claim-consciousness-is-higher-order-representation](claims/consciousness-is-higher-order-representation.md) --uses_concept-->
   - [claim-posing-the-gap-requires-access](claims/posing-the-gap-requires-access.md) --uses_concept-->
+  - [claim-qualia-can-be-inaccessible](claims/qualia-can-be-inaccessible.md) --uses_concept-->
   - [claim-self-explanation-gap-can-be-architectural](claims/self-explanation-gap-can-be-architectural.md) --uses_concept-->
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-introspective-gap-varieties](concepts/introspective-gap-varieties.md) --uses_concept-->
@@ -2287,6 +2329,7 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-access-symmetry-rebuttal](arguments/access-symmetry-rebuttal.md) --uses_concept-->
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --uses_concept-->
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --uses_concept-->
   - [argument-first-person-access](arguments/first-person-access.md) --uses_concept-->
   - [argument-introspective-confabulation](arguments/introspective-confabulation.md) --uses_concept-->
@@ -2300,6 +2343,8 @@
   - [claim-llm-access-similarity-not-encoding](claims/llm-access-similarity-not-encoding.md) --uses_concept-->
   - [claim-no-acquaintance-with-machine](claims/no-acquaintance-with-machine.md) --uses_concept-->
   - [claim-privileged-first-person-access](claims/privileged-first-person-access.md) --uses_concept-->
+  - [claim-qualia-can-be-inaccessible](claims/qualia-can-be-inaccessible.md) --uses_concept-->
+  - [claim-subject-can-be-wrong-about-own-qualia](claims/subject-can-be-wrong-about-own-qualia.md) --uses_concept-->
   - [concept-confabulation](concepts/confabulation.md) --uses_concept-->
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
   - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
@@ -2575,9 +2620,11 @@
 - type: concept | author: generic | status: asserted
 - backlinks:
   - [argument-intrinsic-nature](arguments/intrinsic-nature.md) --uses_concept-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --uses_concept-->
   - [claim-consciousness-is-intrinsic-property](claims/consciousness-is-intrinsic-property.md) --uses_concept-->
   - [claim-consciousness-only-known-intrinsic](claims/consciousness-only-known-intrinsic.md) --uses_concept-->
   - [claim-protophenomenal-properties-fundamental](claims/protophenomenal-properties-fundamental.md) --uses_concept-->
+  - [claim-qualia-are-relational](claims/qualia-are-relational.md) --uses_concept-->
   - [claim-relations-grounded-in-intrinsic](claims/relations-grounded-in-intrinsic.md) --uses_concept-->
   - [concept-grain-problem](concepts/grain-problem.md) --uses_concept-->
   - [position-panqualityism](positions/panqualityism.md) --uses_concept-->
@@ -2665,6 +2712,7 @@
 - backlinks:
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --uses_concept-->
   - [claim-first-token-update-is-relational](claims/first-token-update-is-relational.md) --uses_concept-->
   - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
 
@@ -2872,7 +2920,13 @@
 ## [concept-qualia](concepts/qualia.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-fallible-access-undercuts-qualia-arguments](arguments/fallible-access-undercuts-qualia-arguments.md) --uses_concept-->
+  - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --uses_concept-->
+  - [claim-activity-kind-misexperienced](claims/activity-kind-misexperienced.md) --uses_concept-->
   - [claim-conscious-content-is-product-like](claims/conscious-content-is-product-like.md) --uses_concept-->
+  - [claim-qualia-are-relational](claims/qualia-are-relational.md) --uses_concept-->
+  - [claim-qualia-can-be-inaccessible](claims/qualia-can-be-inaccessible.md) --uses_concept-->
+  - [claim-subject-can-be-wrong-about-own-qualia](claims/subject-can-be-wrong-about-own-qualia.md) --uses_concept-->
   - [position-panqualityism](positions/panqualityism.md) --uses_concept-->
   - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
 
@@ -3143,6 +3197,7 @@
 - backlinks:
   - [claim-introspection-is-fallible-representation](claims/introspection-is-fallible-representation.md) --answers-->
   - [claim-introspective-acquaintance-is-datum](claims/introspective-acquaintance-is-datum.md) --answers-->
+  - [claim-subject-can-be-wrong-about-own-qualia](claims/subject-can-be-wrong-about-own-qualia.md) --answers-->
 
 ## [question-ai-introspection](questions/ai-introspection.md)
 - type: question | author: generic | status: asserted
@@ -3163,6 +3218,9 @@
 
 ## [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md)
 - type: question | author: generic | status: asserted
+- backlinks:
+  - [claim-qualia-can-be-inaccessible](claims/qualia-can-be-inaccessible.md) --answers-->
+  - [claim-subject-can-be-wrong-about-own-qualia](claims/subject-can-be-wrong-about-own-qualia.md) --answers-->
 
 ## [question-external-world-knowledge](questions/external-world-knowledge.md)
 - type: question | author: generic | status: asserted

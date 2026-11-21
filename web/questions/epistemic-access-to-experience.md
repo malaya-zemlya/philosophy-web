@@ -183,3 +183,7 @@ some say you largely work it out, often getting it wrong.
 - [paradox-of-phenomenal-judgment](../concepts/paradox-of-phenomenal-judgment.md): the puzzle of how physically caused reports can be
   evidence about experience.
 - [ai-introspection](ai-introspection.md): the same question asked of artificial systems.
+- [qualia-can-be-inaccessible](../claims/qualia-can-be-inaccessible.md) and [subject-can-be-wrong-about-own-qualia](../claims/subject-can-be-wrong-about-own-qualia.md) — answers on
+  which self-knowledge of experience is incomplete or fallible.
+- [qualia-are-relational](../claims/qualia-are-relational.md) — an answer on which the incommunicable "quality itself" is a place in a
+  web of relations, and so in principle describable.

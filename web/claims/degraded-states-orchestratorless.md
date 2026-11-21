@@ -54,3 +54,5 @@ charge. It may only *seem* unified when you look back, and pulling it together t
 - [distributed-brain-unity](../arguments/distributed-brain-unity.md) — an architectural argument that predicts exactly this kind
   of breakdown in a tired or stressed brain.
 - [unity-of-consciousness](../concepts/unity-of-consciousness.md) — the kinds of unity among which this report has to be placed.
+- [activity-kind-misexperienced](activity-kind-misexperienced.md) — a sharper case of introspective failure under a dissociative
+  drug: an activity experienced as music-making that was in fact drawing.

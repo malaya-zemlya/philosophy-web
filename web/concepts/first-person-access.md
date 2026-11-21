@@ -77,3 +77,6 @@ itself something special, or just more of the mind's ordinary machinery?
   ground self-knowledge yet isolated enough to deflate the explanatory gap.
 - [epistemic-access-to-experience](../questions/epistemic-access-to-experience.md) — the wider question of how experience is known by its subject
   and why it resists communication.
+- [qualia-can-be-inaccessible](../claims/qualia-can-be-inaccessible.md) and [subject-can-be-wrong-about-own-qualia](../claims/subject-can-be-wrong-about-own-qualia.md) — two claims
+  that limit first-person access, by incompleteness and by error; their consequences are traced in
+  [fallible-access-undercuts-qualia-arguments](../arguments/fallible-access-undercuts-qualia-arguments.md).

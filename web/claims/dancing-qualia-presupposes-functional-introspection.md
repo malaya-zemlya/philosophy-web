@@ -71,3 +71,5 @@ feelings really do drift, or that noticing isn't functional — only that the ar
   introspection.
 - [functionalism](../concepts/functionalism.md) — the doctrine the reductio quietly extends to introspective judgement.
 - [phenomenal-concept-isolation-tradeoff](phenomenal-concept-isolation-tradeoff.md) — the companion critique aimed at Prong A.
+- [fallible-access-undercuts-qualia-arguments](../arguments/fallible-access-undercuts-qualia-arguments.md) — a more general undercutting of the
+  reductio, from the possibility of inaccessible or misjudged qualia.

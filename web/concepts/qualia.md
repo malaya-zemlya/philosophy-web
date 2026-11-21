@@ -83,3 +83,6 @@ at it closely.
 - [functionalism](functionalism.md) — the theory of mind that qualia are most often said to outrun.
 - [epistemic-access-to-experience](../questions/epistemic-access-to-experience.md) — why the qualitative character of experience seems
   incommunicable, and how its subject knows it.
+- [qualia-are-relational](../claims/qualia-are-relational.md) — the view that qualia exist in the thin sense but are wholly
+  constituted by relations, rejecting the thick sense's intrinsicness; argued for in
+  [qualia-relational-from-cases](../arguments/qualia-relational-from-cases.md).
