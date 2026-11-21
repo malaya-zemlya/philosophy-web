@@ -48,7 +48,7 @@ just past. Questions about diachronic unity connect with those of [personal-iden
 
 ### The unity thesis
 
-The central claim is the **unity thesis**: necessarily, all the experiences a subject has at a given
+The central claim is the **unity thesis** ([unity-thesis](../claims/unity-thesis.md)): necessarily, all the experiences a subject has at a given
 time are phenomenally unified, subsumed by one total experience (Bayne & Chalmers,
 [2003](../sources/bayne-chalmers-2003.md)). It is a substantive thesis, not a definition. If true, it is a
 strong constraint on theories of consciousness, since any theory must explain why a subject's
@@ -77,6 +77,17 @@ and anosognosia, in which patients are unaware of their own deficits, have all b
 breakdowns of unity. Defenders of the unity thesis argue that each involves a loss of representational
 or access unity, or a switching between states, rather than two experiences had at once but not
 together ([Masrour, Brook & Raymont, SEP](../sources/sep-consciousness-unity.md)).
+
+**Ordinary degraded states.** A further challenge comes not from the clinic but from everyday
+experience. In severe fatigue, anxiety or attention-deficit/hyperactivity disorder, experience can
+present as loosely interacting sub-processes with no orchestrating centre, seeming unified only in
+retrospect ([degraded-states-orchestratorless](../claims/degraded-states-orchestratorless.md)). Since attending to one's experience is
+itself an act of integration, such reports are hard to check by introspection in either direction.
+An architectural argument backs them up: a brain is a slow, massively parallel network, and in such
+systems a globally consistent state has to be engineered, so unity would be a costly achievement of
+a well-functioning brain rather than a default ([distributed-brain-unity](../arguments/distributed-brain-unity.md)). The defender
+of the unity thesis replies that these are losses of access unity or continuity over time, with each
+moment's experience still one.
 
 ### Unity in the history of philosophy
 
@@ -136,3 +147,5 @@ one experience at a time.
 - [vertical-and-horizontal-problems-of-consciousness](vertical-and-horizontal-problems-of-consciousness.md): a classification on which unity and
   binding concern part–whole relations.
 - [postdiction](postdiction.md): illusions showing that a unified experience at a moment is assembled from input arriving over an interval.
+- [distributed-brain-unity](../arguments/distributed-brain-unity.md): the argument that a slow, parallel brain can have unity only as a costly engineered achievement.
+- [unity-harder-with-less-myelination](../claims/unity-harder-with-less-myelination.md): the prediction that unity is harder to achieve where white matter is less myelinated.

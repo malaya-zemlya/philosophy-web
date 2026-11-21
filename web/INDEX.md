@@ -180,6 +180,9 @@
 ## [argument-dispositionalist-reply](arguments/dispositionalist-reply.md)
 - type: argument | author: generic | status: asserted
 
+## [argument-distributed-brain-unity](arguments/distributed-brain-unity.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-exclusion-generalizes](arguments/exclusion-generalizes.md)
 - type: argument | author: block | status: asserted
 
@@ -708,6 +711,11 @@
 - backlinks:
   - [argument-intuition-domain-asymmetry](arguments/intuition-domain-asymmetry.md) --concludes-->
 
+## [claim-brain-parallel-slow-signalling](claims/brain-parallel-slow-signalling.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --premise-->
+
 ## [claim-brains-cause-minds](claims/brains-cause-minds.md)
 - type: claim | author: searle | status: asserted
 - backlinks:
@@ -945,8 +953,16 @@
 ## [claim-deflationism-entails-compatibilism](claims/deflationism-entails-compatibilism.md)
 - type: claim | author: mishka | status: asserted
 
+## [claim-degraded-states-orchestratorless](claims/degraded-states-orchestratorless.md)
+- type: claim | author: mishka | status: asserted
+
 ## [claim-disanalogies-trace-to-entropy](claims/disanalogies-trace-to-entropy.md)
 - type: claim | author: mishka | status: asserted
+
+## [claim-distributed-consistency-is-costly](claims/distributed-consistency-is-costly.md)
+- type: claim | author: generic | status: asserted
+- backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --premise-->
 
 ## [claim-duality-dictionary-not-theorem](claims/duality-dictionary-not-theorem.md)
 - type: claim | author: mishka | status: asserted
@@ -1615,6 +1631,11 @@
   - [position-panpsychism](positions/panpsychism.md) --commits_to-->
   - [position-type-a-materialism](positions/type-a-materialism.md) --rejects-->
 
+## [claim-phenomenal-unity-is-engineered](claims/phenomenal-unity-is-engineered.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --concludes-->
+
 ## [claim-phenomenality-is-illusion](claims/phenomenality-is-illusion.md)
 - type: claim | author: frankish | status: asserted
 - backlinks:
@@ -1847,6 +1868,7 @@
 ## [claim-subject-unity-graded-by-integration](claims/subject-unity-graded-by-integration.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --supports-->
   - [argument-subjects-can-combine](arguments/subjects-can-combine.md) --premise-->
 
 ## [claim-subjects-actually-merge-and-divide](claims/subjects-actually-merge-and-divide.md)
@@ -1919,6 +1941,16 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
+
+## [claim-unity-harder-with-less-myelination](claims/unity-harder-with-less-myelination.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --supports-->
+
+## [claim-unity-thesis](claims/unity-thesis.md)
+- type: claim | author: bayne | status: asserted
+- backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --attacks-->
 
 ## [claim-unobservables-judged-by-coherence-and-usefulness](claims/unobservables-judged-by-coherence-and-usefulness.md)
 - type: claim | author: mishka | status: asserted
@@ -2041,6 +2073,7 @@
 ## [concept-binding-problem](concepts/binding-problem.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --uses_concept-->
   - [claim-binding-is-obstruction-to-product](claims/binding-is-obstruction-to-product.md) --uses_concept-->
   - [claim-frankfurt-dualizes-to-ganzfeld](claims/frankfurt-dualizes-to-ganzfeld.md) --uses_concept-->
   - [claim-mind-body-problem-inseparable-from-unity-and-binding](claims/mind-body-problem-inseparable-from-unity-and-binding.md) --uses_concept-->
@@ -2825,6 +2858,7 @@
 ## [concept-postdiction](concepts/postdiction.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --uses_concept-->
   - [concept-time-represented-vs-time-of-representing](concepts/time-represented-vs-time-of-representing.md) --uses_concept-->
 
 ## [concept-primary-intension](concepts/primary-intension.md)
@@ -2922,7 +2956,12 @@
 ## [concept-unity-of-consciousness](concepts/unity-of-consciousness.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
+  - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --uses_concept-->
+  - [claim-degraded-states-orchestratorless](claims/degraded-states-orchestratorless.md) --uses_concept-->
   - [claim-mind-body-problem-inseparable-from-unity-and-binding](claims/mind-body-problem-inseparable-from-unity-and-binding.md) --uses_concept-->
+  - [claim-phenomenal-unity-is-engineered](claims/phenomenal-unity-is-engineered.md) --uses_concept-->
+  - [claim-unity-harder-with-less-myelination](claims/unity-harder-with-less-myelination.md) --uses_concept-->
+  - [claim-unity-thesis](claims/unity-thesis.md) --uses_concept-->
   - [concept-boundary-problem](concepts/boundary-problem.md) --uses_concept-->
   - [concept-combination-problem-panpsychism](concepts/combination-problem-panpsychism.md) --uses_concept-->
   - [concept-decombination-problem](concepts/decombination-problem.md) --uses_concept-->
@@ -3533,6 +3572,9 @@
 ## [source-conee-1994](sources/conee-1994.md)
 - type: source | author: mishka | status: asserted
 
+## [source-corbett-2012](sources/corbett-2012.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-corcoran-2006](sources/corcoran-2006.md)
 - type: source | author: mishka | status: asserted
 
@@ -3710,6 +3752,9 @@
 ## [source-gertler-2011](sources/gertler-2011.md)
 - type: source | author: mishka | status: asserted
 
+## [source-gilbert-lynch-2002](sources/gilbert-lynch-2002.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-ginsburg-jablonka-2019](sources/ginsburg-jablonka-2019.md)
 - type: source | author: mishka | status: asserted
 
@@ -3798,6 +3843,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-hempel-1980](sources/hempel-1980.md)
+- type: source | author: mishka | status: asserted
+
+## [source-hillock-2011](sources/hillock-2011.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-hirstein-2005](sources/hirstein-2005.md)
@@ -3917,10 +3965,16 @@
 ## [source-lagercrantz-changeux-2009](sources/lagercrantz-changeux-2009.md)
 - type: source | author: mishka | status: asserted
 
+## [source-lamport-1978](sources/lamport-1978.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-landauer-1961](sources/landauer-1961.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-lazebnik-2002](sources/lazebnik-2002.md)
+- type: source | author: mishka | status: asserted
+
+## [source-lebel-2008](sources/lebel-2008.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-lee-2005](sources/lee-2005.md)
@@ -4541,10 +4595,16 @@
 ## [source-vold-2015](sources/vold-2015.md)
 - type: source | author: mishka | status: asserted
 
+## [source-vyazovskiy-2011](sources/vyazovskiy-2011.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-vygotsky-1986](sources/vygotsky-1986.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-wallas-1926](sources/wallas-1926.md)
+- type: source | author: mishka | status: asserted
+
+## [source-waxman-1980](sources/waxman-1980.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-wegner-2002](sources/wegner-2002.md)
