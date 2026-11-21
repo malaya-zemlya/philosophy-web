@@ -140,3 +140,5 @@ versus feeling](../concepts/access-vs-phenomenal-consciousness.md) split). A sha
   going further than it.
 - [access-vs-phenomenal-consciousness](../concepts/access-vs-phenomenal-consciousness.md) — the distinction the realist's dilemma turns on:
   access-update versus felt residue.
+- [llmary-relational-diagnosis](llmary-relational-diagnosis.md) — goes beyond this neutral counterexample to a positive
+  diagnosis of the gain as wholly relational.

@@ -302,6 +302,9 @@
 - backlinks:
   - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --supports-->
 
+## [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-llmary-token-encounter](arguments/llmary-token-encounter.md)
 - type: argument | author: mishka | status: asserted
 
@@ -992,6 +995,11 @@
 - backlinks:
   - [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md) --premise-->
 
+## [claim-first-token-update-is-relational](claims/first-token-update-is-relational.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --premise-->
+
 ## [claim-floating-man-affirms-self](claims/floating-man-affirms-self.md)
 - type: claim | author: avicenna | status: asserted
 - backlinks:
@@ -1359,6 +1367,11 @@
   - [argument-lookup-table-physical-impossibility](arguments/lookup-table-physical-impossibility.md) --premise-->
   - [argument-storage-not-stable-kind](arguments/storage-not-stable-kind.md) --premise-->
 
+## [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --premise-->
+
 ## [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md)
 - type: claim | author: lewis | status: asserted
 - backlinks:
@@ -1373,6 +1386,11 @@
 - type: claim | author: loar | status: asserted
 - backlinks:
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --concludes-->
+
+## [claim-mary-gains-relational-placement](claims/mary-gains-relational-placement.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --concludes-->
 
 ## [claim-mary-gains-self-locating-knowledge](claims/mary-gains-self-locating-knowledge.md)
 - type: claim | author: perry | status: asserted
@@ -2584,15 +2602,18 @@
   - [argument-bike-rider-learns-facts](arguments/bike-rider-learns-facts.md) --uses_concept-->
   - [argument-indexical-reply](arguments/indexical-reply.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
+  - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-mary-equivocation](arguments/mary-equivocation.md) --uses_concept-->
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --uses_concept-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --uses_concept-->
   - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --uses_concept-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --uses_concept-->
+  - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
   - [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md) --uses_concept-->
   - [claim-mary-gains-acquaintance](claims/mary-gains-acquaintance.md) --uses_concept-->
   - [claim-mary-gains-old-fact-new-guise](claims/mary-gains-old-fact-new-guise.md) --uses_concept-->
+  - [claim-mary-gains-relational-placement](claims/mary-gains-relational-placement.md) --uses_concept-->
   - [claim-mary-gains-self-locating-knowledge](claims/mary-gains-self-locating-knowledge.md) --uses_concept-->
   - [claim-mary-knows-all-physical](claims/mary-knows-all-physical.md) --uses_concept-->
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --uses_concept-->
@@ -2609,7 +2630,10 @@
 ## [concept-llmary](concepts/llmary.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
+  - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
+  - [claim-first-token-update-is-relational](claims/first-token-update-is-relational.md) --uses_concept-->
+  - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
 
 ## [concept-lookup-table-mind](concepts/lookup-table-mind.md)
 - type: concept | author: block | status: asserted
@@ -3258,6 +3282,7 @@
   - [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md) --answers-->
   - [claim-mary-gains-acquaintance](claims/mary-gains-acquaintance.md) --answers-->
   - [claim-mary-gains-old-fact-new-guise](claims/mary-gains-old-fact-new-guise.md) --answers-->
+  - [claim-mary-gains-relational-placement](claims/mary-gains-relational-placement.md) --answers-->
   - [claim-mary-gains-self-locating-knowledge](claims/mary-gains-self-locating-knowledge.md) --answers-->
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --answers-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --answers-->

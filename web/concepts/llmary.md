@@ -54,6 +54,13 @@ dialectically is worked out in [llmary-token-encounter](../arguments/llmary-toke
 taken up: that LLMary "learns" only in the [access](access-vs-phenomenal-consciousness.md) sense,
 with no felt residue.
 
+### What exactly LLMary learns
+
+The mechanics of next-token training say precisely what the token-specific part of the update
+contains: in what context the token occurs, and what follows when it is in context
+([first-token-update-is-relational](../claims/first-token-update-is-relational.md)). Carried over to Mary by analogy, this yields a positive
+diagnosis of her gain as wholly relational, worked out in [llmary-relational-diagnosis](../arguments/llmary-relational-diagnosis.md).
+
 ### The general moral: use versus mention
 
 What LLMary and the original Mary both expose is a *use/mention gap* — the gulf between a symbol or
@@ -120,3 +127,5 @@ anything, are spelled out in the companion argument, [llmary-token-encounter](..
   and realist readings of LLMary's "gain" divide.
 - [mary-gains-acquaintance](../claims/mary-gains-acquaintance.md) — the realist reply that the use-side acquaints one with a
   phenomenal property no description conveys; the move LLMary relocates rather than refutes.
+- [llmary-relational-diagnosis](../arguments/llmary-relational-diagnosis.md) — a positive reading of the scenario: what LLMary learns is
+  wholly relational, and by analogy so is what Mary learns.
