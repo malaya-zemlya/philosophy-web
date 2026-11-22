@@ -11,6 +11,7 @@ attacks: [claim-consciousness-is-integrated-information]
 supports: [claim-substrate-independence]
 uses_concept: [concept-functionalism]
 created: 2026-09-30
+style: encyclopedia
 ---
 
 The *isomorphic feed-forward zombie* argument shows that [integrated information theory's](../positions/integrated-information-theory.md)

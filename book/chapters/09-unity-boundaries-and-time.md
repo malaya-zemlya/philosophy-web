@@ -10,6 +10,7 @@ entries:
       - claim-split-brain-single-subject
   - claim-subjects-actually-merge-and-divide
   - claim-subject-unity-graded-by-integration
+  - argument-subjects-can-combine
   - argument-distributed-brain-unity:
       - claim-brain-parallel-slow-signalling
       - claim-distributed-consistency-is-costly
@@ -34,7 +35,9 @@ subject. This chapter is about that unity: what it consists in, whether it is ne
 happens at its limits. It begins with the [unity-of-consciousness](../../web/concepts/unity-of-consciousness.md) and the unity thesis,
 which says that a subject's simultaneous experiences are necessarily unified. Split-brain cases,
 reports from fatigue and anxiety, and the distributed-brain argument all suggest instead that unity
-is graded and costly, and that it holds only while the brain functions well.
+is graded and costly, and that it holds only while the brain functions well. If subjects can merge and
+divide by degrees, the same cases may answer the combination problem for panpsychism, met in the
+previous chapter, by showing that smaller subjects can compose a larger one.
 
 The [binding-problem](../../web/concepts/binding-problem.md), how separately processed features come to be experienced as one
 object, is the narrower perceptual version of the same issue. Temporal unity raises its own

@@ -14,8 +14,12 @@ entries:
       - claim-physicalism-false-or-empty
   - argument-no-fundamental-mentality-reply
   - concept-completeness-of-physics
+  - claim-physical-domain-complete
   - concept-causal-closure
-  - argument-causal-argument-for-physicalism
+  - claim-no-systematic-overdetermination
+  - argument-causal-argument-for-physicalism:
+      - claim-mental-events-have-physical-effects
+      - claim-mental-is-physical
   - question-mental-causation
   - question-dispensability-of-mental-causes
   - argument-causal-exclusion:

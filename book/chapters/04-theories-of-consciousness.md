@@ -15,6 +15,7 @@ entries:
   - claim-access-functional-signature
   - position-integrated-information-theory:
       - claim-consciousness-is-integrated-information
+  - argument-isomorphic-feedforward-zombie
   - position-representationalism:
       - claim-phenomenal-character-is-representational
   - position-intermediate-level-theory:
@@ -32,7 +33,8 @@ comes next. Higher-order theories hold that a state is conscious when the subjec
 of being in it. [global-workspace](../../web/positions/global-workspace.md) theory holds that a content is conscious when it is
 broadcast to many specialised processes at once, and its functional signature is stated as a separate
 claim because later chapters apply it to language models. Integrated information theory identifies
-consciousness with a measure of a system's integration. Representationalism identifies the felt
+consciousness with a measure of a system's integration. The isomorphic feed-forward zombie argues against it
+that two circuits with identical behaviour can receive opposite verdicts. Representationalism identifies the felt
 character of experience with what the experience represents. Intermediate-level theory locates
 consciousness at a middle stage of perceptual processing.
 

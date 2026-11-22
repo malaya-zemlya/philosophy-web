@@ -12,6 +12,7 @@ attacks: claim-micro-subjects-do-not-sum
 responds_to: argument-combination-problem
 uses_concept: [concept-panpsychism, concept-continuity-argument-schema]
 created: 2026-06-13
+style: encyclopedia
 ---
 
 This is a reply to the [combination problem](combination-problem.md), the standing objection to
