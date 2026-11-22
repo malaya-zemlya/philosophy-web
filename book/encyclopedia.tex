@@ -7444,7 +7444,7 @@ Frank Jackson's Mary knows every physical fact about colour vision but has lived
 
 Everything turns on \hyperref[entry:question-what-does-mary-learn]{\textsc{What Mary learns}}. On the ability hypothesis she gains know-how, such as the abilities to recognise and imagine red, and no new fact. On the acquaintance hypothesis she meets the experience directly. The old-fact-new-guise reply says that she grasps an old fact under a new phenomenal concept, and the indexical reply says that she learns where she is in the world. Further replies question the setup: whether the argument equivocates on ``learning'', whether it refutes only a priori physicalism, and whether ``all the physical facts'' can even be imagined, or known by someone who is part of the world they describe.
 
-The chapter ends with LLMary, a version of the thought experiment in which a language model has read everything about a token it has never processed. The case is wholly physical, and it is used both against the argument's central inference and to suggest that what Mary gains is relational. A last argument compares learning from description with learning from examples, and asks what Mary's first sight of red adds if everything relational about it could have been told to her in advance. The chapter closes by asking what Mary's surprise on release shows. Separating the ways a learner can know itself, from reading its own make-up to rewriting it, suggests that the surprise signals a representation still to be adjusted rather than a fact still unknown, and that how much there is to adjust depends on how much of the colour pathway is wired before experience.
+The chapter ends with LLMary, a version of the thought experiment in which a language model has read everything about a token it has never processed. The case is wholly physical, and it is used both against the argument's central inference and to suggest that what Mary gains is relational. A last argument compares learning from description with learning from examples, and asks what Mary's first sight of red adds if everything relational about it could have been told to her in advance. The chapter closes by asking what Mary's surprise on release shows. Separating the ways a learner can know itself, from reading its own make-up to rewriting it, suggests that the surprise signals a representation still to be adjusted rather than a fact still unknown. Comparing Mary with a complete duplicate who never saw red then asks where her new knowledge could be kept, and the last entry asks how much there is to adjust, given how much of the colour pathway is wired before experience.
 \end{chapterintro}
 \begin{multicols}{2}
 \entryhead{concept-knowledge-argument}{Knowledge argument}{Concept \,\textperiodcentered\, after Jackson}{Knowledge argument}{The Knowledge Argument (Mary the colour scientist)}{$\blacklozenge$}
@@ -8382,6 +8382,17 @@ There are four different ways a mind or a machine might ``know itself.'' It migh
   \item \hyperref[entry:claim-full-self-access-achievable]{\textsc{Complete internal self-access}} — the claim that complete internal self-access is achievable, a thesis about introspection in the sense above.
 \end{seealso}
 
+\entryhead{claim-write-access-installs-binding}{Self-installed binding}{Claim \,\textperiodcentered\, editorial}{Self-installed binding}{A learner with write access to its own representations can install, without the encounter, the binding a first encounter would provide, so that the encounter then brings no surprise}{$\odot$}
+A system that can change its own parameters directly can do for itself what a first encounter would have done. A language model that has calculated the update it would undergo on first meeting a token can, if it is able to write its own weights, apply that update in advance. Its representation of the token then carries the token's role before the token ever arrives, and when it does arrive the model predicts it well, so that there is no large error and nothing left to learn from it.
+
+The idea is Daniel Dennett's. His Locked RoboMary, whose colour system is locked, computes with her self-model the state she would have entered on seeing a red tomato and then puts herself into it, after which ``there are no surprises for her'' (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). Dennett's own target is the conclusion that Mary would learn nothing. The present claim states the mechanism that makes this true for RoboMary, the self-installation of the binding described in \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}}, and so limits it to learners that have write access.
+
+The binding need not be installed in the very representation the encounter would have trained. A model whose token row cannot be changed could instead train its other parameters to treat that particular untrained vector as the token, which is the analogue of RoboMary working around her locked colour system. Either way the installation is an act of writing, not of knowing, and it is the act that the kinds of self-access in \hyperref[entry:concept-self-access-kinds]{\textsc{Kinds of self-access}} separate from reading and simulation.
+
+\begin{plainterms}
+A robot that can rewire itself could set itself up in advance exactly as meeting something new would have set it up. Then, when the new thing finally comes, it is not surprised at all, because it has already made the change the encounter would have made. Knowing about the change is not enough; the robot has to actually make it.
+\end{plainterms}
+
 \entryhead{argument-llmary-predicted-surprise}{Predicted-surprise argument}{Argument \,\textperiodcentered\, editorial}{Predicted-surprise argument}{Because a fully informed learner's first-encounter surprise varies with whether the binding is installed and not with what it knows, the surprise registers a missing binding rather than missing knowledge}{$\vdash$}
 Discussions of Mary the colour scientist commonly treat surprise on release as a sign of missing knowledge. Frank Jackson writes that Mary ``will not say 'ho, hum''', and takes this to show that she learns something she did not know (\hyperref[source:source-jackson-1986]{\textsc{Jackson — What Mary Didn't Know (1986)}}, p. 291). Daniel Dennett runs the same link the other way: a Mary who knew all the physical facts would have ``already written down, in exquisite detail'' how colour would affect her, and so would not be ``in the slightest surprised'' (\hyperref[source:source-dennett-1991]{\textsc{Dennett — Consciousness Explained (1991)}}; \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). George Graham and Terence Horgan concede that a fully informed Mary could predict her own surprise, but call this ``beside the point'' and ask the materialist to explain why that surprise is rationally appropriate rather than an error (\hyperref[source:source-graham-horgan-2000]{\textsc{Graham \& Horgan — Mary Mary, Quite Contrary (2000)}}, pp. 76–77). The \hyperref[entry:concept-llmary]{\textsc{LLMary}} thought experiment allows the link between surprise and knowledge to be tested directly, by varying the learner's self-access while holding its knowledge fixed.
 
@@ -8460,17 +8471,6 @@ The case has a limited analogue in Mary the colour scientist. A token's row is a
 Imagine an AI with several word-pieces it has never seen, which all look the same to it. It has read that one particular one will come after a certain phrase, and it even knows what that word-piece will come to mean. But when the phrase appears it cannot tell which of the look-alike word-pieces to expect, so the best it can do is spread its bet evenly across all of them. That guarantees a certain amount of surprise, which it can calculate in advance and cannot reduce by reading anything more.
 \end{plainterms}
 
-\subentryhead{claim-write-access-installs-binding}{Self-installed binding}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, premise 5}{Self-installed binding}{A learner with write access to its own representations can install, without the encounter, the binding a first encounter would provide, so that the encounter then brings no surprise}{$\odot$}
-A system that can change its own parameters directly can do for itself what a first encounter would have done. A language model that has calculated the update it would undergo on first meeting a token can, if it is able to write its own weights, apply that update in advance. Its representation of the token then carries the token's role before the token ever arrives, and when it does arrive the model predicts it well, so that there is no large error and nothing left to learn from it.
-
-The idea is Daniel Dennett's. His Locked RoboMary, whose colour system is locked, computes with her self-model the state she would have entered on seeing a red tomato and then puts herself into it, after which ``there are no surprises for her'' (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). Dennett's own target is the conclusion that Mary would learn nothing. The present claim states the mechanism that makes this true for RoboMary, the self-installation of the binding described in \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}}, and so limits it to learners that have write access.
-
-The binding need not be installed in the very representation the encounter would have trained. A model whose token row cannot be changed could instead train its other parameters to treat that particular untrained vector as the token, which is the analogue of RoboMary working around her locked colour system. Either way the installation is an act of writing, not of knowing, and it is the act that the kinds of self-access in \hyperref[entry:concept-self-access-kinds]{\textsc{Kinds of self-access}} separate from reading and simulation.
-
-\begin{plainterms}
-A robot that can rewire itself could set itself up in advance exactly as meeting something new would have set it up. Then, when the new thing finally comes, it is not surprised at all, because it has already made the change the encounter would have made. Knowing about the change is not enough; the robot has to actually make it.
-\end{plainterms}
-
 \subentryhead{claim-surprise-registers-missing-binding}{Surprise as a missing-binding signal}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, conclusion}{Surprise as a missing-binding signal}{A fully informed learner's surprise on first encountering an item is rationally appropriate because it registers a missing binding rather than missing knowledge}{$\odot$}
 When a learner that already knows everything sayable about an item is nonetheless surprised on first meeting it, the surprise is neither an error nor a sign that its knowledge was incomplete. It is an accurate registration of something real: the learner's own representation of the item did not yet carry the item's role, and the encounter is what makes it do so (see \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}}). Surprise measures the distance between the learner's representations and its input, not the distance between its knowledge and the facts.
 
@@ -8481,10 +8481,94 @@ Someone who knows everything about a thing can still be surprised the first time
 \end{plainterms}
 
 \end{subentries}
+\entryhead{argument-retention-dilemma}{Retention dilemma}{Argument \,\textperiodcentered\, editorial}{Retention dilemma}{Because Mary's new knowledge must be retained in a lasting vehicle that a complete duplicate could share without the experience, the phenomenal realist must locate that knowledge in her brain or make it depend on her history}{$\vdash$}
+The \hyperref[entry:argument-knowledge-argument]{\textsc{Knowledge argument (Mary's room)}} concludes that Mary the colour scientist gains, on first seeing red, knowledge of something non-physical. This argument asks where that knowledge is kept afterwards. Knowledge, unlike a passing experience, is retained and used, and the only thing that persists in Mary from her release to her later uses of what she learned is the lasting state of her brain. Comparing Mary with a complete physical duplicate who never saw red then forces a choice on anyone who holds that her knowledge is phenomenal.
+
+\webheading{The two Marys}
+
+\emph{Released Mary} leaves her room, sees a red tomato, and is changed by it. A month later her brain is in some state \emph{S}. \emph{Swamp Mary}, borrowed from Daniel Dennett (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}), never leaves the room; a bolt of lightning happens to rearrange her brain into exactly the state \emph{S}. The duplication is \textbf{complete}: it includes every lasting trace in Released Mary, her new recognitional and imaginative competences and also her memory traces, so that Swamp Mary has an apparent episodic memory of seeing a red tomato, which in her case is false. Dennett's RoboMary, who installs the same state in herself by calculation instead of by accident (see \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}), would serve equally well.
+
+The completeness matters. A Swamp Mary given only the competences, who ``just knows'' what red looks like without remembering any occasion of seeing it, differs physically from Released Mary and raises a separate question, whether knowing what red is like requires an episodic memory. That question has an answer independent of this argument: the knowledge survives forgetting the occasion (see \hyperref[entry:claim-phenomenal-knowledge-needs-lasting-vehicle]{\textsc{Lasting vehicle of phenomenal knowledge}}). The dilemma needs duplicates alike in every lasting respect, so that the only difference between the two Marys is that one of them saw red.
+
+\webheading{The argument}
+
+The inference form is a dilemma.
+
+\begin{enumerate}
+  \item A first encounter teaches a learner something exactly when it leaves a lasting change beyond what a repeat encounter would leave (see \hyperref[entry:claim-snapshot-test-first-encounter-learning]{\textsc{Snapshot test for first-encounter learning}}).
+  \item Knowledge of what an experience is like persists as a competence guiding later recognition, imagination and report, and so needs a lasting vehicle (see \hyperref[entry:claim-phenomenal-knowledge-needs-lasting-vehicle]{\textsc{Lasting vehicle of phenomenal knowledge}}).
+  \item That lasting change can in principle be produced without the experience, by accident or by a learner able to write its own representations (see \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}), so a complete duplicate of Released Mary who never saw red is possible.
+  \item Either Swamp Mary knows what red is like, or she does not.
+  \item If she does, the knowledge is carried by the lasting state both Marys share, and it can be had without the experience, against the knowledge argument's claim that only the experience delivers it.
+  \item If she does not, then what separates the knower from the non-knower is not anything in either of them now but only the fact that one of them once had the experience.
+  \item Therefore the phenomenal realist must either locate Mary's new knowledge in the lasting change in her brain or make it depend on her history rather than on her present state (see \hyperref[entry:claim-phenomenal-knowledge-present-or-historical]{\textsc{Present state or history}}).
+\end{enumerate}
+
+\webheading{The second horn}
+
+The second horn is less outlandish than it first sounds, because there is a precedent for it. Donald Davidson, who introduced the Swampman case, held that a duplicate assembled by chance lacks thoughts and reference, since these depend on causal history (see \hyperref[source:source-davidson-1987]{\textsc{Davidson — Knowing One's Own Mind (1987)}}), and history-based theories of content take the same line (\hyperref[entry:argument-swampman]{\textsc{Swampman}} presses the case against them). The realist could treat phenomenal knowledge in the same way.
+
+The cost is that this makes the knowledge argument's prize extrinsic. On the second horn, Mary's knowing what red is like is like a banknote's being genuine: a matter of origin that no inspection of the note can reveal. Neither Mary could tell from the inside whether she knows, both would make the same judgements with the same confidence, and the knowledge would make no difference to anything either later thought, said or did. The knowledge argument was meant to show that Mary becomes acquainted with an intrinsic quality of experience. A knowledge whose presence depends on history and is invisible in the knower is an odd thing to have won.
+
+\webheading{Bearing on Jackson's own view}
+
+The dilemma presses hardest on the view Frank Jackson defended alongside the knowledge argument, that qualia are epiphenomenal (see \hyperref[source:source-jackson-1982]{\textsc{Jackson — Epiphenomenal Qualia (1982)}}). In §IV of that paper (pp. 133–135) he answers the objection that epiphenomenal qualia could not be known in \emph{other} people, with his model of two newspapers reporting the same match: behaviour and qualia are separate effects of a common cause in the brain. He does not address Mary's knowledge of her \emph{own} qualia, kept and used after release. On his own common-cause model, everything she later does with that knowledge is caused by the lasting brain trace, which Swamp Mary shares, and the quale contributes nothing to it. That is the familiar charge of self-stultification against \hyperref[entry:position-epiphenomenalism]{\textsc{Epiphenomenalism}}, in a form specific to Mary.
+
+\webheading{The weakest premise}
+
+Premise 3 is the most exposed. A realist can deny that the lasting state \emph{S} could arise without the experience, holding that some part of it can be produced only by actually having the experience. That would have to be a claim about physics or neurophysiology: that some brain state cannot be produced by any physical cause other than the visual one. It is hard to see what could make a physical state uniquely producible in this way. The realist can also accept the first horn and give up the premise that only experience delivers the knowledge, at the cost of the knowledge argument itself.
+
+\begin{plainterms}
+Imagine two Marys with exactly the same brain a month after one of them left the black-and-white room and saw a red tomato. The other never left: a freak lightning bolt rewired her brain into exactly the same state, false memories of a tomato included. Do both know what red looks like? If yes, then you can know it without ever seeing red, which the famous argument denies. If no, then knowing what red looks like is not anything in your head; it is just a fact about your past that leaves no mark you could ever notice, like the difference between a real banknote and a perfect counterfeit. Either way the argument is in trouble. The case is borrowed from Dennett's ``Swamp Mary'', and it echoes Davidson's ``Swampman'' (see \hyperref[entry:argument-swampman]{\textsc{Swampman}}).
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:argument-llmary-predicted-surprise]{\textsc{Predicted-surprise argument}} — the companion argument that Mary's surprise on release signals a representation still to be adjusted rather than a fact still unknown.
+  \item \hyperref[entry:claim-mary-gains-acquaintance]{\textsc{Mary gains acquaintance}} — the realist reading of Mary's gain that the dilemma presses.
+\end{seealso}
+
+\begin{subentries}{Its claims}
+\subentryhead{claim-snapshot-test-first-encounter-learning}{Snapshot test for first-encounter learning}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, premise 1}{Snapshot test for first-encounter learning}{A first encounter teaches a learner something exactly when it leaves a lasting change in the learner beyond the change a repeat encounter would leave}{$\odot$}
+Whether a learner learns anything from a first encounter can be settled by comparing three snapshots of it: one just before the encounter, one just after, and one long after, once any slow consolidation has finished. Differences between the first two that are gone by the third belong to \emph{having} the experience, as an activation passes through a network or a perception through a brain. Differences that remain at the third are lasting changes in the learner's connections, and a lasting change caused by the encounter is learning, by definition.
+
+Any experience leaves some lasting trace, if only a memory that it happened. So the comparison is made against a baseline: the lasting change the same encounter produces in a learner already familiar with the item, such as a person who has seen red all their life seeing a red tomato once more. The \emph{excess} over that baseline is what the first encounter specifically teaches. For a language model the excess is directly measurable, as the difference between the large training update on a token's first occurrence and the small one on its hundredth (see \hyperref[entry:concept-llmary]{\textsc{LLMary}}).
+
+The test makes several earlier verdicts precise. A learner whose relevant circuitry is wholly fixed in advance shows no excess, and so learns nothing specific from the encounter (see \hyperref[entry:claim-mary-gain-depends-on-prewiring]{\textsc{Prewiring and Mary's gain}}). A learner that has already installed the change by writing its own parameters also shows no excess at the encounter itself, because the change came earlier (see \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}). And what \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}} says is gained is the excess, located in the learner's representation of the item.
+
+The test concerns learning in the physical sense, a lasting change in the learner. Whether a learner can also come to \emph{know} something that no such change records is the further question taken up in \hyperref[entry:argument-retention-dilemma]{\textsc{Retention dilemma}}.
+
+\begin{plainterms}
+To tell whether meeting something for the first time taught you anything, compare your brain just before, just after, and long after. Whatever is still different long after, beyond what meeting the thing for the hundredth time would leave, is what you learned. If nothing is different, you learned nothing from it.
+\end{plainterms}
+
+\subentryhead{claim-phenomenal-knowledge-needs-lasting-vehicle}{Lasting vehicle of phenomenal knowledge}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, premise 2}{Lasting vehicle of phenomenal knowledge}{Knowledge of what an experience is like persists as a competence that guides later recognition, imagination or report, even when the experience itself is forgotten}{$\odot$}
+Unlike a passing experience, knowing what an experience is like outlasts the experience. Someone who has learned what red looks like can afterwards recognise red, imagine it, compare it with other colours and say what it is like, long after the first sight of red is over. Whatever that knowledge consists in, it must therefore be carried by something that persists in the knower between the experience and its later use.
+
+That persisting thing is a competence, not a memory of the episode. David Lewis notes that ``even if you eventually forget the occasion itself, you will very likely retain your ability to imagine such an experience'' (see \hyperref[source:source-lewis-1988]{\textsc{Lewis — What Experience Teaches (1988)}}), and Daniel Dennett asks, of the same point, ``you could forget your first color experiences and still have phenomenal concepts, couldn't you?'' (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). An episodic memory of first seeing red is a further item a knower may have or lack, and the knowledge of what red is like does not depend on it.
+
+The claim is neutral on what the knowledge is about. A phenomenal realist can hold that the competence is knowledge \emph{of} a non-physical quality; the claim says only that the knowing itself must be retained, and so needs a lasting vehicle.
+
+\begin{plainterms}
+Once you know what red looks like, you keep knowing it. You can recognise red later, picture it and describe it, even if you have forgotten the day you first saw it. So that knowledge has to be stored somewhere in you, as a lasting skill rather than as a memory of the first time.
+\end{plainterms}
+
+\subentryhead{claim-phenomenal-knowledge-present-or-historical}{Present state or history}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, conclusion}{Present state or history}{A phenomenal realist must either locate Mary's new knowledge in the lasting change in her brain or make it depend on her history rather than on her present state}{$\odot$}
+Anyone who holds that Mary the colour scientist gains phenomenal knowledge on first seeing red faces a choice. Either that knowledge is carried by the lasting change in her brain, in which case anyone with the same brain has it, whether or not they ever saw red; or it is not fixed by her present state at all, but by the fact that a certain experience once occurred, so that two people alike in every lasting respect can differ in what they know.
+
+The first option gives up the knowledge argument's premise that the knowledge can be had only through the experience. The second makes knowing what red is like resemble the genuineness of a banknote, which depends on where the note came from and cannot be detected in the note itself. Neither knower could then tell from the inside whether they had the knowledge, and it would make no difference to anything either of them later thought, said or did. The claim is reached in \hyperref[entry:argument-retention-dilemma]{\textsc{Retention dilemma}}.
+
+\begin{plainterms}
+If Mary learns something special when she first sees red, then either that learning is stored in her brain, so that anyone with an identical brain knows it too, or it is not stored in her at all and depends only on the fact that she once had the experience. The first undercuts the famous argument; the second makes the knowledge something she could never tell she had.
+\end{plainterms}
+
+\end{subentries}
 \entryhead{claim-mary-gain-depends-on-prewiring}{Prewiring and Mary's gain}{Claim \,\textperiodcentered\, editorial}{Prewiring and Mary's gain}{The extent of what Mary learns on first seeing red depends on how much of her colour pathway is fixed independently of colour experience}{$\odot$}
 What happens when Mary the colour scientist first sees red is not settled by the thought experiment alone. It depends on an empirical fact about her: how much of the pathway from her retina to the rest of her mind is wired before any colour experience, and how much is set by that experience.
 
-At one extreme, the whole colour pathway is fixed in advance. Then her first sight of red puts her into the very state that anyone else's sight of red puts them in, and her experience is no different from that of a person who has seen red and blue all their life. Her colour system needs no training, so the encounter installs nothing new in it. At the other extreme, some stages of the pathway are shaped by experience and start in a state Mary does not know. Then what happens downstream of those stages on first exposure is learning, and its details depend on how learning actually works in her brain. Most realistic cases lie in between, with an innately structured early system feeding later stages that are tuned by use.
+At one extreme, the whole colour pathway is fixed in advance. Then her first sight of red puts her into the very state that anyone else's sight of red puts them in, and her experience is no different from that of a person who has seen red and blue all their life. Her colour system needs no training, so the encounter installs nothing new in it. At the other extreme, some stages of the pathway are shaped by colour experience, and Mary has no other way of setting them: neither her ordinary learning processes, which colourless input never engages there, nor any means of rewriting her own brain. Then what happens downstream of those stages on first exposure is learning, and its details depend on how learning actually works in her brain. Most realistic cases lie in between, with an innately structured early system feeding later stages that are tuned by use.
+
+What matters is not whether Mary \emph{knows} the state of those stages. Complete physical knowledge would include it, but knowing a state is a form of reading, not of writing (see \hyperref[entry:claim-reading-own-weights-is-description]{\textsc{Self-reading as description}}), so a Mary who knew every detail of her untrained colour circuitry would still undergo learning there on release. Only a Mary able to set that circuitry by some other route, as Daniel Dennett's RoboMary can (see \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}), would not. In each case whether learning occurred is settled by comparing her lasting state before release with her state once the encounter's effects have consolidated (see \hyperref[entry:claim-snapshot-test-first-encounter-learning]{\textsc{Snapshot test for first-encounter learning}}).
 
 The language-model case of \hyperref[entry:concept-llmary]{\textsc{LLMary}} sits at the second extreme, since a never-seen token's representation starts as arbitrary noise (see \hyperref[entry:claim-unknown-token-selection-bound]{\textsc{Selection bound for unknown tokens}}). Mary is closer to the first than the model is, which limits how far conclusions about the model carry over to her (see \hyperref[entry:claim-mary-analogous-to-llmary]{\textsc{Mary–LLMary analogy}}). The question is also not idle for the original thought experiment. Daniel Dennett notes that assuming Mary's colour system is ``still intact'' after a lifetime without colour is ``a nontrivial empirical assumption, given what is known about the ready reassignment of unused cortical resources'' (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}).
 
@@ -16236,6 +16320,7 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \entryline{$\vdash$}{argument-knowledge-argument}{Knowledge argument (Mary's room)}
 \entryline{$\odot$}{claim-all-knowledge-is-conjectural}{Knowledge is conjectural}
 \indexletter{L}
+\entryline{$\odot$}{claim-phenomenal-knowledge-needs-lasting-vehicle}{Lasting vehicle of phenomenal knowledge}
 \entryline{$\bigstar$}{position-libertarianism}{Libertarianism (free will)}
 \entryline{$\odot$}{claim-lifetime-bounded-table-covers-encountered-inputs}{Lifetime-bounded table}
 \entryline{$\odot$}{claim-inside-vantage-access-limited}{Limited inside vantage}
@@ -16372,6 +16457,7 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \entryline{$\blacklozenge$}{concept-postdiction}{Postdiction}
 \entryline{$\odot$}{claim-surprise-predictable-yet-undergone}{Predicted surprise}
 \entryline{$\vdash$}{argument-llmary-predicted-surprise}{Predicted-surprise argument}
+\entryline{$\odot$}{claim-phenomenal-knowledge-present-or-historical}{Present state or history}
 \entryline{$\odot$}{claim-mary-gain-depends-on-prewiring}{Prewiring and Mary's gain}
 \entryline{$\blacklozenge$}{concept-primary-intension}{Primary intension}
 \entryline{$\odot$}{claim-privileged-first-person-access}{Privileged first-person access}
@@ -16404,6 +16490,7 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \entryline{$\vdash$}{argument-report-scepticism-proves-too-much}{Report-scepticism over-reach}
 \entryline{$\vdash$}{argument-representational-slope-from-illusionism}{Representational slope from illusionism}
 \entryline{$\bigstar$}{position-representationalism}{Representationalism}
+\entryline{$\vdash$}{argument-retention-dilemma}{Retention dilemma}
 \entryline{$\blacklozenge$}{concept-retorsion}{Retorsion}
 \entryline{$\vdash$}{argument-retorsion-against-skepticism}{Retorsion against skepticism}
 \entryline{$\odot$}{claim-psychological-rewiring-tolerance}{Rewiring tolerance}
@@ -16428,6 +16515,7 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \entryline{$\odot$}{claim-llm-access-similarity-not-encoding}{Similarity, not encoding}
 \entryline{$\vdash$}{argument-storm-analogy-conflates-world-index}{Simulated-storm analogy conflation}
 \entryline{$\odot$}{claim-brain-parallel-slow-signalling}{Slow parallel brain}
+\entryline{$\odot$}{claim-snapshot-test-first-encounter-learning}{Snapshot test for first-encounter learning}
 \entryline{$\odot$}{claim-consciousness-only-known-intrinsic}{Sole known intrinsic nature}
 \entryline{$\odot$}{claim-solipsism-parasitic-on-realism}{Solipsism is parasitic on realism}
 \entryline{$\vdash$}{argument-sorites-paradox}{Sorites paradox}

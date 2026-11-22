@@ -298,6 +298,7 @@
   - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --responds_to-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --attacks-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --responds_to-->
+  - [argument-retention-dilemma](arguments/retention-dilemma.md) --responds_to-->
 
 ## [argument-kripke-rule-following](arguments/kripke-rule-following.md)
 - type: argument | author: kripke | status: asserted
@@ -495,6 +496,9 @@
   - [argument-feel-is-the-watching-not-an-unwatched-difference](arguments/feel-is-the-watching-not-an-unwatched-difference.md) --responds_to-->
 
 ## [argument-representational-slope-from-illusionism](arguments/representational-slope-from-illusionism.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-retention-dilemma](arguments/retention-dilemma.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-retorsion-against-skepticism](arguments/retorsion-against-skepticism.md)
@@ -1667,6 +1671,16 @@
 ## [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md)
 - type: claim | author: chalmers | status: asserted
 
+## [claim-phenomenal-knowledge-needs-lasting-vehicle](claims/phenomenal-knowledge-needs-lasting-vehicle.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-retention-dilemma](arguments/retention-dilemma.md) --premise-->
+
+## [claim-phenomenal-knowledge-present-or-historical](claims/phenomenal-knowledge-present-or-historical.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-retention-dilemma](arguments/retention-dilemma.md) --concludes-->
+
 ## [claim-phenomenal-residue](claims/phenomenal-states-not-exhausted-by-role.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
@@ -1885,6 +1899,11 @@
 - backlinks:
   - [character-cyril](characters/cyril.md) --commits_to-->
 
+## [claim-snapshot-test-first-encounter-learning](claims/snapshot-test-first-encounter-learning.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-retention-dilemma](arguments/retention-dilemma.md) --premise-->
+
 ## [claim-solipsism-parasitic-on-realism](claims/solipsism-parasitic-on-realism.md)
 - type: claim | author: deutsch | status: asserted
 - backlinks:
@@ -2070,6 +2089,7 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --premise-->
+  - [argument-retention-dilemma](arguments/retention-dilemma.md) --premise-->
 
 ## [claim-zombie-conceivable](claims/zombie-conceivable.md)
 - type: claim | author: chalmers | status: asserted
@@ -2747,6 +2767,7 @@
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --uses_concept-->
   - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --uses_concept-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --uses_concept-->
+  - [argument-retention-dilemma](arguments/retention-dilemma.md) --uses_concept-->
   - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
   - [claim-mary-gain-depends-on-prewiring](claims/mary-gain-depends-on-prewiring.md) --uses_concept-->
   - [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md) --uses_concept-->
@@ -2757,6 +2778,9 @@
   - [claim-mary-knows-all-physical](claims/mary-knows-all-physical.md) --uses_concept-->
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --uses_concept-->
   - [claim-mary-learns-on-release](claims/mary-learns-on-release.md) --uses_concept-->
+  - [claim-phenomenal-knowledge-needs-lasting-vehicle](claims/phenomenal-knowledge-needs-lasting-vehicle.md) --uses_concept-->
+  - [claim-phenomenal-knowledge-present-or-historical](claims/phenomenal-knowledge-present-or-historical.md) --uses_concept-->
+  - [claim-snapshot-test-first-encounter-learning](claims/snapshot-test-first-encounter-learning.md) --uses_concept-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
   - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --uses_concept-->
   - [concept-llmary](concepts/llmary.md) --uses_concept-->
@@ -2783,6 +2807,7 @@
   - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
   - [claim-mary-gain-depends-on-prewiring](claims/mary-gain-depends-on-prewiring.md) --uses_concept-->
   - [claim-reading-own-weights-is-description](claims/reading-own-weights-is-description.md) --uses_concept-->
+  - [claim-snapshot-test-first-encounter-learning](claims/snapshot-test-first-encounter-learning.md) --uses_concept-->
   - [claim-surprise-predictable-yet-undergone](claims/surprise-predictable-yet-undergone.md) --uses_concept-->
   - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --uses_concept-->
   - [claim-unknown-token-selection-bound](claims/unknown-token-selection-bound.md) --uses_concept-->
@@ -3023,6 +3048,7 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --uses_concept-->
+  - [argument-retention-dilemma](arguments/retention-dilemma.md) --uses_concept-->
   - [claim-reading-own-weights-is-description](claims/reading-own-weights-is-description.md) --uses_concept-->
   - [claim-surprise-predictable-yet-undergone](claims/surprise-predictable-yet-undergone.md) --uses_concept-->
   - [claim-write-access-installs-binding](claims/write-access-installs-binding.md) --uses_concept-->
@@ -3473,6 +3499,7 @@
   - [claim-mary-gains-relational-placement](claims/mary-gains-relational-placement.md) --answers-->
   - [claim-mary-gains-self-locating-knowledge](claims/mary-gains-self-locating-knowledge.md) --answers-->
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --answers-->
+  - [claim-phenomenal-knowledge-present-or-historical](claims/phenomenal-knowledge-present-or-historical.md) --answers-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --answers-->
   - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --answers-->
 

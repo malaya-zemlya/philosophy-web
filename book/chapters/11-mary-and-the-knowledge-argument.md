@@ -37,12 +37,16 @@ entries:
       - claim-description-cannot-confer-token-production
       - claim-first-encounter-adds-binding
   - concept-self-access-kinds
+  - claim-write-access-installs-binding
   - argument-llmary-predicted-surprise:
       - claim-reading-own-weights-is-description
       - claim-surprise-predictable-yet-undergone
       - claim-unknown-token-selection-bound
-      - claim-write-access-installs-binding
       - claim-surprise-registers-missing-binding
+  - argument-retention-dilemma:
+      - claim-snapshot-test-first-encounter-learning
+      - claim-phenomenal-knowledge-needs-lasting-vehicle
+      - claim-phenomenal-knowledge-present-or-historical
   - claim-mary-gain-depends-on-prewiring
 ---
 
@@ -66,5 +70,6 @@ argument compares learning from description with learning from examples, and ask
 sight of red adds if everything relational about it could have been told to her in advance. The
 chapter closes by asking what Mary's surprise on release shows. Separating the ways a learner can
 know itself, from reading its own make-up to rewriting it, suggests that the surprise signals a
-representation still to be adjusted rather than a fact still unknown, and that how much there is to
-adjust depends on how much of the colour pathway is wired before experience.
+representation still to be adjusted rather than a fact still unknown. Comparing Mary with a complete
+duplicate who never saw red then asks where her new knowledge could be kept, and the last entry asks
+how much there is to adjust, given how much of the colour pathway is wired before experience.

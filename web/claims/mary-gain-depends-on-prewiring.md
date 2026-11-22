@@ -31,7 +31,9 @@ include it, but knowing a state is a form of reading, not of writing
 ([reading-own-weights-is-description](reading-own-weights-is-description.md)), so a Mary who knew every detail of her untrained
 colour circuitry would still undergo learning there on release. Only a Mary able to set that circuitry
 by some other route, as Daniel Dennett's RoboMary can ([write-access-installs-binding](write-access-installs-binding.md)), would
-not.
+not. In each case whether learning occurred is settled by comparing her lasting state before release
+with her state once the encounter's effects have consolidated
+([snapshot-test-first-encounter-learning](snapshot-test-first-encounter-learning.md)).
 
 The language-model case of [llmary](../concepts/llmary.md) sits at the second extreme, since a never-seen token's
 representation starts as arbitrary noise ([unknown-token-selection-bound](unknown-token-selection-bound.md)). Mary is closer to the
