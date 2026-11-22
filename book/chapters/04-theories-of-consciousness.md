@@ -37,4 +37,6 @@ character of experience with what the experience represents. Intermediate-level 
 consciousness at a middle stage of perceptual processing.
 
 These theories reappear throughout the book, most of all in the chapter on machine minds, where the
-question is whether any of them would count an artificial system as conscious.
+question is whether any of them would count an artificial system as conscious. The chapters that
+follow examine at greater length the broader views in which such theories are set: functionalism,
+computationalism, illusionism and panpsychism.
