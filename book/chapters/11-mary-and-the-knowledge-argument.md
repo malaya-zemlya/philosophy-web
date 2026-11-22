@@ -36,6 +36,14 @@ entries:
       - claim-description-binds-token-only-relationally
       - claim-description-cannot-confer-token-production
       - claim-first-encounter-adds-binding
+  - concept-self-access-kinds
+  - argument-llmary-predicted-surprise:
+      - claim-reading-own-weights-is-description
+      - claim-surprise-predictable-yet-undergone
+      - claim-unknown-token-selection-bound
+      - claim-write-access-installs-binding
+      - claim-surprise-registers-missing-binding
+  - claim-mary-gain-depends-on-prewiring
 ---
 
 Frank Jackson's Mary knows every physical fact about colour vision but has lived her whole life in a
@@ -55,4 +63,8 @@ The chapter ends with LLMary, a version of the thought experiment in which a lan
 everything about a token it has never processed. The case is wholly physical, and it is used both
 against the argument's central inference and to suggest that what Mary gains is relational. A last
 argument compares learning from description with learning from examples, and asks what Mary's first
-sight of red adds if everything relational about it could have been told to her in advance.
+sight of red adds if everything relational about it could have been told to her in advance. The
+chapter closes by asking what Mary's surprise on release shows. Separating the ways a learner can
+know itself, from reading its own make-up to rewriting it, suggests that the surprise signals a
+representation still to be adjusted rather than a fact still unknown, and that how much there is to
+adjust depends on how much of the colour pathway is wired before experience.

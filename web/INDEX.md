@@ -287,6 +287,7 @@
   - [argument-acquaintance-hypothesis](arguments/acquaintance-hypothesis.md) --responds_to-->
   - [argument-indexical-reply](arguments/indexical-reply.md) --attacks-->
   - [argument-indexical-reply](arguments/indexical-reply.md) --responds_to-->
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --responds_to-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --attacks-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --responds_to-->
   - [argument-mary-equivocation](arguments/mary-equivocation.md) --attacks-->
@@ -312,6 +313,9 @@
   - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --supports-->
 
 ## [argument-llmary-binding](arguments/llmary-binding.md)
+- type: argument | author: mishka | status: asserted
+
+## [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md)
 - type: argument | author: mishka | status: asserted
 
 ## [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md)
@@ -358,6 +362,8 @@
 
 ## [argument-mary-misimagined](arguments/mary-misimagined.md)
 - type: argument | author: dennett | status: asserted
+- backlinks:
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --responds_to-->
 
 ## [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md)
 - type: argument | author: mishka | status: asserted
@@ -1051,6 +1057,7 @@
 - type: claim | author: mishka | status: asserted
 - backlinks:
   - [argument-llmary-binding](arguments/llmary-binding.md) --concludes-->
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --premise-->
 
 ## [claim-first-token-update-is-relational](claims/first-token-update-is-relational.md)
 - type: claim | author: mishka | status: asserted
@@ -1432,6 +1439,9 @@
 - backlinks:
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --premise-->
 
+## [claim-mary-gain-depends-on-prewiring](claims/mary-gain-depends-on-prewiring.md)
+- type: claim | author: mishka | status: asserted
+
 ## [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md)
 - type: claim | author: lewis | status: asserted
 - backlinks:
@@ -1782,6 +1792,11 @@
 - backlinks:
   - [position-panqualityism](positions/panqualityism.md) --commits_to-->
 
+## [claim-reading-own-weights-is-description](claims/reading-own-weights-is-description.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --premise-->
+
 ## [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1977,6 +1992,16 @@
   - [argument-multidimensionality-objection](arguments/multidimensionality-objection.md) --attacks-->
   - [argument-paperclip-catastrophe](arguments/paperclip-catastrophe.md) --premise-->
 
+## [claim-surprise-predictable-yet-undergone](claims/surprise-predictable-yet-undergone.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --premise-->
+
+## [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --concludes-->
+
 ## [claim-survival-requires-resurrection](claims/survival-requires-resurrection.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -2014,6 +2039,11 @@
 - backlinks:
   - [argument-distributed-brain-unity](arguments/distributed-brain-unity.md) --attacks-->
 
+## [claim-unknown-token-selection-bound](claims/unknown-token-selection-bound.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --premise-->
+
 ## [claim-unobservables-judged-by-coherence-and-usefulness](claims/unobservables-judged-by-coherence-and-usefulness.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -2035,6 +2065,11 @@
 
 ## [claim-workspace-precedes-self](claims/workspace-precedes-self.md)
 - type: claim | author: gurnee | status: asserted
+
+## [claim-write-access-installs-binding](claims/write-access-installs-binding.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --premise-->
 
 ## [claim-zombie-conceivable](claims/zombie-conceivable.md)
 - type: claim | author: chalmers | status: asserted
@@ -2704,6 +2739,7 @@
   - [argument-indexical-reply](arguments/indexical-reply.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
   - [argument-llmary-binding](arguments/llmary-binding.md) --uses_concept-->
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --uses_concept-->
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-mary-equivocation](arguments/mary-equivocation.md) --uses_concept-->
@@ -2712,6 +2748,7 @@
   - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --uses_concept-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --uses_concept-->
   - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
+  - [claim-mary-gain-depends-on-prewiring](claims/mary-gain-depends-on-prewiring.md) --uses_concept-->
   - [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md) --uses_concept-->
   - [claim-mary-gains-acquaintance](claims/mary-gains-acquaintance.md) --uses_concept-->
   - [claim-mary-gains-old-fact-new-guise](claims/mary-gains-old-fact-new-guise.md) --uses_concept-->
@@ -2721,7 +2758,9 @@
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --uses_concept-->
   - [claim-mary-learns-on-release](claims/mary-learns-on-release.md) --uses_concept-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
+  - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --uses_concept-->
   - [concept-llmary](concepts/llmary.md) --uses_concept-->
+  - [concept-self-access-kinds](concepts/self-access-kinds.md) --uses_concept-->
   - [question-what-does-mary-learn](questions/what-does-mary-learn.md) --uses_concept-->
 
 ## [concept-level-of-abstraction-conflation](concepts/level-of-abstraction-conflation.md)
@@ -2733,6 +2772,7 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [argument-llmary-binding](arguments/llmary-binding.md) --uses_concept-->
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --uses_concept-->
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --uses_concept-->
@@ -2741,6 +2781,13 @@
   - [claim-first-encounter-adds-binding](claims/first-encounter-adds-binding.md) --uses_concept-->
   - [claim-first-token-update-is-relational](claims/first-token-update-is-relational.md) --uses_concept-->
   - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
+  - [claim-mary-gain-depends-on-prewiring](claims/mary-gain-depends-on-prewiring.md) --uses_concept-->
+  - [claim-reading-own-weights-is-description](claims/reading-own-weights-is-description.md) --uses_concept-->
+  - [claim-surprise-predictable-yet-undergone](claims/surprise-predictable-yet-undergone.md) --uses_concept-->
+  - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --uses_concept-->
+  - [claim-unknown-token-selection-bound](claims/unknown-token-selection-bound.md) --uses_concept-->
+  - [claim-write-access-installs-binding](claims/write-access-installs-binding.md) --uses_concept-->
+  - [concept-self-access-kinds](concepts/self-access-kinds.md) --uses_concept-->
 
 ## [concept-lookup-table-mind](concepts/lookup-table-mind.md)
 - type: concept | author: block | status: asserted
@@ -2972,6 +3019,14 @@
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-primary-intension](concepts/primary-intension.md) --uses_concept-->
 
+## [concept-self-access-kinds](concepts/self-access-kinds.md)
+- type: concept | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --uses_concept-->
+  - [claim-reading-own-weights-is-description](claims/reading-own-weights-is-description.md) --uses_concept-->
+  - [claim-surprise-predictable-yet-undergone](claims/surprise-predictable-yet-undergone.md) --uses_concept-->
+  - [claim-write-access-installs-binding](claims/write-access-installs-binding.md) --uses_concept-->
+
 ## [concept-soul](concepts/soul.md)
 - type: concept | author: generic | status: asserted
 - backlinks:
@@ -3080,6 +3135,7 @@
   - [claim-description-binds-token-only-relationally](claims/description-binds-token-only-relationally.md) --uses_concept-->
   - [claim-description-cannot-confer-token-production](claims/description-cannot-confer-token-production.md) --uses_concept-->
   - [claim-first-encounter-adds-binding](claims/first-encounter-adds-binding.md) --uses_concept-->
+  - [claim-unknown-token-selection-bound](claims/unknown-token-selection-bound.md) --uses_concept-->
 
 ## [position-advaita-vedanta](positions/advaita-vedanta.md)
 - type: position | author: shankara | status: asserted
@@ -3410,6 +3466,7 @@
 ## [question-what-does-mary-learn](questions/what-does-mary-learn.md)
 - type: question | author: generic | status: asserted
 - backlinks:
+  - [claim-mary-gain-depends-on-prewiring](claims/mary-gain-depends-on-prewiring.md) --answers-->
   - [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md) --answers-->
   - [claim-mary-gains-acquaintance](claims/mary-gains-acquaintance.md) --answers-->
   - [claim-mary-gains-old-fact-new-guise](claims/mary-gains-old-fact-new-guise.md) --answers-->
@@ -3417,6 +3474,7 @@
   - [claim-mary-gains-self-locating-knowledge](claims/mary-gains-self-locating-knowledge.md) --answers-->
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --answers-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --answers-->
+  - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --answers-->
 
 ## [source-aaronson-2014](sources/aaronson-2014.md)
 - type: source | author: mishka | status: asserted
@@ -3895,6 +3953,9 @@
 ## [source-gopnik-2009](sources/gopnik-2009.md)
 - type: source | author: mishka | status: asserted
 
+## [source-graham-horgan-2000](sources/graham-horgan-2000.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-grahek-2007](sources/grahek-2007.md)
 - type: source | author: mishka | status: asserted
 
@@ -3989,6 +4050,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-jackson-1982](sources/jackson-1982.md)
+- type: source | author: mishka | status: asserted
+
+## [source-jackson-1986](sources/jackson-1986.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-jackson-1998](sources/jackson-1998.md)

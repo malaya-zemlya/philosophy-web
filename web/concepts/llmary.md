@@ -131,3 +131,5 @@ anything, are spelled out in the companion argument, [llmary-token-encounter](..
   wholly relational, and by analogy so is what Mary learns.
 - [llmary-binding](../arguments/llmary-binding.md) — asks what the encounter adds that no description could, and
   answers: the binding of the token's relational role to its own representation.
+- [llmary-predicted-surprise](../arguments/llmary-predicted-surprise.md) — shows that the model's first-encounter surprise can be
+  predicted yet not avoided, and that it registers a missing binding rather than missing knowledge.

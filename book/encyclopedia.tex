@@ -7444,7 +7444,7 @@ Frank Jackson's Mary knows every physical fact about colour vision but has lived
 
 Everything turns on \hyperref[entry:question-what-does-mary-learn]{\textsc{What Mary learns}}. On the ability hypothesis she gains know-how, such as the abilities to recognise and imagine red, and no new fact. On the acquaintance hypothesis she meets the experience directly. The old-fact-new-guise reply says that she grasps an old fact under a new phenomenal concept, and the indexical reply says that she learns where she is in the world. Further replies question the setup: whether the argument equivocates on ``learning'', whether it refutes only a priori physicalism, and whether ``all the physical facts'' can even be imagined, or known by someone who is part of the world they describe.
 
-The chapter ends with LLMary, a version of the thought experiment in which a language model has read everything about a token it has never processed. The case is wholly physical, and it is used both against the argument's central inference and to suggest that what Mary gains is relational. A last argument compares learning from description with learning from examples, and asks what Mary's first sight of red adds if everything relational about it could have been told to her in advance.
+The chapter ends with LLMary, a version of the thought experiment in which a language model has read everything about a token it has never processed. The case is wholly physical, and it is used both against the argument's central inference and to suggest that what Mary gains is relational. A last argument compares learning from description with learning from examples, and asks what Mary's first sight of red adds if everything relational about it could have been told to her in advance. The chapter closes by asking what Mary's surprise on release shows. Separating the ways a learner can know itself, from reading its own make-up to rewriting it, suggests that the surprise signals a representation still to be adjusted rather than a fact still unknown, and that how much there is to adjust depends on how much of the colour pathway is wired before experience.
 \end{chapterintro}
 \begin{multicols}{2}
 \entryhead{concept-knowledge-argument}{Knowledge argument}{Concept \,\textperiodcentered\, after Jackson}{Knowledge argument}{The Knowledge Argument (Mary the colour scientist)}{$\blacklozenge$}
@@ -8062,6 +8062,7 @@ Then one day it finally meets the real thing in its input, and it clearly \emph{
   \item \hyperref[entry:claim-mary-gains-acquaintance]{\textsc{Mary gains acquaintance}} — the realist reply that the use-side acquaints one with a phenomenal property no description conveys; the move LLMary relocates rather than refutes.
   \item \hyperref[entry:argument-llmary-relational-diagnosis]{\textsc{LLMary relational diagnosis}} — a positive reading of the scenario: what LLMary learns is wholly relational, and by analogy so is what Mary learns.
   \item \hyperref[entry:argument-llmary-binding]{\textsc{LLMary binding argument}} — asks what the encounter adds that no description could, and answers: the binding of the token's relational role to its own representation.
+  \item \hyperref[entry:argument-llmary-predicted-surprise]{\textsc{Predicted-surprise argument}} — shows that the model's first-encounter surprise can be predicted yet not avoided, and that it registers a missing binding rather than missing knowledge.
 \end{seealso}
 
 \entryhead{argument-llmary-token-encounter}{LLMary token encounter}{Argument \,\textperiodcentered\, editorial}{LLMary token encounter}{LLMary — a model that has read all of AI but never seen token 123 updates on first encounter, yet the whole episode is physical, refuting the Knowledge Argument's conditional}{$\vdash$}
@@ -8341,11 +8342,156 @@ The encounter in question is a training-time one, the one-shot case of training-
 
 The claim refines \hyperref[entry:claim-first-token-update-is-relational]{\textsc{Relational first-token update}} rather than contradicting it. That claim says \emph{what} the token-specific update contains; this one says what is new about it, given that its content was already describable. It is distinct from \hyperref[entry:claim-mary-gains-relational-placement]{\textsc{Mary gains relational placement}}, which concerns Mary rather than the model, and it is reached in \hyperref[entry:argument-llmary-binding]{\textsc{LLMary binding argument}}.
 
+The encounter is the ordinary route to the binding but not the only possible one. A learner able to write its own parameters could install it in advance (see \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}). The idea that complete descriptive knowledge can coexist with lacking the right representation has a precedent in Paul Churchland, who distinguishes Mary's mastery of ``the complete set of true propositions about people's brain states'' from her lacking ``a representation of redness in her prelinguistic medium of representation for sensory variables'' (\hyperref[source:source-churchland-1985]{\textsc{Churchland — Reduction, Qualia, and the Direct Introspection of Brain States (1985)}}, p. 24). The binding account adds a mechanism for the second, and the asymmetry between recognising an item and producing it.
+
 \begin{plainterms}
 Everything an AI could learn about a new word-piece by meeting it could also, in principle, be told to it in advance. What meeting it actually adds is that the knowledge gets filed \emph{under the word-piece itself}, instead of being something the AI has to work out from the surrounding text each time.
 \end{plainterms}
 
 \end{subentries}
+\entryhead{concept-self-access-kinds}{Kinds of self-access}{Concept \,\textperiodcentered\, editorial}{Kinds of self-access}{Kinds of self-access in a learning system}{$\blacklozenge$}
+A learning system can stand in several different relations to its own inner workings, and they are easily run together under phrases like ``knowing oneself completely.'' Four are worth separating: \emph{reading} one's own parameters as data, \emph{introspecting} one's own current states, \emph{simulating} oneself, and \emph{writing} one's own parameters. The distinctions matter most in thought experiments about complete knowledge, such as Mary the colour scientist (see \hyperref[entry:concept-knowledge-argument]{\textsc{Knowledge argument}}) and its computational variant \hyperref[entry:concept-llmary]{\textsc{LLMary}}, because a verdict reached under one kind of self-access is often silently carried over to another.
+
+\webheading{Reading}
+
+A system \emph{reads} itself when a description of its own parameters is presented to it as ordinary input: a file of its weights placed in a language model's context, or papers about its architecture in its training data. This is knowledge \emph{about} oneself in the third person. A language model has no other way to read its weights, because the weights do its processing and are never its object. Reading is also limited by size, since a system cannot hold a complete copy of itself among its own contents (see \hyperref[entry:claim-complete-self-representation-impossible]{\textsc{Self-representation incompleteness}}); it can read only slices, such as the single row of numbers that represents one token.
+
+\webheading{Introspecting}
+
+A system \emph{introspects} when it can register its own current internal states, for instance noticing which activation an input has produced. Introspection is what would let a description of an inner state be matched against the state itself. Present language models show at most a limited and unreliable capacity of this kind, detecting some concepts deliberately injected into their activations (\hyperref[source:source-lindsey-introspection-2025]{\textsc{Jack Lindsey — Emergent Introspective Awareness in Large Language Models (Anthropic / Transformer Circuits Thread, 2025)}}; see \hyperref[entry:question-ai-introspection]{\textsc{AI introspection and access consciousness}}).
+
+\webheading{Simulating}
+
+A system \emph{simulates} itself when it uses its self-knowledge to work out what it would do or undergo in some situation, without being in that situation. A language model that knows its own architecture and weights could in principle calculate what its network would compute on meeting a new token, and even the training update that would follow. Paul Churchland's suggestion that a neuroscientifically trained Mary might imagine a cortical state ``even in advance'', as a musician can construct an unheard chord in imagination, is a human version (see \hyperref[source:source-churchland-1985]{\textsc{Churchland — Reduction, Qualia, and the Direct Introspection of Brain States (1985)}}), and so, in a weaker form, is David Hume's missing shade of blue, an idea of a colour never seen that the imagination supplies from the shades on either side (\hyperref[source:source-hume-treatise]{\textsc{Hume — A Treatise of Human Nature (1739–40)}}, 1.1.1.10).
+
+\webheading{Writing}
+
+A system \emph{writes} itself when it can change its own parameters directly, putting itself into a state that would ordinarily be produced only by some experience or training. Daniel Dennett's RoboMary is the canonical case: a robot whose colour system is locked computes, with her self-model, the state she would have entered on seeing a red tomato, and then makes ``all the necessary adjustment and puts herself into'' that state, so that ``there are no surprises for her'' when she finally sees colour (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). His Swamp Mary, whose brain a lightning bolt rearranges into the same state, reaches the result by accident rather than by work.
+
+\webheading{Why the distinctions matter}
+
+The first three are all forms of knowing; only the fourth changes what the system is. Simulation in particular can predict a change in full detail without producing it, since working out an update is not undergoing it. Several disputes about Mary turn on which of the four the thought experiment grants. Jackson's Mary, confined to her room, has reading and perhaps simulation; RoboMary has writing as well. What follows for each of these regimes is set out in \hyperref[entry:argument-llmary-predicted-surprise]{\textsc{Predicted-surprise argument}}.
+
+\begin{plainterms}
+There are four different ways a mind or a machine might ``know itself.'' It might \emph{read} a description of itself, as you might read your own medical file. It might \emph{notice} what is going on inside it right now. It might \emph{imagine} or calculate how it would react to something, the way you might predict your reaction to bad news. Or it might \emph{rewire} itself directly, which humans cannot do but a robot might. Only rewiring actually changes you. The other three, however detailed, leave you as you were.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:argument-mary-misimagined]{\textsc{Mary misimagined}} — the RoboMary argument that a system with complete self-knowledge would learn nothing on release; it assumes the writing kind of self-access.
+  \item \hyperref[entry:claim-full-self-access-achievable]{\textsc{Complete internal self-access}} — the claim that complete internal self-access is achievable, a thesis about introspection in the sense above.
+\end{seealso}
+
+\entryhead{argument-llmary-predicted-surprise}{Predicted-surprise argument}{Argument \,\textperiodcentered\, editorial}{Predicted-surprise argument}{Because a fully informed learner's first-encounter surprise varies with whether the binding is installed and not with what it knows, the surprise registers a missing binding rather than missing knowledge}{$\vdash$}
+Discussions of Mary the colour scientist commonly treat surprise on release as a sign of missing knowledge. Frank Jackson writes that Mary ``will not say 'ho, hum''', and takes this to show that she learns something she did not know (\hyperref[source:source-jackson-1986]{\textsc{Jackson — What Mary Didn't Know (1986)}}, p. 291). Daniel Dennett runs the same link the other way: a Mary who knew all the physical facts would have ``already written down, in exquisite detail'' how colour would affect her, and so would not be ``in the slightest surprised'' (\hyperref[source:source-dennett-1991]{\textsc{Dennett — Consciousness Explained (1991)}}; \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). George Graham and Terence Horgan concede that a fully informed Mary could predict her own surprise, but call this ``beside the point'' and ask the materialist to explain why that surprise is rationally appropriate rather than an error (\hyperref[source:source-graham-horgan-2000]{\textsc{Graham \& Horgan — Mary Mary, Quite Contrary (2000)}}, pp. 76–77). The \hyperref[entry:concept-llmary]{\textsc{LLMary}} thought experiment allows the link between surprise and knowledge to be tested directly, by varying the learner's self-access while holding its knowledge fixed.
+
+\webheading{The argument}
+
+The inference form is inference to the best explanation.
+
+\begin{enumerate}
+  \item What a model's first encounter with a token adds beyond any description is the binding of the token's relational role to its own representation (see \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}}).
+  \item Reading its own weights, or simulating itself with them, is a form of description and cannot by itself supply that binding (see \hyperref[entry:claim-reading-own-weights-is-description]{\textsc{Self-reading as description}}).
+  \item A learner can know in advance the size and direction of its first-encounter surprise and still undergo it (see \hyperref[entry:claim-surprise-predictable-yet-undergone]{\textsc{Predicted surprise}}).
+  \item With several indistinguishable unknown tokens, description alone leaves a surprise of at least log \emph{k} beyond what selecting the right token would allow, a bound the model can compute and cannot reduce (see \hyperref[entry:claim-unknown-token-selection-bound]{\textsc{Selection bound for unknown tokens}}).
+  \item A learner that can write its own representations can install the binding without the encounter, and then meets the item with no surprise (see \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}).
+  \item Therefore the best explanation of a fully informed learner's first-encounter surprise is that it registers a missing binding rather than missing knowledge (see \hyperref[entry:claim-surprise-registers-missing-binding]{\textsc{Surprise as a missing-binding signal}}).
+\end{enumerate}
+
+The structure is one of co-variation. Across premises 2 to 5 the learner's knowledge stays the same: it knows everything sayable about the token, including the surprise it will suffer. What changes is only its access to its own representations. Where it can read and simulate but not write, it is surprised, predictably and to a computable degree. Where it can write, and uses that power to install the binding, the surprise vanishes. Surprise therefore tracks the binding, not the knowledge, and the hypothesis that it signals missing knowledge predicts a co-variation that does not occur.
+
+\webheading{Bearing on Mary}
+
+Carried over to Mary, the result separates four cases that the literature runs together. Jackson's Mary, who has descriptive knowledge but cannot rewire her colour system, is surprised. That is correct, but the surprise shows that her colour representations needed adjusting, not that her physical knowledge was incomplete. Dennett's RoboMary, who can rewire herself, is not surprised, which is also correct, but because she has done by writing what the encounter would have done, not because knowing more removes surprise. Graham and Horgan's Mary Mary can predict her surprise and still feel it, and their footnoted worry that she ``cannot both know that she will be surprised in a certain way and be surprised in that way'' (\hyperref[source:source-graham-horgan-2000]{\textsc{Graham \& Horgan — Mary Mary, Quite Contrary (2000)}}, p. 85 n. 7) dissolves once the knowledge and the surprise are seen to be carried by different parts of one system. The surprise is rationally appropriate in exactly the sense they ask for: it is an accurate signal, not an illusion.
+
+How much the human case resembles the model's depends on how much of Mary's colour pathway is fixed before experience. If all of it is, there is nothing for the encounter to install, and Mary's first sight of red is like anyone else's; if some of it is shaped by experience, the encounter installs a binding there (see \hyperref[entry:claim-mary-gain-depends-on-prewiring]{\textsc{Prewiring and Mary's gain}}).
+
+\webheading{The weakest premise}
+
+The analogy behind the bearing on Mary is the weakest link, as it is for the other LLMary arguments (see \hyperref[entry:claim-mary-analogous-to-llmary]{\textsc{Mary–LLMary analogy}}). The phenomenal realist can grant everything about the model and hold that Mary's surprise contains a further component, delight at a new phenomenal quality, that has no counterpart in a prediction error. Graham and Horgan press exactly this, describing what surprises Mary Mary as ``the unanticipated experiential basis'' of her new capacities. The argument's reply is that such a component would have to make no difference to anything the surprise does or predicts, since everything it does is accounted for by the missing binding, and positing it is the point at issue rather than an independent datum.
+
+Within the model case, premise 4 depends on the never-seen rows being genuinely indistinguishable to the model. A model with introspective access to its own activations might break the symmetry, though it would then be using a further kind of self-access (see \hyperref[entry:concept-self-access-kinds]{\textsc{Kinds of self-access}}) and the conclusion would still follow for every learner that lacks it.
+
+\begin{plainterms}
+People often assume that if Mary is surprised when she first sees red, she must have been missing some fact, and that if she knew every fact, she could not be surprised. The AI version of Mary (see \hyperref[entry:concept-llmary]{\textsc{LLMary}}) shows this is wrong. An AI that knows everything about a new word-piece can still be surprised when it meets it, and can even predict how surprised it will be. The only thing that stops the surprise is the AI rewiring itself in advance, which is what Dennett's robot Mary does (see \hyperref[entry:argument-mary-misimagined]{\textsc{Mary misimagined}}). So surprise does not show a gap in knowledge. It shows that the mind had not yet been set up to handle the thing itself, which is something knowing more cannot fix.
+\end{plainterms}
+
+\webheading{See also}
+\begin{seealso}
+  \item \hyperref[entry:argument-llmary-binding]{\textsc{LLMary binding argument}} — the argument that what the first encounter adds is binding, on which this one builds.
+  \item \hyperref[entry:argument-knowledge-argument]{\textsc{Knowledge argument (Mary's room)}} — Jackson's argument, whose use of Mary's surprise this argument contests.
+\end{seealso}
+
+\begin{subentries}{Its claims}
+\subentryhead{claim-reading-own-weights-is-description}{Self-reading as description}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, premise 2}{Self-reading as description}{Reading its own weights as data gives a language model only a description of itself, which cannot supply the binding a first encounter with a token provides}{$\odot$}
+When a language model is given its own weights to read, for instance the row of numbers that represents a token it has never processed, it receives a description of itself like any other text. Reading that row does not change it, and the model cannot compare the numbers it has read with the activation the token will produce when it arrives, since it has no access to its own activations as objects. Reading therefore leaves the model where any description leaves it: knowing about the token, without the token's own representation carrying the token's role (see \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}}).
+
+The same holds for simulation, the use of such self-knowledge to calculate what the network would do on meeting the token, including the exact training update that would follow. Calculating an update is not undergoing it. Both are among the kinds of self-access distinguished in \hyperref[entry:concept-self-access-kinds]{\textsc{Kinds of self-access}}, and both differ from writing one's own weights, the case taken up in \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}.
+
+\begin{plainterms}
+An AI that reads a printout of its own internal numbers learns facts about itself, the way you might read your own brain scan. That does not change the numbers. Even working out exactly how the numbers would change on meeting a new word-piece is only a calculation; the change itself has not happened.
+\end{plainterms}
+
+\subentryhead{claim-surprise-predictable-yet-undergone}{Predicted surprise}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, premise 3}{Predicted surprise}{Knowing in advance how great its surprise on first encountering an item will be does not prevent a learner from undergoing that surprise}{$\odot$}
+Knowing that one will be surprised, and exactly how, does not stop the surprise from happening. A language model that knows all about a token it has never processed can calculate how improbable it will find the token when it first arrives, and hence how large its prediction error will be, and it can calculate the direction in which its token-specific weights will then move. When the token arrives it still assigns it almost no probability, still incurs that error, and still undergoes that update.
+
+The two facts sit in different places. The model's knowledge of the coming surprise is held in its shared parameters or in its context, as a description. The surprise itself is the prediction error of its output representation of the token, and that representation is computed without consulting what the model knows about it. The prediction cannot be fed into the very representation whose failure it predicts, unless the model can write that representation directly (see \hyperref[entry:claim-write-access-installs-binding]{\textsc{Self-installed binding}}). A familiar human analogue is the startle at a loud noise one knows is coming, which knowledge reduces but does not abolish.
+
+The claim settles a question George Graham and Terence Horgan leave open. They concede that their version of Mary, ``Mary Mary'', could predict in advance that she would be surprised on release, but they allow in a footnote that ``auto-prediction of epistemic states like surprise'' might present ``logical problems insofar as Mary Mary cannot both know that she will be surprised in a certain way and be surprised in that way'' (\hyperref[source:source-graham-horgan-2000]{\textsc{Graham \& Horgan — Mary Mary, Quite Contrary (2000)}}, p. 85 n. 7). The language-model case shows that no such problem arises when the knowledge and the surprise are carried by different parts of one system.
+
+\begin{plainterms}
+An AI can know ahead of time that a new word-piece will catch it off guard, and by how much, and still be caught off guard when it arrives. The knowing happens in one part of the system and the being surprised in another, and the first cannot reach the second. It is a bit like knowing a balloon is about to pop and jumping anyway.
+\end{plainterms}
+
+\subentryhead{claim-unknown-token-selection-bound}{Selection bound for unknown tokens}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, premise 4}{Selection bound for unknown tokens}{When several never-seen tokens are indistinguishable to a language model, description alone lets it at best split its prediction evenly among them, so its first-encounter surprise exceeds by at least log k what selecting the right token would allow}{$\odot$}
+Suppose a language model has \emph{k} tokens in its vocabulary that it has never processed, and it has read that one of them, token 123, follows a certain phrase. From the description it can work out what role token 123 will play, and so what its representation \emph{should} become once training on it takes place. What it cannot work out is \emph{which} of its untrained output rows belongs to token 123, because it bets on next tokens only through those rows and they are alike to it. Each began as random noise, and training on text that never contains them has pushed them all down in the same direction. Nothing in training on descriptions ever rewards putting probability on row 123 rather than on another untrained row.
+
+The best the model can then do is to give the class of unknown tokens whatever probability \emph{p} the description warrants and spread it evenly, so that token 123 receives at most \emph{p}/\emph{k}. Measured as prediction error in nats, its surprise when the token arrives is then at least
+
+\[
+-\log \frac{p}{k} = -\log p + \log k ,
+\]
+
+larger by log \emph{k} than it would be if the model could select the right token. The model can compute this bound in advance, which sharpens \hyperref[entry:claim-surprise-predictable-yet-undergone]{\textsc{Predicted surprise}}, and no further description can reduce it, since only selection can. With a single unknown token the problem disappears, because putting probability on ``the unknown token'' then puts it on the right one; the case of several shows the selection problem that elimination otherwise hides. Selection is the output-side counterpart of the recognition problem in \hyperref[entry:claim-description-binds-token-only-relationally]{\textsc{Relational binding of described tokens}}: one asks which incoming vector is the token, the other which row to bet on.
+
+The case has a limited analogue in Mary the colour scientist. A token's row is arbitrary, bearing no structural relation to the token's role, whereas a human colour system is in large part innately structured, so that where red will fall may be fixed in advance. To that extent Mary faces less of a selection problem than the model does; how much less depends on which parts of her colour pathway are fixed before experience (see \hyperref[entry:claim-mary-gain-depends-on-prewiring]{\textsc{Prewiring and Mary's gain}}).
+
+\begin{plainterms}
+Imagine an AI with several word-pieces it has never seen, which all look the same to it. It has read that one particular one will come after a certain phrase, and it even knows what that word-piece will come to mean. But when the phrase appears it cannot tell which of the look-alike word-pieces to expect, so the best it can do is spread its bet evenly across all of them. That guarantees a certain amount of surprise, which it can calculate in advance and cannot reduce by reading anything more.
+\end{plainterms}
+
+\subentryhead{claim-write-access-installs-binding}{Self-installed binding}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, premise 5}{Self-installed binding}{A learner with write access to its own representations can install, without the encounter, the binding a first encounter would provide, so that the encounter then brings no surprise}{$\odot$}
+A system that can change its own parameters directly can do for itself what a first encounter would have done. A language model that has calculated the update it would undergo on first meeting a token can, if it is able to write its own weights, apply that update in advance. Its representation of the token then carries the token's role before the token ever arrives, and when it does arrive the model predicts it well, so that there is no large error and nothing left to learn from it.
+
+The idea is Daniel Dennett's. His Locked RoboMary, whose colour system is locked, computes with her self-model the state she would have entered on seeing a red tomato and then puts herself into it, after which ``there are no surprises for her'' (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). Dennett's own target is the conclusion that Mary would learn nothing. The present claim states the mechanism that makes this true for RoboMary, the self-installation of the binding described in \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}}, and so limits it to learners that have write access.
+
+The binding need not be installed in the very representation the encounter would have trained. A model whose token row cannot be changed could instead train its other parameters to treat that particular untrained vector as the token, which is the analogue of RoboMary working around her locked colour system. Either way the installation is an act of writing, not of knowing, and it is the act that the kinds of self-access in \hyperref[entry:concept-self-access-kinds]{\textsc{Kinds of self-access}} separate from reading and simulation.
+
+\begin{plainterms}
+A robot that can rewire itself could set itself up in advance exactly as meeting something new would have set it up. Then, when the new thing finally comes, it is not surprised at all, because it has already made the change the encounter would have made. Knowing about the change is not enough; the robot has to actually make it.
+\end{plainterms}
+
+\subentryhead{claim-surprise-registers-missing-binding}{Surprise as a missing-binding signal}{Claim \,\textperiodcentered\, editorial \,\textperiodcentered\, conclusion}{Surprise as a missing-binding signal}{A fully informed learner's surprise on first encountering an item is rationally appropriate because it registers a missing binding rather than missing knowledge}{$\odot$}
+When a learner that already knows everything sayable about an item is nonetheless surprised on first meeting it, the surprise is neither an error nor a sign that its knowledge was incomplete. It is an accurate registration of something real: the learner's own representation of the item did not yet carry the item's role, and the encounter is what makes it do so (see \hyperref[entry:claim-first-encounter-adds-binding]{\textsc{Binding gained on first encounter}}). Surprise measures the distance between the learner's representations and its input, not the distance between its knowledge and the facts.
+
+The claim answers the challenge George Graham and Terence Horgan set for materialists, ``to give a satisfying, phenomenology-respecting, account of why it is rationally appropriate'' for a fully informed Mary to find her first colour experiences surprising, without treating her surprise as an illusion (\hyperref[source:source-graham-horgan-2000]{\textsc{Graham \& Horgan — Mary Mary, Quite Contrary (2000)}}, pp. 76–77). It denies the inference Frank Jackson draws from Mary's not saying ``ho, hum'' to her having lacked knowledge (\hyperref[source:source-jackson-1986]{\textsc{Jackson — What Mary Didn't Know (1986)}}, p. 291), and also Daniel Dennett's converse inference from her complete knowledge to her not being surprised (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}). It is reached in \hyperref[entry:argument-llmary-predicted-surprise]{\textsc{Predicted-surprise argument}}.
+
+\begin{plainterms}
+Someone who knows everything about a thing can still be surprised the first time they meet it, and that surprise is not a mistake. It correctly signals that their mind had not yet been set up to deal with the thing itself, only to know about it. Being surprised shows that the mind needed adjusting, not that some fact was missing.
+\end{plainterms}
+
+\end{subentries}
+\entryhead{claim-mary-gain-depends-on-prewiring}{Prewiring and Mary's gain}{Claim \,\textperiodcentered\, editorial}{Prewiring and Mary's gain}{The extent of what Mary learns on first seeing red depends on how much of her colour pathway is fixed independently of colour experience}{$\odot$}
+What happens when Mary the colour scientist first sees red is not settled by the thought experiment alone. It depends on an empirical fact about her: how much of the pathway from her retina to the rest of her mind is wired before any colour experience, and how much is set by that experience.
+
+At one extreme, the whole colour pathway is fixed in advance. Then her first sight of red puts her into the very state that anyone else's sight of red puts them in, and her experience is no different from that of a person who has seen red and blue all their life. Her colour system needs no training, so the encounter installs nothing new in it. At the other extreme, some stages of the pathway are shaped by experience and start in a state Mary does not know. Then what happens downstream of those stages on first exposure is learning, and its details depend on how learning actually works in her brain. Most realistic cases lie in between, with an innately structured early system feeding later stages that are tuned by use.
+
+The language-model case of \hyperref[entry:concept-llmary]{\textsc{LLMary}} sits at the second extreme, since a never-seen token's representation starts as arbitrary noise (see \hyperref[entry:claim-unknown-token-selection-bound]{\textsc{Selection bound for unknown tokens}}). Mary is closer to the first than the model is, which limits how far conclusions about the model carry over to her (see \hyperref[entry:claim-mary-analogous-to-llmary]{\textsc{Mary–LLMary analogy}}). The question is also not idle for the original thought experiment. Daniel Dennett notes that assuming Mary's colour system is ``still intact'' after a lifetime without colour is ``a nontrivial empirical assumption, given what is known about the ready reassignment of unused cortical resources'' (see \hyperref[source:source-dennett-2005]{\textsc{Dennett — Sweet Dreams (2005)}}).
+
+\begin{plainterms}
+Whether Mary learns anything when she first sees red depends on how her brain is built. If her colour vision is entirely wired up from birth, seeing red for the first time would be just like it is for everyone else, with nothing new to set up. If parts of it are only shaped by actually seeing colours, then her first sight of red would start that shaping, and exactly what she gains would depend on how the brain learns.
+\end{plainterms}
+
 \end{multicols}
 \bookchapter{Functionalism's puzzle cases}{chapter-functionalisms-puzzle-cases}
 \begin{chapterintro}
@@ -15505,6 +15651,7 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \sourceitem{source-goodman-1978}{Goodman, N. (1978). \emph{Ways of worldmaking}. Hackett.}
 \sourceitem{source-gopnik-2009}{Gopnik, A. (2009). \emph{The philosophical baby: What children's minds tell us about truth, love, and the meaning of life}. Farrar, Straus and Giroux.}
 \sourceitem{source-sep-jaina-philosophy}{Gorisse, M.-H. (2023). Jaina philosophy. In E. N. Zalta \& U. Nodelman (Eds.), \emph{The Stanford encyclopedia of philosophy} (first published February 13, 2023). \url{https://plato.stanford.edu/entries/jaina-philosophy/}}
+\sourceitem{source-graham-horgan-2000}{Graham, G., \& Horgan, T. (2000). Mary Mary, quite contrary. \emph{Philosophical Studies}, \emph{99}(1), 59–87. \url{https://doi.org/10.1023/A:1018779425306}}
 \sourceitem{source-grahek-2007}{Grahek, N. (2007). \emph{Feeling pain and being in pain} (2nd ed.). MIT Press.}
 \sourceitem{source-gray-1984}{Gray, J. J. (1984). A commentary on Gauss's mathematical diary, 1796–1814, with an English translation. \emph{Expositiones Mathematicae}, \emph{2}(2), 97–130.}
 \sourceitem{source-graziano-2013}{Graziano, M. S. A. (2013). \emph{Consciousness and the social brain}. Oxford University Press.}
@@ -15539,8 +15686,9 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \sourceitem{source-jackendoff-1987}{Jackendoff, R. (1987). \emph{Consciousness and the computational mind}. MIT Press.}
 \sourceitem{source-jackendoff-1996}{Jackendoff, R. (1996). How language helps us think. \emph{Pragmatics \& Cognition}, \emph{4}(1), 1–34. \url{https://doi.org/10.1075/pc.4.1.03jac}}
 \sourceitem{source-jackendoff-2007}{Jackendoff, R. (2007). \emph{Language, consciousness, culture: Essays on mental structure}. MIT Press.}
-\sourceitem{source-jackson-1982}{Jackson, F. (1982). Epiphenomenal qualia. \emph{The Philosophical Quarterly}, \emph{32}(127), 127–136. (Mary, who knows all the physical facts about colour vision from inside a black-and-white room, learns something on first seeing red. See also Jackson, F. (1986). What Mary didn't know. \emph{The Journal of Philosophy}, \emph{83}(5), 291–295.)}
+\sourceitem{source-jackson-1982}{Jackson, F. (1982). Epiphenomenal qualia. \emph{The Philosophical Quarterly}, \emph{32}(127), 127–136. (Mary, who knows all the physical facts about colour vision from inside a black-and-white room, learns something on first seeing red. See also [jackson-1986](jackson-1986.md).)}
 \sourceitem{}{Notable: Jackson \textbf{later recanted}, coming to reject the argument and accept physicalism (the ``knowledge'' being a new \emph{acquaintance/representation}, not a new fact) — recorded so the web does not attribute to him a view he abandoned; the argument is imported on its merits, not as his settled view.}
+\sourceitem{source-jackson-1986}{Jackson, F. (1986). What Mary didn't know. \emph{The Journal of Philosophy}, \emph{83}(5), 291–295. \url{https://doi.org/10.2307/2026143}}
 \sourceitem{source-jackson-1998}{Jackson, F. (1998). \emph{From metaphysics to ethics: A defence of conceptual analysis}. Clarendon Press. (Reference-fixing descriptions and the two-dimensional treatment of the necessary a posteriori; the ``location problem'' and a priori entailment of the macro from the micro. See also Chalmers, D. J., \& Jackson, F. (2001). Conceptual analysis and reductive explanation. \emph{The Philosophical Review}, \emph{110}(3), 315–360.)}
 \sourceitem{source-jackson-pettit-1990}{Jackson, F., \& Pettit, P. (1990). Program explanation: A general perspective. \emph{Analysis}, \emph{50}(2), 107–117.}
 \sourceitem{source-james-1890}{James, W. (1890). \emph{The principles of psychology} (Vol. 1). Henry Holt. (See ch. 6, ``The mind-stuff theory.'')}
@@ -16080,6 +16228,7 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \entryline{$\odot$}{claim-justification-is-infinite-chain}{Justification as infinite chain}
 \entryline{$\odot$}{claim-justification-terminates-in-trilemma}{Justification's trilemma}
 \indexletter{K}
+\entryline{$\blacklozenge$}{concept-self-access-kinds}{Kinds of self-access}
 \entryline{$\odot$}{claim-knowhow-is-knowledge-that}{Know-how as knowledge-that}
 \entryline{?}{question-external-world-knowledge}{Knowing the external world}
 \entryline{$\odot$}{claim-knowledge-without-noncircular-proof}{Knowing without proving}
@@ -16221,6 +16370,9 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \entryline{$\odot$}{claim-lookup-table-physically-unrealisable}{Physically unrealisable table}
 \entryline{$\odot$}{claim-cognitive-closure-exists}{Possibility of cognitive closure}
 \entryline{$\blacklozenge$}{concept-postdiction}{Postdiction}
+\entryline{$\odot$}{claim-surprise-predictable-yet-undergone}{Predicted surprise}
+\entryline{$\vdash$}{argument-llmary-predicted-surprise}{Predicted-surprise argument}
+\entryline{$\odot$}{claim-mary-gain-depends-on-prewiring}{Prewiring and Mary's gain}
 \entryline{$\blacklozenge$}{concept-primary-intension}{Primary intension}
 \entryline{$\odot$}{claim-privileged-first-person-access}{Privileged first-person access}
 \entryline{?}{question-intentionality}{Problem of intentionality}
@@ -16263,9 +16415,12 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \indexletter{S}
 \entryline{$\vdash$}{argument-mary-scope-reply}{Scope reply to Mary}
 \entryline{$\blacklozenge$}{concept-secondary-intension}{Secondary intension}
+\entryline{$\odot$}{claim-unknown-token-selection-bound}{Selection bound for unknown tokens}
+\entryline{$\odot$}{claim-write-access-installs-binding}{Self-installed binding}
 \entryline{$\odot$}{claim-intelligence-explosion-self-limiting}{Self-limiting self-improvement}
 \entryline{$\vdash$}{argument-ai-hard-problem-from-self-model-architecture}{Self-model architecture argument}
 \entryline{$\odot$}{claim-self-model-is-part-of-state}{Self-model as part of the state}
+\entryline{$\odot$}{claim-reading-own-weights-is-description}{Self-reading as description}
 \entryline{$\odot$}{claim-complete-self-representation-impossible}{Self-representation incompleteness}
 \entryline{$\odot$}{claim-heap-predicate-sharp}{Sharp heap boundary}
 \entryline{$\vdash$}{argument-shutdown-avoidance}{Shutdown-avoidance rebuttal}
@@ -16295,6 +16450,7 @@ The claim concerns the demarcation of empirical theories of consciousness, not t
 \entryline{$\odot$}{claim-substrate-independence}{Substrate-independence thesis}
 \entryline{$\blacklozenge$}{concept-super-spartan}{Super-spartans}
 \entryline{$\blacklozenge$}{concept-superintelligence}{Superintelligence}
+\entryline{$\odot$}{claim-surprise-registers-missing-binding}{Surprise as a missing-binding signal}
 \entryline{$\odot$}{claim-survival-requires-resurrection}{Survival by resurrection}
 \entryline{$\vdash$}{argument-swampman}{Swampman}
 \entryline{$\odot$}{claim-access-gap-symmetric}{Symmetric access gap}

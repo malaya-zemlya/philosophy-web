@@ -14,8 +14,7 @@ physicalism. Grounds [knowledge-argument](../concepts/knowledge-argument.md) and
 References:
 - Jackson, F. (1982). Epiphenomenal qualia. *The Philosophical Quarterly*, *32*(127), 127–136. (Mary,
   who knows all the physical facts about colour vision from inside a black-and-white room, learns
-  something on first seeing red. See also Jackson, F. (1986). What Mary didn't know. *The Journal of
-  Philosophy*, *83*(5), 291–295.)
+  something on first seeing red. See also [jackson-1986](jackson-1986.md).)
 - Notable: Jackson **later recanted**, coming to reject the argument and accept physicalism (the
   "knowledge" being a new *acquaintance/representation*, not a new fact) — recorded so the web does not
   attribute to him a view he abandoned; the argument is imported on its merits, not as his settled view.
