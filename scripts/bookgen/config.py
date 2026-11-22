@@ -25,7 +25,8 @@ class BookOptions:
     subtitle: str = "Distilled from the philosophy web"
     running_head: Optional[str] = None    # falls back to title
     columns: int = 2                       # 1 or 2
-    sort: str = "title"                    # title | type | id
+    sort: str = "title"                    # title | type | id   (alpha layout only)
+    layout: str = "chapters"               # chapters (book/chapters/*.md) | alpha (one A–Z run)
     font: str = "default"                  # text font preset: default | bookman | palatino | times | charter
     attribution: bool = True               # show the "after <Author>" etiquette line
     twoside: bool = False

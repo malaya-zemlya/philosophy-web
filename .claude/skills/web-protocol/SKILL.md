@@ -146,6 +146,28 @@ This single discipline prevents the fragmentation that makes the graph unusable 
 treatise-writing time. When unsure whether two claims are the same, create the new one
 **and** flag the pair for `/reconcile` rather than silently merging.
 
+## Placing a new node in a book chapter
+The printed encyclopedia is organised into thematic chapters, defined by the hand-edited files
+`book/chapters/<NN>-<slug>.md` (schema and rules: the docstring of `scripts/chapters.py`). Each
+file lists its entries in reading order, from basic to advanced. Every encyclopedia-style content
+node needs a **home**: exactly one place in one chapter. Lint warns about any node without one.
+
+When you create a node with shell access, place it in the same change:
+1. Run `make chapter-suggest ID=<new-id>` (after `make embed`). It reports the chapters that the
+   node's edges point into, the nearest chapters by meaning with their closest member, and, for a
+   claim, the arguments or positions it could nest under.
+2. **A claim** that is the premise or conclusion of exactly one argument goes *nested* under that
+   argument (`- argument-x:` followed by the indented claim id). Order premises as in the
+   argument's `premise:` list, then put the conclusion. A claim tied to no argument, but committed
+   to or rejected by exactly one position, nests under that position. A claim used by several
+   arguments, or by none, is a top-level entry.
+3. **Anything else** goes at top level, after the entries it builds on. Put a reply after its
+   target, an argument after the concepts it uses, and a concept before its first use.
+4. If no chapter fits, or the right one is unclear, ask the user rather than forcing a fit.
+
+Chapter files are editorial and outside `web/`. Character agents never edit them; the orchestrator
+places a debate's new nodes after the turn.
+
 ## Citing nodes in prose (bodies and transcripts)
 In any prose — a node's body or a transcript — reference another node with the `[[id]]` shorthand
 (e.g. `[[claim-substrate-independence]]`, or `[[claim-substrate-independence|substrate

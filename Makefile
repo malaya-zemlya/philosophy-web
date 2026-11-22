@@ -70,7 +70,7 @@ preview:  ## render PDF pages to PNGs in build/preview  (PDF=, FROM=, TO=, DPI=)
 
 entry: lint  ## typeset ONE node single-column and render it for eyeballing  (ID=<node-id-or-slug>)
 	@test -n "$(ID)" || { echo 'usage: make entry ID=<node-id-or-slug>'; exit 2; }
-	$(PY) scripts/book.py "$(ID)" --columns 1 --font $(FONT) --output book/_entry.tex
+	$(PY) scripts/book.py "$(ID)" --layout alpha --columns 1 --font $(FONT) --output book/_entry.tex
 	@mkdir -p $(PREVIEW)
 	$(GS) -dNOPAUSE -dBATCH -sDEVICE=png16m -r$(DPI) -sOutputFile=$(PREVIEW)/entry-%03d.png book/_entry.pdf
 	@echo "wrote $(PREVIEW)/entry-*.png"
@@ -83,6 +83,16 @@ progress:  ## report encyclopedia-style vs legacy node counts
 similar:  ## semantic search: web nodes + SEP sections nearest Q=<text> or ID=<node-id>  (K=, TYPE=, SEP=)
 	@test -n "$(Q)$(ID)" || { echo 'usage: make similar Q=<text> | ID=<node-id>  [K=10] [TYPE=claim] [SEP=include|only|none]'; exit 2; }
 	$(PY) scripts/similar.py query $(if $(Q),--q '$(Q)') $(if $(ID),--id '$(ID)') --k $(K) $(if $(TYPE),--type $(TYPE)) --sep $(SEP)
+
+chapters:  ## validate the book chapters in book/chapters/ (lint runs this too)
+	$(PY) scripts/chapters.py check
+
+chapters-unplaced:  ## list encyclopedia nodes that no book chapter places yet
+	$(PY) scripts/chapters.py unplaced
+
+chapter-suggest:  ## suggest a chapter, neighbours and a parent for a node  (ID=<node-id>)
+	@test -n "$(ID)" || { echo 'usage: make chapter-suggest ID=<node-id>'; exit 2; }
+	$(PY) scripts/chapters.py suggest '$(ID)'
 
 embed:  ## refresh the embedding cache -> embeddings/web.jsonl  (needs OPENAI_API_KEY)
 	$(PY) scripts/similar.py embed

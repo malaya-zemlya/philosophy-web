@@ -61,6 +61,8 @@ conclusions as atomic claims even when their statement contains a formula.
 ## Phase 4 — Verify & report
 10. Run the linter (see CLAUDE.md): `.venv/bin/python scripts/lint.py` (or
     `uv run --with pyyaml python scripts/lint.py`). Fix any integrity issues it reports.
+    Place every new node in a book chapter (web-protocol skill, "Placing a new node in a book
+    chapter"): the argument after its target, its premise and conclusion claims nested under it.
 11. Summarise: the source node; which claims/concepts were created vs cited; the argument
-    node and its `premise`/`concludes`/`attacks`/`responds_to`/`supports` edges; and any
-    `/reconcile` flags raised.
+    node and its `premise`/`concludes`/`attacks`/`responds_to`/`supports` edges; where the
+    nodes were placed in the book, and any `/reconcile` flags raised.

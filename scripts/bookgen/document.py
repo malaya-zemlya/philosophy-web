@@ -187,27 +187,46 @@ def _preamble_subst(opts: BookOptions, count: int, date: str) -> Dict[str, str]:
         "<<TITLE>>": latex_escape(opts.title),
         "<<SUBTITLE>>": latex_escape(opts.subtitle) if opts.subtitle else "",
         "<<RUNHEAD>>": latex_escape(opts.head),
+        "<<LEFTHEAD>>": r"\leftmark" if opts.layout == "chapters" else latex_escape(opts.head),
+        "<<TOCDEPTH>>": "0" if opts.layout == "chapters" else "1",
         "<<DATE>>": date, "<<COUNT>>": str(count),
     }
 
 
 def build_document(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) -> str:
     """Render the chosen ids into a complete, compilable LaTeX document."""
-    # cross-references display the target's headword when it has one, else its title
+    if opts.layout == "chapters":
+        from .chaptered import build_chaptered
+        return build_chaptered(ids, nodes, opts)
+    return _build_alphabetical(ids, nodes, opts)
+
+
+def render_setup(ids: List[str], nodes: Dict[str, Node]):
+    """The cross-reference tables every entry renderer needs: (titles, kinds, has_headword,
+    path_to_id, included)."""
     titles = {nid: n.display for nid, n in nodes.items()}
     kinds = {nid: n.type for nid, n in nodes.items()}
     has_headword = {nid for nid, n in nodes.items() if n.headword}
     path_to_id = {n.relpath: nid for nid, n in nodes.items()}
-    included = set(ids)
-    ordered = sorted(ids, key=lambda nid: sort_key(nodes[nid], nid, opts.sort))
-    cited_sources = _collect_cited_sources(ordered, nodes, path_to_id)
-    date = datetime.date.today().strftime("%B %Y")
-    subst = _preamble_subst(opts, len(ordered), date)
+    return titles, kinds, has_headword, path_to_id, set(ids)
 
+
+def document_head(opts: BookOptions, count: int, used_types) -> Tuple[List[str], Dict[str, str]]:
+    """Preamble + title page + Symbols key (shared by both layouts)."""
+    date = datetime.date.today().strftime("%B %Y")
+    subst = _preamble_subst(opts, count, date)
     parts: List[str] = [fill(templates.PREAMBLE, subst), r"\begin{document}",
                         r"\frontmatter",   # roman folios for the front matter; \mainmatter resets
                         fill(templates.TITLEPAGE, subst)]
-    parts += _symbol_key({nodes[nid].type for nid in ordered})
+    parts += _symbol_key(used_types)
+    return parts, subst
+
+
+def _build_alphabetical(ids: List[str], nodes: Dict[str, Node], opts: BookOptions) -> str:
+    titles, kinds, has_headword, path_to_id, included = render_setup(ids, nodes)
+    ordered = sorted(ids, key=lambda nid: sort_key(nodes[nid], nid, opts.sort))
+    cited_sources = _collect_cited_sources(ordered, nodes, path_to_id)
+    parts, subst = document_head(opts, len(ordered), {nodes[nid].type for nid in ordered})
     parts += _front_matter(ordered, nodes, subst)
     parts += _entries(ordered, nodes, opts, titles, kinds, included, path_to_id, has_headword,
                       cited_sources)
@@ -223,6 +242,22 @@ def _front_matter(ordered: List[str], nodes: Dict[str, Node],
             for nid in ordered]
     out += [r"\end{listofentries}", r"\mainmatter"]
     return out
+
+
+def entry_lines(nid: str, nodes: Dict[str, Node], opts: BookOptions, ctx: Ctx,
+                macro: str = "entryhead", role: str = "") -> List[str]:
+    """One entry: its head (headword, subtitle, etiquette) and rendered body. `macro` is
+    `entryhead` for a top-level entry or `subentryhead` for a claim nested under its argument;
+    `role` (e.g. "premise 2") is appended to the etiquette line."""
+    node = nodes[nid]
+    subtitle = render_inline(node.subtitle, ctx) if node.subtitle else ""
+    etq = etiquette(node, opts.attribution)
+    if role:
+        etq += r" \,\textperiodcentered\, " + latex_escape(role)
+    return [r"\%s{%s}{%s}{%s}{%s}{%s}{%s}" % (
+                macro, nid, render_inline(node.display, ctx), etq,
+                latex_escape(node.display), subtitle, _glyph(node)),
+            render_body(node.body, ctx), ""]
 
 
 def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
@@ -248,11 +283,6 @@ def _entries(ordered: List[str], nodes: Dict[str, Node], opts: BookOptions,
                 out.append(r"\begin{multicols}{2}")
                 in_cols = True
         ctx = Ctx(node.path, titles, kinds, included, path_to_id, has_headword, sources)
-        subtitle = render_inline(node.subtitle, ctx) if node.subtitle else ""
-        out.append(r"\entryhead{%s}{%s}{%s}{%s}{%s}{%s}" % (
-            nid, render_inline(node.display, ctx), etiquette(node, opts.attribution),
-            latex_escape(node.display), subtitle, _glyph(node)))
-        out.append(render_body(node.body, ctx))
-        out.append("")
+        out += entry_lines(nid, nodes, opts, ctx)
     close_cols()
     return out

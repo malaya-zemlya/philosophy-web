@@ -23,6 +23,7 @@ except ImportError:
     sys.exit("PyYAML required: pip install pyyaml")
 
 import weblinks   # shared id<->path + link rendering (scripts/weblinks.py)
+import chapters   # book chapter files: load + validate (scripts/chapters.py)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 WEB = ROOT / "web"
@@ -81,8 +82,9 @@ def render_links(id_to_path, check):
     transcripts. Returns (changed_files, reports). Frontmatter is never touched."""
     id_set = set(id_to_path)
     changed, reports = [], []
-    files = sorted(WEB.rglob("*.md")) + (sorted(TRANSCRIPTS.rglob("*.md"))
-                                         if TRANSCRIPTS.is_dir() else [])
+    files = (sorted(WEB.rglob("*.md"))
+             + (sorted(TRANSCRIPTS.rglob("*.md")) if TRANSCRIPTS.is_dir() else [])
+             + (sorted(chapters.CHAPTERS.glob("*.md")) if chapters.CHAPTERS.is_dir() else []))
     for path in files:
         if path.name in ("INDEX.md", "README.md"):
             continue
@@ -173,6 +175,12 @@ def main():
     changed_links, link_reports = render_links(id_to_path, check)
     problems += link_reports
 
+    # book chapters (book/chapters/): every entry exists, is placed once, nests legally
+    chs, ch_parse = chapters.load_chapters(ROOT)
+    ch_errors, ch_warnings = chapters.validate(chs, {nid: n["fm"] for nid, n in nodes.items()})
+    ch_errors = ch_parse + ch_errors
+    problems += ch_errors + ch_warnings
+
     # write INDEX.md (ids rendered as clickable links into the nodes they name)
     index_path = WEB / "INDEX.md"
     def link(nid):
@@ -220,7 +228,7 @@ def main():
     except Exception:
         pass
 
-    fatal = (bool(dup_ids)
+    fatal = (bool(dup_ids) or bool(ch_errors)
              or any(p.startswith(("DANGLING", "ILLEGAL", "dangling", "unknown")) for p in problems)
              or (check and bool(changed_links)))
     sys.exit(1 if fatal else 0)

@@ -13,3 +13,5 @@ Orchestrate a debate on: **$ARGUMENTS**
    continue, switch speaker, or stop.
 4. Do not write web nodes yourself — the character subagents do that. You hold the transcript and the turn order only.
 5. When we stop, run `make lint` (and `make embed` if nodes were created) and report any integrity issues.
+6. Place every node the characters created in a book chapter (web-protocol skill, "Placing a new node in a
+   book chapter"; `make chapter-suggest ID=…`), then run `make lint` again.

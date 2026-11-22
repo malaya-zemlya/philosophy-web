@@ -8,3 +8,5 @@ generalise, or merge it into an existing node without asking. Steps:
 1. Grep `web/` for the closest existing node and show it to me.
 2. Tell me whether you think this is the same proposition or genuinely new, and why.
 3. On my confirmation, either cite the existing node (by id in a frontmatter edge, `[[id]]` in prose) or create a new node with `author: human`, atomic, with correct edges. If new and close to an existing one, add the "Distinct from [[<id>]] because …" line.
+4. Place a new node in a book chapter (web-protocol skill, "Placing a new node in a book chapter";
+   `make chapter-suggest ID=…`), tell me where it went, and run `make lint`.

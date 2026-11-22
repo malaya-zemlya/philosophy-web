@@ -134,6 +134,12 @@ One utterance is not one node.
   `scripts/bookgen/` package → `book/encyclopedia.{tex,pdf}`. Manual, on demand; the PDF step needs
   a LaTeX engine but degrades to `.tex` without one. See `scripts/bookgen/README.md`. This is the
   delivery vehicle for the encyclopedia style of rule 8 / `schemas/_style.md`.
+- Book chapters (the encyclopedia's thematic structure): `book/chapters/<NN>-<slug>.md`, one file per
+  chapter with a hand-ordered `entries:` list (basic → advanced; a claim may nest under its argument
+  or position) and an introduction as its body. Editorial, not web nodes. Every encyclopedia node
+  needs exactly one home there; lint validates this. **When you create a node, place it** (see the
+  web-protocol skill, "Placing a new node in a book chapter"; `make chapter-suggest ID=<id>`).
+  Validation and suggestions: `scripts/chapters.py`.
 - Semantic search (OpenAI embeddings over content + source nodes, plus the SEP mirror):
   `scripts/similar.py` → committed cache `embeddings/web.jsonl`. `make similar Q=<text>` /
   `ID=<node>` (nearest web nodes, then a separate block of nearest SEP sections; `SEP=only|none`),
@@ -153,6 +159,7 @@ Recurring non-AI operations are captured in the `Makefile` — **prefer them ove
 commands**: `make lint`, `make book` (build the encyclopedia; `STYLE=any` for everything),
 `make entry ID=<node>` (typeset + render one node to `build/preview/`), `make preview`,
 `make progress` (encyclopedia vs legacy counts), `make find Q=<text>`,
+`make chapters` / `make chapters-unplaced` / `make chapter-suggest ID=<node>` (book chapters),
 `make similar Q=<text>|ID=<node>` (semantic nearest-nodes + SEP sections), `make embed` (refresh the embedding
 cache), `make dupes` (near-duplicate report), `make clean`. `make help`
 lists them. They wrap the scripts below; the Python still runs through uv.

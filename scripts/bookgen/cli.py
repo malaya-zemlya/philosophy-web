@@ -26,7 +26,12 @@ def build_parser() -> argparse.ArgumentParser:
     sel.add_argument("--limit", type=int, help="cap the number of entries (quick test builds)")
 
     fmt = ap.add_argument_group("formatting")
-    fmt.add_argument("--sort", choices=["title", "type", "id"], default="title")
+    fmt.add_argument("--layout", choices=["chapters", "alpha"], default=None,
+                     help="chapters: thematic chapters from book/chapters/*.md, a chapters-only "
+                          "Contents and a back-of-book Index (default when book/chapters/ exists); "
+                          "alpha: one alphabetical run with letter bands and a List of Entries")
+    fmt.add_argument("--sort", choices=["title", "type", "id"], default="title",
+                     help="entry order for --layout alpha")
     fmt.add_argument("--columns", type=int, choices=[1, 2], default=2)
     fmt.add_argument("--font", choices=["default", "bookman", "palatino", "times", "charter"],
                      default="default", help="text font preset (default = Latin Modern)")
@@ -52,6 +57,8 @@ def _options(args: argparse.Namespace) -> BookOptions:
     return BookOptions(
         title=args.title, subtitle=args.subtitle, running_head=args.running_head,
         columns=args.columns, sort=args.sort, font=args.font,
+        layout=args.layout or ("chapters" if os.path.isdir(os.path.join(ROOT, "book", "chapters"))
+                               else "alpha"),
         attribution=not args.no_attribution,
         twoside=args.twoside, paper=args.paper, margin=args.margin)
 

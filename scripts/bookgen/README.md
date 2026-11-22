@@ -25,7 +25,32 @@ encyclopedia standard (`schemas/_style.md`). It never drops an explicitly-named 
 node always includes it. The `/build-encyclopedia` command defaults this to `encyclopedia`, so the
 published book carries only finished entries.
 
-## What it produces
+## Layouts
+
+`--layout chapters` (the default whenever `book/chapters/` exists) builds the book from the chapter
+files described in `scripts/chapters.py`:
+
+- **Front matter:** title page, Symbols, a **Contents** page that lists chapters only, then the
+  `kind: front` chapters (Introduction, How to read this book).
+- **Chapters:** each `kind: body` chapter is numbered. Its introduction is set full width and
+  closed by a short rule. Its entries follow in two columns, in the file's hand-made order. A claim
+  nested under an argument or position prints as an indented **sub-entry** right after its parent
+  ("Its claims" / "Its commitments"). The etiquette line carries the claim's role, such as
+  "premise 2", "conclusion" or "commitment".
+- **Appendices:** the `kind: back` chapters, plus **Unsorted entries** for any selected node that no
+  chapter places, so nothing silently disappears.
+- **Back matter:** Sources, then an alphabetical **Index** of every entry and sub-entry with its
+  page number.
+
+Only selected nodes print. A chapter keeps its order but skips unselected entries. A nested claim
+whose parent is not selected is promoted to a top-level entry. A body chapter with no selected
+entries is dropped. The running head shows the chapter title on the verso and the current entry on
+the recto.
+
+`--layout alpha` is the original single A–Z run, described in the next section. `--sort` applies
+only to it.
+
+## What it produces (alpha layout)
 
 - **Alphabetised entries**, two columns, with a thin column rule. Leading articles are ignored
   when filing (*The Chinese Room* sits under **C**).
@@ -74,7 +99,8 @@ top-level `build/` directory (git-ignored), so only the deliverables — `encycl
 | `inline.py`    | inline markdown → LaTeX; cross-reference resolution (`Ctx`) |
 | `markdown.py`  | block markdown → LaTeX (lists, paragraphs, sections, special blocks) |
 | `templates.py` | the LaTeX preamble / title page / front-matter strings |
-| `document.py`  | ordering, grouping, etiquette — assemble the whole document |
+| `document.py`  | ordering, grouping, etiquette — assemble the document; the alpha layout |
+| `chaptered.py` | the chapters layout (reads `book/chapters/` via the top-level `chapters.py`) |
 | `compile.py`   | locate a LaTeX engine and run it |
 | `cli.py`       | argument parsing and orchestration |
 
