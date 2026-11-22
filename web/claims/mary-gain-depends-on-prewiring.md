@@ -20,10 +20,18 @@ At one extreme, the whole colour pathway is fixed in advance. Then her first sig
 into the very state that anyone else's sight of red puts them in, and her experience is no different
 from that of a person who has seen red and blue all their life. Her colour system needs no training,
 so the encounter installs nothing new in it. At the other extreme, some stages of the pathway are
-shaped by experience and start in a state Mary does not know. Then what happens downstream of those
-stages on first exposure is learning, and its details depend on how learning actually works in her
-brain. Most realistic cases lie in between, with an innately structured early system feeding later
-stages that are tuned by use.
+shaped by colour experience, and Mary has no other way of setting them: neither her ordinary learning
+processes, which colourless input never engages there, nor any means of rewriting her own brain. Then
+what happens downstream of those stages on first exposure is learning, and its details depend on how
+learning actually works in her brain. Most realistic cases lie in between, with an innately structured
+early system feeding later stages that are tuned by use.
+
+What matters is not whether Mary *knows* the state of those stages. Complete physical knowledge would
+include it, but knowing a state is a form of reading, not of writing
+([reading-own-weights-is-description](reading-own-weights-is-description.md)), so a Mary who knew every detail of her untrained
+colour circuitry would still undergo learning there on release. Only a Mary able to set that circuitry
+by some other route, as Daniel Dennett's RoboMary can ([write-access-installs-binding](write-access-installs-binding.md)), would
+not.
 
 The language-model case of [llmary](../concepts/llmary.md) sits at the second extreme, since a never-seen token's
 representation starts as arbitrary noise ([unknown-token-selection-bound](unknown-token-selection-bound.md)). Mary is closer to the
