@@ -129,3 +129,5 @@ anything, are spelled out in the companion argument, [llmary-token-encounter](..
   phenomenal property no description conveys; the move LLMary relocates rather than refutes.
 - [llmary-relational-diagnosis](../arguments/llmary-relational-diagnosis.md) — a positive reading of the scenario: what LLMary learns is
   wholly relational, and by analogy so is what Mary learns.
+- [llmary-binding](../arguments/llmary-binding.md) — asks what the encounter adds that no description could, and
+  answers: the binding of the token's relational role to its own representation.

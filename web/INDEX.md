@@ -311,8 +311,13 @@
 - backlinks:
   - [argument-verbal-poise-no-further-fact](arguments/verbal-poise-no-further-fact.md) --supports-->
 
+## [argument-llmary-binding](arguments/llmary-binding.md)
+- type: argument | author: mishka | status: asserted
+
 ## [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md)
 - type: argument | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-binding](arguments/llmary-binding.md) --responds_to-->
 
 ## [argument-llmary-token-encounter](arguments/llmary-token-encounter.md)
 - type: argument | author: mishka | status: asserted
@@ -977,6 +982,16 @@
 - backlinks:
   - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --premise-->
 
+## [claim-description-binds-token-only-relationally](claims/description-binds-token-only-relationally.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-binding](arguments/llmary-binding.md) --premise-->
+
+## [claim-description-cannot-confer-token-production](claims/description-cannot-confer-token-production.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-binding](arguments/llmary-binding.md) --premise-->
+
 ## [claim-disanalogies-trace-to-entropy](claims/disanalogies-trace-to-entropy.md)
 - type: claim | author: mishka | status: asserted
 
@@ -1032,9 +1047,15 @@
 - backlinks:
   - [argument-lookup-table-combinatorial-impossibility](arguments/lookup-table-combinatorial-impossibility.md) --premise-->
 
+## [claim-first-encounter-adds-binding](claims/first-encounter-adds-binding.md)
+- type: claim | author: mishka | status: asserted
+- backlinks:
+  - [argument-llmary-binding](arguments/llmary-binding.md) --concludes-->
+
 ## [claim-first-token-update-is-relational](claims/first-token-update-is-relational.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
+  - [argument-llmary-binding](arguments/llmary-binding.md) --premise-->
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --premise-->
 
 ## [claim-floating-man-affirms-self](claims/floating-man-affirms-self.md)
@@ -2682,6 +2703,7 @@
   - [argument-bike-rider-learns-facts](arguments/bike-rider-learns-facts.md) --uses_concept-->
   - [argument-indexical-reply](arguments/indexical-reply.md) --uses_concept-->
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --uses_concept-->
+  - [argument-llmary-binding](arguments/llmary-binding.md) --uses_concept-->
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-mary-equivocation](arguments/mary-equivocation.md) --uses_concept-->
@@ -2710,9 +2732,13 @@
 ## [concept-llmary](concepts/llmary.md)
 - type: concept | author: mishka | status: asserted
 - backlinks:
+  - [argument-llmary-binding](arguments/llmary-binding.md) --uses_concept-->
   - [argument-llmary-relational-diagnosis](arguments/llmary-relational-diagnosis.md) --uses_concept-->
   - [argument-llmary-token-encounter](arguments/llmary-token-encounter.md) --uses_concept-->
   - [argument-qualia-relational-from-cases](arguments/qualia-relational-from-cases.md) --uses_concept-->
+  - [claim-description-binds-token-only-relationally](claims/description-binds-token-only-relationally.md) --uses_concept-->
+  - [claim-description-cannot-confer-token-production](claims/description-cannot-confer-token-production.md) --uses_concept-->
+  - [claim-first-encounter-adds-binding](claims/first-encounter-adds-binding.md) --uses_concept-->
   - [claim-first-token-update-is-relational](claims/first-token-update-is-relational.md) --uses_concept-->
   - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
 
@@ -3046,6 +3072,14 @@
   - [argument-storm-analogy-conflates-world-index](arguments/storm-analogy-conflates-world-index.md) --uses_concept-->
   - [claim-sim-agents-can-have-sim-qualia](claims/sim-agents-can-have-sim-qualia.md) --uses_concept-->
   - [claim-simulated-rain-wet-in-simulated-world](claims/simulated-rain-wet-in-simulated-world.md) --uses_concept-->
+
+## [concept-zero-shot-few-shot-learning](concepts/zero-shot-few-shot-learning.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [argument-llmary-binding](arguments/llmary-binding.md) --uses_concept-->
+  - [claim-description-binds-token-only-relationally](claims/description-binds-token-only-relationally.md) --uses_concept-->
+  - [claim-description-cannot-confer-token-production](claims/description-cannot-confer-token-production.md) --uses_concept-->
+  - [claim-first-encounter-adds-binding](claims/first-encounter-adds-binding.md) --uses_concept-->
 
 ## [position-advaita-vedanta](positions/advaita-vedanta.md)
 - type: position | author: shankara | status: asserted
@@ -3514,6 +3548,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-breuer-1995](sources/breuer-1995.md)
+- type: source | author: mishka | status: asserted
+
+## [source-brown-2020](sources/brown-2020.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-butlin-2023](sources/butlin-2023.md)

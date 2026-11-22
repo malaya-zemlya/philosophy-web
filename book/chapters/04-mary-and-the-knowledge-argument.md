@@ -27,10 +27,15 @@ entries:
   - argument-mary-omniscience-unrealizable
   - concept-llmary
   - argument-llmary-token-encounter
+  - claim-first-token-update-is-relational
   - argument-llmary-relational-diagnosis:
-      - claim-first-token-update-is-relational
       - claim-mary-analogous-to-llmary
       - claim-mary-gains-relational-placement
+  - concept-zero-shot-few-shot-learning
+  - argument-llmary-binding:
+      - claim-description-binds-token-only-relationally
+      - claim-description-cannot-confer-token-production
+      - claim-first-encounter-adds-binding
 ---
 
 Frank Jackson's Mary knows every physical fact about colour vision but has lived her whole life in a
@@ -48,4 +53,6 @@ known by someone who is part of the world they describe.
 
 The chapter ends with LLMary, a version of the thought experiment in which a language model has read
 everything about a token it has never processed. The case is wholly physical, and it is used both
-against the argument's central inference and to suggest that what Mary gains is relational.
+against the argument's central inference and to suggest that what Mary gains is relational. A last
+argument compares learning from description with learning from examples, and asks what Mary's first
+sight of red adds if everything relational about it could have been told to her in advance.
