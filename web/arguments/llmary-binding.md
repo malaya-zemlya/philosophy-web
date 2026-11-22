@@ -18,9 +18,11 @@ style: encyclopedia
 This argument presses a question that the [llmary-relational-diagnosis](llmary-relational-diagnosis.md) leaves open. If the
 whole of what a language model learns on first meeting a token is relational, and relational facts
 can be stated in words, then a sufficiently detailed description should have delivered the same
-knowledge in advance. In the terms of [zero-shot-few-shot-learning](../concepts/zero-shot-few-shot-learning.md), zero-shot learning from
-description should match learning from examples. The argument answers that it does not, and locates
-the difference precisely.
+knowledge in advance. In the terms of [zero-shot-few-shot-learning](../concepts/zero-shot-few-shot-learning.md), training-time zero-shot
+learning from description should match training-time learning from examples. The argument answers
+that it does not, and locates the difference precisely. Both the description and the encounter it
+concerns happen at training time; inference-time learning, which leaves the weights fixed, works by a
+different mechanism and is not what the argument is about.
 
 ### The argument
 

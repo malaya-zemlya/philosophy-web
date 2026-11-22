@@ -18,6 +18,12 @@ the encounter, what the model knows about the token sits in other parameters and
 token only on the spot, through context. Afterwards the role is written into the token's own
 representation, so the model can recognise the token anywhere and produce it unprompted.
 
+The encounter in question is a training-time one, the one-shot case of training-time learning
+distinguished in [zero-shot-few-shot-learning](../concepts/zero-shot-few-shot-learning.md). An encounter at inference time would not
+produce the binding: a fixed model meeting the token in its prompt can relate it to its neighbours on
+the spot, but its weights do not change, so nothing is written into the token's own representation and
+the gain is lost with the prompt.
+
 The claim refines [first-token-update-is-relational](first-token-update-is-relational.md) rather than contradicting it. That claim
 says *what* the token-specific update contains; this one says what is new about it, given that its
 content was already describable. It is distinct from [mary-gains-relational-placement](mary-gains-relational-placement.md), which

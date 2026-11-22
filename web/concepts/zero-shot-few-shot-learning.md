@@ -26,7 +26,7 @@ otter → loutre de mer; peppermint → menthe poivrée; cheese →") and lets t
 pattern. The striking finding was that large models improve markedly from a few examples placed in
 the prompt, although nothing about them is retrained.
 
-### Two distinctions, not one
+### Two distinctions, four regimes
 
 Two separate contrasts are often run together under these names, and they should be kept apart.
 
@@ -34,18 +34,47 @@ The first is the contrast between **description and example**: whether the syste
 only as something talked about or also as something actually occurring. This is the contrast the
 names themselves mark.
 
-The second is the contrast between **learning in context and learning in the weights**. In the GPT-3
-sense, both zero-shot and few-shot learning happen in context: the model's parameters stay fixed and
-whatever it "learns" lasts only as long as the prompt. Ordinary training, by contrast, changes the
-weights permanently through gradient descent. Elsewhere in machine learning, "zero-shot" is used more
-broadly for any generalisation to a class never seen in training, for instance recognising a zebra
-from the description "a horse with black and white stripes."
+The second is the contrast between **learning at training time and learning at inference time**.
+Training changes the model's weights through gradient descent, and what is learned persists. Inference
+leaves the weights fixed: whatever the model "learns" from its prompt is carried in its internal
+activations and lasts only as long as the prompt does. The GPT-3 sense of the terms is the
+inference-time one. Elsewhere in machine learning, "zero-shot" more often means a training-time
+achievement: generalising to a class absent from the training data, as in recognising a zebra from the
+description "a horse with black and white stripes."
 
-The two contrasts cross. A model can learn from examples in its weights (ordinary training), from
-examples in context (few-shot prompting), or from a description in context (zero-shot prompting), and
-it can absorb descriptions into its weights by being trained on text about a thing it has never met.
-That last combination is the situation of [llmary](llmary.md) before its first encounter with the
-token it has only read about.
+The two contrasts cross, giving four regimes:
+
+- **Training-time zero-shot**: the model is trained on text *about* an item it never meets, so that
+  what it knows of the item is stored in parameters shared with everything else. This is the
+  situation of [llmary](llmary.md) before its first encounter with the token it has only read about.
+- **Training-time few-shot**: the item itself occurs in the training data a handful of times, and
+  each occurrence adjusts the weights, including the item's own parameters. LLMary's first encounter
+  is the one-shot case.
+- **Inference-time zero-shot**: a fixed model is told about an item or task in its prompt and must
+  act on the description at once.
+- **Inference-time few-shot**: a fixed model is shown examples in its prompt and continues the
+  pattern.
+
+### Different mechanisms, different dynamics
+
+All four regimes are of interest, but they need not work the same way, and a result established for
+one should not be assumed to carry over to another. The differences are of three kinds.
+
+*Mechanism.* Training-time learning is gradient descent: each example nudges the weights in the
+direction that would have reduced the error on it. Inference-time learning is carried out by the
+fixed network itself, chiefly by attention, which lets later positions read from and copy patterns
+found at earlier ones. Whether, and how closely, this in-context process imitates gradient descent is
+an open research question.
+
+*Dynamics.* At training time a single example usually moves the weights only a little, so rare items
+tend to be learned poorly and many exposures may be needed. In context, one or two examples can be
+enough for the model to pick up a pattern, but the gain vanishes with the prompt and is bounded by
+the length of the context window.
+
+*What can be reached.* Training can change any parameter, including an item's own embedding. Inference
+can only use the representations the network already has. A token whose embedding was never trained
+remains, during inference, an essentially untrained vector, so in-context learning can attach meaning
+to it only through its position among other tokens, never by improving the vector itself.
 
 ### Why it matters philosophically
 

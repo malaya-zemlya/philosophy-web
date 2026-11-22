@@ -24,6 +24,10 @@ the context, a model may still *copy* it, because copying draws on the input sid
 untrained output row. It also leaves recognition open, which description can partly supply
 ([description-binds-token-only-relationally](description-binds-token-only-relationally.md)).
 
+In the terms of [zero-shot-few-shot-learning](../concepts/zero-shot-few-shot-learning.md), the claim holds in both regimes. Training on
+descriptions never trains the token's output row, and a description given in a prompt at inference time
+cannot train anything at all, since inference leaves the weights fixed.
+
 The resulting asymmetry, that description can support recognising the token in context but not
 producing it, parallels the abilities David Lewis took Mary the colour scientist to gain on release
 ([lewis-1988](../sources/lewis-1988.md)). Description could let Mary recognise red by its context, as when she is not

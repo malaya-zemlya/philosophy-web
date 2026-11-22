@@ -34,6 +34,12 @@ The claim concerns identification by description, not production; that descripti
 model *emit* such a token is the separate [description-cannot-confer-token-production](description-cannot-confer-token-production.md). It
 complements [first-token-update-is-relational](first-token-update-is-relational.md), which says what the encounter itself teaches.
 
+The claim spans two of the regimes distinguished in [zero-shot-few-shot-learning](../concepts/zero-shot-few-shot-learning.md). The
+description is absorbed at training time, as training-time zero-shot learning, while the identification
+happens at inference time, in context, when the token finally appears in a prompt. The same limit holds
+when the description itself is given in the prompt rather than in training, because either way the
+token's own vector carries nothing the description could latch onto.
+
 ### In plain terms
 
 An AI that has only read about a word-piece it has never actually seen can recognise it later only by
