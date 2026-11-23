@@ -71,3 +71,4 @@ do any work at all — or is the mental side just along for the ride, as
   objection.
 - [epiphenomenalism](epiphenomenalism.md) — the fate critics say the view cannot escape at the level of
   mental properties.
+- [supervenience](../concepts/supervenience.md): the mental is a function of the physical, but the set of realizers of a mental kind is no physical kind about which a law could be stated.

@@ -60,3 +60,4 @@ itself, a requirement. It unlocks the door; it doesn't claim anyone has walked t
   affirmative answer.
 - [llm-moral-status](../questions/llm-moral-status.md) — the further issue this claim helps bear on once paired with
   a parity argument.
+- [multiple-realizability](../concepts/multiple-realizability.md): substrate independence as the claim that the set of realizers of a conscious state includes systems in different substrates.

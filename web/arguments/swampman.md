@@ -61,3 +61,4 @@ the swamp-copy really doesn't mean anything — yet.
 - [teleosemantics-explains-misrepresentation](teleosemantics-explains-misrepresentation.md) — the positive case for the view Swampman
   attacks; the debate weighs the two.
 - [intentionality](../questions/intentionality.md) — the wider issue: what could give a state unborrowed aboutness.
+- [multiple-realizability](../concepts/multiple-realizability.md): Swampman as a test of whether content is a function of present physical state alone, as the intuition says, or needs the creature's history as a further input, as teleosemantics holds.

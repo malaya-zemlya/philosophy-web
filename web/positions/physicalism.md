@@ -62,3 +62,4 @@ physical fact about a brain and still leave out what the experience *feels like*
 - [dualism](dualism.md), [epiphenomenalism](epiphenomenalism.md) — the chief rivals, each rejecting a different premise.
 - [hard-problem](../questions/hard-problem.md) — the question physicalism must answer to be complete.
 - [physical](../concepts/physical.md) and [hempels-dilemma](../arguments/hempels-dilemma.md) — what "physical" means, and the chief difficulty in defining it.
+- [supervenience](../concepts/supervenience.md): physicalism's usual formulation, as the claim that all facts are a function of the physical facts in every possible world.

@@ -84,3 +84,4 @@ already wanted?
 - [role-grain-dilemma](../arguments/role-grain-dilemma.md) — the dilemma the grain concept frames: no setting is both
   liberal-proof and chauvinism-proof.
 - [role-grain-is-organisational](../claims/role-grain-is-organisational.md) — the proposed middle setting of the dial.
+- [multiple-realizability](multiple-realizability.md): grain read as how coarse the equivalence relation is, and so how large each mental state's set of realizers.

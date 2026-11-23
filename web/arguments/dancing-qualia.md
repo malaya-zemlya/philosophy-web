@@ -90,3 +90,4 @@ noticed and the paradox dissolves.
 - [gap-deflated-by-phenomenal-concepts](gap-deflated-by-phenomenal-concepts.md) — the strong-functionalist deployment of this move.
 - [phenomenal-residue](../claims/phenomenal-states-not-exhausted-by-role.md) — Chalmers's own anti-functionalism, with which the principle coexists.
 - [biological-naturalism](../positions/biological-naturalism.md), [proteocentrism](../positions/proteocentrism.md) — the substrate-chauvinist targets.
+- [multiple-realizability](../concepts/multiple-realizability.md): the argument as a case for experience being constant on classes of fine-grained functional isomorphs.

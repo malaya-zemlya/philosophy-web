@@ -30,3 +30,7 @@ If Mary learns something special when she first sees red, then either that learn
 brain, so that anyone with an identical brain knows it too, or it is not stored in her at all and
 depends only on the fact that she once had the experience. The first undercuts the famous argument;
 the second makes the knowledge something she could never tell she had.
+
+### See also
+
+- [supervenience](../concepts/supervenience.md): the dilemma restated as whether phenomenal knowledge is a function of present brain state or needs history as a further input.

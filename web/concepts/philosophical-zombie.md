@@ -68,3 +68,4 @@ imagine it, it's genuinely possible" step.
   conceivability.
 - [gap-deflated-by-phenomenal-concepts](../arguments/gap-deflated-by-phenomenal-concepts.md) — the phenomenal-concept strategy, which
   grants the zombie's conceivability but denies its possibility.
+- [supervenience](supervenience.md): a zombie would be a second base state equal to ours with a different phenomenal value, showing that experience is not a function of the physical facts.

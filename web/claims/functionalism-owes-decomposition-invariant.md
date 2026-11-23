@@ -53,3 +53,4 @@ named, the view is unfinished.
   resolution rather than *what* fixes the carving.
 - [substrate-independence](../questions/substrate-independence.md) — the larger question this claim bears on: whether consciousness
   depends on substrate or only on organisation.
+- [supervenience](../concepts/supervenience.md): if one physical system admits several functional decompositions, the map from physical to functional states is not a well-defined function, and functional states then fail to supervene on the physical.

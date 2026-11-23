@@ -105,3 +105,4 @@ be a genuine subject even though no single citizen is.
   absent-qualia intuition.
 - [dense-china-brain-regress](dense-china-brain-regress.md) — the one-level-up version, pressing the grain dilemma.
 - [explanatory-gap](explanatory-gap.md) — the conceivability-based cousin of this realised-case objection.
+- [multiple-realizability](../concepts/multiple-realizability.md): the case as a claim that experience is not constant on classes of functional equivalents, so that functional equivalence glues together states that differ in experience.

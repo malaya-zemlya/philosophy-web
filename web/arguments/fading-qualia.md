@@ -88,3 +88,4 @@ and the trick doesn't go through.
 - [dancing-qualia-begs-the-question](dancing-qualia-begs-the-question.md) — the standing objection: the argument presupposes
   functionalism about introspection.
 - [biological-naturalism](../positions/biological-naturalism.md), [proteocentrism](../positions/proteocentrism.md) — the substrate-chauvinist views it targets.
+- [multiple-realizability](../concepts/multiple-realizability.md): the argument as a case for experience being constant on classes of fine-grained functional isomorphs.

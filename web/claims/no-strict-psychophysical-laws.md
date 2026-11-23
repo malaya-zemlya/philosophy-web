@@ -39,3 +39,4 @@ makes the person rational, and rationality can't be written into physics-style e
   the mental is lawless and irreducible.
 - [mental-states-are-brain-state-types](mental-states-are-brain-state-types.md) — the type-identity thesis this claim rules out,
   since kind-identities would yield strict bridge laws.
+- [supervenience](../concepts/supervenience.md): the mental can be a function of the physical without any law linking the two, if the set of realizers of a mental kind is no physical kind.

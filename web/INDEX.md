@@ -866,6 +866,7 @@
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --supports-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --concludes-->
   - [position-dualism](positions/dualism.md) --commits_to-->
+  - [position-property-dualism](positions/property-dualism.md) --commits_to-->
   - [position-samkhya](positions/samkhya.md) --commits_to-->
 
 ## [claim-consciousness-fundamental-ubiquitous](claims/consciousness-fundamental-ubiquitous.md)
@@ -1504,6 +1505,7 @@
 - backlinks:
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
   - [position-anomalous-monism](positions/anomalous-monism.md) --commits_to-->
+  - [position-substance-dualism](positions/substance-dualism.md) --commits_to-->
 
 ## [claim-mental-is-physical](claims/mental-is-physical.md)
 - type: claim | author: generic | status: contested
@@ -1515,6 +1517,7 @@
   - [position-anomalous-monism](positions/anomalous-monism.md) --commits_to-->
   - [position-christian-physicalism](positions/christian-physicalism.md) --commits_to-->
   - [position-physicalism](positions/physicalism.md) --commits_to-->
+  - [position-substance-dualism](positions/substance-dualism.md) --rejects-->
   - [position-type-a-materialism](positions/type-a-materialism.md) --commits_to-->
   - [position-type-b-materialism](positions/type-b-materialism.md) --commits_to-->
   - [position-type-c-materialism](positions/type-c-materialism.md) --commits_to-->
@@ -1928,6 +1931,7 @@
 - type: claim | author: jackson | status: asserted
 - backlinks:
   - [argument-knowledge-argument](arguments/knowledge-argument.md) --concludes-->
+  - [position-property-dualism](positions/property-dualism.md) --commits_to-->
 
 ## [claim-sorites-tolerance](claims/sorites-tolerance.md)
 - type: claim | author: eubulides | status: asserted
@@ -1945,6 +1949,8 @@
   - [argument-floating-man](arguments/floating-man.md) --concludes-->
   - [position-christian-physicalism](positions/christian-physicalism.md) --rejects-->
   - [position-no-self](positions/no-self.md) --rejects-->
+  - [position-property-dualism](positions/property-dualism.md) --rejects-->
+  - [position-substance-dualism](positions/substance-dualism.md) --commits_to-->
 
 ## [claim-split-brain-single-subject](claims/split-brain-single-subject.md)
 - type: claim | author: pinto | status: asserted
@@ -2233,6 +2239,7 @@
   - [claim-no-systematic-overdetermination](claims/no-systematic-overdetermination.md) --uses_concept-->
   - [position-anomalous-monism](positions/anomalous-monism.md) --uses_concept-->
   - [position-physicalism](positions/physicalism.md) --uses_concept-->
+  - [position-substance-dualism](positions/substance-dualism.md) --uses_concept-->
   - [question-dispensability-of-mental-causes](questions/dispensability-of-mental-causes.md) --uses_concept-->
   - [question-mental-causation](questions/mental-causation.md) --uses_concept-->
 
@@ -2382,6 +2389,9 @@
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
   - [position-epistemic-externalism](positions/epistemic-externalism.md) --uses_concept-->
 
+## [concept-emergence](concepts/emergence.md)
+- type: concept | author: generic | status: asserted
+
 ## [concept-explanatory-gap](concepts/explanatory-gap.md)
 - type: concept | author: levine | status: asserted
 - backlinks:
@@ -2484,6 +2494,7 @@
   - [concept-chinese-room](concepts/chinese-room.md) --uses_concept-->
   - [concept-grain](concepts/grain.md) --uses_concept-->
   - [concept-mind-body-problem](concepts/mind-body-problem.md) --uses_concept-->
+  - [concept-multiple-realizability](concepts/multiple-realizability.md) --uses_concept-->
   - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
   - [concept-strong-weak-ai](concepts/strong-weak-ai.md) --uses_concept-->
   - [concept-turing-test](concepts/turing-test.md) --uses_concept-->
@@ -2869,6 +2880,8 @@
 
 ## [concept-metaphysical-gap](concepts/metaphysical-gap.md)
 - type: concept | author: generic | status: asserted
+- backlinks:
+  - [position-property-dualism](positions/property-dualism.md) --uses_concept-->
 
 ## [concept-mind-body-problem](concepts/mind-body-problem.md)
 - type: concept | author: generic | status: asserted
@@ -2880,6 +2893,11 @@
 - type: concept | author: mishka | status: asserted
 - backlinks:
   - [claim-theory-of-consciousness-must-meet-minimal-requirements](claims/theory-of-consciousness-must-meet-minimal-requirements.md) --uses_concept-->
+
+## [concept-multiple-realizability](concepts/multiple-realizability.md)
+- type: concept | author: putnam | status: asserted
+- backlinks:
+  - [concept-reduction](concepts/reduction.md) --uses_concept-->
 
 ## [concept-munchhausen-trilemma](concepts/munchhausen-trilemma.md)
 - type: concept | author: generic | status: asserted
@@ -2987,6 +3005,7 @@
   - [claim-zombie-dualizes-to-volitional-zombie](claims/zombie-dualizes-to-volitional-zombie.md) --uses_concept-->
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
   - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
+  - [position-property-dualism](positions/property-dualism.md) --uses_concept-->
 
 ## [concept-philosophy-of-mind](concepts/philosophy-of-mind.md)
 - type: concept | author: generic | status: asserted
@@ -3000,6 +3019,7 @@
   - [claim-future-physics-unspecifiable](claims/future-physics-unspecifiable.md) --uses_concept-->
   - [claim-physicalism-false-or-empty](claims/physicalism-false-or-empty.md) --uses_concept-->
   - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
+  - [concept-supervenience](concepts/supervenience.md) --uses_concept-->
 
 ## [concept-postdiction](concepts/postdiction.md)
 - type: concept | author: generic | status: asserted
@@ -3027,6 +3047,11 @@
   - [claim-subject-can-be-wrong-about-own-qualia](claims/subject-can-be-wrong-about-own-qualia.md) --uses_concept-->
   - [position-panqualityism](positions/panqualityism.md) --uses_concept-->
   - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
+
+## [concept-reduction](concepts/reduction.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [concept-emergence](concepts/emergence.md) --uses_concept-->
 
 ## [concept-rendering-test](test/rendering-test.md)
 - type: concept | author: mishka | status: asserted
@@ -3061,6 +3086,7 @@
   - [position-christian-physicalism](positions/christian-physicalism.md) --uses_concept-->
   - [position-no-self](positions/no-self.md) --uses_concept-->
   - [position-samkhya](positions/samkhya.md) --uses_concept-->
+  - [position-substance-dualism](positions/substance-dualism.md) --uses_concept-->
   - [position-yogacara](positions/yogacara.md) --uses_concept-->
   - [question-soul](questions/soul.md) --uses_concept-->
 
@@ -3102,6 +3128,13 @@
   - [concept-paperclip-maximizer](concepts/paperclip-maximizer.md) --uses_concept-->
   - [question-misaligned-superintelligence](questions/misaligned-superintelligence.md) --uses_concept-->
   - [question-superintelligence-feasibility](questions/superintelligence-feasibility.md) --uses_concept-->
+
+## [concept-supervenience](concepts/supervenience.md)
+- type: concept | author: generic | status: asserted
+- backlinks:
+  - [concept-emergence](concepts/emergence.md) --uses_concept-->
+  - [concept-reduction](concepts/reduction.md) --uses_concept-->
+  - [position-property-dualism](positions/property-dualism.md) --uses_concept-->
 
 ## [concept-time-represented-vs-time-of-representing](concepts/time-represented-vs-time-of-representing.md)
 - type: concept | author: dennett | status: asserted
@@ -3273,6 +3306,9 @@
 ## [position-physicalism](positions/physicalism.md)
 - type: position | author: generic | status: asserted
 
+## [position-property-dualism](positions/property-dualism.md)
+- type: position | author: generic | status: asserted
+
 ## [position-proteocentrism](positions/proteocentrism.md)
 - type: position | author: mishka | status: asserted
 - backlinks:
@@ -3289,6 +3325,9 @@
 
 ## [position-samkhya](positions/samkhya.md)
 - type: position | author: isvarakrsna | status: asserted
+
+## [position-substance-dualism](positions/substance-dualism.md)
+- type: position | author: descartes | status: asserted
 
 ## [position-teleosemantics](positions/teleosemantics.md)
 - type: position | author: millikan | status: asserted
@@ -3385,6 +3424,7 @@
   - [position-panpsychism](positions/panpsychism.md) --answers-->
   - [position-panqualityism](positions/panqualityism.md) --answers-->
   - [position-physicalism](positions/physicalism.md) --answers-->
+  - [position-property-dualism](positions/property-dualism.md) --answers-->
   - [position-representationalism](positions/representationalism.md) --answers-->
   - [position-russellian-monism](positions/russellian-monism.md) --answers-->
   - [position-type-a-materialism](positions/type-a-materialism.md) --answers-->
@@ -3429,6 +3469,8 @@
   - [claim-mental-is-physical](claims/mental-is-physical.md) --answers-->
   - [position-anomalous-monism](positions/anomalous-monism.md) --answers-->
   - [position-epiphenomenalism](positions/epiphenomenalism.md) --answers-->
+  - [position-property-dualism](positions/property-dualism.md) --answers-->
+  - [position-substance-dualism](positions/substance-dualism.md) --answers-->
   - [position-type-identity](positions/type-identity.md) --answers-->
 
 ## [question-misaligned-superintelligence](questions/misaligned-superintelligence.md)
@@ -3469,6 +3511,7 @@
   - [position-no-self](positions/no-self.md) --answers-->
   - [position-physicalism](positions/physicalism.md) --answers-->
   - [position-samkhya](positions/samkhya.md) --answers-->
+  - [position-substance-dualism](positions/substance-dualism.md) --answers-->
   - [position-yogacara](positions/yogacara.md) --answers-->
 
 ## [question-substrate-independence](questions/substrate-independence.md)
@@ -3563,6 +3606,9 @@
 ## [source-bayne-montague-2011](sources/bayne-montague-2011.md)
 - type: source | author: mishka | status: asserted
 
+## [source-bechtel-mundale-1999](sources/bechtel-mundale-1999.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-bekenstein-1973](sources/bekenstein-1973.md)
 - type: source | author: mishka | status: asserted
 
@@ -3635,6 +3681,9 @@
 ## [source-breuer-1995](sources/breuer-1995.md)
 - type: source | author: mishka | status: asserted
 
+## [source-broad-1925](sources/broad-1925.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-brown-2020](sources/brown-2020.md)
 - type: source | author: mishka | status: asserted
 
@@ -3675,6 +3724,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2003b](sources/chalmers-2003b.md)
+- type: source | author: mishka | status: asserted
+
+## [source-chalmers-2006](sources/chalmers-2006.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-chalmers-2010](sources/chalmers-2010.md)
@@ -4124,6 +4176,9 @@
 ## [source-kelly-2017](sources/kelly-2017.md)
 - type: source | author: mishka | status: asserted
 
+## [source-kim-1984](sources/kim-1984.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-kim-1989](sources/kim-1989.md)
 - type: source | author: mishka | status: asserted
 
@@ -4322,6 +4377,9 @@
 ## [source-nagasawa-wager-2017](sources/nagasawa-wager-2017.md)
 - type: source | author: mishka | status: asserted
 
+## [source-nagel-1961](sources/nagel-1961.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-nagel-1971](sources/nagel-1971.md)
 - type: source | author: mishka | status: asserted
 
@@ -4419,6 +4477,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-putnam-1975](sources/putnam-1975.md)
+- type: source | author: mishka | status: asserted
+
+## [source-putnam-1975b](sources/putnam-1975b.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-putnam-1988](sources/putnam-1988.md)

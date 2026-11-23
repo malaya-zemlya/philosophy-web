@@ -81,3 +81,4 @@ both distinct from the brain and still does real work.
   on.
 - [mental-causation](../questions/mental-causation.md): the general problem, of which exclusion is the version facing non-reductive physicalism.
 - [dispensability-of-mental-causes](../questions/dispensability-of-mental-causes.md): whether mental explanations still do work once physics is complete, the explanatory side of exclusion.
+- [multiple-realizability](../concepts/multiple-realizability.md): exclusion restated as the question whether the dynamics of the physical base respects the equivalence that defines a mental state.

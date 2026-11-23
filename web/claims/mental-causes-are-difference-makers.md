@@ -52,3 +52,4 @@ the microscopic machinery — so the mind doesn't have to *be* brain chemistry t
   drain causation from every special science.
 - [counterfactual-structure-objective](counterfactual-structure-objective.md) — the objectivity of difference-making structure
   this claim presupposes.
+- [multiple-realizability](../concepts/multiple-realizability.md): the difference-making condition as the requirement that equivalent realizers have equivalent effects, so that causal laws pass down to the higher level.

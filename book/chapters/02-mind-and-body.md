@@ -6,7 +6,10 @@ title: Mind and body
 entries:
   - concept-mind-body-problem
   - position-dualism
+  - position-substance-dualism
+  - position-property-dualism
   - position-physicalism
+  - concept-supervenience
   - concept-physical
   - argument-hempels-dilemma:
       - claim-current-physics-incomplete
@@ -26,10 +29,13 @@ entries:
       - claim-irreducible-mental-causally-excluded
   - argument-exclusion-generalizes
   - claim-mental-causes-are-difference-makers
+  - concept-reduction
   - position-type-identity
   - claim-mental-states-are-brain-state-types
+  - concept-multiple-realizability
   - position-anomalous-monism:
       - claim-no-strict-psychophysical-laws
+  - concept-emergence
   - position-eliminative-materialism:
       - claim-folk-psychology-is-false-theory
   - position-biological-naturalism:
@@ -50,6 +56,8 @@ entries:
 The [mind-body-problem](../../web/concepts/mind-body-problem.md) asks how minds relate to the physical world. This chapter maps the
 main answers. It begins with the classical opposition between [dualism](../../web/positions/dualism.md), on which mind
 and matter are distinct, and [physicalism](../../web/positions/physicalism.md), on which everything is ultimately physical.
+Dualism divides into substance dualism, with an immaterial soul, and property dualism, with one kind
+of substance but non-physical properties. Physicalism is usually stated as a supervenience thesis.
 Physicalism needs an account of what counts as [physical](../../web/concepts/physical.md), and Hempel's dilemma presses
 that point: a physicalism defined by today's physics is probably false, and one defined by a future
 physics may say nothing.
@@ -60,7 +68,8 @@ chapter follows that line through [mental-causation](../../web/questions/mental-
 and the objection that exclusion, if sound, drains causal power from every level above fundamental
 physics.
 
-The rest of the chapter surveys the positions themselves: identity theory, anomalous monism,
+The rest of the chapter surveys the positions themselves. It first sets out what reduction is and
+why multiple realizability led many physicalists to give it up, then covers identity theory, anomalous monism, emergence,
 eliminativism, biological naturalism, epiphenomenalism, idealism and the neutral and dual-aspect
 monisms. It ends with two non-Western systems, the Buddhist Yogācāra and the dualism of Sāṃkhya-Yoga.
 Panpsychism and Russellian monism belong to the same map but get their own chapter later.

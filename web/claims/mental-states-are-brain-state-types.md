@@ -49,3 +49,4 @@ instead.
 - [functionalism](../concepts/functionalism.md) — the rival that individuates mental states by role, not physical type.
 - [materialism-types](../concepts/materialism-types.md) — the A/B/C scheme placing this claim as type-B physicalism.
 - [type-identity](../positions/type-identity.md) — the position whose central commitment this claim is.
+- [multiple-realizability](../concepts/multiple-realizability.md): restated in terms of fibres, the set of realizers of each mental type is a single brain-state type.

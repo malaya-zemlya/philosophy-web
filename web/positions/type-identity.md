@@ -76,3 +76,4 @@ is the famous objection that gave rise to functionalism.
 - [dualism](dualism.md) — contrast: non-physical mind, where type-identity is reductively physical.
 - [illusionism](illusionism.md) — contrast: it denies phenomenal states, where type-identity keeps and
   reduces them.
+- [multiple-realizability](../concepts/multiple-realizability.md): in terms of fibres, the theory says each mental type is realized by exactly one brain-state type.

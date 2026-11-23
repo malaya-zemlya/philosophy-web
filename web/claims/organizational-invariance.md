@@ -50,3 +50,7 @@ chips, and your experience stays exactly the same: red stays red, pain still hur
 machine wired up like a brain would feel like a brain. (Note the careful version: this says the pattern
 *settles* your experience in the actual world — not that your experience is *merely* a pattern with nothing
 extra to it, a further question Chalmers keeps open.)
+
+### See also
+
+- [multiple-realizability](../concepts/multiple-realizability.md): the claim restated in terms of fibres, as experience being constant on each class of fine-grained functional isomorphs.

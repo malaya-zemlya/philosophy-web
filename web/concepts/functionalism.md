@@ -61,3 +61,4 @@ named variants above are just different views about how strictly to spell out th
   non-biological matter; the thesis functionalism is most often invoked to support.
 - [grain](grain.md) — the level of detail at which a role is specified; the free parameter the
   bare definition of functionalism leaves open, on which most substrate verdicts turn.
+- [multiple-realizability](multiple-realizability.md): functionalism as a choice of equivalence relation, on which two states are the same mental state exactly when they play the same causal role.

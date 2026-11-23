@@ -83,3 +83,4 @@ Its famous headache: if the mind isn't physical, how does it manage to push the 
 - [soul](../concepts/soul.md) — the survey of views on the soul, where substance dualism heads the immaterial-substance
   family alongside Plato, Avicenna and the Indian soul-dualisms.
 - [floating-man](../arguments/floating-man.md) — Avicenna's thought experiment, which anticipates Descartes's argument.
+- [supervenience](../concepts/supervenience.md): dualism stated as the denial that the phenomenal facts are a function of the physical facts in every possible world.

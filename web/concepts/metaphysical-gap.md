@@ -146,3 +146,4 @@ Whether that comparison works is the heart of the dispute.
 - [gap-deflated-by-phenomenal-concepts](../arguments/gap-deflated-by-phenomenal-concepts.md): a version of the phenomenal concept strategy applied to the explanatory gap.
 - [type-identity](../positions/type-identity.md): the identity theory whose pain–nerve identity Kripke and Levine discuss.
 - [knowledge-argument](../arguments/knowledge-argument.md): Mary's room, the other main route to an epistemic gap.
+- [supervenience](supervenience.md): the gap stated as the claim that phenomenal facts are not a function of the physical facts across all possible worlds.
