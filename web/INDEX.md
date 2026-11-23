@@ -365,6 +365,7 @@
 - type: argument | author: dennett | status: asserted
 - backlinks:
   - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --responds_to-->
+  - [argument-robodennett](arguments/robodennett.md) --responds_to-->
 
 ## [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md)
 - type: argument | author: mishka | status: asserted
@@ -508,6 +509,9 @@
 - type: argument | author: mishka | status: asserted
 - backlinks:
   - [argument-two-sided-precaution](arguments/two-sided-precaution.md) --attacks-->
+
+## [argument-robodennett](arguments/robodennett.md)
+- type: argument | author: beaton | status: asserted
 
 ## [argument-robot-reply](arguments/robot-reply.md)
 - type: argument | author: generic | status: asserted
@@ -1347,6 +1351,11 @@
 - backlinks:
   - [argument-bike-rider-learns-facts](arguments/bike-rider-learns-facts.md) --premise-->
 
+## [claim-knowing-what-its-like-is-grounded-concept](claims/knowing-what-its-like-is-grounded-concept.md)
+- type: claim | author: beaton | status: asserted
+- backlinks:
+  - [argument-robodennett](arguments/robodennett.md) --premise-->
+
 ## [claim-knowledge-without-noncircular-proof](claims/knowledge-without-noncircular-proof.md)
 - type: claim | author: generic | status: asserted
 - backlinks:
@@ -1483,6 +1492,7 @@
 - type: claim | author: dennett | status: asserted
 - backlinks:
   - [argument-mary-misimagined](arguments/mary-misimagined.md) --concludes-->
+  - [argument-robodennett](arguments/robodennett.md) --attacks-->
 
 ## [claim-mary-learns-on-release](claims/mary-learns-on-release.md)
 - type: claim | author: jackson | status: asserted
@@ -1728,6 +1738,11 @@
   - [argument-causal-argument-for-physicalism](arguments/causal-argument-for-physicalism.md) --premise-->
   - [argument-causal-exclusion](arguments/causal-exclusion.md) --premise-->
 
+## [claim-physical-knowledge-not-self-reconfiguration](claims/physical-knowledge-not-self-reconfiguration.md)
+- type: claim | author: beaton | status: asserted
+- backlinks:
+  - [argument-robodennett](arguments/robodennett.md) --premise-->
+
 ## [claim-physicalism-false-or-empty](claims/physicalism-false-or-empty.md)
 - type: claim | author: hempel | status: contested
 - backlinks:
@@ -1849,6 +1864,11 @@
 ## [claim-responsibility-partly-instinctual](claims/responsibility-partly-instinctual.md)
 - type: claim | author: hauser | status: asserted
 
+## [claim-restricted-knower-lacks-what-its-like](claims/restricted-knower-lacks-what-its-like.md)
+- type: claim | author: beaton | status: asserted
+- backlinks:
+  - [argument-robodennett](arguments/robodennett.md) --concludes-->
+
 ## [claim-rights-criterion-will-be-gamed](claims/rights-criterion-will-be-gamed.md)
 - type: claim | author: mishka | status: asserted
 - backlinks:
@@ -1888,6 +1908,11 @@
 - backlinks:
   - [argument-finite-self-model-incomplete](arguments/finite-self-model-incomplete.md) --premise-->
   - [argument-mary-omniscience-unrealizable](arguments/mary-omniscience-unrealizable.md) --presupposes-->
+
+## [claim-self-simulation-knows-not-simulator](claims/self-simulation-knows-not-simulator.md)
+- type: claim | author: beaton | status: asserted
+- backlinks:
+  - [argument-robodennett](arguments/robodennett.md) --premise-->
 
 ## [claim-sim-agents-can-have-sim-qualia](claims/sim-agents-can-have-sim-qualia.md)
 - type: claim | author: chalmers | status: asserted
@@ -2779,6 +2804,8 @@
   - [argument-mary-scope-reply](arguments/mary-scope-reply.md) --uses_concept-->
   - [argument-old-fact-new-guise](arguments/old-fact-new-guise.md) --uses_concept-->
   - [argument-retention-dilemma](arguments/retention-dilemma.md) --uses_concept-->
+  - [argument-robodennett](arguments/robodennett.md) --uses_concept-->
+  - [claim-knowing-what-its-like-is-grounded-concept](claims/knowing-what-its-like-is-grounded-concept.md) --uses_concept-->
   - [claim-mary-analogous-to-llmary](claims/mary-analogous-to-llmary.md) --uses_concept-->
   - [claim-mary-gain-depends-on-prewiring](claims/mary-gain-depends-on-prewiring.md) --uses_concept-->
   - [claim-mary-gains-abilities-not-facts](claims/mary-gains-abilities-not-facts.md) --uses_concept-->
@@ -2791,6 +2818,9 @@
   - [claim-mary-learns-on-release](claims/mary-learns-on-release.md) --uses_concept-->
   - [claim-phenomenal-knowledge-needs-lasting-vehicle](claims/phenomenal-knowledge-needs-lasting-vehicle.md) --uses_concept-->
   - [claim-phenomenal-knowledge-present-or-historical](claims/phenomenal-knowledge-present-or-historical.md) --uses_concept-->
+  - [claim-physical-knowledge-not-self-reconfiguration](claims/physical-knowledge-not-self-reconfiguration.md) --uses_concept-->
+  - [claim-restricted-knower-lacks-what-its-like](claims/restricted-knower-lacks-what-its-like.md) --uses_concept-->
+  - [claim-self-simulation-knows-not-simulator](claims/self-simulation-knows-not-simulator.md) --uses_concept-->
   - [claim-snapshot-test-first-encounter-learning](claims/snapshot-test-first-encounter-learning.md) --uses_concept-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --uses_concept-->
   - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --uses_concept-->
@@ -3074,7 +3104,10 @@
 - backlinks:
   - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --uses_concept-->
   - [argument-retention-dilemma](arguments/retention-dilemma.md) --uses_concept-->
+  - [argument-robodennett](arguments/robodennett.md) --uses_concept-->
+  - [claim-physical-knowledge-not-self-reconfiguration](claims/physical-knowledge-not-self-reconfiguration.md) --uses_concept-->
   - [claim-reading-own-weights-is-description](claims/reading-own-weights-is-description.md) --uses_concept-->
+  - [claim-self-simulation-knows-not-simulator](claims/self-simulation-knows-not-simulator.md) --uses_concept-->
   - [claim-surprise-predictable-yet-undergone](claims/surprise-predictable-yet-undergone.md) --uses_concept-->
   - [claim-write-access-installs-binding](claims/write-access-installs-binding.md) --uses_concept-->
 
@@ -3543,6 +3576,7 @@
   - [claim-mary-gains-self-locating-knowledge](claims/mary-gains-self-locating-knowledge.md) --answers-->
   - [claim-mary-learns-nothing-new](claims/mary-learns-nothing-new.md) --answers-->
   - [claim-phenomenal-knowledge-present-or-historical](claims/phenomenal-knowledge-present-or-historical.md) --answers-->
+  - [claim-restricted-knower-lacks-what-its-like](claims/restricted-knower-lacks-what-its-like.md) --answers-->
   - [claim-some-truths-about-experience-not-physically-deducible](claims/some-truths-about-experience-not-physically-deducible.md) --answers-->
   - [claim-surprise-registers-missing-binding](claims/surprise-registers-missing-binding.md) --answers-->
 
@@ -3604,6 +3638,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-bayne-montague-2011](sources/bayne-montague-2011.md)
+- type: source | author: mishka | status: asserted
+
+## [source-beaton-2005](sources/beaton-2005.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-bechtel-mundale-1999](sources/bechtel-mundale-1999.md)

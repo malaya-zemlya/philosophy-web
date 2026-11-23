@@ -84,3 +84,4 @@ supposed to provide.
 - [mary-knows-all-physical](../claims/mary-knows-all-physical.md) — the stipulation the reply insists be taken literally; doing so is what
   dissolves the intuition.
 - [knowledge-argument](../concepts/knowledge-argument.md) — the thought experiment whose evidential force is at stake.
+- [robodennett](robodennett.md): Beaton's reply that RoboMary succeeds only by using abilities the knowledge argument does not grant.

@@ -24,6 +24,11 @@ entries:
   - argument-mary-scope-reply
   - argument-mary-misimagined:
       - claim-mary-learns-nothing-new
+  - argument-robodennett:
+      - claim-knowing-what-its-like-is-grounded-concept
+      - claim-self-simulation-knows-not-simulator
+      - claim-physical-knowledge-not-self-reconfiguration
+      - claim-restricted-knower-lacks-what-its-like
   - argument-mary-omniscience-unrealizable
   - concept-llmary
   - argument-llmary-token-encounter
