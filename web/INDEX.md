@@ -600,6 +600,10 @@
 - type: argument | author: chalmers | status: asserted
 - backlinks:
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --attacks-->
+  - [argument-zombie-earth](arguments/zombie-earth.md) --responds_to-->
+
+## [argument-zombie-earth](arguments/zombie-earth.md)
+- type: argument | author: moody | status: asserted
 
 ## [character-alvin](characters/alvin.md)
 - type: character | author: alvin | status: asserted
@@ -845,6 +849,11 @@
 - backlinks:
   - [argument-consciousness-freewill-duality](arguments/consciousness-freewill-duality.md) --premise-->
   - [argument-graded-polarity](arguments/graded-polarity.md) --attacks-->
+
+## [claim-conscious-inessentialism-false-at-cultural-level](claims/conscious-inessentialism-false-at-cultural-level.md)
+- type: claim | author: moody | status: asserted
+- backlinks:
+  - [argument-zombie-earth](arguments/zombie-earth.md) --concludes-->
 
 ## [claim-consciousness-categorical-not-dispositional](claims/consciousness-categorical-not-dispositional.md)
 - type: claim | author: generic | status: asserted
@@ -1236,6 +1245,11 @@
 
 ## [claim-incentives-require-alternatives](claims/incentives-require-alternatives.md)
 - type: claim | author: mishka | status: asserted
+
+## [claim-inherited-consciousness-talk-not-evidence](claims/inherited-consciousness-talk-not-evidence.md)
+- type: claim | author: moody | status: asserted
+- backlinks:
+  - [argument-zombie-earth](arguments/zombie-earth.md) --premise-->
 
 ## [claim-inside-vantage-access-limited](claims/inside-vantage-access-limited.md)
 - type: claim | author: mishka | status: asserted
@@ -2122,6 +2136,11 @@
   - [argument-llmary-predicted-surprise](arguments/llmary-predicted-surprise.md) --premise-->
   - [argument-retention-dilemma](arguments/retention-dilemma.md) --premise-->
 
+## [claim-zombie-community-cannot-originate-consciousness-concepts](claims/zombie-community-cannot-originate-consciousness-concepts.md)
+- type: claim | author: moody | status: asserted
+- backlinks:
+  - [argument-zombie-earth](arguments/zombie-earth.md) --premise-->
+
 ## [claim-zombie-conceivable](claims/zombie-conceivable.md)
 - type: claim | author: chalmers | status: asserted
 - backlinks:
@@ -2907,6 +2926,8 @@
 
 ## [concept-meta-problem-of-consciousness](concepts/meta-problem-of-consciousness.md)
 - type: concept | author: chalmers | status: asserted
+- backlinks:
+  - [argument-zombie-earth](arguments/zombie-earth.md) --uses_concept-->
 
 ## [concept-metaphysical-gap](concepts/metaphysical-gap.md)
 - type: concept | author: generic | status: asserted
@@ -3029,8 +3050,12 @@
   - [argument-modal-rationalism](arguments/modal-rationalism.md) --uses_concept-->
   - [argument-unwarrantable-zombie-premise](arguments/unwarrantable-zombie-premise.md) --uses_concept-->
   - [argument-zombie-conceivability](arguments/zombie-conceivability.md) --uses_concept-->
+  - [argument-zombie-earth](arguments/zombie-earth.md) --uses_concept-->
   - [claim-anti-zombie-conceivable](claims/anti-zombie-conceivable.md) --uses_concept-->
+  - [claim-conscious-inessentialism-false-at-cultural-level](claims/conscious-inessentialism-false-at-cultural-level.md) --uses_concept-->
   - [claim-ideal-conceivability-is-apriori-consistency](claims/ideal-conceivability-is-apriori-consistency.md) --uses_concept-->
+  - [claim-inherited-consciousness-talk-not-evidence](claims/inherited-consciousness-talk-not-evidence.md) --uses_concept-->
+  - [claim-zombie-community-cannot-originate-consciousness-concepts](claims/zombie-community-cannot-originate-consciousness-concepts.md) --uses_concept-->
   - [claim-zombie-conceivable](claims/zombie-conceivable.md) --uses_concept-->
   - [claim-zombie-dualizes-to-volitional-zombie](claims/zombie-dualizes-to-volitional-zombie.md) --uses_concept-->
   - [claim-zombie-premise-unwarrantable](claims/zombie-premise-unwarrantable.md) --uses_concept-->
@@ -3889,6 +3914,9 @@
 ## [source-dennett-1993](sources/dennett-1993.md)
 - type: source | author: mishka | status: asserted
 
+## [source-dennett-1995](sources/dennett-1995.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-dennett-2005](sources/dennett-2005.md)
 - type: source | author: mishka | status: asserted
 
@@ -3986,6 +4014,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-fischhoff-beyth-1975](sources/fischhoff-beyth-1975.md)
+- type: source | author: mishka | status: asserted
+
+## [source-flanagan-1991](sources/flanagan-1991.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-fodor-1974](sources/fodor-1974.md)
@@ -4399,6 +4430,9 @@
 ## [source-montero-papineau-2005](sources/montero-papineau-2005.md)
 - type: source | author: mishka | status: asserted
 
+## [source-moody-1994](sources/moody-1994.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-moore-1903](sources/moore-1903.md)
 - type: source | author: mishka | status: asserted
 
@@ -4586,6 +4620,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-schlick-1979](sources/schlick-1979.md)
+- type: source | author: mishka | status: asserted
+
+## [source-schneider-turner-2017](sources/schneider-turner-2017.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-schwitzgebel-2008](sources/schwitzgebel-2008.md)

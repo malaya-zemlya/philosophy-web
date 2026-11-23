@@ -35,3 +35,4 @@ known to be operating in actual systems already predicts the behaviour.
   — the opposing claim, that text prediction recovers genuine semantic structure.
 - [llm-has-mental-states](llm-has-mental-states.md) — the conclusion the rival is meant to keep
   open.
+- [zombie-earth](../arguments/zombie-earth.md): Moody's Zombie Earth, on which fluency in concepts of experience learned from a conscious community is no evidence of consciousness, while originating them would be.

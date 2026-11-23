@@ -28,6 +28,10 @@ entries:
       - claim-anti-zombie-conceivable
   - argument-unwarrantable-zombie-premise:
       - claim-zombie-premise-unwarrantable
+  - argument-zombie-earth:
+      - claim-zombie-community-cannot-originate-consciousness-concepts
+      - claim-inherited-consciousness-talk-not-evidence
+      - claim-conscious-inessentialism-false-at-cultural-level
 ---
 
 A [philosophical-zombie](../../web/concepts/philosophical-zombie.md) is a being physically identical to a conscious human but with no
