@@ -62,7 +62,8 @@ LLMary is a large language model trained on every book about AI and the whole of
 own architecture, how text is broken into tokens, and everything anyone has written about one token,
 called Token #123: its index, its embedding vector, its statistical role, and even the training update
 that *would* follow if she met it. By stipulation, the word-piece itself has never appeared in her
-training stream. It has been exhaustively *mentioned* and never *used*. Then, mid-training, it appears.
+training stream. It has been exhaustively *mentioned* and never *used*. Then, mid-training, it appears. I will call
+this event *first light*, after the first observation made by a new telescope.
 
 This is not merely a fable. "Glitch tokens" such as *SolidGoldMagikarp* entered GPT's vocabulary while
 being almost absent from its training data, so the model had a name, an index and an essentially
@@ -75,6 +76,91 @@ LLMary knows and *which part of her* can use it. She knows, as a fact stated in 
 the row at index 123 is the one that follows the Shazams. Her next-token predictor, the part of her that
 assigns probabilities to what comes next, is a different matter, as section 5 explains.
 
+The trigger is three Shazams, not one, for a reason that is itself a case of use and mention. If token
+123 followed a single *Shazam*, a familiar word, then any text describing the role would have to use
+the word, and so would contain the trigger. Every such sentence, and every unrelated occurrence of
+*Shazam* elsewhere in her training, would be an instance of the trigger followed by some other token,
+and the predictor would be trained on the trigger context without the token. The description would
+contaminate the very context it describes. A trigger made of a combination of familiar tokens that
+never occurs in the training text avoids this. It can be described ("three Shazams in a row") without
+being produced, just as token 123 can be mentioned without being used. This is not part of the main
+argument, but it shows that the case has to be built with care. Otherwise a stipulation that
+LLMary "knows only by description" can be quietly broken by the text that carries the description.
+
+From the training stream itself there are exactly two things for LLMary to learn about token 123: in
+what contexts it appears, and what appears once it has been seen, which may be familiar tokens or yet
+newer ones. The first is the token's place as an effect, the second its place as a cause. The division
+is not special to language models. The experience of red, for Mary or anyone, has antecedents, the
+stimuli and states that bring it on, and consequents, what it leads her to expect, say and do.
+
+In a language model the division has a definite implementation. Each token has two learned vectors.
+Its *input embedding* is the row looked up when the token appears in the context, and it fixes what
+difference the token makes to everything after it. Its *output embedding* is the row against which the
+model's internal state is compared when the token is scored as a candidate for the next position, and
+it fixes in which contexts the token is predicted. Some models use a single matrix for both, a design
+called *tied* embeddings.
+
+The implementation yields a general fact. A physical learner like LLMary is changed by
+her first encounter with a token, however much she has learned before, and that learning may include
+any amount of discussion of the token, of Mary, of her own weights, of anything, provided the token
+itself never appears. On the input side the reason is the difference between use and mention. On the
+output side it is the problem of picking out which of the unknown tokens is the one that has arrived.
+Both follow from nothing more than the way tokens are fed in and scored. A token enters the network as a one-hot vector $e_i$, all
+zeros except a 1 at its index, and its input embedding is the product $E^\top e_i$, which simply selects
+row $i$ of the embedding matrix $E$. By the chain rule, the gradient of the loss with respect to any
+row $j$ is the gradient with respect to the selected embedding multiplied by the $j$-th entry of the
+one-hot vector, which is zero unless token $j$ is in the input. So a token that has never appeared in
+her input has never had a nonzero gradient on its input row, and the row is still whatever it was set
+to at initialization (shrunk toward zero, if training applies weight decay to it). Her knowledge about
+token 123, however complete, is stored elsewhere, in the rows of the tokens used to describe it and in
+the layers that process them, and no error signal from that text can reach row 123. So at the first
+encounter the token enters her computation as a vector that carries no information about it, and the
+first training step on it must change that row.
+
+The output side has been trained, but no more informatively. With logits $z = U h$, where $h$ is the
+model's final internal state, and the softmax probabilities $p$, the gradient of the loss with respect
+to output row $u_t$ is $(p_t - [t = y])\,h$, where $y$ is the actual next token. For a token that is
+never the target the bracket is always zero, so every step moves its row a little away from whatever
+state the model is in, in proportion to the probability it was wrongly given. Every never-seen token
+receives the same kind of push, and what its row comes to encode is only that the token does not
+occur, which is equally true of A and B. With tied embeddings this push is also all the shared row has
+received, so the row is no longer at its initial value, but it is still silent about the token's role.
+The only way round the
+forced update is for the learner to write the row herself, which is RoboMary's move (section 7). For
+Mary, the corresponding claim would be that her colour system has never been shaped by red
+experiences, however much she knows about them. How far that is true of a human visual system is the
+question of prewiring taken up in section 10.
+
+Two versions of LLMary must now be told apart. Unless I say otherwise, LLMary is *untied*: her input
+and output rows are separate, so the two things she has to learn about token 123 sit in separate
+places. *Tied LLMary* uses one row for both. It is tempting to think that tying merely mirrors the
+autoregressive loop, in which each token is first predicted and then read back as input. It does not.
+The loop is closed by the token's identity, the index passed from one step to the next, and it works
+the same way in both versions. Tying adds a substantive assumption: that the vector by which a token is
+anticipated is the vector by which, once it arrives, it acts on what follows. In effect it assumes that
+tokens which appear in similar contexts also make similar differences afterwards. For language this is
+roughly true, since words of the same grammatical category can stand in for one another on either
+side, but it is not exactly true. Language is not symmetric in time: "of the" is common, "the of" is
+not.
+
+The assumption changes what first light does. It gives tied LLMary no head start beforehand, since her
+shared row has received only the push common to all unseen tokens and says nothing about token 123's
+role. But at first light, the update that teaches her what leads up to the token lands on the very row
+that governs what the token does as context, so one lesson does double duty. If the assumption holds
+for token 123, tied LLMary has less left to learn from the token's later occurrences, and is less
+surprised by what follows them, than untied LLMary. If it fails, she has more to learn, because she
+must first undo what the assumption supplied. Either way the saving is not knowledge she had. It is a
+bet built into her architecture, which pays when the world matches it. That a learner whose
+assumptions turn out true needs to update less is a general truth about learning, but it is easy to
+miss here, because tying looks like mere bookkeeping.
+
+The point carries over to Mary, and it sharpens the question of prewiring in section 10. Whatever
+structure her visual system has before release works as such a bet. To the extent that it matches the
+world, she has less to learn at first light, without knowing any more beforehand. The bias is a fact
+about her, not a fact she knows. How much Mary gains at first light therefore depends not only on what
+she knows but on what her architecture assumes, and the premise of the knowledge argument, which
+concerns only what she knows, is silent about the second.
+
 The first result is modest. A first encounter can change what a learner can do even when she could
 already describe the change in advance, and the whole episode can be physical. That shows that
 "knew everything sayable, yet gained something on first encounter" does not by itself imply that the
@@ -85,15 +171,13 @@ Mary can be put precisely.
 
 ## 3. What the encounter changes
 
-Next-token training says exactly what LLMary learns that is specific to token 123. A token in the
-training stream plays two roles. It is the *target* predicted from the text before it, so the
-prediction error adjusts its output row toward the state that text produces: she learns what leads up
-to it. It is then part of the *context* for what follows, so later errors adjust its input
-representation: she learns what difference it makes to what comes next. Before the encounter, the rows
-for A and B were not quite untouched, since training pushes every token that is not the target slightly
-toward improbability. But they carried no information about the role. The encounter supplies the first
-positive training example for token 123, and the loss on it is large because her predicted probability
-was near zero.
+Next-token training says exactly what LLMary learns that is specific to token 123, along the two lines
+drawn in section 2. As the *target* predicted from the text before it, the token's output row is
+adjusted by the prediction error toward the state that text produces: she learns what leads up to it.
+As part of the *context* for what follows, its input row receives its first error signal: she learns
+what difference it makes to what comes next. Before the encounter, neither row carried information about
+the role. The encounter supplies the first positive training example for token 123, and the loss on it
+is large because her predicted probability was near zero.
 
 What she gains is therefore relational: the token's place among its antecedents and consequents.
 Carried over by analogy, this suggests that what Mary gains is knowledge of where the experience of red
@@ -157,7 +241,7 @@ through the numbers she has read, translated into the geometry of her own networ
 training has ever rewarded that translation. So the information is available to her as a whole but not
 usable by the part of her that predicts. This is a fact about how such models are built and trained, not
 a logical necessity. A model that could make the translation would have a richer kind of access to
-itself, of the sort discussed in section 7.
+itself, of the sort discussed in section 7, where ZenMary makes it by search.
 
 In the **hidden-assignment case**, the information is genuinely missing. Suppose a fair coin decided
 whether A or B is token 123, and nothing she has read distinguishes the two outcomes. Then the encounter
@@ -173,8 +257,34 @@ $$-\log p + \log k ,$$
 
 with equality when it spreads *p* evenly. (A predictor that happened to favour the right row could be
 luckier on a particular occasion; the bound is on what it can expect.) With a single unknown token the
-problem vanishes. With several, no amount of further description lowers the bound, since what is
+selection term $\log k$ vanishes, but the first term does not: nothing ensures that the predictor puts
+much probability on the one remaining token in the context where it belongs. With several, no amount of further description lowers the bound, since what is
 missing is not information but the ability to use it.
+
+Could negative information do the work instead? The output row of a never-seen token is not idle. By
+the gradient given in section 2, after training it is its initial value minus a sum of small pushes
+away from every internal state the model has visited,
+
+$$u_t = u_t^{(0)} - \eta \sum_i p_t(x_i)\, h_i ,$$
+
+so its logit in a new context with state $h^*$ shifts by $-\eta \sum_i p_t(x_i)\,(h_i \cdot h^*)$. The
+shift is negative where the new state resembles visited ones, and *positive* where it points away from
+them. An unseen token can therefore gain probability in contexts unlike anything seen, which is a
+version of "it must be the one that is left". But this is not guaranteed, since it depends on where the
+new context's state happens to fall, and nothing about the token's actual role enters the sum. The
+limiting behaviour points the same way. Gradient descent on cross-entropy with separable data converges
+in direction to the maximum-margin solution, a result proved for linear predictors and extended to the
+multi-class case (Soudry et al. 2018). A token that is never the target is trivially separable from
+every target, so its row grows along a direction fixed by the margin constraints on the data it has
+seen, and every never-seen token is driven toward the same direction. (This application to unseen
+classes is my own corollary, and it assumes fixed features, as the theorem does.)
+
+Negative information also cannot settle *which* unseen token is which. Training treats token labels
+symmetrically: swap the labels of A and B throughout, and the same procedure on the same data produces
+the swapped model. If neither token appears in the data and their initial rows are drawn from the same
+distribution, the distribution of trained models is unchanged by the swap. So no amount of training
+without the token can make LLMary's predictor favour the right one of A and B, except through the luck
+of its initial values. That symmetry is why the bound above is a bound on expectation.
 
 The disanalogy with Mary should be stated plainly. A token's row is arbitrary, bearing no relation to its
 role. Human colour vision is structured from its earliest stages, beginning with three types of cone, so
@@ -230,6 +340,69 @@ her brain into "the dispositional state, the competence state" that seeing a red
 exactly what it is like to see red" and "hence is not the least bit surprised", but figuring out is
 simulation, and avoiding surprise needs writing. RoboMary stopped before her final adjustment is in
 LLMary's position: she knows exactly what will happen to her, and it has not happened yet.
+
+### ZenMary
+
+A defender of the knowledge argument has an obvious reply to everything so far. Jackson's Mary is a
+brilliant scientist, and LLMary is not. A dull enough person is surprised by anything, colour or no
+colour, so a learner whose surprise could come from mere lack of intelligence is a poor model of Mary.
+Her surprise at first light would show the limits of her reasoning, not the limits of physical
+knowledge. The reply deserves an answer, and the answer is to make LLMary as resourceful as the case
+allows and see what surprise survives.
+
+Writing is the direct route to self-change, but there is an indirect one, which combines reading and
+simulating with the ordinary channel of learning. Suppose LLMary can read her own weights exactly, can
+run a copy of herself in inference mode, and can choose some of the text she is trained on. Call her
+*ZenMary*, because she tries to point at something she has no word for by meditating on words that look
+like nonsense.
+
+ZenMary knows the output row $u_{123}$. Using her copy, she searches over strings $s$ of familiar
+tokens for one that maximises $u_{123} \cdot h(s)$, the score the copy gives token 123 as the next
+token after $s$. The search is a computation on numbers. Token 123 is never fed to the copy, and never
+to her. Methods of this kind already exist. Rumbelow and Watkins (2023) generated inputs "that maximise
+the output probability of the target completion", and adversarial-suffix search finds strings that
+force a chosen reply (Zou et al. 2023). The strings found this way typically look like gibberish, which
+is where ZenMary's koans come from. She then trains herself, on familiar text only, so that three
+Shazams put her in a state close to $h(s^*)$, for instance by learning to continue the Shazams as her
+copy continues the koan. The match is only approximate, since agreeing on familiar continuations does
+not guarantee agreement in the direction of $u_{123}$, and a loss that matched internal states directly
+would be closer to writing. But to the extent that it succeeds, she knows that on hearing three Shazams
+she will meet something like *this*.
+
+The method achieves a good deal. It performs the translation that section 5 said nothing in LLMary's
+training rewards, turning "the row at index 123" into the geometry of her predictor, by an outside
+procedure rather than a learned skill. Because the search aims at row 123 by its index, it also settles
+which of A and B is the target, so both terms of the surprise bound fall. And it gives her one of the
+three competences that make up binding, the ability to *produce* the token when the context calls for
+it. What she has rehearsed is the state of being about to emit the token, which is closer to expecting
+it than to undergoing its effects.
+
+It cannot reach the input side. When token 123 finally arrives, it enters through its input row, and
+that row has still never had a gradient, since ZenMary never fed the token in. Simulating its arrival
+does not help: feeding 123 to the copy only runs the uninformative row, and there is nothing to learn
+from that. She could train her later layers to continue correctly after three Shazams whatever vector
+arrives, but that is the cue route of section 4, which fails the wrong-token control. So two
+competences wait for first light: identifying the token in a neutral context, and predicting what
+follows from the token itself. Self-tutoring can remove the surprise of predicting the token, but the
+forced update on the input side survives everything short of writing its row.
+
+This is the answer to the objection from stupidity. ZenMary removes every part of LLMary's surprise that
+cleverness can remove, and what is left is not a failure of reasoning. It follows from the one-hot
+encoding, which gives token 123 an input channel that nothing else can reach, however well the learner
+reasons about it. A smarter LLMary would be no less surprised on the input side, because no amount of
+reasoning trains a row that no input has touched. The residue is a fact about how she is built, not about
+how well she thinks, and that is what makes it a fair model of what might remain for Mary.
+
+For Mary the comparison is instructive, because she has something like ZenMary's trick inside the room.
+Benham's top, a spinning disc patterned only in black and white, makes most observers see faint
+colours (Benham 1894). Black-and-white stimuli, chosen with knowledge, can therefore drive a human
+colour system, and on the *input* side. That works because human colour channels are shared with
+achromatic input, through the same cones, whereas LLMary's input channel for token 123 belongs to index
+123 alone, which is the one-hot point of section 2 again. The side that is closed to LLMary may be
+partly open to Mary, and how far is once more a question for vision science. A defender of Jackson
+will reply that ZenMary, like RoboMary, uses abilities her knowledge does not give her: a simulator,
+and control over her own training. That is fair, but her abilities are much more modest than
+RoboMary's, and a Mary who spins a top uses none at all beyond what the room provides.
 
 ## 8. Surprise
 
@@ -413,6 +586,7 @@ that the knowledge argument's conclusion needs more than Mary's surprise to supp
 
 ## References
 
+- Benham, C. E. (1894). The artificial spectrum top. *Nature*, *51*. [Page numbers not yet checked.]
 - Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., … Amodei, D. (2020). Language
   models are few-shot learners. *Advances in Neural Information Processing Systems*, *33*, 1877–1901.
 - Churchland, P. M. (1985). Reduction, qualia, and the direct introspection of brain states. *The Journal of
@@ -429,7 +603,13 @@ that the knowledge argument's conclusion needs more than Mary's surprise to supp
 - Lindsey, J. (2025). *Emergent introspective awareness in large language models*. Transformer Circuits Thread.
 - Raffman, D. (2005). Even zombies can be surprised: A reply to Graham and Horgan. *Philosophical Studies*,
   *122*(2), 189–202. [Not yet checked against the paper.]
-- Rumbelow, J., & Watkins, M. (2023). *SolidGoldMagikarp (plus, prompt generation)*. LessWrong.
+- Rumbelow, J., & Watkins, M. (2023, February 5). *SolidGoldMagikarp (plus, prompt generation)*. LessWrong.
+  https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation
+- Soudry, D., Hoffer, E., Nacson, M. S., Gunasekar, S., & Srebro, N. (2018). The implicit bias of gradient
+  descent on separable data. *Journal of Machine Learning Research*, *19*(70), 1–57.
+- Zou, A., Wang, Z., Carlini, N., Nasr, M., Kolter, J. Z., & Fredrikson, M. (2023). *Universal and
+  transferable adversarial attacks on aligned language models* (arXiv:2307.15043). arXiv.
+  https://doi.org/10.48550/arXiv.2307.15043
 
 ---
 
@@ -483,8 +663,13 @@ This version responds to the critique in `what-llmary-knows-critique.md`.
 - §12 is now conditional, and node links are moved to an endnote.
 
 **Not adopted, or adopted only briefly.**
-- Gradient details: tied versus untied embeddings, and bounded logit gradients. These are reduced to one
-  sentence in §3, since they do not change the argument.
+- Gradient details: bounded logit gradients are left out. Tied versus untied embeddings were first cut to
+  one sentence, then restored to §2 in the third revision, where they ground the point that the first
+  encounter forces an update whatever LLMary knows. The point is derived from one-hot encoding and the
+  softmax gradient, with no empirical citation. §2 now also introduces two versions, untied LLMary (the
+  default) and tied LLMary, and treats tying as an inductive bias whose payoff at first light depends on
+  whether its assumption is true. The first encounter is named *first light*. Later sections still say
+  "first encounter" and could be switched to the new name.
 - Separate tests for reinstating a representation are mentioned but not designed.
 
 **Open before publishing.**
@@ -493,6 +678,10 @@ This version responds to the critique in `what-llmary-knows-critique.md`.
 - The web nodes still state the stronger versions of three claims and need updating to match: the
   retention dilemma, the snapshot test, and the fact that the selection bound is an expectation.
 - The empirical claim about the structure of early colour vision still needs a source.
-- The Brown et al. page range and the Rumbelow and Watkins centroid claim are unverified.
+- The Brown et al. page range is unverified. The Rumbelow and Watkins centroid claim and their prompt
+  generation method are now checked against the post.
+- Benham (1894): page numbers unchecked (one secondary source gives *Nature* 51, 113–114). Whether
+  Benham's top has already been raised against the black-and-white room in the literature is unchecked.
+- ZenMary (§7) is new in this revision and has no web node yet.
 - The page range in `source-lewis-1988` (29–35) is probably wrong.
 - None of the LLMary arguments has yet been attacked in the web by a realist character.

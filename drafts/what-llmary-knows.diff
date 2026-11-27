@@ -1,8 +1,8 @@
 diff --git a/drafts/what-llmary-knows.md b/drafts/what-llmary-knows-revised.md
-index 7e0c998..e6415c2 100644
+index 7e0c998..0ebb698 100644
 --- a/drafts/what-llmary-knows.md
 +++ b/drafts/what-llmary-knows-revised.md
-@@ -2,423 +2,412 @@
+@@ -2,478 +2,686 @@
 
 ### A language-model Mary and what she reveals about the knowledge argument
 
@@ -94,23 +94,108 @@ own architecture, how text is broken into tokens, and everything anyone has writ
 called Token #123: its index, its embedding vector, its statistical role, {+and+} even the [-exact gradient step-]{+training update+}
 that *would* [-occur-]{+follow+} if she [-were ever trained on-]{+met+} it. [-The one-]
 [-thing she lacks, by-]{+By+} stipulation,[-is that-] the word-piece [-corresponding to token 123-]{+itself+} has never[-once-] appeared in her
-training stream. [-The token-]{+It+} has been exhaustively *mentioned*[-to her-] and never *used*. Then, mid-training, it appears.[-Her predicted probability for it was near zero, so the loss is large and-]
-[-the update is large: a real and measurable gain on first encounter.-]
+training stream. [-The token-]{+It+} has been exhaustively *mentioned*[-to her-] and never *used*. Then, mid-training, it appears. [-Her predicted probability for it was near zero, so the loss is large and-]{+I will call+}
+{+this event *first light*, after+} the[-update is large: a real and measurable gain on-] first [-encounter.-]{+observation made by a new telescope.+}
 
 This is not merely a fable. "Glitch tokens" such as *SolidGoldMagikarp* entered GPT's vocabulary [-but were-]{+while+}
 {+being+} almost absent from its training data, so the model had a name, an index and an essentially
 untrained [-embedding-]{+representation+} for them, and behaved erratically when one was[-actually-] used (Rumbelow & Watkins 2023).
 
-[-The first thing-]{+A running example will keep things concrete. Suppose+} LLMary [-shows-]{+has two tokens she has never processed,+}
+{+A running example will keep things concrete. Suppose LLMary has two tokens she has never processed,+}
 {+whose rows in her network I will call A and B. Exactly one of them, token 123, has a role she has read+}
-{+about: it+} is [-negative-]{+the word-piece that follows three *Shazam*s in a row. Throughout, it matters to ask what+}
-{+LLMary knows+} and [-modest ([llmary-token-encounter](../web/arguments/llmary-token-encounter.md)). The knowledge-]
-[-argument needs-]{+*which part of her* can use it. She knows, as+} a [-conditional: if-]{+fact stated in her training text, that+}
+{+about: it is the word-piece that follows three *Shazam*s in a row. Throughout, it matters to ask what+}
+{+LLMary knows and *which part of her* can use it. She knows, as a fact stated in her training text, that+}
 {+the row at index 123 is the one that follows the Shazams. Her next-token predictor, the part of her that+}
-{+assigns probabilities to what comes next, is+} a [-subject with complete prior knowledge gains something on-]{+different matter, as section 5 explains.+}
+{+assigns probabilities to what comes next, is a different matter, as section 5 explains.+}
 
-{+The+} first [-encounter, then the gain-]{+result+} is [-not-]{+modest. A first encounter can change what a learner can do even when she could+}
-{+already describe the change in advance, and the whole episode can be+} physical. [-LLMary has complete prior knowledge of-]{+That shows that+}
+{+The trigger is three Shazams, not one, for a reason that is itself a case of use and mention. If token+}
+{+123 followed a single *Shazam*, a familiar word, then any text describing the role would have to use+}
+{+the word, and so would contain the trigger. Every such sentence, and every unrelated occurrence of+}
+{+*Shazam* elsewhere in her training, would be an instance of the trigger followed by some other token,+}
+{+and the predictor would be trained on the trigger context without the token. The description would+}
+{+contaminate the very context it describes. A trigger made of a combination of familiar tokens that+}
+{+never occurs in the training text avoids this. It can be described ("three Shazams in a row") without+}
+{+being produced, just as token 123 can be mentioned without being used. This is not part of the main+}
+{+argument, but it shows that the case has to be built with care. Otherwise a stipulation that+}
+{+LLMary "knows only by description" can be quietly broken by the text that carries the description.+}
+
+{+From the training stream itself there are exactly two things for LLMary to learn about token 123: in+}
+{+what contexts it appears, and what appears once it has been seen, which may be familiar tokens or yet+}
+{+newer ones. The first is the token's place as an effect, the second its place as a cause. The division+}
+{+is not special to language models. The experience of red, for Mary or anyone, has antecedents, the+}
+{+stimuli and states that bring it on, and consequents, what it leads her to expect, say and do.+}
+
+{+In a language model the division has a definite implementation. Each token has two learned vectors.+}
+{+Its *input embedding* is the row looked up when the token appears in the context, and it fixes what+}
+{+difference the token makes to everything after it. Its *output embedding* is the row against which the+}
+{+model's internal state is compared when the token is scored as a candidate for the next position, and+}
+{+it fixes in which contexts the token is predicted. Some models use a single matrix for both, a design+}
+{+called *tied* embeddings.+}
+
+{+The implementation yields a general fact. A physical learner like LLMary is changed by+}
+{+her first encounter with a token, however much she has learned before, and that learning may include+}
+{+any amount of discussion of the token, of Mary, of her own weights, of anything, provided the token+}
+{+itself never appears. On the input side the reason is the difference between use and mention. On the+}
+{+output side it is the problem of picking out which of the unknown tokens is the one that has arrived.+}
+{+Both follow from nothing more than the way tokens are fed in and scored. A token enters the network as a one-hot vector $e_i$, all+}
+{+zeros except a 1 at its index, and its input embedding is the product $E^\top e_i$, which simply selects+}
+{+row $i$ of the embedding matrix $E$. By the chain rule, the gradient of the loss with respect to any+}
+{+row $j$ is the gradient with respect to the selected embedding multiplied by the $j$-th entry of the+}
+{+one-hot vector, which is zero unless token $j$ is in the input. So a token that has never appeared in+}
+{+her input has never had a nonzero gradient on its input row, and the row is still whatever it was set+}
+{+to at initialization (shrunk toward zero, if training applies weight decay to it). Her knowledge about+}
+{+token 123, however complete, is stored elsewhere, in the rows of the tokens used to describe it and in+}
+{+the layers that process them, and no error signal from that text can reach row 123. So at the first+}
+{+encounter the token enters her computation as a vector that carries no information about it, and the+}
+{+first training step on it must change that row.+}
+
+{+The output side has been trained, but no more informatively. With logits $z = U h$, where $h$ is the+}
+{+model's final internal state, and the softmax probabilities $p$, the gradient of the loss with respect+}
+{+to output row $u_t$ is $(p_t - [t = y])\,h$, where $y$ is the actual next token. For a token that is+}
+{+never the target the bracket is always zero, so every step moves its row a little away from whatever+}
+{+state the model is in, in proportion to the probability it was wrongly given. Every never-seen token+}
+{+receives the same kind of push, and what its row comes to encode is only that the token does not+}
+{+occur, which is equally true of A and B. With tied embeddings this push is also all the shared row has+}
+{+received, so the row is no longer at its initial value, but it is still silent about the token's role.+}
+{+The only way round the+}
+{+forced update is for the learner to write the row herself, which is RoboMary's move (section 7). For+}
+{+Mary, the corresponding claim would be that her colour system has never been shaped by red+}
+{+experiences, however much she knows about them. How far that is true of a human visual system is the+}
+{+question of prewiring taken up in section 10.+}
+
+{+Two versions of LLMary must now be told apart. Unless I say otherwise, LLMary is *untied*: her input+}
+{+and output rows are separate, so the two things she has to learn about token 123 sit in separate+}
+{+places. *Tied LLMary* uses one row for both. It is tempting to think that tying merely mirrors the+}
+{+autoregressive loop, in which each token is first predicted and then read back as input. It does not.+}
+{+The loop is closed by the token's identity, the index passed from one step to the next, and it works+}
+{+the same way in both versions. Tying adds a substantive assumption: that the vector by which a token is+}
+{+anticipated is the vector by which, once it arrives, it acts on what follows. In effect it assumes that+}
+{+tokens which appear in similar contexts also make similar differences afterwards. For language this is+}
+{+roughly true, since words of the same grammatical category can stand in for one another on either+}
+{+side, but it is not exactly true. Language is not symmetric in time: "of the" is common, "the of" is+}
+{+not.+}
+
+{+The assumption changes what first light does. It gives tied LLMary no head start beforehand, since her+}
+{+shared row has received only the push common to all unseen tokens and says nothing about token 123's+}
+{+role. But at first light, the update that teaches her what leads up to the token lands on the very row+}
+{+that governs what the token does as context, so one lesson does double duty. If the assumption holds+}
+{+for token 123, tied LLMary has less left to learn from the token's later occurrences, and is less+}
+{+surprised by what follows them, than untied LLMary. If it fails, she has more to learn, because she+}
+{+must first undo what the assumption supplied. Either way the saving is not knowledge she had. It is a+}
+{+bet built into her architecture, which pays when the world matches it. That a learner whose+}
+{+assumptions turn out true needs to update less is a general truth about learning, but it is easy to+}
+{+miss here, because tying looks like mere bookkeeping.+}
+
+{+The point carries over to Mary, and it sharpens the question of prewiring in section 10. Whatever+}
+{+structure her visual system has before release works as such a bet. To the extent that it matches the+}
+{+world, she has less to learn at first light, without knowing any more beforehand. The bias is a fact+}
+{+about her, not a fact she knows. How much Mary gains at first light therefore depends not only on what+}
+{+she knows but on what her architecture assumes, and the premise of the knowledge argument, which+}
+{+concerns only what she knows, is silent about the second.+}
+
+The first [-thing LLMary shows-]{+result+} is [-negative and modest ([llmary-token-encounter](../web/arguments/llmary-token-encounter.md)). The knowledge-]
+[-argument needs a conditional: if a subject with complete prior knowledge gains something on-]{+modest. A+} first [-encounter, then-]{+encounter can change what a learner can do even when she could+}
+{+already describe+} the [-gain is not-]{+change in advance, and the whole episode can be+} physical. [-LLMary has complete prior knowledge of-]{+That shows that+}
 {+"knew+} everything sayable, [-gains-]{+yet gained+} something on first [-encounter, and is physical through and through. One such case falsifies-]{+encounter" does not by itself imply that+} the
 [-conditional. The argument proves nothing about Mary's ontology, and it faces-]{+gain was non-physical. It does not show that Mary learns no new fact. To infer that she does, one needs+}
 an [-obvious dilemma: on-]{+account of what makes her gain+} an [-*access* reading-]{+instance+} of [-"gain" LLMary satisfies the antecedent-]{+factual learning,+} and [-the conditional fails, while on a-]
@@ -125,16 +210,15 @@ an [-obvious dilemma: on-]{+account of what makes her gain+} an [-*access* readi
 
 [-The mechanics of next-token-]{+encounter changes+}
 
-{+Next-token+} training [-say-]{+says+} exactly what LLMary learns [-about-]{+that is specific to+} token [-123-]
-[-([first-token-update-is-relational](../web/claims/first-token-update-is-relational.md)).-]{+123.+} A token in the
-training stream plays two roles. It is the [-target-]{+*target*+} predicted from the text before it, so the
-prediction error adjusts its output [-representation-]{+row+} toward the state that text produces: she learns what leads up
-to [-the token.-]{+it.+} It is then part of the [-context-]{+*context*+} for [-everything after it,-]{+what follows,+} so[-the errors on-] later [-tokens flow back into-]{+errors adjust+} its input
-[-embedding:-]{+representation:+} she learns what difference [-its presence-]{+it+} makes to what [-follows. Nothing else in-]{+comes next. Before+} the [-update-]{+encounter, the rows+}
-{+for A and B were not quite untouched, since training pushes every token that+} is [-specific to-]{+not+} the [-token. Before-]{+target slightly+}
-{+toward improbability. But they carried no information about+} the {+role. The+} encounter [-its vector was an arbitrary initialisation; afterwards-]{+supplies the first+}
-{+positive training example for token 123, and the loss on+} it [-has a-]{+is large because her predicted probability+}
-{+was near zero.+}
+{+Next-token+} training [-say-]{+says+} exactly what LLMary learns [-about token 123-]
+[-([first-token-update-is-relational](../web/claims/first-token-update-is-relational.md)). A-]{+that is specific to+} token [-in-]{+123, along+} the[-training stream plays-] two [-roles. It is-]{+lines+}
+{+drawn in section 2. As+} the [-target-]{+*target*+} predicted from the text before it, [-so-]{+the token's output row is+}
+{+adjusted by+} the prediction error[-adjusts its output representation-] toward the state that text produces: she learns what leads up to [-the token. It is then-]{+it.+}
+{+As+} part of the [-context-]{+*context*+} for [-everything after it, so the errors on later tokens flow back into-]{+what follows,+} its input [-embedding:-]{+row receives its first error signal:+} she learns
+what difference [-its presence-]{+it+} makes to what [-follows. Nothing else in the update is specific to the-]
+[-token.-]{+comes next.+} Before the {+encounter, neither row carried information about+}
+{+the role. The+} encounter [-its vector was an arbitrary initialisation; afterwards-]{+supplies the first positive training example for token 123, and the loss on+} it
+[-has a-]{+is large because her predicted probability was near zero.+}
 
 {+What she gains is therefore relational: the token's+} place among[-her expectations, defined by-] its antecedents and consequents.
 Carried over by [-analogy ([mary-analogous-to-llmary](../web/claims/mary-analogous-to-llmary.md)),-]{+analogy,+} this [-gives a positive answer to-]{+suggests that+} what Mary [-gains: wholly relational-]{+gains is+} knowledge of where the experience of red
@@ -185,22 +269,19 @@ it [-only on the spot, when the context-]
 {+- *identify*+} it [-anywhere and produce-]{+when+} it [-unprompted. An encounter at *inference* time would not do this: a-]
 [-fixed model meeting the token-]{+appears+} in a [-prompt can relate-]{+neutral context, with no cue to give it away;+}
 {+- *produce*+} it {+when a context calls for it;+}
-{+- *predict* what tends+} to [-its neighbours, but nothing is written into-]
-[-the token's representation and-]{+follow it.+}
+{+- *predict* what tends+} to [-its neighbours, but nothing is written into-]{+follow it.+}
 
-{+The Shazam cue supplies none of these. A simple control shows why: put+} the [-gain is lost with-]{+*wrong* unfamiliar token,+}
-{+B, after+} the [-prompt.-]
-
-[-The distinction has-]{+three Shazams, and+} a [-precedent that deserves credit. Paul-]{+learner relying on the cue will take B for token 123. The cue tells her+}
-{+what belongs in the slot, not which item is in front of her.+}
+{+The Shazam cue supplies none of these. A simple control shows why: put+} the [-token's representation-]{+*wrong* unfamiliar token,+}
+{+B, after the three Shazams,+} and {+a learner relying on+} the [-gain-]{+cue will take B for token 123. The cue tells her+}
+{+what belongs in the slot, not which item+} is [-lost-]{+in front of her.+}
 
 {+The binding can in principle be implemented anywhere in the network; it need not be written into+}
 {+token 123's own row. Defining it by competence first leaves open where a particular model stores it.+}
-{+And an encounter in context, with the weights fixed, does not produce it: a fixed model can relate the+}
+{+And an encounter in context,+} with the [-prompt.-]{+weights fixed, does not produce it: a fixed model can relate the+}
 {+token to its neighbours for the length of a prompt, but the competence is gone when the prompt is.+}
 
-{+The idea that complete descriptive knowledge can coexist with lacking the right representation has a+}
-{+precedent. Paul+} Churchland recast the knowledge argument as a non sequitur from "(a) Mary has mastered
+The [-distinction-]{+idea that complete descriptive knowledge can coexist with lacking the right representation+} has a
+[-precedent that deserves credit.-]{+precedent.+} Paul Churchland recast the knowledge argument as a non sequitur from "(a) Mary has mastered
 the complete set of true propositions about people's brain states" and "(b) Mary does not have a
 representation of redness in her prelinguistic medium of representation for sensory [-variables", observing that (a) and (b) are compatible on materialism-]{+variables"+}
 (Churchland 1985, p. 24). The binding account agrees, and adds[-two things Churchland's distinction lacks:-] a mechanism[-for how the second kind of representation is acquired,-] and [-the asymmetry to which I now turn.-]{+some tests.+}
@@ -218,17 +299,18 @@ representation of redness in her prelinguistic medium of representation for sens
 {+care, because there are two different cases.+}
 
 {+In the **fully informed case**, the information really+} is {+present+} in [-context, since copying draws on the input side,-]{+LLMary. Ask her, in words, "which+}
-{+row follows three Shazams?",+} and she [-may *recognise*-]{+answers "the row at index 123". Ask her predictor to put+}
-{+probability on that row, and+} it [-there by relational cues. What-]
-[-she cannot do is-]{+cannot. To favour row A, her predictor would need to+} produce [-it from nothing.-]
+{+row follows three Shazams?",+} and she [-may *recognise* it there by relational cues. What-]
+[-she cannot do is produce it from nothing.-]
 
-[-This is-]{+an internal+}
-{+state lined up with+} the [-first point that carries over-]{+particular vector in row A. The only route from her knowledge+} to [-Mary with real precision. Lewis lists-]{+that state runs+}
-{+through+} the [-abilities-]{+numbers she has read, translated into the geometry of her own network, and nothing in her+}
-{+training has ever rewarded+} that [-knowing-]{+translation. So the information is available to her as a whole but not+}
+[-This is the first point that carries over-]{+answers "the row at index 123". Ask her predictor+} to [-Mary with real precision. Lewis lists the abilities-]{+put+}
+{+probability on+} that [-knowing what an experience is like confers: "you gain abilities to remember-]{+row,+} and {+it cannot. To favour row A, her predictor would need+} to [-imagine … Further, you-]
+[-gain-]{+produce+} an [-ability-]{+internal+}
+{+state lined up with the particular vector in row A. The only route from her knowledge to that state runs+}
+{+through the numbers she has read, translated into the geometry of her own network, and nothing in her+}
+{+training has ever rewarded that translation. So the information is available to her as a whole but not+}
 {+usable by the part of her that predicts. This is a fact about how such models are built and trained, not+}
 {+a logical necessity. A model that could make the translation would have a richer kind of access to+}
-{+itself, of the sort discussed in section 7.+}
+{+itself, of the sort discussed in section 7, where ZenMary makes it by search.+}
 
 {+In the **hidden-assignment case**, the information is genuinely missing. Suppose a fair coin decided+}
 {+whether A or B is token 123, and nothing she has read distinguishes the two outcomes. Then the encounter+}
@@ -244,8 +326,34 @@ representation of redness in her prelinguistic medium of representation for sens
 
 {+with equality when it spreads *p* evenly. (A predictor that happened to favour the right row could be+}
 {+luckier on a particular occasion; the bound is on what it can expect.) With a single unknown token the+}
-{+problem vanishes. With several, no amount of further description lowers the bound, since what is+}
+{+selection term $\log k$ vanishes, but the first term does not: nothing ensures that the predictor puts+}
+{+much probability on the one remaining token in the context where it belongs. With several, no amount of further description lowers the bound, since what is+}
 {+missing is not information but the ability to use it.+}
+
+{+Could negative information do the work instead? The output row of a never-seen token is not idle. By+}
+{+the gradient given in section 2, after training it is its initial value minus a sum of small pushes+}
+{+away from every internal state the model has visited,+}
+
+{+$$u_t = u_t^{(0)} - \eta \sum_i p_t(x_i)\, h_i ,$$+}
+
+{+so its logit in a new context with state $h^*$ shifts by $-\eta \sum_i p_t(x_i)\,(h_i \cdot h^*)$. The+}
+{+shift is negative where the new state resembles visited ones, and *positive* where it points away from+}
+{+them. An unseen token can therefore gain probability in contexts unlike anything seen, which is a+}
+{+version of "it must be the one that is left". But this is not guaranteed, since it depends on where the+}
+{+new context's state happens to fall, and nothing about the token's actual role enters the sum. The+}
+{+limiting behaviour points the same way. Gradient descent on cross-entropy with separable data converges+}
+{+in direction to the maximum-margin solution, a result proved for linear predictors and extended to the+}
+{+multi-class case (Soudry et al. 2018). A token that is never the target is trivially separable from+}
+{+every target, so its row grows along a direction fixed by the margin constraints on the data it has+}
+{+seen, and every never-seen token is driven toward the same direction. (This application to unseen+}
+{+classes is my own corollary, and it assumes fixed features, as the theorem does.)+}
+
+{+Negative information also cannot settle *which* unseen token is which. Training treats token labels+}
+{+symmetrically: swap the labels of A and B throughout, and the same procedure on the same data produces+}
+{+the swapped model. If neither token appears in the data and their initial rows are drawn from the same+}
+{+distribution, the distribution of trained models is unchanged by the swap. So no amount of training+}
+{+without the token can make LLMary's predictor favour the right one of A and B, except through the luck+}
+{+of its initial values. That symmetry is why the bound above is a bound on expectation.+}
 
 {+The disanalogy with Mary should be stated plainly. A token's row is arbitrary, bearing no relation to its+}
 {+role. Human colour vision is structured from its earliest stages, beginning with three types of cone, so+}
@@ -255,8 +363,8 @@ representation of redness in her prelinguistic medium of representation for sens
 
 {+## 6. Recognising, producing, imagining+}
 
-{+Lewis lists the abilities that knowing+} what an experience is like confers: "you gain abilities to
-remember and to imagine … Further, you gain an ability to recognize" (Lewis 1988). LLMary [-splits-]{+separates+} them.
+{+Lewis lists the abilities that knowing what an experience is like confers: "you gain abilities to+}
+{+remember and to imagine … Further, you gain an ability+} to recognize" (Lewis 1988). LLMary [-splits-]{+separates+} them.
 Description supports [-recognition in-]
 [-context, which-]{+recognising the token *in context*, by its role, and that+} is[-exactly-] what Dennett's blue
 banana dramatises: Mary knows bananas are yellow and knows how yellow and blue affect [-her nervous system,-]{+her,+} so she can tell[-that-]
@@ -276,9 +384,8 @@ this banana is the wrong [-colour.-]{+colour (Dennett 1991, pp. 399–400).+} De
 
 {+Two classic cases sit between recognising and producing.+} Hume grants that someone [-acquainted with-]{+who knew+} every shade {+of+}
 {+blue+} but one could "raise up to himself the idea of that particular shade, tho' it had never been conveyed
-to him by his senses" [-(Hume, *Treatise* 1.1.1.10), and-]{+(*Treatise* 1.1.1.10).+} Churchland [-argues-]{+suggests+} that a Mary who thinks of her inner [-life in-]
-[-neuroscientific terms "may well be able to imagine being-]{+life+} in
-[-the relevant-]{+neuroscientific terms might imagine a+} cortical state [-… even-]{+"even+} in advance", as a trained musician can construct
+to him by his senses" [-(Hume, *Treatise* 1.1.1.10), and-]{+(*Treatise* 1.1.1.10).+} Churchland [-argues-]{+suggests+} that a Mary who thinks of her inner life in
+neuroscientific [-terms "may well be able to imagine being in the relevant-]{+terms might imagine a+} cortical state [-… even-]{+"even+} in advance", as a trained musician can construct
 [-an unheard-]{+a+} chord [-(Churchland 1985,-]{+never heard (1985,+} pp. 25–27). Both [-are cases of-]
 [-producing-]{+produce+} a new item by interpolating within a *structured* space.
 LLMary cannot do even [-that for token-]
@@ -288,11 +395,11 @@ LLMary cannot do even [-that for token-]
 [-## 6. Selection among unknown tokens-]
 
 [-Suppose now that LLMary has *k* tokens she has never processed. From the description she can work out-]
-[-what role token 123 will play, and so what its embedding *should* become once she is trained on it. What-]
+[-what role token 123 will play, and so what its embedding *should* become once she is trained-]{+depends,+}
+{+again,+} on [-it. What-]
 [-she cannot work out is *which* of her untrained rows belongs to token 123-]
 [-([unknown-token-selection-bound](../web/claims/unknown-token-selection-bound.md)). They all began as noise and have all been pushed down in the-]
-[-same direction, so nothing in training on descriptions ever rewards putting probability-]{+depends,+}
-{+again,+} on [-row 123-]
+[-same direction, so nothing in training on descriptions ever rewards putting probability on row 123-]
 [-rather than another. The best she can do is give the class of unknown tokens the probability *p* that-]
 [-the description warrants and spread it evenly, so that token 123 gets at most *p*/*k*, and-]{+how structured+} her[-surprise-]
 [-when it arrives is at least-]
@@ -351,41 +458,92 @@ exactly what it is like to see red" and "hence is not the least bit surprised", 
 [-her self-model, so-]{+LLMary's position:+} she knows exactly what will happen to her, and [-she-]{+it+} has not [-yet put herself into-]
 [-it. That is LLMary's situation.-]
 
-[-One refinement belongs here. The binding need not be installed-]{+happened yet.+}
+[-One refinement belongs here. The binding need not be installed in the very representation-]{+happened yet.+}
+
+{+### ZenMary+}
+
+{+A defender of+} the [-encounter-]
+[-would have trained.-]{+knowledge argument has an obvious reply to everything so far. Jackson's Mary is a+}
+{+brilliant scientist, and LLMary is not.+} A [-model whose token row-]{+dull enough person+} is [-fixed could train its other parameters-]{+surprised by anything, colour or no+}
+{+colour, so a learner whose surprise could come from mere lack of intelligence is a poor model of Mary.+}
+{+Her surprise at first light would show the limits of her reasoning, not the limits of physical+}
+{+knowledge. The reply deserves an answer, and the answer is to make LLMary as resourceful as the case+}
+{+allows and see what surprise survives.+}
+
+{+Writing is the direct route to self-change, but there is an indirect one, which combines reading and+}
+{+simulating with the ordinary channel of learning. Suppose LLMary can read her own weights exactly, can+}
+{+run a copy of herself in inference mode, and can choose some of the text she is trained on. Call her+}
+{+*ZenMary*, because she tries to point at something she has no word for by meditating on words that look+}
+{+like nonsense.+}
+
+{+ZenMary knows the output row $u_{123}$. Using her copy, she searches over strings $s$ of familiar+}
+{+tokens for one that maximises $u_{123} \cdot h(s)$, the score the copy gives token 123 as the next+}
+{+token after $s$. The search is a computation on numbers. Token 123 is never fed to the copy, and never+}
+{+to her. Methods of this kind already exist. Rumbelow and Watkins (2023) generated inputs "that maximise+}
+{+the output probability of the target completion", and adversarial-suffix search finds strings that+}
+{+force a chosen reply (Zou et al. 2023). The strings found this way typically look like gibberish, which+}
+{+is where ZenMary's koans come from. She then trains herself, on familiar text only, so that three+}
+{+Shazams put her in a state close to $h(s^*)$, for instance by learning to continue the Shazams as her+}
+{+copy continues the koan. The match is only approximate, since agreeing on familiar continuations does+}
+{+not guarantee agreement in the direction of $u_{123}$, and a loss that matched internal states directly+}
+{+would be closer to writing. But to the extent that it succeeds, she knows that on hearing three Shazams+}
+{+she will meet something like *this*.+}
+
+{+The method achieves a good deal. It performs the translation that section 5 said nothing in LLMary's+}
+{+training rewards, turning "the row at index 123" into the geometry of her predictor, by an outside+}
+{+procedure rather than a learned skill. Because the search aims at row 123 by its index, it also settles+}
+{+which of A and B is the target, so both terms of the surprise bound fall. And it gives her one of the+}
+{+three competences that make up binding, the ability to *produce* the token when the context calls for+}
+{+it. What she has rehearsed is the state of being about to emit the token, which is closer to expecting+}
+{+it than to undergoing its effects.+}
+
+{+It cannot reach the input side. When token 123 finally arrives, it enters through its input row, and+}
+{+that row has still never had a gradient, since ZenMary never fed the token in. Simulating its arrival+}
+{+does not help: feeding 123 to the copy only runs the uninformative row, and there is nothing to learn+}
+{+from that. She could train her later layers to continue correctly after three Shazams whatever vector+}
+{+arrives, but that is the cue route of section 4, which fails the wrong-token control. So two+}
+{+competences wait for first light: identifying the token in a neutral context, and predicting what+}
+{+follows from the token itself. Self-tutoring can remove the surprise of predicting the token, but the+}
+{+forced update on the input side survives everything short of writing its row.+}
+
+{+This is the answer to the objection from stupidity. ZenMary removes every part of LLMary's surprise that+}
+{+cleverness can remove, and what is left is not a failure of reasoning. It follows from the one-hot+}
+{+encoding, which gives token 123 an input channel that nothing else can reach, however well the learner+}
+{+reasons about it. A smarter LLMary would be no less surprised on the input side, because no amount of+}
+{+reasoning trains a row that no input has touched. The residue is a fact about how she is built, not about+}
+{+how well she thinks, and that is what makes it a fair model of what might remain for Mary.+}
+
+{+For Mary the comparison is instructive, because she has something like ZenMary's trick inside the room.+}
+{+Benham's top, a spinning disc patterned only in black and white, makes most observers see faint+}
+{+colours (Benham 1894). Black-and-white stimuli, chosen with knowledge, can therefore drive a human+}
+{+colour system, and on the *input* side. That works because human colour channels are shared with+}
+{+achromatic input, through the same cones, whereas LLMary's input channel for token 123 belongs to index+}
+{+123 alone, which is the one-hot point of section 2 again. The side that is closed to LLMary may be+}
+{+partly open to Mary, and how far is once more a question for vision science. A defender of Jackson+}
+{+will reply that ZenMary, like RoboMary, uses abilities her knowledge does not give her: a simulator,+}
+{+and control over her own training. That is fair, but her abilities are much more modest than+}
+{+RoboMary's, and a Mary who spins a top uses none at all beyond what the room provides.+}
 
 {+## 8. Surprise+}
 
-{+Surprise has done quiet work+} in the [-very representation the encounter-]
-[-would have trained. A model whose token row is fixed could train its other parameters to treat that-]
-[-particular untrained vector as the token, just as Locked RoboMary works around her locked colour system.-]
-[-The encounter is the ordinary route to the binding, not the only possible one.-]
+{+Surprise has done quiet work in the literature on Mary. Jackson takes her not saying "ho, hum" as evidence+}
+{+that she lacked knowledge. Dennett runs the link the other way: his Mary had "already written down, in+}
+{+exquisite detail" how colours would affect her, and so "was not in the slightest surprised". George Graham+}
+{+and Terence Horgan's "Mary Mary", who also accepts a materialist theory of phenomenal content, "has no good+}
+{+reason to expect surprise", yet "surely" she will be surprised (Graham & Horgan 2000, pp. 71–72).+}
 
-[-## 8. Predicted surprise-]
-
-[-Surprise has been doing quiet work in the Mary literature. Jackson takes Mary's not saying "ho, hum" to-]
-[-show-]{+literature on Mary. Jackson takes her not saying "ho, hum" as evidence+}
-that she lacked [-knowledge (1986, p. 291).-]{+knowledge.+} Dennett runs the link the other way: his Mary [-"had already-]{+had "already+} written down, in
-exquisite detail" how colours would affect her, and so "was not in the slightest [-surprised" (1991, pp. 399–400).-]{+surprised". George+} Graham
-and {+Terence+} Horgan's "Mary Mary", who also accepts a materialist theory of phenomenal content,[-is the clearest case. Graham and Horgan argue that on that theory she-] "has no good
-reason to expect surprise", yet "surely" she will be surprised [-and delighted (2000,-]{+(Graham & Horgan 2000,+} pp. 71–72).
-
-[-Dennett-]
-[-replies that-]{+LLMary occupies a position none of these quite takes:+} she {+*expects* surprise and is surprised. She can+}
-{+calculate, in the fully informed case, that her predictor+} will [-neither expect-]{+give token 123 low probability and so incur+}
-{+a large error, and when the token arrives it does. Her knowledge of the coming surprise and the+} surprise
-[-nor-]{+itself are carried by different parts of her: the first by what she can say about herself, the second by+}
+{+LLMary occupies a position none of these quite takes: she *expects* surprise and is surprised. She can+}
+{+calculate, in the fully informed case, that her predictor will give token 123 low probability and so incur+}
+{+a large error, and when the token arrives it does. Her knowledge of the coming surprise and the surprise+}
+{+itself are carried by different parts of her: the first by what she can say about herself, the second by+}
 {+her predictor, which never consults what she can say.+}
 
 {+Graham and Horgan come close to this. They concede that Mary Mary could "predict in advance … that she+}
-{+will+} be surprised [-(2005, §2).-]
-
-[-The positions fill-]{+by her post-release color experiences", call this "beside the point", and ask instead+}
+{+will be surprised by her post-release color experiences", call this "beside the point", and ask instead+}
 {+for an account of "why it is rationally appropriate for Mary Mary to find her post-release color+}
-{+experiences surprising" (pp. 76–77). In+} a [-small table.-]
-
-[-| | not-]{+footnote they leave open whether "Mary Mary cannot both know that+}
-{+she will be+} surprised [-|-]{+in a certain way and be surprised in that way" (p. 85 n. 7). LLMary shows that she+}
-{+can, once knowing and being+} surprised {+are seen to belong to different parts of one system. (Diana Raffman's+}
+{+experiences surprising" (pp. 76–77). In a footnote they leave open whether "Mary Mary cannot both know that+}
+{+she will be surprised in a certain way and be surprised in that way" (p. 85 n. 7). LLMary shows that she+}
+{+can, once knowing and being surprised are seen to belong to different parts of one system. (Diana Raffman's+}
 {+reply to Graham and Horgan also connects Mary's surprise to the formation of new perceptual+}
 {+representations [Raffman 2005]; the model offers a setting in which that connection can be calculated.)+}
 
@@ -474,7 +632,7 @@ reason to expect surprise", yet "surely" she will be surprised [-and delighted (
 
 {+Compare two Marys. Released Mary sees a red tomato, and a month later her brain is in a state *S*. Swamp Mary+}
 {+never leaves the room, but lightning rearranges her brain into exactly *S*, including an apparent memory of+}
-{+seeing a red tomato, false in her case. (The duplicate has to be complete, memories included, or the two+}
+{+seeing a red tomato, false in her case. (The duplicate has+} to [-treat-]{+be complete, memories included, or the two+}
 {+Marys differ in ways that raise other questions.) Does Swamp Mary know what red looks like?+}
 
 {+I originally drew a dilemma from this case: either the knowledge is carried by the state the two share, and+}
@@ -485,29 +643,40 @@ reason to expect surprise", yet "surely" she will be surprised [-and delighted (
 {+First, the first horn does not contradict the knowledge argument. The argument says that physical+}
 {+*information* cannot give Mary the knowledge. Swamp Mary did not acquire information; she was put into a+}
 {+state. So "she knows, though she never saw red" is compatible with Jackson's premise. Second, a dualist can+}
-{+accept the first horn outright, holding that the same psychophysical laws give the two Marys' shared state+}
+{+accept the first horn outright, holding+} that[-particular untrained vector as-] the [-token, just as Locked RoboMary works around her locked colour system.-]
+[-The-]{+same psychophysical laws give the two Marys' shared state+}
 {+the same phenomenal character. Third, causal history may matter to *warrant*: Released Mary's judgement arose+}
-{+through the encounter it registers, while Swamp Mary's arose by luck. And the false memory bears only on+}
+{+through the+} encounter {+it registers, while Swamp Mary's arose by luck. And the false memory bears only on+}
 {+what she knows *about an episode*, that she saw a red tomato, not on what she knows about how red looks.+}
 
-{+What survives is still worth having. Whatever Mary gains on release, it is fixed by the state she comes to be+}
-{+in, and that state is one no amount of information puts her in. That is the moral of the binding account,+}
-{+reached from the other side. It does not show that the state lacks a non-physical aspect; a dualist can say+}
-{+it has one. What it shows is where the question lies: not in a fact Mary was missing but in a state she had+}
+{+What survives is still worth having. Whatever Mary gains on release, it+} is {+fixed by+} the [-ordinary route-]{+state she comes+} to {+be+}
+{+in, and that state is one no amount of information puts her in. That is+} the [-binding, not-]{+moral of+} the [-only possible one.-]
+
+[-## 8. Predicted surprise-]
+
+[-Surprise has been doing quiet work in-]{+binding account,+}
+{+reached from+} the [-Mary literature. Jackson takes Mary's-]{+other side. It does+} not[-saying "ho, hum" to-] show that[-she lacked knowledge (1986, p. 291). Dennett runs-] the [-link-]{+state lacks a non-physical aspect; a dualist can say+}
+{+it has one. What it shows is where+} the [-other way: his-]{+question lies: not in a fact+} Mary [-"had already-]
+[-written down,-]{+was missing but+} in [-exquisite detail" how colours would affect her, and so "was-]{+a state she had+}
 {+not been in.+}
 
 {+The case does keep real force against the view Jackson defended alongside the knowledge argument in 1982,+}
-{+that qualia are epiphenomenal. In that paper he answers the worry that epiphenomenal qualia could not be+}
-{+known in *other* people with an analogy of two newspapers reporting the same match: behaviour and qualia are+}
-{+separate effects of a common cause in the brain (1982, pp. 133–135). He does not discuss how Mary knows her+}
-{+*own* qualia after release. On his model, everything she later judges and says about red is caused by the+}
-{+brain state she shares with Swamp Mary, and the quality itself does no work in producing it. What then grounds+}
+{+that qualia are epiphenomenal. In that paper he answers the worry that epiphenomenal qualia could+} not {+be+}
+{+known+} in {+*other* people with an analogy of two newspapers reporting+} the [-slightest-]
+[-surprised" (1991, pp. 399–400). Graham-]{+same match: behaviour+} and [-Horgan's "Mary Mary", who also accepts a materialist theory-]{+qualia are+}
+{+separate effects+} of [-phenomenal content, is-]{+a common cause in+} the [-clearest case. Graham-]{+brain (1982, pp. 133–135). He does not discuss how Mary knows her+}
+{+*own* qualia after release. On his model, everything she later judges+} and [-Horgan argue that on that theory-]{+says about red is caused by the+}
+{+brain state+} she [-"has-]{+shares with Swamp Mary, and the quality itself does+} no [-good-]
+[-reason-]{+work in producing it. What then grounds+}
 {+her judgement about the quality? That is the familiar charge of self-stultification against epiphenomenalism,+}
-{+in a form specific to Mary, and it gives the defender a definite question to answer.+}
+{+in a form specific+} to [-expect surprise", yet "surely" she will be surprised-]{+Mary,+} and [-delighted (2000, pp. 71–72). Dennett-]
+[-replies that she will neither expect surprise nor be surprised (2005, §2).-]
+
+[-The positions fill-]{+it gives the defender+} a [-small table.-]{+definite question to answer.+}
 
 {+## 12. What carries over+}
 
-{+| Result | For LLMary | What carrying it to Mary needs+} |
+| {+Result+} | [-not surprised-]{+For LLMary+} | [-surprised-]{+What carrying it to Mary needs+} |
 |---|---|---|
 | [-**does not expect surprise** | Dennett | Graham & Horgan |-]
 [-| **expects surprise** | | LLMary |-]
@@ -683,8 +852,9 @@ that[-Mary, examined closely through her-]
 
 ---
 
-@@ -426,54 +415,84 @@ computational sister, gives the anti-physicalist much less than she seemed to.
+## References
 
+{+- Benham, C. E. (1894). The artificial spectrum top. *Nature*, *51*. [Page numbers not yet checked.]+}
 - Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., … Amodei, D. (2020). Language
   models are few-shot learners. *Advances in Neural Information Processing Systems*, *33*, 1877–1901.
 [-([brown-2020](../web/sources/brown-2020.md))-]- Churchland, P. M. (1985). Reduction, qualia, and the direct introspection of brain states. *The Journal of
@@ -706,8 +876,13 @@ that[-Mary, examined closely through her-]
 [-([lewis-1988](../web/sources/lewis-1988.md))-]- Lindsey, J. (2025). *Emergent introspective awareness in large language models*. Transformer Circuits Thread.
 [-([lindsey-introspection-2025](../web/sources/lindsey-introspection-2025.md))-]{+- Raffman, D. (2005). Even zombies can be surprised: A reply to Graham and Horgan. *Philosophical Studies*,+}
 {+  *122*(2), 189–202. [Not yet checked against the paper.]+}
-- Rumbelow, J., & Watkins, M. (2023). *SolidGoldMagikarp (plus, prompt generation)*. LessWrong.
-[-  ([rumbelow-watkins-2023](../web/sources/rumbelow-watkins-2023.md))-]
+- Rumbelow, J., & Watkins, M. [-(2023).-]{+(2023, February 5).+} *SolidGoldMagikarp (plus, prompt generation)*. LessWrong.
+  [-([rumbelow-watkins-2023](../web/sources/rumbelow-watkins-2023.md))-]{+https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation+}
+{+- Soudry, D., Hoffer, E., Nacson, M. S., Gunasekar, S., & Srebro, N. (2018). The implicit bias of gradient+}
+{+  descent on separable data. *Journal of Machine Learning Research*, *19*(70), 1–57.+}
+{+- Zou, A., Wang, Z., Carlini, N., Nasr, M., Kolter, J. Z., & Fredrikson, M. (2023). *Universal and+}
+{+  transferable adversarial attacks on aligned language models* (arXiv:2307.15043). arXiv.+}
+{+  https://doi.org/10.48550/arXiv.2307.15043+}
 
 ---
 
@@ -760,7 +935,7 @@ that[-Mary, examined closely through her-]
   [-fact.-]
 [-4. **Unverified details.**-]{+an expected-loss bound, derived for the predictor's situation.+}
 {+- Producing a token is no longer equated with imagining (§6).+}
-{+-+} The [-Brown et al. page range (1877–1901) and-]{+self-chosen red patch objection is answered with the in-context version of+} the {+case (§8). The+}
+{+-+} The [-Brown et al. page range (1877–1901) and-]{+self-chosen red patch objection is answered with+} the {+in-context version of the case (§8). The+}
 {+  diagnostic+} claim [-that glitch tokens cluster-]
 [-   near-]{+is narrowed to+} the [-centre-]{+part+} of the [-embedding space (Rumbelow & Watkins 2023) were not checked against-]{+surprise that no description or cue removes.+}
 {+- The co-variation argument is restated with conditional knowledge (§8).+}
@@ -769,28 +944,37 @@ that[-Mary, examined closely through her-]
 {+  other people's experiences.+}
 {+- The snapshot test+} is [-cited without-]{+replaced by+} a [-page because only-]{+two-copy experiment (§10), and the prewiring claim no longer says+} a
   [-1999 reprint with non-matching pagination was-]
-[-   available. That reprint runs to about 29 pages, so-]{+prewired Mary learns nothing at all.+}
-{+- The Swamp Mary dilemma is weakened (§11): its first horn does not contradict+} the [-page range 29–57 used here-]{+knowledge argument, a+}
-{+  dualist can accept it, and history may matter to warrant. What survives+} is [-likely right-]{+stated,+} and [-the range 29–35-]{+its force against+}
+[-   available. That reprint runs-]{+prewired Mary learns nothing at all.+}
+{+- The Swamp Mary dilemma is weakened (§11): its first horn does not contradict the knowledge argument, a+}
+{+  dualist can accept it, and history may matter+} to [-about 29 pages, so-]{+warrant. What survives is stated, and its force against+}
 {+  Jackson's epiphenomenalism is kept.+}
 {+- §12 is now conditional, and node links are moved to an endnote.+}
 
 {+**Not adopted, or adopted only briefly.**+}
-{+- Gradient details: tied versus untied embeddings, and bounded logit gradients. These are reduced to one+}
-{+  sentence+} in {+§3, since they do not change+} the [-web's `source-lewis-1988` node-]{+argument.+}
+{+- Gradient details: bounded logit gradients are left out. Tied versus untied embeddings were first cut to+}
+{+  one sentence, then restored to §2 in+} the [-page range 29–57 used here-]{+third revision, where they ground the point that the first+}
+{+  encounter forces an update whatever LLMary knows. The point+} is [-likely right-]{+derived from one-hot encoding+} and the
+  [-range 29–35 in-]{+softmax gradient, with no empirical citation. §2 now also introduces two versions, untied LLMary (the+}
+{+  default) and tied LLMary, and treats tying as an inductive bias whose payoff at first light depends on+}
+{+  whether its assumption is true. The first encounter is named *first light*. Later sections still say+}
+{+  "first encounter" and could be switched to+} the [-web's `source-lewis-1988` node-]{+new name.+}
 {+- Separate tests for reinstating a representation are mentioned but not designed.+}
 
 {+**Open before publishing.**+}
 {+- Raffman (2005)+} is [-likely wrong;-]{+cited as the critique describes+} it {+and+} should be [-checked-]{+read+} and [-fixed.-]
-[-   Dennett 1991, pp. 399–400, is confirmed by Dennett's own citation of the passage-]{+checked. A copy+} in
-  [-*Sweet-]
-[-   Dreams*. All other quotations-]{+`external/` would let me do that.+}
-{+- The web nodes still state the stronger versions of three claims+} and [-page references were checked against copies in `external/`.-]
-[-5. **Attribution.** Ideas authored `mishka` in-]{+need updating to match:+} the
-  [-web (LLMary-]{+retention dilemma, the snapshot test,+} and[-everything built on it in §§2–10) are-]
-[-   presented in-] the [-first person as-]{+fact that+} the [-author's own; ideas from-]{+selection bound is an expectation.+}
-{+- The empirical claim about+} the [-literature are credited by name and-]
-[-   page. Dennett's Swamp Mary and RoboMary,-]{+structure of early colour vision still needs a source.+}
-{+- The Brown et al. page range+} and [-Graham-]{+the Rumbelow+} and [-Horgan's concession about predicted surprise,-]{+Watkins centroid claim+} are [-flagged-]{+unverified.+}
+[-   Dennett 1991, pp. 399–400, is confirmed by Dennett's own citation-]{+checked. A copy in+}
+{+  `external/` would let me do that.+}
+{+- The web nodes still state the stronger versions+} of {+three claims and need updating to match:+} the
+  [-passage in *Sweet-]
+[-   Dreams*. All other quotations-]{+retention dilemma, the snapshot test,+} and[-page references were checked against copies in `external/`.-]
+[-5. **Attribution.** Ideas authored `mishka` in-] the [-web (LLMary-]{+fact that the selection bound is an expectation.+}
+{+- The empirical claim about the structure of early colour vision still needs a source.+}
+{+- The Brown et al. page range is unverified. The Rumbelow+} and [-everything built on it in §§2–10)-]{+Watkins centroid claim and their prompt+}
+{+  generation method+} are [-presented in-]{+now checked against+} the [-first person as-]{+post.+}
+{+- Benham (1894): page numbers unchecked (one secondary source gives *Nature* 51, 113–114). Whether+}
+{+  Benham's top has already been raised against+} the [-author's own; ideas from-]{+black-and-white room in+} the literature [-are credited by name and-]
+[-   page. Dennett's Swamp Mary and RoboMary, and Graham-]{+is unchecked.+}
+{+- ZenMary (§7) is new in this revision+} and [-Horgan's concession about predicted surprise,-]
+[-   are flagged-]{+has no web node yet.+}
 {+- The page range+} in {+`source-lewis-1988` (29–35) is probably wrong.+}
 {+- None of+} the [-text as-]{+LLMary arguments has yet been attacked in+} the [-precedents they are.-]{+web by a realist character.+}
