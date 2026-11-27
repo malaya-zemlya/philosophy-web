@@ -2433,6 +2433,7 @@
   - [claim-subject-can-be-wrong-about-own-qualia](claims/subject-can-be-wrong-about-own-qualia.md) --uses_concept-->
   - [concept-confabulation](concepts/confabulation.md) --uses_concept-->
   - [concept-consciousness](concepts/consciousness.md) --uses_concept-->
+  - [concept-mark-of-the-mental](concepts/mark-of-the-mental.md) --uses_concept-->
   - [concept-unobservability-in-principle](concepts/unobservability-in-principle.md) --uses_concept-->
   - [question-acquaintance-datum-or-representation](questions/acquaintance-datum-or-representation.md) --uses_concept-->
   - [question-ai-introspection](questions/ai-introspection.md) --uses_concept-->
@@ -2681,6 +2682,7 @@
   - [claim-minds-have-semantics](claims/minds-have-semantics.md) --uses_concept-->
   - [claim-no-constitutive-fact-of-meaning](claims/no-constitutive-fact-of-meaning.md) --uses_concept-->
   - [concept-intrinsic-derived-intentionality](concepts/intrinsic-derived-intentionality.md) --uses_concept-->
+  - [concept-mark-of-the-mental](concepts/mark-of-the-mental.md) --uses_concept-->
   - [concept-philosophy-of-mind](concepts/philosophy-of-mind.md) --uses_concept-->
   - [position-intentional-stance](positions/intentional-stance.md) --uses_concept-->
   - [position-teleosemantics](positions/teleosemantics.md) --uses_concept-->
@@ -2850,6 +2852,9 @@
   - [claim-mind-handles-unbounded-inputs](claims/mind-handles-unbounded-inputs.md) --uses_concept-->
   - [claim-realisable-behaviour-matcher-is-organised](claims/realisable-behaviour-matcher-is-organised.md) --uses_concept-->
 
+## [concept-mark-of-the-mental](concepts/mark-of-the-mental.md)
+- type: concept | author: generic | status: contested
+
 ## [concept-materialism-types](concepts/materialism-types.md)
 - type: concept | author: chalmers | status: asserted
 - backlinks:
@@ -2986,6 +2991,7 @@
   - [claim-phenomenal-intensions-coincide](claims/phenomenal-intensions-coincide.md) --uses_concept-->
   - [concept-access-vs-phenomenal-consciousness](concepts/access-vs-phenomenal-consciousness.md) --uses_concept-->
   - [concept-extended-consciousness](concepts/extended-consciousness.md) --uses_concept-->
+  - [concept-mark-of-the-mental](concepts/mark-of-the-mental.md) --uses_concept-->
   - [concept-minimal-theory-of-consciousness](concepts/minimal-theory-of-consciousness.md) --uses_concept-->
   - [position-intermediate-level-theory](positions/intermediate-level-theory.md) --uses_concept-->
   - [question-epistemic-access-to-experience](questions/epistemic-access-to-experience.md) --uses_concept-->
@@ -3018,6 +3024,7 @@
   - [claim-current-physics-incomplete](claims/current-physics-incomplete.md) --uses_concept-->
   - [claim-future-physics-unspecifiable](claims/future-physics-unspecifiable.md) --uses_concept-->
   - [claim-physicalism-false-or-empty](claims/physicalism-false-or-empty.md) --uses_concept-->
+  - [concept-mark-of-the-mental](concepts/mark-of-the-mental.md) --uses_concept-->
   - [concept-metaphysical-gap](concepts/metaphysical-gap.md) --uses_concept-->
   - [concept-supervenience](concepts/supervenience.md) --uses_concept-->
 
@@ -3576,6 +3583,9 @@
 ## [source-armstrong-1968](sources/armstrong-1968.md)
 - type: source | author: mishka | status: asserted
 
+## [source-armstrong-2019](sources/armstrong-2019.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-aru-2012](sources/aru-2012.md)
 - type: source | author: mishka | status: asserted
 
@@ -3750,6 +3760,9 @@
 ## [source-chen-2025-cot](sources/chen-2025-cot.md)
 - type: source | author: mishka | status: asserted
 
+## [source-chisholm-1957](sources/chisholm-1957.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-chisholm-1964](sources/chisholm-1964.md)
 - type: source | author: mishka | status: asserted
 
@@ -3808,6 +3821,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-corcoran-2006](sources/corcoran-2006.md)
+- type: source | author: mishka | status: asserted
+
+## [source-crane-1998](sources/crane-1998.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-crane-mellor-1990](sources/crane-mellor-1990.md)
@@ -3955,6 +3971,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-fodor-1990](sources/fodor-1990.md)
+- type: source | author: mishka | status: asserted
+
+## [source-forman-1990](sources/forman-1990.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-frankfurt-1969](sources/frankfurt-1969.md)
@@ -4335,6 +4354,9 @@
 ## [source-metzinger-2003](sources/metzinger-2003.md)
 - type: source | author: mishka | status: asserted
 
+## [source-metzinger-2020](sources/metzinger-2020.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-mikhailov-2024](sources/mikhailov-2024.md)
 - type: source | author: mishka | status: asserted
 
@@ -4509,6 +4531,9 @@
 ## [source-rorty-1970](sources/rorty-1970.md)
 - type: source | author: mishka | status: asserted
 
+## [source-rorty-1979](sources/rorty-1979.md)
+- type: source | author: mishka | status: asserted
+
 ## [source-rosenberg-1998](sources/rosenberg-1998.md)
 - type: source | author: mishka | status: asserted
 
@@ -4630,6 +4655,9 @@
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-inner-speech](sources/sep-inner-speech.md)
+- type: source | author: mishka | status: asserted
+
+## [source-sep-intentionality](sources/sep-intentionality.md)
 - type: source | author: mishka | status: asserted
 
 ## [source-sep-introspection](sources/sep-introspection.md)

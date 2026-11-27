@@ -5,6 +5,7 @@ kind: body
 title: Mind and body
 entries:
   - concept-mind-body-problem
+  - concept-mark-of-the-mental
   - position-dualism
   - position-substance-dualism
   - position-property-dualism
